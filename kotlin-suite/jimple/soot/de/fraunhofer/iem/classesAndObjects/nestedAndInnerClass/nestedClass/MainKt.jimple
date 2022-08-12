@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass $stack3;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass $stack2;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass: void <init>()>();
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass: void printAll()>();
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass: void printAll()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.MainKt: void main()>();
+
+        return;
+    }
+}

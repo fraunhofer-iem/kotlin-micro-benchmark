@@ -1,0 +1,72 @@
+public final class de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBoundKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair1(java.lang.Number, java.lang.Comparable)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair $stack2;
+        java.lang.Comparable second;
+        java.lang.String varReplacer1209, varReplacer1210;
+        java.lang.Number first;
+
+        nop;
+
+        first := @parameter0: java.lang.Number;
+
+        second := @parameter1: java.lang.Comparable;
+
+        varReplacer1209 = "first";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(first, varReplacer1209);
+
+        varReplacer1210 = "second";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(second, varReplacer1210);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>(first, second);
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair $stack5;
+        int varReplacer1211;
+        java.lang.Comparable $stack3;
+        java.lang.Number $stack4;
+        java.lang.Integer $stack2;
+
+        nop;
+
+        varReplacer1211 = 2646;
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1211);
+
+        $stack4 = (java.lang.Number) $stack2;
+
+        $stack3 = (java.lang.Comparable) "Ranjith";
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBoundKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair1(java.lang.Number,java.lang.Comparable)>($stack4, $stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBoundKt: void main()>();
+
+        return;
+    }
+}

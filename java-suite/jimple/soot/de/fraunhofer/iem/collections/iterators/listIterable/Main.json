@@ -1,0 +1,191 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.listIterable.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void <init>()>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void appendSuffix(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printBackward(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void addMarker(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void removeMarker(java.util.List)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.collections.iterators.listIterable.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack2": "java.util.ArrayList",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.util.ArrayList: void <init>()>",
+                "<java.util.List: boolean add(java.lang.Object)>",
+                "<java.util.List: boolean add(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void appendSuffix(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printBackward(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void addMarker(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void removeMarker(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void appendSuffix(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.ListIterator",
+                "$stack4": "boolean",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.util.ListIterator: void set(java.lang.Object)>"
+            ]
+        },
+        "void printForward(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.ListIterator",
+                "$stack4": "boolean",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "int",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.util.ListIterator: int nextIndex()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void printBackward(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.ListIterator",
+                "$stack4": "boolean",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "int",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.util.ListIterator: boolean hasPrevious()>",
+                "<java.util.ListIterator: java.lang.Object previous()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.util.ListIterator: int previousIndex()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void addMarker(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.ListIterator",
+                "$stack4": "boolean",
+                "$stack5": "java.lang.Object",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.util.ListIterator: void add(java.lang.Object)>"
+            ]
+        },
+        "void removeMarker(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.ListIterator",
+                "$stack4": "boolean",
+                "$stack5": "java.lang.Object",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.util.ListIterator: void remove()>"
+            ]
+        }
+    }
+}

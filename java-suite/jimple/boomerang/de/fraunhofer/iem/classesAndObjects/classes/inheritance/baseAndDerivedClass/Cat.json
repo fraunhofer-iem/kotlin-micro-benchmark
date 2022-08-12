@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat: void makeNoise()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat",
+                "DNA": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void <init>(java.lang.String)>"]
+        },
+        "void makeNoise()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat",
+                "varReplacer301": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+public final class de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass extends java.lang.Object
+{
+    private final int outerFlag;
+
+    public void <init>()
+    {
+        int varReplacer802;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer802 = 110;
+
+        this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass: int outerFlag> = varReplacer802;
+
+        return;
+    }
+
+    public final void printAll()
+    {
+        int l1;
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass: int outerFlag>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(l1);
+
+        return;
+    }
+}

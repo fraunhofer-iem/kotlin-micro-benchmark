@@ -1,0 +1,43 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Main$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Main$1: void <clinit>()>"],
+    "methodsInformation": {"void <clinit>()": {
+        "localVariables": {
+            "varReplacer369": "int",
+            "varReplacer370": "int",
+            "varReplacer371": "int",
+            "varReplacer372": "int"
+        },
+        "stackVariables": {
+            "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[]",
+            "$stack2": "int",
+            "$stack3": "int[]",
+            "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack5": "int[]",
+            "$stack6": "int",
+            "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack8": "int[]",
+            "$stack9": "int",
+            "$stack10": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack11": "int[]",
+            "$stack12": "int",
+            "$stack13": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack14": "int[]",
+            "$stack15": "int",
+            "$stack16": "java.lang.NoSuchFieldError",
+            "$stack17": "java.lang.NoSuchFieldError",
+            "$stack19": "java.lang.NoSuchFieldError",
+            "$stack21": "java.lang.NoSuchFieldError"
+        },
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] values()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>"
+        ]
+    }}
+}

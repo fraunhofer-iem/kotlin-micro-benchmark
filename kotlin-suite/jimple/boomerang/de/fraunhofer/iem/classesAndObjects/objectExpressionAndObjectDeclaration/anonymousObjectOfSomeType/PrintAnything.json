@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything: void print(java.lang.String)>"],
+    "methodsInformation": {"void print(java.lang.String)": {
+        "localVariables": {},
+        "stackVariables": {},
+        "invokeExpressions": []
+    }}
+}

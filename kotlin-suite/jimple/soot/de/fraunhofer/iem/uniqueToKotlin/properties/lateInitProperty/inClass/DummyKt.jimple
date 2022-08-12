@@ -1,0 +1,27 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.DummyKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: void <init>()>();
+
+        virtualinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: void main()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.DummyKt: void main()>();
+
+        return;
+    }
+}

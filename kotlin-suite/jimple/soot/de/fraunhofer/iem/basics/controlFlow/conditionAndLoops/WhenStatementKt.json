@@ -1,0 +1,203 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void simpleWhenStatement(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String simpleWhenExpression(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCommonBehaviour(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithArbitraryExprAndAsIfElseIfExpr(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithInAndIsOperator(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCaptureVariable(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void anotherExampleForPresentation(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.Integer",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void simpleWhenStatement(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String simpleWhenExpression(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCommonBehaviour(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithArbitraryExprAndAsIfElseIfExpr(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithInAndIsOperator(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCaptureVariable(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void anotherExampleForPresentation(java.lang.String[])>"
+            ]
+        },
+        "void simpleWhenStatement(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String simpleWhenExpression(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"]
+        },
+        "java.lang.String whenWithCommonBehaviour(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"]
+        },
+        "java.lang.String whenWithArbitraryExprAndAsIfElseIfExpr(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {
+                "l2": "java.lang.CharSequence",
+                "$stack4": "int",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "boolean",
+                "$stack17": "boolean",
+                "$stack13": "java.lang.String",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.CharSequence: int length()>",
+                "<kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>",
+                "<kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>",
+                "<kotlin.text.StringsKt: boolean startsWith$default(java.lang.String,java.lang.String,boolean,int,java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String whenWithInAndIsOperator(java.lang.Object)": {
+            "localVariables": {"ob": "java.lang.Object"},
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "kotlin.ranges.IntRange",
+                "$stack5": "java.lang.Iterable",
+                "$stack6": "boolean",
+                "$stack7": "boolean",
+                "$stack8": "kotlin.ranges.IntRange",
+                "$stack9": "java.lang.Iterable",
+                "$stack10": "boolean",
+                "$stack16": "java.lang.String",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.ranges.IntRange: void <init>(int,int)>",
+                "<kotlin.collections.CollectionsKt: boolean contains(java.lang.Iterable,java.lang.Object)>",
+                "<kotlin.ranges.IntRange: void <init>(int,int)>",
+                "<kotlin.collections.CollectionsKt: boolean contains(java.lang.Iterable,java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String whenWithCaptureVariable(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {
+                "$stack2": "java.lang.Integer",
+                "$stack3": "int",
+                "$stack5": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack14": "java.lang.Integer",
+                "$stack17": "java.lang.Integer",
+                "$stack20": "java.lang.Integer",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"
+            ]
+        },
+        "void anotherExampleForPresentation(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack4": "int",
+                "$stack5": "boolean",
+                "$stack6": "java.io.PrintStream",
+                "$stack8": "boolean",
+                "$stack9": "java.io.PrintStream",
+                "$stack13": "boolean",
+                "$stack14": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

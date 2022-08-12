@@ -1,0 +1,41 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: void <init>(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: void printAll()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass)>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass",
+                "this$0": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printAll()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: int access$100(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass)": {
+            "localVariables": {"x0": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        }
+    }
+}

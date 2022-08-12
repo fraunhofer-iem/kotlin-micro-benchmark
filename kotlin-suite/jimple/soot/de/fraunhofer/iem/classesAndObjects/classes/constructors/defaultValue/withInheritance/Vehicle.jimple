@@ -1,0 +1,88 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void printMyVehicleInformation(java.lang.String, int)
+    {
+        java.io.PrintStream $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle this;
+        int vehicleNumber;
+        java.lang.String vehicleName;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle;
+
+        vehicleName := @parameter0: java.lang.String;
+
+        vehicleNumber := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicleName, "vehicleName");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(vehicleName);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>(vehicleNumber);
+
+        return;
+    }
+
+    public static void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle, java.lang.String, int, int, java.lang.Object)
+    {
+        java.lang.UnsupportedOperationException $u0;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle l0;
+        int l3, $stack5, $stack6, l2, $i0;
+        java.lang.Object l4;
+        java.lang.String l1;
+
+        l0 := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        if l4 == null goto label1;
+
+        $u0 = new java.lang.UnsupportedOperationException;
+
+        specialinvoke $u0.<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>("Super calls with default arguments not supported in this target, function: printMyVehicleInformation");
+
+        throw $u0;
+
+     label1:
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label2;
+
+        l1 = "unknown";
+
+     label2:
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label3;
+
+        $i0 = (int) -1;
+
+        l2 = $i0;
+
+     label3:
+        virtualinvoke l0.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation(java.lang.String,int)>(l1, l2);
+
+        return;
+    }
+}

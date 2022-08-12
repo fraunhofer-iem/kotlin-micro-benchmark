@@ -1,0 +1,83 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function2
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(2);
+
+        return;
+    }
+
+    public final java.lang.String invoke(java.lang.String, int)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 this;
+        int i;
+        java.lang.StringBuilder $stack3, $stack4, $stack5, $stack6;
+        java.lang.String acc, $stack7;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1;
+
+        acc := @parameter0: java.lang.String;
+
+        i := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(acc, "acc");
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(acc);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack7;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object, java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 this;
+        int $stack5;
+        java.lang.Object p1, p2;
+        java.lang.String $stack4, $stack6;
+        java.lang.Number $stack3;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        p2 := @parameter1: java.lang.Object;
+
+        $stack4 = (java.lang.String) p1;
+
+        $stack3 = (java.lang.Number) p2;
+
+        $stack5 = virtualinvoke $stack3.<java.lang.Number: int intValue()>();
+
+        $stack6 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1: java.lang.String invoke(java.lang.String,int)>($stack4, $stack5);
+
+        return $stack6;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

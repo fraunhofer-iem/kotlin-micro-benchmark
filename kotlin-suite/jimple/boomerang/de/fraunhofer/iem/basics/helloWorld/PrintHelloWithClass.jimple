@@ -1,0 +1,35 @@
+public final class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void printHello()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass this;
+        java.lang.String varReplacer417;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer417 = "Hello World with creating class";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer417);
+
+        return;
+    }
+}

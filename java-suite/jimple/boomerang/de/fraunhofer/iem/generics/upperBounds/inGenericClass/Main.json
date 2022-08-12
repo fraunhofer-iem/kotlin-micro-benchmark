@@ -1,0 +1,41 @@
+{
+    "className": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.Main: void <init>()>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer502": "java.lang.String",
+                "varReplacer503": "int"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair",
+                "$stack3": "java.lang.Integer",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.Number",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.CharSequence",
+                "$stack8": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: void <init>(java.lang.Number,java.lang.CharSequence)>",
+                "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number getFirst()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence getSecond()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

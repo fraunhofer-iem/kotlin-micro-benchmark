@@ -1,0 +1,213 @@
+public class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn this;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack1, $stack3, $stack5;
+        int $stack4;
+        java.lang.String[] args;
+        java.lang.String $stack2;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn: void returnNothing(int)>(0);
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn: java.lang.String returnObject(int)>(1);
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>($stack2);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn: int returnValue(int)>(1251);
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>($stack4);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn: void returnInLambda()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>("Ending Main");
+
+        return;
+    }
+
+    private static void returnNothing(int)
+    {
+        int num;
+        java.io.PrintStream $stack1, $stack2;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        return;
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        return;
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Greater than 1000");
+
+     label4:
+        return;
+    }
+
+    private static int returnValue(int)
+    {
+        java.io.PrintStream $stack1, $stack3;
+        int num, $i0, $i1;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        $i1 = (int) -100;
+
+        return $i1;
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Greater than 1000");
+
+     label4:
+        return 404;
+    }
+
+    private static java.lang.String returnObject(int)
+    {
+        int num;
+        java.io.PrintStream $stack1, $stack3;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        return "-1";
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        return "-100";
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Greater than 1000");
+
+     label4:
+        return "404";
+    }
+
+    private static void returnInLambda()
+    {
+        java.util.function.Consumer $stack10;
+        java.lang.Integer $stack2, $stack4, $stack6, $stack8;
+        java.util.ArrayList $stack1;
+
+        $stack1 = new java.util.ArrayList;
+
+        specialinvoke $stack1.<java.util.ArrayList: void <init>()>();
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack1.<java.util.ArrayList: boolean add(java.lang.Object)>($stack2);
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack1.<java.util.ArrayList: boolean add(java.lang.Object)>($stack4);
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack1.<java.util.ArrayList: boolean add(java.lang.Object)>($stack6);
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack1.<java.util.ArrayList: boolean add(java.lang.Object)>($stack8);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaReturn$lambda_returnInLambda_0__1: java.util.function.Consumer bootstrap$()>();
+
+        virtualinvoke $stack1.<java.util.ArrayList: void forEach(java.util.function.Consumer)>($stack10);
+
+        return;
+    }
+
+    public static void lambda$returnInLambda$0(java.lang.Integer)
+    {
+        java.io.PrintStream $stack1, $stack4;
+        int $stack2, $stack3;
+        java.lang.Integer n;
+
+        n := @parameter0: java.lang.Integer;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.Object)>(n);
+
+        $stack2 = virtualinvoke n.<java.lang.Integer: int intValue()>();
+
+        $stack3 = $stack2 % 2;
+
+        if $stack3 != 0 goto label1;
+
+        return;
+
+     label1:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>("Welcome to Lambda");
+
+        return;
+    }
+}

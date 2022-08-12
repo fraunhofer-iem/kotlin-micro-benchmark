@@ -1,0 +1,38 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String getGreet()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String getName()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String toString()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getGreet()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"]
+        }
+    }
+}

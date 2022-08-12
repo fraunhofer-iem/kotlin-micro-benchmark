@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "this": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+                "varReplacer418": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "void printHello()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+                "varReplacer419": "java.lang.String",
+                "varReplacer420": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

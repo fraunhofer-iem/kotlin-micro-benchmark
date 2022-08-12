@@ -1,0 +1,68 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void dummy(boolean,boolean,boolean,boolean)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer448": "java.lang.String",
+                "varReplacer449": "java.lang.String",
+                "varReplacer450": "java.lang.String",
+                "varReplacer451": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack6": "boolean",
+                "$stack7": "boolean",
+                "$stack8": "boolean",
+                "$stack9": "boolean",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack24": "boolean",
+                "$stack10": "java.io.PrintStream",
+                "$stack20": "boolean",
+                "$stack13": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void dummy(boolean,boolean,boolean,boolean)>"
+            ]
+        },
+        "void dummy(boolean,boolean,boolean,boolean)": {
+            "localVariables": {
+                "temp1": "boolean",
+                "temp2": "boolean",
+                "temp3": "boolean",
+                "temp4": "boolean"
+            },
+            "stackVariables": {
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "l4": "boolean",
+                "$stack9": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void main()>"]
+        }
+    }
+}

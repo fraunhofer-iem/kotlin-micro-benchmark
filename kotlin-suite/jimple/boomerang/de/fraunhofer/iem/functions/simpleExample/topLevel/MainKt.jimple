@@ -1,0 +1,141 @@
+public final class de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt extends java.lang.Object
+{
+
+    public static final int add(int, int)
+    {
+        int num1, num2, $stack2;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack2 = num1 + num2;
+
+        return $stack2;
+    }
+
+    private static final float add10(int, int)
+    {
+        int num1, num2;
+        float $stack2, $stack3, $stack4, $stack5, $stack6;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack3 = (float) num1;
+
+        $stack2 = (float) num2;
+
+        $stack5 = $stack3 + $stack2;
+
+        $stack4 = (float) 10;
+
+        $stack6 = $stack5 + $stack4;
+
+        return $stack6;
+    }
+
+    public static final int sub(int, int)
+    {
+        int num1, num2, $stack2;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack2 = num1 - num2;
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        int $stack2, $stack6, $stack10, $stack12, varReplacer1164, varReplacer1165, varReplacer1166, varReplacer1167, varReplacer1168, varReplacer1169, varReplacer1170, varReplacer1171, varReplacer1172, varReplacer1173, varReplacer1174, varReplacer1175;
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack9, $stack11, $stack13;
+        float $stack4, $stack8;
+
+        nop;
+
+        varReplacer1174 = 10;
+
+        varReplacer1175 = 20;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int add(int,int)>(varReplacer1174, varReplacer1175);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>($stack2);
+
+        varReplacer1164 = 10;
+
+        varReplacer1165 = 20;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: float add10(int,int)>(varReplacer1164, varReplacer1165);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(float)>($stack4);
+
+        varReplacer1170 = 1123;
+
+        varReplacer1171 = 223;
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int add(int,int)>(varReplacer1170, varReplacer1171);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        varReplacer1172 = 1123;
+
+        varReplacer1173 = 223;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: float add10(int,int)>(varReplacer1172, varReplacer1173);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(float)>($stack8);
+
+        varReplacer1166 = 10;
+
+        varReplacer1167 = 20;
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int sub(int,int)>(varReplacer1166, varReplacer1167);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        varReplacer1168 = 1123;
+
+        varReplacer1169 = 223;
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int sub(int,int)>(varReplacer1168, varReplacer1169);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: void main()>();
+
+        return;
+    }
+}

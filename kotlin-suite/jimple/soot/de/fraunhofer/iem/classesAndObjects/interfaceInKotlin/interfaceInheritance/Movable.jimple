@@ -1,0 +1,5 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Movable extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Runnable, de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Walkable
+{
+
+    public abstract void jog();
+}

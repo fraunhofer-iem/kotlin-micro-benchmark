@@ -1,0 +1,237 @@
+public final class de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee extends java.lang.Object
+{
+    private final java.lang.String fullName;
+    private final int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        int age;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+        java.lang.String fullName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, "fullName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component1()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int component2()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy(java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee $stack3, this;
+        int age;
+        java.lang.String fullName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, "fullName");
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>(fullName, age);
+
+        return $stack3;
+    }
+
+    public static de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy$default(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee, java.lang.String, int, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee l0, $stack7;
+        int l3, $stack5, $stack6, l2;
+        java.lang.Object l4;
+        java.lang.String l1;
+
+        l0 := @parameter0: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label1;
+
+        l1 = l0.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+     label1:
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label2;
+
+        l2 = l0.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+     label2:
+        $stack7 = virtualinvoke l0.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy(java.lang.String,int)>(l1, l2);
+
+        return $stack7;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+        int $stack6;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack7, $stack8;
+        java.lang.String $stack3, $stack9;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Employee(fullName=");
+
+        $stack3 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", age=");
+
+        $stack6 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(41);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack9;
+    }
+
+    public int hashCode()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this;
+        int $stack3, $stack4, $stack5, $stack6, result;
+        java.lang.String $stack2;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack2 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int hashCode()>();
+
+        $stack5 = $stack3 * 31;
+
+        $stack4 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        $stack6 = staticinvoke <java.lang.Integer: int hashCode(int)>($stack4);
+
+        result = $stack5 + $stack6;
+
+        return result;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee this, l2;
+        int $stack7, $stack8;
+        java.lang.Object other;
+        java.lang.String $stack4, $stack5;
+        boolean $stack3, $stack6;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        return 1;
+
+     label1:
+        $stack3 = other instanceof de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        if $stack3 != 0 goto label2;
+
+        return 0;
+
+     label2:
+        l2 = (de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee) other;
+
+        $stack5 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        $stack4 = l2.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String fullName>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        return 0;
+
+     label3:
+        $stack8 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        $stack7 = l2.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int age>;
+
+        if $stack8 == $stack7 goto label4;
+
+        return 0;
+
+     label4:
+        return 1;
+    }
+}

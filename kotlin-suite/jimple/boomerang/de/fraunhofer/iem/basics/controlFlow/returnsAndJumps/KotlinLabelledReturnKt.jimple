@@ -1,0 +1,764 @@
+public final class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt extends java.lang.Object
+{
+
+    private static final void returnInLambda()
+    {
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25, varReplacer172, varReplacer173, varReplacer174, varReplacer176;
+        java.lang.String varReplacer171, varReplacer175;
+        java.lang.Number $stack22;
+        boolean $stack19;
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Object $stack21;
+
+        nop;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        varReplacer172 = 5;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer172);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        varReplacer173 = 9;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer173);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer176 = 8;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer176);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer174 = 1;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer174);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        nop;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        nop;
+
+        return;
+
+     label2:
+        nop;
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer175 = "Welcome to Lambda";
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer175);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer171 = "End of function";
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer171);
+
+        return;
+    }
+
+    private static final void returnInLambdaWithLabel()
+    {
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25, varReplacer177, varReplacer178, varReplacer181, varReplacer182;
+        java.lang.String varReplacer179, varReplacer180;
+        java.lang.Number $stack22;
+        boolean $stack19;
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Object $stack21;
+
+        nop;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        varReplacer178 = 5;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer178);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        varReplacer177 = 9;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer177);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer181 = 8;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer181);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer182 = 1;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer182);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        nop;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        nop;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer179 = "Welcome to Lambda";
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer179);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer180 = "End of function";
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer180);
+
+        return;
+    }
+
+    private static final void returnInLambdaWithImplicitLabel()
+    {
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25, varReplacer183, varReplacer184, varReplacer186, varReplacer187;
+        java.lang.String varReplacer185, varReplacer188;
+        java.lang.Number $stack22;
+        boolean $stack19;
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Object $stack21;
+
+        nop;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        varReplacer184 = 5;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer184);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        varReplacer186 = 9;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer186);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer187 = 8;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer187);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer183 = 1;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer183);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        nop;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        nop;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer185 = "Welcome to Lambda";
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer185);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer188 = "End of function";
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer188);
+
+        return;
+    }
+
+    private static final void returnInLambdaWithAnonymousFunction()
+    {
+        java.lang.Integer $stack9, $stack11, $stack13, $stack15;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack8;
+        int $stack22, $stack24, varReplacer189, varReplacer190, varReplacer192, varReplacer194;
+        java.lang.String varReplacer191, varReplacer193;
+        java.lang.Number $stack21;
+        boolean $stack18;
+        java.io.PrintStream $stack19, $stack23, $stack25;
+        java.util.Iterator $stack17;
+        java.lang.Object $stack20;
+
+        nop;
+
+        $stack8 = new java.util.ArrayList;
+
+        specialinvoke $stack8.<java.util.ArrayList: void <init>()>();
+
+        varReplacer192 = 5;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer192);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack9);
+
+        varReplacer189 = 9;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer189);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack11);
+
+        varReplacer190 = 8;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer190);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack13);
+
+        varReplacer194 = 1;
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer194);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack15);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack8;
+
+        $stack17 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack18 = interfaceinvoke $stack17.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack18 == 0 goto label3;
+
+        nop;
+
+        $stack20 = interfaceinvoke $stack17.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack21 = (java.lang.Number) $stack20;
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: int intValue()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(int)>($stack22);
+
+        $stack24 = $stack22 % 2;
+
+        if $stack24 != 0 goto label2;
+
+        nop;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer191 = "Welcome to Lambda";
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer191);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer193 = "End of function";
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer193);
+
+        return;
+    }
+
+    private static final void returnInLambdaWithBreakBehaviour()
+    {
+        java.lang.Integer $stack12, $stack14, $stack16, $stack18;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack11;
+        int $stack26, varReplacer195, varReplacer196, varReplacer199, varReplacer201;
+        java.lang.String varReplacer197, varReplacer198, varReplacer200;
+        java.lang.Number $stack25;
+        boolean $stack21;
+        java.io.PrintStream $stack22, $stack23, $stack27, $stack28;
+        java.util.Iterator $stack20;
+        java.lang.Object $stack24;
+
+        nop;
+
+        $stack11 = new java.util.ArrayList;
+
+        specialinvoke $stack11.<java.util.ArrayList: void <init>()>();
+
+        varReplacer196 = 5;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer196);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer201 = 9;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer201);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer195 = 8;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer195);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        varReplacer199 = 1;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer199);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack18);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack11;
+
+        $stack20 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack21 = interfaceinvoke $stack20.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack21 == 0 goto label3;
+
+        nop;
+
+        $stack24 = interfaceinvoke $stack20.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack25 = (java.lang.Number) $stack24;
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Number: int intValue()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(int)>($stack26);
+
+        if $stack26 != 5 goto label2;
+
+        nop;
+
+        goto label4;
+
+     label2:
+        nop;
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer200 = "Welcome to Lambda";
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer200);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer197 = "End of run loop@";
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer197);
+
+     label4:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer198 = "End of function";
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer198);
+
+        return;
+    }
+
+    private static final void returnInLambdaWithMultipleReturn()
+    {
+        java.lang.Integer $stack12, $stack14, $stack16, $stack18;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack11;
+        int $stack26, varReplacer202, varReplacer206, varReplacer207, varReplacer208;
+        java.lang.String varReplacer203, varReplacer204, varReplacer205;
+        java.lang.Number $stack25;
+        boolean $stack21;
+        java.io.PrintStream $stack22, $stack23, $stack27, $stack28;
+        java.util.Iterator $stack20;
+        java.lang.Object $stack24;
+
+        nop;
+
+        $stack11 = new java.util.ArrayList;
+
+        specialinvoke $stack11.<java.util.ArrayList: void <init>()>();
+
+        varReplacer206 = 5;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer206);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer208 = 9;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer208);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer202 = 8;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer202);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        varReplacer207 = 1;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer207);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack18);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack11;
+
+        $stack20 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack21 = interfaceinvoke $stack20.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack21 == 0 goto label5;
+
+        nop;
+
+        $stack24 = interfaceinvoke $stack20.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack25 = (java.lang.Number) $stack24;
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Number: int intValue()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(int)>($stack26);
+
+        if $stack26 != 5 goto label2;
+
+        nop;
+
+        goto label6;
+
+     label2:
+        nop;
+
+        if $stack26 != 1 goto label3;
+
+        nop;
+
+        goto label1;
+
+     label3:
+        nop;
+
+        if $stack26 != 2 goto label4;
+
+        nop;
+
+        return;
+
+     label4:
+        nop;
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer204 = "Welcome to Lambda";
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer204);
+
+        goto label1;
+
+     label5:
+        nop;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer203 = "End of run loop@";
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer203);
+
+     label6:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer205 = "End of function";
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer205);
+
+        return;
+    }
+
+    private static final void returnWithValueInLambda()
+    {
+        java.lang.Integer $stack13, $stack15, $stack17, $stack19, $stack25;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $u0;
+        byte $stack34;
+        int $stack30, $i0, varReplacer209, varReplacer212, varReplacer213, varReplacer214;
+        java.lang.String $stack26, varReplacer210, varReplacer211, varReplacer215;
+        java.lang.Number $stack29;
+        boolean $stack22;
+        java.io.PrintStream $stack23, $stack27, $stack31, $stack32;
+        java.util.Iterator $stack21;
+        java.lang.Object $stack28;
+
+        nop;
+
+        $u0 = new java.util.ArrayList;
+
+        specialinvoke $u0.<java.util.ArrayList: void <init>()>();
+
+        varReplacer212 = 5;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer212);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack13);
+
+        varReplacer214 = 9;
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer214);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack15);
+
+        varReplacer209 = 8;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer209);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack17);
+
+        varReplacer213 = 1;
+
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer213);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack19);
+
+        $this$forEach$iv = (java.lang.Iterable) $u0;
+
+        $stack21 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack22 = interfaceinvoke $stack21.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack22 == 0 goto label5;
+
+        nop;
+
+        $stack28 = interfaceinvoke $stack21.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack29 = (java.lang.Number) $stack28;
+
+        $stack30 = virtualinvoke $stack29.<java.lang.Number: int intValue()>();
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(int)>($stack30);
+
+        if $stack30 != 5 goto label2;
+
+        nop;
+
+        $stack34 = -1;
+
+        goto label6;
+
+     label2:
+        nop;
+
+        if $stack30 != 1 goto label3;
+
+        nop;
+
+        goto label1;
+
+     label3:
+        nop;
+
+        if $stack30 != 2 goto label4;
+
+        nop;
+
+        return;
+
+     label4:
+        nop;
+
+        $stack32 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer211 = "Welcome to Lambda";
+
+        virtualinvoke $stack32.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer211);
+
+        goto label1;
+
+     label5:
+        nop;
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer215 = "End of run loop@";
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer215);
+
+        $stack34 = -12;
+
+     label6:
+        $i0 = (int) $stack34;
+
+        $stack25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0);
+
+        varReplacer210 = "End of function res = ";
+
+        $stack26 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer210, $stack25);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        nop;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambda()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithLabel()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithImplicitLabel()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithBreakBehaviour()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithAnonymousFunction()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithMultipleReturn()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnWithValueInLambda()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void main()>();
+
+        return;
+    }
+}

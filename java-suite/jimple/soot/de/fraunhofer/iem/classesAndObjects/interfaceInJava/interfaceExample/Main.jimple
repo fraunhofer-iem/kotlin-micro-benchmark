@@ -1,0 +1,76 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Main this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car $stack2;
+        int $stack6;
+        java.lang.StringBuilder $stack3, $stack5, $stack7, $stack8;
+        java.lang.String $stack9;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: void <init>()>();
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void start()>();
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(1);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(1);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(2);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(15);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(3);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(65);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(4);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(110);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(5);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(245);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void changeGear(int)>(6);
+
+        interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: void accelerate(int)>(330);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Current speed = ");
+
+        $stack6 = interfaceinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle: int getCurrentSpeed()>();
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" kmph");
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        return;
+    }
+}

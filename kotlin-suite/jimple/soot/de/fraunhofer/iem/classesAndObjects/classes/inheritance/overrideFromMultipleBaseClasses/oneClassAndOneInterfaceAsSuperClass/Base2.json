@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2: void print1()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2: void print2()>"
+    ],
+    "methodsInformation": {
+        "void print1()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void print2()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

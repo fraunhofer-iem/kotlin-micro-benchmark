@@ -1,0 +1,48 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2 extends kotlin.jvm.internal.FunctionReferenceImpl implements kotlin.jvm.functions.Function0
+{
+
+    void <init>(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person <this>;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2;
+
+        <this> := @parameter0: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person;
+
+        specialinvoke this.<kotlin.jvm.internal.FunctionReferenceImpl: void <init>(int,java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int)>(0, <this>, class "Lde/fraunhofer/iem/uniqueToKotlin/highOrderFunctions/callableReference/Person;", "skate", "skate()V", 0);
+
+        return;
+    }
+
+    public final void invoke()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2: java.lang.Object receiver>;
+
+        $stack2 = (de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person) $stack1;
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person: void skate()>();
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke()
+    {
+        kotlin.Unit $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2: void invoke()>();
+
+        $stack1 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack1;
+    }
+}

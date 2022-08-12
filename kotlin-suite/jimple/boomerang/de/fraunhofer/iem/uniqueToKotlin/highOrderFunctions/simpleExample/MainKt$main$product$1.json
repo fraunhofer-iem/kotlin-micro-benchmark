@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1",
+    "superClass": "kotlin.jvm.internal.FunctionReferenceImpl",
+    "implementedInterface": ["kotlin.jvm.functions.Function2"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: int invoke(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1",
+                "varReplacer2565": "int",
+                "varReplacer2566": "java.lang.String",
+                "varReplacer2567": "java.lang.String",
+                "varReplacer2568": "int"
+            },
+            "stackVariables": {"$stack1": "java.lang.Class"},
+            "invokeExpressions": ["<kotlin.jvm.internal.FunctionReferenceImpl: void <init>(int,java.lang.Class,java.lang.String,java.lang.String,int)>"]
+        },
+        "int invoke(int,int)": {
+            "localVariables": {
+                "p0": "int",
+                "p1": "int",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1"
+            },
+            "stackVariables": {"$stack3": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object invoke(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1",
+                "p1": "java.lang.Object",
+                "p2": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.Number",
+                "$stack4": "int",
+                "$stack5": "java.lang.Number",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.Number: int intValue()>",
+                "<java.lang.Number: int intValue()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: int invoke(int,int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+            ]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: void <init>()>"]
+        }
+    }
+}

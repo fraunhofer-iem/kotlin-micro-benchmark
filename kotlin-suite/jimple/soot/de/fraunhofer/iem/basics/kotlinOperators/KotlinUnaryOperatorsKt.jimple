@@ -1,0 +1,97 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int $stack4, l2, num, num#13, $i0, $i1;
+        boolean $stack5, $stack14;
+        java.io.PrintStream $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, $stack13;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>("int");
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>("bool");
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack4);
+
+        l2 = neg $stack4;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>(l2);
+
+        num = $stack4 + 1;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>(num);
+
+        $i0 = (int) -1;
+
+        num = num + $i0;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>(num);
+
+        num#13 = num + 1;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>(num);
+
+        $i1 = (int) -1;
+
+        num = num#13 + $i1;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>(num#13);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(int)>(num);
+
+        if $stack5 != 0 goto label1;
+
+        $stack14 = 1;
+
+        goto label2;
+
+     label1:
+        $stack14 = 0;
+
+     label2:
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(boolean)>($stack14);
+
+        return;
+    }
+
+    public static final boolean getBool(java.lang.String)
+    {
+        java.lang.String flag;
+        boolean $stack1;
+
+        flag := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(flag, "flag");
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(flag, "bool");
+
+        return $stack1;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: void main()>();
+
+        return;
+    }
+}

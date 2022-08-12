@@ -1,0 +1,49 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls extends java.lang.Object
+{
+
+    public static void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B this;
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer793, varReplacer794;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B;
+
+        varReplacer794 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer794);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer793 = "B --> foo";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer793);
+
+        return;
+    }
+
+    public static void bar(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B this;
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer795, varReplacer796;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B;
+
+        varReplacer795 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer795);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer796 = "B --> bar";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer796);
+
+        return;
+    }
+}

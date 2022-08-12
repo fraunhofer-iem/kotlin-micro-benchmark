@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: void setAge(int)>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: void sayHello()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void sayHello()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

@@ -1,0 +1,33 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClassMain extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClassMain this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClassMain;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass $stack2;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        return;
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String getTopLevelInternal()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void printTopLevelInternal()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getTopLevelInternal()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void printTopLevelInternal()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l0": "java.lang.String",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer918": "java.lang.String",
+                "varReplacer919": "java.lang.String",
+                "varReplacer920": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void <init>(java.lang.String,java.lang.String,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal1()>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal3$kotlin_examples()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void main()>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {"varReplacer921": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

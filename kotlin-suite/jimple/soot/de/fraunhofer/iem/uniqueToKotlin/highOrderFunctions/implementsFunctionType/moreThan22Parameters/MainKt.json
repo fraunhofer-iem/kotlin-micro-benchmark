@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"namePrinter": "kotlin.jvm.functions.FunctionN"},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream",
+                "l1": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter: void <init>()>",
+                "<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main()>"]
+        }
+    }
+}

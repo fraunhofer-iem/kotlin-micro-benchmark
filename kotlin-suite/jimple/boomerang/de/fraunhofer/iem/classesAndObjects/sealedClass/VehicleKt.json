@@ -1,0 +1,108 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void demonstrateWhenWithSealedClass(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)": {
+            "localVariables": {
+                "vehicle": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "varReplacer902": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void displayVehicleRegistrationNumber()>"
+            ]
+        },
+        "void demonstrateWhenWithSealedClass(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)": {
+            "localVariables": {
+                "vehicle": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "varReplacer903": "java.lang.String",
+                "varReplacer904": "java.lang.String",
+                "varReplacer905": "java.lang.String",
+                "varReplacer906": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "boolean",
+                "$stack5": "boolean",
+                "$stack6": "boolean",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "de.fraunhofer.iem.classesAndObjects.sealedClass.Truck",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "de.fraunhofer.iem.classesAndObjects.sealedClass.Car",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.lang.String",
+                "$stack21": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String getRegistrationNumber()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String getRegistrationNumber()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getRegistrationNumber()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer907": "java.lang.String",
+                "varReplacer908": "java.lang.String",
+                "varReplacer909": "java.lang.String",
+                "varReplacer910": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.sealedClass.Car",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "$stack9": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "$stack13": "de.fraunhofer.iem.classesAndObjects.sealedClass.Truck",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "$stack17": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "$stack18": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String getRegistrationNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getRegistrationNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String getRegistrationNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void demonstrateWhenWithSealedClass(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void main()>"]
+        }
+    }
+}

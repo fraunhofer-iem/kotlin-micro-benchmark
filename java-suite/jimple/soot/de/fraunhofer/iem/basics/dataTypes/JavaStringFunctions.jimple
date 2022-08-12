@@ -1,0 +1,86 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions this;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack3, $stack9, $stack11;
+        java.lang.String greet, $stack13, $stack15, greet_1, greet_2, greet_3, greet_4, greet_5, greet_6, greet_7;
+        java.io.PrintStream $stack2, $stack4, $stack6, $stack8, $stack10, $stack12, $stack14;
+        java.lang.CharSequence $stack7;
+        char $stack5;
+
+        args := @parameter0: java.lang.String[];
+
+        greet = "Hi Welcome!!!";
+
+        greet_7 = "Hi Welcome!!!";
+
+        greet_6 = "Hi Welcome!!!";
+
+        greet_5 = "Hi Welcome!!!";
+
+        greet_4 = "Hi Welcome!!!";
+
+        greet_3 = "Hi Welcome!!!";
+
+        greet_2 = "Hi Welcome!!!";
+
+        greet_1 = "Hi Welcome!!!";
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = virtualinvoke greet_7.<java.lang.String: int length()>();
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack5 = virtualinvoke greet_3.<java.lang.String: char charAt(int)>(0);
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(char)>($stack5);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = virtualinvoke greet_1.<java.lang.String: java.lang.CharSequence subSequence(int,int)>(2, 4);
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack9 = virtualinvoke greet_5.<java.lang.String: int compareTo(java.lang.String)>("How are you");
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack9);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack11 = virtualinvoke greet_4.<java.lang.String: int codePointAt(int)>(0);
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack11);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack13 = virtualinvoke greet_2.<java.lang.String: java.lang.String toUpperCase()>();
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>($stack13);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack15 = virtualinvoke greet_6.<java.lang.String: java.lang.String trim()>();
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.String)>($stack15);
+
+        return;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter: void print()>"],
+    "methodsInformation": {"void print()": {
+        "localVariables": {},
+        "stackVariables": {},
+        "invokeExpressions": []
+    }}
+}

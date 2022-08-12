@@ -1,0 +1,245 @@
+public final class de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.util.Iterator $stack4, $stack7, $stack8;
+        java.util.ListIterator $stack5, $stack6;
+        java.lang.String[] l1;
+        java.lang.Iterable $stack3, $stack9;
+        java.util.List $stack2;
+
+        l1 = newarray (java.lang.String)[2];
+
+        l1[0] = "Ranjith";
+
+        l1[1] = "K";
+
+        $stack2 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        $stack3 = (java.lang.Iterable) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterable(java.lang.Iterable)>($stack3);
+
+        $stack4 = interfaceinvoke $stack2.<java.util.List: java.util.Iterator iterator()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterator(java.util.Iterator)>($stack4);
+
+        $stack5 = interfaceinvoke $stack2.<java.util.List: java.util.ListIterator listIterator()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeListIterator(java.util.ListIterator)>($stack5);
+
+        $stack6 = interfaceinvoke $stack2.<java.util.List: java.util.ListIterator listIterator()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableListIterator(java.util.ListIterator)>($stack6);
+
+        $stack7 = interfaceinvoke $stack2.<java.util.List: java.util.Iterator iterator()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterator(java.util.Iterator)>($stack7);
+
+        $stack8 = interfaceinvoke $stack2.<java.util.List: java.util.Iterator iterator()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterator(java.util.Iterator)>($stack8);
+
+        $stack9 = (java.lang.Iterable) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterable(java.lang.Iterable)>($stack9);
+
+        return;
+    }
+
+    public static final void takeIterator(java.util.Iterator)
+    {
+        java.io.PrintStream $stack5;
+        java.util.Iterator itr;
+        java.lang.Object $stack4;
+        boolean $stack3;
+
+        itr := @parameter0: java.util.Iterator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(itr, "itr");
+
+     label1:
+        $stack3 = interfaceinvoke itr.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack3 == 0 goto label2;
+
+        $stack4 = interfaceinvoke itr.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void takeIterable(java.lang.Iterable)
+    {
+        java.io.PrintStream $stack7;
+        java.util.Iterator $stack4;
+        java.lang.Object $stack6;
+        java.lang.Iterable iterable;
+        boolean $stack5;
+
+        iterable := @parameter0: java.lang.Iterable;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(iterable, "iterable");
+
+        $stack4 = interfaceinvoke iterable.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void takeListIterator(java.util.ListIterator)
+    {
+        java.io.PrintStream $stack5;
+        java.util.ListIterator itr;
+        java.lang.Object $stack4;
+        boolean $stack3;
+
+        itr := @parameter0: java.util.ListIterator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(itr, "itr");
+
+     label1:
+        $stack3 = interfaceinvoke itr.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack3 == 0 goto label2;
+
+        $stack4 = interfaceinvoke itr.<java.util.ListIterator: java.lang.Object next()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void takeMutableIterator(java.util.Iterator)
+    {
+        java.util.Iterator itr;
+        java.lang.Object $stack2;
+        boolean $stack3, $stack1;
+
+        itr := @parameter0: java.util.Iterator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(itr, "itr");
+
+     label1:
+        $stack1 = interfaceinvoke itr.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack1 == 0 goto label2;
+
+        $stack2 = interfaceinvoke itr.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack2, "MARKER");
+
+        if $stack3 == 0 goto label1;
+
+        interfaceinvoke itr.<java.util.Iterator: void remove()>();
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void takeMutableIterable(java.lang.Iterable)
+    {
+        java.util.Iterator $stack2;
+        java.lang.Object $stack4;
+        java.lang.Iterable iterable;
+        boolean $stack5, $stack3;
+
+        iterable := @parameter0: java.lang.Iterable;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(iterable, "iterable");
+
+        $stack2 = interfaceinvoke iterable.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack3 = interfaceinvoke $stack2.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack3 == 0 goto label2;
+
+        $stack4 = interfaceinvoke $stack2.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack4, "MARKER");
+
+        if $stack5 == 0 goto label1;
+
+        interfaceinvoke $stack2.<java.util.Iterator: void remove()>();
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void takeMutableListIterator(java.util.ListIterator)
+    {
+        java.util.ListIterator itr;
+        java.lang.Object $stack3;
+        java.lang.String elem, $stack4;
+        boolean $stack5, $stack2;
+
+        itr := @parameter0: java.util.ListIterator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(itr, "itr");
+
+     label1:
+        $stack2 = interfaceinvoke itr.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack2 == 0 goto label2;
+
+        $stack3 = interfaceinvoke itr.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack3;
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(elem, "-MARKER");
+
+        interfaceinvoke itr.<java.util.ListIterator: void set(java.lang.Object)>($stack4);
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(elem, "MARKER");
+
+        if $stack5 != 0 goto label1;
+
+        interfaceinvoke itr.<java.util.ListIterator: void add(java.lang.Object)>("MARKER");
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void main()>();
+
+        return;
+    }
+}

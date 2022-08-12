@@ -1,0 +1,89 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt extends java.lang.Object
+{
+
+    public static final void log(kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function1)
+    {
+        java.io.PrintStream $stack7, $stack12;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1 $stack6;
+        kotlin.jvm.functions.Function1 func2;
+        kotlin.jvm.functions.Function0 func1;
+        java.lang.Integer $stack8;
+        int $stack11;
+        java.lang.Object $stack9;
+        java.lang.Number $stack10;
+
+        func1 := @parameter0: kotlin.jvm.functions.Function0;
+
+        func2 := @parameter1: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func1, "func1");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func2, "func2");
+
+        $stack6 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1: void <init>(kotlin.jvm.functions.Function0)>(func1);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack9 = interfaceinvoke func2.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack8);
+
+        $stack10 = (java.lang.Number) $stack9;
+
+        $stack11 = virtualinvoke $stack10.<java.lang.Number: int intValue()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(int)>($stack11);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6, $stack7, $stack9, $stack10;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1 $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$2 $stack8;
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1: void <init>()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>(1000);
+
+        $stack8 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$2;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$2: void <init>()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>(1000);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt: void main()>();
+
+        return;
+    }
+}

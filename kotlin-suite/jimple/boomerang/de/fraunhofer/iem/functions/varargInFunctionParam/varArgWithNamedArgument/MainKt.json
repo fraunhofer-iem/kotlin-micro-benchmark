@@ -1,0 +1,67 @@
+{
+    "className": "de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>",
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void print(java.lang.String,java.lang.String[],java.lang.String)": {
+            "localVariables": {
+                "preMessage": "java.lang.String",
+                "messages": "java.lang.String[]",
+                "postMessage": "java.lang.String",
+                "message": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack8": "java.io.PrintStream",
+                "l5": "int",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "l4": "int"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "messages": "java.lang.String[]",
+                "varReplacer1968": "java.lang.String",
+                "varReplacer1969": "java.lang.String",
+                "varReplacer1970": "java.lang.String",
+                "varReplacer1971": "java.lang.String",
+                "varReplacer1972": "java.lang.String",
+                "varReplacer1973": "java.lang.String",
+                "varReplacer1974": "java.lang.String",
+                "varReplacer1975": "java.lang.String",
+                "varReplacer1976": "java.lang.String",
+                "varReplacer1977": "java.lang.String",
+                "varReplacer1978": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String[]",
+                "l1": "java.lang.String[]",
+                "$stack3": "int",
+                "$stack5": "java.lang.Object[]",
+                "$stack6": "java.lang.String[]"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>",
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>",
+                "<java.util.Arrays: java.lang.Object[] copyOf(java.lang.Object[],int)>",
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void main()>"]
+        }
+    }
+}

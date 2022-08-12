@@ -1,0 +1,53 @@
+public final class de.fraunhofer.iem.classesAndObjects.sealedClass.Truck extends de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle
+{
+    private final java.lang.String registrationNumber;
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String registrationNumber;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Truck;
+
+        registrationNumber := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(registrationNumber, "registrationNumber");
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>(registrationNumber, null);
+
+        this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String registrationNumber> = registrationNumber;
+
+        return;
+    }
+
+    public final java.lang.String getRegistrationNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Truck;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String registrationNumber>;
+
+        return $stack1;
+    }
+
+    public void displayVehicleRegistrationNumber()
+    {
+        java.io.PrintStream $stack5;
+        java.lang.String $stack3, $stack4;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Truck;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String getVehicleRegistrationNumber()>();
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, " in Truck");
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void sendResponse(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.String getEmpName()>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: int getEmpAge()>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void setEmpAge(int)>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.Integer getEmpNumber()>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void send(java.lang.String,int,java.lang.Integer)>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void processPostRequest()>",
+        "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void sendResponse(java.lang.String)": {
+            "localVariables": {"responseBody": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getEmpName()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getEmpAge()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "int"},
+            "invokeExpressions": []
+        },
+        "void setEmpAge(int)": {
+            "localVariables": {"<set-?>": "int"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.Integer getEmpNumber()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.Integer"},
+            "invokeExpressions": []
+        },
+        "void send(java.lang.String,int,java.lang.Integer)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "age": "int",
+                "accountNumber": "java.lang.Integer"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void sendResponse(java.lang.String)>"
+            ]
+        },
+        "void processPostRequest()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.lang.Integer",
+                "$stack1": "int",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void send(java.lang.String,int,java.lang.Integer)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.Integer"},
+            "invokeExpressions": ["<java.lang.Integer: java.lang.Integer valueOf(int)>"]
+        }
+    }
+}

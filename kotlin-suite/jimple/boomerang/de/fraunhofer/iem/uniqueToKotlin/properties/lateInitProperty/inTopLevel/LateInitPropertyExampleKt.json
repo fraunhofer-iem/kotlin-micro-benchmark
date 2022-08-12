@@ -1,0 +1,53 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String getName()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: void setName(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getName()": {
+            "localVariables": {
+                "ex0": "java.lang.NullPointerException",
+                "varReplacer1504": "java.lang.String",
+                "varReplacer1505": "java.lang.String"
+            },
+            "stackVariables": {"l0": "java.lang.String"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void throwUninitializedPropertyAccessException(java.lang.String)>",
+                "<java.lang.NullPointerException: void <init>(java.lang.String)>"
+            ]
+        },
+        "void setName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "varReplacer1506": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void main()": {
+            "localVariables": {"varReplacer1507": "java.lang.String"},
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: void main()>"]
+        }
+    }
+}

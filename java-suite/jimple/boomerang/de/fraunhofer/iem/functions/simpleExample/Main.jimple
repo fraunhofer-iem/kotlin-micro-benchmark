@@ -1,0 +1,107 @@
+public class de.fraunhofer.iem.functions.simpleExample.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.simpleExample.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack2, $stack6, varReplacer486, varReplacer487, varReplacer488, varReplacer489, varReplacer490, varReplacer491, varReplacer492, varReplacer493;
+        java.io.PrintStream $stack1, $stack3, $stack5, $stack7;
+        float $stack4, $stack8;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer486 = 10;
+
+        varReplacer487 = 20;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>(varReplacer486, varReplacer487);
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(int)>($stack2);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer492 = 10;
+
+        varReplacer493 = 20;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>(varReplacer492, varReplacer493);
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(float)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer488 = 1123;
+
+        varReplacer489 = 223;
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>(varReplacer488, varReplacer489);
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer490 = 1123;
+
+        varReplacer491 = 223;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>(varReplacer490, varReplacer491);
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(float)>($stack8);
+
+        return;
+    }
+
+    public static int add(int, int)
+    {
+        int num1, num2, $stack2;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack2 = num1 + num2;
+
+        return $stack2;
+    }
+
+    private static float add10(int, int)
+    {
+        int num1, num2;
+        float $stack2, $stack3, $stack4, $stack5;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack3 = (float) num1;
+
+        $stack2 = (float) num2;
+
+        $stack4 = $stack3 + $stack2;
+
+        $stack5 = $stack4 + 10.0F;
+
+        return $stack5;
+    }
+}

@@ -1,0 +1,379 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair extends java.lang.Object
+{
+    private java.lang.Object first;
+    private java.lang.Object second;
+
+    public void <init>(java.lang.Object, java.lang.Object)
+    {
+        java.lang.Object first, second;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        first := @parameter0: java.lang.Object;
+
+        second := @parameter1: java.lang.Object;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first> = first;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second> = second;
+
+        return;
+    }
+
+    public final java.lang.Object getFirst()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        return $stack1;
+    }
+
+    public final void setFirst(java.lang.Object)
+    {
+        java.lang.Object <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        <set-?> := @parameter0: java.lang.Object;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.Object getSecond()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        return $stack1;
+    }
+
+    public final void setSecond(java.lang.Object)
+    {
+        java.lang.Object <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        <set-?> := @parameter0: java.lang.Object;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second> = <set-?>;
+
+        return;
+    }
+
+    public final void replace(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair ob, this;
+        java.lang.Object $stack2, $stack3;
+        java.lang.String varReplacer1323;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        ob := @parameter0: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        varReplacer1323 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer1323);
+
+        $stack2 = ob.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first> = $stack2;
+
+        $stack3 = ob.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second> = $stack3;
+
+        return;
+    }
+
+    public final java.lang.Object component1()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        return $stack1;
+    }
+
+    public final java.lang.Object component2()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy(java.lang.Object, java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair $stack3, this;
+        java.lang.Object first, second;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        first := @parameter0: java.lang.Object;
+
+        second := @parameter1: java.lang.Object;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>(first, second);
+
+        return $stack3;
+    }
+
+    public static de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy$default(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair, java.lang.Object, java.lang.Object, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair l0, $stack7;
+        int l3, $stack5, $stack6;
+        java.lang.Object l4, l1, l2;
+
+        nop;
+
+        l0 := @parameter0: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        l1 := @parameter1: java.lang.Object;
+
+        l2 := @parameter2: java.lang.Object;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label1;
+
+        nop;
+
+        l1 = l0.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+     label1:
+        nop;
+
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label2;
+
+        nop;
+
+        l2 = l0.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+     label2:
+        nop;
+
+        $stack7 = virtualinvoke l0.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy(java.lang.Object,java.lang.Object)>(l1, l2);
+
+        return $stack7;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+        int varReplacer1324;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack7, $stack8;
+        java.lang.Object $stack3, $stack6;
+        java.lang.String $stack9, varReplacer1325, varReplacer1326;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1326 = "DifferentTypedPair(first=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1326);
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack3);
+
+        varReplacer1325 = ", second=";
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1325);
+
+        $stack6 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack6);
+
+        varReplacer1324 = 41;
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1324);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack9;
+    }
+
+    public int hashCode()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this;
+        int $stack7, $stack9, $stack4, $stack8;
+        java.lang.Object $stack2, $stack3, $stack5, $stack6;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        if $stack2 != null goto label1;
+
+        nop;
+
+        $stack4 = 0;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        $stack4 = virtualinvoke $stack3.<java.lang.Object: int hashCode()>();
+
+     label2:
+        $stack7 = $stack4 * 31;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        if $stack5 != null goto label3;
+
+        nop;
+
+        $stack8 = 0;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack6 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        $stack8 = virtualinvoke $stack6.<java.lang.Object: int hashCode()>();
+
+     label4:
+        $stack9 = $stack7 + $stack8;
+
+        return $stack9;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair this, l2;
+        int varReplacer1327, varReplacer1328, varReplacer1329, varReplacer1330, varReplacer1331;
+        java.lang.Object other, $stack4, $stack5, $stack7, $stack8;
+        boolean $stack3, $stack6, $stack9;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        nop;
+
+        varReplacer1329 = 1;
+
+        return varReplacer1329;
+
+     label1:
+        nop;
+
+        $stack3 = other instanceof de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        if $stack3 != 0 goto label2;
+
+        nop;
+
+        varReplacer1331 = 0;
+
+        return varReplacer1331;
+
+     label2:
+        nop;
+
+        l2 = (de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair) other;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        $stack4 = l2.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object first>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        nop;
+
+        varReplacer1328 = 0;
+
+        return varReplacer1328;
+
+     label3:
+        nop;
+
+        $stack8 = this.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        $stack7 = l2.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object second>;
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack8, $stack7);
+
+        if $stack9 != 0 goto label4;
+
+        nop;
+
+        varReplacer1330 = 0;
+
+        return varReplacer1330;
+
+     label4:
+        nop;
+
+        varReplacer1327 = 1;
+
+        return varReplacer1327;
+    }
+}

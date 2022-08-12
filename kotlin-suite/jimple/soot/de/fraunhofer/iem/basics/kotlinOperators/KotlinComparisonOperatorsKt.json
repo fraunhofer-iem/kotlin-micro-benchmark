@@ -1,0 +1,122 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void dummy(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: double getDouble(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "double",
+                "$stack17": "double",
+                "$stack18": "byte",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "byte",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "byte",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "byte",
+                "$stack25": "java.io.PrintStream",
+                "$stack26": "byte",
+                "$stack27": "java.io.PrintStream",
+                "$stack28": "byte",
+                "$stack29": "java.io.PrintStream",
+                "$stack30": "java.lang.Integer",
+                "$stack31": "java.lang.Integer",
+                "$stack90": "boolean",
+                "$stack85": "boolean",
+                "$stack80": "boolean",
+                "$stack75": "boolean",
+                "$stack70": "boolean",
+                "$stack63": "boolean",
+                "$stack58": "boolean",
+                "$stack53": "boolean",
+                "$stack48": "boolean",
+                "$stack43": "boolean",
+                "$stack38": "boolean",
+                "$stack37": "boolean",
+                "$stack32": "boolean",
+                "$i0": "int",
+                "$i1": "int",
+                "$i2": "int",
+                "$i3": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: double getDouble(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: double getDouble(java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void dummy(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void dummy(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "num1": "java.lang.Object",
+                "num2": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack4": "boolean",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "boolean",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "int getInt(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "double getDouble(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void main()>"]
+        }
+    }
+}

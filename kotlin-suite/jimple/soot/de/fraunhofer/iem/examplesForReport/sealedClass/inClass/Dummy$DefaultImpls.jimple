@@ -1,0 +1,19 @@
+public final class de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy$DefaultImpls extends java.lang.Object
+{
+
+    public static void myDummy(de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy this;
+
+        this := @parameter0: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, "this");
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("What!!!");
+
+        return;
+    }
+}

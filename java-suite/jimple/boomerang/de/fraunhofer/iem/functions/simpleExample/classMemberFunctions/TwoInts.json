@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: void <init>()>",
+        "<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float add10(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int add(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "this": "de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts"
+            },
+            "stackVariables": {"$stack3": "int"},
+            "invokeExpressions": []
+        },
+        "float add10(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "this": "de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts"
+            },
+            "stackVariables": {
+                "$stack3": "float",
+                "$stack4": "float",
+                "$stack5": "float",
+                "$stack6": "float"
+            },
+            "invokeExpressions": []
+        },
+        "float publicAdd10(int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts",
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {"$stack3": "float"},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float add10(int,int)>"]
+        }
+    }
+}

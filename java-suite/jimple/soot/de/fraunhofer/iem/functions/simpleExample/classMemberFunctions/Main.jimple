@@ -1,0 +1,55 @@
+public class de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main this;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack9;
+        java.lang.String[] args;
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts $stack2;
+        int $stack4, $stack8;
+        float $stack6, $stack10;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>(10, 20);
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>(10, 20);
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(float)>($stack6);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack8 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>(1123, 223);
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack8);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack10 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>(1123, 223);
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(float)>($stack10);
+
+        return;
+    }
+}

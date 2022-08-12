@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Movable"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void jog()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void run()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void walk()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void crawl()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void jog()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void run()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void walk()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void crawl()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

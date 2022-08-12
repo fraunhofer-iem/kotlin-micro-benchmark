@@ -1,0 +1,42 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer871": "java.lang.String",
+                "varReplacer872": "java.lang.String",
+                "varReplacer873": "java.lang.String",
+                "varReplacer874": "java.lang.String",
+                "varReplacer875": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logError(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logInfo(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logWarn(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void greet()>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void print(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt: void main()>"]
+        }
+    }
+}

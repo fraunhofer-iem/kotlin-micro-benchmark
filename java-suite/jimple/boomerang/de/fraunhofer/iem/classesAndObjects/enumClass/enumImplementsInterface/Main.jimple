@@ -1,0 +1,44 @@
+public class de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu $stack1, $stack2, $stack3, $stack4;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu CHICKEN_GRAVY>;
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void print()>();
+
+        $stack2 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu EGG_OMELET>;
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void print()>();
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu CHICKEN_BIRYANI>;
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void print()>();
+
+        $stack4 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu VEG_PULAO>;
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void print()>();
+
+        return;
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.companionObject.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String getFirstName()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: void welcomeEmployee()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String access$getCurrentGreetingMessage$cp()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: void access$setCurrentGreetingMessage$cp(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee",
+                "age": "int",
+                "varReplacer1269": "java.lang.String",
+                "varReplacer1270": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFirstName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void welcomeEmployee()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee",
+                "varReplacer1271": "int",
+                "varReplacer1272": "int"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String access$sayHi(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String access$getCurrentGreetingMessage$cp()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void access$setCurrentGreetingMessage$cp(java.lang.String)": {
+            "localVariables": {"<set-?>": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {
+                "varReplacer1273": "null_type",
+                "varReplacer1274": "java.lang.String"
+            },
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        }
+    }
+}

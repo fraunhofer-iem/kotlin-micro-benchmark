@@ -1,0 +1,226 @@
+public final class de.fraunhofer.iem.examplesForReport.localFunctions.Employee extends java.lang.Object
+{
+    private final java.lang.String fullName;
+    private int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        int age;
+        java.lang.String fullName, varReplacer1441;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        varReplacer1441 = "fullName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, varReplacer1441);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public final void welcomeEmployee(boolean)
+    {
+        java.lang.String varReplacer1442, varReplacer1443, varReplacer1444;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this;
+        kotlin.jvm.internal.Ref$ObjectRef $stack4;
+        boolean isGerman;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        isGerman := @parameter0: boolean;
+
+        $stack4 = new kotlin.jvm.internal.Ref$ObjectRef;
+
+        specialinvoke $stack4.<kotlin.jvm.internal.Ref$ObjectRef: void <init>()>();
+
+        varReplacer1444 = "";
+
+        $stack4.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = varReplacer1444;
+
+        if isGerman == 0 goto label1;
+
+        nop;
+
+        varReplacer1443 = "Hallo! Guten Tag!";
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.localFunctions.Employee: void welcomeEmployee$welcomeMessage-0(kotlin.jvm.internal.Ref$ObjectRef,de.fraunhofer.iem.examplesForReport.localFunctions.Employee,java.lang.String)>($stack4, this, varReplacer1443);
+
+        goto label2;
+
+     label1:
+        nop;
+
+        varReplacer1442 = "Hi!";
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.localFunctions.Employee: void welcomeEmployee$welcomeMessage(java.lang.String,de.fraunhofer.iem.examplesForReport.localFunctions.Employee)>(varReplacer1442, this);
+
+     label2:
+        return;
+    }
+
+    private static final void welcomeEmployee$welcomeMessage(java.lang.String, de.fraunhofer.iem.examplesForReport.localFunctions.Employee)
+    {
+        int $stack10, varReplacer1446, varReplacer1447;
+        java.lang.String hi, $stack7, $stack13, varReplacer1445;
+        java.io.PrintStream $stack14;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this$0;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack8, $stack9, $stack11, $stack12;
+
+        nop;
+
+        hi := @parameter0: java.lang.String;
+
+        this$0 := @parameter1: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(hi);
+
+        varReplacer1446 = 32;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1446);
+
+        $stack7 = this$0.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: java.lang.String fullName>;
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack7);
+
+        varReplacer1445 = " (";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1445);
+
+        $stack10 = this$0.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: int age>;
+
+        $stack11 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack10);
+
+        varReplacer1447 = 41;
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1447);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        return;
+    }
+
+    private static final void welcomeEmployee$welcomeMessage-0(kotlin.jvm.internal.Ref$ObjectRef, de.fraunhofer.iem.examplesForReport.localFunctions.Employee, java.lang.String)
+    {
+        int $stack13, varReplacer1448, varReplacer1449;
+        java.lang.String newHello, $stack7, $stack10, $stack16, varReplacer1450;
+        kotlin.jvm.internal.Ref$ObjectRef hello;
+        java.io.PrintStream $stack17;
+        de.fraunhofer.iem.examplesForReport.localFunctions.Employee this$0;
+        java.lang.StringBuilder $stack5, $stack8, $stack9, $stack11, $stack12, $stack14, $stack15;
+        java.lang.Object $stack6;
+
+        nop;
+
+        hello := @parameter0: kotlin.jvm.internal.Ref$ObjectRef;
+
+        this$0 := @parameter1: de.fraunhofer.iem.examplesForReport.localFunctions.Employee;
+
+        newHello := @parameter2: java.lang.String;
+
+        hello.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = newHello;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = hello.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>;
+
+        $stack7 = (java.lang.String) $stack6;
+
+        $stack8 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack7);
+
+        varReplacer1448 = 32;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1448);
+
+        $stack10 = this$0.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: java.lang.String fullName>;
+
+        $stack11 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack10);
+
+        varReplacer1450 = " (";
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1450);
+
+        $stack13 = this$0.<de.fraunhofer.iem.examplesForReport.localFunctions.Employee: int age>;
+
+        $stack14 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack13);
+
+        varReplacer1449 = 41;
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1449);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        return;
+    }
+}

@@ -1,0 +1,42 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog this;
+        java.lang.String DNA, varReplacer544;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog;
+
+        DNA := @parameter0: java.lang.String;
+
+        varReplacer544 = "DNA";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, varReplacer544);
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog this;
+        java.lang.String varReplacer545;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer545 = "Bow Bow";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer545);
+
+        return;
+    }
+}

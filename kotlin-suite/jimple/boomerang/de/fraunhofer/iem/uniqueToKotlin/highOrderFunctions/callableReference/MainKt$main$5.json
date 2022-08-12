@@ -1,0 +1,53 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5",
+    "superClass": "kotlin.jvm.internal.AdaptedFunctionReference",
+    "implementedInterface": ["kotlin.jvm.functions.Function1"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void invoke(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: java.lang.Object invoke(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5",
+                "varReplacer2353": "int",
+                "varReplacer2354": "java.lang.String",
+                "varReplacer2355": "java.lang.String",
+                "varReplacer2356": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.AdaptedFunctionReference: void <init>(int,java.lang.Class,java.lang.String,java.lang.String,int)>"]
+        },
+        "void invoke(java.lang.String)": {
+            "localVariables": {
+                "p0": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5",
+                "varReplacer2357": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void access$main$lambda-0(java.lang.String)>"
+            ]
+        },
+        "java.lang.Object invoke(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5",
+                "p1": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "kotlin.Unit"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void invoke(java.lang.String)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void <init>()>"]
+        }
+    }
+}

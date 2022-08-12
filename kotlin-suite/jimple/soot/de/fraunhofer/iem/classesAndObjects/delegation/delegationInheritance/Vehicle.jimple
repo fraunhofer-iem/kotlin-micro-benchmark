@@ -1,0 +1,11 @@
+public interface  de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle extends java.lang.Object
+{
+
+    public abstract java.lang.String getVehicleType();
+
+    public abstract void start();
+
+    public abstract void stop();
+
+    public abstract void accelerate();
+}

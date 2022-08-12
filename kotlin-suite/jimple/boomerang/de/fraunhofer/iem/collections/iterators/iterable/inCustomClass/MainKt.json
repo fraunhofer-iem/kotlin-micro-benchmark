@@ -1,0 +1,62 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt: void main$lambda-0(java.lang.Integer)>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "x": "java.lang.Integer",
+                "elem": "java.lang.Iterable",
+                "varReplacer1217": "int",
+                "varReplacer1218": "int",
+                "varReplacer1219": "int",
+                "varReplacer1220": "int",
+                "varReplacer1221": "int"
+            },
+            "stackVariables": {
+                "$stack9": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "$stack10": "java.util.Iterator",
+                "$stack11": "boolean",
+                "$stack12": "java.util.Iterator",
+                "$stack13": "boolean",
+                "$stack14": "java.lang.Object",
+                "$stack15": "java.io.PrintStream",
+                "$stack17": "java.lang.Object",
+                "$stack18": "java.lang.Number",
+                "$stack19": "int",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "java.util.function.Consumer"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <init>(int,int,int,int,int)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt$main_lambda-0__2: java.util.function.Consumer bootstrap$()>",
+                "<java.util.Iterator: void forEachRemaining(java.util.function.Consumer)>",
+                "<java.lang.Iterable: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.MainKt: void main()>"]
+        },
+        "void main$lambda-0(java.lang.Integer)": {
+            "localVariables": {"x": "java.lang.Integer"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

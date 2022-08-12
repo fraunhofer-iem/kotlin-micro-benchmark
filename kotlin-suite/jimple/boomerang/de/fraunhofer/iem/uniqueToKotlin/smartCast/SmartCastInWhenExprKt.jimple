@@ -1,0 +1,194 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Float $stack1;
+        java.lang.Double $stack2;
+        int varReplacer1573;
+        float varReplacer1576;
+        java.lang.String varReplacer1575;
+        java.lang.Integer $stack0;
+        double varReplacer1574;
+
+        nop;
+
+        varReplacer1573 = 10;
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1573);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack0);
+
+        varReplacer1576 = 451.54F;
+
+        $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(varReplacer1576);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack1);
+
+        varReplacer1575 = "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>(varReplacer1575);
+
+        varReplacer1574 = 451.54;
+
+        $stack2 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(varReplacer1574);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack2);
+
+        return;
+    }
+
+    public static final void checkType(java.lang.Object)
+    {
+        java.lang.Integer $stack8;
+        boolean $stack4, $stack5, $stack6, $stack7, $stack9;
+        java.lang.StringBuilder $stack15, $stack16, $stack17, $stack18, $stack21;
+        int $stack20, varReplacer1580;
+        java.lang.String $stack13, $stack19, $stack22, $stack24, varReplacer1577, varReplacer1578, varReplacer1579, varReplacer1581, varReplacer1582, varReplacer1583, varReplacer1584, varReplacer1585;
+        java.io.PrintStream $stack10, $stack11, $stack12, $stack14, $stack23, $stack25;
+        java.lang.Object ob;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        varReplacer1577 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer1577);
+
+        $stack4 = ob instanceof java.lang.Integer;
+
+        if $stack4 == 0 goto label1;
+
+        nop;
+
+        varReplacer1585 = "Int, value = ";
+
+        $stack24 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1585, ob);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        goto label6;
+
+     label1:
+        nop;
+
+        $stack5 = ob instanceof java.lang.String;
+
+        if $stack5 == 0 goto label2;
+
+        nop;
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1578 = "String, value = ";
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1578);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(ob);
+
+        varReplacer1582 = ", length = ";
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1582);
+
+        $stack19 = (java.lang.String) ob;
+
+        $stack20 = virtualinvoke $stack19.<java.lang.String: int length()>();
+
+        $stack21 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack20);
+
+        $stack22 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        goto label6;
+
+     label2:
+        nop;
+
+        $stack6 = ob instanceof java.lang.Float;
+
+        if $stack6 == 0 goto label3;
+
+        nop;
+
+        varReplacer1579 = "Float, value = ";
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1579, ob);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        goto label6;
+
+     label3:
+        nop;
+
+        varReplacer1584 = "gdf";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(ob, varReplacer1584);
+
+        if $stack7 == 0 goto label4;
+
+        nop;
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println()>();
+
+        goto label6;
+
+     label4:
+        nop;
+
+        varReplacer1580 = 1;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1580);
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(ob, $stack8);
+
+        if $stack9 == 0 goto label5;
+
+        nop;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1581 = "Numbers";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1581);
+
+        goto label6;
+
+     label5:
+        nop;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1583 = "Other";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1583);
+
+     label6:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: java.lang.String printName(kotlin.jvm.functions.Function0)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"varReplacer2542": "java.lang.String"},
+            "stackVariables": {
+                "$stack3": "kotlin.jvm.internal.Ref$ObjectRef",
+                "$stack4": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1",
+                "$stack5": "kotlin.jvm.functions.Function0",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$2",
+                "$stack9": "kotlin.jvm.functions.Function0",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Ref$ObjectRef: void <init>()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: void <init>(kotlin.jvm.internal.Ref$ObjectRef)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: java.lang.String printName(kotlin.jvm.functions.Function0)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$2: void <init>(kotlin.jvm.internal.Ref$ObjectRef)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: java.lang.String printName(kotlin.jvm.functions.Function0)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String printName(kotlin.jvm.functions.Function0)": {
+            "localVariables": {
+                "printer": "kotlin.jvm.functions.Function0",
+                "varReplacer2543": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.Object",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.functions.Function0: java.lang.Object invoke()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "className": "de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: double findFixPoint(double)>",
+        "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: java.lang.String recPrint(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "double findFixPoint(double)": {
+            "localVariables": {"x": "double"},
+            "stackVariables": {
+                "$stack9": "double",
+                "$stack10": "double",
+                "$stack11": "byte",
+                "$stack17": "double",
+                "l2": "double",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Math: double cos(double)>",
+                "<java.lang.Math: double abs(double)>",
+                "<java.lang.Math: double cos(double)>"
+            ]
+        },
+        "java.lang.String recPrint(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "greet": "java.lang.String",
+                "count": "int",
+                "varReplacer1936": "int",
+                "varReplacer1937": "java.lang.String",
+                "varReplacer1938": "java.lang.String",
+                "varReplacer1939": "java.lang.String",
+                "varReplacer1940": "int"
+            },
+            "stackVariables": {
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.String",
+                "$stack17": "java.io.PrintStream",
+                "$stack22": "java.lang.StringBuilder",
+                "$stack23": "java.lang.StringBuilder",
+                "$stack24": "java.lang.StringBuilder",
+                "$stack25": "java.lang.StringBuilder",
+                "$stack26": "java.lang.String",
+                "l3": "java.lang.String",
+                "l4": "java.lang.String",
+                "l5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer1941": "double",
+                "varReplacer1942": "java.lang.String",
+                "varReplacer1943": "java.lang.String",
+                "varReplacer1944": "int"
+            },
+            "stackVariables": {
+                "$stack3": "double",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: double findFixPoint(double)>",
+                "<java.io.PrintStream: void println(double)>",
+                "<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: java.lang.String recPrint(java.lang.String,java.lang.String,int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: void main()>"]
+        }
+    }
+}

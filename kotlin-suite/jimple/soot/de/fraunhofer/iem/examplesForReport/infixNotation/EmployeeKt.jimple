@@ -1,0 +1,22 @@
+public final class de.fraunhofer.iem.examplesForReport.infixNotation.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee $stack2, $stack3;
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>("Night Fury", 120);
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>("Hiccup Haddock", 27);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>($stack2);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>($stack2);
+
+        return;
+    }
+}

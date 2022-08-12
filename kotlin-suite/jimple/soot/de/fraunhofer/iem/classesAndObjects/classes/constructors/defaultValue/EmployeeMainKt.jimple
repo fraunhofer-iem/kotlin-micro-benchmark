@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack7, $stack9;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee $stack3;
+        int $stack8;
+        java.lang.String $stack4, $stack6;
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: void <init>(java.lang.String,java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>(null, null, 100, 3, null);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: java.lang.String getFirstName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: java.lang.String getLastName()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: int getAge()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt: void main()>();
+
+        return;
+    }
+}

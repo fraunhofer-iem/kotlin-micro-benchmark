@@ -1,0 +1,479 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person extends java.lang.Object
+{
+    private final java.lang.String name;
+    private final java.lang.String address;
+    private final int age;
+    private final java.lang.String mobileNumber;
+
+    public void <init>(java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+        int age;
+        java.lang.String name, address, mobileNumber, varReplacer2197, varReplacer2198, varReplacer2199;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        name := @parameter0: java.lang.String;
+
+        address := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        mobileNumber := @parameter3: java.lang.String;
+
+        varReplacer2197 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer2197);
+
+        varReplacer2199 = "address";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(address, varReplacer2199);
+
+        varReplacer2198 = "mobileNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(mobileNumber, varReplacer2198);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name> = name;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address> = address;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age> = age;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber> = mobileNumber;
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getAddress()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getMobileNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component1()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component2()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final int component3()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component4()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy(java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person $stack5, this;
+        int age;
+        java.lang.String name, address, mobileNumber, varReplacer2200, varReplacer2201, varReplacer2202;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        name := @parameter0: java.lang.String;
+
+        address := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        mobileNumber := @parameter3: java.lang.String;
+
+        varReplacer2202 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer2202);
+
+        varReplacer2200 = "address";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(address, varReplacer2200);
+
+        varReplacer2201 = "mobileNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(mobileNumber, varReplacer2201);
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(name, address, age, mobileNumber);
+
+        return $stack5;
+    }
+
+    public static de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy$default(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person, java.lang.String, java.lang.String, int, java.lang.String, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person l0, $stack11;
+        int l5, $stack7, $stack8, $stack9, $stack10, l3;
+        java.lang.Object l6;
+        java.lang.String l1, l2, l4;
+
+        nop;
+
+        l0 := @parameter0: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: java.lang.String;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.String;
+
+        l5 := @parameter5: int;
+
+        l6 := @parameter6: java.lang.Object;
+
+        $stack7 = l5 & 1;
+
+        if $stack7 == 0 goto label1;
+
+        nop;
+
+        l1 = l0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+     label1:
+        nop;
+
+        $stack8 = l5 & 2;
+
+        if $stack8 == 0 goto label2;
+
+        nop;
+
+        l2 = l0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+     label2:
+        nop;
+
+        $stack9 = l5 & 4;
+
+        if $stack9 == 0 goto label3;
+
+        nop;
+
+        l3 = l0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+     label3:
+        nop;
+
+        $stack10 = l5 & 8;
+
+        if $stack10 == 0 goto label4;
+
+        nop;
+
+        l4 = l0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+     label4:
+        nop;
+
+        $stack11 = virtualinvoke l0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy(java.lang.String,java.lang.String,int,java.lang.String)>(l1, l2, l3, l4);
+
+        return $stack11;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+        int $stack9, varReplacer2203;
+        java.lang.String $stack3, $stack6, $stack12, $stack15, varReplacer2204, varReplacer2205, varReplacer2206, varReplacer2207;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack7, $stack8, $stack10, $stack11, $stack13, $stack14;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2207 = "Person(name=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2207);
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        varReplacer2206 = ", address=";
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2206);
+
+        $stack6 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack6);
+
+        varReplacer2205 = ", age=";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2205);
+
+        $stack9 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack9);
+
+        varReplacer2204 = ", mobileNumber=";
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2204);
+
+        $stack12 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack12);
+
+        varReplacer2203 = 41;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer2203);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack15;
+    }
+
+    public int hashCode()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this;
+        int $stack3, $stack5, $stack6, $stack7, $stack8, $stack9, $stack11, $stack12, result;
+        java.lang.String $stack2, $stack4, $stack10;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int hashCode()>();
+
+        $stack5 = $stack3 * 31;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.String: int hashCode()>();
+
+        result = $stack5 + $stack6;
+
+        $stack8 = result * 31;
+
+        $stack7 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        $stack9 = staticinvoke <java.lang.Integer: int hashCode(int)>($stack7);
+
+        result = $stack8 + $stack9;
+
+        $stack11 = result * 31;
+
+        $stack10 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        $stack12 = virtualinvoke $stack10.<java.lang.String: int hashCode()>();
+
+        result = $stack11 + $stack12;
+
+        return result;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person this, l2;
+        int $stack10, $stack11, varReplacer2208, varReplacer2209, varReplacer2210, varReplacer2211, varReplacer2212, varReplacer2213, varReplacer2214;
+        java.lang.String $stack4, $stack5, $stack7, $stack8, $stack12, $stack13;
+        boolean $stack3, $stack6, $stack9, $stack14;
+        java.lang.Object other;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        nop;
+
+        varReplacer2213 = 1;
+
+        return varReplacer2213;
+
+     label1:
+        nop;
+
+        $stack3 = other instanceof de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        if $stack3 != 0 goto label2;
+
+        nop;
+
+        varReplacer2209 = 0;
+
+        return varReplacer2209;
+
+     label2:
+        nop;
+
+        l2 = (de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person) other;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        $stack4 = l2.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String name>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        nop;
+
+        varReplacer2211 = 0;
+
+        return varReplacer2211;
+
+     label3:
+        nop;
+
+        $stack8 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        $stack7 = l2.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String address>;
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack8, $stack7);
+
+        if $stack9 != 0 goto label4;
+
+        nop;
+
+        varReplacer2210 = 0;
+
+        return varReplacer2210;
+
+     label4:
+        nop;
+
+        $stack11 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        $stack10 = l2.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int age>;
+
+        if $stack11 == $stack10 goto label5;
+
+        nop;
+
+        varReplacer2208 = 0;
+
+        return varReplacer2208;
+
+     label5:
+        nop;
+
+        $stack13 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        $stack12 = l2.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String mobileNumber>;
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack13, $stack12);
+
+        if $stack14 != 0 goto label6;
+
+        nop;
+
+        varReplacer2214 = 0;
+
+        return varReplacer2214;
+
+     label6:
+        nop;
+
+        varReplacer2212 = 1;
+
+        return varReplacer2212;
+    }
+}

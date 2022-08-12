@@ -1,0 +1,84 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt extends java.lang.Object
+{
+
+    public static final int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion, int, int)
+    {
+        int firstNumber, secondNumber, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion $this$sub;
+
+        $this$sub := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        firstNumber := @parameter1: int;
+
+        secondNumber := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$sub, "<this>");
+
+        $stack3 = firstNumber - secondNumber;
+
+        return $stack3;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack8, $stack11, $stack14, $stack17;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion $stack6, $stack9, $stack12, $stack15;
+        int $stack4, $stack7, $stack10, $stack13, $stack16;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: void <init>(int,int)>(10, 20);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int add()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        $stack7 = virtualinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>(10, 20);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        $stack9 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>(10, 20);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>($stack12, 10, 20);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>($stack13);
+
+        $stack15 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>($stack15, 10, 20);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(int)>($stack16);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: void main()>();
+
+        return;
+    }
+}

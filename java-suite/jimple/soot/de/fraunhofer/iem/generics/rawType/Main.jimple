@@ -1,0 +1,63 @@
+public class de.fraunhofer.iem.generics.rawType.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.generics.rawType.Main this;
+
+        this := @this: de.fraunhofer.iem.generics.rawType.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack6, $stack11;
+        java.lang.Double $stack8;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair $stack4;
+        java.lang.String[] args;
+        java.lang.Integer $stack5;
+        java.lang.Exception $stack10;
+        int $stack9;
+        java.lang.Object $stack7;
+        java.lang.String $stack12;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack4 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(120);
+
+        specialinvoke $stack4.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack5, "Ranjith");
+
+     label1:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = virtualinvoke $stack4.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack8 = (java.lang.Double) $stack7;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Double: int intValue()>();
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack9);
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack10 := @caughtexception;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack12 = virtualinvoke $stack10.<java.lang.Exception: java.lang.String getMessage()>();
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.String)>($stack12);
+
+     label4:
+        return;
+
+        catch java.lang.Exception from label1 to label2 with label3;
+    }
+}

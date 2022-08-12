@@ -1,0 +1,76 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle vehicle;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car $stack1;
+        int $stack5;
+        java.lang.StringBuilder $stack2, $stack4, $stack6, $stack7;
+        java.lang.String $stack8;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car: void <init>()>();
+
+        vehicle = (de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle) $stack1;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void start()>();
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(1);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(1);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(2);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(15);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(3);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(65);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(4);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(110);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(5);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(245);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(6);
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(330);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Current speed = ");
+
+        $stack5 = interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: int getCurrentSpeed()>();
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack5);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" kmph");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.MainKt: void main()>();
+
+        return;
+    }
+}

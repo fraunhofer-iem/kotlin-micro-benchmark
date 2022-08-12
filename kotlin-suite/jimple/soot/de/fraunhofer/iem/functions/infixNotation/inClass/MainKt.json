@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.functions.infixNotation.inClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack6": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack7": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack8": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack9": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int",
+                "$stack13": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.infixNotation.inClass.MainKt: void main()>"]
+        }
+    }
+}

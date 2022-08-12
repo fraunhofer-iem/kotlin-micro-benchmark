@@ -1,0 +1,29 @@
+public final class de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender $stack3;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee $stack4;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1 $stack2;
+        kotlin.jvm.functions.Function1 customSender;
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: void <init>(java.lang.String)>("Hallo! Guten Tag!");
+
+        customSender = (kotlin.jvm.functions.Function1) $stack2;
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void <init>()>();
+
+        $stack4 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>("Night Fury", 120);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void send(kotlin.jvm.functions.Function1,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>(customSender, $stack4);
+
+        return;
+    }
+}

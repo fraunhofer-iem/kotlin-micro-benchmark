@@ -1,0 +1,465 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt extends java.lang.Object
+{
+
+    public static final void checkIsReturnString(kotlin.jvm.functions.Function0)
+    {
+        java.io.PrintStream $stack8, $stack15;
+        kotlin.jvm.functions.Function0 func;
+        java.io.Serializable $stack6;
+        int varReplacer2651;
+        java.lang.Object $stack5;
+        java.lang.Class $stack10;
+        java.lang.String $stack7, varReplacer2652, varReplacer2653, varReplacer2654, varReplacer2655;
+        boolean $stack13;
+
+        nop;
+
+        func := @parameter0: kotlin.jvm.functions.Function0;
+
+        varReplacer2654 = "func";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func, varReplacer2654);
+
+        $stack5 = interfaceinvoke func.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack5 == null goto label1;
+
+        nop;
+
+        varReplacer2651 = 3;
+
+        varReplacer2652 = "T";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void reifiedOperationMarker(int,java.lang.String)>(varReplacer2651, varReplacer2652);
+
+        $stack13 = $stack5 instanceof java.lang.Object;
+
+        if $stack13 == 0 goto label1;
+
+        nop;
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2653 = "Function return as expected type";
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2653);
+
+        goto label4;
+
+     label1:
+        nop;
+
+        nop;
+
+        if $stack5 == null goto label2;
+
+        nop;
+
+        $stack10 = virtualinvoke $stack5.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack6 = (java.io.Serializable) $stack10;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack6 = (java.io.Serializable) "null";
+
+     label3:
+        varReplacer2655 = "Function does not return String but returns ";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2655, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+     label4:
+        return;
+    }
+
+    public static final void checkIsReturnStringEvenWithNoInline(kotlin.jvm.functions.Function0)
+    {
+        java.io.PrintStream $stack8, $stack15;
+        kotlin.jvm.functions.Function0 func;
+        java.io.Serializable $stack6;
+        int varReplacer2657;
+        java.lang.Object $stack5;
+        java.lang.Class $stack10;
+        java.lang.String $stack7, varReplacer2656, varReplacer2658, varReplacer2659, varReplacer2660;
+        boolean $stack13;
+
+        nop;
+
+        func := @parameter0: kotlin.jvm.functions.Function0;
+
+        varReplacer2656 = "func";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func, varReplacer2656);
+
+        $stack5 = interfaceinvoke func.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack5 == null goto label1;
+
+        nop;
+
+        varReplacer2657 = 3;
+
+        varReplacer2658 = "T";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void reifiedOperationMarker(int,java.lang.String)>(varReplacer2657, varReplacer2658);
+
+        $stack13 = $stack5 instanceof java.lang.Object;
+
+        if $stack13 == 0 goto label1;
+
+        nop;
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2660 = "Function return String";
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2660);
+
+        goto label4;
+
+     label1:
+        nop;
+
+        nop;
+
+        if $stack5 == null goto label2;
+
+        nop;
+
+        $stack10 = virtualinvoke $stack5.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack6 = (java.io.Serializable) $stack10;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack6 = (java.io.Serializable) "null";
+
+     label3:
+        varReplacer2659 = "Function does not return String but returns ";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2659, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+     label4:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack9;
+        boolean $stack10, $stack41, $stack52, $stack63, $stack74;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$6 $stack22;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 $stack27;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$5 $stack17;
+        kotlin.jvm.functions.Function0 $stack84, $stack70, $stack59, $stack48;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$8 $stack32;
+        java.io.Serializable $stack6, $stack13, $stack19, $stack24, $stack29, $stack34;
+        int varReplacer2674;
+        java.lang.String $stack7, $stack14, $stack20, $stack25, $stack30, $stack35, varReplacer2661, varReplacer2662, varReplacer2663, varReplacer2664, varReplacer2665, varReplacer2666, varReplacer2667, varReplacer2668, varReplacer2669, varReplacer2670, varReplacer2671, varReplacer2672, varReplacer2673;
+        java.io.PrintStream $stack5, $stack8, $stack15, $stack16, $stack21, $stack26, $stack31, $stack36, $stack43, $stack54, $stack65, $stack76, $stack77;
+        java.lang.Class $stack12, $stack38, $stack45, $stack56, $stack67;
+        java.lang.Object $stack18, $stack23, $stack28, $stack33;
+
+        nop;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2672 = "Function return as expected type";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2672);
+
+        $stack6 = (java.io.Serializable) "null";
+
+        varReplacer2661 = "Function does not return String but returns ";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2661, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        varReplacer2674 = 125;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2674);
+
+        $stack10 = $stack9 instanceof java.lang.String;
+
+        if $stack10 == 0 goto label01;
+
+        nop;
+
+        $stack77 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2673 = "Function return as expected type";
+
+        virtualinvoke $stack77.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2673);
+
+        goto label02;
+
+     label01:
+        nop;
+
+        $stack12 = virtualinvoke $stack9.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack13 = (java.io.Serializable) $stack12;
+
+        varReplacer2663 = "Function does not return String but returns ";
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2663, $stack13);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+     label02:
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2667 = "Function return as expected type";
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2667);
+
+        $stack17 = <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$5: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$5 INSTANCE>;
+
+        $stack84 = (kotlin.jvm.functions.Function0) $stack17;
+
+        $stack18 = interfaceinvoke $stack84.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack18 == null goto label03;
+
+        nop;
+
+        $stack74 = $stack18 instanceof java.lang.String;
+
+        if $stack74 == 0 goto label03;
+
+        nop;
+
+        $stack76 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2669 = "Function return String";
+
+        virtualinvoke $stack76.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2669);
+
+        goto label06;
+
+     label03:
+        nop;
+
+        nop;
+
+        if $stack18 == null goto label04;
+
+        nop;
+
+        $stack67 = virtualinvoke $stack18.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack19 = (java.io.Serializable) $stack67;
+
+        goto label05;
+
+     label04:
+        nop;
+
+        $stack19 = (java.io.Serializable) "null";
+
+     label05:
+        varReplacer2665 = "Function does not return String but returns ";
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2665, $stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+     label06:
+        $stack22 = <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$6: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$6 INSTANCE>;
+
+        $stack70 = (kotlin.jvm.functions.Function0) $stack22;
+
+        $stack23 = interfaceinvoke $stack70.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack23 == null goto label07;
+
+        nop;
+
+        $stack63 = $stack23 instanceof java.lang.String;
+
+        if $stack63 == 0 goto label07;
+
+        nop;
+
+        $stack65 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2662 = "Function return String";
+
+        virtualinvoke $stack65.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2662);
+
+        goto label10;
+
+     label07:
+        nop;
+
+        nop;
+
+        if $stack23 == null goto label08;
+
+        nop;
+
+        $stack56 = virtualinvoke $stack23.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack24 = (java.io.Serializable) $stack56;
+
+        goto label09;
+
+     label08:
+        nop;
+
+        $stack24 = (java.io.Serializable) "null";
+
+     label09:
+        varReplacer2668 = "Function does not return String but returns ";
+
+        $stack25 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2668, $stack24);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>($stack25);
+
+     label10:
+        $stack27 = <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 INSTANCE>;
+
+        $stack59 = (kotlin.jvm.functions.Function0) $stack27;
+
+        $stack28 = interfaceinvoke $stack59.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack28 == null goto label11;
+
+        nop;
+
+        $stack52 = $stack28 instanceof java.lang.String;
+
+        if $stack52 == 0 goto label11;
+
+        nop;
+
+        $stack54 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2664 = "Function return String";
+
+        virtualinvoke $stack54.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2664);
+
+        goto label14;
+
+     label11:
+        nop;
+
+        nop;
+
+        if $stack28 == null goto label12;
+
+        nop;
+
+        $stack45 = virtualinvoke $stack28.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack29 = (java.io.Serializable) $stack45;
+
+        goto label13;
+
+     label12:
+        nop;
+
+        $stack29 = (java.io.Serializable) "null";
+
+     label13:
+        varReplacer2671 = "Function does not return String but returns ";
+
+        $stack30 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2671, $stack29);
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(java.lang.Object)>($stack30);
+
+     label14:
+        $stack32 = <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$8: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$8 INSTANCE>;
+
+        $stack48 = (kotlin.jvm.functions.Function0) $stack32;
+
+        $stack33 = interfaceinvoke $stack48.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        if $stack33 == null goto label15;
+
+        nop;
+
+        $stack41 = $stack33 instanceof kotlin.UInt;
+
+        if $stack41 == 0 goto label15;
+
+        nop;
+
+        $stack43 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2670 = "Function return String";
+
+        virtualinvoke $stack43.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2670);
+
+        goto label18;
+
+     label15:
+        nop;
+
+        nop;
+
+        if $stack33 == null goto label16;
+
+        nop;
+
+        $stack38 = virtualinvoke $stack33.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack34 = (java.io.Serializable) $stack38;
+
+        goto label17;
+
+     label16:
+        nop;
+
+        $stack34 = (java.io.Serializable) "null";
+
+     label17:
+        varReplacer2666 = "Function does not return String but returns ";
+
+        $stack35 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2666, $stack34);
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+     label18:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,89 @@
+public final class de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle
+{
+    private final de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0;
+    private final java.lang.String vehicleType;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle vehicle;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck;
+
+        vehicle := @parameter0: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicle, "vehicle");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0> = vehicle;
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String vehicleType> = "Truck";
+
+        return;
+    }
+
+    public void accelerate()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>();
+
+        return;
+    }
+
+    public java.lang.String getVehicleType()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String vehicleType>;
+
+        return $stack1;
+    }
+
+    public void start()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck this;
+        java.lang.String $stack3, $stack4;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String getVehicleType()>();
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, " Engine Started");
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public void stop()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck this;
+        java.lang.String $stack3, $stack4;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String getVehicleType()>();
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, " Engine Stopped");
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+}

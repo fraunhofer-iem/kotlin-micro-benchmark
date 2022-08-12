@@ -1,0 +1,46 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement: void greet()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void greet()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement"},
+            "stackVariables": {
+                "$stack4": "java.util.Scanner",
+                "$stack5": "java.io.InputStream",
+                "$stack6": "java.lang.String",
+                "$stack7": "int",
+                "$stack8": "boolean",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack14": "boolean",
+                "$stack15": "boolean",
+                "l3": "byte"
+            },
+            "invokeExpressions": [
+                "<java.util.Scanner: void <init>(java.io.InputStream)>",
+                "<java.util.Scanner: java.lang.String nextLine()>",
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

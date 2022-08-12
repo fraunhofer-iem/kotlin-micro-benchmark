@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.property.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.property.EmployeeKt: void entry()>"],
+    "methodsInformation": {"void entry()": {
+        "localVariables": {},
+        "stackVariables": {
+            "$stack3": "de.fraunhofer.iem.examplesForReport.property.Employee",
+            "$stack4": "java.lang.String",
+            "$stack5": "java.io.PrintStream",
+            "$stack6": "java.lang.String",
+            "$stack7": "java.io.PrintStream",
+            "$stack8": "int",
+            "$stack9": "java.io.PrintStream"
+        },
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.examplesForReport.property.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+            "<de.fraunhofer.iem.examplesForReport.property.Employee: java.lang.String getFirstName()>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<de.fraunhofer.iem.examplesForReport.property.Employee: java.lang.String getLastName()>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<de.fraunhofer.iem.examplesForReport.property.Employee: int getAge()>",
+            "<java.io.PrintStream: void println(int)>"
+        ]
+    }}
+}

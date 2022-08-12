@@ -1,0 +1,70 @@
+final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function0
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 INSTANCE;
+
+    void <init>()
+    {
+        int varReplacer2612;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1;
+
+        varReplacer2612 = 0;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer2612);
+
+        return;
+    }
+
+    public final void invoke()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer2613;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2613 = "Hello!!! Welcome to Kotlin";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2613);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke()
+    {
+        kotlin.Unit $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1: void invoke()>();
+
+        $stack1 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.noInline.MainKt$main$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

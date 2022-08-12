@@ -1,0 +1,51 @@
+public class de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBound extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBound this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBound;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair createDifferentTypedPair(java.lang.Number, java.lang.Comparable)
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair $stack2;
+        java.lang.Comparable second;
+        java.lang.Number first;
+
+        first := @parameter0: java.lang.Number;
+
+        second := @parameter1: java.lang.Comparable;
+
+        $stack2 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>(first, second);
+
+        return $stack2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair $stack3;
+        java.lang.String[] args;
+        java.lang.Integer $stack2;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(254564);
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MultipleUpperBound: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.Comparable)>($stack2, "Ranjith");
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+}

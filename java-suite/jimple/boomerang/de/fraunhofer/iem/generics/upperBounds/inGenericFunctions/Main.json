@@ -1,0 +1,43 @@
+{
+    "className": "de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main: void <init>()>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)": {
+            "localVariables": {
+                "first": "java.lang.Number",
+                "second": "java.lang.CharSequence"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair"},
+            "invokeExpressions": ["<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer504": "int",
+                "varReplacer505": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.io.PrintStream",
+                "$stack2": "java.lang.Integer",
+                "$stack3": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.Main: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

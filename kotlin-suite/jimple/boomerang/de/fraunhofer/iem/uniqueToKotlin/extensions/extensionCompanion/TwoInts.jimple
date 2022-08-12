@@ -1,0 +1,92 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts extends java.lang.Object
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion;
+    private final int firstNumber;
+    private final int secondNumber;
+
+    public void <init>(int, int)
+    {
+        int firstNumber, secondNumber;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        firstNumber := @parameter0: int;
+
+        secondNumber := @parameter1: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int firstNumber> = firstNumber;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int secondNumber> = secondNumber;
+
+        return;
+    }
+
+    public final int getFirstNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int firstNumber>;
+
+        return $stack1;
+    }
+
+    public final int getSecondNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int secondNumber>;
+
+        return $stack1;
+    }
+
+    public final int add()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts this;
+        int $stack1, $stack2, $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int firstNumber>;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int secondNumber>;
+
+        $stack3 = $stack2 + $stack1;
+
+        return $stack3;
+    }
+
+    static void <clinit>()
+    {
+        null_type varReplacer1366;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        varReplacer1366 = null;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer1366);
+
+        <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion> = $stack0;
+
+        return;
+    }
+}

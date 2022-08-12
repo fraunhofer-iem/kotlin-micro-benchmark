@@ -1,0 +1,81 @@
+public final class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt extends java.lang.Object
+{
+    private static final java.lang.String topLevelInternal;
+
+    public static final java.lang.String getTopLevelInternal()
+    {
+        java.lang.String $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal>;
+
+        return $stack0;
+    }
+
+    public static final void printTopLevelInternal()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String l0;
+
+        nop;
+
+        l0 = <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal>;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(l0);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.String varReplacer918, varReplacer919, varReplacer920;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass $stack1;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass;
+
+        varReplacer918 = "val1";
+
+        varReplacer919 = "val2";
+
+        varReplacer920 = "val3";
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void <init>(java.lang.String,java.lang.String,java.lang.String)>(varReplacer918, varReplacer919, varReplacer920);
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal1()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal3$kotlin_examples()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void main()>();
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.String varReplacer921;
+
+        nop;
+
+        varReplacer921 = "What";
+
+        <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal> = varReplacer921;
+
+        return;
+    }
+}

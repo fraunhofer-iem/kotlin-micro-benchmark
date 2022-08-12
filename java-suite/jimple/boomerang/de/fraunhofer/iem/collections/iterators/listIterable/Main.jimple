@@ -1,0 +1,393 @@
+public class de.fraunhofer.iem.collections.iterators.listIterable.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.collections.iterators.listIterable.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.listIterable.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        java.util.ArrayList $stack2;
+        java.lang.String varReplacer534, varReplacer535, varReplacer536, varReplacer537, varReplacer538, varReplacer539, varReplacer540, varReplacer541, varReplacer542, varReplacer543, varReplacer544, varReplacer545;
+        java.io.PrintStream $stack5, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, $stack13, $stack14;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new java.util.ArrayList;
+
+        specialinvoke $stack2.<java.util.ArrayList: void <init>()>();
+
+        varReplacer539 = "Ranjith";
+
+        interfaceinvoke $stack2.<java.util.List: boolean add(java.lang.Object)>(varReplacer539);
+
+        varReplacer541 = "K";
+
+        interfaceinvoke $stack2.<java.util.List: boolean add(java.lang.Object)>(varReplacer541);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer537 = "***********************************************";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(varReplacer537);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>($stack2);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer534 = "***********************************************";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>(varReplacer534);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void appendSuffix(java.util.List)>($stack2);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer545 = "***********************************************";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>(varReplacer545);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>($stack2);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer543 = "***********************************************";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>(varReplacer543);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer535 = "***********************************************";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.String)>(varReplacer535);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void printBackward(java.util.List)>($stack2);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer540 = "***********************************************";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.String)>(varReplacer540);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void addMarker(java.util.List)>($stack2);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer538 = "***********************************************";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.String)>(varReplacer538);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>($stack2);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer542 = "***********************************************";
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>(varReplacer542);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void removeMarker(java.util.List)>($stack2);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer544 = "***********************************************";
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.String)>(varReplacer544);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.Main: void printForward(java.util.List)>($stack2);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer536 = "***********************************************";
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.String)>(varReplacer536);
+
+        return;
+    }
+
+    private static void appendSuffix(java.util.List)
+    {
+        java.util.ListIterator $stack3;
+        java.util.List lst;
+        java.lang.Object $stack5;
+        java.lang.StringBuilder $stack6, $stack7, $stack8;
+        java.lang.String elem, $stack9, varReplacer546;
+        boolean $stack4;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        nop;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        varReplacer546 = "-MARKER";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer546);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void set(java.lang.Object)>($stack9);
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    private static void printForward(java.util.List)
+    {
+        java.io.PrintStream $stack7;
+        java.util.ListIterator $stack3;
+        java.util.List lst;
+        int $stack11;
+        java.lang.Object $stack5;
+        java.lang.StringBuilder $stack6, $stack8, $stack9, $stack10, $stack12;
+        java.lang.String elem, $stack13, varReplacer547, varReplacer548;
+        boolean $stack4;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        nop;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer547 = "Element = \"";
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer547);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        varReplacer548 = "\"\t:\tNextIndex = ";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer548);
+
+        $stack11 = interfaceinvoke $stack3.<java.util.ListIterator: int nextIndex()>();
+
+        $stack12 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack11);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>($stack13);
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    private static void printBackward(java.util.List)
+    {
+        java.util.ListIterator $stack3;
+        int $stack12;
+        java.lang.String elem, $stack14, varReplacer549, varReplacer550;
+        boolean $stack4, $stack5;
+        java.io.PrintStream $stack8;
+        java.util.List lst;
+        java.lang.Object $stack6;
+        java.lang.StringBuilder $stack7, $stack9, $stack10, $stack11, $stack13;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        nop;
+
+        interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        goto label1;
+
+     label2:
+        nop;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasPrevious()>();
+
+        if $stack5 == 0 goto label3;
+
+        nop;
+
+        $stack6 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object previous()>();
+
+        elem = (java.lang.String) $stack6;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer549 = "Element = \"";
+
+        $stack9 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer549);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        varReplacer550 = "\"\t:\tPreviousIndex = ";
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer550);
+
+        $stack12 = interfaceinvoke $stack3.<java.util.ListIterator: int previousIndex()>();
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>($stack14);
+
+        goto label2;
+
+     label3:
+        nop;
+
+        return;
+    }
+
+    private static void addMarker(java.util.List)
+    {
+        java.util.ListIterator $stack3;
+        java.util.List lst;
+        java.lang.Object $stack5;
+        java.lang.String elem, varReplacer551, varReplacer552;
+        boolean $stack4, $stack6;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label3;
+
+        nop;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        varReplacer551 = "MARKER";
+
+        $stack6 = virtualinvoke elem.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer551);
+
+        if $stack6 != 0 goto label2;
+
+        nop;
+
+        varReplacer552 = "MARKER";
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void add(java.lang.Object)>(varReplacer552);
+
+     label2:
+        nop;
+
+        goto label1;
+
+     label3:
+        nop;
+
+        return;
+    }
+
+    private static void removeMarker(java.util.List)
+    {
+        java.util.List lst;
+        java.util.ListIterator $stack3;
+        java.lang.Object $stack5;
+        java.lang.String elem, varReplacer553;
+        boolean $stack4, $stack6;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label3;
+
+        nop;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        varReplacer553 = "MARKER";
+
+        $stack6 = virtualinvoke elem.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer553);
+
+        if $stack6 == 0 goto label2;
+
+        nop;
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void remove()>();
+
+     label2:
+        nop;
+
+        goto label1;
+
+     label3:
+        nop;
+
+        return;
+    }
+}

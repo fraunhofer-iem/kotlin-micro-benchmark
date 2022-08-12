@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base"},
+        "stackVariables": {},
+        "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+    }}
+}

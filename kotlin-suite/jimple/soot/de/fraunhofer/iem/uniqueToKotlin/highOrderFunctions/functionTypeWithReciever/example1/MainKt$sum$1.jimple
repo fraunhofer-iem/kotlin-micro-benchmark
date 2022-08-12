@@ -1,0 +1,94 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function2
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(2);
+
+        return;
+    }
+
+    public final int invoke(int, int)
+    {
+        java.io.PrintStream $stack11;
+        int $this$null, other, $stack12;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack8, $stack9;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 this;
+        java.lang.String $stack10;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1;
+
+        $this$null := @parameter0: int;
+
+        other := @parameter1: int;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Summing ");
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($this$null);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" and ");
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(other);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        $stack12 = $this$null + other;
+
+        return $stack12;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object, java.lang.Object)
+    {
+        java.lang.Integer $stack8;
+        int $stack4, $stack6, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 this;
+        java.lang.Object p1, p2;
+        java.lang.Number $stack3, $stack5;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        p2 := @parameter1: java.lang.Object;
+
+        $stack3 = (java.lang.Number) p1;
+
+        $stack4 = virtualinvoke $stack3.<java.lang.Number: int intValue()>();
+
+        $stack5 = (java.lang.Number) p2;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.Number: int intValue()>();
+
+        $stack7 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1: int invoke(int,int)>($stack4, $stack6);
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack7);
+
+        return $stack8;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

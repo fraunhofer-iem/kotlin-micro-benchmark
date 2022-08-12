@@ -1,0 +1,73 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 extends java.lang.Object
+{
+    private final java.lang.String greet;
+    private final java.lang.String name;
+
+    void <init>()
+    {
+        java.lang.String varReplacer803, varReplacer804;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer803 = "Hello!!! ";
+
+        this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String greet> = varReplacer803;
+
+        varReplacer804 = "Ranjith";
+
+        this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String name> = varReplacer804;
+
+        return;
+    }
+
+    public final java.lang.String getGreet()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String greet>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public java.lang.String toString()
+    {
+        java.lang.String $stack1, $stack2, $stack3;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1;
+
+        $stack2 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String greet>;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: java.lang.String name>;
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack2, $stack1);
+
+        return $stack3;
+    }
+}

@@ -1,0 +1,42 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog this;
+        java.lang.String DNA;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog;
+
+        DNA := @parameter0: java.lang.String;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>(java.lang.String)>("AAATGTG");
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Bow Bow");
+
+        return;
+    }
+}

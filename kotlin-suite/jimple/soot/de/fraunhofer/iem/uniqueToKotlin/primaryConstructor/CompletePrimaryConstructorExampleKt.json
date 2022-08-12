@@ -1,0 +1,34 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.CompletePrimaryConstructorExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.CompletePrimaryConstructorExampleKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.CompletePrimaryConstructorExampleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: java.lang.String getLastName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: int getAge()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.CompletePrimaryConstructorExampleKt: void main()>"]
+        }
+    }
+}

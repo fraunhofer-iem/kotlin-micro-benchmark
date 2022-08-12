@@ -1,0 +1,85 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void singleLoopBreak(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void doubleLoopBreak(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void doubleLoopSingleBreak(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void singleLoopBreak(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int"
+            },
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "void doubleLoopBreak(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int",
+                "j": "int"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void doubleLoopSingleBreak(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int",
+                "j": "int"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void singleLoopBreak(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void doubleLoopBreak(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaBreak: void doubleLoopSingleBreak(int)>"
+            ]
+        }
+    }
+}

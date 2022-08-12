@@ -1,0 +1,70 @@
+public class de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts this;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public int add(int, int)
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts this;
+        int num1, num2, $stack3;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack3 = num1 + num2;
+
+        return $stack3;
+    }
+
+    private float add10(int, int)
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts this;
+        int num1, num2;
+        float $stack3, $stack4, $stack5, $stack6;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack4 = (float) num1;
+
+        $stack3 = (float) num2;
+
+        $stack5 = $stack4 + $stack3;
+
+        $stack6 = $stack5 + 10.0F;
+
+        return $stack6;
+    }
+
+    public float publicAdd10(int, int)
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts this;
+        int num1, num2;
+        float $stack3;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack3 = specialinvoke this.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float add10(int,int)>(num1, num2);
+
+        return $stack3;
+    }
+}

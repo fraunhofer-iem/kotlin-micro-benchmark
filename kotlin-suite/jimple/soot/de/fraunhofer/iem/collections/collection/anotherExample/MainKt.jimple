@@ -1,0 +1,414 @@
+public final class de.fraunhofer.iem.collections.collection.anotherExample.MainKt extends java.lang.Object
+{
+
+    public static final java.util.Collection propagateCollection(java.util.Collection)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.Collection param;
+
+        param := @parameter0: java.util.Collection;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.Collection propagateMutableCollection(java.util.Collection)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.Collection param;
+
+        param := @parameter0: java.util.Collection;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.List propagateList(java.util.List)
+    {
+        java.io.PrintStream $stack4;
+        java.util.List param;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.List propagateMutableList(java.util.List)
+    {
+        java.io.PrintStream $stack4;
+        java.util.List param;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.Set propagateSet(java.util.Set)
+    {
+        java.io.PrintStream $stack4;
+        java.util.Set param;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.Set;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.Set propagateMutableSet(java.util.Set)
+    {
+        java.io.PrintStream $stack4;
+        java.util.Set param;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.Set;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.Map propagateMap(java.util.Map)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.Map param;
+
+        param := @parameter0: java.util.Map;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.Map propagateMutableMap(java.util.Map)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.Map param;
+
+        param := @parameter0: java.util.Map;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.ArrayList propagateArrayList(java.util.ArrayList)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.ArrayList param;
+
+        param := @parameter0: java.util.ArrayList;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.HashSet propagateHashSet(java.util.HashSet)
+    {
+        java.util.HashSet param;
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.HashSet;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.LinkedHashSet propagateLinkedHashSet(java.util.LinkedHashSet)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        java.util.LinkedHashSet param;
+
+        param := @parameter0: java.util.LinkedHashSet;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.HashMap propagateHashMap(java.util.HashMap)
+    {
+        java.io.PrintStream $stack4;
+        java.util.HashMap param;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.HashMap;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final java.util.LinkedHashMap propagateLinkedHashMap(java.util.LinkedHashMap)
+    {
+        java.util.LinkedHashMap param;
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+
+        param := @parameter0: java.util.LinkedHashMap;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final kotlin.collections.ArrayDeque propagateArrayDeque(kotlin.collections.ArrayDeque)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack3;
+        kotlin.collections.ArrayDeque param;
+
+        param := @parameter0: kotlin.collections.ArrayDeque;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(param, "param");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Returning = ", param);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return param;
+    }
+
+    public static final void main()
+    {
+        kotlin.Pair $stack16, $stack21, $stack32, $stack37;
+        java.util.HashMap $stack33;
+        java.lang.String[] l0;
+        java.lang.Integer $stack15, $stack20, $stack31, $stack36;
+        java.util.ArrayList $stack24;
+        java.util.HashSet $stack26;
+        java.util.LinkedHashMap $stack38;
+        java.util.Map $stack17, $stack22;
+        java.util.LinkedHashSet $stack28;
+        java.util.Collection $stack2, $stack5;
+        kotlin.Pair[] l0#4;
+        java.util.Set $stack11, $stack13;
+        kotlin.collections.ArrayDeque $stack40;
+        java.util.List $stack1, $stack4, $stack7, $stack9;
+
+        $stack1 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object)>("R");
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateCollection(java.util.Collection)>($stack2);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack4 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l0);
+
+        $stack5 = (java.util.Collection) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateMutableCollection(java.util.Collection)>($stack5);
+
+        $stack7 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object)>("R");
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateList(java.util.List)>($stack7);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack9 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateMutableList(java.util.List)>($stack9);
+
+        $stack11 = staticinvoke <kotlin.collections.SetsKt: java.util.Set setOf(java.lang.Object)>("R");
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateSet(java.util.Set)>($stack11);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack13 = staticinvoke <kotlin.collections.SetsKt: java.util.Set mutableSetOf(java.lang.Object[])>(l0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateMutableSet(java.util.Set)>($stack13);
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack16 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>($stack15, "R");
+
+        $stack17 = staticinvoke <kotlin.collections.MapsKt: java.util.Map mapOf(kotlin.Pair)>($stack16);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMap(java.util.Map)>($stack17);
+
+        l0#4 = newarray (kotlin.Pair)[1];
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack21 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>($stack20, "R");
+
+        l0#4[0] = $stack21;
+
+        $stack22 = staticinvoke <kotlin.collections.MapsKt: java.util.Map mutableMapOf(kotlin.Pair[])>(l0#4);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMutableMap(java.util.Map)>($stack22);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack24 = staticinvoke <kotlin.collections.CollectionsKt: java.util.ArrayList arrayListOf(java.lang.Object[])>(l0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.ArrayList propagateArrayList(java.util.ArrayList)>($stack24);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack26 = staticinvoke <kotlin.collections.SetsKt: java.util.HashSet hashSetOf(java.lang.Object[])>(l0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashSet propagateHashSet(java.util.HashSet)>($stack26);
+
+        l0 = newarray (java.lang.String)[1];
+
+        l0[0] = "R";
+
+        $stack28 = staticinvoke <kotlin.collections.SetsKt: java.util.LinkedHashSet linkedSetOf(java.lang.Object[])>(l0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashSet propagateLinkedHashSet(java.util.LinkedHashSet)>($stack28);
+
+        l0#4 = newarray (kotlin.Pair)[1];
+
+        $stack31 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack32 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>($stack31, "R");
+
+        l0#4[0] = $stack32;
+
+        $stack33 = staticinvoke <kotlin.collections.MapsKt: java.util.HashMap hashMapOf(kotlin.Pair[])>(l0#4);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashMap propagateHashMap(java.util.HashMap)>($stack33);
+
+        l0#4 = newarray (kotlin.Pair)[1];
+
+        $stack36 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack37 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>($stack36, "R");
+
+        l0#4[0] = $stack37;
+
+        $stack38 = staticinvoke <kotlin.collections.MapsKt: java.util.LinkedHashMap linkedMapOf(kotlin.Pair[])>(l0#4);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashMap propagateLinkedHashMap(java.util.LinkedHashMap)>($stack38);
+
+        $stack40 = new kotlin.collections.ArrayDeque;
+
+        specialinvoke $stack40.<kotlin.collections.ArrayDeque: void <init>(int)>(0);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: kotlin.collections.ArrayDeque propagateArrayDeque(kotlin.collections.ArrayDeque)>($stack40);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.anotherExample.MainKt: void main()>();
+
+        return;
+    }
+}

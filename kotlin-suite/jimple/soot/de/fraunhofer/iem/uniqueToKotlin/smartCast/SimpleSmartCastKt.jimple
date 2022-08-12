@@ -1,0 +1,122 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.smartCast.SimpleSmartCastKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.CharSequence $stack1;
+        java.lang.Double $stack0;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SimpleSmartCastKt: void displayLength(java.lang.Object)>("Ranjith");
+
+        $stack0 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(542.54);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SimpleSmartCastKt: void displayLength(java.lang.Object)>($stack0);
+
+        $stack1 = (java.lang.CharSequence) "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SimpleSmartCastKt: void isString(java.lang.CharSequence)>($stack1);
+
+        return;
+    }
+
+    public static final void displayLength(java.lang.Object)
+    {
+        java.io.PrintStream $stack4, $stack10;
+        java.lang.Integer $stack8;
+        int $stack7;
+        java.lang.Object ob;
+        java.lang.String $stack5, $stack9;
+        boolean $stack3;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = ob instanceof java.lang.String;
+
+        if $stack3 == 0 goto label1;
+
+        $stack5 = (java.lang.String) ob;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.String: int length()>();
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack7);
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Length = ", $stack8);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        return;
+
+     label1:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Length = -1");
+
+        return;
+    }
+
+    public static final void isString(java.lang.CharSequence)
+    {
+        java.io.PrintStream $stack9, $stack14;
+        java.lang.CharSequence ob;
+        int $stack5;
+        java.lang.StringBuilder $stack4, $stack6, $stack7, $stack10, $stack11, $stack12;
+        java.lang.String $stack8, $stack13;
+        boolean $stack3;
+
+        ob := @parameter0: java.lang.CharSequence;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = ob instanceof java.lang.String;
+
+        if $stack3 != 0 goto label1;
+
+        $stack10 = new java.lang.StringBuilder;
+
+        specialinvoke $stack10.<java.lang.StringBuilder: void <init>()>();
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(ob);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" is not String");
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+     label1:
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = interfaceinvoke ob.<java.lang.CharSequence: int length()>();
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack5);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" is String");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SimpleSmartCastKt: void main()>();
+
+        return;
+    }
+}

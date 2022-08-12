@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt: void main()>"]
+        }
+    }
+}

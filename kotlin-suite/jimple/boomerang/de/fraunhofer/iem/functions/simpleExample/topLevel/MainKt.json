@@ -1,0 +1,94 @@
+{
+    "className": "de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int add(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: float add10(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int sub(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int add(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {"$stack2": "int"},
+            "invokeExpressions": []
+        },
+        "float add10(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {
+                "$stack2": "float",
+                "$stack3": "float",
+                "$stack4": "float",
+                "$stack5": "float",
+                "$stack6": "float"
+            },
+            "invokeExpressions": []
+        },
+        "int sub(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {"$stack2": "int"},
+            "invokeExpressions": []
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer1164": "int",
+                "varReplacer1165": "int",
+                "varReplacer1166": "int",
+                "varReplacer1167": "int",
+                "varReplacer1168": "int",
+                "varReplacer1169": "int",
+                "varReplacer1170": "int",
+                "varReplacer1171": "int",
+                "varReplacer1172": "int",
+                "varReplacer1173": "int",
+                "varReplacer1174": "int",
+                "varReplacer1175": "int"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "float",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "float",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int",
+                "$stack13": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int add(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: float add10(int,int)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int add(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: float add10(int,int)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int sub(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: int sub(int,int)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.simpleExample.topLevel.MainKt: void main()>"]
+        }
+    }
+}

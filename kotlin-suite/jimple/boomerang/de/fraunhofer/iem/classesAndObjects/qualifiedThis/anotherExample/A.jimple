@@ -1,0 +1,36 @@
+public final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A extends java.lang.Object
+{
+    private final java.lang.String aName;
+
+    public void <init>()
+    {
+        java.lang.String varReplacer1055;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer1055 = "A";
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: java.lang.String aName> = varReplacer1055;
+
+        return;
+    }
+
+    public static final java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A $this;
+
+        nop;
+
+        $this := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A;
+
+        $stack1 = $this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: java.lang.String aName>;
+
+        return $stack1;
+    }
+}

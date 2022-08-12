@@ -1,0 +1,254 @@
+{
+    "className": "de.fraunhofer.iem.collections.collection.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 16,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.List getMyName()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void setMyName(java.util.List)>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void main()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.List getList()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.ArrayList getArrayList()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: kotlin.collections.ArrayDeque getArrayDeque()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.Set getSet()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.HashSet getHashSet()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashSet getLinkedHashSet()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.Map getMap()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.HashMap getHashMap()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashMap getLinkedHashMap()>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.collections.collection.MainKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "java.util.List getMyName()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.util.List"},
+            "invokeExpressions": []
+        },
+        "void setMyName(java.util.List)": {
+            "localVariables": {"<set-?>": "java.util.List"},
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void printMyCollection(java.util.Collection)": {
+            "localVariables": {
+                "collection": "java.util.Collection",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void printMyMap(java.util.Map)": {
+            "localVariables": {
+                "map": "java.util.Map",
+                "value": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack7": "java.util.Set",
+                "$stack8": "java.util.Iterator",
+                "$stack9": "boolean",
+                "$stack10": "java.lang.Object",
+                "$stack11": "java.lang.Object",
+                "$stack12": "java.lang.Number",
+                "$stack13": "int",
+                "$stack14": "java.lang.Object",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "java.lang.StringBuilder",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.io.PrintStream",
+                "l2": "java.util.Map$Entry"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Map: java.util.Set entrySet()>",
+                "<java.util.Set: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.util.Map$Entry: java.lang.Object getKey()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.util.Map$Entry: java.lang.Object getValue()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.List",
+                "$stack1": "java.util.Collection",
+                "$stack2": "java.util.ArrayList",
+                "$stack3": "java.util.Collection",
+                "$stack4": "kotlin.collections.ArrayDeque",
+                "$stack5": "java.util.Collection",
+                "$stack6": "java.util.Set",
+                "$stack7": "java.util.Collection",
+                "$stack8": "java.util.HashSet",
+                "$stack9": "java.util.Collection",
+                "$stack10": "java.util.LinkedHashSet",
+                "$stack11": "java.util.Collection",
+                "$stack12": "java.util.Map",
+                "$stack13": "java.util.HashMap",
+                "$stack14": "java.util.Map",
+                "$stack15": "java.util.LinkedHashMap",
+                "$stack16": "java.util.Map"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.List getList()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.ArrayList getArrayList()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: kotlin.collections.ArrayDeque getArrayDeque()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.Set getSet()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.HashSet getHashSet()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashSet getLinkedHashSet()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.Map getMap()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.HashMap getHashMap()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashMap getLinkedHashMap()>",
+                "<de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>"
+            ]
+        },
+        "java.util.List getList()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayList",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection",
+                "$stack3": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.ArrayList: void <init>(java.util.Collection)>"]
+        },
+        "java.util.ArrayList getArrayList()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayList",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection"
+            },
+            "invokeExpressions": ["<java.util.ArrayList: void <init>(java.util.Collection)>"]
+        },
+        "kotlin.collections.ArrayDeque getArrayDeque()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "kotlin.collections.ArrayDeque",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection"
+            },
+            "invokeExpressions": ["<kotlin.collections.ArrayDeque: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Set getSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.HashSet",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection",
+                "$stack3": "java.util.Set"
+            },
+            "invokeExpressions": ["<java.util.HashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.HashSet getHashSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.HashSet",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection"
+            },
+            "invokeExpressions": ["<java.util.HashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.LinkedHashSet getLinkedHashSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.LinkedHashSet",
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection"
+            },
+            "invokeExpressions": ["<java.util.LinkedHashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Map getMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack5": "java.util.HashMap",
+                "$stack6": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "$stack10": "java.util.Map",
+                "l1": "java.util.Map"
+            },
+            "invokeExpressions": [
+                "<java.util.HashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.util.HashMap getHashMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack5": "java.util.HashMap",
+                "$stack6": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "l1": "java.util.Map"
+            },
+            "invokeExpressions": [
+                "<java.util.HashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.util.LinkedHashMap getLinkedHashMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack5": "java.util.LinkedHashMap",
+                "$stack6": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "l1": "java.util.Map"
+            },
+            "invokeExpressions": [
+                "<java.util.LinkedHashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.collection.MainKt: void main()>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l0": "java.lang.String[]",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>"]
+        }
+    }
+}

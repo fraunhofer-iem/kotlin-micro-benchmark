@@ -1,0 +1,83 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt extends java.lang.Object
+{
+
+    public static final void printEmployeeInformation(de.fraunhofer.iem.examplesForReport.extensions.function.Employee, java.lang.String)
+    {
+        java.lang.Integer $stack12;
+        int $stack11;
+        java.lang.String date, $stack4, $stack7, $stack8, $stack13, varReplacer1324, varReplacer1325, varReplacer1326, varReplacer1327, varReplacer1328;
+        java.io.PrintStream $stack5, $stack9, $stack14;
+        de.fraunhofer.iem.examplesForReport.extensions.function.Employee $this$printEmployeeInformation;
+
+        nop;
+
+        $this$printEmployeeInformation := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.function.Employee;
+
+        date := @parameter1: java.lang.String;
+
+        varReplacer1328 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printEmployeeInformation, varReplacer1328);
+
+        varReplacer1327 = "date";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(date, varReplacer1327);
+
+        varReplacer1325 = "Date = ";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1325, date);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack7 = virtualinvoke $this$printEmployeeInformation.<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: java.lang.String getFirstName()>();
+
+        varReplacer1326 = "Employee first name is = ";
+
+        $stack8 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1326, $stack7);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack11 = virtualinvoke $this$printEmployeeInformation.<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: int getAge()>();
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack11);
+
+        varReplacer1324 = "Employee first age is = ";
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1324, $stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.function.Employee $stack1;
+        int varReplacer1331;
+        java.lang.String varReplacer1329, varReplacer1330, varReplacer1332;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.examplesForReport.extensions.function.Employee;
+
+        varReplacer1329 = "Night";
+
+        varReplacer1330 = "Fury";
+
+        varReplacer1331 = 120;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer1329, varReplacer1330, varReplacer1331);
+
+        varReplacer1332 = "04-11-2021";
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt: void printEmployeeInformation(de.fraunhofer.iem.examplesForReport.extensions.function.Employee,java.lang.String)>($stack1, varReplacer1332);
+
+        return;
+    }
+}

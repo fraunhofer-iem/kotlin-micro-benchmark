@@ -1,0 +1,75 @@
+public class de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee extends java.lang.Object
+{
+    private final java.lang.String fullName;
+    private int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        int age;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee this;
+        java.lang.String fullName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, "fullName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public void sayHello()
+    {
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee;
+
+        return;
+    }
+}

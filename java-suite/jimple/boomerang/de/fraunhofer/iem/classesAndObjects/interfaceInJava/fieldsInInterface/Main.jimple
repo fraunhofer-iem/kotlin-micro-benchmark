@@ -1,0 +1,52 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car $stack2;
+        java.lang.String[] args;
+        java.lang.String $stack3, varReplacer427, varReplacer428, varReplacer429;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car;
+
+        varReplacer428 = "ABC";
+
+        varReplacer429 = "1234ADFR";
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: void <init>(java.lang.String,java.lang.String)>(varReplacer428, varReplacer429);
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: void start()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: java.lang.String modelNumber>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer427 = "Its Interface vehicle registration number";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(varReplacer427);
+
+        return;
+    }
+}

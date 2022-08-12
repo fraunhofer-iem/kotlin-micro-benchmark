@@ -1,0 +1,105 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+    "superClass": "java.lang.Enum",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: int getPrice()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void print()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[] values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu valueOf(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[] $values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+                "price": "int"
+            },
+            "stackVariables": {
+                "$enum$name": "java.lang.String",
+                "$enum$ordinal": "int"
+            },
+            "invokeExpressions": ["<java.lang.Enum: void <init>(java.lang.String,int)>"]
+        },
+        "int getPrice()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void print()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[] values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[]",
+                "$stack1": "java.lang.Object",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.Object clone()>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu valueOf(java.lang.String)": {
+            "localVariables": {"value": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.Enum",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu"
+            },
+            "invokeExpressions": ["<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[] $values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l0": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[]",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu"
+            },
+            "invokeExpressions": []
+        },
+        "void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+                "price": "int"
+            },
+            "stackVariables": {
+                "$enum$name": "java.lang.String",
+                "$enum$ordinal": "int",
+                "$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {
+                "varReplacer625": "java.lang.String",
+                "varReplacer626": "int",
+                "varReplacer627": "java.lang.String",
+                "varReplacer628": "int",
+                "varReplacer629": "java.lang.String",
+                "varReplacer630": "int",
+                "varReplacer631": "java.lang.String",
+                "varReplacer632": "int"
+            },
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_GRAVY",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$EGG_OMELET",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[]"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_GRAVY: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$EGG_OMELET: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu[] $values()>"
+            ]
+        }
+    }
+}

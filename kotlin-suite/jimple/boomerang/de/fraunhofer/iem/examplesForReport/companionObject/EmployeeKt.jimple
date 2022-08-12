@@ -1,0 +1,39 @@
+public final class de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt extends java.lang.Object
+{
+
+    public static final void test(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator temp;
+        java.lang.String $stack3, varReplacer1275;
+
+        nop;
+
+        temp := @parameter0: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        varReplacer1275 = "temp";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(temp, varReplacer1275);
+
+        $stack3 = virtualinvoke temp.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHello()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void print(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.companionObject.Employee: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator MessageCreator>;
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt: void test(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>($stack0);
+
+        return;
+    }
+}

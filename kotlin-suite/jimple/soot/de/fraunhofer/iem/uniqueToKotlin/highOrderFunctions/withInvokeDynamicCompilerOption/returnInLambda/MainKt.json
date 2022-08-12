@@ -1,0 +1,66 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String main$lambda-0(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String main$lambda-1(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "kotlin.jvm.functions.Function1",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "kotlin.jvm.functions.Function1",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt$main_lambda-0__12: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt$main_lambda-1__13: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String printName(kotlin.jvm.functions.Function1)": {
+            "localVariables": {"printer": "kotlin.jvm.functions.Function1"},
+            "stackVariables": {
+                "$stack1": "java.lang.Object",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: void main()>"]
+        },
+        "java.lang.String main$lambda-0(java.lang.String)": {
+            "localVariables": {"it": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String main$lambda-1(java.lang.String)": {
+            "localVariables": {"it": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

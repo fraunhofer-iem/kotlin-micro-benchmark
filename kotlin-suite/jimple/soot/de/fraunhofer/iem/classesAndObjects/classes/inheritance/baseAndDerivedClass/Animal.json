@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void makeNoise()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void displayDNA()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "DNA": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "void makeNoise()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void displayDNA()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

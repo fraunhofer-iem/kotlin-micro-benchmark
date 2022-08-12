@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.examplesForReport.internal.Employee extends java.lang.Object
+{
+    private final java.lang.String firstName;
+    private final java.lang.String lastName;
+    private int age;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+        int age;
+        java.lang.String firstName, lastName, varReplacer1420, varReplacer1421;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1420 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1420);
+
+        varReplacer1421 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1421);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.examplesForReport.internal.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final int getAge$kotlin_suite()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.internal.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge$kotlin_suite(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.internal.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public final void printInfo$kotlin_suite(java.lang.Exception)
+    {
+        de.fraunhofer.iem.examplesForReport.internal.Employee this;
+        java.lang.String varReplacer1422;
+        java.lang.Exception ex;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.internal.Employee;
+
+        ex := @parameter0: java.lang.Exception;
+
+        varReplacer1422 = "ex";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ex, varReplacer1422);
+
+        return;
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>"
+            ]
+        },
+        "void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)": {
+            "localVariables": {"menu": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu"},
+            "stackVariables": {
+                "$stack5": "int[]",
+                "$stack6": "int",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "int",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack19": "java.lang.StringBuilder",
+                "$stack20": "java.lang.StringBuilder",
+                "$stack21": "int",
+                "$stack22": "java.lang.StringBuilder",
+                "$stack23": "java.lang.String",
+                "$stack24": "java.io.PrintStream",
+                "$stack26": "java.lang.StringBuilder",
+                "$stack27": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack28": "java.lang.StringBuilder",
+                "$stack29": "java.lang.StringBuilder",
+                "$stack30": "int",
+                "$stack31": "java.lang.StringBuilder",
+                "$stack32": "java.lang.String",
+                "$stack33": "java.io.PrintStream",
+                "$stack35": "java.lang.StringBuilder",
+                "$stack36": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack37": "java.lang.StringBuilder",
+                "$stack38": "java.lang.StringBuilder",
+                "$stack39": "int",
+                "$stack40": "java.lang.StringBuilder",
+                "$stack41": "java.lang.String",
+                "$stack42": "java.io.PrintStream",
+                "$stack43": "int",
+                "$u0": "java.lang.StringBuilder",
+                "$u1": "java.lang.StringBuilder",
+                "$u2": "java.lang.StringBuilder",
+                "$u3": "java.lang.StringBuilder",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Enum: int ordinal()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void main()>"]
+        }
+    }
+}

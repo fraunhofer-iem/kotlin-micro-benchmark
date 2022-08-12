@@ -1,0 +1,49 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function1"],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: void <init>(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: int invoke(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: java.lang.Object invoke(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1",
+                "varReplacer2552": "int"
+            },
+            "stackVariables": {"$a": "int"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "int invoke(int)": {
+            "localVariables": {
+                "b": "int",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": []
+        },
+        "java.lang.Object invoke(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1",
+                "p1": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.Number",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.Number: int intValue()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: int invoke(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+            ]
+        }
+    }
+}

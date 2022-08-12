@@ -1,0 +1,39 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>"
+            ]
+        },
+        "void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)": {
+            "localVariables": {"userNamePrinter": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter: void print()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void main()>"]
+        }
+    }
+}

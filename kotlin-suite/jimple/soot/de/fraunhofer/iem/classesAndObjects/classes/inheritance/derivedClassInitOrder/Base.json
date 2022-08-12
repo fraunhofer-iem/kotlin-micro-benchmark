@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: java.lang.String getName()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: int getSize()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base"
+            },
+            "stackVariables": {
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.String",
+                "$stack13": "int",
+                "$stack15": "java.lang.Integer",
+                "$stack16": "java.lang.String",
+                "$stack17": "java.io.PrintStream",
+                "l10": "kotlin.Unit"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getSize()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        }
+    }
+}

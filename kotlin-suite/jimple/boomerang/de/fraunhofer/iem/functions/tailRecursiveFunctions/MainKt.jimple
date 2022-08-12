@@ -1,0 +1,169 @@
+public final class de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt extends java.lang.Object
+{
+    public static final double eps;
+
+    public static final double findFixPoint(double)
+    {
+        byte $stack11;
+        int $i0;
+        double x, $stack9, $stack10, $stack17, l2;
+
+        nop;
+
+        x := @parameter0: double;
+
+        l2 = x;
+
+     label1:
+        $stack9 = staticinvoke <java.lang.Math: double cos(double)>(l2);
+
+        $stack17 = l2 - $stack9;
+
+        $stack10 = staticinvoke <java.lang.Math: double abs(double)>($stack17);
+
+        $stack11 = $stack10 cmpg 1.0E-10;
+
+        $i0 = (int) $stack11;
+
+        if $i0 >= 0 goto label2;
+
+        nop;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        l2 = staticinvoke <java.lang.Math: double cos(double)>(l2);
+
+        goto label1;
+
+     label3:
+        return l2;
+    }
+
+    public static final java.lang.String recPrint(java.lang.String, java.lang.String, int)
+    {
+        int count, l5, varReplacer1936, varReplacer1940;
+        java.lang.String name, greet, $stack16, $stack26, l3, l4, varReplacer1937, varReplacer1938, varReplacer1939;
+        java.io.PrintStream $stack17;
+        java.lang.StringBuilder $stack11, $stack12, $stack13, $stack14, $stack15, $stack22, $stack23, $stack24, $stack25;
+
+        nop;
+
+        name := @parameter0: java.lang.String;
+
+        greet := @parameter1: java.lang.String;
+
+        count := @parameter2: int;
+
+        varReplacer1937 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer1937);
+
+        varReplacer1938 = "greet";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(greet, varReplacer1938);
+
+        l3 = name;
+
+        l4 = greet;
+
+        l5 = count;
+
+     label1:
+        if l5 != 0 goto label2;
+
+        nop;
+
+        $stack22 = new java.lang.StringBuilder;
+
+        specialinvoke $stack22.<java.lang.StringBuilder: void <init>()>();
+
+        $stack23 = virtualinvoke $stack22.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(greet);
+
+        varReplacer1940 = 32;
+
+        $stack24 = virtualinvoke $stack23.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1940);
+
+        $stack25 = virtualinvoke $stack24.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        $stack26 = virtualinvoke $stack25.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack26;
+
+     label2:
+        nop;
+
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1939 = "Inside tailrec = ";
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1939);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(greet);
+
+        varReplacer1936 = 32;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1936);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        l5 = l5 - 1;
+
+        goto label1;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack6;
+        int varReplacer1944;
+        java.lang.String $stack5, varReplacer1942, varReplacer1943;
+        double $stack3, varReplacer1941;
+
+        nop;
+
+        varReplacer1941 = 20.0;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: double findFixPoint(double)>(varReplacer1941);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(double)>($stack3);
+
+        varReplacer1942 = "Ranjith";
+
+        varReplacer1943 = "Hello";
+
+        varReplacer1944 = 10;
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: java.lang.String recPrint(java.lang.String,java.lang.String,int)>(varReplacer1942, varReplacer1943, varReplacer1944);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.tailRecursiveFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

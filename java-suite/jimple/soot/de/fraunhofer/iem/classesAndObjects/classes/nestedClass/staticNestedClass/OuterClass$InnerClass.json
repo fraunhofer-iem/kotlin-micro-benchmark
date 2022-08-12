@@ -1,0 +1,31 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: void printAll()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printAll()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass)": {
+            "localVariables": {"x0": "de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        }
+    }
+}

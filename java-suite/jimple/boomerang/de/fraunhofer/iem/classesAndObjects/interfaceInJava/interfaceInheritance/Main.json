@@ -1,0 +1,27 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Main: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void crawl()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void walk()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void run()>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt extends java.lang.Object
+{
+
+    public static final void customSender(de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter, de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter $this$customSender;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee emp;
+        java.lang.String varReplacer1355, varReplacer1356;
+
+        nop;
+
+        $this$customSender := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        emp := @parameter1: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        varReplacer1356 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$customSender, varReplacer1356);
+
+        varReplacer1355 = "emp";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(emp, varReplacer1355);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(emp);
+
+        return;
+    }
+
+    public static final void entry1()
+    {
+        kotlin.jvm.functions.Function1 $stack5, $stack9;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender $stack2, $stack6;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter $stack1;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$2 $stack7;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$1 $stack3;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee $stack4, $stack8;
+        int varReplacer1358, varReplacer1360;
+        java.lang.String varReplacer1357, varReplacer1359;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter: void <init>()>();
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void <init>()>();
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$1;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$1: void <init>(de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter)>($stack1);
+
+        $stack5 = (kotlin.jvm.functions.Function1) $stack3;
+
+        $stack4 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        varReplacer1357 = "Night Fury";
+
+        varReplacer1358 = 120;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>(varReplacer1357, varReplacer1358);
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void send(kotlin.jvm.functions.Function1,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>($stack5, $stack4);
+
+        $stack6 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void <init>()>();
+
+        $stack7 = <de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$2: de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$2 INSTANCE>;
+
+        $stack9 = (kotlin.jvm.functions.Function1) $stack7;
+
+        $stack8 = new de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        varReplacer1359 = "Night Fury";
+
+        varReplacer1360 = 120;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>(varReplacer1359, varReplacer1360);
+
+        virtualinvoke $stack6.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void send(kotlin.jvm.functions.Function1,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>($stack9, $stack8);
+
+        return;
+    }
+
+    private static final void entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee emp;
+
+        nop;
+
+        emp := @parameter0: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(emp);
+
+        return;
+    }
+
+    public static final void access$entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee emp;
+
+        nop;
+
+        emp := @parameter0: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>(emp);
+
+        return;
+    }
+}

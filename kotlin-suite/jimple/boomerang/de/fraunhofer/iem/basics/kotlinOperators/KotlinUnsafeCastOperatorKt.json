@@ -1,0 +1,76 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer460": "int",
+                "varReplacer461": "null_type",
+                "varReplacer462": "null_type",
+                "varReplacer463": "int",
+                "varReplacer464": "java.lang.String",
+                "varReplacer465": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack0": "java.lang.Integer",
+                "$stack1": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>"
+            ]
+        },
+        "void dummy1(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "temp": "java.lang.String",
+                "varReplacer466": "java.lang.String",
+                "varReplacer467": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.NullPointerException"
+            },
+            "invokeExpressions": [
+                "<java.lang.NullPointerException: void <init>(java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void dummy2(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "temp": "java.lang.String",
+                "varReplacer468": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void main()>"]
+        }
+    }
+}

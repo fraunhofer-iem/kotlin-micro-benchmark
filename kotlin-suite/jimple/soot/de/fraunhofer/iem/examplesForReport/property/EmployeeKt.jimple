@@ -1,0 +1,35 @@
+public final class de.fraunhofer.iem.examplesForReport.property.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack5, $stack7, $stack9;
+        int $stack8;
+        java.lang.String $stack4, $stack6;
+        de.fraunhofer.iem.examplesForReport.property.Employee $stack3;
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.property.Employee;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.property.Employee: void <init>(java.lang.String,java.lang.String,int)>("Night", "Fury", 120);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.property.Employee: java.lang.String getFirstName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.property.Employee: java.lang.String getLastName()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.property.Employee: int getAge()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        return;
+    }
+}

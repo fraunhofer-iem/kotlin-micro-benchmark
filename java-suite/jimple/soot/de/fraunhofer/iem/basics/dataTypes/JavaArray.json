@@ -1,0 +1,71 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.JavaArray",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.JavaArray: void <init>()>",
+        "<de.fraunhofer.iem.basics.dataTypes.JavaArray: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.dataTypes.JavaArray"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "elem": "java.lang.Integer",
+                "args": "java.lang.String[]"
+            },
+            "stackVariables": {
+                "$stack9": "java.lang.Object[]",
+                "$stack11": "java.lang.Integer",
+                "$stack13": "java.lang.Character",
+                "$stack15": "java.lang.Double",
+                "$stack17": "java.lang.Float",
+                "$stack19": "java.lang.Long",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "int[]",
+                "$stack22": "java.io.PrintStream",
+                "$stack23": "char[]",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "java.lang.Integer[]",
+                "$stack27": "java.lang.Integer",
+                "$stack29": "java.lang.Integer",
+                "$stack31": "java.lang.Integer",
+                "$stack33": "java.lang.Integer",
+                "$stack35": "java.lang.Integer",
+                "$stack37": "java.lang.Integer",
+                "$stack39": "java.lang.Integer",
+                "$stack41": "java.lang.Integer",
+                "$stack43": "java.lang.Integer",
+                "$stack45": "java.lang.Integer",
+                "l6": "int",
+                "$stack46": "java.io.PrintStream",
+                "l7": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Character: java.lang.Character valueOf(char)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.lang.Float: java.lang.Float valueOf(float)>",
+                "<java.lang.Long: java.lang.Long valueOf(long)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(char[])>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

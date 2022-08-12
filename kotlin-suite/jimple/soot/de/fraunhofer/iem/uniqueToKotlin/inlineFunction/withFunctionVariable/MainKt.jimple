@@ -1,0 +1,103 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt extends java.lang.Object
+{
+
+    public static final void log(kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function1)
+    {
+        java.io.PrintStream $stack6, $stack8, $stack9, $stack17;
+        kotlin.jvm.functions.Function1 func2;
+        kotlin.jvm.functions.Function0 func1;
+        java.lang.Integer $stack10, $stack15;
+        int $stack13;
+        java.lang.Object $stack11;
+        java.lang.String $stack16;
+        java.lang.Number $stack12;
+
+        func1 := @parameter0: kotlin.jvm.functions.Function0;
+
+        func2 := @parameter1: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func1, "func1");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func2, "func2");
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>("Executing func1");
+
+        interfaceinvoke func1.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("Completed Executing func1");
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>("Executing func2");
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack11 = interfaceinvoke func2.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack10);
+
+        $stack12 = (java.lang.Number) $stack11;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Number: int intValue()>();
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+        $stack16 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Completed Executing func2 = ", $stack15);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt$main$func1$1 $stack6;
+        java.io.PrintStream $stack7, $stack9, $stack10, $stack14;
+        kotlin.jvm.functions.Function0 func1;
+        java.lang.Integer $stack12;
+        java.lang.String $stack13;
+
+        $stack6 = <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt$main$func1$1: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt$main$func1$1 INSTANCE>;
+
+        func1 = (kotlin.jvm.functions.Function0) $stack6;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("Executing func1");
+
+        interfaceinvoke func1.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>("Completed Executing func1");
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>("Executing func2");
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1000);
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Completed Executing func2 = ", $stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt: void main()>();
+
+        return;
+    }
+}

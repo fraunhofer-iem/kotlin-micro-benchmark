@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer0": "int",
+                "varReplacer1": "int",
+                "varReplacer2": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>"
+            ]
+        },
+        "void doWhileExample(int)": {
+            "localVariables": {"end": "int"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        }
+    }
+}

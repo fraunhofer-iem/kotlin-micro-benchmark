@@ -1,0 +1,63 @@
+{
+    "className": "de.fraunhofer.iem.functions.simpleExample.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.simpleExample.Main: void <init>()>",
+        "<de.fraunhofer.iem.functions.simpleExample.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>",
+        "<de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.simpleExample.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack1": "java.io.PrintStream",
+                "$stack2": "int",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "float",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "float"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>",
+                "<java.io.PrintStream: void println(float)>"
+            ]
+        },
+        "int add(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {"$stack2": "int"},
+            "invokeExpressions": []
+        },
+        "float add10(int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int"
+            },
+            "stackVariables": {
+                "$stack2": "float",
+                "$stack3": "float",
+                "$stack4": "float",
+                "$stack5": "float"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

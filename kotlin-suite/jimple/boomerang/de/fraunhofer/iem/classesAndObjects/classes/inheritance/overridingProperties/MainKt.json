@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer599": "java.lang.String",
+                "varReplacer600": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)>"
+            ]
+        },
+        "void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)": {
+            "localVariables": {"base": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "int",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "char",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: java.lang.String getProp()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: int getNum()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: char getCh()>",
+                "<java.io.PrintStream: void println(char)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+class de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1 extends java.util.ArrayList
+{
+
+    void <init>()
+    {
+        java.lang.String varReplacer525, varReplacer526;
+        de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1;
+
+        specialinvoke this.<java.util.ArrayList: void <init>()>();
+
+        varReplacer525 = "Ranjith";
+
+        virtualinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1: boolean add(java.lang.Object)>(varReplacer525);
+
+        varReplacer526 = "K";
+
+        virtualinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1: boolean add(java.lang.Object)>(varReplacer526);
+
+        return;
+    }
+}

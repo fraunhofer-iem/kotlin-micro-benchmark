@@ -1,0 +1,87 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+    "superClass": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void <init>(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getSecondNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int add()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int mul()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void myExt(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>"
+    ],
+    "methodsInformation": {
+        "void <init>(int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "firstNumber": "int",
+                "secondNumber": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects: void <init>()>"]
+        },
+        "int getFirstNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "int getSecondNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "int add()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": []
+        },
+        "int mul()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": []
+        },
+        "void myExt(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "varReplacer1381": "java.lang.String",
+                "varReplacer1382": "int",
+                "varReplacer1383": "int",
+                "varReplacer1384": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$myExt": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

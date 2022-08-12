@@ -1,0 +1,58 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String DNA, varReplacer556;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse;
+
+        DNA := @parameter0: java.lang.String;
+
+        varReplacer556 = "DNA";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, varReplacer556);
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void <init>()
+    {
+        java.lang.String varReplacer557;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse;
+
+        varReplacer557 = "GGAAACT";
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse: void <init>(java.lang.String)>(varReplacer557);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer558;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer558 = "Neigh";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer558);
+
+        return;
+    }
+}

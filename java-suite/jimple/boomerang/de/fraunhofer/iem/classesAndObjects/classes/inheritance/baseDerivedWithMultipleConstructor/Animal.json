@@ -1,0 +1,46 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void makeNoise()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void displayDNA()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal",
+                "DNA": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal",
+                "varReplacer304": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void makeNoise()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal",
+                "varReplacer305": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void displayDNA()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

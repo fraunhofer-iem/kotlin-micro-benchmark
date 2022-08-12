@@ -1,0 +1,60 @@
+public class de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression extends java.lang.Object implements java.lang.Iterable, kotlin.jvm.internal.markers.KMappedMarker
+{
+    private final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start;
+    private final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive;
+    private final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt step;
+
+    public void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt, de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt, de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start, endInclusive, step;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression;
+
+        start := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        endInclusive := @parameter1: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        step := @parameter2: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(start, "start");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(endInclusive, "endInclusive");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(step, "step");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start> = start;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive> = endInclusive;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt step> = step;
+
+        return;
+    }
+
+    public java.util.Iterator iterator()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack2, $stack3, $stack4;
+        java.util.Iterator $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression this;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgressionIterator $stack1;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgressionIterator;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start>;
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive>;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt step>;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgressionIterator: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>($stack4, $stack3, $stack2);
+
+        $stack5 = (java.util.Iterator) $stack1;
+
+        return $stack5;
+    }
+}

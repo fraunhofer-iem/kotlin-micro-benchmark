@@ -1,0 +1,45 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4: void <init>(java.lang.String,int,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4: void print()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4",
+                "price": "int",
+                "varReplacer355": "null_type"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1)>"]
+        },
+        "void print()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4",
+                "varReplacer356": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "int",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

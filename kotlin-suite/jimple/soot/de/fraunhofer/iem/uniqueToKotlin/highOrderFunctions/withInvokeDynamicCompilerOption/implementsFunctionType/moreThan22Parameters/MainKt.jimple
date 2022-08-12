@@ -1,0 +1,147 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.implementsFunctionType.moreThan22Parameters.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack7;
+        java.lang.Object[] l1;
+        java.lang.Object $stack4, $stack6;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.implementsFunctionType.moreThan22Parameters.NamePrinter $stack3;
+        kotlin.jvm.functions.FunctionN namePrinter;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.implementsFunctionType.moreThan22Parameters.NamePrinter;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.implementsFunctionType.moreThan22Parameters.NamePrinter: void <init>()>();
+
+        namePrinter = (kotlin.jvm.functions.FunctionN) $stack3;
+
+        l1 = newarray (java.lang.Object)[25];
+
+        l1[0] = "Ranjith";
+
+        l1[1] = "Ranjith";
+
+        l1[2] = "Ranjith";
+
+        l1[3] = "Ranjith";
+
+        l1[4] = "Ranjith";
+
+        l1[5] = "Ranjith";
+
+        l1[6] = "Ranjith";
+
+        l1[7] = "Ranjith";
+
+        l1[8] = "Ranjith";
+
+        l1[9] = "Ranjith";
+
+        l1[10] = "Ranjith";
+
+        l1[11] = "Ranjith";
+
+        l1[12] = "Ranjith";
+
+        l1[13] = "Ranjith";
+
+        l1[14] = "Ranjith";
+
+        l1[15] = "Ranjith";
+
+        l1[16] = "Ranjith";
+
+        l1[17] = "Ranjith";
+
+        l1[18] = "Ranjith";
+
+        l1[19] = "Ranjith";
+
+        l1[20] = "Ranjith";
+
+        l1[21] = "Ranjith";
+
+        l1[22] = "Ranjith";
+
+        l1[23] = "Ranjith";
+
+        l1[24] = "Ranjith";
+
+        $stack4 = interfaceinvoke namePrinter.<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>(l1);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        l1 = newarray (java.lang.Object)[25];
+
+        l1[0] = "Ranjith";
+
+        l1[1] = "Ranjith";
+
+        l1[2] = "Ranjith";
+
+        l1[3] = "Ranjith";
+
+        l1[4] = "Ranjith";
+
+        l1[5] = "Ranjith";
+
+        l1[6] = "Ranjith";
+
+        l1[7] = "Ranjith";
+
+        l1[8] = "Ranjith";
+
+        l1[9] = "Ranjith";
+
+        l1[10] = "Ranjith";
+
+        l1[11] = "Ranjith";
+
+        l1[12] = "Ranjith";
+
+        l1[13] = "Ranjith";
+
+        l1[14] = "Ranjith";
+
+        l1[15] = "Ranjith";
+
+        l1[16] = "Ranjith";
+
+        l1[17] = "Ranjith";
+
+        l1[18] = "Ranjith";
+
+        l1[19] = "Ranjith";
+
+        l1[20] = "Ranjith";
+
+        l1[21] = "Ranjith";
+
+        l1[22] = "Ranjith";
+
+        l1[23] = "Ranjith";
+
+        l1[24] = "Ranjith";
+
+        $stack6 = interfaceinvoke namePrinter.<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>(l1);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.implementsFunctionType.moreThan22Parameters.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,50 @@
+public final class de.fraunhofer.iem.generics.upperBounds.inGenericClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack9, $stack11;
+        java.lang.CharSequence $stack5, $stack10;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair $stack3;
+        java.lang.Integer $stack4;
+        int $stack8;
+        java.lang.Number $stack6, $stack7;
+
+        $stack3 = new de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        $stack6 = (java.lang.Number) $stack4;
+
+        $stack5 = (java.lang.CharSequence) "Ranjith";
+
+        specialinvoke $stack3.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: void <init>(java.lang.Number,java.lang.CharSequence)>($stack6, $stack5);
+
+        $stack7 = virtualinvoke $stack3.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number getFirst()>();
+
+        $stack8 = virtualinvoke $stack7.<java.lang.Number: int intValue()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        $stack10 = virtualinvoke $stack3.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence getSecond()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.generics.upperBounds.inGenericClass.MainKt: void main()>();
+
+        return;
+    }
+}

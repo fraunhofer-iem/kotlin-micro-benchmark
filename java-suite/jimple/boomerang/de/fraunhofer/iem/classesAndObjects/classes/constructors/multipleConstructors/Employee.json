@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String,int)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee",
+                "firstName": "java.lang.String",
+                "varReplacer290": "null_type",
+                "varReplacer291": "java.lang.String",
+                "varReplacer292": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Object: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void <init>(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee",
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String)>"]
+        },
+        "void <init>(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee",
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String)>"]
+        }
+    }
+}

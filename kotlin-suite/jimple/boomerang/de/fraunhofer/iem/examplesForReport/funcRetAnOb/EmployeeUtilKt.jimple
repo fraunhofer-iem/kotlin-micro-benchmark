@@ -1,0 +1,48 @@
+public final class de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt extends java.lang.Object
+{
+
+    private static final de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1 getManager(java.lang.String, int)
+    {
+        int age;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1 $stack2;
+        java.lang.String fullName;
+
+        nop;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1: void <init>(java.lang.String,int)>(fullName, age);
+
+        return $stack2;
+    }
+
+    public static final de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee getTeamLead(java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1 $stack2;
+        int age;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee $stack3;
+        java.lang.String fullName, varReplacer1344;
+
+        nop;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        varReplacer1344 = "fullName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, varReplacer1344);
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1: void <init>(java.lang.String,int)>(fullName, age);
+
+        $stack3 = (de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee) $stack2;
+
+        return $stack3;
+    }
+}

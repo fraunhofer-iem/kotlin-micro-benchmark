@@ -1,0 +1,80 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        null_type varReplacer452;
+        int varReplacer454;
+        java.lang.String varReplacer453;
+        java.lang.Integer $stack0;
+
+        nop;
+
+        varReplacer453 = "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>(varReplacer453);
+
+        varReplacer454 = 123;
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer454);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>($stack0);
+
+        varReplacer452 = null;
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>(varReplacer452);
+
+        return;
+    }
+
+    private static final void dummy(java.lang.Object)
+    {
+        java.io.PrintStream $stack6;
+        java.lang.Object ob;
+        java.lang.String $stack5, $stack7, varReplacer455;
+        boolean $stack4;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        $stack4 = ob instanceof java.lang.String;
+
+        if $stack4 == 0 goto label1;
+
+        nop;
+
+        $stack7 = (java.lang.String) ob;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack7 = null;
+
+     label2:
+        varReplacer455 = "String = ";
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer455, $stack7);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void main()>();
+
+        return;
+    }
+}

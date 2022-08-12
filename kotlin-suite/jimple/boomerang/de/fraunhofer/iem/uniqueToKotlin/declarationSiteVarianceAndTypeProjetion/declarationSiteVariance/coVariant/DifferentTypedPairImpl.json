@@ -1,0 +1,142 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair"],
+    "methodCount": 10,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: java.lang.Object first()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: java.lang.Object second()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: java.lang.Object component1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: java.lang.Object component2()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl copy(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl copy$default(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl,java.lang.Object,java.lang.Object,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: java.lang.String toString()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: int hashCode()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "first": "java.lang.Object",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.Object first()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object second()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object component2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl copy(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "first": "java.lang.Object",
+                "second": "java.lang.Object",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"
+            },
+            "stackVariables": {"$stack3": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>"]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl copy$default(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl,java.lang.Object,java.lang.Object,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l3": "int",
+                "$stack5": "int",
+                "$stack6": "int",
+                "l0": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "$stack7": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "l4": "java.lang.Object",
+                "l1": "java.lang.Object",
+                "l2": "java.lang.Object"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl copy(java.lang.Object,java.lang.Object)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "varReplacer1312": "int",
+                "varReplacer1313": "java.lang.String",
+                "varReplacer1314": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.Object",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl"},
+            "stackVariables": {
+                "$stack2": "java.lang.Object",
+                "$stack3": "java.lang.Object",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.lang.Object",
+                "$stack7": "int",
+                "$stack9": "int",
+                "$stack4": "int",
+                "$stack8": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Object: int hashCode()>",
+                "<java.lang.Object: int hashCode()>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "other": "java.lang.Object",
+                "varReplacer1315": "int",
+                "varReplacer1316": "int",
+                "varReplacer1317": "int",
+                "varReplacer1318": "int",
+                "varReplacer1319": "int"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.lang.Object",
+                "$stack6": "boolean",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Object",
+                "$stack9": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        }
+    }
+}

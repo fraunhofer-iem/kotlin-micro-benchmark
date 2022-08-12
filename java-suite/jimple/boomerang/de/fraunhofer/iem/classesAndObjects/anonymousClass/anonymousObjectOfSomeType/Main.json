@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void printHelloWorld(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.HelloWorldPrinter)>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything)>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$1",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$1: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void printHelloWorld(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.HelloWorldPrinter)>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main: void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything)>"
+            ]
+        },
+        "void printHelloWorld(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.HelloWorldPrinter)": {
+            "localVariables": {"helloWorldPrinter": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.HelloWorldPrinter"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.HelloWorldPrinter: void greet()>"]
+        },
+        "void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything)": {
+            "localVariables": {
+                "printAnything": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything",
+                "varReplacer274": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything: void print(java.lang.String)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {"varReplacer275": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

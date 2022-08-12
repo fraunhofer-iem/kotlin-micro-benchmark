@@ -1,0 +1,45 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Cat",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Horse",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Cat: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Horse: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>"
+            ]
+        },
+        "void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)": {
+            "localVariables": {"animal": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: void displayDNA()>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: void makeNoise()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void main()>"]
+        }
+    }
+}

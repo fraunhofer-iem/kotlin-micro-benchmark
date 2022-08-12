@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1: void <init>(kotlin.jvm.functions.Function0)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1: java.lang.String toString()>"
+    ],
+    "methodsInformation": {
+        "void <init>(kotlin.jvm.functions.Function0)": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1"},
+            "stackVariables": {"$func1": "kotlin.jvm.functions.Function0"},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1",
+                "varReplacer2579": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "kotlin.jvm.functions.Function0"},
+            "invokeExpressions": ["<kotlin.jvm.functions.Function0: java.lang.Object invoke()>"]
+        }
+    }
+}

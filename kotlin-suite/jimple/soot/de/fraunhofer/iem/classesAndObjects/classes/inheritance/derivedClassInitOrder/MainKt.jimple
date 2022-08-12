@@ -1,0 +1,25 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived $stack1;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: void <init>(java.lang.String,java.lang.String)>("ranjith", "K");
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.MainKt: void main()>();
+
+        return;
+    }
+}

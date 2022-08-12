@@ -1,0 +1,94 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int $stack4, $stack6, $stack8, $stack10, $stack12, $stack24;
+        java.io.PrintStream $stack5, $stack7, $stack9, $stack11, $stack13, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25;
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts $stack3;
+        float $stack14, $stack16, $stack18, $stack20, $stack22;
+
+        $stack3 = new de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: void <init>()>();
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 0, 0, 0, 0, 15, null);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 10, 0, 0, 0, 14, null);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 10, 20, 0, 0, 12, null);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 0, 20, 0, 40, 5, null);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 10, 0, 0, 40, 6, null);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(float)>($stack14);
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 10, 20, 0, 40, 4, null);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(float)>($stack16);
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, 10, 0, 30, 40, 2, null);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(float)>($stack18);
+
+        $stack20 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(float)>($stack20);
+
+        $stack22 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(float)>($stack22);
+
+        $stack24 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int sub(int,int,int,int)>(100, 20, 30, 40);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(int)>($stack24);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

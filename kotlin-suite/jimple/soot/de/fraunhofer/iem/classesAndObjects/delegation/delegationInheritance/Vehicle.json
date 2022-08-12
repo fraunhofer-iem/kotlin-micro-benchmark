@@ -1,0 +1,34 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: java.lang.String getVehicleType()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getVehicleType()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void accelerate()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

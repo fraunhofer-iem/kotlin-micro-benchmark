@@ -1,0 +1,66 @@
+public final class de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director extends de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee
+{
+    private final java.lang.String fName;
+    private int currAge;
+
+    public void <init>(java.lang.String, int)
+    {
+        int currAge;
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director this;
+        java.lang.String fName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director;
+
+        fName := @parameter0: java.lang.String;
+
+        currAge := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fName, "fName");
+
+        specialinvoke this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>(fName, currAge, null);
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director: java.lang.String fName> = fName;
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director: int currAge> = currAge;
+
+        return;
+    }
+
+    public final java.lang.String getFName()
+    {
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director: java.lang.String fName>;
+
+        return $stack1;
+    }
+
+    public final int getCurrAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director: int currAge>;
+
+        return $stack1;
+    }
+
+    public final void setCurrAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Director: int currAge> = <set-?>;
+
+        return;
+    }
+}

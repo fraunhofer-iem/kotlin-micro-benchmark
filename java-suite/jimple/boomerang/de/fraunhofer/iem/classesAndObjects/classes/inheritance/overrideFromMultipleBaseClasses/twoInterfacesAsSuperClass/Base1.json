@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base1: void print1()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base1: void print2()>"
+    ],
+    "methodsInformation": {
+        "void print1()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base1",
+                "varReplacer317": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void print2()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base1",
+                "varReplacer318": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

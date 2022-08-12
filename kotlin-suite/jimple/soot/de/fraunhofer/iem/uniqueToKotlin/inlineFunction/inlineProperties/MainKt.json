@@ -1,0 +1,184 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 10,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex1(java.util.List)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex1(java.util.List,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex2(java.util.List)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex2(java.util.List,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex3(java.util.List)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex3(java.util.List,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex4(java.util.List)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex4(java.util.List,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int getLastIndex1(java.util.List)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$lastIndex1": "java.util.List",
+                "$stack1": "int",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: int size()>"
+            ]
+        },
+        "void setLastIndex1(java.util.List,int)": {
+            "localVariables": {"value": "int"},
+            "stackVariables": {
+                "$this$lastIndex1": "java.util.List",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getLastIndex2(java.util.List)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$lastIndex2": "java.util.List",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: int size()>"
+            ]
+        },
+        "void setLastIndex2(java.util.List,int)": {
+            "localVariables": {"value": "int"},
+            "stackVariables": {
+                "$this$lastIndex2": "java.util.List",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getLastIndex3(java.util.List)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$lastIndex3": "java.util.List",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: int size()>"
+            ]
+        },
+        "void setLastIndex3(java.util.List,int)": {
+            "localVariables": {"value": "int"},
+            "stackVariables": {
+                "$this$lastIndex3": "java.util.List",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getLastIndex4(java.util.List)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$lastIndex4": "java.util.List",
+                "$stack1": "int",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: int size()>"
+            ]
+        },
+        "void setLastIndex4(java.util.List,int)": {
+            "localVariables": {"value": "int"},
+            "stackVariables": {
+                "$this$lastIndex4": "java.util.List",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack7": "java.lang.Integer",
+                "$stack9": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack13": "java.lang.Integer",
+                "$stack15": "java.lang.Integer",
+                "$stack16": "java.util.List",
+                "$stack17": "int",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "int",
+                "$stack20": "java.io.PrintStream",
+                "$stack22": "java.lang.Integer",
+                "$stack23": "java.lang.String",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "int",
+                "$stack26": "java.io.PrintStream",
+                "$stack27": "int",
+                "$stack28": "java.io.PrintStream",
+                "$stack30": "java.lang.Integer",
+                "$stack31": "java.lang.String",
+                "$stack32": "java.io.PrintStream",
+                "$this$lastIndex2$iv": "java.lang.Integer[]",
+                "$this$lastIndex2$iv#6": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex1(java.util.List)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex1(java.util.List,int)>",
+                "<java.util.List: int size()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.util.List: int size()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex3(java.util.List,int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex4(java.util.List)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void main()>"]
+        }
+    }
+}

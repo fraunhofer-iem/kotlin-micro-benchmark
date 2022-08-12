@@ -1,0 +1,45 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.C $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.D $stack4;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.C;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.C: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.C: void foo()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.C: void bar()>();
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.D;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.D: void <init>()>();
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.D: void foo()>();
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.D: void bar()>();
+
+        return;
+    }
+}

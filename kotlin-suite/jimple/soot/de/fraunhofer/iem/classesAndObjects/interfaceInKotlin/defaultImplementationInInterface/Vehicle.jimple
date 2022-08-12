@@ -1,0 +1,15 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle extends java.lang.Object
+{
+
+    public abstract java.lang.String getModelNumber();
+
+    public abstract java.lang.String getVehicleRegistrationNumber();
+
+    public abstract void start();
+
+    public abstract void stop();
+
+    public abstract void displayModelNumber();
+
+    public abstract void displayVehicleRegistrationNumber();
+}

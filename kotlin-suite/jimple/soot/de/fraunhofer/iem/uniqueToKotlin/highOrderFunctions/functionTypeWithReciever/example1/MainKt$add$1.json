@@ -1,0 +1,71 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function2"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: int invoke(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "int invoke(int,int)": {
+            "localVariables": {
+                "<this>": "int",
+                "other": "int",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1"
+            },
+            "stackVariables": {
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.Object invoke(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1",
+                "p1": "java.lang.Object",
+                "p2": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.Number",
+                "$stack4": "int",
+                "$stack5": "java.lang.Number",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.Number: int intValue()>",
+                "<java.lang.Number: int intValue()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: int invoke(int,int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+            ]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: void <init>()>"]
+        }
+    }
+}

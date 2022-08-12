@@ -1,0 +1,56 @@
+public final class de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt$WhenMappings extends java.lang.Object
+{
+    public static final int[] $EnumSwitchMapping$0;
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu $stack3, $stack5, $stack7, $stack9;
+        int[] l0;
+        int $stack2, $stack4, $stack6, $stack8, $stack10, varReplacer682, varReplacer683, varReplacer684, varReplacer685;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $stack1;
+
+        nop;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] values()>();
+
+        $stack2 = lengthof $stack1;
+
+        l0 = newarray (int)[$stack2];
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_GRAVY>;
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: int ordinal()>();
+
+        varReplacer684 = 1;
+
+        l0[$stack4] = varReplacer684;
+
+        $stack5 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu EGG_OMELET>;
+
+        $stack6 = virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: int ordinal()>();
+
+        varReplacer682 = 2;
+
+        l0[$stack6] = varReplacer682;
+
+        $stack7 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_BIRYANI>;
+
+        $stack8 = virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: int ordinal()>();
+
+        varReplacer685 = 3;
+
+        l0[$stack8] = varReplacer685;
+
+        $stack9 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu VEG_PULAO>;
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: int ordinal()>();
+
+        varReplacer683 = 4;
+
+        l0[$stack10] = varReplacer683;
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt$WhenMappings: int[] $EnumSwitchMapping$0> = l0;
+
+        return;
+    }
+}

@@ -1,0 +1,41 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass $stack4;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass: void printAll()>();
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: void <init>()>();
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: void printAll()>();
+
+        return;
+    }
+}

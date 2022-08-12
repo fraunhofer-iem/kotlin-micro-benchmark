@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle extends java.lang.Object
+{
+
+    public abstract void start();
+
+    public abstract void stop();
+}

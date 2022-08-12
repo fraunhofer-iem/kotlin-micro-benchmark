@@ -1,0 +1,75 @@
+{
+    "className": "de.fraunhofer.iem.functions.varargInFunctionParam.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void <init>()>",
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>",
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void printList(java.util.List[])>",
+        "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.varargInFunctionParam.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void print(java.lang.String[])": {
+            "localVariables": {
+                "messages": "java.lang.String[]",
+                "message": "java.lang.String"
+            },
+            "stackVariables": {
+                "l2": "int",
+                "$stack5": "java.io.PrintStream",
+                "l3": "int"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void printList(java.util.List[])": {
+            "localVariables": {
+                "lst": "java.util.List[]",
+                "ls": "java.util.List",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "l2": "int",
+                "$stack7": "java.util.Iterator",
+                "$stack8": "boolean",
+                "$stack11": "java.lang.Object",
+                "$stack12": "java.io.PrintStream",
+                "l3": "int"
+            },
+            "invokeExpressions": [
+                "<java.util.List: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack1": "java.lang.String[]",
+                "$stack2": "java.lang.String[]",
+                "$stack3": "java.lang.String[]",
+                "$stack4": "java.util.List[]",
+                "$stack5": "java.lang.String[]",
+                "$stack7": "java.util.List",
+                "$stack8": "java.lang.String[]",
+                "$stack10": "java.util.List",
+                "$stack12": "java.util.List"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>",
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>",
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>",
+                "<java.util.Arrays: java.util.List asList(java.lang.Object[])>",
+                "<java.util.Arrays: java.util.List asList(java.lang.Object[])>",
+                "<java.util.Collections: java.util.List singletonList(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.varargInFunctionParam.Main: void printList(java.util.List[])>"
+            ]
+        }
+    }
+}

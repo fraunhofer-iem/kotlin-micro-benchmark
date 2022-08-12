@@ -1,0 +1,153 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add(int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int sub(int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int add(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack5": "int",
+                "$stack6": "int"
+            },
+            "invokeExpressions": []
+        },
+        "int add$default(int,int,int,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l4": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "int",
+                "l5": "java.lang.Object",
+                "l0": "int",
+                "l1": "int",
+                "l2": "int",
+                "l3": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add(int,int,int,int)>"]
+        },
+        "float add10(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int"
+            },
+            "stackVariables": {
+                "$stack4": "float",
+                "$stack5": "float",
+                "$stack6": "float",
+                "$stack7": "float",
+                "$stack8": "float",
+                "$stack9": "float",
+                "$stack10": "float",
+                "$stack11": "float",
+                "$stack12": "float"
+            },
+            "invokeExpressions": []
+        },
+        "float add10$default(int,int,int,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l4": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "l0": "int",
+                "l3": "int",
+                "$stack8": "float",
+                "l5": "java.lang.Object",
+                "l1": "int",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>"]
+        },
+        "int sub(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack5": "int",
+                "$stack6": "int"
+            },
+            "invokeExpressions": []
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "float",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "float",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "float",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "float",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "float",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "int",
+                "$stack23": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add(int,int,int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>",
+                "<java.io.PrintStream: void println(float)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int sub(int,int,int,int)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: void main()>"]
+        }
+    }
+}

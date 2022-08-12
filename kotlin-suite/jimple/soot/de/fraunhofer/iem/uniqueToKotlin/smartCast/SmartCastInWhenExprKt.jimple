@@ -1,0 +1,138 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Float $stack1;
+        java.lang.Integer $stack0;
+        java.lang.Double $stack2;
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack0);
+
+        $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(451.54F);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack1);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>("Ranjith");
+
+        $stack2 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(451.54);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>($stack2);
+
+        return;
+    }
+
+    public static final void checkType(java.lang.Object)
+    {
+        java.lang.Integer $stack8;
+        int $stack20;
+        java.lang.String $stack13, $stack19, $stack22, $stack24;
+        boolean $stack4, $stack5, $stack6, $stack7, $stack9;
+        java.io.PrintStream $stack10, $stack11, $stack12, $stack14, $stack23, $stack25;
+        java.lang.Object ob;
+        java.lang.StringBuilder $stack15, $stack16, $stack17, $stack18, $stack21;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack4 = ob instanceof java.lang.Integer;
+
+        if $stack4 == 0 goto label1;
+
+        $stack24 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Int, value = ", ob);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        goto label6;
+
+     label1:
+        $stack5 = ob instanceof java.lang.String;
+
+        if $stack5 == 0 goto label2;
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("String, value = ");
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(ob);
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", length = ");
+
+        $stack19 = (java.lang.String) ob;
+
+        $stack20 = virtualinvoke $stack19.<java.lang.String: int length()>();
+
+        $stack21 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack20);
+
+        $stack22 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        goto label6;
+
+     label2:
+        $stack6 = ob instanceof java.lang.Float;
+
+        if $stack6 == 0 goto label3;
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Float, value = ", ob);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        goto label6;
+
+     label3:
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(ob, "gdf");
+
+        if $stack7 == 0 goto label4;
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println()>();
+
+        goto label6;
+
+     label4:
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(ob, $stack8);
+
+        if $stack9 == 0 goto label5;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>("Numbers");
+
+        goto label6;
+
+     label5:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>("Other");
+
+     label6:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void main()>();
+
+        return;
+    }
+}

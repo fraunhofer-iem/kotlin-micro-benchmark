@@ -1,0 +1,256 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack7, $stack14, $stack21;
+        java.lang.Exception $stack24, $stack38, $stack46, $stack57;
+        int varReplacer2767, varReplacer2768, varReplacer2769;
+        java.lang.String $stack3, $stack5, $stack8, $stack10, $stack12, $stack15, $stack17, $stack19, $stack22, $stack26, $stack27, $stack40, $stack41, $stack48, $stack49, $stack59, $stack60, varReplacer2758, varReplacer2759, varReplacer2760, varReplacer2761, varReplacer2762, varReplacer2764, varReplacer2766;
+        java.io.PrintStream $stack4, $stack6, $stack9, $stack11, $stack13, $stack16, $stack18, $stack20, $stack23, $stack28, $stack42, $stack50, $stack61;
+        null_type varReplacer2757, varReplacer2763, varReplacer2765;
+
+        nop;
+
+        varReplacer2759 = "ranjith";
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>(varReplacer2759);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+     label01:
+        varReplacer2757 = null;
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>(varReplacer2757);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+     label02:
+        goto label04;
+
+     label03:
+        $stack57 := @caughtexception;
+
+        $stack59 = virtualinvoke $stack57.<java.lang.Exception: java.lang.String getMessage()>();
+
+        varReplacer2762 = "Got Exception = ";
+
+        $stack60 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2762, $stack59);
+
+        $stack61 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack61.<java.io.PrintStream: void println(java.lang.Object)>($stack60);
+
+     label04:
+        varReplacer2767 = 1;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2767);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>($stack7);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+     label05:
+        goto label07;
+
+     label06:
+        $stack46 := @caughtexception;
+
+        $stack48 = virtualinvoke $stack46.<java.lang.Exception: java.lang.String getMessage()>();
+
+        varReplacer2761 = "Got Exception = ";
+
+        $stack49 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2761, $stack48);
+
+        $stack50 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack50.<java.io.PrintStream: void println(java.lang.Object)>($stack49);
+
+     label07:
+        varReplacer2758 = "ranjith";
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>(varReplacer2758);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+     label08:
+        varReplacer2765 = null;
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>(varReplacer2765);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+     label09:
+        goto label11;
+
+     label10:
+        $stack38 := @caughtexception;
+
+        $stack40 = virtualinvoke $stack38.<java.lang.Exception: java.lang.String getMessage()>();
+
+        varReplacer2760 = "Got Exception = ";
+
+        $stack41 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2760, $stack40);
+
+        $stack42 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack42.<java.io.PrintStream: void println(java.lang.Object)>($stack41);
+
+     label11:
+        varReplacer2768 = 1;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2768);
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>($stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+     label12:
+        goto label14;
+
+     label13:
+        $stack24 := @caughtexception;
+
+        $stack26 = virtualinvoke $stack24.<java.lang.Exception: java.lang.String getMessage()>();
+
+        varReplacer2764 = "Got Exception = ";
+
+        $stack27 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2764, $stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+     label14:
+        varReplacer2766 = "ranjith";
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>(varReplacer2766);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        varReplacer2763 = null;
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>(varReplacer2763);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        varReplacer2769 = 1;
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2769);
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>($stack21);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        return;
+
+        catch java.lang.Exception from label01 to label02 with label03;
+        catch java.lang.Exception from label04 to label05 with label06;
+        catch java.lang.Exception from label08 to label09 with label10;
+        catch java.lang.Exception from label11 to label12 with label13;
+    }
+
+    public static final java.lang.String castSafelyToNullableString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack2;
+        boolean $stack1;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        $stack1 = ob instanceof java.lang.String;
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $stack2 = (java.lang.String) ob;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack2 = null;
+
+     label2:
+        return $stack2;
+    }
+
+    public static final java.lang.String castToString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack1, varReplacer2770;
+        java.lang.NullPointerException $stack2;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        if ob != null goto label1;
+
+        nop;
+
+        $stack2 = new java.lang.NullPointerException;
+
+        varReplacer2770 = "null cannot be cast to non-null type kotlin.String";
+
+        specialinvoke $stack2.<java.lang.NullPointerException: void <init>(java.lang.String)>(varReplacer2770);
+
+        throw $stack2;
+
+     label1:
+        nop;
+
+        $stack1 = (java.lang.String) ob;
+
+        return $stack1;
+    }
+
+    public static final java.lang.String castToNullableString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack1;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        $stack1 = (java.lang.String) ob;
+
+        return $stack1;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: void main()>();
+
+        return;
+    }
+}

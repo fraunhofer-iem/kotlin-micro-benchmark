@@ -1,0 +1,58 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function1"],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: void invoke(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: java.lang.Object invoke(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1",
+                "varReplacer1371": "int"
+            },
+            "stackVariables": {"$hello": "java.lang.String"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "void invoke(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)": {
+            "localVariables": {
+                "emp": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1",
+                "varReplacer1372": "int",
+                "varReplacer1373": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.Object invoke(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1",
+                "p1": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "$stack3": "kotlin.Unit"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: void invoke(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>"]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything"],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1: void print(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void print(java.lang.String)": {
+            "localVariables": {
+                "message": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

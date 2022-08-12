@@ -1,0 +1,106 @@
+{
+    "className": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: void <init>()>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: void addAndSub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main"
+            },
+            "stackVariables": {
+                "$this$add": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack11": "int",
+                "$stack12": "int",
+                "$stack13": "int",
+                "l3": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: void <init>(int)>"
+            ]
+        },
+        "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main"
+            },
+            "stackVariables": {
+                "$this$sub": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack11": "int",
+                "$stack12": "int",
+                "$stack13": "int",
+                "l3": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: void <init>(int)>"
+            ]
+        },
+        "void addAndSub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)": {
+            "localVariables": {
+                "num1": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "num2": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main"
+            },
+            "stackVariables": {
+                "$stack5": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

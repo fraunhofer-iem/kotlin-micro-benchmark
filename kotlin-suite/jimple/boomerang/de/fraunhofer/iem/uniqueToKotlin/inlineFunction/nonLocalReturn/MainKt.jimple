@@ -1,0 +1,193 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.nonLocalReturn.MainKt extends java.lang.Object
+{
+
+    public static final void log(kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function1)
+    {
+        java.lang.Integer $stack10, $stack15;
+        int $stack13, varReplacer2626;
+        java.lang.String $stack16, varReplacer2627, varReplacer2628, varReplacer2629, varReplacer2630, varReplacer2631, varReplacer2632;
+        java.lang.Number $stack12;
+        java.io.PrintStream $stack6, $stack8, $stack9, $stack17;
+        kotlin.jvm.functions.Function1 func2;
+        kotlin.jvm.functions.Function0 func1;
+        java.lang.Object $stack11;
+
+        nop;
+
+        func1 := @parameter0: kotlin.jvm.functions.Function0;
+
+        func2 := @parameter1: kotlin.jvm.functions.Function1;
+
+        varReplacer2628 = "func1";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func1, varReplacer2628);
+
+        varReplacer2632 = "func2";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(func2, varReplacer2632);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2629 = "Executing func1";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2629);
+
+        interfaceinvoke func1.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2630 = "Completed Executing func1";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2630);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2631 = "Executing func2";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2631);
+
+        varReplacer2626 = 123;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2626);
+
+        $stack11 = interfaceinvoke func2.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack10);
+
+        $stack12 = (java.lang.Number) $stack11;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Number: int intValue()>();
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+        varReplacer2627 = "Completed Executing func2 = ";
+
+        $stack16 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2627, $stack15);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack14;
+        int digit, $stack21, number, sum, $stack23;
+        java.lang.String $stack15, varReplacer2633, varReplacer2634, varReplacer2635, varReplacer2636, varReplacer2637, varReplacer2638, varReplacer2639, varReplacer2640, varReplacer2641, varReplacer2642;
+        java.io.PrintStream $stack8, $stack9, $stack10, $stack11, $stack12, $stack16, $stack17, $stack18, $stack19, $stack20;
+
+        nop;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2637 = "***** First function call *****";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2637);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2634 = "Executing func1";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2634);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2640 = "Hello!!! Welcome to Kotlin";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2640);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2642 = "Completed Executing func1";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2642);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2639 = "Executing func2";
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2639);
+
+        number = 123;
+
+        sum = 0;
+
+     label1:
+        nop;
+
+        if number <= 0 goto label2;
+
+        nop;
+
+        digit = number % 10;
+
+        sum = sum + digit;
+
+        number = number / 10;
+
+        $stack21 = sum % 2;
+
+        if $stack21 != 0 goto label1;
+
+        nop;
+
+        $stack23 = sum;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack23 = sum;
+
+     label3:
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack23);
+
+        varReplacer2638 = "Completed Executing func2 = ";
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2638, $stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2633 = "*****         End         *****";
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2633);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2635 = "\n\n***** Second function call *****";
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2635);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2636 = "Executing func1";
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2636);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2641 = "Hello!!! Welcome to Kotlin";
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2641);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.nonLocalReturn.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,124 @@
+public final class de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator extends java.lang.Object
+{
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final java.lang.String getCurrentGreetingMessage()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String access$getCurrentGreetingMessage$cp()>();
+
+        return $stack1;
+    }
+
+    public final void setCurrentGreetingMessage(java.lang.String)
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+        java.lang.String <set-?>, varReplacer1264;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1264 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1264);
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.companionObject.Employee: void access$setCurrentGreetingMessage$cp(java.lang.String)>(<set-?>);
+
+        return;
+    }
+
+    public final java.lang.String sayHello()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+        java.lang.String $stack1, $stack2, varReplacer1265, varReplacer1266;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        varReplacer1266 = "Hello!";
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void setCurrentGreetingMessage(java.lang.String)>(varReplacer1266);
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String getCurrentGreetingMessage()>();
+
+        varReplacer1265 = " Welcome to employee portal!";
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack1, varReplacer1265);
+
+        return $stack2;
+    }
+
+    private final java.lang.String sayHi()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+        java.lang.String $stack1, $stack2, varReplacer1267, varReplacer1268;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        varReplacer1267 = "Hi!";
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void setCurrentGreetingMessage(java.lang.String)>(varReplacer1267);
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String getCurrentGreetingMessage()>();
+
+        varReplacer1268 = " Welcome to employee portal!";
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack1, varReplacer1268);
+
+        return $stack2;
+    }
+
+    public static final java.lang.String access$sayHi(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator $this;
+        java.lang.String $stack1;
+
+        nop;
+
+        $this := @parameter0: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        $stack1 = specialinvoke $this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHi()>();
+
+        return $stack1;
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator this;
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>()>();
+
+        return;
+    }
+}

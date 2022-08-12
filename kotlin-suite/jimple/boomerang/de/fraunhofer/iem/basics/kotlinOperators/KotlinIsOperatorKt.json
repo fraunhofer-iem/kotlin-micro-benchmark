@@ -1,0 +1,86 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer440": "int",
+                "varReplacer441": "java.lang.String",
+                "varReplacer442": "int",
+                "varReplacer443": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.Integer",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getLength(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer444": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: int length()>"
+            ]
+        },
+        "java.lang.String getLowerCase(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer445": "java.lang.String",
+                "varReplacer446": "java.lang.String",
+                "varReplacer447": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l1": "java.lang.String",
+                "$stack4": "java.util.Locale",
+                "$stack5": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: void main()>"]
+        }
+    }
+}

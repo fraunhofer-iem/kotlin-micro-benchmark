@@ -1,0 +1,60 @@
+final enum class de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4 extends de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu
+{
+
+    void <init>(java.lang.String, int, int)
+    {
+        null_type varReplacer335;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4 this;
+        int l2, price;
+        java.lang.String l1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4;
+
+        l1 := @parameter0: java.lang.String;
+
+        l2 := @parameter1: int;
+
+        price := @parameter2: int;
+
+        varReplacer335 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1)>(l1, l2, price, varReplacer335);
+
+        return;
+    }
+
+    public void print()
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4 this;
+        int $stack4;
+        java.lang.StringBuilder $stack1, $stack3, $stack5;
+        java.lang.String $stack6, varReplacer336;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer336 = "Veg pulao costs ";
+
+        $stack3 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer336);
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4: int price>;
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack4);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>($stack6);
+
+        return;
+    }
+}

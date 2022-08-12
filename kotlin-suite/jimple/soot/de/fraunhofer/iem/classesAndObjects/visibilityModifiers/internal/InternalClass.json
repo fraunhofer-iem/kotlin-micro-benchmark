@@ -1,0 +1,65 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInterface"],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void <init>(java.lang.String,java.lang.String,java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: java.lang.String getVal1()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: java.lang.String getVal3$kotlin_examples()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal1()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal2()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal3$kotlin_examples()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "val1": "java.lang.String",
+                "val2": "java.lang.String",
+                "val3": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getVal1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getVal3$kotlin_examples()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void printVal1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void printVal2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void printVal3$kotlin_examples()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

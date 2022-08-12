@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Runnable extends java.lang.Object
+{
+
+    public abstract void run();
+
+    public abstract void crawl();
+}

@@ -1,0 +1,112 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy extends java.lang.Object
+{
+    public java.lang.String name;
+
+    public void <init>()
+    {
+        null_type varReplacer1498;
+        de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy;
+
+        varReplacer1498 = null;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: java.lang.String name> = varReplacer1498;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy this;
+        java.lang.String l1, varReplacer1499, varReplacer1500;
+        java.lang.NullPointerException ex0;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy;
+
+        l1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: java.lang.String name>;
+
+        if l1 == null goto label1;
+
+        nop;
+
+        return l1;
+
+     label1:
+        nop;
+
+        varReplacer1499 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void throwUninitializedPropertyAccessException(java.lang.String)>(varReplacer1499);
+
+        ex0 = new java.lang.NullPointerException;
+
+        varReplacer1500 = "Null throw statement replaced by Soot";
+
+        specialinvoke ex0.<java.lang.NullPointerException: void <init>(java.lang.String)>(varReplacer1500);
+
+        throw ex0;
+    }
+
+    public final void setName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1501;
+        de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1501 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1501);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: java.lang.String name> = <set-?>;
+
+        return;
+    }
+
+    public final void main()
+    {
+        java.io.PrintStream $stack4, $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy this;
+        java.lang.String $stack3, varReplacer1502, varReplacer1503;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy;
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inClass.Dummy: java.lang.String name>;
+
+        if $stack3 == null goto label1;
+
+        nop;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1502 = "Yes, is initialized";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1502);
+
+        return;
+
+     label1:
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1503 = "No, not initialized";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1503);
+
+        return;
+    }
+}

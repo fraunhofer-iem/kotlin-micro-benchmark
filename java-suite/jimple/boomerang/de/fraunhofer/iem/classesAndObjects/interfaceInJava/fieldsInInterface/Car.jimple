@@ -1,0 +1,101 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle
+{
+    java.lang.String modelNumber;
+    java.lang.String vehicleRegistrationNumber;
+    private boolean isStart;
+
+    public void <init>(java.lang.String, java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car this;
+        int varReplacer422;
+        java.lang.String modelNumber, vehicleRegistrationNumber;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car;
+
+        modelNumber := @parameter0: java.lang.String;
+
+        vehicleRegistrationNumber := @parameter1: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer422 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: boolean isStart> = varReplacer422;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: java.lang.String modelNumber> = modelNumber;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: java.lang.String vehicleRegistrationNumber> = vehicleRegistrationNumber;
+
+        return;
+    }
+
+    public void start()
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car this;
+        int varReplacer423;
+        java.lang.String varReplacer424;
+        boolean $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: boolean isStart>;
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream err>;
+
+        varReplacer424 = "Car is already started.";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(varReplacer424);
+
+     label1:
+        nop;
+
+        varReplacer423 = 1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: boolean isStart> = varReplacer423;
+
+        return;
+    }
+
+    public void stop()
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car this;
+        int varReplacer425;
+        java.lang.String varReplacer426;
+        boolean $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: boolean isStart>;
+
+        if $stack1 != 0 goto label1;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream err>;
+
+        varReplacer426 = "Car is already stopped.";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(varReplacer426);
+
+     label1:
+        nop;
+
+        varReplacer425 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: boolean isStart> = varReplacer425;
+
+        return;
+    }
+}

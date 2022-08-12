@@ -1,0 +1,109 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt: void checkInIfCondition(java.lang.String)>(null);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt: void checkInIfCondition(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt: void checkInWhileLoop(java.lang.String)>(null);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt: void checkInWhileLoop(java.lang.String)>("Ranjith");
+
+        return;
+    }
+
+    public static final void checkInIfCondition(java.lang.String)
+    {
+        java.io.PrintStream $stack4, $stack11;
+        int $stack8;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack9;
+        java.lang.String name, $stack3, $stack10;
+
+        name := @parameter0: java.lang.String;
+
+        if name == null goto label1;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack8 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack9 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack8);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        goto label2;
+
+     label1:
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(name, " = 0");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+     label2:
+        return;
+    }
+
+    public static final void checkInWhileLoop(java.lang.String)
+    {
+        java.io.PrintStream $stack10;
+        int $stack7;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack8;
+        java.lang.String name, $stack9, tempName;
+
+        name := @parameter0: java.lang.String;
+
+        tempName = name;
+
+     label1:
+        if tempName == null goto label2;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(tempName);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack7 = virtualinvoke tempName.<java.lang.String: int length()>();
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack7);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        tempName = null;
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.checkNullInCondition.MainKt: void main()>();
+
+        return;
+    }
+}

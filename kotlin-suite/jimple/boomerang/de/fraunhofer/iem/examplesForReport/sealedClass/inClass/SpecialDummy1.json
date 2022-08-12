@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.SpecialDummy1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy"],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.SpecialDummy1: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.SpecialDummy1: void myDummy()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.SpecialDummy1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void myDummy()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.SpecialDummy1",
+                "varReplacer1466": "java.lang.String"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

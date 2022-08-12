@@ -1,0 +1,79 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int $stack9, varReplacer1239, varReplacer1241;
+        java.lang.String $stack5, $stack7, $stack11, $stack13, varReplacer1237, varReplacer1238;
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack10, $stack12, $stack14;
+        null_type varReplacer1240, varReplacer1242;
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee $stack3;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee;
+
+        varReplacer1237 = "Ranjith";
+
+        varReplacer1238 = "K";
+
+        varReplacer1239 = 100;
+
+        varReplacer1240 = null;
+
+        varReplacer1241 = 8;
+
+        varReplacer1242 = null;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: void <init>(java.lang.String,java.lang.String,int,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer1237, varReplacer1238, varReplacer1239, varReplacer1240, varReplacer1241, varReplacer1240);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack5 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: java.lang.String getFirstName()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: java.lang.String getLastName()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        $stack9 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: int getAge()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: java.lang.String getMobileNumber()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.Employee: java.lang.String getAddress()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.propertiesInsideDataClassBody.MainKt: void main()>();
+
+        return;
+    }
+}

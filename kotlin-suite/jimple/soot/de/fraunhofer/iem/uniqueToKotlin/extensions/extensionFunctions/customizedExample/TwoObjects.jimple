@@ -1,0 +1,14 @@
+public class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

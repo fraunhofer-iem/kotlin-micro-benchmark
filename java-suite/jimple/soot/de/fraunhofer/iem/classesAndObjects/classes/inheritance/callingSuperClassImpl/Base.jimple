@@ -1,0 +1,28 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void print()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Base");
+
+        return;
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1: java.lang.String getGreet()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1: java.lang.String toString()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1",
+                "varReplacer805": "java.lang.String"
+            },
+            "stackVariables": {"$outerName": "java.lang.String"},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getGreet()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"]
+        }
+    }
+}

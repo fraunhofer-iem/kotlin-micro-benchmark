@@ -1,0 +1,77 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3 extends kotlin.jvm.internal.FunctionReferenceImpl implements kotlin.jvm.functions.Function1
+{
+
+    void <init>(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person <this>;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3 this;
+        int varReplacer2343, varReplacer2346;
+        java.lang.String varReplacer2344, varReplacer2345;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3;
+
+        <this> := @parameter0: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person;
+
+        varReplacer2343 = 1;
+
+        varReplacer2344 = "skateStreet";
+
+        varReplacer2345 = "skateStreet(Lde/fraunhofer/iem/uniqueToKotlin/highOrderFunctions/callableReference/Person;Ljava/lang/String;)V";
+
+        varReplacer2346 = 1;
+
+        specialinvoke this.<kotlin.jvm.internal.FunctionReferenceImpl: void <init>(int,java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int)>(varReplacer2343, <this>, class "Lde/fraunhofer/iem/uniqueToKotlin/highOrderFunctions/callableReference/MainKt;", varReplacer2344, varReplacer2345, varReplacer2343);
+
+        return;
+    }
+
+    public final void invoke(java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3 this;
+        java.lang.Object $stack2;
+        java.lang.String p0, varReplacer2347;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3;
+
+        p0 := @parameter0: java.lang.String;
+
+        varReplacer2347 = "p0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(p0, varReplacer2347);
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3: java.lang.Object receiver>;
+
+        $stack3 = (de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void skateStreet(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person,java.lang.String)>($stack3, p0);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        kotlin.Unit $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3 this;
+        java.lang.Object p1;
+        java.lang.String $stack2;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (java.lang.String) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3: void invoke(java.lang.String)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+}

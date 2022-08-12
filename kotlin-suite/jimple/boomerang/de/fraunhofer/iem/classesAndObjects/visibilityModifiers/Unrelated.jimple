@@ -1,0 +1,24 @@
+public final class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Unrelated extends java.lang.Object
+{
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer)
+    {
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Unrelated this;
+        java.lang.String varReplacer927;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer o;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Unrelated;
+
+        o := @parameter0: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        varReplacer927 = "o";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(o, varReplacer927);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

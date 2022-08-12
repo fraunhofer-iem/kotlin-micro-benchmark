@@ -1,0 +1,128 @@
+public final class de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt extends java.lang.Object
+{
+    private static final java.lang.String empName;
+    private static int empAge;
+    private static final java.lang.Integer empNumber;
+
+    public static final void sendResponse(java.lang.String)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String responseBody;
+
+        responseBody := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(responseBody, "responseBody");
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(responseBody);
+
+        return;
+    }
+
+    public static final java.lang.String getEmpName()
+    {
+        java.lang.String $stack0;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.String empName>;
+
+        return $stack0;
+    }
+
+    public static final int getEmpAge()
+    {
+        int $stack0;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: int empAge>;
+
+        return $stack0;
+    }
+
+    public static final void setEmpAge(int)
+    {
+        int <set-?>;
+
+        <set-?> := @parameter0: int;
+
+        <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: int empAge> = <set-?>;
+
+        return;
+    }
+
+    public static final java.lang.Integer getEmpNumber()
+    {
+        java.lang.Integer $stack0;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.Integer empNumber>;
+
+        return $stack0;
+    }
+
+    public static final void send(java.lang.String, int, java.lang.Integer)
+    {
+        java.lang.Integer accountNumber;
+        int age;
+        java.lang.StringBuilder $stack3, $stack4, $stack5, $stack6, $stack7, $stack8;
+        java.lang.String name, $stack9;
+
+        name := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        accountNumber := @parameter2: java.lang.Integer;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" is ");
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(age);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" year old and his/her bank account number is ");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(accountNumber);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void sendResponse(java.lang.String)>($stack9);
+
+        return;
+    }
+
+    public static final void processPostRequest()
+    {
+        int $stack1;
+        java.lang.String $stack2;
+        java.lang.Integer $stack0;
+
+        $stack2 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.String empName>;
+
+        $stack1 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: int empAge>;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.Integer empNumber>;
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: void send(java.lang.String,int,java.lang.Integer)>($stack2, $stack1, $stack0);
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.Integer $stack0;
+
+        <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.String empName> = "Employee1";
+
+        <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: int empAge> = 45;
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9415);
+
+        <de.fraunhofer.iem.examplesForReport.KotlinDataTypeExampleKt: java.lang.Integer empNumber> = $stack0;
+
+        return;
+    }
+}

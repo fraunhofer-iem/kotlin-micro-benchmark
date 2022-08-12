@@ -1,0 +1,44 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer501": "null_type",
+                "varReplacer502": "null_type",
+                "varReplacer503": "int",
+                "varReplacer504": "int",
+                "varReplacer505": "null_type"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: void <init>(java.lang.String,java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: java.lang.String getFirstName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: java.lang.String getLastName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.Employee: int getAge()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.EmployeeMainKt: void main()>"]
+        }
+    }
+}

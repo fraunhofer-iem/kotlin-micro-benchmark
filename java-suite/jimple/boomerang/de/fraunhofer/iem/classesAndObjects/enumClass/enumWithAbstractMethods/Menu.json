@@ -1,0 +1,93 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+    "superClass": "java.lang.Enum",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu valueOf(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <init>(java.lang.String,int,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void print()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[]",
+                "$stack1": "java.lang.Object",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.Object clone()>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu valueOf(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.Enum",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu"
+            },
+            "invokeExpressions": ["<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>"]
+        },
+        "void <init>(java.lang.String,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+                "price": "int"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<java.lang.Enum: void <init>(java.lang.String,int)>"]
+        },
+        "void print()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+                "x0": "java.lang.String",
+                "x1": "int",
+                "x2": "int",
+                "x3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <init>(java.lang.String,int,int)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {
+                "varReplacer357": "java.lang.String",
+                "varReplacer358": "int",
+                "varReplacer359": "int",
+                "varReplacer360": "java.lang.String",
+                "varReplacer361": "int",
+                "varReplacer362": "int",
+                "varReplacer363": "java.lang.String",
+                "varReplacer364": "int",
+                "varReplacer365": "int",
+                "varReplacer366": "java.lang.String",
+                "varReplacer367": "int",
+                "varReplacer368": "int"
+            },
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$2",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$3",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[]",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$2: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$3: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4: void <init>(java.lang.String,int,int)>"
+            ]
+        }
+    }
+}

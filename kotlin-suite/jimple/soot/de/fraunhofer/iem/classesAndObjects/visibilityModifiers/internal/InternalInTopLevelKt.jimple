@@ -1,0 +1,60 @@
+public final class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt extends java.lang.Object
+{
+    private static final java.lang.String topLevelInternal;
+
+    public static final java.lang.String getTopLevelInternal()
+    {
+        java.lang.String $stack0;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal>;
+
+        return $stack0;
+    }
+
+    public static final void printTopLevelInternal()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String l0;
+
+        l0 = <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal>;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(l0);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass $stack1;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void <init>(java.lang.String,java.lang.String,java.lang.String)>("val1", "val2", "val3");
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal1()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalClass: void printVal3$kotlin_examples()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: void main()>();
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        <de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInTopLevelKt: java.lang.String topLevelInternal> = "What";
+
+        return;
+    }
+}

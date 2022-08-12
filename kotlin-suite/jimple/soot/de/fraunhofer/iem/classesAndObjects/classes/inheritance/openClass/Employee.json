@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee: void depositSalary()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee: void pensionDeduction()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void depositSalary()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void pensionDeduction()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

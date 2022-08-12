@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML $stack2;
+        kotlin.jvm.functions.Function1 init;
+
+        init := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(init, "init");
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML: void <init>()>();
+
+        interfaceinvoke init.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack2);
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        kotlin.jvm.functions.Function1 $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 $stack0;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 INSTANCE>;
+
+        $stack1 = (kotlin.jvm.functions.Function1) $stack0;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>($stack1);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: void main()>();
+
+        return;
+    }
+}

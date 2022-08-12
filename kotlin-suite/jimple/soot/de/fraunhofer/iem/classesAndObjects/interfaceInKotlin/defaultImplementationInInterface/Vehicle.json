@@ -1,0 +1,46 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: java.lang.String getModelNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: java.lang.String getVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: void displayModelNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: void displayVehicleRegistrationNumber()>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getModelNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getVehicleRegistrationNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void displayModelNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void displayVehicleRegistrationNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

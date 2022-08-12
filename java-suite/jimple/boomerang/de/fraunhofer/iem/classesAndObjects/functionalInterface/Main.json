@@ -1,0 +1,32 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Main: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Main: void lambda$main$0()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Main$lambda_main_0__2: de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle bootstrap$()>",
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void start()>",
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void stop()>"
+            ]
+        },
+        "void lambda$main$0()": {
+            "localVariables": {"varReplacer409": "java.lang.String"},
+            "stackVariables": {"$stack0": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

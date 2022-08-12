@@ -1,0 +1,76 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt extends java.lang.Object
+{
+    public static final java.lang.String name;
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob1$1 $stack3;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob3$1 $stack7;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1 $stack5;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter $stack4, $stack8;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything $stack6, $stack9;
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob1$1;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob1$1: void <init>()>();
+
+        $stack4 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter) $stack3;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt: void printHelloWorld(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter)>($stack4);
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob2$1: void <init>()>();
+
+        $stack6 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything) $stack5;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt: void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything)>($stack6);
+
+        $stack7 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob3$1;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt$main$ob3$1: void <init>()>();
+
+        $stack8 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter) $stack7;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt: void printHelloWorld(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter)>($stack8);
+
+        $stack9 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything) $stack7;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt: void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything)>($stack9);
+
+        return;
+    }
+
+    private static final void printHelloWorld(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter helloWorldPrinter;
+
+        helloWorldPrinter := @parameter0: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter;
+
+        virtualinvoke helloWorldPrinter.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter: void greet()>();
+
+        return;
+    }
+
+    private static final void printAnythingFunction(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything printAnything;
+
+        printAnything := @parameter0: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything;
+
+        interfaceinvoke printAnything.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything: void print(java.lang.String)>("Hi, how are you?");
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.MainKt: void main()>();
+
+        return;
+    }
+}

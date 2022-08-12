@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.basics.variables.KotlinVariablesKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: void main()>",
+        "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: int getVariableValue()>",
+        "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: float getPiValue()>",
+        "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"variable": "int"},
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "float",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: int getVariableValue()>",
+                "<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: float getPiValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(float)>"
+            ]
+        },
+        "int getVariableValue()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.String",
+                "$stack4": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void print(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "float getPiValue()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.String",
+                "$stack4": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void print(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.variables.KotlinVariablesKt: void main()>"]
+        }
+    }
+}

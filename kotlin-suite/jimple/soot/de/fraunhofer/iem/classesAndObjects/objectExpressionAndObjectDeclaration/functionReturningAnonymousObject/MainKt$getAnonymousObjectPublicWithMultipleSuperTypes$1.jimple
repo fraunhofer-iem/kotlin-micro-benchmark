@@ -1,0 +1,84 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 extends de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter implements de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything
+{
+    private final java.lang.String greetMessage;
+    private final java.lang.String name;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String greetMessage> = "Hi!! ";
+
+        this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String name> = "Kotlin";
+
+        return;
+    }
+
+    public final java.lang.String getGreetMessage()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String greetMessage>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public void greet()
+    {
+        java.io.PrintStream $stack6;
+        java.lang.String $stack3, $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String greetMessage>;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: java.lang.String name>;
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack4, $stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public void print(java.lang.String)
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String message;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        message := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(message, "message");
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(message);
+
+        return;
+    }
+}

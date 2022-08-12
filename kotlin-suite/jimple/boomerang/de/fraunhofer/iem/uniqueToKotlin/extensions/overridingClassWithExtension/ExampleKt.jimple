@@ -1,0 +1,72 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.ExampleKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller $stack5, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller $stack0, $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base $stack1, $stack4, $stack6, $stack9;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived $stack3, $stack8;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void <init>()>();
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base: void <init>()>();
+
+        virtualinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>($stack1);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void <init>()>();
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived: void <init>()>();
+
+        $stack4 = (de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base) $stack3;
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>($stack4);
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller: void <init>()>();
+
+        $stack6 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base: void <init>()>();
+
+        virtualinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller: void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>($stack6);
+
+        $stack7 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller: void <init>()>();
+
+        $stack8 = new de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived: void <init>()>();
+
+        $stack9 = (de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base) $stack8;
+
+        virtualinvoke $stack7.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.DerivedCaller: void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>($stack9);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.ExampleKt: void main()>();
+
+        return;
+    }
+}

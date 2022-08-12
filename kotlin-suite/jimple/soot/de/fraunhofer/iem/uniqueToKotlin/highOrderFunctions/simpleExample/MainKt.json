@@ -1,0 +1,81 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)": {
+            "localVariables": {
+                "collections": "java.util.Collection",
+                "combine": "kotlin.jvm.functions.Function2",
+                "initial": "java.lang.Object",
+                "accumulator": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack6": "java.util.Iterator",
+                "$stack7": "boolean",
+                "$stack8": "java.lang.Object"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "joinedToString": "java.lang.String",
+                "func": "java.lang.Integer[]",
+                "func#2": "kotlin.jvm.functions.Function2"
+            },
+            "stackVariables": {
+                "$stack5": "java.lang.Integer",
+                "$stack7": "java.lang.Integer",
+                "$stack9": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack13": "java.lang.Integer",
+                "$stack14": "java.util.List",
+                "$stack15": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1",
+                "$stack16": "java.util.Collection",
+                "$stack17": "java.lang.Integer",
+                "$stack18": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1",
+                "$stack19": "kotlin.jvm.functions.Function2",
+                "$stack21": "java.util.Collection",
+                "$stack22": "java.lang.Object",
+                "$stack23": "java.util.Collection",
+                "$stack24": "java.lang.Integer",
+                "$stack25": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1",
+                "$stack26": "kotlin.jvm.functions.Function2",
+                "$stack27": "java.lang.Object",
+                "$stack28": "java.lang.Number"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>",
+                "<java.lang.Number: int intValue()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: void main()>"]
+        }
+    }
+}

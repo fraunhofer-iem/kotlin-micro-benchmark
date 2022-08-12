@@ -1,0 +1,50 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImplKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair ob;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>("", "dsdg");
+
+        ob = (de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImplKt: void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair)>(ob);
+
+        return;
+    }
+
+    public static final void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair)
+    {
+        java.io.PrintStream $stack3, $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair ob;
+
+        ob := @parameter0: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(ob);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(ob);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImplKt: void main()>();
+
+        return;
+    }
+}

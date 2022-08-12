@@ -1,0 +1,94 @@
+public final class de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee extends java.lang.Object
+{
+    private final java.lang.String fullName;
+    private int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee this;
+        int age;
+        java.lang.String fullName, varReplacer1451;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        varReplacer1451 = "fullName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, varReplacer1451);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public final de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee inc()
+    {
+        int $stack2, $stack3;
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        $stack2 = this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int age>;
+
+        $stack3 = $stack2 + 1;
+
+        this.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int age> = $stack3;
+
+        return this;
+    }
+}

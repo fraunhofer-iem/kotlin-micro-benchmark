@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle: void displayModelNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle: void displayVehicleRegistrationNumber()>"
+    ],
+    "methodsInformation": {
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void displayModelNumber()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle",
+                "varReplacer420": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void displayVehicleRegistrationNumber()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle",
+                "varReplacer421": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

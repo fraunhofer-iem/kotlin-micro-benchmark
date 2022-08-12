@@ -1,0 +1,96 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void singleLoopContinue(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void doubleLoopContinue(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void doubleLoopSingleContinue(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void singleLoopContinue(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "void doubleLoopContinue(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int",
+                "j": "int",
+                "varReplacer77": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack6": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void doubleLoopSingleContinue(int)": {
+            "localVariables": {
+                "range": "int",
+                "i": "int",
+                "j": "int",
+                "varReplacer78": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer79": "int",
+                "varReplacer80": "int",
+                "varReplacer81": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void singleLoopContinue(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void doubleLoopContinue(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaContinue: void doubleLoopSingleContinue(int)>"
+            ]
+        }
+    }
+}

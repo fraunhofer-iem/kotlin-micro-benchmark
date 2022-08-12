@@ -1,0 +1,79 @@
+public class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty extends java.lang.Object
+{
+    private final java.lang.String name;
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty this;
+        java.lang.String name;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        name := @parameter0: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: java.lang.String name> = name;
+
+        return;
+    }
+
+    public void printHello()
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty this;
+        java.lang.StringBuilder $stack1, $stack3, $stack5, $stack6;
+        java.lang.String $stack4, $stack7, varReplacer225, varReplacer226;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer225 = "Hello ";
+
+        $stack3 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer225);
+
+        $stack4 = this.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: java.lang.String name>;
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack4);
+
+        varReplacer226 = "!!!";
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer226);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>($stack7);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty $stack2;
+        java.lang.String[] args;
+        java.lang.String varReplacer227;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        varReplacer227 = "Ranjith";
+
+        specialinvoke $stack2.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>(varReplacer227);
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>();
+
+        return;
+    }
+}

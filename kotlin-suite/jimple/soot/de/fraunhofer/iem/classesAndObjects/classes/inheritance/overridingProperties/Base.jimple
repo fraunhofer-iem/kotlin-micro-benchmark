@@ -1,0 +1,78 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base extends java.lang.Object
+{
+    private final java.lang.String prop;
+    private final int num;
+    private char ch;
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base this;
+        java.lang.String prop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        prop := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(prop, "prop");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: java.lang.String prop> = prop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: int num> = 100;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: char ch> = 82;
+
+        return;
+    }
+
+    public java.lang.String getProp()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: java.lang.String prop>;
+
+        return $stack1;
+    }
+
+    public int getNum()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base this;
+        int $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: int num>;
+
+        return $stack1;
+    }
+
+    public char getCh()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base this;
+        char $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: char ch>;
+
+        return $stack1;
+    }
+
+    public void setCh(char)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base this;
+        char <set-?>;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        <set-?> := @parameter0: char;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: char ch> = <set-?>;
+
+        return;
+    }
+}

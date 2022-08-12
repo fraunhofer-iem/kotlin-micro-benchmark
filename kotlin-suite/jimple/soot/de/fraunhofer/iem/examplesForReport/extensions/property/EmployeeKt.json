@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt: int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.property.Employee)>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.property.Employee)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$nameLength": "de.fraunhofer.iem.examplesForReport.extensions.property.Employee",
+                "$stack1": "java.lang.String",
+                "$stack2": "int",
+                "$stack3": "java.lang.String",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String getFirstName()>",
+                "<java.lang.String: int length()>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String getLastName()>",
+                "<java.lang.String: int length()>"
+            ]
+        },
+        "void entry()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.examplesForReport.extensions.property.Employee",
+                "$stack5": "int",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt: int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.property.Employee)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

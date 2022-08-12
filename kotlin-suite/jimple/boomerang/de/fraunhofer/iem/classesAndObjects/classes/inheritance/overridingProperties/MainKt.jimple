@@ -1,0 +1,78 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base $stack0, $stack2;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived $stack1;
+        java.lang.String varReplacer599, varReplacer600;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        varReplacer599 = "Base Property";
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: void <init>(java.lang.String)>(varReplacer599);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)>($stack0);
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        varReplacer600 = "Derived property";
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: void <init>(java.lang.String)>(varReplacer600);
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)>($stack2);
+
+        return;
+    }
+
+    private static final void printProp(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base)
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base base;
+        int $stack5;
+        char $stack7;
+        java.lang.String $stack3;
+
+        nop;
+
+        base := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base;
+
+        $stack3 = virtualinvoke base.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: java.lang.String getProp()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack5 = virtualinvoke base.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: int getNum()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack5);
+
+        $stack7 = virtualinvoke base.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: char getCh()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(char)>($stack7);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.MainKt: void main()>();
+
+        return;
+    }
+}

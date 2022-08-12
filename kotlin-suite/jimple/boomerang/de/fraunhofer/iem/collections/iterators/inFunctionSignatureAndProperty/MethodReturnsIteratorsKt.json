@@ -1,0 +1,103 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: void main()>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnIterator(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnIterable(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnListIterator(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnMutableIterator(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnMutableIterable(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnMutableListIterator(java.util.List)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1202": "java.lang.String",
+                "varReplacer1203": "java.lang.String"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String[]",
+                "$stack2": "java.util.List"
+            },
+            "invokeExpressions": [
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnIterable(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnIterator(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnListIterator(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnMutableListIterator(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnIterator(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnMutableIterator(java.util.List)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnMutableIterable(java.util.List)>"
+            ]
+        },
+        "java.util.Iterator returnIterator(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1204": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.util.Iterator"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: java.util.Iterator iterator()>"
+            ]
+        },
+        "java.lang.Iterable returnIterable(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1205": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.lang.Iterable"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.util.ListIterator returnListIterator(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1206": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.util.ListIterator"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: java.util.ListIterator listIterator()>"
+            ]
+        },
+        "java.util.Iterator returnMutableIterator(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1207": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.util.Iterator"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: java.util.Iterator iterator()>"
+            ]
+        },
+        "java.lang.Iterable returnMutableIterable(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1208": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.lang.Iterable"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.util.ListIterator returnMutableListIterator(java.util.List)": {
+            "localVariables": {
+                "lst": "java.util.List",
+                "varReplacer1209": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.util.ListIterator"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.List: java.util.ListIterator listIterator()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: void main()>"]
+        }
+    }
+}

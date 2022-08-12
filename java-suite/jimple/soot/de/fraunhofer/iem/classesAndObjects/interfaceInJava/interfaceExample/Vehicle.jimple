@@ -1,0 +1,13 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle extends java.lang.Object
+{
+
+    public abstract void start();
+
+    public abstract void stop();
+
+    public abstract void accelerate(int);
+
+    public abstract void changeGear(int);
+
+    public abstract int getCurrentSpeed();
+}

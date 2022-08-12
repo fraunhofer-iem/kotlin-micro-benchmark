@@ -1,0 +1,79 @@
+public final class de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt extends java.lang.Object
+{
+
+    public static final void printMyName(java.lang.String)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String name;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(name);
+
+        return;
+    }
+
+    public static final kotlin.Unit printMyNameWithNullableUnit(java.lang.String)
+    {
+        java.io.PrintStream $stack3;
+        kotlin.Unit $stack4;
+        java.lang.String name;
+        boolean $stack2;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(name, "null");
+
+        if $stack2 == 0 goto label1;
+
+        return null;
+
+     label1:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(name);
+
+        $stack4 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack4;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack2, $stack4;
+        kotlin.Unit $stack3, l0;
+
+        staticinvoke <de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void printMyName(java.lang.String)>("Ranjith");
+
+        l0 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(l0);
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: kotlin.Unit printMyNameWithNullableUnit(java.lang.String)>("Ranjith");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void main()>();
+
+        return;
+    }
+}

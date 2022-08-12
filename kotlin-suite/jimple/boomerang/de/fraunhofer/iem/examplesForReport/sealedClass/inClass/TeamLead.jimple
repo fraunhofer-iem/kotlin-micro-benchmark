@@ -1,0 +1,79 @@
+public final class de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead extends de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee
+{
+    private final java.lang.String fName;
+    private int currAge;
+
+    public void <init>(java.lang.String, int)
+    {
+        null_type varReplacer1468;
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead this;
+        int currAge;
+        java.lang.String fName, varReplacer1467;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead;
+
+        fName := @parameter0: java.lang.String;
+
+        currAge := @parameter1: int;
+
+        varReplacer1467 = "fName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fName, varReplacer1467);
+
+        varReplacer1468 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>(fName, currAge, varReplacer1468);
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: java.lang.String fName> = fName;
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: int currAge> = currAge;
+
+        return;
+    }
+
+    public final java.lang.String getFName()
+    {
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: java.lang.String fName>;
+
+        return $stack1;
+    }
+
+    public final int getCurrAge()
+    {
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead this;
+        int $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: int currAge>;
+
+        return $stack1;
+    }
+
+    public final void setCurrAge(int)
+    {
+        de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead this;
+        int <set-?>;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: int currAge> = <set-?>;
+
+        return;
+    }
+}

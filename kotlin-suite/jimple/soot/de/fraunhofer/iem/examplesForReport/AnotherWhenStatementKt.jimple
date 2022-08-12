@@ -1,0 +1,60 @@
+public final class de.fraunhofer.iem.examplesForReport.AnotherWhenStatementKt extends java.lang.Object
+{
+
+    public static final void validateNumber(java.lang.Number)
+    {
+        java.io.PrintStream $stack6;
+        int $stack5;
+        java.lang.String $stack7;
+        java.lang.Number number;
+        boolean $stack4, $stack10;
+
+        number := @parameter0: java.lang.Number;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(number, "number");
+
+        $stack4 = number instanceof java.lang.Integer;
+
+        if $stack4 != 0 goto label1;
+
+        $stack7 = "Given Number is not Int";
+
+        goto label6;
+
+     label1:
+        $stack5 = virtualinvoke number.<java.lang.Number: int intValue()>();
+
+        if 1 > $stack5 goto label3;
+
+        if $stack5 > 10 goto label2;
+
+        $stack10 = 1;
+
+        goto label4;
+
+     label2:
+        $stack10 = 0;
+
+        goto label4;
+
+     label3:
+        $stack10 = 0;
+
+     label4:
+        if $stack10 == 0 goto label5;
+
+        $stack7 = "Given Number is between 1 to 10";
+
+        goto label6;
+
+     label5:
+        $stack7 = "Given Number is greater than 10";
+
+     label6:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+    }
+}

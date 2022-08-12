@@ -1,0 +1,130 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: byte getUByte(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: short getUShort(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: long getULong(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer398": "java.lang.String",
+                "varReplacer399": "java.lang.String",
+                "varReplacer400": "java.lang.String",
+                "varReplacer401": "java.lang.String",
+                "varReplacer402": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack9": "int",
+                "$stack10": "int",
+                "$stack11": "byte",
+                "$stack12": "short",
+                "$stack13": "long",
+                "$stack14": "kotlin.UInt",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "int",
+                "$stack17": "int",
+                "$stack18": "int",
+                "$stack19": "int",
+                "$stack20": "kotlin.UInt",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "kotlin.UByte",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "kotlin.UShort",
+                "$stack25": "java.io.PrintStream",
+                "$stack26": "kotlin.ULong",
+                "$stack27": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: byte getUByte(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: short getUShort(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: long getULong(java.lang.String)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UInt: int constructor-impl(int)>",
+                "<kotlin.UInt: int constructor-impl(int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UByte: kotlin.UByte box-impl(byte)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UShort: kotlin.UShort box-impl(short)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.ULong: kotlin.ULong box-impl(long)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getUInt(java.lang.String)": {
+            "localVariables": {
+                "str": "java.lang.String",
+                "varReplacer403": "java.lang.String",
+                "varReplacer404": "int",
+                "varReplacer405": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "byte getUByte(java.lang.String)": {
+            "localVariables": {
+                "str": "java.lang.String",
+                "varReplacer406": "java.lang.String",
+                "varReplacer407": "int",
+                "varReplacer408": "int",
+                "varReplacer409": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "short getUShort(java.lang.String)": {
+            "localVariables": {
+                "str": "java.lang.String",
+                "varReplacer410": "java.lang.String",
+                "varReplacer411": "int",
+                "varReplacer412": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$s0": "short"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "long getULong(java.lang.String)": {
+            "localVariables": {
+                "str": "java.lang.String",
+                "varReplacer413": "long",
+                "varReplacer414": "java.lang.String",
+                "varReplacer415": "long",
+                "varReplacer416": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void main()>"]
+        }
+    }
+}

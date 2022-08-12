@@ -1,0 +1,30 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClassMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass $stack2;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClassMainKt: void main()>();
+
+        return;
+    }
+}

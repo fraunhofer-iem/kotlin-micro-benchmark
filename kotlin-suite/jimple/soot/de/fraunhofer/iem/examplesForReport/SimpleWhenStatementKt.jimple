@@ -1,0 +1,75 @@
+public final class de.fraunhofer.iem.examplesForReport.SimpleWhenStatementKt extends java.lang.Object
+{
+
+    public static final void greet()
+    {
+        java.io.PrintStream $stack8, $stack13, $stack15, $stack5;
+        int $stack6;
+        java.lang.String $stack4;
+        boolean $stack7, $stack12, $stack14;
+
+        $stack4 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        if $stack4 == null goto label7;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack6)
+        {
+            case -1125574399: goto label3;
+            case 98723: goto label1;
+            case 3254818: goto label2;
+            default: goto label7;
+        };
+
+     label1:
+        $stack12 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>("cpp");
+
+        if $stack12 != 0 goto label6;
+
+        goto label7;
+
+     label2:
+        $stack7 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>("java");
+
+        if $stack7 != 0 goto label4;
+
+        goto label7;
+
+     label3:
+        $stack14 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>("kotlin");
+
+        if $stack14 != 0 goto label5;
+
+        goto label7;
+
+     label4:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Java.");
+
+        goto label8;
+
+     label5:
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Kotlin.");
+
+        goto label8;
+
+     label6:
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to c++.");
+
+        goto label8;
+
+     label7:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("Invalid User Input.");
+
+     label8:
+        return;
+    }
+}

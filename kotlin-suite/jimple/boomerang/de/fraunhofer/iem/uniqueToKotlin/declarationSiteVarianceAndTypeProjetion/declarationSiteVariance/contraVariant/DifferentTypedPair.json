@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair: void replace(java.lang.Object,java.lang.Object)>"],
+    "methodsInformation": {"void replace(java.lang.Object,java.lang.Object)": {
+        "localVariables": {},
+        "stackVariables": {},
+        "invokeExpressions": []
+    }}
+}

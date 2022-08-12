@@ -1,0 +1,112 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: void dummy(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: double getDouble(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "double",
+                "$stack16": "double",
+                "$stack17": "byte",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "byte",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "byte",
+                "$stack22": "java.io.PrintStream",
+                "$stack23": "byte",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "byte",
+                "$stack26": "java.io.PrintStream",
+                "$stack27": "byte",
+                "$stack28": "java.io.PrintStream",
+                "$stack29": "java.lang.Integer",
+                "$stack30": "java.lang.Integer",
+                "$stack66": "boolean",
+                "$stack63": "boolean",
+                "$stack60": "boolean",
+                "$stack57": "boolean",
+                "$stack54": "boolean",
+                "$stack49": "boolean",
+                "$stack46": "boolean",
+                "$stack43": "boolean",
+                "$stack40": "boolean",
+                "$stack37": "boolean",
+                "$stack34": "boolean",
+                "$stack31": "boolean",
+                "$i0": "int",
+                "$i1": "int",
+                "$i2": "int",
+                "$i3": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: double getDouble(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: double getDouble(java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: void dummy(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void dummy(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "num1": "java.lang.Object",
+                "num2": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.io.PrintStream",
+                "$stack5": "boolean",
+                "$stack4": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "double getDouble(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": ["<java.lang.String: boolean equals(java.lang.Object)>"]
+        },
+        "int getInt(java.lang.String)": {
+            "localVariables": {"str": "java.lang.String"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": ["<java.lang.String: boolean equals(java.lang.Object)>"]
+        }
+    }
+}

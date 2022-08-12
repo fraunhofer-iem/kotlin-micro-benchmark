@@ -1,0 +1,78 @@
+public abstract class de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle extends java.lang.Object
+{
+    private final java.lang.String vehicleRegistrationNumber;
+
+    private void <init>(java.lang.String)
+    {
+        java.lang.String vehicleRegistrationNumber;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        vehicleRegistrationNumber := @parameter0: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: java.lang.String vehicleRegistrationNumber> = vehicleRegistrationNumber;
+
+        return;
+    }
+
+    public final java.lang.String getVehicleRegistrationNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: java.lang.String vehicleRegistrationNumber>;
+
+        return $stack1;
+    }
+
+    public void displayVehicleRegistrationNumber()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle this;
+        java.lang.String $stack3, $stack4, varReplacer901;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: java.lang.String vehicleRegistrationNumber>;
+
+        varReplacer901 = " in Vehicle";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, varReplacer901);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public void <init>(java.lang.String, kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        java.lang.String vehicleRegistrationNumber;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle this;
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        vehicleRegistrationNumber := @parameter0: java.lang.String;
+
+        $constructor_marker := @parameter1: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String)>(vehicleRegistrationNumber);
+
+        return;
+    }
+}

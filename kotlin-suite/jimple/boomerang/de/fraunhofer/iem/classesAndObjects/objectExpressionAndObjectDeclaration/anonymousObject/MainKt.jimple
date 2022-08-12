@@ -1,0 +1,64 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String varReplacer806;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1 $stack4;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1 $stack5;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any3$1 $stack6;
+
+        nop;
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any1$1: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt: void printAnonymousObject(java.lang.Object)>($stack4);
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1;
+
+        varReplacer806 = "Kotlin";
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any2$1: void <init>(java.lang.String)>(varReplacer806);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt: void printAnonymousObject(java.lang.Object)>($stack5);
+
+        $stack6 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any3$1;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt$main$any3$1: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt: void printAnonymousObject(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    private static final void printAnonymousObject(java.lang.Object)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.Object any;
+
+        nop;
+
+        any := @parameter0: java.lang.Object;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(any);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObject.MainKt: void main()>();
+
+        return;
+    }
+}

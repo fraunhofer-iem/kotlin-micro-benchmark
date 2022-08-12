@@ -1,0 +1,60 @@
+public final class de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt extends java.lang.Object
+{
+
+    public static final void send(kotlin.jvm.functions.Function0, de.fraunhofer.iem.examplesForReport.inlineFunction.Employee, kotlin.jvm.functions.Function0)
+    {
+        java.io.PrintStream $stack6;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.Employee employee;
+        kotlin.jvm.functions.Function0 beforePrint, afterPrint;
+
+        beforePrint := @parameter0: kotlin.jvm.functions.Function0;
+
+        employee := @parameter1: de.fraunhofer.iem.examplesForReport.inlineFunction.Employee;
+
+        afterPrint := @parameter2: kotlin.jvm.functions.Function0;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(beforePrint, "beforePrint");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, "employee");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(afterPrint, "afterPrint");
+
+        interfaceinvoke beforePrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(employee);
+
+        interfaceinvoke afterPrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack10, $stack11;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1 $stack7;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.Employee $stack8;
+        kotlin.jvm.functions.Function0 beforePrint;
+
+        $stack7 = <de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1 INSTANCE>;
+
+        beforePrint = (kotlin.jvm.functions.Function0) $stack7;
+
+        $stack8 = new de.fraunhofer.iem.examplesForReport.inlineFunction.Employee;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.examplesForReport.inlineFunction.Employee: void <init>(java.lang.String,java.lang.String,int)>("Night", "Fury", 120);
+
+        interfaceinvoke beforePrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>("Exiting the send operation");
+
+        return;
+    }
+}

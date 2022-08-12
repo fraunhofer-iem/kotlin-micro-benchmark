@@ -1,0 +1,47 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt extends java.lang.Object
+{
+    private static int lastGeneratedEmpID;
+
+    public static final int getLastGeneratedEmpID()
+    {
+        int $stack0;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int lastGeneratedEmpID>;
+
+        return $stack0;
+    }
+
+    public static final void setLastGeneratedEmpID(int)
+    {
+        int <set-?>;
+
+        <set-?> := @parameter0: int;
+
+        <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int lastGeneratedEmpID> = <set-?>;
+
+        return;
+    }
+
+    public static final java.lang.String getNewEmpID()
+    {
+        int $stack0, $stack1, $stack2;
+        java.lang.String $stack3;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int lastGeneratedEmpID>;
+
+        $stack1 = $stack0 + 1;
+
+        <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int lastGeneratedEmpID> = $stack1;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int lastGeneratedEmpID>;
+
+        $stack3 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>($stack2);
+
+        return $stack3;
+    }
+
+    static void <clinit>()
+    {
+        return;
+    }
+}

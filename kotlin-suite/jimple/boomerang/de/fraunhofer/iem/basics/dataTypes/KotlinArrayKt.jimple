@@ -1,0 +1,463 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack6, $stack8, $stack10, $stack12, $stack13, $stack16, $stack20, $stack22, $stack23, $stack26;
+        int $stack14, $stack17, $stack24, $stack27, varReplacer235, varReplacer236, varReplacer237, varReplacer238, varReplacer239, varReplacer240, varReplacer241;
+        java.io.PrintStream $stack15, $stack18, $stack25, $stack28;
+        java.lang.Integer[] l1;
+
+        nop;
+
+        l1 = newarray (java.lang.Integer)[5];
+
+        varReplacer237 = 1;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer237);
+
+        l1[0] = $stack4;
+
+        varReplacer239 = 2;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer239);
+
+        l1[1] = $stack6;
+
+        varReplacer236 = 3;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer236);
+
+        l1[2] = $stack8;
+
+        varReplacer238 = 4;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer238);
+
+        l1[3] = $stack10;
+
+        varReplacer235 = 5;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer235);
+
+        l1[4] = $stack12;
+
+        $stack13 = l1[0];
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Integer: int intValue()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack14);
+
+        $stack16 = l1[1];
+
+        $stack17 = virtualinvoke $stack16.<java.lang.Integer: int intValue()>();
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(int)>($stack17);
+
+        varReplacer241 = 10;
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer241);
+
+        l1[0] = $stack20;
+
+        varReplacer240 = 10;
+
+        $stack22 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer240);
+
+        l1[1] = $stack22;
+
+        $stack23 = l1[0];
+
+        $stack24 = virtualinvoke $stack23.<java.lang.Integer: int intValue()>();
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(int)>($stack24);
+
+        $stack26 = l1[1];
+
+        $stack27 = virtualinvoke $stack26.<java.lang.Integer: int intValue()>();
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(int)>($stack27);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void waysToCreateArray()>();
+
+        return;
+    }
+
+    public static final void waysToCreateArray()
+    {
+        java.lang.Integer $stack8, $stack21, $stack27;
+        java.lang.Character $stack10;
+        java.lang.Long $stack16;
+        int[] arr3;
+        boolean $stack33;
+        java.lang.Integer[] l5, l5#17;
+        java.lang.Object[] arr2;
+        java.lang.Double $stack12;
+        long varReplacer243;
+        int $stack26, $stack28, l4, l6, varReplacer242, varReplacer244, varReplacer246, varReplacer247, varReplacer248, varReplacer249, varReplacer251, varReplacer252, varReplacer253, varReplacer254, varReplacer255, varReplacer256, varReplacer257, varReplacer258, varReplacer259, varReplacer260;
+        java.lang.String varReplacer250;
+        double varReplacer245;
+        java.io.PrintStream $stack17, $stack18, $stack19, $stack20;
+        kotlin.UInt $stack14;
+        char[] arr4;
+
+        nop;
+
+        arr2 = newarray (java.lang.Object)[6];
+
+        varReplacer247 = 1;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer247);
+
+        arr2[0] = $stack8;
+
+        varReplacer250 = "ranjith";
+
+        arr2[1] = varReplacer250;
+
+        varReplacer253 = 114;
+
+        $stack10 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(varReplacer253);
+
+        arr2[2] = $stack10;
+
+        varReplacer245 = 5454.5151;
+
+        $stack12 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(varReplacer245);
+
+        arr2[3] = $stack12;
+
+        varReplacer254 = 55;
+
+        $stack14 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>(varReplacer254);
+
+        arr2[4] = $stack14;
+
+        varReplacer243 = 65446L;
+
+        $stack16 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>(varReplacer243);
+
+        arr2[5] = $stack16;
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>(arr2);
+
+        arr3 = newarray (int)[5];
+
+        varReplacer255 = 1;
+
+        arr3[0] = varReplacer255;
+
+        varReplacer252 = 2;
+
+        arr3[1] = varReplacer252;
+
+        varReplacer259 = 3;
+
+        arr3[2] = varReplacer259;
+
+        varReplacer246 = 4;
+
+        arr3[3] = varReplacer246;
+
+        varReplacer244 = 5;
+
+        arr3[4] = varReplacer244;
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>(arr3);
+
+        arr4 = newarray (char)[7];
+
+        varReplacer251 = 114;
+
+        arr4[0] = varReplacer251;
+
+        varReplacer242 = 97;
+
+        arr4[1] = varReplacer242;
+
+        varReplacer248 = 110;
+
+        arr4[2] = varReplacer248;
+
+        varReplacer258 = 106;
+
+        arr4[3] = varReplacer258;
+
+        varReplacer260 = 105;
+
+        arr4[4] = varReplacer260;
+
+        varReplacer256 = 116;
+
+        arr4[5] = varReplacer256;
+
+        varReplacer249 = 104;
+
+        arr4[6] = varReplacer249;
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(char[])>(arr4);
+
+        l4 = 0;
+
+        l5 = newarray (java.lang.Integer)[5];
+
+     label1:
+        if l4 >= 5 goto label7;
+
+        nop;
+
+        l6 = l4;
+
+        $stack28 = l4;
+
+        if 1 > l4 goto label3;
+
+        nop;
+
+        if l4 > 3 goto label2;
+
+        nop;
+
+        $stack33 = 1;
+
+        goto label4;
+
+     label2:
+        nop;
+
+        $stack33 = 0;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack33 = 0;
+
+     label4:
+        if $stack33 == 0 goto label5;
+
+        nop;
+
+        $stack26 = l6 * 20;
+
+        $stack27 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack26);
+
+        goto label6;
+
+     label5:
+        nop;
+
+        $stack27 = null;
+
+     label6:
+        l5[$stack28] = $stack27;
+
+        l4 = l4 + 1;
+
+        goto label1;
+
+     label7:
+        nop;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>(l5);
+
+        l4 = 0;
+
+        l5#17 = newarray (java.lang.Integer)[5];
+
+     label8:
+        if l4 >= 5 goto label9;
+
+        nop;
+
+        varReplacer257 = 10;
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer257);
+
+        l5#17[l4] = $stack21;
+
+        l4 = l4 + 1;
+
+        goto label8;
+
+     label9:
+        nop;
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray1(java.lang.Integer[])>(l5#17);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray2(java.lang.Integer[])>(l5);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray3(java.lang.Integer[])>(l5);
+
+        return;
+    }
+
+    public static final void iteratingArray1(java.lang.Integer[])
+    {
+        java.io.PrintStream $stack8;
+        int l3, $stack7, l2;
+        java.lang.String varReplacer261;
+        java.lang.Integer $stack6;
+        java.lang.Integer[] arr;
+
+        nop;
+
+        arr := @parameter0: java.lang.Integer[];
+
+        varReplacer261 = "arr";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arr, varReplacer261);
+
+        l2 = 0;
+
+        l3 = lengthof arr;
+
+     label1:
+        if l2 >= l3 goto label2;
+
+        nop;
+
+        $stack6 = arr[l2];
+
+        $stack7 = virtualinvoke $stack6.<java.lang.Integer: int intValue()>();
+
+        l2 = l2 + 1;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    public static final void iteratingArray2(java.lang.Integer[])
+    {
+        java.io.PrintStream $stack6;
+        int l2, index, l1;
+        java.lang.String varReplacer262;
+        java.lang.Integer $stack10;
+        java.lang.Integer[] arr;
+
+        nop;
+
+        arr := @parameter0: java.lang.Integer[];
+
+        varReplacer262 = "arr";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arr, varReplacer262);
+
+        l1 = 0;
+
+        l2 = lengthof arr;
+
+        if 0 >= l2 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        index = l1;
+
+        l1 = l1 + 1;
+
+        $stack10 = arr[index];
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        if l1 < l2 goto label1;
+
+        nop;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    public static final void iteratingArray3(java.lang.Integer[])
+    {
+        java.io.PrintStream $stack7;
+        java.lang.Integer $stack11;
+        int $stack6, l2, index, l1;
+        java.lang.String varReplacer263;
+        java.lang.Integer[] arr;
+
+        nop;
+
+        arr := @parameter0: java.lang.Integer[];
+
+        varReplacer263 = "arr";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arr, varReplacer263);
+
+        l1 = 0;
+
+        $stack6 = lengthof arr;
+
+        l2 = $stack6 - 1;
+
+        if 0 > l2 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        index = l1;
+
+        l1 = l1 + 1;
+
+        $stack11 = arr[index];
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        if index != l2 goto label1;
+
+        nop;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void main()>();
+
+        return;
+    }
+}

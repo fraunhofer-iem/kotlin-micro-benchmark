@@ -1,0 +1,217 @@
+public final class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt extends java.lang.Object
+{
+
+    private static final void returnNothing(int)
+    {
+        int num;
+        java.io.PrintStream $stack3, $stack4;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        return;
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        return;
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 1000");
+
+     label4:
+        return;
+    }
+
+    private static final int returnValue(int)
+    {
+        java.io.PrintStream $stack3, $stack5;
+        int num, $i0, $i1;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        $i1 = (int) -100;
+
+        return $i1;
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 1000");
+
+     label4:
+        return 404;
+    }
+
+    private static final java.lang.String returnObject(int)
+    {
+        int num;
+        java.io.PrintStream $stack3, $stack5;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        return "-1";
+
+     label1:
+        if num <= 10 goto label2;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 10");
+
+     label2:
+        if num >= 100 goto label3;
+
+        return "-100";
+
+     label3:
+        if num <= 1000 goto label4;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Greater than 1000");
+
+     label4:
+        return "404";
+    }
+
+    private static final void returnInLambda()
+    {
+        java.io.PrintStream $stack23, $stack25;
+        java.util.Iterator $stack18;
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack22, $stack24;
+        java.lang.Object $stack20;
+        java.lang.Number $stack21;
+        boolean $stack19;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        $stack20 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack21 = (java.lang.Number) $stack20;
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: int intValue()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(int)>($stack22);
+
+        $stack24 = $stack22 % 2;
+
+        if $stack24 != 0 goto label2;
+
+        return;
+
+     label2:
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3, $stack5, $stack6;
+        int $stack4;
+        java.lang.String $stack2;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnNothing(int)>(0);
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: java.lang.String returnObject(int)>(1);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: int returnValue(int)>(1251);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnInLambda()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>("Ending Main");
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void main()>();
+
+        return;
+    }
+}

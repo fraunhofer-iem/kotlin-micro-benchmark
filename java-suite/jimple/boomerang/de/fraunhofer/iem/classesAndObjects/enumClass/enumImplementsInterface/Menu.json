@@ -1,0 +1,87 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+    "superClass": "java.lang.Enum",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.MenuPrinter"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <init>(java.lang.String,int,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[]",
+                "$stack1": "java.lang.Object",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.Object clone()>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.Enum",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu"
+            },
+            "invokeExpressions": ["<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>"]
+        },
+        "void <init>(java.lang.String,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "price": "int"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<java.lang.Enum: void <init>(java.lang.String,int)>"]
+        },
+        "void <init>(java.lang.String,int,int,de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "x0": "java.lang.String",
+                "x1": "int",
+                "x2": "int",
+                "x3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <init>(java.lang.String,int,int)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {
+                "varReplacer337": "java.lang.String",
+                "varReplacer338": "int",
+                "varReplacer339": "int",
+                "varReplacer340": "java.lang.String",
+                "varReplacer341": "int",
+                "varReplacer342": "int",
+                "varReplacer343": "java.lang.String",
+                "varReplacer344": "int",
+                "varReplacer345": "int",
+                "varReplacer346": "java.lang.String",
+                "varReplacer347": "int",
+                "varReplacer348": "int"
+            },
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$2",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$3",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[]",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$1: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$2: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$3: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$4: void <init>(java.lang.String,int,int)>"
+            ]
+        }
+    }
+}

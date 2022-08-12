@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee extends java.lang.Object
+{
+    private final java.lang.String firstName;
+    private java.lang.String lastName;
+    private int age;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        java.io.PrintStream $stack6, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee this;
+        int age;
+        java.lang.String firstName, lastName, varReplacer1461, varReplacer1462, varReplacer1463, varReplacer1464;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1462 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1462);
+
+        varReplacer1461 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1461);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: java.lang.String lastName> = lastName;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1464 = "Initializer block";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1464);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: int age> = age;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1463 = "Completed Initializer block";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1463);
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final void setLastName(java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee this;
+        java.lang.String <set-?>, varReplacer1465;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1465 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1465);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: java.lang.String lastName> = <set-?>;
+
+        return;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: int age> = <set-?>;
+
+        return;
+    }
+}

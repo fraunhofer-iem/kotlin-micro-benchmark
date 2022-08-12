@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void print()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void print()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base",
+                "varReplacer311": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

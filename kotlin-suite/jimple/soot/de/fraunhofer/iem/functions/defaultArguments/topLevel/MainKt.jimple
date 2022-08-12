@@ -1,0 +1,252 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt extends java.lang.Object
+{
+
+    public static final int add(int, int, int, int)
+    {
+        int num1, num2, num3, $stack4, num4, $stack5, $stack6;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack4 = num1 + num2;
+
+        $stack5 = $stack4 + num3;
+
+        $stack6 = $stack5 + num4;
+
+        return $stack6;
+    }
+
+    public static int add$default(int, int, int, int, int, java.lang.Object)
+    {
+        int l4, $stack6, $stack7, $stack8, $stack9, $stack10, l0, l1, l2, l3;
+        java.lang.Object l5;
+
+        l0 := @parameter0: int;
+
+        l1 := @parameter1: int;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: java.lang.Object;
+
+        $stack6 = l4 & 1;
+
+        if $stack6 == 0 goto label1;
+
+        l0 = 0;
+
+     label1:
+        $stack7 = l4 & 2;
+
+        if $stack7 == 0 goto label2;
+
+        l1 = 0;
+
+     label2:
+        $stack8 = l4 & 4;
+
+        if $stack8 == 0 goto label3;
+
+        l2 = 0;
+
+     label3:
+        $stack9 = l4 & 8;
+
+        if $stack9 == 0 goto label4;
+
+        l3 = 0;
+
+     label4:
+        $stack10 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add(int,int,int,int)>(l0, l1, l2, l3);
+
+        return $stack10;
+    }
+
+    public static final float add10(int, int, int, int)
+    {
+        int num1, num2, num3, num4;
+        float $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack5 = (float) num1;
+
+        $stack4 = (float) num2;
+
+        $stack7 = $stack5 + $stack4;
+
+        $stack6 = (float) num3;
+
+        $stack9 = $stack7 + $stack6;
+
+        $stack8 = (float) num4;
+
+        $stack11 = $stack9 + $stack8;
+
+        $stack10 = (float) 10;
+
+        $stack12 = $stack11 + $stack10;
+
+        return $stack12;
+    }
+
+    public static float add10$default(int, int, int, int, int, java.lang.Object)
+    {
+        int l4, $stack6, $stack7, l0, l3, l1, l2;
+        float $stack8;
+        java.lang.Object l5;
+
+        l0 := @parameter0: int;
+
+        l1 := @parameter1: int;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: java.lang.Object;
+
+        $stack6 = l4 & 2;
+
+        if $stack6 == 0 goto label1;
+
+        l1 = 0;
+
+     label1:
+        $stack7 = l4 & 4;
+
+        if $stack7 == 0 goto label2;
+
+        l2 = 0;
+
+     label2:
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>(l0, l1, l2, l3);
+
+        return $stack8;
+    }
+
+    public static final int sub(int, int, int, int)
+    {
+        int num1, num2, num3, $stack4, num4, $stack5, $stack6;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack4 = num1 - num2;
+
+        $stack5 = $stack4 - num3;
+
+        $stack6 = $stack5 - num4;
+
+        return $stack6;
+    }
+
+    public static final void main()
+    {
+        int $stack2, $stack4, $stack6, $stack8, $stack10, $stack22;
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack9, $stack11, $stack13, $stack15, $stack17, $stack19, $stack21, $stack23;
+        float $stack12, $stack14, $stack16, $stack18, $stack20;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>(0, 0, 0, 0, 15, null);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>($stack2);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>(10, 0, 0, 0, 14, null);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>(10, 20, 0, 0, 12, null);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add$default(int,int,int,int,int,java.lang.Object)>(0, 20, 0, 40, 5, null);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int add(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>(10, 0, 0, 40, 6, null);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(float)>($stack12);
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>(10, 20, 0, 40, 4, null);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(float)>($stack14);
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10$default(int,int,int,int,int,java.lang.Object)>(10, 0, 30, 40, 2, null);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(float)>($stack16);
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(float)>($stack18);
+
+        $stack20 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: float add10(int,int,int,int)>(10, 20, 30, 40);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(float)>($stack20);
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: int sub(int,int,int,int)>(100, 20, 30, 40);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(int)>($stack22);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.MainKt: void main()>();
+
+        return;
+    }
+}

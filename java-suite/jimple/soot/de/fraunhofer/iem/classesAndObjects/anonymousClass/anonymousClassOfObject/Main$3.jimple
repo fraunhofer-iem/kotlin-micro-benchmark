@@ -1,0 +1,14 @@
+class de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3 extends java.lang.Object
+{
+
+    void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3 this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

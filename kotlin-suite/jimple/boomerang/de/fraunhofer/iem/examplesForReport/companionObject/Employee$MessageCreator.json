@@ -1,0 +1,84 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String getCurrentGreetingMessage()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void setCurrentGreetingMessage(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHello()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHi()>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String access$sayHi(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getCurrentGreetingMessage()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String access$getCurrentGreetingMessage$cp()>"]
+        },
+        "void setCurrentGreetingMessage(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+                "varReplacer1264": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee: void access$setCurrentGreetingMessage$cp(java.lang.String)>"
+            ]
+        },
+        "java.lang.String sayHello()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+                "varReplacer1265": "java.lang.String",
+                "varReplacer1266": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void setCurrentGreetingMessage(java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String getCurrentGreetingMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"
+            ]
+        },
+        "java.lang.String sayHi()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+                "varReplacer1267": "java.lang.String",
+                "varReplacer1268": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void setCurrentGreetingMessage(java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String getCurrentGreetingMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>"
+            ]
+        },
+        "java.lang.String access$sayHi(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator",
+                "$stack1": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHi()>"]
+        },
+        "void <init>(kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>()>"]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void <init>()>",
+        "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void send(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee",
+                "age": "int",
+                "varReplacer1489": "java.lang.String",
+                "varReplacer1490": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"
+            ]
+        },
+        "void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l4": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "l0": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee",
+                "l5": "java.lang.Object",
+                "l1": "java.lang.String",
+                "l2": "java.lang.String",
+                "l3": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>"]
+        }
+    }
+}

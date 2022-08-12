@@ -1,0 +1,82 @@
+{
+    "className": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 9,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: java.lang.String getName()>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: void setName(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: java.lang.String getAddress()>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: void setAddress(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: int getAge()>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: void setAge(int)>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: java.lang.String getMobileNumber()>",
+        "<de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person: void setMobileNumber(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+                "name": "java.lang.String",
+                "address": "java.lang.String",
+                "age": "int",
+                "mobileNumber": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setName(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+                "name": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getAddress()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setAddress(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+                "address": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getMobileNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setMobileNumber(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withoutEqualsAndHashCode.Person",
+                "mobileNumber": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

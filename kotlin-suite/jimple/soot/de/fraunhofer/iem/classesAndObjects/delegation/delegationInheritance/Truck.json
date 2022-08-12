@@ -1,0 +1,62 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: void accelerate()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String getVehicleType()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: void stop()>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)": {
+            "localVariables": {
+                "vehicle": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle",
+                "this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "void accelerate()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>"]
+        },
+        "java.lang.String getVehicleType()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void start()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String getVehicleType()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void stop()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Truck: java.lang.String getVehicleType()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

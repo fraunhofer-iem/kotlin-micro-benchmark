@@ -1,0 +1,43 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName $stack2;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>("Ranjith");
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>($stack1);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>($stack1);
+
+        return;
+    }
+
+    public static final void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)
+    {
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter userNamePrinter;
+
+        userNamePrinter := @parameter0: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userNamePrinter, "userNamePrinter");
+
+        interfaceinvoke userNamePrinter.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter: void print()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,46 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass extends java.lang.Object
+{
+    private int innerFlag;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: int innerFlag> = 23421;
+
+        return;
+    }
+
+    public void printAll()
+    {
+        int $stack1;
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: int innerFlag>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(int)>($stack1);
+
+        return;
+    }
+
+    static int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass)
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass x0;
+
+        x0 := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass;
+
+        $stack1 = x0.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: int innerFlag>;
+
+        return $stack1;
+    }
+}

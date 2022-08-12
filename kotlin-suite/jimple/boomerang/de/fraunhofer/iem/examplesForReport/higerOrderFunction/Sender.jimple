@@ -1,0 +1,44 @@
+public final class de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void send(kotlin.jvm.functions.Function1, de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender this;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee employee;
+        kotlin.jvm.functions.Function1 sender;
+        java.lang.String varReplacer1377, varReplacer1378;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender;
+
+        sender := @parameter0: kotlin.jvm.functions.Function1;
+
+        employee := @parameter1: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        varReplacer1378 = "sender";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(sender, varReplacer1378);
+
+        varReplacer1377 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1377);
+
+        interfaceinvoke sender.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(employee);
+
+        return;
+    }
+}

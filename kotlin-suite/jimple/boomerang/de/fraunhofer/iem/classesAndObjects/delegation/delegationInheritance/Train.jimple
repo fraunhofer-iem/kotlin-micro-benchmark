@@ -1,0 +1,94 @@
+public final class de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle
+{
+    private final de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0;
+    private final java.lang.String vehicleType;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle vehicle;
+        java.lang.String varReplacer607, varReplacer608;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train;
+
+        vehicle := @parameter0: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle;
+
+        varReplacer608 = "vehicle";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicle, varReplacer608);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0> = vehicle;
+
+        varReplacer607 = "Train";
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: java.lang.String vehicleType> = varReplacer607;
+
+        return;
+    }
+
+    public void accelerate()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>();
+
+        return;
+    }
+
+    public void start()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void start()>();
+
+        return;
+    }
+
+    public void stop()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void stop()>();
+
+        return;
+    }
+
+    public java.lang.String getVehicleType()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Train: java.lang.String vehicleType>;
+
+        return $stack1;
+    }
+}

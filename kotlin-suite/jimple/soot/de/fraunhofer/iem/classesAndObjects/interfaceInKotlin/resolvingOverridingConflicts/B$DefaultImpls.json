@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void bar(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>"
+    ],
+    "methodsInformation": {
+        "void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void bar(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

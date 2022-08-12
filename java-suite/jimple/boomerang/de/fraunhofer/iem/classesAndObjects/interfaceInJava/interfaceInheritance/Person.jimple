@@ -1,0 +1,92 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Movable
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void jog()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer466;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer466 = "Jogging";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer466);
+
+        return;
+    }
+
+    public void run()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer467;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer467 = "Running";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer467);
+
+        return;
+    }
+
+    public void walk()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer468;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer468 = "Walking";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer468);
+
+        return;
+    }
+
+    public void crawl()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer469;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer469 = "Crawling";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer469);
+
+        return;
+    }
+}

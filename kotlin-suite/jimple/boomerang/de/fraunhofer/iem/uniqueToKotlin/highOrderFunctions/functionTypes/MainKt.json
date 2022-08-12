@@ -1,0 +1,135 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function2 giveFun1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function0 giveFun2()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun3(kotlin.jvm.functions.Function2)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun4(kotlin.jvm.functions.Function3)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun5(kotlin.jvm.functions.Function2)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "res": "java.lang.String",
+                "fun3": "kotlin.jvm.functions.Function2",
+                "varReplacer2385": "int",
+                "varReplacer2386": "java.lang.String",
+                "varReplacer2387": "null_type"
+            },
+            "stackVariables": {
+                "$stack3": "kotlin.jvm.functions.Function2",
+                "$stack4": "java.lang.Integer",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "kotlin.jvm.functions.Function0",
+                "$stack8": "java.lang.Object",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$fun3$1",
+                "$stack11": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$1",
+                "$stack12": "kotlin.jvm.functions.Function3"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function2 giveFun1()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function0 giveFun2()>",
+                "<kotlin.jvm.functions.Function0: java.lang.Object invoke()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun3(kotlin.jvm.functions.Function2)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun4(kotlin.jvm.functions.Function3)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun5(kotlin.jvm.functions.Function2)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun5(kotlin.jvm.functions.Function2)>"
+            ]
+        },
+        "kotlin.jvm.functions.Function2 giveFun1()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun1$1",
+                "$stack1": "kotlin.jvm.functions.Function2"
+            },
+            "invokeExpressions": []
+        },
+        "kotlin.jvm.functions.Function0 giveFun2()": {
+            "localVariables": {"fun2": "kotlin.jvm.functions.Function0"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1"},
+            "invokeExpressions": []
+        },
+        "void runFun3(kotlin.jvm.functions.Function2)": {
+            "localVariables": {
+                "fun3": "kotlin.jvm.functions.Function2",
+                "varReplacer2388": "int",
+                "varReplacer2389": "int",
+                "varReplacer2390": "java.lang.String",
+                "varReplacer2391": "java.lang.String",
+                "varReplacer2392": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.Integer",
+                "$stack3": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void runFun4(kotlin.jvm.functions.Function3)": {
+            "localVariables": {
+                "fun4": "kotlin.jvm.functions.Function3",
+                "varReplacer2393": "int",
+                "varReplacer2394": "int",
+                "varReplacer2395": "java.lang.String",
+                "varReplacer2396": "java.lang.String",
+                "varReplacer2397": "int",
+                "varReplacer2398": "java.lang.String",
+                "varReplacer2399": "int"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.Integer",
+                "$stack4": "java.lang.Integer",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "$stack9": "java.lang.Object",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function3: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function3: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void runFun5(kotlin.jvm.functions.Function2)": {
+            "localVariables": {
+                "fun3": "kotlin.jvm.functions.Function2",
+                "varReplacer2400": "int",
+                "varReplacer2401": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "java.lang.Integer"},
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void main()>"]
+        }
+    }
+}

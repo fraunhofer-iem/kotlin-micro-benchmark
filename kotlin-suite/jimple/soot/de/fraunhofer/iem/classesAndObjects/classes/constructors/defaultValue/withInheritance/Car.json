@@ -1,0 +1,33 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car: void printMyVehicleInformation(java.lang.String,int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void <init>()>"]
+        },
+        "void printMyVehicleInformation(java.lang.String,int)": {
+            "localVariables": {
+                "vehicleName": "java.lang.String",
+                "vehicleNumber": "int",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car"
+            },
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

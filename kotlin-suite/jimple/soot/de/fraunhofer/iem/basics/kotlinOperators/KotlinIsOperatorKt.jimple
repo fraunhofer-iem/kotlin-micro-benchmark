@@ -1,0 +1,108 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack7, $stack10, $stack12;
+        java.lang.Integer $stack5, $stack8;
+        int $stack3, $stack6;
+        java.lang.String $stack9, $stack11;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>("Ranjith");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>($stack8);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>("Ranjith");
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        return;
+    }
+
+    public static final int getLength(java.lang.Object)
+    {
+        int $stack3, $i0;
+        java.lang.Object ob;
+        java.lang.String $stack2;
+        boolean $stack1;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack1 = ob instanceof java.lang.String;
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = (java.lang.String) ob;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int length()>();
+
+        return $stack3;
+
+     label1:
+        $i0 = (int) -1;
+
+        return $i0;
+    }
+
+    public static final java.lang.String getLowerCase(java.lang.Object)
+    {
+        java.util.Locale $stack4;
+        java.lang.Object ob;
+        java.lang.String l1, $stack5;
+        boolean $stack3;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = ob instanceof java.lang.String;
+
+        if $stack3 != 0 goto label1;
+
+        return "na";
+
+     label1:
+        l1 = (java.lang.String) ob;
+
+        $stack4 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack5 = virtualinvoke l1.<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>($stack4);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack5, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)");
+
+        return $stack5;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: void main()>();
+
+        return;
+    }
+}

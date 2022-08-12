@@ -1,0 +1,60 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.EmployeeMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack7, $stack9;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee $stack3;
+        int $stack8, varReplacer535, varReplacer536;
+        java.lang.String $stack4, $stack6, varReplacer533, varReplacer534;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee;
+
+        varReplacer533 = "Ranjith";
+
+        varReplacer534 = "K";
+
+        varReplacer535 = 100;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer533, varReplacer534, varReplacer535);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee: java.lang.String getFirstName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee: java.lang.String getLastName()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        varReplacer536 = 200;
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee: void setAge(int)>(varReplacer536);
+
+        $stack8 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.Employee: int getAge()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.primaryAndSecondaryConstructor.EmployeeMainKt: void main()>();
+
+        return;
+    }
+}

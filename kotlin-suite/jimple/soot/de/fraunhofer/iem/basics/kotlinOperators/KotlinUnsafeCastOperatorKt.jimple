@@ -1,0 +1,85 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack0, $stack1;
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>(null);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>(null);
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(123);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>($stack0);
+
+        $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(123);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>($stack1);
+
+        return;
+    }
+
+    private static final void dummy1(java.lang.Object)
+    {
+        java.io.PrintStream $stack5;
+        java.lang.Object ob;
+        java.lang.String temp, $stack4;
+        java.lang.NullPointerException $stack6;
+
+        ob := @parameter0: java.lang.Object;
+
+        if ob != null goto label1;
+
+        $stack6 = new java.lang.NullPointerException;
+
+        specialinvoke $stack6.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type kotlin.String");
+
+        throw $stack6;
+
+     label1:
+        temp = (java.lang.String) ob;
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("String = ", temp);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    private static final void dummy2(java.lang.Object)
+    {
+        java.io.PrintStream $stack5;
+        java.lang.Object ob;
+        java.lang.String temp, $stack4;
+
+        ob := @parameter0: java.lang.Object;
+
+        temp = (java.lang.String) ob;
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("String = ", temp);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void main()>();
+
+        return;
+    }
+}

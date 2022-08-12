@@ -1,0 +1,147 @@
+{
+    "className": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 11,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String getName()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void setName(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String getAddress()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void setAddress(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int getAge()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void setAge(int)>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String getMobileNumber()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void setMobileNumber(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int hashCode()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "name": "java.lang.String",
+                "address": "java.lang.String",
+                "age": "int",
+                "mobileNumber": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setName(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "name": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getAddress()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setAddress(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "address": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getMobileNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setMobileNumber(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "mobileNumber": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack6": "int",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.String",
+                "$stack10": "int",
+                "$stack11": "int",
+                "$stack12": "int",
+                "$stack13": "int",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.String",
+                "$stack17": "int",
+                "$stack20": "int",
+                "$stack24": "int",
+                "$stack28": "int",
+                "$stack32": "int",
+                "$stack5": "int",
+                "$stack9": "int",
+                "$stack16": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.Integer: int hashCode(int)>",
+                "<java.lang.String: int hashCode()>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "obj": "java.lang.Object",
+                "other": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "varReplacer236": "int",
+                "varReplacer237": "int",
+                "varReplacer238": "int",
+                "varReplacer239": "int"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.Class",
+                "$stack4": "java.lang.Class",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.String",
+                "$stack7": "boolean",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.String",
+                "$stack10": "boolean",
+                "$stack12": "int",
+                "$stack13": "int",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.String",
+                "$stack16": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>"
+            ]
+        }
+    }
+}

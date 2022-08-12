@@ -1,0 +1,5 @@
+public interface  de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.PrintAnything extends java.lang.Object
+{
+
+    public abstract void print(java.lang.String);
+}

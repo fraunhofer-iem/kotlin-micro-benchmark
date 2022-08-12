@@ -1,0 +1,65 @@
+final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(1);
+
+        return;
+    }
+
+    public final int invoke(int)
+    {
+        int it, $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1;
+
+        it := @parameter0: int;
+
+        $stack2 = it * 100;
+
+        return $stack2;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        int $stack3, $stack4;
+        java.lang.Object p1;
+        java.lang.Number $stack2;
+        java.lang.Integer $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (java.lang.Number) p1;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.Number: int intValue()>();
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1: int invoke(int)>($stack3);
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+        return $stack5;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.allParamAreVariables.MainKt$main$func2$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

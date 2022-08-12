@@ -1,0 +1,34 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1: void print1()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1: void print2()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void print1()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1",
+                "varReplacer313": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void print2()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base1",
+                "varReplacer314": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

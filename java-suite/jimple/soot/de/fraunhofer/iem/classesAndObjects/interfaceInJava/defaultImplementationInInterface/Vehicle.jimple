@@ -1,0 +1,37 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle extends java.lang.Object
+{
+    public static final java.lang.String modelNumber;
+    public static final java.lang.String vehicleRegistrationNumber;
+
+    public abstract void start();
+
+    public abstract void stop();
+
+    public void displayModelNumber()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Interface implementation = Its Interface model number");
+
+        return;
+    }
+
+    public void displayVehicleRegistrationNumber()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.defaultImplementationInInterface.Vehicle;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Interface implementation = Its Interface vehicle registration number");
+
+        return;
+    }
+}

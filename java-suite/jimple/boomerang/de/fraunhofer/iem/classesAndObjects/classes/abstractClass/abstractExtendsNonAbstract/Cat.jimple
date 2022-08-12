@@ -1,0 +1,38 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat extends de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat this;
+        java.lang.String DNA;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat;
+
+        DNA := @parameter0: java.lang.String;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat this;
+        java.lang.String varReplacer277;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer277 = "Meow";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer277);
+
+        return;
+    }
+}

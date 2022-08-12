@@ -1,0 +1,14 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

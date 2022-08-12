@@ -1,0 +1,41 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1 extends java.lang.Object
+{
+    final kotlin.jvm.functions.Function0 $func1;
+
+    public void <init>(kotlin.jvm.functions.Function0)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1 this;
+        kotlin.jvm.functions.Function0 $func1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1;
+
+        $func1 := @parameter0: kotlin.jvm.functions.Function0;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1: kotlin.jvm.functions.Function0 $func1> = $func1;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1 this;
+        java.lang.String varReplacer2579;
+        kotlin.jvm.functions.Function0 $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$log$ob$1: kotlin.jvm.functions.Function0 $func1>;
+
+        interfaceinvoke $stack1.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        varReplacer2579 = "Object";
+
+        return varReplacer2579;
+    }
+}

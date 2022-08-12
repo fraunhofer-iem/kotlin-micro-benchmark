@@ -1,0 +1,64 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack4": "java.lang.Integer",
+                "$stack6": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "$stack10": "java.lang.Integer",
+                "$stack12": "java.lang.Integer",
+                "$stack14": "java.lang.Integer",
+                "$stack16": "java.lang.Integer",
+                "$stack18": "java.lang.Integer",
+                "$stack20": "java.lang.Integer",
+                "$stack22": "java.lang.Integer",
+                "$stack23": "java.util.List",
+                "$stack24": "java.lang.String",
+                "$stack25": "java.io.PrintStream",
+                "$stack27": "int",
+                "$stack28": "java.lang.Integer",
+                "$stack29": "java.lang.String",
+                "$stack30": "java.io.PrintStream",
+                "$stack31": "java.lang.String",
+                "$stack32": "java.io.PrintStream",
+                "l1": "java.lang.Integer[]"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: int customizedMax(java.util.List)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: void customizedSwap(java.util.List,int,int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt: void main()>"]
+        }
+    }
+}

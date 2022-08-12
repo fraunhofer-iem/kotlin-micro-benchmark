@@ -1,0 +1,61 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat $stack0;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal $stack1, $stack3, $stack5;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse $stack2;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog $stack4;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat: void <init>(java.lang.String)>("AAATGC");
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal) $stack0;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>($stack1);
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse: void <init>(java.lang.String)>("ATTCG");
+
+        $stack3 = (de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>($stack3);
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog: void <init>(java.lang.String)>("CGTTA");
+
+        $stack5 = (de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>($stack5);
+
+        return;
+    }
+
+    private static final void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal animal;
+
+        animal := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal;
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void displayDNA()>();
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void makeNoise()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMainKt: void main()>();
+
+        return;
+    }
+}

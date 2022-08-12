@@ -1,0 +1,41 @@
+public final class de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack6;
+        kotlin.Unit $stack5, l1;
+        de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.DummyClass $stack3;
+
+        $stack3 = new de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.DummyClass;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.DummyClass: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.DummyClass: void printMyName(java.lang.String)>("Ranjith");
+
+        l1 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(l1);
+
+        $stack5 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.DummyClass: kotlin.Unit printMyNameWithNullableUnit(java.lang.String)>("Ranjith");
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.unitReturningFunctions.classMemberFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

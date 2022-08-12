@@ -1,0 +1,5 @@
+public interface  de.fraunhofer.iem.classesAndObjects.visibilityModifiers.internal.InternalInterface extends java.lang.Object
+{
+
+    public abstract void printVal1();
+}

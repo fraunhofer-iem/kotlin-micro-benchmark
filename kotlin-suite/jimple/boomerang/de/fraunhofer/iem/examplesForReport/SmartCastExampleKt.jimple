@@ -1,0 +1,62 @@
+public final class de.fraunhofer.iem.examplesForReport.SmartCastExampleKt extends java.lang.Object
+{
+
+    public static final void printLengthInKotlin(java.lang.Object)
+    {
+        java.io.PrintStream $stack15, $stack4;
+        java.lang.Integer $stack13;
+        int $stack6, $stack12;
+        java.lang.Object obj;
+        java.lang.String $stack5, $stack10, $stack14, varReplacer1486, varReplacer1487, varReplacer1488;
+        boolean $stack3;
+
+        nop;
+
+        obj := @parameter0: java.lang.Object;
+
+        varReplacer1487 = "obj";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(obj, varReplacer1487);
+
+        $stack3 = obj instanceof java.lang.String;
+
+        if $stack3 == 0 goto label1;
+
+        nop;
+
+        $stack5 = (java.lang.String) obj;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.String: int length()>();
+
+        if $stack6 <= 0 goto label1;
+
+        nop;
+
+        $stack10 = (java.lang.String) obj;
+
+        $stack12 = virtualinvoke $stack10.<java.lang.String: int length()>();
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack12);
+
+        varReplacer1486 = "Length = ";
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1486, $stack13);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+     label1:
+        nop;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1488 = "Given Object is invalid.";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1488);
+
+        return;
+    }
+}

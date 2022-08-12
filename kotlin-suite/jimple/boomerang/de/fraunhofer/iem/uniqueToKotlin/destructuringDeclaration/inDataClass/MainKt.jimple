@@ -1,0 +1,198 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person $stack10, $stack11, $stack20;
+        int $stack14, $stack22, varReplacer2186;
+        java.lang.String $stack12, $stack13, $stack15, $stack21, varReplacer2184, varReplacer2185, varReplacer2187;
+        java.io.PrintStream $stack16, $stack17, $stack18, $stack19, $stack23, $stack24;
+
+        nop;
+
+        $stack10 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        varReplacer2184 = "Krishnamurthy Ranjith";
+
+        varReplacer2185 = "Street 10221";
+
+        varReplacer2186 = 100552;
+
+        varReplacer2187 = "+49 5555 5555";
+
+        specialinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer2184, varReplacer2185, varReplacer2186, varReplacer2187);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt: void example1()>();
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt: void inLambda(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person)>($stack10);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person returnFromFunction()>();
+
+        $stack12 = virtualinvoke $stack11.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component1()>();
+
+        $stack13 = virtualinvoke $stack11.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component2()>();
+
+        $stack14 = virtualinvoke $stack11.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int component3()>();
+
+        $stack15 = virtualinvoke $stack11.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component4()>();
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(int)>($stack14);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack20 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person returnFromFunction()>();
+
+        $stack21 = virtualinvoke $stack20.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component1()>();
+
+        $stack22 = virtualinvoke $stack20.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int component3()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack22);
+
+        return;
+    }
+
+    public static final void example1()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person $stack10;
+        int $stack13, $stack20, varReplacer2190;
+        java.lang.String $stack11, $stack12, $stack14, $stack19, varReplacer2188, varReplacer2189, varReplacer2191;
+        java.io.PrintStream $stack15, $stack16, $stack17, $stack18, $stack21, $stack22;
+
+        nop;
+
+        $stack10 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        varReplacer2188 = "Ranjith K";
+
+        varReplacer2189 = "Street 102";
+
+        varReplacer2190 = 100;
+
+        varReplacer2191 = "+49 99999 9999";
+
+        specialinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer2188, varReplacer2189, varReplacer2190, varReplacer2191);
+
+        $stack11 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component1()>();
+
+        $stack12 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component2()>();
+
+        $stack13 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int component3()>();
+
+        $stack14 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component4()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(int)>($stack13);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack19 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component1()>();
+
+        $stack20 = virtualinvoke $stack10.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int component3()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(int)>($stack20);
+
+        return;
+    }
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person returnFromFunction()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person $stack0;
+        int varReplacer2194;
+        java.lang.String varReplacer2192, varReplacer2193, varReplacer2195;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        varReplacer2192 = "Ranjith Krishnamurthy";
+
+        varReplacer2193 = "Street 1020";
+
+        varReplacer2194 = 1000;
+
+        varReplacer2195 = "+49 8888 88888";
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer2192, varReplacer2193, varReplacer2194, varReplacer2195);
+
+        return $stack0;
+    }
+
+    public static final void inLambda(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$funcWithUnderscore$1 $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$func$1 $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person person;
+        kotlin.jvm.functions.Function1 func, funcWithUnderscore;
+        java.lang.String varReplacer2196;
+
+        nop;
+
+        person := @parameter0: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person;
+
+        varReplacer2196 = "person";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(person, varReplacer2196);
+
+        $stack3 = <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$func$1: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$func$1 INSTANCE>;
+
+        func = (kotlin.jvm.functions.Function1) $stack3;
+
+        interfaceinvoke func.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(person);
+
+        $stack5 = <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$funcWithUnderscore$1: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt$inLambda$funcWithUnderscore$1 INSTANCE>;
+
+        funcWithUnderscore = (kotlin.jvm.functions.Function1) $stack5;
+
+        interfaceinvoke funcWithUnderscore.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(person);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.MainKt: void main()>();
+
+        return;
+    }
+}

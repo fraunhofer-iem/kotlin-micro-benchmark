@@ -1,0 +1,160 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack11, $stack12, $stack10;
+        java.lang.String varReplacer448, varReplacer449, varReplacer450, varReplacer451;
+        boolean $stack6, $stack7, $stack8, $stack9, $stack24, $stack20, $stack13;
+
+        nop;
+
+        varReplacer450 = "bool";
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>(varReplacer450);
+
+        varReplacer448 = "non bool";
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>(varReplacer448);
+
+        varReplacer451 = "non bool";
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>(varReplacer451);
+
+        varReplacer449 = "non bool";
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>(varReplacer449);
+
+        if $stack6 == 0 goto label1;
+
+        nop;
+
+        if $stack7 == 0 goto label1;
+
+        nop;
+
+        $stack24 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        nop;
+
+        $stack24 = 0;
+
+     label2:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack24);
+
+        if $stack8 != 0 goto label3;
+
+        nop;
+
+        if $stack9 == 0 goto label4;
+
+        nop;
+
+     label3:
+        nop;
+
+        $stack20 = 1;
+
+        goto label5;
+
+     label4:
+        nop;
+
+        $stack20 = 0;
+
+     label5:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(boolean)>($stack20);
+
+        if $stack7 != 0 goto label6;
+
+        nop;
+
+        $stack13 = 1;
+
+        goto label7;
+
+     label6:
+        nop;
+
+        $stack13 = 0;
+
+     label7:
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack13);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void dummy(boolean,boolean,boolean,boolean)>($stack6, $stack7, $stack8, $stack9);
+
+        return;
+    }
+
+    public static final void dummy(boolean, boolean, boolean, boolean)
+    {
+        java.io.PrintStream $stack6, $stack7, $stack8;
+        boolean temp1, temp2, temp3, temp4, l4, $stack9;
+
+        nop;
+
+        temp1 := @parameter0: boolean;
+
+        temp2 := @parameter1: boolean;
+
+        temp3 := @parameter2: boolean;
+
+        temp4 := @parameter3: boolean;
+
+        l4 = temp1 & temp2;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(boolean)>(l4);
+
+        l4 = temp3 | temp4;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(boolean)>(l4);
+
+        if temp2 != 0 goto label1;
+
+        nop;
+
+        $stack9 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack9 = 0;
+
+     label2:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(boolean)>($stack9);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinLogicalOperatorsKt: void main()>();
+
+        return;
+    }
+}

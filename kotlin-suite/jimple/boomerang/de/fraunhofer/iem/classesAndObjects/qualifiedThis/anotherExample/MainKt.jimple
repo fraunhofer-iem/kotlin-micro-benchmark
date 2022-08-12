@@ -1,0 +1,42 @@
+public final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A $stack2;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B $stack3;
+        kotlin.jvm.functions.Function1 $stack4;
+        java.lang.String varReplacer1056;
+
+        nop;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: void <init>()>();
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)>($stack2);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 getFunLit2()>();
+
+        varReplacer1056 = "Ranjith";
+
+        interfaceinvoke $stack4.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(varReplacer1056);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.MainKt: void main()>();
+
+        return;
+    }
+}

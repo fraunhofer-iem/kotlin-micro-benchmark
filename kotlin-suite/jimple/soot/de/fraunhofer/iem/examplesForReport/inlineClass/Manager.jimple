@@ -1,0 +1,209 @@
+public final class de.fraunhofer.iem.examplesForReport.inlineClass.Manager extends java.lang.Object
+{
+    private final de.fraunhofer.iem.examplesForReport.inlineClass.Employee info;
+
+    public final de.fraunhofer.iem.examplesForReport.inlineClass.Employee getInfo()
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()>();
+
+        return $stack1;
+    }
+
+    public static final java.lang.String sayHello-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee arg0;
+
+        arg0 := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arg0, "arg0");
+
+        return "Welcome to manager portal!";
+    }
+
+    public static java.lang.String toString-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack4;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee arg0;
+        java.lang.String $stack5;
+
+        arg0 := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Manager(info=");
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(arg0);
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(41);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack1;
+        java.lang.String $stack2;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.examplesForReport.inlineClass.Manager: java.lang.String toString-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)>($stack1);
+
+        return $stack2;
+    }
+
+    public static int hashCode-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee arg0;
+
+        arg0 := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        $stack1 = virtualinvoke arg0.<de.fraunhofer.iem.examplesForReport.inlineClass.Employee: int hashCode()>();
+
+        return $stack1;
+    }
+
+    public int hashCode()
+    {
+        int $stack2;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.examplesForReport.inlineClass.Manager: int hashCode-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)>($stack1);
+
+        return $stack2;
+    }
+
+    public static boolean equals-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee, java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager $stack4;
+        java.lang.Object other;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack5, arg0;
+        boolean $stack3, $stack6;
+
+        arg0 := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        other := @parameter1: java.lang.Object;
+
+        $stack3 = other instanceof de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        if $stack3 != 0 goto label1;
+
+        return 0;
+
+     label1:
+        $stack4 = (de.fraunhofer.iem.examplesForReport.inlineClass.Manager) other;
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()>();
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(arg0, $stack5);
+
+        if $stack6 != 0 goto label2;
+
+        return 0;
+
+     label2:
+        return 1;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        java.lang.Object other;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack2;
+        boolean $stack3;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        other := @parameter0: java.lang.Object;
+
+        $stack2 = virtualinvoke this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.examplesForReport.inlineClass.Manager: boolean equals-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee,java.lang.Object)>($stack2, other);
+
+        return $stack3;
+    }
+
+    private void <init>(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee info;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        info := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee info> = info;
+
+        return;
+    }
+
+    public static de.fraunhofer.iem.examplesForReport.inlineClass.Employee constructor-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee info;
+
+        info := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(info, "info");
+
+        return info;
+    }
+
+    public static final de.fraunhofer.iem.examplesForReport.inlineClass.Manager box-impl(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager $stack1;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee v;
+
+        v := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        $stack1 = new de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: void <init>(de.fraunhofer.iem.examplesForReport.inlineClass.Employee)>(v);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.examplesForReport.inlineClass.Employee unbox-impl()
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Manager this;
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.inlineClass.Manager;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.inlineClass.Manager: de.fraunhofer.iem.examplesForReport.inlineClass.Employee info>;
+
+        return $stack1;
+    }
+
+    public static final boolean equals-impl0(de.fraunhofer.iem.examplesForReport.inlineClass.Employee, de.fraunhofer.iem.examplesForReport.inlineClass.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.inlineClass.Employee p1, p2;
+        boolean $stack2;
+
+        p1 := @parameter0: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        p2 := @parameter1: de.fraunhofer.iem.examplesForReport.inlineClass.Employee;
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(p1, p2);
+
+        return $stack2;
+    }
+}

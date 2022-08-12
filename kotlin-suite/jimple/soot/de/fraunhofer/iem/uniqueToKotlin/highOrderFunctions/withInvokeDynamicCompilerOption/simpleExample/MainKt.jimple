@@ -1,0 +1,192 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final java.lang.Object fold(java.util.Collection, java.lang.Object, kotlin.jvm.functions.Function2)
+    {
+        java.util.Iterator $stack6;
+        java.util.Collection collections;
+        java.lang.Object initial, $stack8, accumulator;
+        kotlin.jvm.functions.Function2 combine;
+        boolean $stack7;
+
+        collections := @parameter0: java.util.Collection;
+
+        initial := @parameter1: java.lang.Object;
+
+        combine := @parameter2: kotlin.jvm.functions.Function2;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(collections, "collections");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(combine, "combine");
+
+        accumulator = initial;
+
+        $stack6 = interfaceinvoke collections.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack7 = interfaceinvoke $stack6.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack7 == 0 goto label2;
+
+        $stack8 = interfaceinvoke $stack6.<java.util.Iterator: java.lang.Object next()>();
+
+        accumulator = interfaceinvoke combine.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>(accumulator, $stack8);
+
+        goto label1;
+
+     label2:
+        return accumulator;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt$main$product$1 $stack24;
+        java.lang.Integer $stack5, $stack7, $stack9, $stack11, $stack13, $stack17, $stack23;
+        java.lang.String joinedToString;
+        java.lang.Number $stack27;
+        java.util.Collection $stack16, $stack20, $stack22;
+        kotlin.jvm.functions.Function2 $stack15, $stack18, $stack25;
+        java.util.List $stack14;
+        java.lang.Object $stack21, $stack26;
+        java.lang.Integer[] func;
+
+        func = newarray (java.lang.Integer)[5];
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        func[0] = $stack5;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        func[1] = $stack7;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        func[2] = $stack9;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        func[3] = $stack11;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        func[4] = $stack13;
+
+        $stack14 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>(func);
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt$main_lambda-0__18: kotlin.jvm.functions.Function2 bootstrap$()>();
+
+        $stack16 = (java.util.Collection) $stack14;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt$main_lambda-1__19: kotlin.jvm.functions.Function2 bootstrap$()>();
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack16, $stack17, $stack18);
+
+        $stack20 = (java.util.Collection) $stack14;
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack20, "Elements:", $stack15);
+
+        joinedToString = (java.lang.String) $stack21;
+
+        $stack22 = (java.util.Collection) $stack14;
+
+        $stack23 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack24 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt$main$product$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt$main$product$1 INSTANCE>;
+
+        $stack25 = (kotlin.jvm.functions.Function2) $stack24;
+
+        $stack26 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack22, $stack23, $stack25);
+
+        $stack27 = (java.lang.Number) $stack26;
+
+        virtualinvoke $stack27.<java.lang.Number: int intValue()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+
+    public static final java.lang.String main$lambda-0(java.lang.String, int)
+    {
+        int i;
+        java.lang.StringBuilder $stack2, $stack3, $stack4, $stack5;
+        java.lang.String acc, $stack6;
+
+        acc := @parameter0: java.lang.String;
+
+        i := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(acc, "acc");
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(acc);
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack6;
+    }
+
+    public static final int main$lambda-1(int, int)
+    {
+        java.io.PrintStream $stack12, $stack16;
+        java.lang.Integer $stack14;
+        int acc, i, result;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack8, $stack9, $stack10;
+        java.lang.String $stack11, $stack15;
+
+        acc := @parameter0: int;
+
+        i := @parameter1: int;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("acc = ");
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(acc);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", i = ");
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", ");
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void print(java.lang.Object)>($stack11);
+
+        result = acc + i;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(result);
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("result = ", $stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        return result;
+    }
+}

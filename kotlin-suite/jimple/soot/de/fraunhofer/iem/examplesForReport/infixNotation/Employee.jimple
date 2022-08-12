@@ -1,0 +1,88 @@
+public final class de.fraunhofer.iem.examplesForReport.infixNotation.Employee extends java.lang.Object
+{
+    private final java.lang.String fullName;
+    private final int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        int age;
+        java.lang.String fullName;
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, "fullName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)
+    {
+        java.io.PrintStream $stack11;
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee manager, this;
+        java.lang.StringBuilder $stack4, $stack6, $stack7, $stack9;
+        java.lang.String $stack5, $stack8, $stack10;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        manager := @parameter0: de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(manager, "manager");
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = manager.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: java.lang.String fullName>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack5);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" is the manager of ");
+
+        $stack8 = this.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: java.lang.String fullName>;
+
+        $stack9 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack8);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        return;
+    }
+}

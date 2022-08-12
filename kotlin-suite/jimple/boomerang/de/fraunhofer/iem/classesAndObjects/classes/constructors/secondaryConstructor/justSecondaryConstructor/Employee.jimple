@@ -1,0 +1,188 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee extends java.lang.Object
+{
+    private java.lang.String firstName;
+    private java.lang.String lastName;
+    private int age;
+
+    public final java.lang.String getFirstName()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final void setFirstName(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+        java.lang.String <set-?>, varReplacer509;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer509 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer509);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String firstName> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final void setLastName(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+        java.lang.String <set-?>, varReplacer510;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer510 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer510);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String lastName> = <set-?>;
+
+        return;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        int age, $i0;
+        java.lang.String firstName, lastName, varReplacer511, varReplacer512, varReplacer513, varReplacer514, varReplacer515, varReplacer516, varReplacer517, varReplacer518, varReplacer519, varReplacer520;
+        java.io.PrintStream $stack6, $stack7, $stack8, $stack9, $stack10, $stack11;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer517 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer517);
+
+        varReplacer514 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer514);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer515 = "";
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String firstName> = varReplacer515;
+
+        varReplacer511 = "";
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String lastName> = varReplacer511;
+
+        $i0 = (int) -100;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: int age> = $i0;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer519 = "Initializer block";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer519);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer513 = "Completed Initializer block";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer513);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer516 = "Second Initializer block";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer516);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer512 = "Completed Second Initializer block";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer512);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer520 = "Secondary Constructor";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer520);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: int age> = age;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer518 = "Completed Secondary Constructor";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer518);
+
+        return;
+    }
+}

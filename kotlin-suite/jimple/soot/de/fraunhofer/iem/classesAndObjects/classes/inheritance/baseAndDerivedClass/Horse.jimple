@@ -1,0 +1,33 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse this;
+        java.lang.String DNA;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse;
+
+        DNA := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, "DNA");
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Neigh");
+
+        return;
+    }
+}

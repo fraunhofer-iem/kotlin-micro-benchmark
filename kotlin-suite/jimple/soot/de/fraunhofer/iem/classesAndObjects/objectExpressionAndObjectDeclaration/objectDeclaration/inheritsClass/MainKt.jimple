@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack2;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger $stack3, $stack4, $stack5, $stack6, $stack7;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>("MyApp");
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger INSTANCE>;
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logError(java.lang.String)>("Its error");
+
+        $stack4 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger INSTANCE>;
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logInfo(java.lang.String)>("Its info");
+
+        $stack5 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger INSTANCE>;
+
+        virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void logWarn(java.lang.String)>("Its warning");
+
+        $stack6 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger INSTANCE>;
+
+        virtualinvoke $stack6.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void greet()>();
+
+        $stack7 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger INSTANCE>;
+
+        virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.Logger: void print(java.lang.String)>("Hello Welcome to logger!");
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.inheritsClass.MainKt: void main()>();
+
+        return;
+    }
+}

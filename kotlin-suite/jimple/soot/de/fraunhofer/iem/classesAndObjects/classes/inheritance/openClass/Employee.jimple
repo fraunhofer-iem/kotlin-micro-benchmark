@@ -1,0 +1,42 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void depositSalary()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Salary deposited");
+
+        return;
+    }
+
+    public final void pensionDeduction()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.openClass.Employee;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Pension deduction");
+
+        return;
+    }
+}

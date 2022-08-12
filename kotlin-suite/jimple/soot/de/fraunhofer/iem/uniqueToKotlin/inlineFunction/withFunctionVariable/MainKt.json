@@ -1,0 +1,71 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt: void log(kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void log(kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function1)": {
+            "localVariables": {
+                "func1": "kotlin.jvm.functions.Function0",
+                "func2": "kotlin.jvm.functions.Function1"
+            },
+            "stackVariables": {
+                "$stack6": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.Integer",
+                "$stack11": "java.lang.Object",
+                "$stack12": "java.lang.Number",
+                "$stack13": "int",
+                "$stack15": "java.lang.Integer",
+                "$stack16": "java.lang.String",
+                "$stack17": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.functions.Function0: java.lang.Object invoke()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {"func1": "kotlin.jvm.functions.Function0"},
+            "stackVariables": {
+                "$stack6": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt$main$func1$1",
+                "$stack7": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack12": "java.lang.Integer",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.functions.Function0: java.lang.Object invoke()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.withFunctionVariable.MainKt: void main()>"]
+        }
+    }
+}

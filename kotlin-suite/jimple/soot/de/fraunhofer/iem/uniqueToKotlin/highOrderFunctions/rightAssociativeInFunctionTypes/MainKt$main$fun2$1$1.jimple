@@ -1,0 +1,60 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    final int $a;
+
+    void <init>(int)
+    {
+        int $a;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1;
+
+        $a := @parameter0: int;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: int $a> = $a;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(1);
+
+        return;
+    }
+
+    public final java.lang.Integer invoke(int)
+    {
+        int b, $stack2, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1 this;
+        java.lang.Integer $stack4;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1;
+
+        b := @parameter0: int;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: int $a>;
+
+        $stack3 = b * $stack2;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        return $stack4;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        int $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1 this;
+        java.lang.Object p1;
+        java.lang.Number $stack2;
+        java.lang.Integer $stack4;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (java.lang.Number) p1;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.Number: int intValue()>();
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1$1: java.lang.Integer invoke(int)>($stack3);
+
+        return $stack4;
+    }
+}

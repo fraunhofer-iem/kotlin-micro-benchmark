@@ -1,0 +1,134 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 10,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String component1()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int component2()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy$default(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee,java.lang.String,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: java.lang.String toString()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: int hashCode()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int component2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "age": "int",
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"
+            },
+            "stackVariables": {"$stack3": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>"
+            ]
+        },
+        "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy$default(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee,java.lang.String,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l3": "int",
+                "$stack5": "int",
+                "$stack6": "int",
+                "l0": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "$stack7": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "l4": "java.lang.Object",
+                "l1": "java.lang.String",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee copy(java.lang.String,int)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "result": "int"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int",
+                "$stack6": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.Integer: int hashCode(int)>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean",
+                "$stack7": "int",
+                "$stack8": "int"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+public class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String[] args;
+        java.lang.String varReplacer224;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer224 = "Hello World!!!";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer224);
+
+        return;
+    }
+}

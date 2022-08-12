@@ -1,0 +1,49 @@
+public class de.fraunhofer.iem.generics.simpleGenericExample.CustomPair extends java.lang.Object
+{
+    private java.lang.Object first;
+    private java.lang.Object second;
+
+    public void <init>(java.lang.Object, java.lang.Object)
+    {
+        java.lang.Object first, second;
+        de.fraunhofer.iem.generics.simpleGenericExample.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.simpleGenericExample.CustomPair;
+
+        first := @parameter0: java.lang.Object;
+
+        second := @parameter1: java.lang.Object;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object first> = first;
+
+        this.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object second> = second;
+
+        return;
+    }
+
+    public java.lang.Object getFirst()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.generics.simpleGenericExample.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.simpleGenericExample.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object first>;
+
+        return $stack1;
+    }
+
+    public java.lang.Object getSecond()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.generics.simpleGenericExample.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.simpleGenericExample.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object second>;
+
+        return $stack1;
+    }
+}

@@ -1,0 +1,173 @@
+public class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak this;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    private static void singleLoopLabelledBreak(int)
+    {
+        int range, i;
+        java.io.PrintStream $stack2;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label3;
+
+        if i != 5 goto label2;
+
+        goto label3;
+
+     label2:
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(int)>(i);
+
+        i = i + 1;
+
+        goto label1;
+
+     label3:
+        return;
+    }
+
+    private static void doubleLoopLabelledBreak(int)
+    {
+        java.io.PrintStream $stack7;
+        int range, $stack5, i, j;
+        java.lang.StringBuilder $stack6, $stack8, $stack9, $stack10;
+        java.lang.String $stack11;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label6;
+
+        if i != 5 goto label2;
+
+        goto label6;
+
+     label2:
+        j = 0;
+
+     label3:
+        if j >= range goto label5;
+
+        $stack5 = j % 2;
+
+        if $stack5 == 0 goto label4;
+
+        goto label6;
+
+     label4:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" --> ");
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>($stack11);
+
+        j = j + 1;
+
+        goto label3;
+
+     label5:
+        i = i + 1;
+
+        goto label1;
+
+     label6:
+        return;
+    }
+
+    private static void doubleLoopSingleLabelledBreak(int)
+    {
+        java.io.PrintStream $stack7;
+        int range, $stack5, i, j;
+        java.lang.StringBuilder $stack6, $stack8, $stack9, $stack10;
+        java.lang.String $stack11;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label5;
+
+        j = 0;
+
+     label2:
+        if j >= range goto label4;
+
+        $stack5 = j % 2;
+
+        if $stack5 == 0 goto label3;
+
+        goto label5;
+
+     label3:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" --> ");
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>($stack11);
+
+        j = j + 1;
+
+        goto label2;
+
+     label4:
+        i = i + 1;
+
+        goto label1;
+
+     label5:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak: void singleLoopLabelledBreak(int)>(50);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak: void doubleLoopLabelledBreak(int)>(5);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledBreak: void doubleLoopSingleLabelledBreak(int)>(5);
+
+        return;
+    }
+}

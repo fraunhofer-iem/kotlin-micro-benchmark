@@ -1,0 +1,137 @@
+public final class de.fraunhofer.iem.functions.localFunctions.inClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer $stack3;
+        java.lang.StringBuilder $stack4, $stack5, $stack7, $stack8, $stack11, $stack12, $stack14, $stack15, $stack18, $stack19, $stack21, $stack22, $stack25, $stack26, $stack28, $stack29, $stack32, $stack33, $stack35, $stack36, $stack39, $stack40, $stack42, $stack43;
+        int $stack6, $stack13, $stack20, $stack27, $stack34, $stack41;
+        java.lang.String $stack9, $stack16, $stack23, $stack30, $stack37, $stack44;
+        java.io.PrintStream $stack10, $stack17, $stack24, $stack31, $stack38, $stack45;
+
+        $stack3 = new de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void <init>()>();
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer(int,int,int)>(0, 10, 1);
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack13 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer(int,int,int)>(100, 10, 100);
+
+        $stack14 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack13);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        $stack18 = new java.lang.StringBuilder;
+
+        specialinvoke $stack18.<java.lang.StringBuilder: void <init>()>();
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack20 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer(int,int,int)>(21, 100, 123);
+
+        $stack21 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack20);
+
+        $stack22 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack23 = virtualinvoke $stack22.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = new java.lang.StringBuilder;
+
+        specialinvoke $stack25.<java.lang.StringBuilder: void <init>()>();
+
+        $stack26 = virtualinvoke $stack25.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack27 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count(int)>(0);
+
+        $stack28 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack27);
+
+        $stack29 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(java.lang.Object)>($stack30);
+
+        $stack32 = new java.lang.StringBuilder;
+
+        specialinvoke $stack32.<java.lang.StringBuilder: void <init>()>();
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack34 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count(int)>(100);
+
+        $stack35 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack34);
+
+        $stack36 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack37 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack38 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack38.<java.io.PrintStream: void println(java.lang.Object)>($stack37);
+
+        $stack39 = new java.lang.StringBuilder;
+
+        specialinvoke $stack39.<java.lang.StringBuilder: void <init>()>();
+
+        $stack40 = virtualinvoke $stack39.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Result = ");
+
+        $stack41 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count(int)>(21);
+
+        $stack42 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack41);
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10);
+
+        $stack44 = virtualinvoke $stack43.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack45 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack45.<java.io.PrintStream: void println(java.lang.Object)>($stack44);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.localFunctions.inClass.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,63 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog $stack3;
+        java.lang.String[] args;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Cat $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse $stack2;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Cat;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Cat: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal)>($stack1);
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Horse: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal)>($stack2);
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Dog: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal)>($stack3);
+
+        return;
+    }
+
+    private static void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal animal;
+
+        nop;
+
+        animal := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal;
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void displayDNA()>();
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void makeNoise()>();
+
+        return;
+    }
+}

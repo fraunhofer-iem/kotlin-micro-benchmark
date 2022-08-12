@@ -1,0 +1,39 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void <init>(java.lang.String,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void start()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void displayVehicleRegistrationNumber()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void displayModelNumber()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void displayVehicleRegistrationNumber()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: void displayModelNumber()>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: java.lang.String getModelNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Car: java.lang.String getVehicleRegistrationNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.MainKt: void main()>"]
+        }
+    }
+}

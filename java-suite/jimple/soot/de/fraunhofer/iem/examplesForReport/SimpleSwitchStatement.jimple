@@ -1,0 +1,111 @@
+public class de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void greet()
+    {
+        java.io.PrintStream $stack9, $stack10, $stack11, $stack12;
+        de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement this;
+        java.util.Scanner $stack4;
+        byte l3;
+        int $stack7;
+        java.lang.String $stack6;
+        java.io.InputStream $stack5;
+        boolean $stack8, $stack14, $stack15;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement;
+
+        $stack4 = new java.util.Scanner;
+
+        $stack5 = <java.lang.System: java.io.InputStream in>;
+
+        specialinvoke $stack4.<java.util.Scanner: void <init>(java.io.InputStream)>($stack5);
+
+        $stack6 = virtualinvoke $stack4.<java.util.Scanner: java.lang.String nextLine()>();
+
+        l3 = -1;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack7)
+        {
+            case -1125574399: goto label2;
+            case 98723: goto label3;
+            case 3254818: goto label1;
+            default: goto label4;
+        };
+
+     label1:
+        $stack8 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>("java");
+
+        if $stack8 == 0 goto label4;
+
+        l3 = 0;
+
+        goto label4;
+
+     label2:
+        $stack15 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>("kotlin");
+
+        if $stack15 == 0 goto label4;
+
+        l3 = 1;
+
+        goto label4;
+
+     label3:
+        $stack14 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>("cpp");
+
+        if $stack14 == 0 goto label4;
+
+        l3 = 2;
+
+     label4:
+        tableswitch(l3)
+        {
+            case 0: goto label5;
+            case 1: goto label6;
+            case 2: goto label7;
+            default: goto label8;
+        };
+
+     label5:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.String)>("Welcome to Java.");
+
+        goto label9;
+
+     label6:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.String)>("Welcome to Kotlin.");
+
+        goto label9;
+
+     label7:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.String)>("Welcome to C++.");
+
+        goto label9;
+
+     label8:
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>("Invalid User Input.");
+
+     label9:
+        return;
+    }
+}

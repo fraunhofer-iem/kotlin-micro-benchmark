@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["java.lang.Iterable"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <init>(int,int,int,int,int)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Iterator iterator()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void forEach(java.util.function.Consumer)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Spliterator spliterator()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: int[] access$100(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)>"
+    ],
+    "methodsInformation": {
+        "void <init>(int,int,int,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "first": "int",
+                "second": "int",
+                "third": "int",
+                "fourth": "int",
+                "fifth": "int"
+            },
+            "stackVariables": {
+                "$stack6": "int[]",
+                "$stack7": "int[]",
+                "$stack8": "int[]",
+                "$stack9": "int[]",
+                "$stack10": "int[]",
+                "$stack11": "int[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.util.Iterator iterator()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "varReplacer527": "null_type"
+            },
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator"},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts,de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$1)>"]
+        },
+        "void forEach(java.util.function.Consumer)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "action": "java.util.function.Consumer"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Iterable: void forEach(java.util.function.Consumer)>"]
+        },
+        "java.util.Spliterator spliterator()": {
+            "localVariables": {"this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts"},
+            "stackVariables": {"$stack1": "java.util.Spliterator"},
+            "invokeExpressions": ["<java.lang.Iterable: java.util.Spliterator spliterator()>"]
+        },
+        "int[] access$100(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)": {
+            "localVariables": {"x0": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts"},
+            "stackVariables": {"$stack1": "int[]"},
+            "invokeExpressions": []
+        }
+    }
+}

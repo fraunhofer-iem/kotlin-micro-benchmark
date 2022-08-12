@@ -1,0 +1,76 @@
+public final class de.fraunhofer.iem.generics.rawTypes.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack10, $stack14;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair differentTypedPair;
+        java.lang.Double $stack8;
+        java.lang.Integer $stack6;
+        java.lang.NullPointerException $stack11;
+        java.lang.Exception $stack12;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl $stack5;
+        int ex;
+        java.lang.Object $stack7;
+        java.lang.String $stack13;
+        double $stack9;
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(120);
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>($stack6, "Ranjith");
+
+        differentTypedPair = (de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair) $stack5;
+
+     label1:
+        $stack7 = interfaceinvoke differentTypedPair.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair: java.lang.Object second()>();
+
+        if $stack7 != null goto label2;
+
+        $stack11 = new java.lang.NullPointerException;
+
+        specialinvoke $stack11.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type kotlin.Double");
+
+        throw $stack11;
+
+     label2:
+        $stack8 = (java.lang.Double) $stack7;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Double: double doubleValue()>();
+
+        ex = (int) $stack9;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>(ex);
+
+     label3:
+        goto label5;
+
+     label4:
+        $stack12 := @caughtexception;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+     label5:
+        return;
+
+        catch java.lang.Exception from label1 to label3 with label4;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.generics.rawTypes.MainKt: void main()>();
+
+        return;
+    }
+}

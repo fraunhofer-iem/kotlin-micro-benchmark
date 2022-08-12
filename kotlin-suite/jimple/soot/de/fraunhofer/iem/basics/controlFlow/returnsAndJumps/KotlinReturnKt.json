@@ -1,0 +1,111 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnNothing(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: int returnValue(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: java.lang.String returnObject(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnInLambda()>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void returnNothing(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int returnValue(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$i0": "int",
+                "$i1": "int"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String returnObject(int)": {
+            "localVariables": {"num": "int"},
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void returnInLambda()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack9": "java.util.ArrayList",
+                "$stack10": "java.lang.Integer",
+                "$stack12": "java.lang.Integer",
+                "$stack14": "java.lang.Integer",
+                "$stack16": "java.lang.Integer",
+                "$this$forEach$iv": "java.lang.Iterable",
+                "$stack18": "java.util.Iterator",
+                "$stack19": "boolean",
+                "$stack20": "java.lang.Object",
+                "$stack21": "java.lang.Number",
+                "$stack22": "int",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "int",
+                "$stack25": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.util.ArrayList: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.lang.Iterable: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnNothing(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: java.lang.String returnObject(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: int returnValue(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnInLambda()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void main()>"]
+        }
+    }
+}

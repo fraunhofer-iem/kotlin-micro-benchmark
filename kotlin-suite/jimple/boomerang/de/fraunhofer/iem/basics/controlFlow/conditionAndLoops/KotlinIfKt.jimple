@@ -1,0 +1,513 @@
+public final class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack9, $stack14, $stack19, $stack24, $stack29, $stack34, $stack39, $stack44, $stack49;
+        java.lang.String $stack5, $stack10, $stack15, $stack20, $stack25, $stack30, $stack35, $stack40, $stack45, $stack50, $stack53, $stack54, $stack57, $stack58, varReplacer26, varReplacer34, varReplacer37, varReplacer38, varReplacer40, varReplacer41, varReplacer49, varReplacer54, varReplacer55, varReplacer58, varReplacer59, varReplacer60;
+        int $stack3, $stack8, $stack13, $stack18, $stack23, $stack28, $stack33, $stack38, $stack43, $stack48, $i0, varReplacer27, varReplacer28, varReplacer29, varReplacer30, varReplacer31, varReplacer32, varReplacer33, varReplacer35, varReplacer36, varReplacer39, varReplacer42, varReplacer43, varReplacer44, varReplacer45, varReplacer46, varReplacer47, varReplacer48, varReplacer50, varReplacer51, varReplacer52, varReplacer53, varReplacer56, varReplacer57;
+        java.io.PrintStream $stack6, $stack11, $stack16, $stack21, $stack26, $stack31, $stack36, $stack41, $stack46, $stack51, $stack55, $stack59;
+
+        nop;
+
+        varReplacer50 = 20;
+
+        varReplacer51 = 85;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max1(int,int)>(varReplacer50, varReplacer51);
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer34 = "*** max1 with traditional if condition = ";
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer34, $stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        varReplacer56 = 974;
+
+        varReplacer57 = 1;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max1(int,int)>(varReplacer56, varReplacer57);
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack8);
+
+        varReplacer26 = "*** max1 with traditional if condition = ";
+
+        $stack10 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer26, $stack9);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        varReplacer52 = 20;
+
+        varReplacer53 = 85;
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max2(int,int)>(varReplacer52, varReplacer53);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+        varReplacer38 = "*** max2 with traditional if else condition = ";
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer38, $stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        varReplacer27 = 974;
+
+        varReplacer28 = 1;
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max2(int,int)>(varReplacer27, varReplacer28);
+
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack18);
+
+        varReplacer54 = "*** max2 with traditional if else condition = ";
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer54, $stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        varReplacer47 = 20;
+
+        varReplacer48 = 85;
+
+        $stack23 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max3(int,int)>(varReplacer47, varReplacer48);
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack23);
+
+        varReplacer59 = "*** max3 with simple if else expression with single statement = ";
+
+        $stack25 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer59, $stack24);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>($stack25);
+
+        varReplacer35 = 974;
+
+        varReplacer36 = 1;
+
+        $stack28 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max3(int,int)>(varReplacer35, varReplacer36);
+
+        $stack29 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack28);
+
+        varReplacer58 = "*** max3 with simple if else expression with single statement = ";
+
+        $stack30 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer58, $stack29);
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(java.lang.Object)>($stack30);
+
+        varReplacer42 = 20;
+
+        varReplacer43 = 85;
+
+        $stack33 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max4(int,int)>(varReplacer42, varReplacer43);
+
+        $stack34 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack33);
+
+        varReplacer60 = "*** max4 with if else expression with multiple statement = ";
+
+        $stack35 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer60, $stack34);
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        varReplacer32 = 974;
+
+        varReplacer33 = 1;
+
+        $stack38 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max4(int,int)>(varReplacer32, varReplacer33);
+
+        $stack39 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack38);
+
+        varReplacer49 = "*** max4 with if else expression with multiple statement = ";
+
+        $stack40 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer49, $stack39);
+
+        $stack41 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack41.<java.io.PrintStream: void println(java.lang.Object)>($stack40);
+
+        varReplacer44 = 20;
+
+        varReplacer45 = 85;
+
+        varReplacer46 = 0;
+
+        $stack43 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max5(int,int,int)>(varReplacer44, varReplacer45, varReplacer46);
+
+        $stack44 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack43);
+
+        varReplacer40 = "*** max5 with nested if expression = ";
+
+        $stack45 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer40, $stack44);
+
+        $stack46 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack46.<java.io.PrintStream: void println(java.lang.Object)>($stack45);
+
+        varReplacer29 = 974;
+
+        varReplacer30 = 1;
+
+        varReplacer31 = 1;
+
+        $stack48 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: int max5(int,int,int)>(varReplacer29, varReplacer30, varReplacer30);
+
+        $stack49 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack48);
+
+        varReplacer37 = "*** max5 with nested if expression = ";
+
+        $stack50 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer37, $stack49);
+
+        $stack51 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack51.<java.io.PrintStream: void println(java.lang.Object)>($stack50);
+
+        $i0 = (int) -20;
+
+        $stack53 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: java.lang.String sign(int)>($i0);
+
+        varReplacer55 = "*** sign with if else if ladder expression = ";
+
+        $stack54 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer55, $stack53);
+
+        $stack55 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack55.<java.io.PrintStream: void println(java.lang.Object)>($stack54);
+
+        varReplacer39 = 974;
+
+        $stack57 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: java.lang.String sign(int)>(varReplacer39);
+
+        varReplacer41 = "*** sign with if else if ladder expression = ";
+
+        $stack58 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer41, $stack57);
+
+        $stack59 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack59.<java.io.PrintStream: void println(java.lang.Object)>($stack58);
+
+        return;
+    }
+
+    private static final int max1(int, int)
+    {
+        int num1, num2, max;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        max = num1;
+
+        if num1 >= num2 goto label1;
+
+        nop;
+
+        max = num2;
+
+     label1:
+        nop;
+
+        return max;
+    }
+
+    private static final int max2(int, int)
+    {
+        int num1, num2, max;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        if num1 >= num2 goto label1;
+
+        nop;
+
+        max = num2;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        max = num1;
+
+     label2:
+        return max;
+    }
+
+    private static final int max3(int, int)
+    {
+        int num1, num2, $stack2;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        if num1 >= num2 goto label1;
+
+        nop;
+
+        $stack2 = num2;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack2 = num1;
+
+     label2:
+        return $stack2;
+    }
+
+    private static final int max4(int, int)
+    {
+        int num1, num2, $stack16;
+        java.lang.String $stack8, $stack14, varReplacer61, varReplacer62;
+        java.io.PrintStream $stack9, $stack15;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack7, $stack10, $stack11, $stack12, $stack13;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        if num1 >= num2 goto label1;
+
+        nop;
+
+        $stack10 = new java.lang.StringBuilder;
+
+        specialinvoke $stack10.<java.lang.StringBuilder: void <init>()>();
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num2);
+
+        varReplacer61 = " is greater than ";
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer61);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num1);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = num2;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num1);
+
+        varReplacer62 = " is greater than ";
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer62);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num2);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack16 = num1;
+
+     label2:
+        return $stack16;
+    }
+
+    private static final int max5(int, int, int)
+    {
+        int num1, num2, num3, $stack3;
+
+        nop;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        if num1 <= num2 goto label2;
+
+        nop;
+
+        if num1 <= num3 goto label1;
+
+        nop;
+
+        $stack3 = num1;
+
+        goto label4;
+
+     label1:
+        nop;
+
+        $stack3 = num3;
+
+        goto label4;
+
+     label2:
+        nop;
+
+        if num2 <= num3 goto label3;
+
+        nop;
+
+        $stack3 = num2;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack3 = num3;
+
+     label4:
+        return $stack3;
+    }
+
+    private static final java.lang.String sign(int)
+    {
+        int num;
+        java.lang.String $stack8, $stack19, $stack30, $stack10, $stack12, $stack15, varReplacer63, varReplacer64, varReplacer65;
+        java.io.PrintStream $stack9, $stack20, $stack31;
+        char $stack21;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack16, $stack17, $stack18, $stack27, $stack28, $stack29, $stack11, $stack13, $stack14;
+
+        nop;
+
+        num := @parameter0: int;
+
+        if num <= 0 goto label1;
+
+        nop;
+
+        $stack27 = new java.lang.StringBuilder;
+
+        specialinvoke $stack27.<java.lang.StringBuilder: void <init>()>();
+
+        $stack28 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num);
+
+        varReplacer64 = " is positive";
+
+        $stack29 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer64);
+
+        $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(java.lang.Object)>($stack30);
+
+        $stack21 = 43;
+
+        goto label3;
+
+     label1:
+        nop;
+
+        if num >= 0 goto label2;
+
+        nop;
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num);
+
+        varReplacer63 = " is negative";
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer63);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack21 = 45;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(num);
+
+        varReplacer65 = " is Zero";
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer65);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack21 = 48;
+
+     label3:
+        $stack10 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(num);
+
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        $stack12 = staticinvoke <java.lang.String: java.lang.String valueOf(char)>($stack21);
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack10);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack15;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinIfKt: void main()>();
+
+        return;
+    }
+}

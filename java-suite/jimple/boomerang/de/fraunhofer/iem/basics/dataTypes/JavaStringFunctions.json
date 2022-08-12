@@ -1,0 +1,67 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions: void <init>()>",
+        "<de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.dataTypes.JavaStringFunctions"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "greet": "java.lang.String",
+                "args": "java.lang.String[]",
+                "greet_1": "java.lang.String",
+                "greet_2": "java.lang.String",
+                "greet_3": "java.lang.String",
+                "greet_4": "java.lang.String",
+                "greet_5": "java.lang.String",
+                "greet_6": "java.lang.String",
+                "greet_7": "java.lang.String",
+                "varReplacer215": "int",
+                "varReplacer216": "int",
+                "varReplacer217": "java.lang.String",
+                "varReplacer218": "int",
+                "varReplacer219": "int"
+            },
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "char",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.CharSequence",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "int",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: char charAt(int)>",
+                "<java.io.PrintStream: void println(char)>",
+                "<java.lang.String: java.lang.CharSequence subSequence(int,int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.String: int compareTo(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: int codePointAt(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: java.lang.String toUpperCase()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.String: java.lang.String trim()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

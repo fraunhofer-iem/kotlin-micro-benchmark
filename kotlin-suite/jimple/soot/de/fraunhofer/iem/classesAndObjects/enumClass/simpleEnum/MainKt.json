@@ -1,0 +1,65 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>"
+            ]
+        },
+        "void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)": {
+            "localVariables": {"menu": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"},
+            "stackVariables": {
+                "$stack5": "int[]",
+                "$stack6": "int",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack17": "java.lang.String",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Enum: int ordinal()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.MainKt: void main()>"]
+        }
+    }
+}

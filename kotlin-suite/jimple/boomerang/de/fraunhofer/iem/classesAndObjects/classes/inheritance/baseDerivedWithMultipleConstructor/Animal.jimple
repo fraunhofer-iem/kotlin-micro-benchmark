@@ -1,0 +1,80 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal extends java.lang.Object
+{
+    private final java.lang.String DNA;
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String DNA, varReplacer548;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal;
+
+        DNA := @parameter0: java.lang.String;
+
+        varReplacer548 = "DNA";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, varReplacer548);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: java.lang.String DNA> = DNA;
+
+        return;
+    }
+
+    public void <init>()
+    {
+        java.lang.String varReplacer549;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal;
+
+        varReplacer549 = "AAAATTTTCCCCGG";
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: void <init>(java.lang.String)>(varReplacer549);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer550;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer550 = "This is abstract animal sound!";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer550);
+
+        return;
+    }
+
+    public final void displayDNA()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String l1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseDerivedWithMultipleConstructor.Animal: java.lang.String DNA>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(l1);
+
+        return;
+    }
+}

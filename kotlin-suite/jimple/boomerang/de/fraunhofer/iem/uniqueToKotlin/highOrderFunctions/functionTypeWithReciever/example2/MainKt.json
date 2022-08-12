@@ -1,0 +1,38 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)": {
+            "localVariables": {
+                "init": "kotlin.jvm.functions.Function1",
+                "varReplacer2419": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML: void <init>()>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1",
+                "$stack1": "kotlin.jvm.functions.Function1"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt: void main()>"]
+        }
+    }
+}

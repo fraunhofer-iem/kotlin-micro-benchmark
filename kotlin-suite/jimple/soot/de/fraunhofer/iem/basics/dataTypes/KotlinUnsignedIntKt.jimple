@@ -1,0 +1,178 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        long $stack13;
+        short $stack12;
+        kotlin.UShort $stack24;
+        byte $stack11;
+        int $stack9, $stack10, $stack16, $stack17, $stack18, $stack19;
+        java.io.PrintStream $stack15, $stack21, $stack23, $stack25, $stack27;
+        kotlin.UInt $stack14, $stack20;
+        kotlin.ULong $stack26;
+        kotlin.UByte $stack22;
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("ok");
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: byte getUByte(java.lang.String)>("byte");
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: short getUShort(java.lang.String)>("short");
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: long getULong(java.lang.String)>("long");
+
+        $stack14 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack9);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = $stack9 + $stack10;
+
+        $stack17 = staticinvoke <kotlin.UInt: int constructor-impl(int)>($stack16);
+
+        $stack18 = $stack17 + 200;
+
+        $stack19 = staticinvoke <kotlin.UInt: int constructor-impl(int)>($stack18);
+
+        $stack20 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = staticinvoke <kotlin.UByte: kotlin.UByte box-impl(byte)>($stack11);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        $stack24 = staticinvoke <kotlin.UShort: kotlin.UShort box-impl(short)>($stack12);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        $stack26 = staticinvoke <kotlin.ULong: kotlin.ULong box-impl(long)>($stack13);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void printUInt-WZ4Q5Ns(int)>(1254);
+
+        return;
+    }
+
+    public static final void printUInt-WZ4Q5Ns(int)
+    {
+        int uInt;
+        java.io.PrintStream $stack4;
+        kotlin.UInt $stack3;
+
+        uInt := @parameter0: int;
+
+        $stack3 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>(uInt);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static final int getUInt(java.lang.String)
+    {
+        int $i0;
+        java.lang.String str;
+        boolean $stack1;
+
+        str := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, "str");
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, "int");
+
+        if $stack1 == 0 goto label1;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        return 150;
+    }
+
+    public static final byte getUByte(java.lang.String)
+    {
+        java.lang.String str;
+        boolean $stack1;
+
+        str := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, "str");
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, "byte");
+
+        if $stack1 == 0 goto label1;
+
+        return -1;
+
+     label1:
+        return -106;
+    }
+
+    public static final short getUShort(java.lang.String)
+    {
+        short $s0;
+        java.lang.String str;
+        boolean $stack1;
+
+        str := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, "str");
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, "short");
+
+        if $stack1 == 0 goto label1;
+
+        $s0 = (short) -1;
+
+        return $s0;
+
+     label1:
+        return 150;
+    }
+
+    public static final long getULong(java.lang.String)
+    {
+        java.lang.String str;
+        boolean $stack1;
+
+        str := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, "str");
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, "long");
+
+        if $stack1 == 0 goto label1;
+
+        return -1L;
+
+     label1:
+        return 150L;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void main()>();
+
+        return;
+    }
+}

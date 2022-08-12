@@ -1,0 +1,87 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "namePrinter": "kotlin.jvm.functions.FunctionN",
+                "varReplacer2436": "java.lang.String",
+                "varReplacer2437": "java.lang.String",
+                "varReplacer2438": "java.lang.String",
+                "varReplacer2439": "java.lang.String",
+                "varReplacer2440": "java.lang.String",
+                "varReplacer2441": "java.lang.String",
+                "varReplacer2442": "java.lang.String",
+                "varReplacer2443": "java.lang.String",
+                "varReplacer2444": "java.lang.String",
+                "varReplacer2445": "java.lang.String",
+                "varReplacer2446": "java.lang.String",
+                "varReplacer2447": "java.lang.String",
+                "varReplacer2448": "java.lang.String",
+                "varReplacer2449": "java.lang.String",
+                "varReplacer2450": "java.lang.String",
+                "varReplacer2451": "java.lang.String",
+                "varReplacer2452": "java.lang.String",
+                "varReplacer2453": "java.lang.String",
+                "varReplacer2454": "java.lang.String",
+                "varReplacer2455": "java.lang.String",
+                "varReplacer2456": "java.lang.String",
+                "varReplacer2457": "java.lang.String",
+                "varReplacer2458": "java.lang.String",
+                "varReplacer2459": "java.lang.String",
+                "varReplacer2460": "java.lang.String",
+                "varReplacer2461": "java.lang.String",
+                "varReplacer2462": "java.lang.String",
+                "varReplacer2463": "java.lang.String",
+                "varReplacer2464": "java.lang.String",
+                "varReplacer2465": "java.lang.String",
+                "varReplacer2466": "java.lang.String",
+                "varReplacer2467": "java.lang.String",
+                "varReplacer2468": "java.lang.String",
+                "varReplacer2469": "java.lang.String",
+                "varReplacer2470": "java.lang.String",
+                "varReplacer2471": "java.lang.String",
+                "varReplacer2472": "java.lang.String",
+                "varReplacer2473": "java.lang.String",
+                "varReplacer2474": "java.lang.String",
+                "varReplacer2475": "java.lang.String",
+                "varReplacer2476": "java.lang.String",
+                "varReplacer2477": "java.lang.String",
+                "varReplacer2478": "java.lang.String",
+                "varReplacer2479": "java.lang.String",
+                "varReplacer2480": "java.lang.String",
+                "varReplacer2481": "java.lang.String",
+                "varReplacer2482": "java.lang.String",
+                "varReplacer2483": "java.lang.String",
+                "varReplacer2484": "java.lang.String",
+                "varReplacer2485": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream",
+                "l1": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter: void <init>()>",
+                "<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt: void main$lambda-0()>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt$main_lambda-0__1: de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle bootstrap$()>",
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle: void start()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt: void main()>"]
+        },
+        "void main$lambda-0()": {
+            "localVariables": {"varReplacer796": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: int main$lambda-1$lambda-0(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: kotlin.jvm.functions.Function1 main$lambda-1(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: int main$lambda-3$lambda-2(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: kotlin.jvm.functions.Function1 main$lambda-3(int)>"
+    ],
+    "methodsInformation": {
+        "void callFun(kotlin.jvm.functions.Function1)": {
+            "localVariables": {"fun1": "kotlin.jvm.functions.Function1"},
+            "stackVariables": {
+                "$stack3": "java.lang.Integer",
+                "$stack4": "java.lang.Object",
+                "$stack5": "kotlin.jvm.functions.Function1",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Number",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "kotlin.jvm.functions.Function1",
+                "$stack3": "kotlin.jvm.functions.Function1"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-1__14: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-3__15: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void main()>"]
+        },
+        "int main$lambda-1$lambda-0(int,int)": {
+            "localVariables": {"b": "int"},
+            "stackVariables": {
+                "$a": "int",
+                "$stack2": "int"
+            },
+            "invokeExpressions": []
+        },
+        "kotlin.jvm.functions.Function1 main$lambda-1(int)": {
+            "localVariables": {"a": "int"},
+            "stackVariables": {"$stack1": "kotlin.jvm.functions.Function1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-1_lambda-0__16: kotlin.jvm.functions.Function1 bootstrap$(int)>"]
+        },
+        "int main$lambda-3$lambda-2(int,int)": {
+            "localVariables": {"b": "int"},
+            "stackVariables": {
+                "$a": "int",
+                "$stack2": "int"
+            },
+            "invokeExpressions": []
+        },
+        "kotlin.jvm.functions.Function1 main$lambda-3(int)": {
+            "localVariables": {"a": "int"},
+            "stackVariables": {"$stack1": "kotlin.jvm.functions.Function1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-3_lambda-2__17: kotlin.jvm.functions.Function1 bootstrap$(int)>"]
+        }
+    }
+}

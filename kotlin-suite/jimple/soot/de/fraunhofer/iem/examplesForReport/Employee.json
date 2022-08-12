@@ -1,0 +1,102 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.Employee: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String getName()>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String component1()>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: de.fraunhofer.iem.examplesForReport.Employee copy(java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: de.fraunhofer.iem.examplesForReport.Employee copy$default(de.fraunhofer.iem.examplesForReport.Employee,java.lang.String,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String toString()>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: int hashCode()>",
+        "<de.fraunhofer.iem.examplesForReport.Employee: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.Employee"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.examplesForReport.Employee copy(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.Employee"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.examplesForReport.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.Employee: void <init>(java.lang.String)>"
+            ]
+        },
+        "de.fraunhofer.iem.examplesForReport.Employee copy$default(de.fraunhofer.iem.examplesForReport.Employee,java.lang.String,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l2": "int",
+                "$stack4": "int",
+                "l0": "de.fraunhofer.iem.examplesForReport.Employee",
+                "$stack5": "de.fraunhofer.iem.examplesForReport.Employee",
+                "l3": "java.lang.Object",
+                "l1": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.Employee: de.fraunhofer.iem.examplesForReport.Employee copy(java.lang.String)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.Employee"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.Employee"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "int"
+            },
+            "invokeExpressions": ["<java.lang.String: int hashCode()>"]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.Employee",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.examplesForReport.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"]
+        }
+    }
+}

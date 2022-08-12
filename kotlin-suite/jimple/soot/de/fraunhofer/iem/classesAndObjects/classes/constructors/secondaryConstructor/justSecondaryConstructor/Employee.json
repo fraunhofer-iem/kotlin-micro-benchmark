@@ -1,0 +1,84 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String getFirstName()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: void setFirstName(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: void setLastName(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: int getAge()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: void setAge(int)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee: void <init>(java.lang.String,java.lang.String,int)>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getFirstName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setFirstName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setLastName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void <init>(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.secondaryConstructor.justSecondaryConstructor.Employee",
+                "age": "int"
+            },
+            "stackVariables": {
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

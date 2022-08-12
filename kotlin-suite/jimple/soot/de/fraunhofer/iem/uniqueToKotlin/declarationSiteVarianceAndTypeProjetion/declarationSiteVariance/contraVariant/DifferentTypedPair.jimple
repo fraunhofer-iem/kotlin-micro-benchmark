@@ -1,0 +1,5 @@
+public interface  de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair extends java.lang.Object
+{
+
+    public abstract void replace(java.lang.Object, java.lang.Object);
+}

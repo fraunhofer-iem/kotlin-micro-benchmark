@@ -1,0 +1,140 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack7, $stack10, $stack12;
+        java.lang.Integer $stack5, $stack8;
+        int $stack3, $stack6, varReplacer440, varReplacer442;
+        java.lang.String $stack9, $stack11, varReplacer441, varReplacer443;
+
+        nop;
+
+        varReplacer443 = "Ranjith";
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>(varReplacer443);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>($stack3);
+
+        varReplacer440 = 1;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer440);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: int getLength(java.lang.Object)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        varReplacer442 = 1;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer442);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>($stack8);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        varReplacer441 = "Ranjith";
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: java.lang.String getLowerCase(java.lang.Object)>(varReplacer441);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        return;
+    }
+
+    public static final int getLength(java.lang.Object)
+    {
+        int $stack3, $i0;
+        java.lang.Object ob;
+        java.lang.String $stack2, varReplacer444;
+        boolean $stack1;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        varReplacer444 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer444);
+
+        $stack1 = ob instanceof java.lang.String;
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $stack2 = (java.lang.String) ob;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int length()>();
+
+        return $stack3;
+
+     label1:
+        nop;
+
+        $i0 = (int) -1;
+
+        return $i0;
+    }
+
+    public static final java.lang.String getLowerCase(java.lang.Object)
+    {
+        java.util.Locale $stack4;
+        java.lang.Object ob;
+        java.lang.String l1, $stack5, varReplacer445, varReplacer446, varReplacer447;
+        boolean $stack3;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        varReplacer447 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer447);
+
+        $stack3 = ob instanceof java.lang.String;
+
+        if $stack3 != 0 goto label1;
+
+        nop;
+
+        varReplacer446 = "na";
+
+        return varReplacer446;
+
+     label1:
+        nop;
+
+        l1 = (java.lang.String) ob;
+
+        $stack4 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack5 = virtualinvoke l1.<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>($stack4);
+
+        varReplacer445 = "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack5, varReplacer445);
+
+        return $stack5;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinIsOperatorKt: void main()>();
+
+        return;
+    }
+}

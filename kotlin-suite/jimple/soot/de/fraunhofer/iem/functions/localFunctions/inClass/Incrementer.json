@@ -1,0 +1,172 @@
+{
+    "className": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void <init>()>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: java.lang.String getDummyProperty1()>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void setDummyProperty1(java.lang.String)>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer(int,int,int)>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count(int)>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void stepIncrementer$add-0(kotlin.jvm.internal.Ref$ObjectRef,int,int)>",
+        "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count$add-1(de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer,int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getDummyProperty1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setDummyProperty1(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int stepIncrementer(int,int,int)": {
+            "localVariables": {
+                "number": "int",
+                "iterCount": "int",
+                "step": "int",
+                "this": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer"
+            },
+            "stackVariables": {
+                "$stack9": "kotlin.jvm.internal.Ref$IntRef",
+                "$stack10": "kotlin.jvm.internal.Ref$ObjectRef",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "java.lang.String",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "int",
+                "l7": "java.lang.Object"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Ref$IntRef: void <init>()>",
+                "<kotlin.jvm.internal.Ref$ObjectRef: void <init>()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)>",
+                "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void stepIncrementer$add-0(kotlin.jvm.internal.Ref$ObjectRef,int,int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int stepIncrementer1For10Count(int)": {
+            "localVariables": {
+                "number": "int",
+                "this": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer"
+            },
+            "stackVariables": {
+                "$stack6": "kotlin.jvm.internal.Ref$IntRef",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "int",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Ref$IntRef: void <init>()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count$add-1(de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer,int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>"
+            ]
+        },
+        "void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)": {
+            "localVariables": {
+                "currentIter": "int",
+                "res": "kotlin.jvm.internal.Ref$IntRef"
+            },
+            "stackVariables": {
+                "$iterCount": "int",
+                "$step": "int",
+                "$stack4": "int",
+                "$stack5": "int",
+                "$stack6": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)>"]
+        },
+        "void stepIncrementer$add-0(kotlin.jvm.internal.Ref$ObjectRef,int,int)": {
+            "localVariables": {
+                "currentIter": "int",
+                "dummyInt": "int",
+                "dummyString": "kotlin.jvm.internal.Ref$ObjectRef"
+            },
+            "stackVariables": {
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int stepIncrementer1For10Count$add-1(de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer,int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)": {
+            "localVariables": {
+                "this$0": "de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer",
+                "currentIter": "int",
+                "iterCount": "int",
+                "step": "kotlin.jvm.internal.Ref$IntRef",
+                "dummyFlag": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack6": "int",
+                "$number": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "int",
+                "$stack11": "int",
+                "$stack12": "int",
+                "$stack13": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count$add-1(de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer,int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer: int stepIncrementer1For10Count$add-1(de.fraunhofer.iem.functions.localFunctions.inClass.Incrementer,int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>"
+            ]
+        }
+    }
+}

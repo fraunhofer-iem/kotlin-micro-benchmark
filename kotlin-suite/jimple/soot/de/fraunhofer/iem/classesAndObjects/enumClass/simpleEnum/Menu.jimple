@@ -1,0 +1,116 @@
+public final enum class de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu extends java.lang.Enum
+{
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_GRAVY;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu EGG_OMELET;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_BIRYANI;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu VEG_PULAO;
+    private static final de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $VALUES;
+
+    private void <init>(java.lang.String, int)
+    {
+        int $enum$ordinal;
+        java.lang.String $enum$name;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu;
+
+        $enum$name := @parameter0: java.lang.String;
+
+        $enum$ordinal := @parameter1: int;
+
+        specialinvoke this.<java.lang.Enum: void <init>(java.lang.String,int)>($enum$name, $enum$ordinal);
+
+        return;
+    }
+
+    public static de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] values()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $stack0, $stack2;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $VALUES>;
+
+        $stack1 = virtualinvoke $stack0.<java.lang.Object: java.lang.Object clone()>();
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[]) $stack1;
+
+        return $stack2;
+    }
+
+    public static de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu valueOf(java.lang.String)
+    {
+        java.lang.String value;
+        java.lang.Enum $stack1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu $stack2;
+
+        value := @parameter0: java.lang.String;
+
+        $stack1 = staticinvoke <java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>(class "Lde/fraunhofer/iem/classesAndObjects/enumClass/simpleEnum/Menu;", value);
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu) $stack1;
+
+        return $stack2;
+    }
+
+    private static final de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $values()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] l0;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu $stack1, $stack2, $stack3, $stack4;
+
+        l0 = newarray (de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)[4];
+
+        $stack1 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_GRAVY>;
+
+        l0[0] = $stack1;
+
+        $stack2 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu EGG_OMELET>;
+
+        l0[1] = $stack2;
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_BIRYANI>;
+
+        l0[2] = $stack3;
+
+        $stack4 = <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu VEG_PULAO>;
+
+        l0[3] = $stack4;
+
+        return l0;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $stack4;
+        de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu $stack0, $stack1, $stack2, $stack3;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>("CHICKEN_GRAVY", 0);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_GRAVY> = $stack0;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>("EGG_OMELET", 1);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu EGG_OMELET> = $stack1;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>("CHICKEN_BIRYANI", 2);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu CHICKEN_BIRYANI> = $stack2;
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>("VEG_PULAO", 3);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu VEG_PULAO> = $stack3;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $values()>();
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $VALUES> = $stack4;
+
+        return;
+    }
+}

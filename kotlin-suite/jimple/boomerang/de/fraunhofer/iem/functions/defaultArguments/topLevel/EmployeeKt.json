@@ -1,0 +1,59 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "void send(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "age": "int",
+                "varReplacer1557": "java.lang.String",
+                "varReplacer1558": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"
+            ]
+        },
+        "void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l3": "int",
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "l4": "java.lang.Object",
+                "l0": "java.lang.String",
+                "l1": "java.lang.String",
+                "l2": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>"]
+        },
+        "void entry()": {
+            "localVariables": {
+                "varReplacer1559": "java.lang.String",
+                "varReplacer1560": "null_type",
+                "varReplacer1561": "int",
+                "varReplacer1562": "int",
+                "varReplacer1563": "null_type",
+                "varReplacer1564": "java.lang.String",
+                "varReplacer1565": "java.lang.String",
+                "varReplacer1566": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>"
+            ]
+        }
+    }
+}

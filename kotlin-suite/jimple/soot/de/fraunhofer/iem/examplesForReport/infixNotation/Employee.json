@@ -1,0 +1,61 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)": {
+            "localVariables": {
+                "manager": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee",
+                "this": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

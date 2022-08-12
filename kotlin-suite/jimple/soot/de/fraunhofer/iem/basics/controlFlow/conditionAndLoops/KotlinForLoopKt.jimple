@@ -1,0 +1,315 @@
+public final class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt extends java.lang.Object
+{
+
+    public static final void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        java.lang.Integer $stack3, $stack5, $stack7, $stack9, $stack11, $stack13, $stack15, $stack17, $stack19, $stack21;
+        kotlin.ranges.IntProgression $stack25, $stack26;
+        kotlin.ranges.IntRange $stack24;
+        java.util.Collection $stack23;
+        java.util.List $stack22;
+        java.lang.Integer[] l1;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, "args");
+
+        l1 = newarray (java.lang.Integer)[10];
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        l1[0] = $stack3;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        l1[1] = $stack5;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        l1[2] = $stack7;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        l1[3] = $stack9;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        l1[4] = $stack11;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(6);
+
+        l1[5] = $stack13;
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(7);
+
+        l1[6] = $stack15;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        l1[7] = $stack17;
+
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        l1[8] = $stack19;
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        l1[9] = $stack21;
+
+        $stack22 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        $stack23 = (java.util.Collection) $stack22;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forIterator(java.util.Collection)>($stack23);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArray(java.lang.String[])>(args);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndex(java.lang.String[])>(args);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndexAndValue(java.lang.String[])>(args);
+
+        $stack24 = new kotlin.ranges.IntRange;
+
+        specialinvoke $stack24.<kotlin.ranges.IntRange: void <init>(int,int)>(1, 10);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forRangeExpr(kotlin.ranges.IntRange)>($stack24);
+
+        $stack25 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.IntProgression downTo(int,int)>(6, 0);
+
+        $stack26 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.IntProgression step(kotlin.ranges.IntProgression,int)>($stack25, 2);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forProgressionExpr(kotlin.ranges.IntProgression)>($stack26);
+
+        return;
+    }
+
+    public static final void forIterator(java.util.Collection)
+    {
+        java.io.PrintStream $stack9;
+        java.util.Iterator $stack4;
+        java.util.Collection iter;
+        int $stack8;
+        java.lang.Object $stack6;
+        java.lang.Number $stack7;
+        boolean $stack5;
+
+        iter := @parameter0: java.util.Collection;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(iter, "iter");
+
+        $stack4 = interfaceinvoke iter.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack7 = (java.lang.Number) $stack6;
+
+        $stack8 = virtualinvoke $stack7.<java.lang.Number: int intValue()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void forArray(java.lang.String[])
+    {
+        java.io.PrintStream $stack6;
+        int l3, l2;
+        java.lang.String[] args;
+        java.lang.String elem;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, "args");
+
+        l2 = 0;
+
+        l3 = lengthof args;
+
+     label1:
+        if l2 >= l3 goto label2;
+
+        elem = args[l2];
+
+        l2 = l2 + 1;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void forArrayWithIndex(java.lang.String[])
+    {
+        java.io.PrintStream $stack7;
+        java.lang.String[] args;
+        int $stack6, l2, i, l1, $i0;
+        java.lang.String $stack11;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, "args");
+
+        l1 = 0;
+
+        $stack6 = lengthof args;
+
+        $i0 = (int) -1;
+
+        l2 = $stack6 + $i0;
+
+        if 0 > l2 goto label2;
+
+     label1:
+        i = l1;
+
+        l1 = l1 + 1;
+
+        $stack11 = args[i];
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        if l1 <= l2 goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void forArrayWithIndexAndValue(java.lang.String[])
+    {
+        java.io.PrintStream $stack13;
+        java.lang.String[] args;
+        int l3, i, l2;
+        java.lang.StringBuilder $stack8, $stack9, $stack10, $stack11;
+        java.lang.String elem, $stack12;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, "args");
+
+        l2 = 0;
+
+        l3 = lengthof args;
+
+     label1:
+        if l2 >= l3 goto label2;
+
+        i = l2;
+
+        elem = args[l2];
+
+        l2 = l2 + 1;
+
+        $stack8 = new java.lang.StringBuilder;
+
+        specialinvoke $stack8.<java.lang.StringBuilder: void <init>()>();
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" --> ");
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void forRangeExpr(kotlin.ranges.IntRange)
+    {
+        java.io.PrintStream $stack7;
+        int $stack5, $stack6, i, l1;
+        kotlin.ranges.IntRange range;
+
+        range := @parameter0: kotlin.ranges.IntRange;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(range, "range");
+
+        $stack5 = virtualinvoke range.<kotlin.ranges.IntRange: int getFirst()>();
+
+        l1 = $stack5;
+
+        $stack6 = virtualinvoke range.<kotlin.ranges.IntRange: int getLast()>();
+
+        if $stack5 > $stack6 goto label2;
+
+     label1:
+        i = l1;
+
+        l1 = l1 + 1;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>(i);
+
+        if i != $stack6 goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void forProgressionExpr(kotlin.ranges.IntProgression)
+    {
+        java.io.PrintStream $stack9;
+        kotlin.ranges.IntProgression progress;
+        int $stack6, $stack7, $stack8, i, l1;
+
+        progress := @parameter0: kotlin.ranges.IntProgression;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progress, "progress");
+
+        $stack6 = virtualinvoke progress.<kotlin.ranges.IntProgression: int getFirst()>();
+
+        l1 = $stack6;
+
+        $stack7 = virtualinvoke progress.<kotlin.ranges.IntProgression: int getLast()>();
+
+        $stack8 = virtualinvoke progress.<kotlin.ranges.IntProgression: int getStep()>();
+
+        if $stack8 <= 0 goto label1;
+
+        if $stack6 <= $stack7 goto label2;
+
+     label1:
+        if $stack8 >= 0 goto label3;
+
+        if $stack7 > $stack6 goto label3;
+
+     label2:
+        i = l1;
+
+        l1 = l1 + $stack8;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>(i);
+
+        if i != $stack7 goto label2;
+
+     label3:
+        return;
+    }
+}

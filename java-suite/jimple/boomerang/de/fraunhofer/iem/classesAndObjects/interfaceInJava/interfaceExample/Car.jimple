@@ -1,0 +1,410 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Vehicle
+{
+    private boolean isStart;
+    private int currentSpeed;
+    private int currentGear;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        int varReplacer430, varReplacer431, varReplacer432;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer432 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: boolean isStart> = varReplacer432;
+
+        varReplacer430 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer430;
+
+        varReplacer431 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear> = varReplacer431;
+
+        return;
+    }
+
+    public void start()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        java.io.PrintStream $stack2;
+        int varReplacer434;
+        java.lang.String varReplacer433;
+        boolean $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: boolean isStart>;
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream err>;
+
+        varReplacer433 = "Car is already started.";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(varReplacer433);
+
+     label1:
+        nop;
+
+        varReplacer434 = 1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: boolean isStart> = varReplacer434;
+
+        return;
+    }
+
+    public void stop()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        java.io.PrintStream $stack2;
+        int varReplacer436;
+        java.lang.String varReplacer435;
+        boolean $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: boolean isStart>;
+
+        if $stack1 != 0 goto label1;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream err>;
+
+        varReplacer435 = "Car is already stopped.";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(varReplacer435);
+
+     label1:
+        nop;
+
+        varReplacer436 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: boolean isStart> = varReplacer436;
+
+        return;
+    }
+
+    public void accelerate(int)
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        java.lang.StringBuilder $stack10, $stack12, $stack13;
+        int $stack3, $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, speed, varReplacer438, varReplacer439, varReplacer440, varReplacer441, varReplacer443, varReplacer444, varReplacer447, varReplacer448;
+        java.lang.String $stack14, varReplacer437, varReplacer442, varReplacer445, varReplacer446, varReplacer449, varReplacer450;
+        java.io.PrintStream $stack11, $stack15, $stack16, $stack17, $stack18, $stack19;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        speed := @parameter0: int;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack3 != 0 goto label02;
+
+        nop;
+
+        if speed <= 320 goto label01;
+
+        nop;
+
+        varReplacer440 = 320;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer440;
+
+        goto label14;
+
+     label01:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label02:
+        nop;
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack4 != 1 goto label04;
+
+        nop;
+
+        if speed <= 2 goto label03;
+
+        nop;
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer449 = "First gear is to just move the car.\nPlease change the gear to 2";
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.String)>(varReplacer449);
+
+        varReplacer443 = 2;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer443;
+
+        goto label14;
+
+     label03:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label04:
+        nop;
+
+        $stack5 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack5 != 2 goto label06;
+
+        nop;
+
+        if speed <= 20 goto label05;
+
+        nop;
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer446 = "20 kmph is the max speed for 2nd gear\nPlease change the gear to 3";
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.String)>(varReplacer446);
+
+        varReplacer439 = 20;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer439;
+
+        goto label14;
+
+     label05:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label06:
+        nop;
+
+        $stack6 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack6 != 3 goto label08;
+
+        nop;
+
+        if speed <= 70 goto label07;
+
+        nop;
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer442 = "70 kmph is the max speed for 3rd gear\nPlease change the gear to 4";
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.String)>(varReplacer442);
+
+        varReplacer438 = 70;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer438;
+
+        goto label14;
+
+     label07:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label08:
+        nop;
+
+        $stack7 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack7 != 4 goto label10;
+
+        nop;
+
+        if speed <= 120 goto label09;
+
+        nop;
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer450 = "120 kmph is the max speed for 4th gear\nPlease change the gear to 5";
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.String)>(varReplacer450);
+
+        varReplacer441 = 120;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer441;
+
+        goto label14;
+
+     label09:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label10:
+        nop;
+
+        $stack8 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack8 != 5 goto label12;
+
+        nop;
+
+        if speed <= 250 goto label11;
+
+        nop;
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer445 = "250 kmph is the max speed for 5th gear\nPlease change the gear to 6";
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.String)>(varReplacer445);
+
+        varReplacer447 = 250;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer447;
+
+        goto label14;
+
+     label11:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+        goto label14;
+
+     label12:
+        nop;
+
+        $stack9 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear>;
+
+        if $stack9 != 6 goto label14;
+
+        nop;
+
+        if speed <= 320 goto label13;
+
+        nop;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack10 = new java.lang.StringBuilder;
+
+        specialinvoke $stack10.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer444 = 320;
+
+        $stack12 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(varReplacer444);
+
+        varReplacer437 = " kmph is the max speed for 6th gear\n";
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer437);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.String)>($stack14);
+
+        varReplacer448 = 320;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = varReplacer448;
+
+        goto label14;
+
+     label13:
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed> = speed;
+
+     label14:
+        nop;
+
+        return;
+    }
+
+    public void changeGear(int)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        int toGear;
+        java.lang.StringBuilder $stack2, $stack4, $stack5;
+        java.lang.String $stack6, varReplacer451;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        toGear := @parameter0: int;
+
+        if toGear <= 0 goto label1;
+
+        nop;
+
+        if toGear > 6 goto label1;
+
+        nop;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentGear> = toGear;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream err>;
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(toGear);
+
+        varReplacer451 = " is wrong gear";
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer451);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>($stack6);
+
+     label2:
+        return;
+    }
+
+    public int getCurrentSpeed()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car this;
+        int $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceExample.Car: int currentSpeed>;
+
+        return $stack1;
+    }
+}

@@ -1,0 +1,68 @@
+public class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        int varReplacer30, varReplacer31, varReplacer32;
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer30 = 0;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop: void whileExample(int)>(varReplacer30);
+
+        varReplacer32 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop: void whileExample(int)>(varReplacer32);
+
+        varReplacer31 = 15;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaWhileLoop: void whileExample(int)>(varReplacer31);
+
+        return;
+    }
+
+    private static void whileExample(int)
+    {
+        java.io.PrintStream $stack1;
+        int end;
+
+        nop;
+
+        end := @parameter0: int;
+
+     label1:
+        if end >= 10 goto label2;
+
+        nop;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(int)>(end);
+
+        end = end + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+}

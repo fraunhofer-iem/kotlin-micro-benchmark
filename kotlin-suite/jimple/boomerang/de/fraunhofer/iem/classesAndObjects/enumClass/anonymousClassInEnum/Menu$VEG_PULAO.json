@@ -1,0 +1,42 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO: void print()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO",
+                "varReplacer622": "int",
+                "varReplacer623": "null_type"
+            },
+            "stackVariables": {
+                "$enum$name": "java.lang.String",
+                "$enum$ordinal": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        },
+        "void print()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO",
+                "varReplacer624": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: int getPrice()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

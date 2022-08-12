@@ -1,0 +1,84 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 extends kotlin.jvm.internal.AdaptedFunctionReference implements kotlin.jvm.functions.Function1
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 this;
+        int varReplacer2353, varReplacer2356;
+        java.lang.String varReplacer2354, varReplacer2355;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5;
+
+        varReplacer2353 = 1;
+
+        varReplacer2354 = "<init>";
+
+        varReplacer2355 = "<init>(Ljava/lang/String;)V";
+
+        varReplacer2356 = 8;
+
+        specialinvoke this.<kotlin.jvm.internal.AdaptedFunctionReference: void <init>(int,java.lang.Class,java.lang.String,java.lang.String,int)>(varReplacer2353, class "Lde/fraunhofer/iem/uniqueToKotlin/highOrderFunctions/callableReference/Person;", varReplacer2354, varReplacer2355, varReplacer2356);
+
+        return;
+    }
+
+    public final void invoke(java.lang.String)
+    {
+        java.lang.String p0, varReplacer2357;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5;
+
+        p0 := @parameter0: java.lang.String;
+
+        varReplacer2357 = "p0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(p0, varReplacer2357);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void access$main$lambda-0(java.lang.String)>(p0);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        kotlin.Unit $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 this;
+        java.lang.Object p1;
+        java.lang.String $stack2;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (java.lang.String) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void invoke(java.lang.String)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 INSTANCE> = $stack0;
+
+        return;
+    }
+}

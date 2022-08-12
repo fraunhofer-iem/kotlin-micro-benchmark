@@ -1,0 +1,194 @@
+public final class de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt extends java.lang.Object
+{
+
+    public static final void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)
+    {
+        java.lang.String varReplacer902;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle vehicle;
+
+        nop;
+
+        vehicle := @parameter0: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        varReplacer902 = "vehicle";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicle, varReplacer902);
+
+        virtualinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void displayVehicleRegistrationNumber()>();
+
+        return;
+    }
+
+    public static final void demonstrateWhenWithSealedClass(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Car $stack17;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Truck $stack12;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus $stack7;
+        java.lang.String $stack9, $stack10, $stack14, $stack15, $stack19, $stack20, varReplacer903, varReplacer904, varReplacer905, varReplacer906;
+        boolean $stack4, $stack5, $stack6;
+        java.io.PrintStream $stack11, $stack16, $stack21;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle vehicle;
+
+        nop;
+
+        vehicle := @parameter0: de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle;
+
+        varReplacer906 = "vehicle";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicle, varReplacer906);
+
+        $stack4 = vehicle instanceof de.fraunhofer.iem.classesAndObjects.sealedClass.Car;
+
+        if $stack4 == 0 goto label1;
+
+        nop;
+
+        $stack17 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Car) vehicle;
+
+        $stack19 = virtualinvoke $stack17.<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String getRegistrationNumber()>();
+
+        varReplacer903 = "Car ";
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer903, $stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        goto label3;
+
+     label1:
+        nop;
+
+        $stack5 = vehicle instanceof de.fraunhofer.iem.classesAndObjects.sealedClass.Truck;
+
+        if $stack5 == 0 goto label2;
+
+        nop;
+
+        $stack12 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Truck) vehicle;
+
+        $stack14 = virtualinvoke $stack12.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String getRegistrationNumber()>();
+
+        varReplacer905 = "Truck ";
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer905, $stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack6 = vehicle instanceof de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        if $stack6 == 0 goto label3;
+
+        nop;
+
+        $stack7 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Bus) vehicle;
+
+        $stack9 = virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getRegistrationNumber()>();
+
+        varReplacer904 = "Bus ";
+
+        $stack10 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer904, $stack9);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+     label3:
+        nop;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Car $stack5;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Truck $stack13;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus $stack9, $stack17;
+        java.lang.String $stack6, $stack10, $stack14, varReplacer907, varReplacer908, varReplacer909, varReplacer910;
+        java.io.PrintStream $stack7, $stack11, $stack15;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle $stack8, $stack12, $stack16, $stack18;
+
+        nop;
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.sealedClass.Car;
+
+        varReplacer908 = "AASD";
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: void <init>(java.lang.String)>(varReplacer908);
+
+        $stack6 = virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String getRegistrationNumber()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle) $stack5;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>($stack8);
+
+        $stack9 = new de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        varReplacer909 = "TJSUGF";
+
+        specialinvoke $stack9.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>(varReplacer909);
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getRegistrationNumber()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        $stack12 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle) $stack9;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>($stack12);
+
+        $stack13 = new de.fraunhofer.iem.classesAndObjects.sealedClass.Truck;
+
+        varReplacer907 = "BXHDG";
+
+        specialinvoke $stack13.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: void <init>(java.lang.String)>(varReplacer907);
+
+        $stack14 = virtualinvoke $stack13.<de.fraunhofer.iem.classesAndObjects.sealedClass.Truck: java.lang.String getRegistrationNumber()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle) $stack13;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void displayInformation(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>($stack16);
+
+        $stack17 = new de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        varReplacer910 = "SDGRST";
+
+        specialinvoke $stack17.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>(varReplacer910);
+
+        $stack18 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle) $stack17;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void demonstrateWhenWithSealedClass(de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle)>($stack18);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.sealedClass.VehicleKt: void main()>();
+
+        return;
+    }
+}

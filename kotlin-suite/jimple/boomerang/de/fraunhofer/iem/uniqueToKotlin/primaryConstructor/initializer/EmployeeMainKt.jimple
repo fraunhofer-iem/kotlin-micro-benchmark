@@ -1,0 +1,50 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.EmployeeMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee $stack3;
+        int $stack6, varReplacer1468;
+        java.lang.String $stack4, varReplacer1466, varReplacer1467;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee;
+
+        varReplacer1466 = "Ranjith";
+
+        varReplacer1467 = "K";
+
+        varReplacer1468 = 100;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer1466, varReplacer1467, varReplacer1468);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: java.lang.String getLastName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.Employee: int getAge()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.initializer.EmployeeMainKt: void main()>();
+
+        return;
+    }
+}

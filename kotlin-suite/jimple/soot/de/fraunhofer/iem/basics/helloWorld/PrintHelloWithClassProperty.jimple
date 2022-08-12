@@ -1,0 +1,52 @@
+public final class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty extends java.lang.Object
+{
+    private final java.lang.String name;
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty this;
+        java.lang.String name;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: java.lang.String name> = name;
+
+        return;
+    }
+
+    public final void printHello()
+    {
+        java.io.PrintStream $stack9;
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty this;
+        java.lang.StringBuilder $stack3, $stack4, $stack6, $stack7;
+        java.lang.String $stack5, $stack8;
+
+        this := @this: de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Hello ");
+
+        $stack5 = this.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: java.lang.String name>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack5);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("!!!");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        return;
+    }
+}

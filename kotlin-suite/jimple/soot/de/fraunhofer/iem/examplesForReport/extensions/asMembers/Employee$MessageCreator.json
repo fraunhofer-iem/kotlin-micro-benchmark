@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: java.lang.String welcomeMessage()>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String welcomeMessage()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void <init>(kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator"},
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: void <init>()>"]
+        }
+    }
+}

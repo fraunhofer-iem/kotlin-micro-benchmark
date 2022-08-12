@@ -1,0 +1,293 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack6, $stack9, $stack12, $stack15, $stack18, $stack21, $stack24, $stack29, $stack32, $stack35, $stack38, $stack44, $stack46, $stack48, $stack50, $stack52, $u0, $u1, $u2, $u3, $u4, $u5, $u6, $u7, $u8, $u9, $u10, $u11;
+        java.lang.String varReplacer2797, varReplacer2800, varReplacer2801, varReplacer2806;
+        boolean $stack55, $stack57, $stack60, $stack63, $stack68, $stack65;
+        int $i0, $i1, $i2, varReplacer2798, varReplacer2799, varReplacer2802, varReplacer2803, varReplacer2804, varReplacer2805, varReplacer2807, varReplacer2808, varReplacer2809;
+        java.io.PrintStream $stack4, $stack7, $stack10, $stack13, $stack16, $stack19, $stack22, $stack25, $stack26, $stack28, $stack30, $stack31, $stack33, $stack34, $stack36, $stack37, $stack39, $stack40, $stack41, $stack45, $stack47, $stack49, $stack51, $stack53, $stack54, $stack56, $stack58, $stack61, $stack64;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2800 = "Unary Operator";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2800);
+
+        $u0 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $i0 = (int) -200;
+
+        specialinvoke $u0.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($i0);
+
+        $stack6 = virtualinvoke $u0.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryPlus()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $u1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2808 = 250;
+
+        specialinvoke $u1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2808);
+
+        $stack9 = virtualinvoke $u1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryPlus()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $u2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $i1 = (int) -200;
+
+        specialinvoke $u2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($i1);
+
+        $stack12 = virtualinvoke $u2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryMinus()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $u3 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2798 = 250;
+
+        specialinvoke $u3.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2798);
+
+        $stack15 = virtualinvoke $u3.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryMinus()>();
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $u4 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2803 = 100;
+
+        specialinvoke $u4.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2803);
+
+        $stack18 = virtualinvoke $u4.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt not()>();
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+        $u5 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2805 = 0;
+
+        specialinvoke $u5.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2805);
+
+        $stack21 = virtualinvoke $u5.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt not()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        $u6 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $i2 = (int) -100;
+
+        specialinvoke $u6.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($i2);
+
+        $stack24 = virtualinvoke $u6.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt not()>();
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2806 = "Increment and Decrement";
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2806);
+
+        $u7 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2809 = 100;
+
+        specialinvoke $u7.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2809);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($u7);
+
+        $stack29 = virtualinvoke $u7.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt inc()>();
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        $stack32 = virtualinvoke $stack29.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt inc()>();
+
+        $stack33 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack33.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        $stack34 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack34.<java.io.PrintStream: void println(java.lang.Object)>($stack32);
+
+        $stack35 = virtualinvoke $stack32.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt dec()>();
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        $stack37 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack37.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        $stack38 = virtualinvoke $stack35.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt dec()>();
+
+        $stack39 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack39.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        $stack40 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack40.<java.io.PrintStream: void println(java.lang.Object)>($stack38);
+
+        $stack41 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2797 = "Binary Operator";
+
+        virtualinvoke $stack41.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2797);
+
+        $u8 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2807 = 100;
+
+        specialinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2807);
+
+        $u9 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2799 = 200;
+
+        specialinvoke $u9.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2799);
+
+        $stack44 = virtualinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt plus(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u9);
+
+        $stack45 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack45.<java.io.PrintStream: void println(java.lang.Object)>($stack44);
+
+        $stack46 = virtualinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt minus(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u9);
+
+        $stack47 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack47.<java.io.PrintStream: void println(java.lang.Object)>($stack46);
+
+        $stack48 = virtualinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt div(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u9);
+
+        $stack49 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack49.<java.io.PrintStream: void println(java.lang.Object)>($stack48);
+
+        $stack50 = virtualinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt times(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u9);
+
+        $stack51 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack51.<java.io.PrintStream: void println(java.lang.Object)>($stack50);
+
+        $stack52 = virtualinvoke $u8.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt rem(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u9);
+
+        $stack53 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack53.<java.io.PrintStream: void println(java.lang.Object)>($stack52);
+
+        $stack54 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer2801 = "in operator";
+
+        virtualinvoke $stack54.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer2801);
+
+        $stack55 = virtualinvoke $u9.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: boolean contains(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u8);
+
+        $stack56 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack56.<java.io.PrintStream: void println(boolean)>($stack55);
+
+        $stack57 = virtualinvoke $u9.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: boolean contains(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u8);
+
+        if $stack57 != 0 goto label1;
+
+        nop;
+
+        $stack68 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack68 = 0;
+
+     label2:
+        $stack58 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack58.<java.io.PrintStream: void println(boolean)>($stack68);
+
+        $u10 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2804 = 100;
+
+        specialinvoke $u10.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2804);
+
+        $stack60 = virtualinvoke $u10.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: boolean contains(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u8);
+
+        $stack61 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack61.<java.io.PrintStream: void println(boolean)>($stack60);
+
+        $u11 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2802 = 100;
+
+        specialinvoke $u11.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>(varReplacer2802);
+
+        $stack63 = virtualinvoke $u11.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: boolean contains(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>($u8);
+
+        if $stack63 != 0 goto label3;
+
+        nop;
+
+        $stack65 = 1;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack65 = 0;
+
+     label4:
+        $stack64 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack64.<java.io.PrintStream: void println(boolean)>($stack65);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+}

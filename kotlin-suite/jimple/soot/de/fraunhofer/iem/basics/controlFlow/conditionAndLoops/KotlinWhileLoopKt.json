@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void whileExample(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void whileExample(int)": {
+            "localVariables": {
+                "end": "int",
+                "x": "int"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void whileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void whileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void whileExample(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinWhileLoopKt: void main()>"]
+        }
+    }
+}

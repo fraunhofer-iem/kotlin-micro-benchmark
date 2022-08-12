@@ -1,0 +1,202 @@
+public class de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally this;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    private static void tryCatchExample1()
+    {
+        java.io.PrintStream $stack2, $stack4;
+        java.lang.NoSuchFieldException $stack3;
+        java.lang.NoSuchMethodException $stack1;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid2(java.lang.String)>("ranj345n");
+
+     label2:
+        goto label5;
+
+     label3:
+        $stack3 := @caughtexception;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>("Something went wrong in tryCatchExample1 (NoSuchFieldException)");
+
+        goto label5;
+
+     label4:
+        $stack1 := @caughtexception;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Something went wrong in tryCatchExample1 (NoSuchMethodException)");
+
+     label5:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+        catch java.lang.NoSuchMethodException from label1 to label2 with label4;
+    }
+
+    private static void tryCatchExample2()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.NoSuchFieldException $stack1;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>("ranj345n");
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack1 := @caughtexception;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Something went wrong in tryCatchExample2 (NoSuchFieldException)");
+
+     label4:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+    }
+
+    private static void tryCatchExample3()
+    {
+        java.io.PrintStream $stack2, $stack4, $stack6, $stack7, $stack9, $stack10;
+        java.lang.Throwable $stack3;
+        java.lang.NoSuchMethodException $stack5;
+        java.lang.NoSuchFieldException $stack8;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void checkValid2(java.lang.String)>("ranj345n");
+
+     label2:
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Finally executed in tryCatchExample3");
+
+        goto label8;
+
+     label3:
+        $stack8 := @caughtexception;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.String)>("Something went wrong in tryCatchExample3 (NoSuchFieldException)");
+
+     label4:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.String)>("Finally executed in tryCatchExample3");
+
+        goto label8;
+
+     label5:
+        $stack5 := @caughtexception;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>("Something went wrong in tryCatchExample3 (NoSuchMethodException)");
+
+     label6:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>("Finally executed in tryCatchExample3");
+
+        goto label8;
+
+     label7:
+        $stack3 := @caughtexception;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>("Finally executed in tryCatchExample3");
+
+        throw $stack3;
+
+     label8:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+        catch java.lang.NoSuchMethodException from label1 to label2 with label5;
+        catch java.lang.Throwable from label1 to label2 with label7;
+        catch java.lang.Throwable from label3 to label4 with label7;
+        catch java.lang.Throwable from label5 to label6 with label7;
+    }
+
+    private static void checkValid1(java.lang.String) throws java.lang.NoSuchFieldException
+    {
+        java.lang.String name;
+        java.lang.NoSuchFieldException $stack2;
+        boolean $stack1;
+
+        name := @parameter0: java.lang.String;
+
+        $stack1 = virtualinvoke name.<java.lang.String: boolean matches(java.lang.String)>(".*\\d.*");
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = new java.lang.NoSuchFieldException;
+
+        specialinvoke $stack2.<java.lang.NoSuchFieldException: void <init>(java.lang.String)>("Invalid name");
+
+        throw $stack2;
+
+     label1:
+        return;
+    }
+
+    private static void checkValid2(java.lang.String) throws java.lang.NoSuchMethodException
+    {
+        java.lang.String name;
+        java.lang.NoSuchMethodException $stack2;
+        boolean $stack1;
+
+        name := @parameter0: java.lang.String;
+
+        $stack1 = virtualinvoke name.<java.lang.String: boolean matches(java.lang.String)>(".*\\d.*");
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = new java.lang.NoSuchMethodException;
+
+        specialinvoke $stack2.<java.lang.NoSuchMethodException: void <init>(java.lang.String)>("Invalid name");
+
+        throw $stack2;
+
+     label1:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void tryCatchExample1()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void tryCatchExample2()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaTryCatchFinally: void tryCatchExample3()>();
+
+        return;
+    }
+}

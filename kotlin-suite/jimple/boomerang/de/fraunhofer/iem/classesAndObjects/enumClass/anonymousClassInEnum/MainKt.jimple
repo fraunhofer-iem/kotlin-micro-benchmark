@@ -1,0 +1,41 @@
+public final class de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu $stack0, $stack1, $stack2, $stack3;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu CHICKEN_GRAVY>;
+
+        virtualinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void print()>();
+
+        $stack1 = <de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu EGG_OMELET>;
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void print()>();
+
+        $stack2 = <de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu CHICKEN_BIRYANI>;
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void print()>();
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu VEG_PULAO>;
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void print()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.MainKt: void main()>();
+
+        return;
+    }
+}

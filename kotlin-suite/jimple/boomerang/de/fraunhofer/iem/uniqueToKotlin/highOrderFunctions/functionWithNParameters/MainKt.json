@@ -1,0 +1,75 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.FunctionN)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.FunctionN)": {
+            "localVariables": {
+                "collections": "java.util.Collection",
+                "combine": "kotlin.jvm.functions.FunctionN",
+                "initial": "java.lang.Object",
+                "accumulator": "java.lang.Object",
+                "varReplacer2426": "java.lang.String",
+                "varReplacer2427": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack7": "java.util.Iterator",
+                "$stack8": "boolean",
+                "$stack9": "java.lang.Object",
+                "l6": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer2428": "int",
+                "varReplacer2429": "int",
+                "varReplacer2430": "int",
+                "varReplacer2431": "int",
+                "varReplacer2432": "int",
+                "varReplacer2433": "int"
+            },
+            "stackVariables": {
+                "l1": "java.lang.Integer[]",
+                "$stack3": "java.lang.Integer",
+                "$stack5": "java.lang.Integer",
+                "$stack7": "java.lang.Integer",
+                "$stack9": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack12": "java.util.List",
+                "$stack13": "java.util.Collection",
+                "$stack14": "java.lang.Integer",
+                "$stack15": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt$main$1",
+                "$stack16": "kotlin.jvm.functions.FunctionN"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.FunctionN)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: void main()>"]
+        }
+    }
+}

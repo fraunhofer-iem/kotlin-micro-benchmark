@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.generics.rawTypes.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.rawTypes.MainKt: void main()>",
+        "<de.fraunhofer.iem.generics.rawTypes.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "differentTypedPair": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair",
+                "ex": "int",
+                "varReplacer1178": "java.lang.String",
+                "varReplacer1179": "int",
+                "varReplacer1180": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Double",
+                "$stack9": "double",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.NullPointerException",
+                "$stack12": "java.lang.Exception",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair: java.lang.Object second()>",
+                "<java.lang.NullPointerException: void <init>(java.lang.String)>",
+                "<java.lang.Double: double doubleValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.generics.rawTypes.MainKt: void main()>"]
+        }
+    }
+}

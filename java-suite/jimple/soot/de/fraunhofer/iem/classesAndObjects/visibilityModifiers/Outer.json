@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer"},
+        "stackVariables": {},
+        "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+    }}
+}

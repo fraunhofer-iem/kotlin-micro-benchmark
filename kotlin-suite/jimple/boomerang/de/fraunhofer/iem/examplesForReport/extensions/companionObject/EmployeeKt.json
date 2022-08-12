@@ -1,0 +1,53 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: int getGreetWelcomeMessageLength(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)": {
+            "localVariables": {"varReplacer1319": "java.lang.String"},
+            "stackVariables": {
+                "$this$printWelcomeMessage": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: java.lang.String welcomeMessage()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getGreetWelcomeMessageLength(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)": {
+            "localVariables": {"varReplacer1320": "java.lang.String"},
+            "stackVariables": {
+                "$this$greetWelcomeMessageLength": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator",
+                "$stack1": "java.lang.String",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: java.lang.String welcomeMessage()>",
+                "<java.lang.String: int length()>"
+            ]
+        },
+        "void entry()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator",
+                "$stack3": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: int getGreetWelcomeMessageLength(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

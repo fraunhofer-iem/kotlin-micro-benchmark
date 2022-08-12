@@ -1,0 +1,353 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter
+{
+    private final java.lang.String userName;
+
+    public final java.lang.String getUserName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        return $stack1;
+    }
+
+    public static final java.lang.String getUserNameInUpperCase-impl(java.lang.String)
+    {
+        java.util.Locale $stack3;
+        java.lang.String arg0, $stack4, varReplacer703, varReplacer704;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        varReplacer703 = "arg0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arg0, varReplacer703);
+
+        $stack3 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack4 = virtualinvoke arg0.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack3);
+
+        varReplacer704 = "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack4, varReplacer704);
+
+        return $stack4;
+    }
+
+    public static void print-impl(java.lang.String)
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String arg0, varReplacer705;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        varReplacer705 = "arg0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(arg0, varReplacer705);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(arg0);
+
+        return;
+    }
+
+    public void print()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>($stack1);
+
+        return;
+    }
+
+    public static java.lang.String toString-impl(java.lang.String)
+    {
+        int varReplacer707;
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack4;
+        java.lang.String arg0, $stack5, varReplacer706;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer706 = "UserName(userName=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer706);
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(arg0);
+
+        varReplacer707 = 41;
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer707);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        java.lang.String $stack1, $stack2;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String toString-impl(java.lang.String)>($stack1);
+
+        return $stack2;
+    }
+
+    public static int hashCode-impl(java.lang.String)
+    {
+        int $stack1;
+        java.lang.String arg0;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        $stack1 = virtualinvoke arg0.<java.lang.String: int hashCode()>();
+
+        return $stack1;
+    }
+
+    public int hashCode()
+    {
+        int $stack2;
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: int hashCode-impl(java.lang.String)>($stack1);
+
+        return $stack2;
+    }
+
+    public static boolean equals-impl(java.lang.String, java.lang.Object)
+    {
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName $stack4;
+        int varReplacer708, varReplacer709, varReplacer710;
+        java.lang.Object other;
+        java.lang.String $stack5, arg0;
+        boolean $stack3, $stack6;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        other := @parameter1: java.lang.Object;
+
+        $stack3 = other instanceof de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        if $stack3 != 0 goto label1;
+
+        nop;
+
+        varReplacer709 = 0;
+
+        return varReplacer709;
+
+     label1:
+        nop;
+
+        $stack4 = (de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName) other;
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(arg0, $stack5);
+
+        if $stack6 != 0 goto label2;
+
+        nop;
+
+        varReplacer708 = 0;
+
+        return varReplacer708;
+
+     label2:
+        nop;
+
+        varReplacer710 = 1;
+
+        return varReplacer710;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+        java.lang.Object other;
+        java.lang.String $stack2;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        other := @parameter0: java.lang.Object;
+
+        $stack2 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>($stack2, other);
+
+        return $stack3;
+    }
+
+    private void <init>(java.lang.String)
+    {
+        java.lang.String userName;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        userName := @parameter0: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String userName> = userName;
+
+        return;
+    }
+
+    public static java.lang.String constructor-impl(java.lang.String)
+    {
+        java.io.PrintStream $stack9;
+        java.lang.Throwable $stack12;
+        java.lang.CharSequence l2;
+        java.lang.IllegalArgumentException $stack10;
+        int $stack7;
+        java.lang.String userName, $stack8, $stack11, l5, varReplacer711, varReplacer712;
+        boolean $stack13;
+
+        nop;
+
+        userName := @parameter0: java.lang.String;
+
+        varReplacer711 = "userName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userName, varReplacer711);
+
+        l2 = (java.lang.CharSequence) userName;
+
+        $stack7 = interfaceinvoke l2.<java.lang.CharSequence: int length()>();
+
+        if $stack7 <= 0 goto label1;
+
+        nop;
+
+        $stack13 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack13 = 0;
+
+     label2:
+        if $stack13 != 0 goto label3;
+
+        nop;
+
+        l5 = "Failed requirement.";
+
+        $stack10 = new java.lang.IllegalArgumentException;
+
+        $stack11 = virtualinvoke l5.<java.lang.Object: java.lang.String toString()>();
+
+        specialinvoke $stack10.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack11);
+
+        $stack12 = (java.lang.Throwable) $stack10;
+
+        throw $stack12;
+
+     label3:
+        nop;
+
+        varReplacer712 = " is stored";
+
+        $stack8 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(userName, varReplacer712);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        return userName;
+    }
+
+    public static final de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)
+    {
+        java.lang.String v;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName $stack1;
+
+        nop;
+
+        v := @parameter0: java.lang.String;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void <init>(java.lang.String)>(v);
+
+        return $stack1;
+    }
+
+    public final java.lang.String unbox-impl()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String userName>;
+
+        return $stack1;
+    }
+
+    public static final boolean equals-impl0(java.lang.String, java.lang.String)
+    {
+        java.lang.String p1, p2;
+        boolean $stack2;
+
+        nop;
+
+        p1 := @parameter0: java.lang.String;
+
+        p2 := @parameter1: java.lang.String;
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(p1, p2);
+
+        return $stack2;
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "className": "de.fraunhofer.iem.basics.variables.JavaVariables",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.variables.JavaVariables: void <init>()>",
+        "<de.fraunhofer.iem.basics.variables.JavaVariables: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.variables.JavaVariables: int getVariableValue()>",
+        "<de.fraunhofer.iem.basics.variables.JavaVariables: float getPiValue()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.variables.JavaVariables"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "variable": "int"
+            },
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "float",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.variables.JavaVariables: int getVariableValue()>",
+                "<de.fraunhofer.iem.basics.variables.JavaVariables: float getPiValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(float)>"
+            ]
+        },
+        "int getVariableValue()": {
+            "localVariables": {
+                "varReplacer258": "int",
+                "varReplacer259": "java.lang.String",
+                "varReplacer260": "int",
+                "varReplacer261": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.util.Scanner",
+                "$stack2": "java.io.InputStream",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.String",
+                "$stack5": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.util.Scanner: void <init>(java.io.InputStream)>",
+                "<java.io.PrintStream: void print(java.lang.String)>",
+                "<java.util.Scanner: java.lang.String nextLine()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>"
+            ]
+        },
+        "float getPiValue()": {
+            "localVariables": {
+                "varReplacer262": "float",
+                "varReplacer263": "float",
+                "varReplacer264": "java.lang.String",
+                "varReplacer265": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.util.Scanner",
+                "$stack2": "java.io.InputStream",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.String",
+                "$stack5": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.util.Scanner: void <init>(java.io.InputStream)>",
+                "<java.io.PrintStream: void print(java.lang.String)>",
+                "<java.util.Scanner: java.lang.String nextLine()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>"
+            ]
+        }
+    }
+}

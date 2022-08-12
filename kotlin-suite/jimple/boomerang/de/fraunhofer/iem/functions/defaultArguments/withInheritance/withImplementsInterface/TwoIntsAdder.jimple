@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder extends java.lang.Object
+{
+
+    public abstract int add(int, int, int, int);
+
+    public abstract float add10(int, int, int, int);
+}

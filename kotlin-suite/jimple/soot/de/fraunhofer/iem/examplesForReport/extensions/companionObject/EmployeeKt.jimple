@@ -1,0 +1,60 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt extends java.lang.Object
+{
+
+    public static final void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator $this$printWelcomeMessage;
+        java.lang.String $stack3;
+
+        $this$printWelcomeMessage := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printWelcomeMessage, "<this>");
+
+        $stack3 = virtualinvoke $this$printWelcomeMessage.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: java.lang.String welcomeMessage()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static final int getGreetWelcomeMessageLength(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)
+    {
+        int $stack2;
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator $this$greetWelcomeMessageLength;
+        java.lang.String $stack1;
+
+        $this$greetWelcomeMessageLength := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$greetWelcomeMessageLength, "<this>");
+
+        $stack1 = virtualinvoke $this$greetWelcomeMessageLength.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: java.lang.String welcomeMessage()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.String: int length()>();
+
+        return $stack2;
+    }
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator $stack2, $stack3;
+        int $stack4;
+
+        $stack2 = <de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator MessageCreator>;
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>($stack2);
+
+        $stack3 = <de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator MessageCreator>;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.examplesForReport.extensions.companionObject.EmployeeKt: int getGreetWelcomeMessageLength(de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        return;
+    }
+}

@@ -1,0 +1,158 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final java.lang.Object fold(java.util.Collection, java.lang.Object, kotlin.jvm.functions.Function2)
+    {
+        java.util.Iterator $stack6;
+        java.util.Collection collections;
+        kotlin.jvm.functions.Function2 combine;
+        java.lang.Object initial, $stack8, accumulator;
+        java.lang.String varReplacer2569, varReplacer2570;
+        boolean $stack7;
+
+        nop;
+
+        collections := @parameter0: java.util.Collection;
+
+        initial := @parameter1: java.lang.Object;
+
+        combine := @parameter2: kotlin.jvm.functions.Function2;
+
+        varReplacer2570 = "collections";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(collections, varReplacer2570);
+
+        varReplacer2569 = "combine";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(combine, varReplacer2569);
+
+        accumulator = initial;
+
+        $stack6 = interfaceinvoke collections.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack7 = interfaceinvoke $stack6.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack7 == 0 goto label2;
+
+        nop;
+
+        $stack8 = interfaceinvoke $stack6.<java.util.Iterator: java.lang.Object next()>();
+
+        accumulator = interfaceinvoke combine.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>(accumulator, $stack8);
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return accumulator;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 $stack15;
+        java.lang.Integer $stack5, $stack7, $stack9, $stack11, $stack13, $stack17, $stack24;
+        int varReplacer2572, varReplacer2573, varReplacer2574, varReplacer2575, varReplacer2576, varReplacer2577, varReplacer2578;
+        java.lang.String joinedToString, varReplacer2571;
+        java.lang.Number $stack28;
+        java.util.Collection $stack16, $stack21, $stack23;
+        kotlin.jvm.functions.Function2 $stack19, $stack26, func#2;
+        java.util.List $stack14;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1 $stack18;
+        java.lang.Object $stack22, $stack27;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 $stack25;
+        java.lang.Integer[] func;
+
+        nop;
+
+        func = newarray (java.lang.Integer)[5];
+
+        varReplacer2574 = 1;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2574);
+
+        func[0] = $stack5;
+
+        varReplacer2578 = 2;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2578);
+
+        func[1] = $stack7;
+
+        varReplacer2577 = 3;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2577);
+
+        func[2] = $stack9;
+
+        varReplacer2576 = 4;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2576);
+
+        func[3] = $stack11;
+
+        varReplacer2572 = 5;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2572);
+
+        func[4] = $stack13;
+
+        $stack14 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>(func);
+
+        $stack15 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 INSTANCE>;
+
+        func#2 = (kotlin.jvm.functions.Function2) $stack15;
+
+        $stack16 = (java.util.Collection) $stack14;
+
+        varReplacer2575 = 0;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2575);
+
+        $stack18 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1 INSTANCE>;
+
+        $stack19 = (kotlin.jvm.functions.Function2) $stack18;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack16, $stack17, $stack19);
+
+        $stack21 = (java.util.Collection) $stack14;
+
+        varReplacer2571 = "Elements:";
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack21, varReplacer2571, func#2);
+
+        joinedToString = (java.lang.String) $stack22;
+
+        $stack23 = (java.util.Collection) $stack14;
+
+        varReplacer2573 = 1;
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2573);
+
+        $stack25 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 INSTANCE>;
+
+        $stack26 = (kotlin.jvm.functions.Function2) $stack25;
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack23, $stack24, $stack26);
+
+        $stack28 = (java.lang.Number) $stack27;
+
+        virtualinvoke $stack28.<java.lang.Number: int intValue()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+}

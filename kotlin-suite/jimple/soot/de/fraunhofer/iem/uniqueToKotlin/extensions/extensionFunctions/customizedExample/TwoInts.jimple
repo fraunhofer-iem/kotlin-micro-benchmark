@@ -1,0 +1,122 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts extends de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects
+{
+    private final int firstNumber;
+    private final int secondNumber;
+
+    public void <init>(int, int)
+    {
+        int firstNumber, secondNumber;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        firstNumber := @parameter0: int;
+
+        secondNumber := @parameter1: int;
+
+        specialinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int firstNumber> = firstNumber;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int secondNumber> = secondNumber;
+
+        return;
+    }
+
+    public final int getFirstNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int firstNumber>;
+
+        return $stack1;
+    }
+
+    public final int getSecondNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int secondNumber>;
+
+        return $stack1;
+    }
+
+    public final int add()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts this;
+        int $stack1, $stack2, $stack3;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int firstNumber>;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int secondNumber>;
+
+        $stack3 = $stack2 + $stack1;
+
+        return $stack3;
+    }
+
+    public final int mul()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts this;
+        int $stack1, $stack2, $stack3;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int firstNumber>;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int secondNumber>;
+
+        $stack3 = $stack2 * $stack1;
+
+        return $stack3;
+    }
+
+    public final void myExt(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)
+    {
+        java.io.PrintStream $stack13;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $this$myExt, this;
+        int $stack6;
+        java.lang.StringBuilder $stack4, $stack5, $stack7, $stack8, $stack9, $stack10, $stack11;
+        java.lang.String $stack12;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        $this$myExt := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$myExt, "<this>");
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("My Extension ");
+
+        $stack6 = $this$myExt.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int firstNumber>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($this$myExt);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(this);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        return;
+    }
+}

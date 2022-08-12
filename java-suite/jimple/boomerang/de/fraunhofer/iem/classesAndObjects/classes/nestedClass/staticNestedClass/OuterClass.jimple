@@ -1,0 +1,52 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass extends java.lang.Object
+{
+    private int outerFlag;
+
+    public void <init>()
+    {
+        int varReplacer324;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer324 = 110;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass: int outerFlag> = varReplacer324;
+
+        return;
+    }
+
+    public void printAll()
+    {
+        java.io.PrintStream $stack2, $stack5;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass this;
+        int $stack3, $stack4;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: void <init>()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass: int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass$InnerClass)>($stack1);
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.staticNestedClass.OuterClass: int outerFlag>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        return;
+    }
+}

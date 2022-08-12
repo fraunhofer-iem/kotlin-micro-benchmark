@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [
+        "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A",
+        "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B"
+    ],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void foo()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void bar()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void foo()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)>",
+                "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>"
+            ]
+        },
+        "void bar()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void bar(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>"]
+        }
+    }
+}

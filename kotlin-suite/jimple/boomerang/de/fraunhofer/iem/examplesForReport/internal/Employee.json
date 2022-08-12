@@ -1,0 +1,64 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.internal.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String getFirstName()>",
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: int getAge$kotlin_suite()>",
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: void setAge$kotlin_suite(int)>",
+        "<de.fraunhofer.iem.examplesForReport.internal.Employee: void printInfo$kotlin_suite(java.lang.Exception)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.internal.Employee",
+                "age": "int",
+                "varReplacer1420": "java.lang.String",
+                "varReplacer1421": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFirstName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.internal.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.internal.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge$kotlin_suite()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.internal.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge$kotlin_suite(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.internal.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void printInfo$kotlin_suite(java.lang.Exception)": {
+            "localVariables": {
+                "ex": "java.lang.Exception",
+                "this": "de.fraunhofer.iem.examplesForReport.internal.Employee",
+                "varReplacer1422": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        }
+    }
+}

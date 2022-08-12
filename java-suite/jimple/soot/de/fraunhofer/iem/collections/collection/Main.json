@@ -1,0 +1,320 @@
+{
+    "className": "de.fraunhofer.iem.collections.collection.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 22,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.collection.Main: void <init>()>",
+        "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.collection.Main: void printMyMap(java.util.Map)>",
+        "<de.fraunhofer.iem.collections.collection.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.List getList()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.ArrayList getArrayList()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedList getLinkedList()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.Vector getVector()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.Queue getQueue()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.PriorityQueue getPriorityQueue()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.Deque getDeque()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.ArrayDeque getArrayDeque()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.Set getSet()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.HashSet getHashSet()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedHashSet getLinkedHashSet()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.SortedSet getSortedSet()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.TreeSet getTreeSet()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.Map getMap()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.HashMap getHashMap()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedHashMap getLinkedHashMap()>",
+        "<de.fraunhofer.iem.collections.collection.Main: java.util.TreeMap getTreeMap()>",
+        "<de.fraunhofer.iem.collections.collection.Main: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.collections.collection.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printMyCollection(java.util.Collection)": {
+            "localVariables": {
+                "collection": "java.util.Collection",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.Iterator",
+                "$stack4": "boolean",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void printMyMap(java.util.Map)": {
+            "localVariables": {"map": "java.util.Map"},
+            "stackVariables": {
+                "$stack3": "java.util.Set",
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.lang.Integer",
+                "$stack8": "int",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.Integer",
+                "$stack14": "java.lang.Object",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.util.Map: java.util.Set keySet()>",
+                "<java.util.Set: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.Map: java.lang.Object get(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.ArrayList",
+                "$stack3": "java.util.LinkedList",
+                "$stack4": "java.util.Vector",
+                "$stack5": "java.util.Queue",
+                "$stack6": "java.util.PriorityQueue",
+                "$stack7": "java.util.Deque",
+                "$stack8": "java.util.ArrayDeque",
+                "$stack9": "java.util.Set",
+                "$stack10": "java.util.HashSet",
+                "$stack11": "java.util.LinkedHashSet",
+                "$stack12": "java.util.SortedSet",
+                "$stack13": "java.util.TreeSet",
+                "$stack14": "java.util.Map",
+                "$stack15": "java.util.HashMap",
+                "$stack16": "java.util.LinkedHashMap",
+                "$stack17": "java.util.TreeMap"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.List getList()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.ArrayList getArrayList()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedList getLinkedList()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.Vector getVector()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.Queue getQueue()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.PriorityQueue getPriorityQueue()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.Deque getDeque()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.ArrayDeque getArrayDeque()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.Set getSet()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.HashSet getHashSet()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedHashSet getLinkedHashSet()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.SortedSet getSortedSet()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.TreeSet getTreeSet()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyCollection(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.Map getMap()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyMap(java.util.Map)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.HashMap getHashMap()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyMap(java.util.Map)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.LinkedHashMap getLinkedHashMap()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyMap(java.util.Map)>",
+                "<de.fraunhofer.iem.collections.collection.Main: java.util.TreeMap getTreeMap()>",
+                "<de.fraunhofer.iem.collections.collection.Main: void printMyMap(java.util.Map)>"
+            ]
+        },
+        "java.util.List getList()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayList",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.ArrayList: void <init>(java.util.Collection)>"]
+        },
+        "java.util.ArrayList getArrayList()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayList",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.ArrayList: void <init>(java.util.Collection)>"]
+        },
+        "java.util.LinkedList getLinkedList()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.LinkedList",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.LinkedList: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Vector getVector()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.Vector",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.Vector: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Queue getQueue()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.PriorityQueue",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.PriorityQueue: void <init>(java.util.Collection)>"]
+        },
+        "java.util.PriorityQueue getPriorityQueue()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.PriorityQueue",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.PriorityQueue: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Deque getDeque()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayDeque",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.ArrayDeque: void <init>(java.util.Collection)>"]
+        },
+        "java.util.ArrayDeque getArrayDeque()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.ArrayDeque",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.ArrayDeque: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Set getSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.HashSet",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.HashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.HashSet getHashSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.HashSet",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.HashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.LinkedHashSet getLinkedHashSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.LinkedHashSet",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.LinkedHashSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.SortedSet getSortedSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.TreeSet",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.TreeSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.TreeSet getTreeSet()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.util.TreeSet",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.TreeSet: void <init>(java.util.Collection)>"]
+        },
+        "java.util.Map getMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.util.HashMap",
+                "$stack2": "java.lang.Integer",
+                "$stack4": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.util.HashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.util.HashMap getHashMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.util.HashMap",
+                "$stack2": "java.lang.Integer",
+                "$stack4": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.util.HashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.util.LinkedHashMap getLinkedHashMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.util.LinkedHashMap",
+                "$stack2": "java.lang.Integer",
+                "$stack4": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.util.LinkedHashMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.util.TreeMap getTreeMap()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.util.TreeMap",
+                "$stack2": "java.lang.Integer",
+                "$stack4": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.util.TreeMap: void <init>()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.TreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.TreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "java.lang.String[]",
+                "$stack1": "java.util.List"
+            },
+            "invokeExpressions": ["<java.util.Arrays: java.util.List asList(java.lang.Object[])>"]
+        }
+    }
+}

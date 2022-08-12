@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "ob1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car[]",
+                "func": "kotlin.Pair[]",
+                "func#6": "kotlin.jvm.functions.Function1"
+            },
+            "stackVariables": {
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car",
+                "$stack6": "java.util.List",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car",
+                "$stack11": "kotlin.Pair",
+                "$stack12": "java.util.Map",
+                "$stack13": "java.lang.Object",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt$main$func$1",
+                "$stack16": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>",
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>",
+                "<kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>",
+                "<kotlin.collections.MapsKt: java.util.Map mutableMapOf(kotlin.Pair[])>",
+                "<java.util.Map: java.lang.Object get(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt: void main()>"]
+        }
+    }
+}

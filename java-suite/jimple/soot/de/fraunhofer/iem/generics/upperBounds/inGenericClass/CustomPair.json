@@ -1,0 +1,32 @@
+{
+    "className": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: void <init>(java.lang.Number,java.lang.CharSequence)>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number getFirst()>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence getSecond()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.Number,java.lang.CharSequence)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair",
+                "first": "java.lang.Number",
+                "second": "java.lang.CharSequence"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.Number getFirst()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair"},
+            "stackVariables": {"$stack1": "java.lang.Number"},
+            "invokeExpressions": []
+        },
+        "java.lang.CharSequence getSecond()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair"},
+            "stackVariables": {"$stack1": "java.lang.CharSequence"},
+            "invokeExpressions": []
+        }
+    }
+}

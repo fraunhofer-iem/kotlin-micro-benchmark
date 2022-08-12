@@ -1,0 +1,70 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts: void <init>()>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts: int add(int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts: float add10(int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts: int sub(int,int,int,int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int add(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int",
+                "this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int"
+            },
+            "invokeExpressions": []
+        },
+        "float add10(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int",
+                "this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts"
+            },
+            "stackVariables": {
+                "$stack5": "float",
+                "$stack6": "float",
+                "$stack7": "float",
+                "$stack8": "float",
+                "$stack9": "float",
+                "$stack10": "float",
+                "$stack11": "float",
+                "$stack12": "float",
+                "$stack13": "float"
+            },
+            "invokeExpressions": []
+        },
+        "int sub(int,int,int,int)": {
+            "localVariables": {
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int",
+                "this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

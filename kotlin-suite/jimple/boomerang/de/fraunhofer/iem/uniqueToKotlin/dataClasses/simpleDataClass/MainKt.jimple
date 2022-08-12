@@ -1,0 +1,344 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee $stack3, $stack15, $stack17, $stack19, $stack21;
+        int $stack9, varReplacer1267;
+        java.lang.String $stack5, $stack7, $stack11, $stack13, varReplacer1265, varReplacer1266, varReplacer1268, varReplacer1269;
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack16, $stack18, $stack20, $stack22;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1265 = "Ranjith";
+
+        varReplacer1266 = "K";
+
+        varReplacer1267 = 100;
+
+        varReplacer1268 = "+499999999999";
+
+        varReplacer1269 = "Street 25";
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)>(varReplacer1265, varReplacer1266, varReplacer1267, varReplacer1268, varReplacer1269);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack5 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getFirstName()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getLastName()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        $stack9 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int getAge()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getMobileNumber()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getAddress()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo1(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo2(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo3(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo4(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo5(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo6(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo7(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>($stack3);
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        return;
+    }
+
+    public static final void demo1(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        java.io.PrintStream $stack7, $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee;
+        java.lang.String $stack5, $stack6, varReplacer1270;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1270 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1270);
+
+        $stack5 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>();
+
+        $stack6 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component2()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static final void demo2(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        java.io.PrintStream $stack7, $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee;
+        int $stack6;
+        java.lang.String $stack5, varReplacer1271;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1271 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1271);
+
+        $stack5 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>();
+
+        $stack6 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int component3()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack6);
+
+        return;
+    }
+
+    public static final void demo3(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        java.io.PrintStream $stack13, $stack14, $stack15, $stack16, $stack17;
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee;
+        int $stack10;
+        java.lang.String $stack8, $stack9, $stack11, $stack12, varReplacer1272;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1272 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1272);
+
+        $stack8 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>();
+
+        $stack9 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component2()>();
+
+        $stack10 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int component3()>();
+
+        $stack11 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component4()>();
+
+        $stack12 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component5()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        return;
+    }
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo4(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee, $stack1;
+        null_type varReplacer1274, varReplacer1275, varReplacer1277, varReplacer1278, varReplacer1280;
+        int varReplacer1276, varReplacer1279;
+        java.lang.String varReplacer1273;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1273 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1273);
+
+        varReplacer1274 = null;
+
+        varReplacer1275 = null;
+
+        varReplacer1276 = 0;
+
+        varReplacer1277 = null;
+
+        varReplacer1278 = null;
+
+        varReplacer1279 = 31;
+
+        varReplacer1280 = null;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>(employee, varReplacer1274, varReplacer1274, varReplacer1276, varReplacer1274, varReplacer1274, varReplacer1279, varReplacer1274);
+
+        return $stack1;
+    }
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo5(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee, $stack1;
+        null_type varReplacer1282, varReplacer1284, varReplacer1285, varReplacer1287;
+        int varReplacer1283, varReplacer1286;
+        java.lang.String varReplacer1281, varReplacer1288;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1288 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1288);
+
+        varReplacer1281 = "Dylan";
+
+        varReplacer1282 = null;
+
+        varReplacer1283 = 0;
+
+        varReplacer1284 = null;
+
+        varReplacer1285 = null;
+
+        varReplacer1286 = 30;
+
+        varReplacer1287 = null;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>(employee, varReplacer1281, varReplacer1282, varReplacer1283, varReplacer1282, varReplacer1282, varReplacer1286, varReplacer1282);
+
+        return $stack1;
+    }
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo6(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee, $stack1;
+        null_type varReplacer1290, varReplacer1293, varReplacer1296;
+        int varReplacer1292, varReplacer1295;
+        java.lang.String varReplacer1289, varReplacer1291, varReplacer1294;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1289 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1289);
+
+        varReplacer1290 = null;
+
+        varReplacer1291 = "Krishnamurthy";
+
+        varReplacer1292 = 0;
+
+        varReplacer1293 = null;
+
+        varReplacer1294 = "Strrrrrreeet 22555";
+
+        varReplacer1295 = 13;
+
+        varReplacer1296 = null;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>(employee, varReplacer1290, varReplacer1291, varReplacer1292, varReplacer1290, varReplacer1294, varReplacer1295, varReplacer1290);
+
+        return $stack1;
+    }
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo7(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee employee, $stack1;
+        int varReplacer1299;
+        java.lang.String varReplacer1297, varReplacer1298, varReplacer1300, varReplacer1301, varReplacer1302;
+
+        nop;
+
+        employee := @parameter0: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee;
+
+        varReplacer1302 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1302);
+
+        varReplacer1297 = "Anonymous";
+
+        varReplacer1298 = "Anonymous";
+
+        varReplacer1299 = 120;
+
+        varReplacer1300 = "+495264656464646464646";
+
+        varReplacer1301 = "Street Street 52154";
+
+        $stack1 = virtualinvoke employee.<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)>(varReplacer1297, varReplacer1297, varReplacer1299, varReplacer1300, varReplacer1301);
+
+        return $stack1;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void main()>();
+
+        return;
+    }
+}

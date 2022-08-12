@@ -1,0 +1,95 @@
+public final class de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack8, $stack9, $stack10, $stack12, $stack14, $stack16;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person $stack5, $stack6, $stack7;
+        boolean $stack11, $stack13, $stack15, $stack37, $stack32, $stack17;
+
+        $stack5 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith", "Street 102", 100, "+49 99999 9999");
+
+        $stack6 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith", "Street 102", 100, "+49 99999 9999");
+
+        $stack7 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith3", "Street 1023", 1003, "+49 99999 999933");
+
+        if $stack5 != $stack6 goto label1;
+
+        $stack37 = 1;
+
+        goto label2;
+
+     label1:
+        $stack37 = 0;
+
+     label2:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(boolean)>($stack37);
+
+        if $stack5 != $stack7 goto label3;
+
+        $stack32 = 1;
+
+        goto label4;
+
+     label3:
+        $stack32 = 0;
+
+     label4:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(boolean)>($stack32);
+
+        if $stack5 != $stack5 goto label5;
+
+        $stack17 = 1;
+
+        goto label6;
+
+     label5:
+        $stack17 = 0;
+
+     label6:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack17);
+
+        $stack11 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack6);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack11);
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack7);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(boolean)>($stack13);
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack5);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(boolean)>($stack15);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.MainKt: void main()>();
+
+        return;
+    }
+}

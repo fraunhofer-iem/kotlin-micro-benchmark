@@ -1,0 +1,139 @@
+public abstract enum class de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu extends java.lang.Enum
+{
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_GRAVY;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu EGG_OMELET;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_BIRYANI;
+    public static final enum de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu VEG_PULAO;
+    public int price;
+    private static final de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] $VALUES;
+
+    public static de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] values()
+    {
+        java.lang.Object $stack1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] $stack0, $stack2;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] $VALUES>;
+
+        $stack1 = virtualinvoke $stack0.<java.lang.Object: java.lang.Object clone()>();
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[]) $stack1;
+
+        return $stack2;
+    }
+
+    public static de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu valueOf(java.lang.String)
+    {
+        java.lang.String name;
+        java.lang.Enum $stack1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu $stack2;
+
+        name := @parameter0: java.lang.String;
+
+        $stack1 = staticinvoke <java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>(class "Lde/fraunhofer/iem/classesAndObjects/enumClass/enumWithAbstractMethods/Menu;", name);
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu) $stack1;
+
+        return $stack2;
+    }
+
+    private void <init>(java.lang.String, int, int)
+    {
+        int l2, price;
+        java.lang.String l1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu;
+
+        l1 := @parameter0: java.lang.String;
+
+        l2 := @parameter1: int;
+
+        price := @parameter2: int;
+
+        specialinvoke this.<java.lang.Enum: void <init>(java.lang.String,int)>(l1, l2);
+
+        this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: int price> = price;
+
+        return;
+    }
+
+    public abstract void print();
+
+    void <init>(java.lang.String, int, int, de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1)
+    {
+        int x1, x2;
+        java.lang.String x0;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1 x3;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu;
+
+        x0 := @parameter0: java.lang.String;
+
+        x1 := @parameter1: int;
+
+        x2 := @parameter2: int;
+
+        x3 := @parameter3: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: void <init>(java.lang.String,int,int)>(x0, x1, x2);
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu $stack5, $stack6, $stack7, $stack8;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1 $stack0;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$2 $stack1;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$3 $stack2;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4 $stack3;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] $stack4;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$1: void <init>(java.lang.String,int,int)>("CHICKEN_GRAVY", 0, 120);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_GRAVY> = $stack0;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$2;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$2: void <init>(java.lang.String,int,int)>("EGG_OMELET", 1, 20);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu EGG_OMELET> = $stack1;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$3: void <init>(java.lang.String,int,int)>("CHICKEN_BIRYANI", 2, 250);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_BIRYANI> = $stack2;
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu$4: void <init>(java.lang.String,int,int)>("VEG_PULAO", 3, 90);
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu VEG_PULAO> = $stack3;
+
+        $stack4 = newarray (de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu)[4];
+
+        $stack5 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_GRAVY>;
+
+        $stack4[0] = $stack5;
+
+        $stack6 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu EGG_OMELET>;
+
+        $stack4[1] = $stack6;
+
+        $stack7 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu CHICKEN_BIRYANI>;
+
+        $stack4[2] = $stack7;
+
+        $stack8 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu VEG_PULAO>;
+
+        $stack4[3] = $stack8;
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithAbstractMethods.Menu[] $VALUES> = $stack4;
+
+        return;
+    }
+}

@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt$main$vehicle$1 $stack1;
+        de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle vehicle;
+
+        nop;
+
+        $stack1 = <de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt$main$vehicle$1: de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt$main$vehicle$1 INSTANCE>;
+
+        vehicle = (de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle) $stack1;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void start()>();
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void stop()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,33 @@
+public final class de.fraunhofer.iem.examplesForReport.operatorOverloading.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack7;
+        de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee $stack3, $stack4, $stack5;
+        int $stack6, varReplacer1453;
+        java.lang.String varReplacer1452;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee;
+
+        varReplacer1452 = "Night Fury";
+
+        varReplacer1453 = 120;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: void <init>(java.lang.String,int)>(varReplacer1452, varReplacer1453);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee inc()>();
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee inc()>();
+
+        $stack6 = virtualinvoke $stack5.<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int getAge()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        return;
+    }
+}

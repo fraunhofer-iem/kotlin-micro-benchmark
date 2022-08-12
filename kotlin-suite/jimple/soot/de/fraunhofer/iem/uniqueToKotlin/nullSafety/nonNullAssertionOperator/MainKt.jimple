@@ -1,0 +1,86 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.nonNullAssertionOperator.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack13;
+        java.lang.NullPointerException $stack9;
+        java.lang.String $stack3, $stack5, $stack7, $stack11, $stack12;
+
+     label1:
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.nonNullAssertionOperator.MainKt: java.lang.String processString(java.lang.String)>(null);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack9 := @caughtexception;
+
+        $stack11 = virtualinvoke $stack9.<java.lang.NullPointerException: java.lang.String getMessage()>();
+
+        $stack12 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Received NullPointerException = ", $stack11);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+     label4:
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.nonNullAssertionOperator.MainKt: java.lang.String processString(java.lang.String)>("Ranjith");
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.nonNullAssertionOperator.MainKt: java.lang.String processString(java.lang.String)>(null);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+
+        catch java.lang.NullPointerException from label1 to label2 with label3;
+    }
+
+    public static final java.lang.String processString(java.lang.String)
+    {
+        int $stack4;
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack5;
+        java.lang.String name, $stack6;
+
+        name := @parameter0: java.lang.String;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNull(java.lang.Object)>(name);
+
+        $stack4 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack4);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack6;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.nonNullAssertionOperator.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,181 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls extends java.lang.Object
+{
+
+    public static int add(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder, int, int, int, int)
+    {
+        int num1, num2, num3, $stack5, num4, $stack6, $stack7;
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder this;
+
+        this := @parameter0: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder;
+
+        num1 := @parameter1: int;
+
+        num2 := @parameter2: int;
+
+        num3 := @parameter3: int;
+
+        num4 := @parameter4: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, "this");
+
+        $stack5 = num1 + num2;
+
+        $stack6 = $stack5 + num3;
+
+        $stack7 = $stack6 + num4;
+
+        return $stack7;
+    }
+
+    public static int add$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder, int, int, int, int, int, java.lang.Object)
+    {
+        java.lang.UnsupportedOperationException $stack23;
+        int l5, $stack7, $stack8, $stack9, $stack10, $stack11, l1, l2, l3, l4;
+        java.lang.Object l6;
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder l0;
+
+        l0 := @parameter0: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder;
+
+        l1 := @parameter1: int;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: int;
+
+        l6 := @parameter6: java.lang.Object;
+
+        if l6 == null goto label1;
+
+        $stack23 = new java.lang.UnsupportedOperationException;
+
+        specialinvoke $stack23.<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>("Super calls with default arguments not supported in this target, function: add");
+
+        throw $stack23;
+
+     label1:
+        $stack7 = l5 & 1;
+
+        if $stack7 == 0 goto label2;
+
+        l1 = 0;
+
+     label2:
+        $stack8 = l5 & 2;
+
+        if $stack8 == 0 goto label3;
+
+        l2 = 0;
+
+     label3:
+        $stack9 = l5 & 4;
+
+        if $stack9 == 0 goto label4;
+
+        l3 = 0;
+
+     label4:
+        $stack10 = l5 & 8;
+
+        if $stack10 == 0 goto label5;
+
+        l4 = 0;
+
+     label5:
+        $stack11 = interfaceinvoke l0.<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder: int add(int,int,int,int)>(l1, l2, l3, l4);
+
+        return $stack11;
+    }
+
+    public static float add10(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder, int, int, int, int)
+    {
+        int num1, num2, num3, num4;
+        float $stack5, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, $stack13;
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder this;
+
+        this := @parameter0: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder;
+
+        num1 := @parameter1: int;
+
+        num2 := @parameter2: int;
+
+        num3 := @parameter3: int;
+
+        num4 := @parameter4: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, "this");
+
+        $stack6 = (float) num1;
+
+        $stack5 = (float) num2;
+
+        $stack8 = $stack6 + $stack5;
+
+        $stack7 = (float) num3;
+
+        $stack10 = $stack8 + $stack7;
+
+        $stack9 = (float) num4;
+
+        $stack12 = $stack10 + $stack9;
+
+        $stack11 = (float) 10;
+
+        $stack13 = $stack12 + $stack11;
+
+        return $stack13;
+    }
+
+    public static float add10$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder, int, int, int, int, int, java.lang.Object)
+    {
+        java.lang.UnsupportedOperationException $stack17;
+        int l5, $stack7, $stack8, l1, l4, l2, l3;
+        float $stack9;
+        java.lang.Object l6;
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder l0;
+
+        l0 := @parameter0: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder;
+
+        l1 := @parameter1: int;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: int;
+
+        l6 := @parameter6: java.lang.Object;
+
+        if l6 == null goto label1;
+
+        $stack17 = new java.lang.UnsupportedOperationException;
+
+        specialinvoke $stack17.<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>("Super calls with default arguments not supported in this target, function: add10");
+
+        throw $stack17;
+
+     label1:
+        $stack7 = l5 & 2;
+
+        if $stack7 == 0 goto label2;
+
+        l2 = 0;
+
+     label2:
+        $stack8 = l5 & 4;
+
+        if $stack8 == 0 goto label3;
+
+        l3 = 0;
+
+     label3:
+        $stack9 = interfaceinvoke l0.<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder: float add10(int,int,int,int)>(l1, l2, l3, l4);
+
+        return $stack9;
+    }
+}

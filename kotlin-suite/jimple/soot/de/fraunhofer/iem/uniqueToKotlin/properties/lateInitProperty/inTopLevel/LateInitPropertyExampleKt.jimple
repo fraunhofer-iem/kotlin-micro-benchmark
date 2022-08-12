@@ -1,0 +1,75 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt extends java.lang.Object
+{
+    public static java.lang.String name;
+
+    public static final java.lang.String getName()
+    {
+        java.lang.String l0;
+        java.lang.NullPointerException ex0;
+
+        l0 = <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String name>;
+
+        if l0 == null goto label1;
+
+        return l0;
+
+     label1:
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void throwUninitializedPropertyAccessException(java.lang.String)>("name");
+
+        ex0 = new java.lang.NullPointerException;
+
+        specialinvoke ex0.<java.lang.NullPointerException: void <init>(java.lang.String)>("Null throw statement replaced by Soot");
+
+        throw ex0;
+    }
+
+    public static final void setName(java.lang.String)
+    {
+        java.lang.String <set-?>;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, "<set-?>");
+
+        <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String name> = <set-?>;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3, $stack5;
+        java.lang.String $stack2, $stack4;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String name>;
+
+        if $stack2 == null goto label1;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: java.lang.String getName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        goto label2;
+
+     label1:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("name");
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.properties.lateInitProperty.inTopLevel.LateInitPropertyExampleKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void customSender(de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void entry1()>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>",
+        "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void access$entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>"
+    ],
+    "methodsInformation": {
+        "void customSender(de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)": {
+            "localVariables": {"emp": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {
+                "$this$customSender": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void entry1()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter",
+                "$stack2": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender",
+                "$stack3": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$1",
+                "$stack4": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "$stack5": "kotlin.jvm.functions.Function1",
+                "$stack6": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender",
+                "$stack7": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$2",
+                "$stack8": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee",
+                "$stack9": "kotlin.jvm.functions.Function1"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter: void <init>()>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void <init>()>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt$entry1$1: void <init>(de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter)>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void send(kotlin.jvm.functions.Function1,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void <init>()>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.examplesForReport.higerOrderFunction.Sender: void send(kotlin.jvm.functions.Function1,de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>"
+            ]
+        },
+        "void entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)": {
+            "localVariables": {"emp": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void access$entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)": {
+            "localVariables": {"emp": "de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.higerOrderFunction.CallableReferenceKt: void entry1$customLocalSender(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>"]
+        }
+    }
+}

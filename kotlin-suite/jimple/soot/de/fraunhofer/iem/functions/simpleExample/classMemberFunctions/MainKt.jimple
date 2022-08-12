@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack7, $stack9;
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts $stack3;
+        int $stack4, $stack6;
+        float $stack8;
+
+        $stack3 = new de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: void <init>()>();
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>(10, 20);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int sub$kotlin_examples(int,int)>(20, 10);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>(20, 10);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(float)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

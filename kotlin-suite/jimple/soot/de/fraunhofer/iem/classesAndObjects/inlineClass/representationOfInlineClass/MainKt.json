@@ -1,0 +1,83 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInline-VUedb9E(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asGeneric(java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInterface(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable1-dk92B74(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable2-dk92B74(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: java.lang.Object id(java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void asInline-VUedb9E(java.lang.String)": {
+            "localVariables": {"userName": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void asGeneric(java.lang.Object)": {
+            "localVariables": {"userName": "java.lang.Object"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void asInterface(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)": {
+            "localVariables": {"userNamePrinter": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter"},
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void asNullable1-dk92B74(java.lang.String)": {
+            "localVariables": {"userName": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void asNullable2-dk92B74(java.lang.String)": {
+            "localVariables": {"userName": "java.lang.String"},
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String getUserNameInUpperCase-impl(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.Object id(java.lang.Object)": {
+            "localVariables": {"userName": "java.lang.Object"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "$stack6": "java.lang.Object",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInline-VUedb9E(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asGeneric(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInterface(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable1-dk92B74(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable2-dk92B74(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: java.lang.Object id(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void main()>"]
+        }
+    }
+}

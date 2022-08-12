@@ -1,0 +1,32 @@
+public final class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithOutClassKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String varReplacer422;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer422 = "Hello World without creating class!!!";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer422);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.helloWorld.PrintHelloWithOutClassKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "className": "de.fraunhofer.iem.generics.genericFunctions.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.genericFunctions.MainKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.generics.genericFunctions.MainKt: void main()>",
+        "<de.fraunhofer.iem.generics.genericFunctions.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "first": "java.lang.Object",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>"]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.lang.Integer",
+                "$stack3": "java.lang.Double",
+                "$stack4": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<de.fraunhofer.iem.generics.genericFunctions.MainKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.generics.genericFunctions.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main: void <init>()>",
+        "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack4": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "$stack5": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "$stack6": "de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "boolean",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "boolean",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "boolean",
+                "$stack26": "boolean",
+                "$stack23": "boolean",
+                "$stack16": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        }
+    }
+}

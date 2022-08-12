@@ -1,0 +1,201 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 9,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample1()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample2()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample3()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample4()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: int tryCatchExample5()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void tryCatchExample1()": {
+            "localVariables": {
+                "varReplacer118": "java.lang.String",
+                "varReplacer119": "java.lang.String",
+                "varReplacer120": "java.lang.String",
+                "varReplacer121": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.NoSuchMethodException",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.NoSuchFieldException",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void tryCatchExample2()": {
+            "localVariables": {
+                "varReplacer122": "java.lang.String",
+                "varReplacer123": "java.lang.String",
+                "varReplacer124": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.NoSuchFieldException",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void tryCatchExample3()": {
+            "localVariables": {
+                "varReplacer125": "java.lang.String",
+                "varReplacer126": "java.lang.String",
+                "varReplacer127": "java.lang.String",
+                "varReplacer128": "java.lang.String",
+                "varReplacer129": "java.lang.String",
+                "varReplacer130": "java.lang.String",
+                "varReplacer131": "java.lang.String",
+                "varReplacer132": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.Throwable",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.NoSuchMethodException",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.NoSuchFieldException",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void tryCatchExample4()": {
+            "localVariables": {
+                "varReplacer133": "java.lang.String",
+                "varReplacer134": "java.lang.String",
+                "varReplacer135": "java.lang.String",
+                "varReplacer136": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.Throwable",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int tryCatchExample5()": {
+            "localVariables": {
+                "varReplacer137": "java.lang.String",
+                "varReplacer138": "java.lang.String",
+                "varReplacer139": "java.lang.String",
+                "varReplacer140": "java.lang.String",
+                "varReplacer141": "java.lang.String",
+                "varReplacer142": "java.lang.String",
+                "varReplacer143": "java.lang.String",
+                "varReplacer144": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.Throwable",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.NoSuchMethodException",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack11": "java.lang.NoSuchFieldException",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "l0": "short"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void checkValid1(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer145": "java.lang.String",
+                "varReplacer146": "java.lang.String"
+            },
+            "stackVariables": {
+                "l1": "java.lang.CharSequence",
+                "$stack4": "kotlin.text.Regex",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.NoSuchFieldException"
+            },
+            "invokeExpressions": [
+                "<kotlin.text.Regex: void <init>(java.lang.String)>",
+                "<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>",
+                "<java.lang.NoSuchFieldException: void <init>(java.lang.String)>"
+            ]
+        },
+        "void checkValid2(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer147": "java.lang.String",
+                "varReplacer148": "java.lang.String"
+            },
+            "stackVariables": {
+                "l1": "java.lang.CharSequence",
+                "$stack4": "kotlin.text.Regex",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.NoSuchMethodException"
+            },
+            "invokeExpressions": [
+                "<kotlin.text.Regex: void <init>(java.lang.String)>",
+                "<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>",
+                "<java.lang.NoSuchMethodException: void <init>(java.lang.String)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {"varReplacer149": "java.lang.String"},
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "java.lang.Integer",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample1()>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample2()>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample3()>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: int tryCatchExample5()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample4()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void main()>"]
+        }
+    }
+}

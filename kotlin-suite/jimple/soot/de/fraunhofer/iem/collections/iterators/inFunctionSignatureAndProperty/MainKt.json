@@ -1,0 +1,149 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void main()>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterator(java.util.Iterator)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterable(java.lang.Iterable)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeListIterator(java.util.ListIterator)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterator(java.util.Iterator)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterable(java.lang.Iterable)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableListIterator(java.util.ListIterator)>",
+        "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l1": "java.lang.String[]",
+                "$stack2": "java.util.List",
+                "$stack3": "java.lang.Iterable",
+                "$stack4": "java.util.Iterator",
+                "$stack5": "java.util.ListIterator",
+                "$stack6": "java.util.ListIterator",
+                "$stack7": "java.util.Iterator",
+                "$stack8": "java.util.Iterator",
+                "$stack9": "java.lang.Iterable"
+            },
+            "invokeExpressions": [
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterable(java.lang.Iterable)>",
+                "<java.util.List: java.util.Iterator iterator()>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterator(java.util.Iterator)>",
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeListIterator(java.util.ListIterator)>",
+                "<java.util.List: java.util.ListIterator listIterator()>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableListIterator(java.util.ListIterator)>",
+                "<java.util.List: java.util.Iterator iterator()>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeIterator(java.util.Iterator)>",
+                "<java.util.List: java.util.Iterator iterator()>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterator(java.util.Iterator)>",
+                "<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void takeMutableIterable(java.lang.Iterable)>"
+            ]
+        },
+        "void takeIterator(java.util.Iterator)": {
+            "localVariables": {"itr": "java.util.Iterator"},
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void takeIterable(java.lang.Iterable)": {
+            "localVariables": {"iterable": "java.lang.Iterable"},
+            "stackVariables": {
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Iterable: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void takeListIterator(java.util.ListIterator)": {
+            "localVariables": {"itr": "java.util.ListIterator"},
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void takeMutableIterator(java.util.Iterator)": {
+            "localVariables": {"itr": "java.util.Iterator"},
+            "stackVariables": {
+                "$stack2": "java.lang.Object",
+                "$stack3": "boolean",
+                "$stack1": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.util.Iterator: void remove()>"
+            ]
+        },
+        "void takeMutableIterable(java.lang.Iterable)": {
+            "localVariables": {"iterable": "java.lang.Iterable"},
+            "stackVariables": {
+                "$stack2": "java.util.Iterator",
+                "$stack4": "java.lang.Object",
+                "$stack5": "boolean",
+                "$stack3": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Iterable: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.util.Iterator: void remove()>"
+            ]
+        },
+        "void takeMutableListIterator(java.util.ListIterator)": {
+            "localVariables": {
+                "itr": "java.util.ListIterator",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.Object",
+                "$stack4": "java.lang.String",
+                "$stack5": "boolean",
+                "$stack2": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.ListIterator: boolean hasNext()>",
+                "<java.util.ListIterator: java.lang.Object next()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.util.ListIterator: void set(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.util.ListIterator: void add(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MainKt: void main()>"]
+        }
+    }
+}

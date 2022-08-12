@@ -1,0 +1,131 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 13,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String getFirstName()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setFirstName(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setLastName(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String getEmployeeID()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setEmployeeID(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String getDesignation()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setDesignation(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: int getSalary()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setSalary(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String getAddress()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: void setAddress(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "employeeID": "java.lang.String",
+                "designation": "java.lang.String",
+                "address": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "salary": "int",
+                "varReplacer1521": "java.lang.String",
+                "varReplacer1522": "java.lang.String",
+                "varReplacer1523": "java.lang.String",
+                "varReplacer1524": "java.lang.String",
+                "varReplacer1525": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFirstName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setFirstName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "varReplacer1526": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setLastName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "varReplacer1527": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.lang.String getEmployeeID()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setEmployeeID(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "varReplacer1528": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.lang.String getDesignation()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setDesignation(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "varReplacer1529": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int getSalary()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setSalary(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getAddress()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setAddress(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee",
+                "varReplacer1530": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        }
+    }
+}

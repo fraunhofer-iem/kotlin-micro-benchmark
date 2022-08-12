@@ -1,0 +1,107 @@
+public final class de.fraunhofer.iem.examplesForReport.SimpleWhenStatementKt extends java.lang.Object
+{
+
+    public static final void greet()
+    {
+        int $stack6;
+        java.lang.String $stack4, varReplacer1479, varReplacer1480, varReplacer1481, varReplacer1482, varReplacer1483, varReplacer1484, varReplacer1485;
+        boolean $stack7, $stack12, $stack14;
+        java.io.PrintStream $stack8, $stack13, $stack15, $stack5;
+
+        nop;
+
+        $stack4 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        if $stack4 == null goto label7;
+
+        nop;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack6)
+        {
+            case -1125574399: goto label3;
+            case 98723: goto label1;
+            case 3254818: goto label2;
+            default: goto label7;
+        };
+
+     label1:
+        varReplacer1482 = "cpp";
+
+        $stack12 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer1482);
+
+        if $stack12 != 0 goto label6;
+
+        nop;
+
+        goto label7;
+
+     label2:
+        varReplacer1481 = "java";
+
+        $stack7 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer1481);
+
+        if $stack7 != 0 goto label4;
+
+        nop;
+
+        goto label7;
+
+     label3:
+        varReplacer1483 = "kotlin";
+
+        $stack14 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer1483);
+
+        if $stack14 != 0 goto label5;
+
+        nop;
+
+        goto label7;
+
+     label4:
+        nop;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1480 = "Welcome to Java.";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1480);
+
+        goto label8;
+
+     label5:
+        nop;
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1485 = "Welcome to Kotlin.";
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1485);
+
+        goto label8;
+
+     label6:
+        nop;
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1479 = "Welcome to c++.";
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1479);
+
+        goto label8;
+
+     label7:
+        nop;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1484 = "Invalid User Input.";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1484);
+
+     label8:
+        return;
+    }
+}

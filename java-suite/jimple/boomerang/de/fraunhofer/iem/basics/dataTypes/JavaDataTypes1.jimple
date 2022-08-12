@@ -1,0 +1,373 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1 extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Float $stack25;
+        java.lang.Integer $stack19;
+        byte $stack14;
+        java.lang.Long $stack22;
+        java.lang.Short $stack16;
+        java.lang.Byte $stack13;
+        boolean $stack32;
+        float $stack26;
+        java.lang.StringBuilder $stack36, $stack37, $stack38, $stack39, $stack40, $stack41, $stack42, $stack43, $stack44, $stack45, $stack46, $stack47, $stack48, $stack49, $stack50, $stack51, $stack52, $u0;
+        java.lang.Double $stack28;
+        long $stack23;
+        java.lang.String[] args;
+        short $stack17;
+        int $stack20, $i0, $i1;
+        java.lang.String $stack33, $stack53, varReplacer140, varReplacer141, varReplacer142, varReplacer143, varReplacer144, varReplacer145, varReplacer146, varReplacer147, varReplacer148, varReplacer149, varReplacer150, varReplacer151, varReplacer152, varReplacer153;
+        java.lang.Number $stack12, $stack15, $stack18, $stack21, $stack24, $stack27;
+        double $stack29;
+        java.io.PrintStream $stack35;
+        char $stack30;
+        java.lang.Class $stack31;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer140 = "byte";
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer140);
+
+        $stack13 = (java.lang.Byte) $stack12;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Byte: byte byteValue()>();
+
+        varReplacer143 = "short";
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer143);
+
+        $stack16 = (java.lang.Short) $stack15;
+
+        $stack17 = virtualinvoke $stack16.<java.lang.Short: short shortValue()>();
+
+        varReplacer145 = "int";
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer145);
+
+        $stack19 = (java.lang.Integer) $stack18;
+
+        $stack20 = virtualinvoke $stack19.<java.lang.Integer: int intValue()>();
+
+        varReplacer146 = "long";
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer146);
+
+        $stack22 = (java.lang.Long) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Long: long longValue()>();
+
+        varReplacer141 = "float";
+
+        $stack24 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer141);
+
+        $stack25 = (java.lang.Float) $stack24;
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Float: float floatValue()>();
+
+        varReplacer151 = "double";
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer151);
+
+        $stack28 = (java.lang.Double) $stack27;
+
+        $stack29 = virtualinvoke $stack28.<java.lang.Double: double doubleValue()>();
+
+        $stack30 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: char getChar()>();
+
+        $stack31 = <java.lang.Integer: java.lang.Class TYPE>;
+
+        $stack32 = virtualinvoke $stack31.<java.lang.Class: boolean isPrimitive()>();
+
+        $stack33 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.String getString()>();
+
+        $stack35 = <java.lang.System: java.io.PrintStream out>;
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        $i0 = (int) $stack14;
+
+        $stack36 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0);
+
+        varReplacer153 = " : ";
+
+        $stack37 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer153);
+
+        $i1 = (int) $stack17;
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i1);
+
+        varReplacer147 = " : ";
+
+        $stack39 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer147);
+
+        $stack40 = virtualinvoke $stack39.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack20);
+
+        varReplacer142 = " : ";
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer142);
+
+        $stack42 = virtualinvoke $stack41.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($stack23);
+
+        varReplacer149 = " : ";
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer149);
+
+        $stack44 = virtualinvoke $stack43.<java.lang.StringBuilder: java.lang.StringBuilder append(float)>($stack26);
+
+        varReplacer152 = " : ";
+
+        $stack45 = virtualinvoke $stack44.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer152);
+
+        $stack46 = virtualinvoke $stack45.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>($stack29);
+
+        varReplacer150 = " : ";
+
+        $stack47 = virtualinvoke $stack46.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer150);
+
+        $stack48 = virtualinvoke $stack47.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($stack30);
+
+        varReplacer148 = " : ";
+
+        $stack49 = virtualinvoke $stack48.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer148);
+
+        $stack50 = virtualinvoke $stack49.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack33);
+
+        varReplacer144 = " : ";
+
+        $stack51 = virtualinvoke $stack50.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer144);
+
+        $stack52 = virtualinvoke $stack51.<java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>($stack32);
+
+        $stack53 = virtualinvoke $stack52.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack35.<java.io.PrintStream: void println(java.lang.String)>($stack53);
+
+        return;
+    }
+
+    public static char getChar()
+    {
+        char $stack0;
+
+        nop;
+
+        $stack0 = <java.io.File: char separatorChar>;
+
+        return $stack0;
+    }
+
+    public static java.lang.String getString()
+    {
+        java.lang.String $stack0;
+
+        nop;
+
+        $stack0 = <java.io.File: java.lang.String pathSeparator>;
+
+        return $stack0;
+    }
+
+    public static java.lang.Number getNumber(java.lang.String)
+    {
+        java.lang.Float $stack6;
+        java.lang.Double $stack5;
+        long varReplacer163;
+        java.lang.Integer $stack8, $stack11;
+        byte l2;
+        java.lang.Long $stack7;
+        java.lang.Short $stack9;
+        int $stack3, varReplacer154, varReplacer157, varReplacer158, varReplacer161;
+        java.lang.String type, varReplacer155, varReplacer156, varReplacer159, varReplacer160, varReplacer162, varReplacer166;
+        java.lang.Byte $stack10;
+        boolean $stack4, $stack13, $stack14, $stack15, $stack16, $stack17;
+        double varReplacer165;
+        float varReplacer164;
+
+        nop;
+
+        type := @parameter0: java.lang.String;
+
+        l2 = -1;
+
+        $stack3 = virtualinvoke type.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack3)
+        {
+            case -1325958191: goto label06;
+            case 104431: goto label03;
+            case 3039496: goto label01;
+            case 3327612: goto label04;
+            case 97526364: goto label05;
+            case 109413500: goto label02;
+            default: goto label07;
+        };
+
+     label01:
+        varReplacer162 = "byte";
+
+        $stack15 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer162);
+
+        if $stack15 == 0 goto label07;
+
+        nop;
+
+        l2 = 0;
+
+        goto label07;
+
+     label02:
+        varReplacer160 = "short";
+
+        $stack4 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer160);
+
+        if $stack4 == 0 goto label07;
+
+        nop;
+
+        l2 = 1;
+
+        goto label07;
+
+     label03:
+        varReplacer155 = "int";
+
+        $stack16 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer155);
+
+        if $stack16 == 0 goto label07;
+
+        nop;
+
+        l2 = 2;
+
+        goto label07;
+
+     label04:
+        varReplacer156 = "long";
+
+        $stack14 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer156);
+
+        if $stack14 == 0 goto label07;
+
+        nop;
+
+        l2 = 3;
+
+        goto label07;
+
+     label05:
+        varReplacer166 = "float";
+
+        $stack13 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer166);
+
+        if $stack13 == 0 goto label07;
+
+        nop;
+
+        l2 = 4;
+
+        goto label07;
+
+     label06:
+        varReplacer159 = "double";
+
+        $stack17 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer159);
+
+        if $stack17 == 0 goto label07;
+
+        nop;
+
+        l2 = 5;
+
+     label07:
+        nop;
+
+        nop;
+
+        nop;
+
+        nop;
+
+        nop;
+
+        nop;
+
+        tableswitch(l2)
+        {
+            case 0: goto label08;
+            case 1: goto label09;
+            case 2: goto label10;
+            case 3: goto label11;
+            case 4: goto label12;
+            case 5: goto label13;
+            default: goto label14;
+        };
+
+     label08:
+        varReplacer158 = 1;
+
+        $stack10 = staticinvoke <java.lang.Byte: java.lang.Byte valueOf(byte)>(varReplacer158);
+
+        return $stack10;
+
+     label09:
+        varReplacer154 = 12;
+
+        $stack9 = staticinvoke <java.lang.Short: java.lang.Short valueOf(short)>(varReplacer154);
+
+        return $stack9;
+
+     label10:
+        varReplacer157 = 10;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer157);
+
+        return $stack8;
+
+     label11:
+        varReplacer163 = 12342L;
+
+        $stack7 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>(varReplacer163);
+
+        return $stack7;
+
+     label12:
+        varReplacer164 = 10.4F;
+
+        $stack6 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(varReplacer164);
+
+        return $stack6;
+
+     label13:
+        varReplacer165 = 10.4;
+
+        $stack5 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(varReplacer165);
+
+        return $stack5;
+
+     label14:
+        varReplacer161 = 0;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer161);
+
+        return $stack11;
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "java.lang.Number getDynamicNumber(java.lang.String)": {
+            "localVariables": {
+                "type": "java.lang.String",
+                "varReplacer325": "java.lang.String",
+                "varReplacer326": "double",
+                "varReplacer327": "int",
+                "varReplacer328": "java.lang.String",
+                "varReplacer329": "int",
+                "varReplacer330": "java.lang.String",
+                "varReplacer331": "java.lang.String",
+                "varReplacer332": "long",
+                "varReplacer333": "double",
+                "varReplacer334": "int",
+                "varReplacer335": "int",
+                "varReplacer336": "java.lang.String",
+                "varReplacer337": "java.lang.String",
+                "varReplacer338": "float",
+                "varReplacer339": "int",
+                "varReplacer340": "java.lang.String",
+                "varReplacer341": "int",
+                "varReplacer342": "java.lang.String",
+                "varReplacer343": "java.lang.String",
+                "varReplacer344": "java.lang.String",
+                "varReplacer345": "float"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "boolean",
+                "$stack4": "java.lang.Integer",
+                "$stack7": "boolean",
+                "$stack8": "java.lang.Integer",
+                "$stack10": "boolean",
+                "$stack11": "java.lang.Float",
+                "$stack12": "boolean",
+                "$stack13": "java.lang.Float",
+                "$stack14": "boolean",
+                "$stack15": "java.lang.Double",
+                "$stack16": "boolean",
+                "$stack17": "java.lang.Double",
+                "$stack18": "boolean",
+                "$stack19": "java.lang.Integer",
+                "$stack20": "boolean",
+                "$stack21": "java.lang.Integer",
+                "$stack22": "boolean",
+                "$stack23": "java.lang.Long",
+                "$stack24": "boolean",
+                "$stack25": "java.lang.Integer",
+                "$stack5": "java.lang.Number",
+                "$stack6": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Long: java.lang.Long valueOf(long)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.lang.Float: java.lang.Float valueOf(float)>",
+                "<java.lang.Float: java.lang.Float valueOf(float)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer346": "java.lang.String",
+                "varReplacer347": "java.lang.String",
+                "varReplacer348": "java.lang.String",
+                "varReplacer349": "java.lang.String",
+                "varReplacer350": "java.lang.String",
+                "varReplacer351": "java.lang.String",
+                "varReplacer352": "java.lang.String",
+                "varReplacer353": "java.lang.String",
+                "varReplacer354": "java.lang.String",
+                "varReplacer355": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack10": "java.lang.Number",
+                "$stack11": "java.lang.Number",
+                "$stack12": "java.lang.Number",
+                "$stack13": "java.lang.Number",
+                "$stack14": "java.lang.Number",
+                "$stack15": "java.lang.Number",
+                "$stack16": "java.lang.Number",
+                "$stack17": "java.lang.Number",
+                "$stack18": "java.lang.Number",
+                "$stack19": "java.lang.Number"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: java.lang.Number getDynamicNumber(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void printLiteralVariables(java.lang.Number)>"
+            ]
+        },
+        "void printLiteralVariables(java.lang.Number)": {
+            "localVariables": {
+                "n": "java.lang.Number",
+                "varReplacer356": "java.lang.String",
+                "varReplacer357": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.Class",
+                "$stack7": "kotlin.reflect.KClass",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>",
+                "<kotlin.reflect.KClass: java.lang.String getQualifiedName()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinLiteralsKt: void main()>"]
+        }
+    }
+}

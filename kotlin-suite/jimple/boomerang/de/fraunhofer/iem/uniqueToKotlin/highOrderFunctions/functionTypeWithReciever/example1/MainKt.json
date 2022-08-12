@@ -1,0 +1,104 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 getSum()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 getAdd()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "kotlin.jvm.functions.Function2 getSum()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "kotlin.jvm.functions.Function2"},
+            "invokeExpressions": []
+        },
+        "kotlin.jvm.functions.Function2 getAdd()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "kotlin.jvm.functions.Function2"},
+            "invokeExpressions": []
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer2408": "int",
+                "varReplacer2409": "int",
+                "varReplacer2410": "int",
+                "varReplacer2411": "int",
+                "varReplacer2412": "int",
+                "varReplacer2413": "int",
+                "varReplacer2414": "int",
+                "varReplacer2415": "int"
+            },
+            "stackVariables": {
+                "$stack2": "kotlin.jvm.functions.Function2",
+                "$stack3": "java.lang.Integer",
+                "$stack4": "java.lang.Integer",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.lang.Number",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "kotlin.jvm.functions.Function2",
+                "$stack10": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack12": "java.lang.Object",
+                "$stack13": "java.lang.Number",
+                "$stack14": "int",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "kotlin.jvm.functions.Function2",
+                "$stack17": "java.lang.Integer",
+                "$stack18": "java.lang.Integer",
+                "$stack19": "java.lang.Object",
+                "$stack20": "java.lang.Number",
+                "$stack21": "int",
+                "$stack22": "java.io.PrintStream",
+                "$stack23": "kotlin.jvm.functions.Function2",
+                "$stack24": "java.lang.Integer",
+                "$stack25": "java.lang.Integer",
+                "$stack26": "java.lang.Object",
+                "$stack27": "java.lang.Number",
+                "$stack28": "int",
+                "$stack29": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: void main()>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1",
+                "$stack1": "kotlin.jvm.functions.Function2",
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1",
+                "$stack3": "kotlin.jvm.functions.Function2"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

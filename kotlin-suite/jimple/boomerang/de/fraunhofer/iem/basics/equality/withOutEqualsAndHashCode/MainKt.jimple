@@ -1,0 +1,137 @@
+public final class de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int varReplacer475, varReplacer479, varReplacer483;
+        java.lang.String varReplacer473, varReplacer474, varReplacer476, varReplacer477, varReplacer478, varReplacer480, varReplacer481, varReplacer482, varReplacer484;
+        boolean $stack11, $stack13, $stack15, $stack37, $stack32, $stack17;
+        java.io.PrintStream $stack8, $stack9, $stack10, $stack12, $stack14, $stack16;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person $stack5, $stack6, $stack7;
+
+        nop;
+
+        $stack5 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        varReplacer473 = "Ranjith";
+
+        varReplacer474 = "Street 102";
+
+        varReplacer475 = 100;
+
+        varReplacer476 = "+49 99999 9999";
+
+        specialinvoke $stack5.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer473, varReplacer474, varReplacer475, varReplacer476);
+
+        $stack6 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        varReplacer477 = "Ranjith";
+
+        varReplacer478 = "Street 102";
+
+        varReplacer479 = 100;
+
+        varReplacer480 = "+49 99999 9999";
+
+        specialinvoke $stack6.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer477, varReplacer478, varReplacer479, varReplacer480);
+
+        $stack7 = new de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        varReplacer481 = "Ranjith3";
+
+        varReplacer482 = "Street 1023";
+
+        varReplacer483 = 1003;
+
+        varReplacer484 = "+49 99999 999933";
+
+        specialinvoke $stack7.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer481, varReplacer482, varReplacer483, varReplacer484);
+
+        if $stack5 != $stack6 goto label1;
+
+        nop;
+
+        $stack37 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack37 = 0;
+
+     label2:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(boolean)>($stack37);
+
+        if $stack5 != $stack7 goto label3;
+
+        nop;
+
+        $stack32 = 1;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack32 = 0;
+
+     label4:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(boolean)>($stack32);
+
+        if $stack5 != $stack5 goto label5;
+
+        nop;
+
+        $stack17 = 1;
+
+        goto label6;
+
+     label5:
+        nop;
+
+        $stack17 = 0;
+
+     label6:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack17);
+
+        $stack11 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack6);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack11);
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack7);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(boolean)>($stack13);
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack5);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(boolean)>($stack15);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.MainKt: void main()>();
+
+        return;
+    }
+}

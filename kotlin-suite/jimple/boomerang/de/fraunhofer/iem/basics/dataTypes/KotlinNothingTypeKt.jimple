@@ -1,0 +1,121 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Throwable $r0;
+        kotlin.KotlinNothingValueException $u0;
+        java.lang.String $stack12, varReplacer358, varReplacer359, varReplacer360, varReplacer361, varReplacer362;
+        java.io.PrintStream $stack3, $stack7, $stack8, $stack10, $stack13;
+        java.lang.Void $stack11;
+        java.lang.Exception $stack6, $stack9;
+
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer362 = "Start";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer362);
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy1()>();
+
+        $u0 = new kotlin.KotlinNothingValueException;
+
+        specialinvoke $u0.<kotlin.KotlinNothingValueException: void <init>()>();
+
+        $r0 = (java.lang.Throwable) $u0;
+
+        throw $r0;
+
+     label2:
+        $stack9 := @caughtexception;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer360 = "Caught for dummy1";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer360);
+
+     label3:
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy2()>();
+
+        varReplacer359 = "Still inside try sum = ";
+
+        $stack12 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer359, $stack11);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+     label4:
+        goto label6;
+
+     label5:
+        $stack6 := @caughtexception;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer361 = "Caught for dummy2";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer361);
+
+     label6:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer358 = "End";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer358);
+
+        return;
+
+        catch java.lang.Exception from label1 to label2 with label2;
+        catch java.lang.Exception from label3 to label4 with label5;
+    }
+
+    public static final java.lang.Void dummy1()
+    {
+        java.lang.String varReplacer363;
+        java.lang.Exception $stack0;
+
+        nop;
+
+        $stack0 = new java.lang.Exception;
+
+        varReplacer363 = "";
+
+        specialinvoke $stack0.<java.lang.Exception: void <init>(java.lang.String)>(varReplacer363);
+
+        throw $stack0;
+    }
+
+    public static final java.lang.Void dummy2()
+    {
+        java.lang.String varReplacer364;
+        java.lang.Exception $stack0;
+
+        nop;
+
+        $stack0 = new java.lang.Exception;
+
+        varReplacer364 = "";
+
+        specialinvoke $stack0.<java.lang.Exception: void <init>(java.lang.String)>(varReplacer364);
+
+        throw $stack0;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: void main()>();
+
+        return;
+    }
+}

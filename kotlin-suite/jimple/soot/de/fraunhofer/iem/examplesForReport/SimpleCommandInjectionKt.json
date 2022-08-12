@@ -1,0 +1,36 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.SimpleCommandInjectionKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.SimpleCommandInjectionKt: void runTheJobInShellSimple(java.lang.String)>"],
+    "methodsInformation": {"void runTheJobInShellSimple(java.lang.String)": {
+        "localVariables": {
+            "command": "java.lang.String",
+            "executable": "java.lang.String",
+            "argument1": "java.lang.String"
+        },
+        "stackVariables": {
+            "$stack8": "java.lang.String",
+            "$stack9": "java.lang.CharSequence",
+            "$stack10": "int",
+            "$stack12": "java.lang.Process",
+            "$stack14": "java.lang.String[]",
+            "$stack29": "java.io.IOException",
+            "$stack30": "java.io.PrintStream",
+            "$u0": "java.lang.ProcessBuilder",
+            "$i0": "int"
+        },
+        "invokeExpressions": [
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+            "<java.lang.System: java.lang.String getProperty(java.lang.String)>",
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+            "<kotlin.text.StringsKt: int indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object)>",
+            "<java.lang.ProcessBuilder: void <init>(java.lang.String[])>",
+            "<java.lang.ProcessBuilder: java.lang.Process start()>",
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+            "<de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void printCommandOutput(java.lang.Process)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

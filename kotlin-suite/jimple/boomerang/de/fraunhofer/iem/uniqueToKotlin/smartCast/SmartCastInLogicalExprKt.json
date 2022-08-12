@@ -1,0 +1,92 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1563": "java.lang.String",
+                "varReplacer1564": "java.lang.String",
+                "varReplacer1565": "java.lang.String",
+                "varReplacer1566": "int",
+                "varReplacer1567": "int",
+                "varReplacer1568": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.Integer",
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void parseString(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer1569": "java.lang.String",
+                "varReplacer1570": "java.lang.String",
+                "varReplacer1571": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getLength(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer1572": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$stack5": "java.lang.String",
+                "$stack6": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.String: int length()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void main()>"]
+        }
+    }
+}

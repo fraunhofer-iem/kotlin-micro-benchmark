@@ -1,0 +1,30 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.SmartCastExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.SmartCastExampleKt: void printLengthInKotlin(java.lang.Object)>"],
+    "methodsInformation": {"void printLengthInKotlin(java.lang.Object)": {
+        "localVariables": {"obj": "java.lang.Object"},
+        "stackVariables": {
+            "$stack3": "boolean",
+            "$stack5": "java.lang.String",
+            "$stack6": "int",
+            "$stack10": "java.lang.String",
+            "$stack12": "int",
+            "$stack13": "java.lang.Integer",
+            "$stack14": "java.lang.String",
+            "$stack15": "java.io.PrintStream",
+            "$stack4": "java.io.PrintStream"
+        },
+        "invokeExpressions": [
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+            "<java.lang.String: int length()>",
+            "<java.lang.String: int length()>",
+            "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+            "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

@@ -1,0 +1,154 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base
+{
+    private final java.lang.String lastName;
+    private final int size;
+
+    public void <init>(java.lang.String, java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived this, $stack40;
+        java.lang.Integer $stack24;
+        java.lang.NullPointerException $stack68;
+        java.util.Locale $stack30;
+        int $stack16, $stack20, $stack22, $stack56;
+        java.lang.String name, lastName, $stack17, $stack21, $stack25, $stack29, $stack31, $stack32, $stack34, $stack36;
+        boolean $stack69;
+        java.io.PrintStream $stack18, $stack19, $stack26;
+        java.lang.CharSequence l5;
+        char $stack28;
+        kotlin.Unit $stack46, $stack65;
+        java.lang.StringBuilder $stack27, $stack33, $stack35;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived;
+
+        name := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        $stack40 = this;
+
+        l5 = (java.lang.CharSequence) name;
+
+        $stack16 = interfaceinvoke l5.<java.lang.CharSequence: int length()>();
+
+        if $stack16 <= 0 goto label1;
+
+        $stack69 = 1;
+
+        goto label2;
+
+     label1:
+        $stack69 = 0;
+
+     label2:
+        if $stack69 == 0 goto label4;
+
+        $stack27 = new java.lang.StringBuilder;
+
+        specialinvoke $stack27.<java.lang.StringBuilder: void <init>()>();
+
+        $stack28 = virtualinvoke name.<java.lang.String: char charAt(int)>(0);
+
+        $stack29 = staticinvoke <java.lang.String: java.lang.String valueOf(char)>($stack28);
+
+        if $stack29 != null goto label3;
+
+        $stack68 = new java.lang.NullPointerException;
+
+        specialinvoke $stack68.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type java.lang.String");
+
+        throw $stack68;
+
+     label3:
+        $stack30 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack31 = virtualinvoke $stack29.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack30);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack31, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)");
+
+        $stack40 = this;
+
+        $stack32 = virtualinvoke $stack31.<java.lang.Object: java.lang.String toString()>();
+
+        $stack33 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack32);
+
+        $stack34 = virtualinvoke name.<java.lang.String: java.lang.String substring(int)>(1);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack34, "(this as java.lang.String).substring(startIndex)");
+
+        $stack35 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack34);
+
+        $stack36 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        goto label5;
+
+     label4:
+        $stack36 = name;
+
+     label5:
+        $stack17 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Argument for the base class: ", $stack36);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack46 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        specialinvoke $stack40.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: void <init>(java.lang.String)>($stack36);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: java.lang.String lastName> = lastName;
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>("Initializing a derived class");
+
+        $stack20 = specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: int getSize()>();
+
+        $stack21 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: java.lang.String lastName>;
+
+        $stack22 = virtualinvoke $stack21.<java.lang.String: int length()>();
+
+        $stack56 = $stack20 + $stack22;
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack56);
+
+        $stack25 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Initializing size in the derived class: ", $stack24);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>($stack25);
+
+        $stack65 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: int size> = $stack56;
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public int getSize()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived this;
+        int $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: int size>;
+
+        return $stack1;
+    }
+}

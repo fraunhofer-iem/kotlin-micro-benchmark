@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle: void stop()>"
+    ],
+    "methodsInformation": {
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

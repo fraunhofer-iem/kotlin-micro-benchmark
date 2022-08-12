@@ -1,0 +1,70 @@
+public class de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Movable
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void jog()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Jogging");
+
+        return;
+    }
+
+    public void run()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Running");
+
+        return;
+    }
+
+    public void walk()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Walking");
+
+        return;
+    }
+
+    public void crawl()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Crawling");
+
+        return;
+    }
+}

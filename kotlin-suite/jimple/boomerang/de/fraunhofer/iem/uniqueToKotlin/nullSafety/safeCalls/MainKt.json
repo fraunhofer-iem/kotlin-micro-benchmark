@@ -1,0 +1,145 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCalls(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCallsWithLet(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer2744": "null_type",
+                "varReplacer2745": "java.lang.String",
+                "varReplacer2746": "null_type",
+                "varReplacer2747": "java.lang.String",
+                "varReplacer2748": "java.lang.String",
+                "varReplacer2749": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack9": "java.lang.String",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "int",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.String",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.lang.String",
+                "$stack19": "java.lang.StringBuilder",
+                "$stack20": "java.lang.StringBuilder",
+                "$stack21": "java.lang.StringBuilder",
+                "$stack22": "int",
+                "$stack23": "java.lang.StringBuilder",
+                "$stack24": "java.lang.String",
+                "$stack25": "java.io.PrintStream",
+                "$stack14": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCalls(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCalls(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCallsWithLet(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCallsWithLet(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void usingSafeCalls(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer2750": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "int",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream",
+                "$stack7": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void usingSafeCallsWithLet(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer2751": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "int",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getString()": {
+            "localVariables": {
+                "varReplacer2752": "java.lang.String",
+                "varReplacer2753": "java.lang.String",
+                "varReplacer2754": "null_type",
+                "varReplacer2755": "java.lang.String",
+                "varReplacer2756": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.util.Locale",
+                "$stack7": "boolean",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void main()>"]
+        }
+    }
+}

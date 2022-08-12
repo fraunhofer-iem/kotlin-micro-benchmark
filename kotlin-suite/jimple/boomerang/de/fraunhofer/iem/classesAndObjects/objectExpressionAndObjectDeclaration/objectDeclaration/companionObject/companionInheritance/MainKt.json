@@ -1,0 +1,55 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "employeeBuilder1": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder",
+                "employeeBuilder2": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder",
+                "varReplacer824": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee",
+                "$stack9": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack10": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack11": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee",
+                "$stack12": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack17": "java.lang.String",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack20": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+                "$stack21": "java.lang.String",
+                "$stack22": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: java.lang.String getCompanyName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void setCompanyName(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: java.lang.String getCompanyName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt: void main()>"]
+        }
+    }
+}

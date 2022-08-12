@@ -1,0 +1,198 @@
+public class de.fraunhofer.iem.functions.varargInFunctionParam.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.varargInFunctionParam.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.varargInFunctionParam.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    private static transient void print(java.lang.String[])
+    {
+        java.io.PrintStream $stack5;
+        int l2, l3;
+        java.lang.String[] messages;
+        java.lang.String message;
+
+        nop;
+
+        messages := @parameter0: java.lang.String[];
+
+        l2 = lengthof messages;
+
+        l3 = 0;
+
+     label1:
+        if l3 >= l2 goto label2;
+
+        nop;
+
+        message = messages[l3];
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(message);
+
+        l3 = l3 + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    private static transient void printList(java.util.List[])
+    {
+        java.io.PrintStream $stack12;
+        java.util.Iterator $stack7;
+        java.util.List[] lst;
+        java.util.List ls;
+        int l2, l3;
+        java.lang.Object $stack11;
+        java.lang.String elem;
+        boolean $stack8;
+
+        nop;
+
+        lst := @parameter0: java.util.List[];
+
+        l2 = lengthof lst;
+
+        l3 = 0;
+
+     label1:
+        if l3 >= l2 goto label4;
+
+        nop;
+
+        ls = lst[l3];
+
+        $stack7 = interfaceinvoke ls.<java.util.List: java.util.Iterator iterator()>();
+
+     label2:
+        $stack8 = interfaceinvoke $stack7.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack8 == 0 goto label3;
+
+        nop;
+
+        $stack11 = interfaceinvoke $stack7.<java.util.Iterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack11;
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>(elem);
+
+        goto label2;
+
+     label3:
+        nop;
+
+        l3 = l3 + 1;
+
+        goto label1;
+
+     label4:
+        nop;
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.util.List[] $stack4;
+        java.lang.String[] $stack1, $stack2, $stack3, $stack5, $stack8, args;
+        java.lang.String varReplacer579, varReplacer580, varReplacer581, varReplacer582, varReplacer583, varReplacer584, varReplacer585, varReplacer586, varReplacer587, varReplacer588, varReplacer589;
+        java.util.List $stack7, $stack10, $stack12;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = newarray (java.lang.String)[0];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>($stack1);
+
+        $stack2 = newarray (java.lang.String)[2];
+
+        varReplacer588 = "Hello";
+
+        $stack2[0] = varReplacer588;
+
+        varReplacer587 = "How are you";
+
+        $stack2[1] = varReplacer587;
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>($stack2);
+
+        $stack3 = newarray (java.lang.String)[3];
+
+        varReplacer584 = "Hello";
+
+        $stack3[0] = varReplacer584;
+
+        varReplacer581 = "How are you";
+
+        $stack3[1] = varReplacer581;
+
+        varReplacer579 = "Where are you";
+
+        $stack3[2] = varReplacer579;
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.Main: void print(java.lang.String[])>($stack3);
+
+        $stack4 = newarray (java.util.List)[3];
+
+        $stack5 = newarray (java.lang.String)[3];
+
+        varReplacer585 = "Hello";
+
+        $stack5[0] = varReplacer585;
+
+        varReplacer583 = "How are you";
+
+        $stack5[1] = varReplacer583;
+
+        varReplacer586 = "Where are you";
+
+        $stack5[2] = varReplacer586;
+
+        $stack7 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>($stack5);
+
+        $stack4[0] = $stack7;
+
+        $stack8 = newarray (java.lang.String)[2];
+
+        varReplacer589 = "Hello";
+
+        $stack8[0] = varReplacer589;
+
+        varReplacer582 = "How are you";
+
+        $stack8[1] = varReplacer582;
+
+        $stack10 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>($stack8);
+
+        $stack4[1] = $stack10;
+
+        varReplacer580 = "Where are you";
+
+        $stack12 = staticinvoke <java.util.Collections: java.util.List singletonList(java.lang.Object)>(varReplacer580);
+
+        $stack4[2] = $stack12;
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.Main: void printList(java.util.List[])>($stack4);
+
+        return;
+    }
+}

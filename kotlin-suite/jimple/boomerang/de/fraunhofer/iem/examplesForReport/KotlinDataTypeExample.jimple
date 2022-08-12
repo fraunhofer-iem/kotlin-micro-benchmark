@@ -1,0 +1,189 @@
+public final class de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void send(java.lang.String, int, java.lang.Integer)
+    {
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+        java.lang.Integer accountNumber;
+        int age;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack7, $stack8, $stack9;
+        java.lang.String name, $stack10, varReplacer1423, varReplacer1424, varReplacer1425;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        name := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        accountNumber := @parameter2: java.lang.Integer;
+
+        varReplacer1423 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer1423);
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        varReplacer1424 = " is ";
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1424);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(age);
+
+        varReplacer1425 = " year old and his/her bank account number is ";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1425);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(accountNumber);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample: void sendResponse(java.lang.String)>($stack10);
+
+        return;
+    }
+
+    public final java.lang.Void send(de.fraunhofer.iem.examplesForReport.Employee[])
+    {
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+        de.fraunhofer.iem.examplesForReport.Employee[] names;
+        java.lang.Exception $stack6;
+        java.lang.StringBuilder $stack2, $stack3, $stack4;
+        java.lang.String $stack5, varReplacer1426, varReplacer1427, varReplacer1428;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        names := @parameter0: de.fraunhofer.iem.examplesForReport.Employee[];
+
+        varReplacer1427 = "names";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(names, varReplacer1427);
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(names);
+
+        varReplacer1428 = " are current employees complete information.";
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1428);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample: void sendResponse(java.lang.String)>($stack5);
+
+        $stack6 = new java.lang.Exception;
+
+        varReplacer1426 = "Data Leak";
+
+        specialinvoke $stack6.<java.lang.Exception: void <init>(java.lang.String)>(varReplacer1426);
+
+        throw $stack6;
+    }
+
+    public final void send(java.util.ArrayList)
+    {
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+        java.util.ArrayList names;
+        java.lang.StringBuilder $stack2, $stack3, $stack4;
+        java.lang.String $stack5, varReplacer1429, varReplacer1430;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        names := @parameter0: java.util.ArrayList;
+
+        varReplacer1430 = "names";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(names, varReplacer1430);
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(names);
+
+        varReplacer1429 = " are current employees complete information.";
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1429);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample: void sendResponse(java.lang.String)>($stack5);
+
+        return;
+    }
+
+    public final void send(kotlin.jvm.functions.Function1, de.fraunhofer.iem.examplesForReport.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+        kotlin.jvm.functions.Function1 sender;
+        de.fraunhofer.iem.examplesForReport.Employee employee;
+        java.lang.String varReplacer1431, varReplacer1432;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        sender := @parameter0: kotlin.jvm.functions.Function1;
+
+        employee := @parameter1: de.fraunhofer.iem.examplesForReport.Employee;
+
+        varReplacer1431 = "sender";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(sender, varReplacer1431);
+
+        varReplacer1432 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1432);
+
+        interfaceinvoke sender.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(employee);
+
+        return;
+    }
+
+    public final void sendResponse(java.lang.String)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample this;
+        java.lang.String responseBody, varReplacer1433;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.KotlinDataTypeExample;
+
+        responseBody := @parameter0: java.lang.String;
+
+        varReplacer1433 = "responseBody";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(responseBody, varReplacer1433);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(responseBody);
+
+        return;
+    }
+}

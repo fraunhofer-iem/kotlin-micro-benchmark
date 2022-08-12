@@ -1,0 +1,99 @@
+public final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B extends java.lang.Object
+{
+    private final java.lang.String bName;
+    private final kotlin.jvm.functions.Function1 funLit;
+    private final kotlin.jvm.functions.Function1 funLit2;
+    final de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$0;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$0, $stack3, $stack6;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit$1 $stack2;
+        kotlin.jvm.functions.Function1 $stack4, $stack7;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1 $stack5;
+        java.lang.String varReplacer1053, varReplacer1054;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        this$0 := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A;
+
+        varReplacer1054 = "this$0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this$0, varReplacer1054);
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$0> = this$0;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer1053 = "B";
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: java.lang.String bName> = varReplacer1053;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit$1;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$0>;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit$1: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A,de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B)>($stack3, this);
+
+        $stack4 = (kotlin.jvm.functions.Function1) $stack2;
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 funLit> = $stack4;
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1;
+
+        $stack6 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$0>;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B,de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)>(this, $stack6);
+
+        $stack7 = (kotlin.jvm.functions.Function1) $stack5;
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 funLit2> = $stack7;
+
+        return;
+    }
+
+    public final kotlin.jvm.functions.Function1 getFunLit()
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this;
+        kotlin.jvm.functions.Function1 $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 funLit>;
+
+        return $stack1;
+    }
+
+    public final kotlin.jvm.functions.Function1 getFunLit2()
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this;
+        kotlin.jvm.functions.Function1 $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 funLit2>;
+
+        return $stack1;
+    }
+
+    public static final java.lang.String access$getBName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B $this;
+        java.lang.String $stack1;
+
+        nop;
+
+        $this := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        $stack1 = $this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: java.lang.String bName>;
+
+        return $stack1;
+    }
+}

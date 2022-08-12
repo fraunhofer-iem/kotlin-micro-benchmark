@@ -1,0 +1,102 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee extends java.lang.Object
+{
+    public static final de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator MessageCreator;
+    private final java.lang.String firstName;
+    private final java.lang.String lastName;
+    private final int age;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        int age;
+        java.lang.String firstName, lastName, varReplacer1304, varReplacer1305;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1304 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1304);
+
+        varReplacer1305 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1305);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: int age>;
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        null_type varReplacer1306;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator;
+
+        varReplacer1306 = null;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer1306);
+
+        <de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator MessageCreator> = $stack0;
+
+        return;
+    }
+}

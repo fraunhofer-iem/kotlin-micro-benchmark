@@ -1,0 +1,57 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [
+        "java.lang.Iterable",
+        "kotlin.jvm.internal.markers.KMappedMarker"
+    ],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <init>(int,int,int,int,int)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Iterator iterator()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: int[] access$getData$p(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(int,int,int,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "first": "int",
+                "second": "int",
+                "third": "int",
+                "fourth": "int",
+                "fifth": "int"
+            },
+            "stackVariables": {
+                "$stack6": "int[]",
+                "$stack7": "int[]",
+                "$stack8": "int[]",
+                "$stack9": "int[]",
+                "$stack10": "int[]",
+                "$stack11": "int[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.util.Iterator iterator()": {
+            "localVariables": {"this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator",
+                "$stack2": "java.util.Iterator"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)>"]
+        },
+        "int[] access$getData$p(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "$stack1": "int[]"
+            },
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$Companion"},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        }
+    }
+}

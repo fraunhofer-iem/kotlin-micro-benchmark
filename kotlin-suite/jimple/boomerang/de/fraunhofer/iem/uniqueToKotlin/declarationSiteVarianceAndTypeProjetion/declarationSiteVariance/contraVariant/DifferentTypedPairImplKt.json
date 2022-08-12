@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"ob": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImpl",
+                "$stack2": "java.lang.Object",
+                "$stack3": "java.lang.Object"
+            },
+            "invokeExpressions": [
+                "<java.lang.Object: void <init>()>",
+                "<java.lang.Object: void <init>()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair)>"
+            ]
+        },
+        "void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair)": {
+            "localVariables": {
+                "ob": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair",
+                "varReplacer1311": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void main()>"]
+        }
+    }
+}

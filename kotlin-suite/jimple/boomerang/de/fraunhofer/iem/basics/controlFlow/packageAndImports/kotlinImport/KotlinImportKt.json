@@ -1,0 +1,33 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getMyName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: void printMyName()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt: void main()>"]
+        }
+    }
+}

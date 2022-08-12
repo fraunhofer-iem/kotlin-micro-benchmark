@@ -1,0 +1,125 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void dummy--ajY-9A(int[])>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer379": "java.lang.String",
+                "varReplacer380": "java.lang.String",
+                "varReplacer381": "int",
+                "varReplacer382": "int",
+                "varReplacer383": "int",
+                "varReplacer384": "int",
+                "varReplacer385": "int",
+                "varReplacer386": "int",
+                "varReplacer387": "int",
+                "varReplacer388": "int",
+                "varReplacer389": "java.lang.String",
+                "varReplacer390": "java.lang.String",
+                "varReplacer391": "int",
+                "varReplacer392": "java.lang.String",
+                "varReplacer393": "int",
+                "varReplacer394": "int"
+            },
+            "stackVariables": {
+                "$stack3": "int[]",
+                "$stack5": "int",
+                "$stack7": "int",
+                "$stack9": "int",
+                "$stack11": "int",
+                "$stack13": "int",
+                "$stack14": "kotlin.UIntArray",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "int",
+                "$stack17": "kotlin.UInt",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "int",
+                "$stack20": "kotlin.UInt",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "int",
+                "$stack23": "kotlin.UInt",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "int",
+                "$stack26": "kotlin.UInt",
+                "$stack27": "java.io.PrintStream",
+                "$stack28": "int",
+                "$stack29": "kotlin.UInt",
+                "$stack30": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.UIntArray: int[] constructor-impl(int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>",
+                "<kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>",
+                "<kotlin.UIntArray: kotlin.UIntArray box-impl(int[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UIntArray: int get-pVg5ArA(int[],int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UIntArray: int get-pVg5ArA(int[],int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UIntArray: int get-pVg5ArA(int[],int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UIntArray: int get-pVg5ArA(int[],int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.UIntArray: int get-pVg5ArA(int[],int)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void dummy--ajY-9A(int[])>"
+            ]
+        },
+        "void dummy--ajY-9A(int[])": {
+            "localVariables": {
+                "num": "int[]",
+                "varReplacer395": "int",
+                "varReplacer396": "java.lang.String",
+                "varReplacer397": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack6": "int[]",
+                "$stack7": "int[]",
+                "$stack8": "java.util.Iterator",
+                "$stack9": "boolean",
+                "$stack10": "java.lang.Object",
+                "$stack11": "kotlin.UInt",
+                "$stack12": "int",
+                "$stack13": "kotlin.UInt",
+                "$stack14": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Arrays: int[] copyOf(int[],int)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<kotlin.UIntArray: int[] constructor-impl(int[])>",
+                "<kotlin.UIntArray: java.util.Iterator iterator-impl(int[])>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.UInt: int unbox-impl()>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void main()>"]
+        }
+    }
+}

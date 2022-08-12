@@ -1,0 +1,79 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String $stack17, $stack21, varReplacer824;
+        java.io.PrintStream $stack13, $stack14, $stack15, $stack18, $stack22;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee $stack8, $stack11, $stack12;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder employeeBuilder1, employeeBuilder2;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion $stack7, $stack9, $stack10, $stack16, $stack19, $stack20;
+
+        nop;
+
+        $stack7 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        $stack8 = virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>();
+
+        $stack9 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        employeeBuilder1 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder) $stack9;
+
+        $stack10 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        employeeBuilder2 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder) $stack10;
+
+        $stack11 = interfaceinvoke employeeBuilder1.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>();
+
+        $stack12 = interfaceinvoke employeeBuilder2.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack16 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        $stack17 = virtualinvoke $stack16.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: java.lang.String getCompanyName()>();
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        varReplacer824 = "YourCompany";
+
+        virtualinvoke $stack19.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void setCompanyName(java.lang.String)>(varReplacer824);
+
+        $stack20 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion>;
+
+        $stack21 = virtualinvoke $stack20.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: java.lang.String getCompanyName()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.MainKt: void main()>();
+
+        return;
+    }
+}

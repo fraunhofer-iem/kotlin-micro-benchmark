@@ -1,0 +1,45 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle$DefaultImpls extends java.lang.Object
+{
+
+    public static void displayModelNumber(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle)
+    {
+        java.io.PrintStream $stack6;
+        java.lang.String $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle this;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, "this");
+
+        $stack4 = interfaceinvoke this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: java.lang.String getModelNumber()>();
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Interface implementation = ", $stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+
+    public static void displayVehicleRegistrationNumber(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle)
+    {
+        java.io.PrintStream $stack6;
+        java.lang.String $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle this;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, "this");
+
+        $stack4 = interfaceinvoke this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.defaultImplementationInInterface.Vehicle: java.lang.String getVehicleRegistrationNumber()>();
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Interface implementation = ", $stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        return;
+    }
+}

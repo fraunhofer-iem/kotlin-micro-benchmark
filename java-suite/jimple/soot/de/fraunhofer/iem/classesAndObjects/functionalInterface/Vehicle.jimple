@@ -1,0 +1,19 @@
+public interface  de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle extends java.lang.Object
+{
+
+    public abstract void start();
+
+    public void stop()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("Vehicle is stopped");
+
+        return;
+    }
+}

@@ -1,0 +1,37 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator extends java.lang.Object
+{
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final java.lang.String welcomeMessage()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator;
+
+        return "Hello! Welcome to employee portal!";
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: void <init>()>();
+
+        return;
+    }
+}

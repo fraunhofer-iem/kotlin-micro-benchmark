@@ -1,0 +1,44 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "res1": "int",
+                "varReplacer228": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

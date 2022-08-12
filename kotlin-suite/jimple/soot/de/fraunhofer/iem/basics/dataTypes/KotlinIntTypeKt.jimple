@@ -1,0 +1,408 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack15, $stack16, $stack17, $stack18, $stack21, $stack30, $stack32, $stack34, $stack36, $stack38;
+        java.util.ArrayList $stack37;
+        int $stack12, $stack13, sum, $stack27;
+        boolean $stack23, $stack25, $stack39, $stack78, $stack73, $stack59, $stack41;
+        java.io.PrintStream $stack14, $stack19, $stack20, $stack22, $stack24, $stack26, $stack28, $stack40;
+        java.lang.Integer[] $stack45;
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: int getInt(int)>(234);
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: int getInt(int)>(2);
+
+        sum = $stack12 + $stack13;
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>(sum);
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(25748);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(25748);
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10000);
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10000);
+
+        if $stack15 != $stack16 goto label1;
+
+        $stack78 = 1;
+
+        goto label2;
+
+     label1:
+        $stack78 = 0;
+
+     label2:
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(boolean)>($stack78);
+
+        if $stack17 != $stack18 goto label3;
+
+        $stack73 = 1;
+
+        goto label4;
+
+     label3:
+        $stack73 = 0;
+
+     label4:
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(boolean)>($stack73);
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10000);
+
+        if $stack17 != $stack21 goto label5;
+
+        $stack59 = 1;
+
+        goto label6;
+
+     label5:
+        $stack59 = 0;
+
+     label6:
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(boolean)>($stack59);
+
+        $stack23 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack15, $stack16);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(boolean)>($stack23);
+
+        $stack25 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack17, $stack18);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(boolean)>($stack25);
+
+        $stack27 = virtualinvoke $stack17.<java.lang.Integer: int intValue()>();
+
+        if $stack27 != 10000 goto label7;
+
+        $stack41 = 1;
+
+        goto label8;
+
+     label7:
+        $stack41 = 0;
+
+     label8:
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(boolean)>($stack41);
+
+        $stack45 = newarray (java.lang.Integer)[4];
+
+        $stack30 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack45[0] = $stack30;
+
+        $stack32 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack45[1] = $stack32;
+
+        $stack34 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        $stack45[2] = $stack34;
+
+        $stack36 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        $stack45[3] = $stack36;
+
+        $stack37 = staticinvoke <kotlin.collections.CollectionsKt: java.util.ArrayList arrayListOf(java.lang.Object[])>($stack45);
+
+        $stack38 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack39 = virtualinvoke $stack37.<java.util.ArrayList: boolean add(java.lang.Object)>($stack38);
+
+        $stack40 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack40.<java.io.PrintStream: void println(boolean)>($stack39);
+
+        return;
+    }
+
+    public static final void dummy1(int, int)
+    {
+        java.lang.Integer $stack8, $stack9, $stack10, $stack11, $stack14, $stack16;
+        int a, b, $stack22, $stack24;
+        boolean $stack18, $stack20, $stack59, $stack54, $stack49, $stack35, $stack29, $stack26;
+        java.io.PrintStream $stack12, $stack13, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25;
+
+        a := @parameter0: int;
+
+        b := @parameter1: int;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(a);
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(a);
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(b);
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(b);
+
+        if $stack8 != $stack9 goto label01;
+
+        $stack59 = 1;
+
+        goto label02;
+
+     label01:
+        $stack59 = 0;
+
+     label02:
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack59);
+
+        if $stack10 != $stack11 goto label03;
+
+        $stack54 = 1;
+
+        goto label04;
+
+     label03:
+        $stack54 = 0;
+
+     label04:
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(boolean)>($stack54);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(a);
+
+        if $stack8 != $stack14 goto label05;
+
+        $stack49 = 1;
+
+        goto label06;
+
+     label05:
+        $stack49 = 0;
+
+     label06:
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(boolean)>($stack49);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(b);
+
+        if $stack10 != $stack16 goto label07;
+
+        $stack35 = 1;
+
+        goto label08;
+
+     label07:
+        $stack35 = 0;
+
+     label08:
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(boolean)>($stack35);
+
+        $stack18 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack8, $stack9);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(boolean)>($stack18);
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack10, $stack11);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(boolean)>($stack20);
+
+        $stack22 = virtualinvoke $stack8.<java.lang.Integer: int intValue()>();
+
+        if $stack22 != a goto label09;
+
+        $stack29 = 1;
+
+        goto label10;
+
+     label09:
+        $stack29 = 0;
+
+     label10:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(boolean)>($stack29);
+
+        $stack24 = virtualinvoke $stack10.<java.lang.Integer: int intValue()>();
+
+        if $stack24 != b goto label11;
+
+        $stack26 = 1;
+
+        goto label12;
+
+     label11:
+        $stack26 = 0;
+
+     label12:
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(boolean)>($stack26);
+
+        return;
+    }
+
+    public static final void dummy2(java.lang.Integer, java.lang.Integer)
+    {
+        java.lang.Integer a, b;
+        boolean $stack12, $stack14, $stack16, $stack18, $stack49, $stack44, $stack39, $stack20;
+        java.io.PrintStream $stack8, $stack9, $stack10, $stack11, $stack13, $stack15, $stack17, $stack19;
+
+        a := @parameter0: java.lang.Integer;
+
+        b := @parameter1: java.lang.Integer;
+
+        if a != a goto label1;
+
+        $stack49 = 1;
+
+        goto label2;
+
+     label1:
+        $stack49 = 0;
+
+     label2:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(boolean)>($stack49);
+
+        if b != b goto label3;
+
+        $stack44 = 1;
+
+        goto label4;
+
+     label3:
+        $stack44 = 0;
+
+     label4:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(boolean)>($stack44);
+
+        if a != a goto label5;
+
+        $stack39 = 1;
+
+        goto label6;
+
+     label5:
+        $stack39 = 0;
+
+     label6:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack39);
+
+        if b != b goto label7;
+
+        $stack20 = 1;
+
+        goto label8;
+
+     label7:
+        $stack20 = 0;
+
+     label8:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(boolean)>($stack20);
+
+        $stack12 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(a, a);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(boolean)>($stack12);
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(b, b);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(boolean)>($stack14);
+
+        $stack16 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(a, a);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(boolean)>($stack16);
+
+        $stack18 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(b, b);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(boolean)>($stack18);
+
+        return;
+    }
+
+    public static final void dummy3(java.util.ArrayList, java.util.List)
+    {
+        java.io.PrintStream $stack7, $stack8;
+        java.util.List b;
+        java.lang.Integer $stack5;
+        java.util.ArrayList a;
+        boolean $stack6;
+
+        a := @parameter0: java.util.ArrayList;
+
+        b := @parameter1: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(a, "a");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(b, "b");
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(21520);
+
+        $stack6 = virtualinvoke a.<java.util.ArrayList: boolean add(java.lang.Object)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(boolean)>($stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(b);
+
+        return;
+    }
+
+    public static final int getInt(int)
+    {
+        int range;
+
+        range := @parameter0: int;
+
+        if range >= 100 goto label1;
+
+        return 50;
+
+     label1:
+        return 250;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void main()>();
+
+        return;
+    }
+}

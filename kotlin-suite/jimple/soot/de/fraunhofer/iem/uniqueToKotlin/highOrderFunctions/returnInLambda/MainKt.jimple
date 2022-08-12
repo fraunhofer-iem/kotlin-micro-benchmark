@@ -1,0 +1,62 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt extends java.lang.Object
+{
+
+    public static final java.lang.String printName(kotlin.jvm.functions.Function1)
+    {
+        kotlin.jvm.functions.Function1 printer;
+        java.lang.Object $stack1;
+        java.lang.String $stack2;
+
+        printer := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(printer, "printer");
+
+        $stack1 = interfaceinvoke printer.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith");
+
+        $stack2 = (java.lang.String) $stack1;
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack9;
+        kotlin.jvm.functions.Function1 $stack3, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$1 $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$2 $stack6;
+        java.lang.String $stack4, $stack8;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$1 INSTANCE>;
+
+        $stack3 = (kotlin.jvm.functions.Function1) $stack2;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$2: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$2 INSTANCE>;
+
+        $stack7 = (kotlin.jvm.functions.Function1) $stack6;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>($stack7);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: void main()>();
+
+        return;
+    }
+}

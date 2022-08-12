@@ -1,0 +1,109 @@
+public class de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        java.lang.Integer $stack12;
+        int $stack13, varReplacer528, varReplacer529, varReplacer530, varReplacer531, varReplacer532;
+        java.lang.String varReplacer533;
+        boolean $stack7;
+        java.io.PrintStream $stack8, $stack14, $stack15, $stack20;
+        java.lang.UnsupportedOperationException $stack19;
+        java.util.Iterator $stack6;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts $stack5;
+        java.util.function.Consumer $stack10, $stack17;
+        java.lang.Object $stack11;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack5 = new de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts;
+
+        varReplacer528 = 1;
+
+        varReplacer529 = 2;
+
+        varReplacer530 = 3;
+
+        varReplacer531 = 4;
+
+        varReplacer532 = 5;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <init>(int,int,int,int,int)>(varReplacer528, varReplacer529, varReplacer530, varReplacer531, varReplacer532);
+
+        $stack6 = virtualinvoke $stack5.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Iterator iterator()>();
+
+     label1:
+        $stack7 = interfaceinvoke $stack6.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack7 == 0 goto label6;
+
+        nop;
+
+        $stack11 = interfaceinvoke $stack6.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack12 = (java.lang.Integer) $stack11;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Integer: int intValue()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>($stack13);
+
+     label2:
+        interfaceinvoke $stack6.<java.util.Iterator: void remove()>();
+
+     label3:
+        goto label5;
+
+     label4:
+        $stack19 := @caughtexception;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer533 = "Remove function can not be called on FiveInts";
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.String)>(varReplacer533);
+
+     label5:
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        staticinvoke <java.util.Objects: java.lang.Object requireNonNull(java.lang.Object)>($stack15);
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main$println__5: java.util.function.Consumer bootstrap$(java.io.PrintStream)>($stack15);
+
+        interfaceinvoke $stack6.<java.util.Iterator: void forEachRemaining(java.util.function.Consumer)>($stack17);
+
+        goto label1;
+
+     label6:
+        nop;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        staticinvoke <java.util.Objects: java.lang.Object requireNonNull(java.lang.Object)>($stack8);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main$println__4: java.util.function.Consumer bootstrap$(java.io.PrintStream)>($stack8);
+
+        virtualinvoke $stack5.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void forEach(java.util.function.Consumer)>($stack10);
+
+        return;
+
+        catch java.lang.UnsupportedOperationException from label2 to label3 with label4;
+    }
+}

@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Walkable extends java.lang.Object
+{
+
+    public abstract void walk();
+
+    public abstract void crawl();
+}

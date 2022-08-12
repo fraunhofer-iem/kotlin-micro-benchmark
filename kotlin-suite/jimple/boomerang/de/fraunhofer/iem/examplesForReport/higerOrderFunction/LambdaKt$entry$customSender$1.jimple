@@ -1,0 +1,89 @@
+final class de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    final java.lang.String $hello;
+
+    void <init>(java.lang.String)
+    {
+        int varReplacer1371;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1 this;
+        java.lang.String $hello;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1;
+
+        $hello := @parameter0: java.lang.String;
+
+        this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: java.lang.String $hello> = $hello;
+
+        varReplacer1371 = 1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer1371);
+
+        return;
+    }
+
+    public final void invoke(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)
+    {
+        java.io.PrintStream $stack10;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1 this;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee emp;
+        int varReplacer1372;
+        java.lang.StringBuilder $stack4, $stack6, $stack7, $stack8;
+        java.lang.String $stack5, $stack9, varReplacer1373;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1;
+
+        emp := @parameter0: de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee;
+
+        varReplacer1373 = "emp";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(emp, varReplacer1373);
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: java.lang.String $hello>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack5);
+
+        varReplacer1372 = 32;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1372);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(emp);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee $stack2;
+        kotlin.Unit $stack3;
+        de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1 this;
+        java.lang.Object p1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.examplesForReport.higerOrderFunction.LambdaKt$entry$customSender$1: void invoke(de.fraunhofer.iem.examplesForReport.higerOrderFunction.Employee)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+}

@@ -1,0 +1,39 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.AnimalMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox $stack2;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal animal;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat: void <init>(java.lang.String)>("AAATGC");
+
+        animal = (de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal) $stack1;
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: void makeNoise()>();
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: void displayDNA()>();
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox: void <init>()>();
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox: void makeNoise()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.AnimalMainKt: void main()>();
+
+        return;
+    }
+}

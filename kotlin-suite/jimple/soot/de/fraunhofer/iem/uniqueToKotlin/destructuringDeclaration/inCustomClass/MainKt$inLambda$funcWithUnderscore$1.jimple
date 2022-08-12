@@ -1,0 +1,77 @@
+final class de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(1);
+
+        return;
+    }
+
+    public final void invoke(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)
+    {
+        java.io.PrintStream $stack7, $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person $dstr$_u24__u24$ag$_u24__u24$nm;
+        int $stack5;
+        java.lang.String $stack6;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1;
+
+        $dstr$_u24__u24$ag$_u24__u24$nm := @parameter0: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($dstr$_u24__u24$ag$_u24__u24$nm, "$dstr$_u24__u24$ag$_u24__u24$nm");
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>($dstr$_u24__u24$ag$_u24__u24$nm);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>($dstr$_u24__u24$ag$_u24__u24$nm);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack5);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        kotlin.Unit $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person $stack2;
+        java.lang.Object p1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1: void invoke(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

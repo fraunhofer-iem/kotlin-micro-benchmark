@@ -1,0 +1,75 @@
+public class de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack4, $stack8, varReplacer478, varReplacer479, varReplacer480, varReplacer481, varReplacer482, varReplacer483, varReplacer484, varReplacer485;
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack9;
+        de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts $stack2;
+        float $stack6, $stack10;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer482 = 10;
+
+        varReplacer483 = 20;
+
+        $stack4 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>(varReplacer482, varReplacer483);
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer478 = 10;
+
+        varReplacer479 = 20;
+
+        $stack6 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>(varReplacer478, varReplacer479);
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(float)>($stack6);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer484 = 1123;
+
+        varReplacer485 = 223;
+
+        $stack8 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: int add(int,int)>(varReplacer484, varReplacer485);
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack8);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer480 = 1123;
+
+        varReplacer481 = 223;
+
+        $stack10 = virtualinvoke $stack2.<de.fraunhofer.iem.functions.simpleExample.classMemberFunctions.TwoInts: float publicAdd10(int,int)>(varReplacer480, varReplacer481);
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(float)>($stack10);
+
+        return;
+    }
+}

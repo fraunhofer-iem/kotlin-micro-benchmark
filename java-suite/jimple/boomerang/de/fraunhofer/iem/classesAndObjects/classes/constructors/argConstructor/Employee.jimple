@@ -1,0 +1,46 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee extends java.lang.Object
+{
+    java.lang.String firstName;
+    java.lang.String lastName;
+    int age;
+
+    void <init>(java.lang.String, java.lang.String, int)
+    {
+        java.io.PrintStream $stack4, $stack5;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee this;
+        int age;
+        java.lang.String firstName, lastName, varReplacer285, varReplacer286;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer286 = "Initializer block";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>(varReplacer286);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.argConstructor.Employee: int age> = age;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer285 = "Completed Initializer block";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(varReplacer285);
+
+        return;
+    }
+}

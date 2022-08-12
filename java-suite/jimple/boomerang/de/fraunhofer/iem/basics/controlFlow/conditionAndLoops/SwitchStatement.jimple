@@ -1,0 +1,237 @@
+public class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        int varReplacer33;
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer33 = 90;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithInt(int)>(varReplacer33);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithString(java.lang.String[])>(args);
+
+        return;
+    }
+
+    private static void simpleSwitchWithString(java.lang.String[])
+    {
+        java.lang.String[] args;
+        byte l2;
+        int $stack3;
+        java.lang.String l1, varReplacer34, varReplacer35, varReplacer36, varReplacer37, varReplacer38, varReplacer39, varReplacer40;
+        boolean $stack4, $stack10, $stack11;
+        java.io.PrintStream $stack5, $stack6, $stack7, $stack8;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        l1 = args[0];
+
+        l2 = -1;
+
+        $stack3 = virtualinvoke l1.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack3)
+        {
+            case 3329: goto label1;
+            case 99162322: goto label2;
+            case 605712515: goto label3;
+            default: goto label4;
+        };
+
+     label1:
+        varReplacer34 = "hi";
+
+        $stack11 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer34);
+
+        if $stack11 == 0 goto label4;
+
+        nop;
+
+        l2 = 0;
+
+        goto label4;
+
+     label2:
+        varReplacer38 = "hello";
+
+        $stack10 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer38);
+
+        if $stack10 == 0 goto label4;
+
+        nop;
+
+        l2 = 1;
+
+        goto label4;
+
+     label3:
+        varReplacer35 = "how are you";
+
+        $stack4 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer35);
+
+        if $stack4 == 0 goto label4;
+
+        nop;
+
+        l2 = 2;
+
+     label4:
+        nop;
+
+        nop;
+
+        nop;
+
+        tableswitch(l2)
+        {
+            case 0: goto label5;
+            case 1: goto label6;
+            case 2: goto label7;
+            default: goto label8;
+        };
+
+     label5:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer36 = "Hi!";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>(varReplacer36);
+
+        goto label9;
+
+     label6:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer39 = "Hello!";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>(varReplacer39);
+
+        goto label9;
+
+     label7:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer40 = "How Are You?";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(varReplacer40);
+
+        goto label9;
+
+     label8:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer37 = "What should i tell?";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>(varReplacer37);
+
+     label9:
+        return;
+    }
+
+    private static void simpleSwitchWithInt(int)
+    {
+        java.io.PrintStream $stack1, $stack2, $stack3, $stack4, $stack5, $stack6, $stack7;
+        int num;
+        java.lang.String varReplacer41, varReplacer42, varReplacer43, varReplacer44, varReplacer45, varReplacer46, varReplacer47;
+
+        nop;
+
+        num := @parameter0: int;
+
+        lookupswitch(num)
+        {
+            case 0: goto label1;
+            case 1: goto label2;
+            case 5: goto label3;
+            case 10: goto label4;
+            case 20: goto label5;
+            case 90: goto label6;
+            default: goto label7;
+        };
+
+     label1:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer41 = "Zero";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>(varReplacer41);
+
+        goto label8;
+
+     label2:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer44 = "One";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(varReplacer44);
+
+        goto label8;
+
+     label3:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer42 = "Five";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>(varReplacer42);
+
+        goto label8;
+
+     label4:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer46 = "Ten";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>(varReplacer46);
+
+        goto label8;
+
+     label5:
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer45 = "Twenty";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(varReplacer45);
+
+        goto label8;
+
+     label6:
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer47 = "Ninety";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer47);
+
+        goto label8;
+
+     label7:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer43 = "Others";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>(varReplacer43);
+
+     label8:
+        return;
+    }
+}

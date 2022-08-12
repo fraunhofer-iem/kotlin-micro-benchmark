@@ -1,0 +1,300 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt extends java.lang.Object implements java.lang.Comparable
+{
+    private final int value;
+
+    public void <init>(int)
+    {
+        int value;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        value := @parameter0: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value> = value;
+
+        return;
+    }
+
+    public final int getValue()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange rangeTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt end, this;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange $stack2;
+        java.lang.String varReplacer2985;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        end := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        varReplacer2985 = "end";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(end, varReplacer2985);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>(this, end);
+
+        return $stack2;
+    }
+
+    public int compareTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt other, this;
+        int $stack2, $stack3, $stack4, $stack5, $i0, varReplacer2987, varReplacer2988;
+        java.lang.String varReplacer2986;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        other := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        varReplacer2986 = "other";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(other, varReplacer2986);
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        $stack2 = other.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        if $stack3 >= $stack2 goto label1;
+
+        nop;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        nop;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        $stack4 = other.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        if $stack5 <= $stack4 goto label2;
+
+        nop;
+
+        varReplacer2988 = 1;
+
+        return varReplacer2988;
+
+     label2:
+        nop;
+
+        varReplacer2987 = 0;
+
+        return varReplacer2987;
+    }
+
+    public final int component1()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy(int)
+    {
+        int value;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        value := @parameter0: int;
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>(value);
+
+        return $stack2;
+    }
+
+    public static de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy$default(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt, int, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt l0, $stack5;
+        int l2, $stack4, l1;
+        java.lang.Object l3;
+
+        nop;
+
+        l0 := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        l1 := @parameter1: int;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: java.lang.Object;
+
+        $stack4 = l2 & 1;
+
+        if $stack4 == 0 goto label1;
+
+        nop;
+
+        l1 = l0.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+     label1:
+        nop;
+
+        $stack5 = virtualinvoke l0.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy(int)>(l1);
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this;
+        int $stack3, varReplacer2989;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5;
+        java.lang.String $stack6, varReplacer2990;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2990 = "MyInt(value=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2990);
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack3);
+
+        varReplacer2989 = 41;
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer2989);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack6;
+    }
+
+    public int hashCode()
+    {
+        int $stack1, $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        $stack2 = staticinvoke <java.lang.Integer: int hashCode(int)>($stack1);
+
+        return $stack2;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this, l2;
+        int $stack4, $stack5, varReplacer2991, varReplacer2992, varReplacer2993, varReplacer2994;
+        java.lang.Object other;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        nop;
+
+        varReplacer2994 = 1;
+
+        return varReplacer2994;
+
+     label1:
+        nop;
+
+        $stack3 = other instanceof de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        if $stack3 != 0 goto label2;
+
+        nop;
+
+        varReplacer2993 = 0;
+
+        return varReplacer2993;
+
+     label2:
+        nop;
+
+        l2 = (de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt) other;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        $stack4 = l2.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int value>;
+
+        if $stack5 == $stack4 goto label3;
+
+        nop;
+
+        varReplacer2991 = 0;
+
+        return varReplacer2991;
+
+     label3:
+        nop;
+
+        varReplacer2992 = 1;
+
+        return varReplacer2992;
+    }
+
+    public volatile int compareTo(java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt this, $stack2;
+        int $stack3;
+        java.lang.Object other;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        other := @parameter0: java.lang.Object;
+
+        $stack2 = (de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt) other;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int compareTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>($stack2);
+
+        return $stack3;
+    }
+}

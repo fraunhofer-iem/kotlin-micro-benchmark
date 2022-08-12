@@ -1,0 +1,78 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 INSTANCE;
+
+    void <init>()
+    {
+        int varReplacer2417;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1;
+
+        varReplacer2417 = 1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer2417);
+
+        return;
+    }
+
+    public final void invoke(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML $this$html;
+        java.lang.String varReplacer2418;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1;
+
+        $this$html := @parameter0: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML;
+
+        varReplacer2418 = "$this$html";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$html, varReplacer2418);
+
+        virtualinvoke $this$html.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML: void body()>();
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML $stack2;
+        kotlin.Unit $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 this;
+        java.lang.Object p1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1: void invoke(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.HTML)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example2.MainKt$main$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

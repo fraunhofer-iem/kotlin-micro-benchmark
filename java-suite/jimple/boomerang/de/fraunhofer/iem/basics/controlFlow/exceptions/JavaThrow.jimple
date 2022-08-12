@@ -1,0 +1,68 @@
+public class de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[]) throws java.lang.Exception
+    {
+        java.lang.String[] args;
+        java.lang.String varReplacer48, varReplacer49;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer48 = "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void checkValid(java.lang.String)>(varReplacer48);
+
+        varReplacer49 = "ranj345n";
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void checkValid(java.lang.String)>(varReplacer49);
+
+        return;
+    }
+
+    private static void checkValid(java.lang.String) throws java.lang.Exception
+    {
+        java.lang.String name, varReplacer50, varReplacer51;
+        java.lang.Exception $stack2;
+        boolean $stack1;
+
+        nop;
+
+        name := @parameter0: java.lang.String;
+
+        varReplacer50 = ".*\\d.*";
+
+        $stack1 = virtualinvoke name.<java.lang.String: boolean matches(java.lang.String)>(varReplacer50);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $stack2 = new java.lang.Exception;
+
+        varReplacer51 = "Invalid name";
+
+        specialinvoke $stack2.<java.lang.Exception: void <init>(java.lang.String)>(varReplacer51);
+
+        throw $stack2;
+
+     label1:
+        nop;
+
+        return;
+    }
+}

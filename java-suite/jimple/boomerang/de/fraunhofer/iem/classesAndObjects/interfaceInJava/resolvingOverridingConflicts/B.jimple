@@ -1,0 +1,41 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B extends java.lang.Object
+{
+
+    public void foo()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer471;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer471 = "B --> foo";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer471);
+
+        return;
+    }
+
+    public void bar()
+    {
+        java.io.PrintStream $stack1;
+        java.lang.String varReplacer472;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer472 = "B --> bar";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer472);
+
+        return;
+    }
+}

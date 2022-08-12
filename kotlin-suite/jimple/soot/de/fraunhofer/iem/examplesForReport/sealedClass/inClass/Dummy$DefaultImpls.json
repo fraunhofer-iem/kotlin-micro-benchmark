@@ -1,0 +1,15 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy$DefaultImpls",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy$DefaultImpls: void myDummy(de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy)>"],
+    "methodsInformation": {"void myDummy(de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy)": {
+        "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy"},
+        "stackVariables": {"$stack3": "java.io.PrintStream"},
+        "invokeExpressions": [
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt: de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1 getManager(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt: de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee getTeamLead(java.lang.String,int)>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1 getManager(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "age": "int"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1: void <init>(java.lang.String,int)>"]
+        },
+        "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee getTeamLead(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "age": "int",
+                "varReplacer1344": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1",
+                "$stack3": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1: void <init>(java.lang.String,int)>"
+            ]
+        }
+    }
+}

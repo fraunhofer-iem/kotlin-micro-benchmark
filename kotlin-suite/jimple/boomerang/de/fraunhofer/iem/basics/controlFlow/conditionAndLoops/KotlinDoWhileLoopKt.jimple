@@ -1,0 +1,64 @@
+public final class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt extends java.lang.Object
+{
+
+    private static final void doWhileExample(int)
+    {
+        int end, x;
+        java.io.PrintStream $stack3;
+
+        nop;
+
+        end := @parameter0: int;
+
+        x = end;
+
+     label1:
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(x);
+
+        x = x + 1;
+
+        if x < 10 goto label1;
+
+        nop;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        int varReplacer0, varReplacer1, varReplacer2;
+
+        nop;
+
+        varReplacer2 = 0;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(varReplacer2);
+
+        varReplacer1 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(varReplacer1);
+
+        varReplacer0 = 15;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(varReplacer0);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void main()>();
+
+        return;
+    }
+}

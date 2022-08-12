@@ -1,0 +1,32 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog: void makeNoise()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "DNA": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog",
+                "varReplacer488": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: void <init>(java.lang.String)>"
+            ]
+        },
+        "void makeNoise()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog",
+                "varReplacer489": "java.lang.String"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

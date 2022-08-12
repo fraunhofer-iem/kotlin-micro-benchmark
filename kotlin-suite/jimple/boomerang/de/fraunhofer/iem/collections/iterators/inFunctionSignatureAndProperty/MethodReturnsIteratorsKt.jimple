@@ -1,0 +1,167 @@
+public final class de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.util.List $stack2;
+        java.lang.String[] l1;
+        java.lang.String varReplacer1202, varReplacer1203;
+
+        nop;
+
+        l1 = newarray (java.lang.String)[2];
+
+        varReplacer1202 = "Ranjith";
+
+        l1[0] = varReplacer1202;
+
+        varReplacer1203 = "K";
+
+        l1[1] = varReplacer1203;
+
+        $stack2 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnIterable(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnIterator(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnListIterator(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.ListIterator returnMutableListIterator(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnIterator(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.util.Iterator returnMutableIterator(java.util.List)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: java.lang.Iterable returnMutableIterable(java.util.List)>($stack2);
+
+        return;
+    }
+
+    public static final java.util.Iterator returnIterator(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1204;
+        java.util.Iterator $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1204 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1204);
+
+        $stack1 = interfaceinvoke lst.<java.util.List: java.util.Iterator iterator()>();
+
+        return $stack1;
+    }
+
+    public static final java.lang.Iterable returnIterable(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1205;
+        java.lang.Iterable $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1205 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1205);
+
+        $stack1 = (java.lang.Iterable) lst;
+
+        return $stack1;
+    }
+
+    public static final java.util.ListIterator returnListIterator(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1206;
+        java.util.ListIterator $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1206 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1206);
+
+        $stack1 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+        return $stack1;
+    }
+
+    public static final java.util.Iterator returnMutableIterator(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1207;
+        java.util.Iterator $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1207 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1207);
+
+        $stack1 = interfaceinvoke lst.<java.util.List: java.util.Iterator iterator()>();
+
+        return $stack1;
+    }
+
+    public static final java.lang.Iterable returnMutableIterable(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1208;
+        java.lang.Iterable $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1208 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1208);
+
+        $stack1 = (java.lang.Iterable) lst;
+
+        return $stack1;
+    }
+
+    public static final java.util.ListIterator returnMutableListIterator(java.util.List)
+    {
+        java.util.List lst;
+        java.lang.String varReplacer1209;
+        java.util.ListIterator $stack1;
+
+        nop;
+
+        lst := @parameter0: java.util.List;
+
+        varReplacer1209 = "lst";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lst, varReplacer1209);
+
+        $stack1 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+        return $stack1;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.inFunctionSignatureAndProperty.MethodReturnsIteratorsKt: void main()>();
+
+        return;
+    }
+}

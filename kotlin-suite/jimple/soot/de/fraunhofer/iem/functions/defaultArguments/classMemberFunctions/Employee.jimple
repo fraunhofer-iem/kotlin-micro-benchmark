@@ -1,0 +1,82 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee this;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void send(java.lang.String, java.lang.String, int)
+    {
+        int age;
+        java.lang.String firstName, lastName;
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee this;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        return;
+    }
+
+    public static void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee, java.lang.String, java.lang.String, int, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee l0;
+        int l4, $stack6, $stack7, $stack8, l3, $i0;
+        java.lang.Object l5;
+        java.lang.String l1, l2;
+
+        l0 := @parameter0: de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: java.lang.String;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: java.lang.Object;
+
+        $stack6 = l4 & 1;
+
+        if $stack6 == 0 goto label1;
+
+        l1 = "Unknown";
+
+     label1:
+        $stack7 = l4 & 2;
+
+        if $stack7 == 0 goto label2;
+
+        l2 = "Unknown";
+
+     label2:
+        $stack8 = l4 & 4;
+
+        if $stack8 == 0 goto label3;
+
+        $i0 = (int) -1;
+
+        l3 = $i0;
+
+     label3:
+        virtualinvoke l0.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>(l1, l2, l3);
+
+        return;
+    }
+}

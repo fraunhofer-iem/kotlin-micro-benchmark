@@ -1,0 +1,63 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function0
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 INSTANCE;
+
+    void <init>()
+    {
+        int varReplacer2375;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1;
+
+        varReplacer2375 = 0;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer2375);
+
+        return;
+    }
+
+    public final java.lang.String invoke()
+    {
+        java.lang.String varReplacer2376;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1;
+
+        varReplacer2376 = "Fun2";
+
+        return varReplacer2376;
+    }
+
+    public volatile java.lang.Object invoke()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: java.lang.String invoke()>();
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

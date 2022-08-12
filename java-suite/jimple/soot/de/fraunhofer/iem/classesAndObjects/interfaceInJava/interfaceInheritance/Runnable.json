@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Runnable",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Runnable: void run()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Runnable: void crawl()>"
+    ],
+    "methodsInformation": {
+        "void run()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void crawl()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

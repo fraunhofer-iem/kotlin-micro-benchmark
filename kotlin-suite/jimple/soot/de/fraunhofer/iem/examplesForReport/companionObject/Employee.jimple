@@ -1,0 +1,151 @@
+public final class de.fraunhofer.iem.examplesForReport.companionObject.Employee extends java.lang.Object
+{
+    public static final de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator MessageCreator;
+    private final java.lang.String firstName;
+    private final java.lang.String lastName;
+    private final int age;
+    private static java.lang.String currentGreetingMessage;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee this;
+        int age;
+        java.lang.String firstName, lastName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void welcomeEmployee()
+    {
+        java.io.PrintStream $stack15;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator $stack3;
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee this;
+        java.lang.StringBuilder $stack5, $stack7, $stack8, $stack10, $stack11, $stack13;
+        java.lang.String $stack6, $stack9, $stack12, $stack14;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.companionObject.Employee;
+
+        $stack3 = <de.fraunhofer.iem.examplesForReport.companionObject.Employee: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator MessageCreator>;
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String access$sayHi(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>($stack3);
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = <de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String currentGreetingMessage>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack9 = this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String firstName>;
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack9);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(32);
+
+        $stack12 = this.<de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String lastName>;
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        return;
+    }
+
+    public static final java.lang.String access$getCurrentGreetingMessage$cp()
+    {
+        java.lang.String $stack0;
+
+        $stack0 = <de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String currentGreetingMessage>;
+
+        return $stack0;
+    }
+
+    public static final void access$setCurrentGreetingMessage$cp(java.lang.String)
+    {
+        java.lang.String <set-?>;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        <de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String currentGreetingMessage> = <set-?>;
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator $stack0;
+
+        $stack0 = new de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(null);
+
+        <de.fraunhofer.iem.examplesForReport.companionObject.Employee: de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator MessageCreator> = $stack0;
+
+        <de.fraunhofer.iem.examplesForReport.companionObject.Employee: java.lang.String currentGreetingMessage> = "Hello!";
+
+        return;
+    }
+}

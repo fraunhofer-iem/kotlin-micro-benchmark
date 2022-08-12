@@ -1,0 +1,59 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Object $stack2, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImpl $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair ob;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImpl;
+
+        $stack2 = new java.lang.Object;
+
+        specialinvoke $stack2.<java.lang.Object: void <init>()>();
+
+        $stack3 = new java.lang.Object;
+
+        specialinvoke $stack3.<java.lang.Object: void <init>()>();
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImpl: void <init>(java.lang.Object,java.lang.Object)>($stack2, $stack3);
+
+        ob = (de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair)>(ob);
+
+        return;
+    }
+
+    public static final void dummy(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair)
+    {
+        java.io.PrintStream $stack3, $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair ob;
+
+        ob := @parameter0: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPair;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(ob);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(ob);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.contraVariant.DifferentTypedPairImplKt: void main()>();
+
+        return;
+    }
+}

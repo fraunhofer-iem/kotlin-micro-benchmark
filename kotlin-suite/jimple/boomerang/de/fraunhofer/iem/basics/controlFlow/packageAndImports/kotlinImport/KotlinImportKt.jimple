@@ -1,0 +1,40 @@
+public final class de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3, $stack5;
+        java.lang.String $stack2, $stack4;
+
+        nop;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getName()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getMyName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: void printMyName()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.packageAndImports.kotlinImport.KotlinImportKt: void main()>();
+
+        return;
+    }
+}

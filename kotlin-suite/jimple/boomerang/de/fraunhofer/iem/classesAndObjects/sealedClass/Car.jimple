@@ -1,0 +1,43 @@
+public final class de.fraunhofer.iem.classesAndObjects.sealedClass.Car extends de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle
+{
+    private final java.lang.String registrationNumber;
+
+    public void <init>(java.lang.String)
+    {
+        null_type varReplacer897;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Car this;
+        java.lang.String registrationNumber, varReplacer896;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Car;
+
+        registrationNumber := @parameter0: java.lang.String;
+
+        varReplacer896 = "registrationNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(registrationNumber, varReplacer896);
+
+        varReplacer897 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>(registrationNumber, varReplacer897);
+
+        this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String registrationNumber> = registrationNumber;
+
+        return;
+    }
+
+    public final java.lang.String getRegistrationNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String registrationNumber>;
+
+        return $stack1;
+    }
+}

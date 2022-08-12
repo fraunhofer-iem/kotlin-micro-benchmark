@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void doWhileExample(int)": {
+            "localVariables": {
+                "end": "int",
+                "x": "int"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void main()>"]
+        }
+    }
+}

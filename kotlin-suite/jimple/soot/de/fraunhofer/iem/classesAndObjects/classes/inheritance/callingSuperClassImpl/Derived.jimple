@@ -1,0 +1,30 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void <init>()>();
+
+        return;
+    }
+
+    public void print()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived this;
+        java.io.PrintStream $stack3;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void print()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Derived");
+
+        return;
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack9": "double",
+                "$stack10": "double",
+                "$stack11": "java.lang.Double",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "double",
+                "$stack14": "double",
+                "$stack15": "java.lang.Double",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "double",
+                "$stack18": "double",
+                "$stack19": "java.lang.Double",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "double",
+                "$stack22": "double",
+                "$stack23": "java.lang.Double",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "double",
+                "$stack26": "double",
+                "$stack27": "java.lang.Double",
+                "$stack28": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

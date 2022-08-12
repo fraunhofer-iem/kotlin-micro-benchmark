@@ -1,0 +1,342 @@
+public final class de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt extends java.lang.Object
+{
+
+    private static final void tryCatchExample1()
+    {
+        java.io.PrintStream $stack4, $stack6;
+        java.lang.NoSuchFieldException $stack5;
+        java.lang.NoSuchMethodException $stack3;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>("ranj345n");
+
+     label2:
+        goto label5;
+
+     label3:
+        $stack5 := @caughtexception;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample1 (NoSuchFieldException)");
+
+        goto label5;
+
+     label4:
+        $stack3 := @caughtexception;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample1 (NoSuchMethodException)");
+
+     label5:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+        catch java.lang.NoSuchMethodException from label1 to label2 with label4;
+    }
+
+    private static final void tryCatchExample2()
+    {
+        java.io.PrintStream $stack4;
+        java.lang.NoSuchFieldException $stack3;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("ranj345n");
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack3 := @caughtexception;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample2 (NoSuchFieldException)");
+
+     label4:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+    }
+
+    private static final void tryCatchExample3()
+    {
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack8, $stack10, $stack11;
+        java.lang.Throwable $stack4;
+        java.lang.NoSuchMethodException $stack6;
+        java.lang.NoSuchFieldException $stack9;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>("ranj345n");
+
+     label2:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample3");
+
+        goto label9;
+
+     label3:
+        $stack9 := @caughtexception;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample3 (NoSuchFieldException)");
+
+     label4:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample3");
+
+        goto label9;
+
+     label5:
+        $stack6 := @caughtexception;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample3 (NoSuchMethodException)");
+
+     label6:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample3");
+
+        goto label9;
+
+     label7:
+        $stack4 := @caughtexception;
+
+     label8:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample3");
+
+        throw $stack4;
+
+     label9:
+        return;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+        catch java.lang.NoSuchMethodException from label1 to label2 with label5;
+        catch java.lang.Throwable from label1 to label2 with label7;
+        catch java.lang.Throwable from label3 to label4 with label7;
+        catch java.lang.Throwable from label5 to label6 with label7;
+        catch java.lang.Throwable from label7 to label8 with label7;
+    }
+
+    private static final void tryCatchExample4()
+    {
+        java.io.PrintStream $stack3, $stack5;
+        java.lang.Throwable $stack4;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>("ranj345n");
+
+     label2:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample4");
+
+        goto label5;
+
+     label3:
+        $stack4 := @caughtexception;
+
+     label4:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample4");
+
+        throw $stack4;
+
+     label5:
+        return;
+
+        catch java.lang.Throwable from label1 to label2 with label3;
+        catch java.lang.Throwable from label3 to label4 with label3;
+    }
+
+    private static final int tryCatchExample5()
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack9, $stack12, $stack13;
+        java.lang.Throwable $stack5;
+        java.lang.NoSuchMethodException $stack7;
+        short l0;
+        java.lang.NoSuchFieldException $stack11;
+
+     label1:
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid1(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void checkValid2(java.lang.String)>("ranj345n");
+
+        l0 = 0;
+
+     label2:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample5");
+
+        goto label9;
+
+     label3:
+        $stack11 := @caughtexception;
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample3 (NoSuchFieldException)");
+
+        l0 = -100;
+
+     label4:
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample5");
+
+        goto label9;
+
+     label5:
+        $stack7 := @caughtexception;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("Something went wrong in tryCatchExample3 (NoSuchMethodException)");
+
+        l0 = -150;
+
+     label6:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample5");
+
+        goto label9;
+
+     label7:
+        $stack5 := @caughtexception;
+
+     label8:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>("Finally executed in tryCatchExample5");
+
+        throw $stack5;
+
+     label9:
+        return l0;
+
+        catch java.lang.NoSuchFieldException from label1 to label2 with label3;
+        catch java.lang.NoSuchMethodException from label1 to label2 with label5;
+        catch java.lang.Throwable from label1 to label2 with label7;
+        catch java.lang.Throwable from label3 to label4 with label7;
+        catch java.lang.Throwable from label5 to label6 with label7;
+        catch java.lang.Throwable from label7 to label8 with label7;
+    }
+
+    private static final void checkValid1(java.lang.String) throws java.lang.NoSuchFieldException
+    {
+        java.lang.CharSequence l1;
+        java.lang.NoSuchFieldException $stack6;
+        java.lang.String name;
+        kotlin.text.Regex $stack4;
+        boolean $stack5;
+
+        name := @parameter0: java.lang.String;
+
+        l1 = (java.lang.CharSequence) name;
+
+        $stack4 = new kotlin.text.Regex;
+
+        specialinvoke $stack4.<kotlin.text.Regex: void <init>(java.lang.String)>(".*\\d.*");
+
+        $stack5 = virtualinvoke $stack4.<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>(l1);
+
+        if $stack5 == 0 goto label1;
+
+        $stack6 = new java.lang.NoSuchFieldException;
+
+        specialinvoke $stack6.<java.lang.NoSuchFieldException: void <init>(java.lang.String)>("Invalid name");
+
+        throw $stack6;
+
+     label1:
+        return;
+    }
+
+    private static final void checkValid2(java.lang.String) throws java.lang.NoSuchMethodException
+    {
+        java.lang.CharSequence l1;
+        java.lang.NoSuchMethodException $stack6;
+        java.lang.String name;
+        kotlin.text.Regex $stack4;
+        boolean $stack5;
+
+        name := @parameter0: java.lang.String;
+
+        l1 = (java.lang.CharSequence) name;
+
+        $stack4 = new kotlin.text.Regex;
+
+        specialinvoke $stack4.<kotlin.text.Regex: void <init>(java.lang.String)>(".*\\d.*");
+
+        $stack5 = virtualinvoke $stack4.<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>(l1);
+
+        if $stack5 == 0 goto label1;
+
+        $stack6 = new java.lang.NoSuchMethodException;
+
+        specialinvoke $stack6.<java.lang.NoSuchMethodException: void <init>(java.lang.String)>("Invalid name");
+
+        throw $stack6;
+
+     label1:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6;
+        int $stack3;
+        java.lang.String $stack5;
+        java.lang.Integer $stack4;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample1()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample2()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample3()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: int tryCatchExample5()>();
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("tryCatchExample5() return ", $stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void tryCatchExample4()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinTryCatchFinallyKt: void main()>();
+
+        return;
+    }
+}

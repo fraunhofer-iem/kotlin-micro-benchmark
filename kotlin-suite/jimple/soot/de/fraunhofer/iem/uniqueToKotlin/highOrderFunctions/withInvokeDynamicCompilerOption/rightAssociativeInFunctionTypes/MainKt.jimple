@@ -1,0 +1,113 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt extends java.lang.Object
+{
+
+    public static final void callFun(kotlin.jvm.functions.Function1)
+    {
+        java.io.PrintStream $stack10;
+        kotlin.jvm.functions.Function1 fun1, $stack5;
+        java.lang.Integer $stack3, $stack6;
+        int $stack9;
+        java.lang.Object $stack4, $stack7;
+        java.lang.Number $stack8;
+
+        fun1 := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fun1, "fun1");
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack4 = interfaceinvoke fun1.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack3);
+
+        $stack5 = (kotlin.jvm.functions.Function1) $stack4;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack7 = interfaceinvoke $stack5.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack6);
+
+        $stack8 = (java.lang.Number) $stack7;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Number: int intValue()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        kotlin.jvm.functions.Function1 $stack2, $stack3;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-1__14: kotlin.jvm.functions.Function1 bootstrap$()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-3__15: kotlin.jvm.functions.Function1 bootstrap$()>();
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>($stack3);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt: void main()>();
+
+        return;
+    }
+
+    private static final int main$lambda-1$lambda-0(int, int)
+    {
+        int b, $a, $stack2;
+
+        $a := @parameter0: int;
+
+        b := @parameter1: int;
+
+        $stack2 = b + $a;
+
+        return $stack2;
+    }
+
+    public static final kotlin.jvm.functions.Function1 main$lambda-1(int)
+    {
+        int a;
+        kotlin.jvm.functions.Function1 $stack1;
+
+        a := @parameter0: int;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-1_lambda-0__16: kotlin.jvm.functions.Function1 bootstrap$(int)>(a);
+
+        return $stack1;
+    }
+
+    private static final int main$lambda-3$lambda-2(int, int)
+    {
+        int b, $a, $stack2;
+
+        $a := @parameter0: int;
+
+        b := @parameter1: int;
+
+        $stack2 = b * $a;
+
+        return $stack2;
+    }
+
+    public static final kotlin.jvm.functions.Function1 main$lambda-3(int)
+    {
+        int a;
+        kotlin.jvm.functions.Function1 $stack1;
+
+        a := @parameter0: int;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.rightAssociativeInFunctionTypes.MainKt$main_lambda-3_lambda-2__17: kotlin.jvm.functions.Function1 bootstrap$(int)>(a);
+
+        return $stack1;
+    }
+}

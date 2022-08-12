@@ -1,0 +1,54 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String $stack1, varReplacer701;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName $stack2;
+
+        nop;
+
+        varReplacer701 = "Ranjith";
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>(varReplacer701);
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>($stack1);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>($stack1);
+
+        return;
+    }
+
+    public static final void printMyUserName(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)
+    {
+        java.lang.String varReplacer702;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter userNamePrinter;
+
+        nop;
+
+        userNamePrinter := @parameter0: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter;
+
+        varReplacer702 = "userNamePrinter";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userNamePrinter, varReplacer702);
+
+        interfaceinvoke userNamePrinter.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter: void print()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.MainKt: void main()>();
+
+        return;
+    }
+}

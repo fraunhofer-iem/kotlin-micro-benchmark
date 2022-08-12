@@ -1,0 +1,18 @@
+final class de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1 extends java.util.ArrayList
+{
+
+    void <init>()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1 this;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1;
+
+        specialinvoke this.<java.util.ArrayList: void <init>()>();
+
+        virtualinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1: boolean add(java.lang.Object)>("Ranjith");
+
+        virtualinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1: boolean add(java.lang.Object)>("K");
+
+        return;
+    }
+}

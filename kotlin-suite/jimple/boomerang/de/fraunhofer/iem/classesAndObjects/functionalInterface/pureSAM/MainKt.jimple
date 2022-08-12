@@ -1,0 +1,45 @@
+public final class de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle $stack1;
+
+        nop;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt$main_lambda-0__1: de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle bootstrap$()>();
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.Vehicle: void start()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.functionalInterface.pureSAM.MainKt: void main()>();
+
+        return;
+    }
+
+    public static final void main$lambda-0()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String varReplacer796;
+
+        nop;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer796 = "Car is started";
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer796);
+
+        return;
+    }
+}

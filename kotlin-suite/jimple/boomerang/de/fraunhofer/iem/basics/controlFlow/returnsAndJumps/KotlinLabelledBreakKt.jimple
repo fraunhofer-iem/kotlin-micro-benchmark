@@ -1,0 +1,257 @@
+public final class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledBreakKt extends java.lang.Object
+{
+
+    private static final void singleLoopLabelledBreak(int)
+    {
+        java.io.PrintStream $stack4;
+        int range, i, l1;
+
+        nop;
+
+        range := @parameter0: int;
+
+        l1 = 0;
+
+        if 0 >= range goto label3;
+
+        nop;
+
+     label1:
+        nop;
+
+        i = l1;
+
+        l1 = l1 + 1;
+
+        if i != 5 goto label2;
+
+        nop;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>(i);
+
+        if l1 < range goto label1;
+
+        nop;
+
+     label3:
+        nop;
+
+        return;
+    }
+
+    private static final void doubleLoopLabelledBreak(int)
+    {
+        java.io.PrintStream $stack16;
+        int range, i, j, $stack10, l1, l3;
+        java.lang.StringBuilder $stack11, $stack12, $stack13, $stack14;
+        java.lang.String $stack15, varReplacer161;
+
+        nop;
+
+        range := @parameter0: int;
+
+        l1 = 0;
+
+        if 0 >= range goto label6;
+
+        nop;
+
+     label1:
+        nop;
+
+        i = l1;
+
+        l1 = l1 + 1;
+
+        if i != 5 goto label2;
+
+        nop;
+
+        goto label6;
+
+     label2:
+        nop;
+
+        l3 = 0;
+
+        if 0 >= range goto label5;
+
+        nop;
+
+     label3:
+        nop;
+
+        j = l3;
+
+        l3 = l3 + 1;
+
+        $stack10 = j % 2;
+
+        if $stack10 == 0 goto label4;
+
+        nop;
+
+        goto label6;
+
+     label4:
+        nop;
+
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer161 = " --> ";
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer161);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        if l3 < range goto label3;
+
+        nop;
+
+     label5:
+        nop;
+
+        if l1 < range goto label1;
+
+        nop;
+
+     label6:
+        nop;
+
+        return;
+    }
+
+    private static final void doubleLoopSingleLabelledBreak(int)
+    {
+        java.io.PrintStream $stack17;
+        int range, i, j, $stack11, l1, l3;
+        java.lang.StringBuilder $stack12, $stack13, $stack14, $stack15;
+        java.lang.String $stack16, varReplacer162;
+
+        nop;
+
+        range := @parameter0: int;
+
+        l1 = 0;
+
+        if 0 >= range goto label5;
+
+        nop;
+
+     label1:
+        nop;
+
+        i = l1;
+
+        l1 = l1 + 1;
+
+        l3 = 0;
+
+        if 0 >= range goto label4;
+
+        nop;
+
+     label2:
+        nop;
+
+        j = l3;
+
+        l3 = l3 + 1;
+
+        $stack11 = j % 2;
+
+        if $stack11 == 0 goto label3;
+
+        nop;
+
+        goto label5;
+
+     label3:
+        nop;
+
+        $stack12 = new java.lang.StringBuilder;
+
+        specialinvoke $stack12.<java.lang.StringBuilder: void <init>()>();
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer162 = " --> ";
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer162);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        if l3 < range goto label2;
+
+        nop;
+
+     label4:
+        nop;
+
+        if l1 < range goto label1;
+
+        nop;
+
+     label5:
+        nop;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        int varReplacer163, varReplacer164, varReplacer165;
+
+        nop;
+
+        varReplacer163 = 50;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledBreakKt: void singleLoopLabelledBreak(int)>(varReplacer163);
+
+        varReplacer165 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledBreakKt: void doubleLoopLabelledBreak(int)>(varReplacer165);
+
+        varReplacer164 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledBreakKt: void doubleLoopSingleLabelledBreak(int)>(varReplacer164);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledBreakKt: void main()>();
+
+        return;
+    }
+}

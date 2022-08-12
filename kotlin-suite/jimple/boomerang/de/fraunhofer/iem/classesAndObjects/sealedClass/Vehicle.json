@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: java.lang.String getVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void displayVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "vehicleRegistrationNumber": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getVehicleRegistrationNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void displayVehicleRegistrationNumber()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "varReplacer901": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+                "vehicleRegistrationNumber": "java.lang.String"
+            },
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String)>"]
+        }
+    }
+}

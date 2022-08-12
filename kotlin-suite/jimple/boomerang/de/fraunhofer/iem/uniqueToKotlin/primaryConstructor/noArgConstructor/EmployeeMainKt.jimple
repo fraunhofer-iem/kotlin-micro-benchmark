@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee $stack2;
+
+        nop;
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.EmployeeMainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,83 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base extends java.lang.Object
+{
+    private final java.lang.String name;
+    private final int size;
+
+    public void <init>(java.lang.String)
+    {
+        java.io.PrintStream $stack11, $stack17;
+        java.lang.Integer $stack15;
+        kotlin.Unit l10;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base this;
+        int $stack13;
+        java.lang.String name, $stack12, $stack16, varReplacer561, varReplacer562, varReplacer563;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base;
+
+        name := @parameter0: java.lang.String;
+
+        varReplacer561 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer561);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: java.lang.String name> = name;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer562 = "Initializing a base class";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer562);
+
+        $stack12 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: java.lang.String name>;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.String: int length()>();
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+        varReplacer563 = "Initializing size in the base class: ";
+
+        $stack16 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer563, $stack15);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        l10 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: int size> = $stack13;
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public int getSize()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: int size>;
+
+        return $stack1;
+    }
+}

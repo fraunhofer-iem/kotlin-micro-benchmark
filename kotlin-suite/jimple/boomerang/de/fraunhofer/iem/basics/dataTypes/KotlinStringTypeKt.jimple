@@ -1,0 +1,110 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack6;
+        java.lang.String $stack3, $stack4;
+
+        nop;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getRawStrings()>();
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getEscapedStrings()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public static final java.lang.String getRawStrings()
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack5, varReplacer371, varReplacer372, varReplacer373, varReplacer374;
+        boolean $stack6;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer372 = "Enter some input: ";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void print(java.lang.Object)>(varReplacer372);
+
+        $stack5 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        varReplacer371 = "2";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, varReplacer371);
+
+        if $stack6 == 0 goto label1;
+
+        nop;
+
+        varReplacer374 = "\n        Hi, How are you?\n        Welcome to kotlin\n        \n    ";
+
+        return varReplacer374;
+
+     label1:
+        nop;
+
+        varReplacer373 = "\n        Welcome to kotlin!!\n        How are you doing\n        \n    ";
+
+        return varReplacer373;
+    }
+
+    public static final java.lang.String getEscapedStrings()
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String $stack5, varReplacer375, varReplacer376, varReplacer377, varReplacer378;
+        boolean $stack6;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer377 = "Enter some input: ";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void print(java.lang.Object)>(varReplacer377);
+
+        $stack5 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        varReplacer378 = "2";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, varReplacer378);
+
+        if $stack6 == 0 goto label1;
+
+        nop;
+
+        varReplacer376 = "Hi, How are you?\nWelcome to kotlin\n";
+
+        return varReplacer376;
+
+     label1:
+        nop;
+
+        varReplacer375 = "Welcome to kotlin!!\nHow are you doing\n";
+
+        return varReplacer375;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: void main()>();
+
+        return;
+    }
+}

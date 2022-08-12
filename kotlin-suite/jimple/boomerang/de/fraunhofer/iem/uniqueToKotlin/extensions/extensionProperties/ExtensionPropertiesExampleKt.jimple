@@ -1,0 +1,127 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt extends java.lang.Object
+{
+
+    public static final int getLastIndex(java.util.List)
+    {
+        java.util.List $this$lastIndex;
+        int $stack1, $stack2;
+        java.lang.String varReplacer1418;
+
+        nop;
+
+        $this$lastIndex := @parameter0: java.util.List;
+
+        varReplacer1418 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex, varReplacer1418);
+
+        $stack1 = interfaceinvoke $this$lastIndex.<java.util.List: int size()>();
+
+        $stack2 = $stack1 - 1;
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack16, $stack18, $stack20, $stack22, $stack26;
+        int $stack25, varReplacer1419, varReplacer1420, varReplacer1421, varReplacer1422, varReplacer1424, varReplacer1425, varReplacer1426, varReplacer1427, varReplacer1428, varReplacer1429;
+        java.lang.String $stack27, varReplacer1423;
+        java.io.PrintStream $stack28;
+        java.util.List $stack23;
+        java.lang.Integer[] l1;
+
+        nop;
+
+        l1 = newarray (java.lang.Integer)[10];
+
+        varReplacer1420 = 23342;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1420);
+
+        l1[0] = $stack4;
+
+        varReplacer1419 = 34;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1419);
+
+        l1[1] = $stack6;
+
+        varReplacer1421 = 928345798;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1421);
+
+        l1[2] = $stack8;
+
+        varReplacer1427 = 2;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1427);
+
+        l1[3] = $stack10;
+
+        varReplacer1425 = 1;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1425);
+
+        l1[4] = $stack12;
+
+        varReplacer1424 = 0;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1424);
+
+        l1[5] = $stack14;
+
+        varReplacer1422 = 23423;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1422);
+
+        l1[6] = $stack16;
+
+        varReplacer1426 = 2;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1426);
+
+        l1[7] = $stack18;
+
+        varReplacer1428 = 423;
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1428);
+
+        l1[8] = $stack20;
+
+        varReplacer1429 = 9123;
+
+        $stack22 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1429);
+
+        l1[9] = $stack22;
+
+        $stack23 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt: int getLastIndex(java.util.List)>($stack23);
+
+        $stack26 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack25);
+
+        varReplacer1423 = "Last index of the list is ";
+
+        $stack27 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1423, $stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt: void main()>();
+
+        return;
+    }
+}

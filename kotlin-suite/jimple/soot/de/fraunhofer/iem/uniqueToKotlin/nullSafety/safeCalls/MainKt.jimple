@@ -1,0 +1,203 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack14;
+        int $stack13, $stack22;
+        java.lang.String $stack9, $stack16, $stack18, $stack24;
+        java.io.PrintStream $stack17, $stack25;
+        java.lang.StringBuilder $stack10, $stack11, $stack12, $stack15, $stack19, $stack20, $stack21, $stack23;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCalls(java.lang.String)>(null);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCalls(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCallsWithLet(java.lang.String)>(null);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void usingSafeCallsWithLet(java.lang.String)>("Ranjith");
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>();
+
+        $stack10 = new java.lang.StringBuilder;
+
+        specialinvoke $stack10.<java.lang.StringBuilder: void <init>()>();
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack9);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        if $stack9 != null goto label1;
+
+        $stack14 = null;
+
+        goto label2;
+
+     label1:
+        $stack13 = virtualinvoke $stack9.<java.lang.String: int length()>();
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+     label2:
+        $stack15 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack14);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>();
+
+        if $stack18 != null goto label3;
+
+        goto label4;
+
+     label3:
+        $stack19 = new java.lang.StringBuilder;
+
+        specialinvoke $stack19.<java.lang.StringBuilder: void <init>()>();
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack18);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack22 = virtualinvoke $stack18.<java.lang.String: int length()>();
+
+        $stack23 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack22);
+
+        $stack24 = virtualinvoke $stack23.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+     label4:
+        return;
+    }
+
+    public static final void usingSafeCalls(java.lang.String)
+    {
+        java.io.PrintStream $stack10;
+        java.lang.Integer $stack7;
+        int $stack6;
+        java.lang.StringBuilder $stack3, $stack4, $stack5, $stack8;
+        java.lang.String name, $stack9;
+
+        name := @parameter0: java.lang.String;
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        if name != null goto label1;
+
+        $stack7 = null;
+
+        goto label2;
+
+     label1:
+        $stack6 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack6);
+
+     label2:
+        $stack8 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack7);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        return;
+    }
+
+    public static final void usingSafeCallsWithLet(java.lang.String)
+    {
+        java.io.PrintStream $stack15;
+        int $stack12;
+        java.lang.StringBuilder $stack9, $stack10, $stack11, $stack13;
+        java.lang.String name, $stack14;
+
+        name := @parameter0: java.lang.String;
+
+        if name != null goto label1;
+
+        goto label2;
+
+     label1:
+        $stack9 = new java.lang.StringBuilder;
+
+        specialinvoke $stack9.<java.lang.StringBuilder: void <init>()>();
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack12 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+     label2:
+        return;
+    }
+
+    public static final java.lang.String getString()
+    {
+        java.io.PrintStream $stack3;
+        java.util.Locale $stack5;
+        java.lang.String $stack4, $stack6;
+        boolean $stack7;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("Should we send null?");
+
+        $stack4 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        if $stack4 != null goto label1;
+
+        $stack6 = null;
+
+        goto label2;
+
+     label1:
+        $stack5 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>($stack5);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack6, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)");
+
+     label2:
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack6, "y");
+
+        if $stack7 == 0 goto label3;
+
+        return null;
+
+     label3:
+        return "Ranjith";
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: void main()>();
+
+        return;
+    }
+}

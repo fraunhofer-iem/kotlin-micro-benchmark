@@ -1,0 +1,204 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forIterator(java.util.Collection)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArray(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndex(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndexAndValue(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forRangeExpr(kotlin.ranges.IntRange)>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forProgressionExpr(kotlin.ranges.IntProgression)>"
+    ],
+    "methodsInformation": {
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer3": "int",
+                "varReplacer4": "int",
+                "varReplacer5": "int",
+                "varReplacer6": "java.lang.String",
+                "varReplacer7": "int",
+                "varReplacer8": "int",
+                "varReplacer9": "int",
+                "varReplacer10": "int",
+                "varReplacer11": "int",
+                "varReplacer12": "int",
+                "varReplacer13": "int",
+                "varReplacer14": "int",
+                "varReplacer15": "int",
+                "varReplacer16": "int",
+                "varReplacer17": "int",
+                "varReplacer18": "int"
+            },
+            "stackVariables": {
+                "l1": "java.lang.Integer[]",
+                "$stack3": "java.lang.Integer",
+                "$stack5": "java.lang.Integer",
+                "$stack7": "java.lang.Integer",
+                "$stack9": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack13": "java.lang.Integer",
+                "$stack15": "java.lang.Integer",
+                "$stack17": "java.lang.Integer",
+                "$stack19": "java.lang.Integer",
+                "$stack21": "java.lang.Integer",
+                "$stack22": "java.util.List",
+                "$stack23": "java.util.Collection",
+                "$stack24": "kotlin.ranges.IntRange",
+                "$stack25": "kotlin.ranges.IntProgression",
+                "$stack26": "kotlin.ranges.IntProgression"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forIterator(java.util.Collection)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArray(java.lang.String[])>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndex(java.lang.String[])>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forArrayWithIndexAndValue(java.lang.String[])>",
+                "<kotlin.ranges.IntRange: void <init>(int,int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forRangeExpr(kotlin.ranges.IntRange)>",
+                "<kotlin.ranges.RangesKt: kotlin.ranges.IntProgression downTo(int,int)>",
+                "<kotlin.ranges.RangesKt: kotlin.ranges.IntProgression step(kotlin.ranges.IntProgression,int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinForLoopKt: void forProgressionExpr(kotlin.ranges.IntProgression)>"
+            ]
+        },
+        "void forIterator(java.util.Collection)": {
+            "localVariables": {
+                "iter": "java.util.Collection",
+                "varReplacer19": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.lang.Number",
+                "$stack8": "int",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void forArray(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "elem": "java.lang.String",
+                "varReplacer20": "java.lang.String"
+            },
+            "stackVariables": {
+                "l3": "int",
+                "$stack6": "java.io.PrintStream",
+                "l2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void forArrayWithIndex(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "i": "int",
+                "varReplacer21": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack6": "int",
+                "l2": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack11": "java.lang.String",
+                "l1": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void forArrayWithIndexAndValue(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "i": "int",
+                "elem": "java.lang.String",
+                "varReplacer22": "java.lang.String",
+                "varReplacer23": "java.lang.String"
+            },
+            "stackVariables": {
+                "l3": "int",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "l2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void forRangeExpr(kotlin.ranges.IntRange)": {
+            "localVariables": {
+                "range": "kotlin.ranges.IntRange",
+                "i": "int",
+                "varReplacer24": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "l1": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.ranges.IntRange: int getFirst()>",
+                "<kotlin.ranges.IntRange: int getLast()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void forProgressionExpr(kotlin.ranges.IntProgression)": {
+            "localVariables": {
+                "progress": "kotlin.ranges.IntProgression",
+                "i": "int",
+                "varReplacer25": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "l1": "int",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.ranges.IntProgression: int getFirst()>",
+                "<kotlin.ranges.IntProgression: int getLast()>",
+                "<kotlin.ranges.IntProgression: int getStep()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle"],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: void <init>(java.lang.String,java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car: void stop()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car",
+                "modelNumber": "java.lang.String",
+                "vehicleRegistrationNumber": "java.lang.String",
+                "varReplacer422": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void start()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car",
+                "varReplacer423": "int",
+                "varReplacer424": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void stop()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Car",
+                "varReplacer425": "int",
+                "varReplacer426": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

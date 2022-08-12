@@ -1,0 +1,207 @@
+public final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B extends java.lang.Object
+{
+    private final java.lang.String bName;
+    final de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B this;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B;
+
+        this$0 := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this$0, "this$0");
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0> = this$0;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: java.lang.String bName> = "B";
+
+        return;
+    }
+
+    public final void bFoo(int)
+    {
+        java.lang.Integer $stack17, $stack21;
+        int $this$bFoo;
+        java.lang.String $stack11, b, $stack12, $stack14, $stack18, $stack22;
+        java.io.PrintStream $stack13, $stack15, $stack19, $stack23, $stack28, $stack30;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B$bFoo$funLit$1 $stack24;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A $stack10, $stack25, $stack26;
+        kotlin.jvm.functions.Function1 $stack27, funLit;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B;
+
+        $this$bFoo := @parameter0: int;
+
+        $stack10 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0>;
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A)>($stack10);
+
+        b = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: java.lang.String bName>;
+
+        $stack12 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> this@A = ", $stack11);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> this@B = ", b);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($this$bFoo);
+
+        $stack18 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> this = ", $stack17);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($this$bFoo);
+
+        $stack22 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> this@bFoo = ", $stack21);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        $stack24 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B$bFoo$funLit$1;
+
+        $stack25 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0>;
+
+        specialinvoke $stack24.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B$bFoo$funLit$1: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A,de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B,int)>($stack25, this, $this$bFoo);
+
+        funLit = (kotlin.jvm.functions.Function1) $stack24;
+
+        $stack26 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0>;
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B$bFoo_lambda-0__1: kotlin.jvm.functions.Function1 bootstrap$(int,kotlin.jvm.functions.Function1,de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A,de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B)>($this$bFoo, funLit, $stack26, this);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>("<<< Calling funList2>>>");
+
+        interfaceinvoke $stack27.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith Krishnamurthy");
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>("<<< Ending funLit2>>>");
+
+        return;
+    }
+
+    public final void callBFunc()
+    {
+        java.io.PrintStream $stack3, $stack4;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("<<< Calling bFoo>>>");
+
+        virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: void bFoo(int)>(2);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("<<< Ending bFoo>>>");
+
+        return;
+    }
+
+    public static final kotlin.Unit bFoo$lambda-0(int, kotlin.jvm.functions.Function1, de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A, de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B, java.lang.String)
+    {
+        java.lang.Integer $stack12, $stack23;
+        int $this_bFoo;
+        java.lang.String s, $stack13, $stack16, $stack17, $stack19, $stack20, $stack24;
+        java.io.PrintStream $stack8, $stack10, $stack14, $stack18, $stack21, $stack25;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A this$0;
+        kotlin.jvm.functions.Function1 $funLit;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B this$1;
+        kotlin.Unit $stack26;
+
+        $this_bFoo := @parameter0: int;
+
+        $funLit := @parameter1: kotlin.jvm.functions.Function1;
+
+        this$0 := @parameter2: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A;
+
+        this$1 := @parameter3: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B;
+
+        s := @parameter4: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($funLit, "$funLit");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this$0, "this$0");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this$1, "this$1");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(s, "s");
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("<<< Calling funLit>>>");
+
+        interfaceinvoke $funLit.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith");
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>("<<< Ending funLit>>>");
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($this_bFoo);
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> funLit2 >> this = ", $stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A)>(this$0);
+
+        $stack17 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> funLit2 >> this@A = ", $stack16);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = this$1.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: java.lang.String bName>;
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> funLit2 >> this@B = ", $stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack23 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($this_bFoo);
+
+        $stack24 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("A$B >> bFoo >> funLit2 >> this@bFoo = ", $stack23);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        $stack26 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack26;
+    }
+
+    public static final java.lang.String access$getBName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B $this;
+        java.lang.String $stack1;
+
+        $this := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B;
+
+        $stack1 = $this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$B: java.lang.String bName>;
+
+        return $stack1;
+    }
+}

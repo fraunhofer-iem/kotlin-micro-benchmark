@@ -1,0 +1,36 @@
+public final class de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main $stack0;
+        de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt $stack1, $stack2;
+
+        $stack0 = new de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: void <init>()>();
+
+        $stack1 = new de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: void <init>(int)>(10);
+
+        $stack2 = new de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: void <init>(int)>(20);
+
+        virtualinvoke $stack0.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.Main: void addAndSub(de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt)>($stack1, $stack2);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MainKt: void main()>();
+
+        return;
+    }
+}

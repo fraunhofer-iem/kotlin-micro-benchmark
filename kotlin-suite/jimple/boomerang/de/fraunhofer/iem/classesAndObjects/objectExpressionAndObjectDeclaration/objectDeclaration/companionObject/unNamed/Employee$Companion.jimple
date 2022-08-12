@@ -1,0 +1,159 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion extends java.lang.Object
+{
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void printEmployee(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion this;
+        int $stack18, varReplacer844, varReplacer846, varReplacer847;
+        java.lang.String $stack4, $stack5, $stack6, $stack9, $stack12, $stack15, $stack21, varReplacer845, varReplacer848, varReplacer849;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee employee;
+        java.io.PrintStream $stack22;
+        java.lang.StringBuilder $stack7, $stack8, $stack10, $stack11, $stack13, $stack14, $stack16, $stack17, $stack19, $stack20;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        employee := @parameter0: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee;
+
+        varReplacer848 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer848);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: java.lang.String access$getCompanyAddress$cp()>();
+
+        $stack5 = virtualinvoke employee.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: java.lang.String getFirstName()>();
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack4, $stack5);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: void access$setCompanyAddress$cp(java.lang.String)>($stack6);
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer849 = "MyCompany:\n";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer849);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: java.lang.String access$getCompanyAddress$cp()>();
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack9);
+
+        varReplacer845 = "\nEmployee:\n";
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer845);
+
+        $stack12 = virtualinvoke employee.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: java.lang.String getFirstName()>();
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack12);
+
+        varReplacer846 = 10;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer846);
+
+        $stack15 = virtualinvoke employee.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: java.lang.String getLastName()>();
+
+        $stack16 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack15);
+
+        varReplacer844 = 10;
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer844);
+
+        $stack18 = virtualinvoke employee.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee: int getAge()>();
+
+        $stack19 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack18);
+
+        varReplacer847 = 10;
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer847);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        return;
+    }
+
+    private final void privateCompanionObject()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion this;
+        java.lang.String varReplacer850;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer850 = "Private companion method";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer850);
+
+        return;
+    }
+
+    public final void jvmStaticCompanionMethod()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion this;
+        java.lang.String varReplacer851;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer851 = "I am JVM static method";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer851);
+
+        return;
+    }
+
+    public static final void access$privateCompanionObject(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion $this;
+
+        nop;
+
+        $this := @parameter0: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        specialinvoke $this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion: void privateCompanionObject()>();
+
+        return;
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion this;
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.unNamed.Employee$Companion: void <init>()>();
+
+        return;
+    }
+}

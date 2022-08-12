@@ -1,0 +1,95 @@
+public final class de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts extends java.lang.Object implements java.lang.Iterable, kotlin.jvm.internal.markers.KMutableIterable
+{
+    public static final de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$Companion Companion;
+    private final int[] data;
+    private static final int SIZE;
+
+    public void <init>(int, int, int, int, int)
+    {
+        int[] $stack6, $stack7, $stack8, $stack9, $stack10, $stack11;
+        int first, second, third, fourth, fifth;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts this;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts;
+
+        first := @parameter0: int;
+
+        second := @parameter1: int;
+
+        third := @parameter2: int;
+
+        fourth := @parameter3: int;
+
+        fifth := @parameter4: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        $stack6 = newarray (int)[5];
+
+        this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data> = $stack6;
+
+        $stack7 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        $stack7[0] = first;
+
+        $stack8 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        $stack8[1] = second;
+
+        $stack9 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        $stack9[2] = third;
+
+        $stack10 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        $stack10[3] = fourth;
+
+        $stack11 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        $stack11[4] = fifth;
+
+        return;
+    }
+
+    public java.util.Iterator iterator()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts this;
+        java.util.Iterator $stack2;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$FiveIntsIterator $stack1;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts;
+
+        $stack1 = new de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$FiveIntsIterator;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$FiveIntsIterator: void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts)>(this);
+
+        $stack2 = (java.util.Iterator) $stack1;
+
+        return $stack2;
+    }
+
+    public static final int[] access$getData$p(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts)
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts $this;
+        int[] $stack1;
+
+        $this := @parameter0: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts;
+
+        $stack1 = $this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: int[] data>;
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$Companion $stack0;
+
+        $stack0 = new de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$Companion;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(null);
+
+        <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts$Companion Companion> = $stack0;
+
+        return;
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "className": "de.fraunhofer.iem.collections.collection.anotherExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 16,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateCollection(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateMutableCollection(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateList(java.util.List)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateMutableList(java.util.List)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateSet(java.util.Set)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateMutableSet(java.util.Set)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMap(java.util.Map)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMutableMap(java.util.Map)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.ArrayList propagateArrayList(java.util.ArrayList)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashSet propagateHashSet(java.util.HashSet)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashSet propagateLinkedHashSet(java.util.LinkedHashSet)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashMap propagateHashMap(java.util.HashMap)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashMap propagateLinkedHashMap(java.util.LinkedHashMap)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: kotlin.collections.ArrayDeque propagateArrayDeque(kotlin.collections.ArrayDeque)>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "java.util.Collection propagateCollection(java.util.Collection)": {
+            "localVariables": {"param": "java.util.Collection"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.Collection propagateMutableCollection(java.util.Collection)": {
+            "localVariables": {"param": "java.util.Collection"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.List propagateList(java.util.List)": {
+            "localVariables": {"param": "java.util.List"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.List propagateMutableList(java.util.List)": {
+            "localVariables": {"param": "java.util.List"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.Set propagateSet(java.util.Set)": {
+            "localVariables": {"param": "java.util.Set"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.Set propagateMutableSet(java.util.Set)": {
+            "localVariables": {"param": "java.util.Set"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.Map propagateMap(java.util.Map)": {
+            "localVariables": {"param": "java.util.Map"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.Map propagateMutableMap(java.util.Map)": {
+            "localVariables": {"param": "java.util.Map"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.ArrayList propagateArrayList(java.util.ArrayList)": {
+            "localVariables": {"param": "java.util.ArrayList"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.HashSet propagateHashSet(java.util.HashSet)": {
+            "localVariables": {"param": "java.util.HashSet"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.LinkedHashSet propagateLinkedHashSet(java.util.LinkedHashSet)": {
+            "localVariables": {"param": "java.util.LinkedHashSet"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.HashMap propagateHashMap(java.util.HashMap)": {
+            "localVariables": {"param": "java.util.HashMap"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.util.LinkedHashMap propagateLinkedHashMap(java.util.LinkedHashMap)": {
+            "localVariables": {"param": "java.util.LinkedHashMap"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "kotlin.collections.ArrayDeque propagateArrayDeque(kotlin.collections.ArrayDeque)": {
+            "localVariables": {"param": "kotlin.collections.ArrayDeque"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.util.List",
+                "$stack2": "java.util.Collection",
+                "$stack4": "java.util.List",
+                "$stack5": "java.util.Collection",
+                "$stack7": "java.util.List",
+                "$stack9": "java.util.List",
+                "$stack11": "java.util.Set",
+                "$stack13": "java.util.Set",
+                "$stack15": "java.lang.Integer",
+                "$stack16": "kotlin.Pair",
+                "$stack17": "java.util.Map",
+                "$stack20": "java.lang.Integer",
+                "$stack21": "kotlin.Pair",
+                "$stack22": "java.util.Map",
+                "$stack24": "java.util.ArrayList",
+                "$stack26": "java.util.HashSet",
+                "$stack28": "java.util.LinkedHashSet",
+                "$stack31": "java.lang.Integer",
+                "$stack32": "kotlin.Pair",
+                "$stack33": "java.util.HashMap",
+                "$stack36": "java.lang.Integer",
+                "$stack37": "kotlin.Pair",
+                "$stack38": "java.util.LinkedHashMap",
+                "$stack40": "kotlin.collections.ArrayDeque",
+                "l0": "java.lang.String[]",
+                "l0#4": "kotlin.Pair[]"
+            },
+            "invokeExpressions": [
+                "<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object)>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateCollection(java.util.Collection)>",
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Collection propagateMutableCollection(java.util.Collection)>",
+                "<kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object)>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateList(java.util.List)>",
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.List propagateMutableList(java.util.List)>",
+                "<kotlin.collections.SetsKt: java.util.Set setOf(java.lang.Object)>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateSet(java.util.Set)>",
+                "<kotlin.collections.SetsKt: java.util.Set mutableSetOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Set propagateMutableSet(java.util.Set)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>",
+                "<kotlin.collections.MapsKt: java.util.Map mapOf(kotlin.Pair)>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMap(java.util.Map)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>",
+                "<kotlin.collections.MapsKt: java.util.Map mutableMapOf(kotlin.Pair[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.Map propagateMutableMap(java.util.Map)>",
+                "<kotlin.collections.CollectionsKt: java.util.ArrayList arrayListOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.ArrayList propagateArrayList(java.util.ArrayList)>",
+                "<kotlin.collections.SetsKt: java.util.HashSet hashSetOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashSet propagateHashSet(java.util.HashSet)>",
+                "<kotlin.collections.SetsKt: java.util.LinkedHashSet linkedSetOf(java.lang.Object[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashSet propagateLinkedHashSet(java.util.LinkedHashSet)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>",
+                "<kotlin.collections.MapsKt: java.util.HashMap hashMapOf(kotlin.Pair[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.HashMap propagateHashMap(java.util.HashMap)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>",
+                "<kotlin.collections.MapsKt: java.util.LinkedHashMap linkedMapOf(kotlin.Pair[])>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: java.util.LinkedHashMap propagateLinkedHashMap(java.util.LinkedHashMap)>",
+                "<kotlin.collections.ArrayDeque: void <init>(int)>",
+                "<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: kotlin.collections.ArrayDeque propagateArrayDeque(kotlin.collections.ArrayDeque)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.collection.anotherExample.MainKt: void main()>"]
+        }
+    }
+}

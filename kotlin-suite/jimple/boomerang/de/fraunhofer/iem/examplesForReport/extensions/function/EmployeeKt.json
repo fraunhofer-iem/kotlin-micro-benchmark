@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt: void printEmployeeInformation(de.fraunhofer.iem.examplesForReport.extensions.function.Employee,java.lang.String)>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "void printEmployeeInformation(de.fraunhofer.iem.examplesForReport.extensions.function.Employee,java.lang.String)": {
+            "localVariables": {
+                "date": "java.lang.String",
+                "varReplacer1324": "java.lang.String",
+                "varReplacer1325": "java.lang.String",
+                "varReplacer1326": "java.lang.String",
+                "varReplacer1327": "java.lang.String",
+                "varReplacer1328": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$printEmployeeInformation": "de.fraunhofer.iem.examplesForReport.extensions.function.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack11": "int",
+                "$stack12": "java.lang.Integer",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: java.lang.String getFirstName()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: int getAge()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void entry()": {
+            "localVariables": {
+                "varReplacer1329": "java.lang.String",
+                "varReplacer1330": "java.lang.String",
+                "varReplacer1331": "int",
+                "varReplacer1332": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.examplesForReport.extensions.function.Employee"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.extensions.function.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+                "<de.fraunhofer.iem.examplesForReport.extensions.function.EmployeeKt: void printEmployeeInformation(de.fraunhofer.iem.examplesForReport.extensions.function.Employee,java.lang.String)>"
+            ]
+        }
+    }
+}

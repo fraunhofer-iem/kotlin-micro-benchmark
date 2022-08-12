@@ -1,0 +1,41 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [
+        "java.lang.Iterable",
+        "kotlin.jvm.internal.markers.KMappedMarker"
+    ],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: java.util.Iterator iterator()>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)": {
+            "localVariables": {
+                "start": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "endInclusive": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "step": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.util.Iterator iterator()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgressionIterator",
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack4": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack5": "java.util.Iterator"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgressionIterator: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>"]
+        }
+    }
+}

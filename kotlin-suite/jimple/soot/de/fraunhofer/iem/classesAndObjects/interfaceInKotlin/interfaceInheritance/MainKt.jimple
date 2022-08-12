@@ -1,0 +1,31 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person $stack1;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void <init>()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void crawl()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void walk()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person: void run()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.MainKt: void main()>();
+
+        return;
+    }
+}

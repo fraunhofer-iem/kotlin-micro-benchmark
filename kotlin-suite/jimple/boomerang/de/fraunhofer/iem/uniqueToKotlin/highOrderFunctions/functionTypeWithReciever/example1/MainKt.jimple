@@ -1,0 +1,157 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt extends java.lang.Object
+{
+    private static final kotlin.jvm.functions.Function2 sum;
+    private static final kotlin.jvm.functions.Function2 add;
+
+    public static final kotlin.jvm.functions.Function2 getSum()
+    {
+        kotlin.jvm.functions.Function2 $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        return $stack0;
+    }
+
+    public static final kotlin.jvm.functions.Function2 getAdd()
+    {
+        kotlin.jvm.functions.Function2 $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        return $stack0;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack3, $stack4, $stack10, $stack11, $stack17, $stack18, $stack24, $stack25;
+        kotlin.jvm.functions.Function2 $stack2, $stack9, $stack16, $stack23;
+        int $stack7, $stack14, $stack21, $stack28, varReplacer2408, varReplacer2409, varReplacer2410, varReplacer2411, varReplacer2412, varReplacer2413, varReplacer2414, varReplacer2415;
+        java.lang.Number $stack6, $stack13, $stack20, $stack27;
+        java.io.PrintStream $stack8, $stack15, $stack22, $stack29;
+        java.lang.Object $stack5, $stack12, $stack19, $stack26;
+
+        nop;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        varReplacer2410 = 2;
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2410);
+
+        varReplacer2412 = 2;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2412);
+
+        $stack5 = interfaceinvoke $stack2.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack3, $stack4);
+
+        $stack6 = (java.lang.Number) $stack5;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.Number: int intValue()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        $stack9 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        varReplacer2411 = 20;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2411);
+
+        varReplacer2408 = 20;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2408);
+
+        $stack12 = interfaceinvoke $stack9.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack10, $stack11);
+
+        $stack13 = (java.lang.Number) $stack12;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Number: int intValue()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack14);
+
+        $stack16 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        varReplacer2415 = 2;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2415);
+
+        varReplacer2409 = 2;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2409);
+
+        $stack19 = interfaceinvoke $stack16.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack17, $stack18);
+
+        $stack20 = (java.lang.Number) $stack19;
+
+        $stack21 = virtualinvoke $stack20.<java.lang.Number: int intValue()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(int)>($stack21);
+
+        $stack23 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        varReplacer2413 = 20;
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2413);
+
+        varReplacer2414 = 20;
+
+        $stack25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2414);
+
+        $stack26 = interfaceinvoke $stack23.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack24, $stack25);
+
+        $stack27 = (java.lang.Number) $stack26;
+
+        $stack28 = virtualinvoke $stack27.<java.lang.Number: int intValue()>();
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(int)>($stack28);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: void main()>();
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1 $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 $stack0;
+        kotlin.jvm.functions.Function2 $stack1, $stack3;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$sum$1 INSTANCE>;
+
+        $stack1 = (kotlin.jvm.functions.Function2) $stack0;
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum> = $stack1;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt$add$1 INSTANCE>;
+
+        $stack3 = (kotlin.jvm.functions.Function2) $stack2;
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add> = $stack3;
+
+        return;
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 12,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: void <init>(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String getFirstName()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String component1()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String component2()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int component3()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: de.fraunhofer.iem.examplesForReport.dataClass.Employee copy(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: de.fraunhofer.iem.examplesForReport.dataClass.Employee copy$default(de.fraunhofer.iem.examplesForReport.dataClass.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String toString()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int hashCode()>",
+        "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFirstName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int component3()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.examplesForReport.dataClass.Employee copy(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "age": "int",
+                "this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"
+            },
+            "stackVariables": {"$stack4": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.dataClass.Employee: void <init>(java.lang.String,java.lang.String,int)>"
+            ]
+        },
+        "de.fraunhofer.iem.examplesForReport.dataClass.Employee copy$default(de.fraunhofer.iem.examplesForReport.dataClass.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l4": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "l0": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "$stack9": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "l5": "java.lang.Object",
+                "l1": "java.lang.String",
+                "l2": "java.lang.String",
+                "l3": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.dataClass.Employee: de.fraunhofer.iem.examplesForReport.dataClass.Employee copy(java.lang.String,java.lang.String,int)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "int",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "result": "int"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$stack4": "java.lang.String",
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.Integer: int hashCode(int)>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.examplesForReport.dataClass.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.String",
+                "$stack9": "boolean",
+                "$stack10": "int",
+                "$stack11": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        }
+    }
+}

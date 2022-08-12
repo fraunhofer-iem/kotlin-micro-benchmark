@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: kotlin.Unit main$lambda-0(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML)>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)": {
+            "localVariables": {"init": "kotlin.jvm.functions.Function1"},
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML: void <init>()>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "kotlin.jvm.functions.Function1"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt$main_lambda-0__9: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: void main()>"]
+        },
+        "kotlin.Unit main$lambda-0(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$receiver": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML",
+                "$stack1": "kotlin.Unit"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML: void body()>"
+            ]
+        }
+    }
+}

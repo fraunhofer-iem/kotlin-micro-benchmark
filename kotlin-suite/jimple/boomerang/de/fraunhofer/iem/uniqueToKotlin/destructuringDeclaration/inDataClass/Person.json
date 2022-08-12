@@ -1,0 +1,218 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 14,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String getName()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String getAddress()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int getAge()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String getMobileNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component2()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int component3()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String component4()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy$default(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: java.lang.String toString()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: int hashCode()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "address": "java.lang.String",
+                "mobileNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "age": "int",
+                "varReplacer2197": "java.lang.String",
+                "varReplacer2198": "java.lang.String",
+                "varReplacer2199": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getAddress()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getMobileNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int component3()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component4()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy(java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "address": "java.lang.String",
+                "mobileNumber": "java.lang.String",
+                "age": "int",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "varReplacer2200": "java.lang.String",
+                "varReplacer2201": "java.lang.String",
+                "varReplacer2202": "java.lang.String"
+            },
+            "stackVariables": {"$stack5": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy$default(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l5": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "int",
+                "l0": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "$stack11": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "l6": "java.lang.Object",
+                "l1": "java.lang.String",
+                "l2": "java.lang.String",
+                "l3": "int",
+                "l4": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person copy(java.lang.String,java.lang.String,int,java.lang.String)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "varReplacer2203": "int",
+                "varReplacer2204": "java.lang.String",
+                "varReplacer2205": "java.lang.String",
+                "varReplacer2206": "java.lang.String",
+                "varReplacer2207": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "int",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "result": "int"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$stack4": "java.lang.String",
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "java.lang.String",
+                "$stack11": "int",
+                "$stack12": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.Integer: int hashCode(int)>",
+                "<java.lang.String: int hashCode()>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "other": "java.lang.Object",
+                "varReplacer2208": "int",
+                "varReplacer2209": "int",
+                "varReplacer2210": "int",
+                "varReplacer2211": "int",
+                "varReplacer2212": "int",
+                "varReplacer2213": "int",
+                "varReplacer2214": "int"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inDataClass.Person",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.String",
+                "$stack9": "boolean",
+                "$stack10": "int",
+                "$stack11": "int",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.lang.String",
+                "$stack14": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        }
+    }
+}

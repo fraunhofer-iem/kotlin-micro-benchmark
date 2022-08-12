@@ -1,0 +1,66 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass extends java.lang.Object
+{
+    private int outerFlag;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass this;
+        int varReplacer322;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer322 = 110;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: int outerFlag> = varReplacer322;
+
+        return;
+    }
+
+    public void printAll()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass this;
+        java.io.PrintStream $stack2, $stack5;
+        int $stack3, $stack4;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: void <init>(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)>(this);
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: int access$000(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass)>($stack1);
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: int outerFlag>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        return;
+    }
+
+    static int access$100(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass x0;
+        int $stack1;
+
+        nop;
+
+        x0 := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass;
+
+        $stack1 = x0.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: int outerFlag>;
+
+        return $stack1;
+    }
+}

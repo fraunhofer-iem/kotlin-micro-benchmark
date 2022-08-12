@@ -1,0 +1,92 @@
+public final class de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle
+{
+    private final de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle vehicle;
+        java.lang.String varReplacer605;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar;
+
+        vehicle := @parameter0: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle;
+
+        varReplacer605 = "vehicle";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicle, varReplacer605);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0> = vehicle;
+
+        return;
+    }
+
+    public void accelerate()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>();
+
+        return;
+    }
+
+    public void start()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void start()>();
+
+        return;
+    }
+
+    public void stop()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void stop()>();
+
+        return;
+    }
+
+    public java.lang.String getVehicleType()
+    {
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $stack1;
+        java.lang.String $stack2;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle $$delegate_0>;
+
+        $stack2 = interfaceinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: java.lang.String getVehicleType()>();
+
+        return $stack2;
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void callFun(kotlin.jvm.functions.Function1)": {
+            "localVariables": {"fun1": "kotlin.jvm.functions.Function1"},
+            "stackVariables": {
+                "$stack3": "java.lang.Integer",
+                "$stack4": "java.lang.Object",
+                "$stack5": "kotlin.jvm.functions.Function1",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Number",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "fun1": "kotlin.jvm.functions.Function1",
+                "fun2": "kotlin.jvm.functions.Function1"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun1$1",
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void main()>"]
+        }
+    }
+}

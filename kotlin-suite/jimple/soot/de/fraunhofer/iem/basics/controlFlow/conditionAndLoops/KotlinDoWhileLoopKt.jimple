@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt extends java.lang.Object
+{
+
+    private static final void doWhileExample(int)
+    {
+        int end, x;
+        java.io.PrintStream $stack3;
+
+        end := @parameter0: int;
+
+        x = end;
+
+     label1:
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(x);
+
+        x = x + 1;
+
+        if x < 10 goto label1;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(0);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(5);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void doWhileExample(int)>(15);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.KotlinDoWhileLoopKt: void main()>();
+
+        return;
+    }
+}

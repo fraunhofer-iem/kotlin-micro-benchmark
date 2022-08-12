@@ -1,0 +1,42 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer271": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$1",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$2",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$1: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$2: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>"
+            ]
+        },
+        "void printAnonymousObject(java.lang.Object)": {
+            "localVariables": {"object": "java.lang.Object"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,175 @@
+public final class de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu $stack0, $stack1, $stack2, $stack3;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_GRAVY>;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>($stack0);
+
+        $stack1 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu EGG_OMELET>;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>($stack1);
+
+        $stack2 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_BIRYANI>;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>($stack2);
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu VEG_PULAO>;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)>($stack3);
+
+        return;
+    }
+
+    public static final void print(de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu)
+    {
+        int[] $stack5;
+        java.lang.StringBuilder $stack8, $stack10, $stack11, $stack13, $stack17, $stack19, $stack20, $stack22, $stack26, $stack28, $stack29, $stack31, $stack35, $stack37, $stack38, $stack40, $u0, $u1, $u2, $u3;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu menu, $stack9, $stack18, $stack27, $stack36;
+        int $stack6, $stack12, $stack21, $stack30, $stack39, $stack43, $i0;
+        java.lang.String $stack14, $stack23, $stack32, $stack41;
+        java.io.PrintStream $stack15, $stack24, $stack33, $stack42;
+
+        menu := @parameter0: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu;
+
+        if menu != null goto label1;
+
+        $i0 = (int) -1;
+
+        $stack43 = $i0;
+
+        goto label2;
+
+     label1:
+        $stack5 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt$WhenMappings: int[] $EnumSwitchMapping$0>;
+
+        $stack6 = virtualinvoke menu.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int ordinal()>();
+
+        $stack43 = $stack5[$stack6];
+
+     label2:
+        tableswitch($stack43)
+        {
+            case 1: goto label3;
+            case 2: goto label4;
+            case 3: goto label5;
+            case 4: goto label6;
+            default: goto label7;
+        };
+
+     label3:
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        $stack35 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Chicken gravy: ");
+
+        $stack36 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_GRAVY>;
+
+        $stack37 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack36);
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack39 = virtualinvoke menu.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>();
+
+        $stack40 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack39);
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack42 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack42.<java.io.PrintStream: void println(java.lang.Object)>($stack41);
+
+        goto label7;
+
+     label4:
+        $u1 = new java.lang.StringBuilder;
+
+        specialinvoke $u1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack26 = virtualinvoke $u1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Egg Omelet: ");
+
+        $stack27 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu EGG_OMELET>;
+
+        $stack28 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack27);
+
+        $stack29 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack30 = virtualinvoke menu.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>();
+
+        $stack31 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack30);
+
+        $stack32 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack33 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack33.<java.io.PrintStream: void println(java.lang.Object)>($stack32);
+
+        goto label7;
+
+     label5:
+        $u2 = new java.lang.StringBuilder;
+
+        specialinvoke $u2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack17 = virtualinvoke $u2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Chicken biryani: ");
+
+        $stack18 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_BIRYANI>;
+
+        $stack19 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack18);
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack21 = virtualinvoke menu.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>();
+
+        $stack22 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack21);
+
+        $stack23 = virtualinvoke $stack22.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        goto label7;
+
+     label6:
+        $u3 = new java.lang.StringBuilder;
+
+        specialinvoke $u3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $u3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Veg pulao: ");
+
+        $stack9 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu VEG_PULAO>;
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack9);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack12 = virtualinvoke menu.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int getPrice()>();
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+     label7:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt: void main()>();
+
+        return;
+    }
+}

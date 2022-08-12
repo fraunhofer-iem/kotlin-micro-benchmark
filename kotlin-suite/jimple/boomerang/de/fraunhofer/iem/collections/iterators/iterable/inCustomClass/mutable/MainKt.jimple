@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer x;
+        java.lang.Iterable elem;
+        int $stack19, varReplacer1225, varReplacer1226, varReplacer1227, varReplacer1228, varReplacer1229;
+        java.lang.Number $stack18;
+        boolean $stack11, $stack13;
+        java.io.PrintStream $stack15, $stack20;
+        java.util.Iterator $stack10, $stack12;
+        java.util.function.Consumer $stack21;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts $stack9;
+        java.lang.Object $stack14, $stack17;
+
+        nop;
+
+        $stack9 = new de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts;
+
+        varReplacer1225 = 1;
+
+        varReplacer1226 = 2;
+
+        varReplacer1227 = 3;
+
+        varReplacer1228 = 4;
+
+        varReplacer1229 = 5;
+
+        specialinvoke $stack9.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: void <init>(int,int,int,int,int)>(varReplacer1225, varReplacer1226, varReplacer1227, varReplacer1228, varReplacer1229);
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.FiveInts: java.util.Iterator iterator()>();
+
+     label1:
+        $stack11 = interfaceinvoke $stack10.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack11 == 0 goto label2;
+
+        nop;
+
+        $stack17 = interfaceinvoke $stack10.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack18 = (java.lang.Number) $stack17;
+
+        $stack19 = virtualinvoke $stack18.<java.lang.Number: int intValue()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(int)>($stack19);
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.MainKt$main_lambda-0__3: java.util.function.Consumer bootstrap$()>();
+
+        interfaceinvoke $stack10.<java.util.Iterator: void forEachRemaining(java.util.function.Consumer)>($stack21);
+
+        interfaceinvoke $stack10.<java.util.Iterator: void remove()>();
+
+        goto label1;
+
+     label2:
+        nop;
+
+        elem = (java.lang.Iterable) $stack9;
+
+        $stack12 = interfaceinvoke elem.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label3:
+        $stack13 = interfaceinvoke $stack12.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack13 == 0 goto label4;
+
+        nop;
+
+        $stack14 = interfaceinvoke $stack12.<java.util.Iterator: java.lang.Object next()>();
+
+        x = (java.lang.Integer) $stack14;
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>(x);
+
+        goto label3;
+
+     label4:
+        nop;
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.mutable.MainKt: void main()>();
+
+        return;
+    }
+
+    public static final void main$lambda-0(java.lang.Integer)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.Integer x;
+
+        nop;
+
+        x := @parameter0: java.lang.Integer;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(x);
+
+        return;
+    }
+}

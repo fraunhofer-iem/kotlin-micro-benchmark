@@ -1,0 +1,170 @@
+public final class de.fraunhofer.iem.examplesForReport.Employee extends java.lang.Object
+{
+    private final java.lang.String name;
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.examplesForReport.Employee this;
+        java.lang.String name;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name> = name;
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        de.fraunhofer.iem.examplesForReport.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component1()
+    {
+        de.fraunhofer.iem.examplesForReport.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.examplesForReport.Employee copy(java.lang.String)
+    {
+        de.fraunhofer.iem.examplesForReport.Employee $stack2, this;
+        java.lang.String name;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.Employee;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.Employee: void <init>(java.lang.String)>(name);
+
+        return $stack2;
+    }
+
+    public static de.fraunhofer.iem.examplesForReport.Employee copy$default(de.fraunhofer.iem.examplesForReport.Employee, java.lang.String, int, java.lang.Object)
+    {
+        int l2, $stack4;
+        de.fraunhofer.iem.examplesForReport.Employee l0, $stack5;
+        java.lang.Object l3;
+        java.lang.String l1;
+
+        l0 := @parameter0: de.fraunhofer.iem.examplesForReport.Employee;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: java.lang.Object;
+
+        $stack4 = l2 & 1;
+
+        if $stack4 == 0 goto label1;
+
+        l1 = l0.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+     label1:
+        $stack5 = virtualinvoke l0.<de.fraunhofer.iem.examplesForReport.Employee: de.fraunhofer.iem.examplesForReport.Employee copy(java.lang.String)>(l1);
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5;
+        de.fraunhofer.iem.examplesForReport.Employee this;
+        java.lang.String $stack3, $stack6;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Employee(name=");
+
+        $stack3 = this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(41);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack6;
+    }
+
+    public int hashCode()
+    {
+        int $stack2;
+        de.fraunhofer.iem.examplesForReport.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        $stack2 = virtualinvoke $stack1.<java.lang.String: int hashCode()>();
+
+        return $stack2;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.Employee this, l2;
+        java.lang.Object other;
+        java.lang.String $stack4, $stack5;
+        boolean $stack3, $stack6;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.Employee;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        return 1;
+
+     label1:
+        $stack3 = other instanceof de.fraunhofer.iem.examplesForReport.Employee;
+
+        if $stack3 != 0 goto label2;
+
+        return 0;
+
+     label2:
+        l2 = (de.fraunhofer.iem.examplesForReport.Employee) other;
+
+        $stack5 = this.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        $stack4 = l2.<de.fraunhofer.iem.examplesForReport.Employee: java.lang.String name>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        return 0;
+
+     label3:
+        return 1;
+    }
+}

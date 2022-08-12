@@ -1,0 +1,39 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.Main this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass $stack4;
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass: void printAll()>();
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass;
+
+        staticinvoke <java.util.Objects: java.lang.Object requireNonNull(java.lang.Object)>($stack3);
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: void <init>(de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass)>($stack3);
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.nestedClass.nonStaticNestedClass.OuterClass$InnerClass: void printAll()>();
+
+        return;
+    }
+}

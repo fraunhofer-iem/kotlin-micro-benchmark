@@ -1,0 +1,154 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt extends java.lang.Object
+{
+
+    public static final java.lang.Object fold(java.util.Collection, java.lang.Object, kotlin.jvm.functions.FunctionN)
+    {
+        java.lang.Object[] l6;
+        java.util.Iterator $stack7;
+        java.util.Collection collections;
+        kotlin.jvm.functions.FunctionN combine;
+        java.lang.Object initial, $stack9, accumulator;
+        boolean $stack8;
+
+        collections := @parameter0: java.util.Collection;
+
+        initial := @parameter1: java.lang.Object;
+
+        combine := @parameter2: kotlin.jvm.functions.FunctionN;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(collections, "collections");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(combine, "combine");
+
+        accumulator = initial;
+
+        $stack7 = interfaceinvoke collections.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack8 = interfaceinvoke $stack7.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack8 == 0 goto label2;
+
+        $stack9 = interfaceinvoke $stack7.<java.util.Iterator: java.lang.Object next()>();
+
+        l6 = newarray (java.lang.Object)[27];
+
+        l6[0] = accumulator;
+
+        l6[1] = $stack9;
+
+        l6[2] = $stack9;
+
+        l6[3] = $stack9;
+
+        l6[4] = $stack9;
+
+        l6[5] = $stack9;
+
+        l6[6] = $stack9;
+
+        l6[7] = $stack9;
+
+        l6[8] = $stack9;
+
+        l6[9] = $stack9;
+
+        l6[10] = $stack9;
+
+        l6[11] = $stack9;
+
+        l6[12] = $stack9;
+
+        l6[13] = $stack9;
+
+        l6[14] = $stack9;
+
+        l6[15] = $stack9;
+
+        l6[16] = $stack9;
+
+        l6[17] = $stack9;
+
+        l6[18] = $stack9;
+
+        l6[19] = $stack9;
+
+        l6[20] = $stack9;
+
+        l6[21] = $stack9;
+
+        l6[22] = $stack9;
+
+        l6[23] = $stack9;
+
+        l6[24] = $stack9;
+
+        l6[25] = $stack9;
+
+        l6[26] = $stack9;
+
+        accumulator = interfaceinvoke combine.<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>(l6);
+
+        goto label1;
+
+     label2:
+        return accumulator;
+    }
+
+    public static final void main()
+    {
+        java.util.Collection $stack13;
+        java.lang.Integer $stack3, $stack5, $stack7, $stack9, $stack11, $stack14;
+        kotlin.jvm.functions.FunctionN $stack16;
+        java.util.List $stack12;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt$main$1 $stack15;
+        java.lang.Integer[] l1;
+
+        l1 = newarray (java.lang.Integer)[5];
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        l1[0] = $stack3;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        l1[1] = $stack5;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        l1[2] = $stack7;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        l1[3] = $stack9;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        l1[4] = $stack11;
+
+        $stack12 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>(l1);
+
+        $stack13 = (java.util.Collection) $stack12;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        $stack15 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt$main$1 INSTANCE>;
+
+        $stack16 = (kotlin.jvm.functions.FunctionN) $stack15;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.FunctionN)>($stack13, $stack14, $stack16);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionWithNParameters.MainKt: void main()>();
+
+        return;
+    }
+}

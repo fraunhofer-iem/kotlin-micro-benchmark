@@ -1,0 +1,66 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee extends java.lang.Object
+{
+    public static final de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator MessageCreator;
+    private final java.lang.String fullName;
+    private final int age;
+
+    public void <init>(java.lang.String, int)
+    {
+        int age;
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee this;
+        java.lang.String fullName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee;
+
+        fullName := @parameter0: java.lang.String;
+
+        age := @parameter1: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fullName, "fullName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: java.lang.String fullName> = fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFullName()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: java.lang.String fullName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: int age>;
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator $stack0;
+
+        $stack0 = new de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(null);
+
+        <de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator MessageCreator> = $stack0;
+
+        return;
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.AnotherWhenStatementKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.AnotherWhenStatementKt: void validateNumber(java.lang.Number)>"],
+    "methodsInformation": {"void validateNumber(java.lang.Number)": {
+        "localVariables": {"number": "java.lang.Number"},
+        "stackVariables": {
+            "$stack4": "boolean",
+            "$stack5": "int",
+            "$stack7": "java.lang.String",
+            "$stack10": "boolean",
+            "$stack6": "java.io.PrintStream"
+        },
+        "invokeExpressions": [
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+            "<java.lang.Number: int intValue()>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

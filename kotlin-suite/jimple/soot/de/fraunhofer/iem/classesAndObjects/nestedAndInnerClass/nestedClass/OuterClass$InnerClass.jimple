@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass extends java.lang.Object
+{
+    private final int innerFlag;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass: int innerFlag> = 23421;
+
+        return;
+    }
+
+    public final void printAll()
+    {
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass this;
+        int l1;
+        java.io.PrintStream $stack3;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.nestedClass.OuterClass$InnerClass: int innerFlag>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(l1);
+
+        return;
+    }
+}

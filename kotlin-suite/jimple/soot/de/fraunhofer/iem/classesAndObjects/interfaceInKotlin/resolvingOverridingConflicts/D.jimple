@@ -1,0 +1,47 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A, de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void foo()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B $stack2;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D;
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A) this;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)>($stack1);
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B) this;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>($stack2);
+
+        return;
+    }
+
+    public void bar()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D;
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B) this;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B$DefaultImpls: void bar(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B)>($stack1);
+
+        return;
+    }
+}

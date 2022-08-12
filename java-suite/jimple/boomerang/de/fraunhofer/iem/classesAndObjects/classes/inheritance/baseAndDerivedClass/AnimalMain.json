@@ -1,0 +1,47 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer298": "java.lang.String",
+                "varReplacer299": "java.lang.String",
+                "varReplacer300": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Cat: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Horse: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Dog: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.AnimalMain: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)>"
+            ]
+        },
+        "void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal)": {
+            "localVariables": {"animal": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void displayDNA()>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: void makeNoise()>"
+            ]
+        }
+    }
+}

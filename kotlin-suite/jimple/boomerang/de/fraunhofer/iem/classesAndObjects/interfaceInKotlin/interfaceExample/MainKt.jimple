@@ -1,0 +1,108 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle vehicle;
+        int $stack5, varReplacer765, varReplacer766, varReplacer767, varReplacer768, varReplacer769, varReplacer770, varReplacer771, varReplacer772, varReplacer773, varReplacer774, varReplacer775, varReplacer777;
+        java.lang.String $stack8, varReplacer764, varReplacer776;
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car $stack1;
+        java.lang.StringBuilder $stack2, $stack4, $stack6, $stack7;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Car: void <init>()>();
+
+        vehicle = (de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle) $stack1;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void start()>();
+
+        varReplacer768 = 1;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer768);
+
+        varReplacer767 = 1;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer767);
+
+        varReplacer777 = 2;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer777);
+
+        varReplacer771 = 15;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer771);
+
+        varReplacer772 = 3;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer772);
+
+        varReplacer769 = 65;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer769);
+
+        varReplacer770 = 4;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer770);
+
+        varReplacer773 = 110;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer773);
+
+        varReplacer774 = 5;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer774);
+
+        varReplacer765 = 245;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer765);
+
+        varReplacer775 = 6;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>(varReplacer775);
+
+        varReplacer766 = 330;
+
+        interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>(varReplacer766);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer776 = "Current speed = ";
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer776);
+
+        $stack5 = interfaceinvoke vehicle.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: int getCurrentSpeed()>();
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack5);
+
+        varReplacer764 = " kmph";
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer764);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>($stack8);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.MainKt: void main()>();
+
+        return;
+    }
+}

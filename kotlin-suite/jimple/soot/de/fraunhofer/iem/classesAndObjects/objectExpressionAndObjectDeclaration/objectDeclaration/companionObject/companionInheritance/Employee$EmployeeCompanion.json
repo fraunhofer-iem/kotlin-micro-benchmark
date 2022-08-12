@@ -1,0 +1,46 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: java.lang.String getCompanyName()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void setCompanyName(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getCompanyName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: java.lang.String access$getCompanyName$cp()>"]
+        },
+        "void setCompanyName(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: void access$setCompanyName$cp(java.lang.String)>"
+            ]
+        },
+        "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        },
+        "void <init>(kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion"},
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void <init>()>"]
+        }
+    }
+}

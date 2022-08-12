@@ -1,0 +1,83 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack7, $stack11;
+        kotlin.jvm.functions.Function0 $stack5, $stack9;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$2 $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1 $stack4;
+        java.lang.String $stack6, $stack10, varReplacer2542;
+        kotlin.jvm.internal.Ref$ObjectRef $stack3;
+
+        nop;
+
+        $stack3 = new kotlin.jvm.internal.Ref$ObjectRef;
+
+        specialinvoke $stack3.<kotlin.jvm.internal.Ref$ObjectRef: void <init>()>();
+
+        varReplacer2542 = "Ranjith";
+
+        $stack3.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = varReplacer2542;
+
+        $stack4 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: void <init>(kotlin.jvm.internal.Ref$ObjectRef)>($stack3);
+
+        $stack5 = (kotlin.jvm.functions.Function0) $stack4;
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: java.lang.String printName(kotlin.jvm.functions.Function0)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        $stack8 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$2;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$2: void <init>(kotlin.jvm.internal.Ref$ObjectRef)>($stack3);
+
+        $stack9 = (kotlin.jvm.functions.Function0) $stack8;
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: java.lang.String printName(kotlin.jvm.functions.Function0)>($stack9);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        return;
+    }
+
+    public static final java.lang.String printName(kotlin.jvm.functions.Function0)
+    {
+        java.lang.Object $stack1;
+        java.lang.String $stack2, varReplacer2543;
+        kotlin.jvm.functions.Function0 printer;
+
+        nop;
+
+        printer := @parameter0: kotlin.jvm.functions.Function0;
+
+        varReplacer2543 = "printer";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(printer, varReplacer2543);
+
+        $stack1 = interfaceinvoke printer.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack2 = (java.lang.String) $stack1;
+
+        return $stack2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt: void main()>();
+
+        return;
+    }
+}

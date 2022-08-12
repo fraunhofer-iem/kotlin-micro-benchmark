@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: java.lang.String getHostname()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: void printHostname()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "hostname": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getHostname()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void printHostname()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host"},
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void print(java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived $stack1;
+        java.lang.String varReplacer574, varReplacer575;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived;
+
+        varReplacer574 = "ranjith";
+
+        varReplacer575 = "K";
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: void <init>(java.lang.String,java.lang.String)>(varReplacer574, varReplacer575);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.MainKt: void main()>();
+
+        return;
+    }
+}

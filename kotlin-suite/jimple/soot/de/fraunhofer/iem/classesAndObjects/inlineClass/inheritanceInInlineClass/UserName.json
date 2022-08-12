@@ -1,0 +1,180 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter"],
+    "methodCount": 15,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String getUserName()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String getUserNameInUpperCase-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String toString-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String toString()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: int hashCode-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: int hashCode()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: boolean equals(java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: boolean equals-impl0(java.lang.String,java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getUserName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>"]
+        },
+        "java.lang.String getUserNameInUpperCase-impl(java.lang.String)": {
+            "localVariables": {"arg0": "java.lang.String"},
+            "stackVariables": {
+                "$stack3": "java.util.Locale",
+                "$stack4": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>"
+            ]
+        },
+        "void print-impl(java.lang.String)": {
+            "localVariables": {"arg0": "java.lang.String"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void print()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void print-impl(java.lang.String)>"
+            ]
+        },
+        "java.lang.String toString-impl(java.lang.String)": {
+            "localVariables": {"arg0": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String toString-impl(java.lang.String)>"
+            ]
+        },
+        "int hashCode-impl(java.lang.String)": {
+            "localVariables": {"arg0": "java.lang.String"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": ["<java.lang.String: int hashCode()>"]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: int hashCode-impl(java.lang.String)>"
+            ]
+        },
+        "boolean equals-impl(java.lang.String,java.lang.Object)": {
+            "localVariables": {
+                "other": "java.lang.Object",
+                "arg0": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>"
+            ]
+        },
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName",
+                "userName": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String constructor-impl(java.lang.String)": {
+            "localVariables": {"userName": "java.lang.String"},
+            "stackVariables": {
+                "$stack7": "int",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.IllegalArgumentException",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.lang.Throwable",
+                "l2": "java.lang.CharSequence",
+                "$stack13": "boolean",
+                "l5": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.CharSequence: int length()>",
+                "<java.lang.Object: java.lang.String toString()>",
+                "<java.lang.IllegalArgumentException: void <init>(java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)": {
+            "localVariables": {"v": "java.lang.String"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: void <init>(java.lang.String)>"]
+        },
+        "java.lang.String unbox-impl()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "boolean equals-impl0(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "p1": "java.lang.String",
+                "p2": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "boolean"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"]
+        }
+    }
+}

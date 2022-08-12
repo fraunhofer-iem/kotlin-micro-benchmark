@@ -1,0 +1,79 @@
+public class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer extends java.lang.Object
+{
+    private final int a;
+    private final int b;
+    private final int c;
+    private final int d;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer this;
+        int varReplacer923, varReplacer924, varReplacer925, varReplacer926;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer926 = 1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int a> = varReplacer926;
+
+        varReplacer924 = 2;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int b> = varReplacer924;
+
+        varReplacer925 = 3;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int c> = varReplacer925;
+
+        varReplacer923 = 4;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int d> = varReplacer923;
+
+        return;
+    }
+
+    protected int getB()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int b>;
+
+        return $stack1;
+    }
+
+    public final int getC$kotlin_examples()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int c>;
+
+        return $stack1;
+    }
+
+    public final int getD()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int d>;
+
+        return $stack1;
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: java.lang.String getCompanyName()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void printEmployee(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee)>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void privateCompanionObject()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void jvmStaticCompanionMethod()>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void access$privateCompanionObject(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion)>",
+        "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getCompanyName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String access$getCompanyName$cp()>"]
+        },
+        "void printEmployee(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee)": {
+            "localVariables": {
+                "employee": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee",
+                "this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "java.lang.StringBuilder",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.String",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "java.lang.StringBuilder",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.lang.StringBuilder",
+                "$stack21": "java.lang.StringBuilder",
+                "$stack22": "int",
+                "$stack23": "java.lang.StringBuilder",
+                "$stack24": "java.lang.StringBuilder",
+                "$stack25": "java.lang.String",
+                "$stack26": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String access$getCompanyAddress$cp()>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String getFirstName()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: void access$setCompanyAddress$cp(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: java.lang.String getCompanyName()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String access$getCompanyAddress$cp()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String getFirstName()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String access$getDummy$p(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: java.lang.String getLastName()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee: int getAge()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void privateCompanionObject()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void jvmStaticCompanionMethod()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void access$privateCompanionObject(de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion)": {
+            "localVariables": {},
+            "stackVariables": {"$this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void privateCompanionObject()>"]
+        },
+        "void <init>(kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion"},
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.named.Employee$EmployeeCompanion: void <init>()>"]
+        }
+    }
+}

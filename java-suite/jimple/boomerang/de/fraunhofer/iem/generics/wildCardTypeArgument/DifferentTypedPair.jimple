@@ -1,0 +1,109 @@
+public class de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair extends java.lang.Object
+{
+    private java.lang.Object first;
+    private java.lang.Object second;
+
+    public void replace(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this, differentTypedPair;
+        java.lang.Object $stack2, $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        differentTypedPair := @parameter0: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack2 = virtualinvoke differentTypedPair.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object first> = $stack2;
+
+        $stack3 = virtualinvoke differentTypedPair.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object second> = $stack3;
+
+        return;
+    }
+
+    public void <init>(java.lang.Object, java.lang.Object)
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this;
+        java.lang.Object first, second;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        first := @parameter0: java.lang.Object;
+
+        second := @parameter1: java.lang.Object;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object first> = first;
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object second> = second;
+
+        return;
+    }
+
+    public java.lang.Object getFirst()
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this;
+        java.lang.Object $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object first>;
+
+        return $stack1;
+    }
+
+    public java.lang.Object getSecond()
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this;
+        java.lang.Object $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object second>;
+
+        return $stack1;
+    }
+
+    public void setFirst(java.lang.Object)
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this;
+        java.lang.Object first;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        first := @parameter0: java.lang.Object;
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object first> = first;
+
+        return;
+    }
+
+    public void setSecond(java.lang.Object)
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair this;
+        java.lang.Object second;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        second := @parameter0: java.lang.Object;
+
+        this.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object second> = second;
+
+        return;
+    }
+}

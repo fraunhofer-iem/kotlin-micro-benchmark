@@ -1,0 +1,191 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inForLoops.MainKt extends java.lang.Object
+{
+
+    public static final void inForLoopsWithCustomClass(java.util.List)
+    {
+        java.io.PrintStream $stack17;
+        java.util.Iterator $stack7;
+        java.util.List persons;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person l2;
+        int $stack10;
+        java.lang.Object $stack9;
+        java.lang.StringBuilder $stack12, $stack13, $stack14, $stack15;
+        java.lang.String $stack11, $stack16;
+        boolean $stack8;
+
+        persons := @parameter0: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(persons, "persons");
+
+        $stack7 = interfaceinvoke persons.<java.util.List: java.util.Iterator iterator()>();
+
+     label1:
+        $stack8 = interfaceinvoke $stack7.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack8 == 0 goto label2;
+
+        $stack9 = interfaceinvoke $stack7.<java.util.Iterator: java.lang.Object next()>();
+
+        l2 = (de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person) $stack9;
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>(l2);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>(l2);
+
+        $stack12 = new java.lang.StringBuilder;
+
+        specialinvoke $stack12.<java.lang.StringBuilder: void <init>()>();
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack11);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack10);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void inForLoopsWithMaps(java.util.Map)
+    {
+        java.util.Map maps;
+        int $stack14;
+        java.lang.String $stack19, key;
+        java.lang.Number $stack13;
+        boolean $stack9;
+        java.io.PrintStream $stack20;
+        java.util.Map$Entry l2;
+        java.util.Iterator $stack8;
+        java.util.Set $stack7;
+        java.lang.Object $stack10, $stack11, $stack12;
+        java.lang.StringBuilder $stack15, $stack16, $stack17, $stack18;
+
+        maps := @parameter0: java.util.Map;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(maps, "maps");
+
+        $stack7 = interfaceinvoke maps.<java.util.Map: java.util.Set entrySet()>();
+
+        $stack8 = interfaceinvoke $stack7.<java.util.Set: java.util.Iterator iterator()>();
+
+     label1:
+        $stack9 = interfaceinvoke $stack8.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack9 == 0 goto label2;
+
+        $stack10 = interfaceinvoke $stack8.<java.util.Iterator: java.lang.Object next()>();
+
+        l2 = (java.util.Map$Entry) $stack10;
+
+        $stack11 = interfaceinvoke l2.<java.util.Map$Entry: java.lang.Object getKey()>();
+
+        key = (java.lang.String) $stack11;
+
+        $stack12 = interfaceinvoke l2.<java.util.Map$Entry: java.lang.Object getValue()>();
+
+        $stack13 = (java.lang.Number) $stack12;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Number: int intValue()>();
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(key);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" = ");
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack14);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void main()
+    {
+        kotlin.Pair $stack12, $stack16, $stack20;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person[] l4;
+        kotlin.Pair[] l4#2;
+        java.lang.Integer $stack11, $stack15, $stack19;
+        java.util.List $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person $stack5, $stack6, $stack7;
+        java.util.Map $stack21;
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith", "Street 100", 100, "+49 111");
+
+        $stack6 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith K", "Street 200", 200, "+49 222");
+
+        $stack7 = new de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>("Ranjith Krishnamurthy", "Street 300", 300, "+49 333");
+
+        l4 = newarray (de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)[3];
+
+        l4[0] = $stack5;
+
+        l4[1] = $stack6;
+
+        l4[2] = $stack7;
+
+        $stack8 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l4);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inForLoops.MainKt: void inForLoopsWithCustomClass(java.util.List)>($stack8);
+
+        l4#2 = newarray (kotlin.Pair)[3];
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(100);
+
+        $stack12 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>("Ranjith", $stack11);
+
+        l4#2[0] = $stack12;
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(200);
+
+        $stack16 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>("Ranjith K", $stack15);
+
+        l4#2[1] = $stack16;
+
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(300);
+
+        $stack20 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>("Ranjith Krishnamurthy", $stack19);
+
+        l4#2[2] = $stack20;
+
+        $stack21 = staticinvoke <kotlin.collections.MapsKt: java.util.Map mapOf(kotlin.Pair[])>(l4#2);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inForLoops.MainKt: void inForLoopsWithMaps(java.util.Map)>($stack21);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inForLoops.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,67 @@
+public class de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$2 $stack6;
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3 $stack7;
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$1 $stack5;
+        java.lang.String[] args;
+        java.lang.String varReplacer271;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$1;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$1: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>($stack5);
+
+        $stack6 = new de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$2;
+
+        varReplacer271 = "Kotlin";
+
+        specialinvoke $stack6.<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$2: void <init>(java.lang.String)>(varReplacer271);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>($stack6);
+
+        $stack7 = new de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main$3: void <init>()>();
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousClassOfObject.Main: void printAnonymousObject(java.lang.Object)>($stack7);
+
+        return;
+    }
+
+    private static void printAnonymousObject(java.lang.Object)
+    {
+        java.io.PrintStream $stack1;
+        java.lang.Object object;
+
+        nop;
+
+        object := @parameter0: java.lang.Object;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.Object)>(object);
+
+        return;
+    }
+}

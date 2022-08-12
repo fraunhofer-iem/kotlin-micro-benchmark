@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: void <init>(int)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int getNumber()>"
+    ],
+    "methodsInformation": {
+        "void <init>(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt",
+                "number": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int getNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        }
+    }
+}

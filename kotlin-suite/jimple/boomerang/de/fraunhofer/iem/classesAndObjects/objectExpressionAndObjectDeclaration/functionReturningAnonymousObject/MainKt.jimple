@@ -1,0 +1,119 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt extends java.lang.Object
+{
+
+    private static final de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1 getAnonymousObjectPrivate()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1: void <init>()>();
+
+        return $stack0;
+    }
+
+    public static final de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter getAnonymousObjectPublicWithSingleSuperType()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithSingleSuperType$1 $stack0;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter $stack1;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithSingleSuperType$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithSingleSuperType$1: void <init>()>();
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter) $stack0;
+
+        return $stack1;
+    }
+
+    public static final java.lang.Object getAnonymousObjectPublicWithAnyAsSuperType()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1: void <init>()>();
+
+        return $stack0;
+    }
+
+    public static final de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter getAnonymousObjectPublicWithMultipleSuperTypes()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1 $stack0;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter $stack1;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithMultipleSuperTypes$1: void <init>()>();
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter) $stack0;
+
+        return $stack1;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6, $stack8, $stack10, $stack12;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter $stack11, $stack13;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1 $stack4;
+        java.lang.Object $stack9;
+        java.lang.String $stack5, $stack7;
+
+        nop;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1 getAnonymousObjectPrivate()>();
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1: java.lang.String getName()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1: java.lang.String getGreetMessage()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPrivate$1: void greet()>();
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt: java.lang.Object getAnonymousObjectPublicWithAnyAsSuperType()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter getAnonymousObjectPublicWithMultipleSuperTypes()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter getAnonymousObjectPublicWithSingleSuperType()>();
+
+        virtualinvoke $stack13.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.anonymousObjectOfSomeType.HelloWorldPrinter: void greet()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt: void main()>();
+
+        return;
+    }
+}

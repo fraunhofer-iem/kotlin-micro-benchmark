@@ -1,0 +1,88 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange",
+    "superClass": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression",
+    "implementedInterface": ["kotlin.ranges.ClosedRange"],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getStart()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getEndInclusive()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: boolean contains(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: boolean isEmpty()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: java.lang.Comparable getStart()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: java.lang.Comparable getEndInclusive()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: boolean contains(java.lang.Comparable)>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)": {
+            "localVariables": {
+                "start": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "endInclusive": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange",
+                "varReplacer2995": "java.lang.String",
+                "varReplacer2996": "int",
+                "varReplacer2997": "java.lang.String"
+            },
+            "stackVariables": {"$stack3": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getStart()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getEndInclusive()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "invokeExpressions": []
+        },
+        "boolean contains(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange",
+                "value": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.Comparable",
+                "$stack3": "boolean"
+            },
+            "invokeExpressions": ["<kotlin.ranges.ClosedRange$DefaultImpls: boolean contains(kotlin.ranges.ClosedRange,java.lang.Comparable)>"]
+        },
+        "boolean isEmpty()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": ["<kotlin.ranges.ClosedRange$DefaultImpls: boolean isEmpty(kotlin.ranges.ClosedRange)>"]
+        },
+        "java.lang.Comparable getStart()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack2": "java.lang.Comparable"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getStart()>"]
+        },
+        "java.lang.Comparable getEndInclusive()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack2": "java.lang.Comparable"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getEndInclusive()>"]
+        },
+        "boolean contains(java.lang.Comparable)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange",
+                "value": "java.lang.Comparable"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack3": "boolean"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: boolean contains(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>"]
+        }
+    }
+}

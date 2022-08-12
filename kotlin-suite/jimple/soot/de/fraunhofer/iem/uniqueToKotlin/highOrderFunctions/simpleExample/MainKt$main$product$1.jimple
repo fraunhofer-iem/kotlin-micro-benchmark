@@ -1,0 +1,77 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 extends kotlin.jvm.internal.FunctionReferenceImpl implements kotlin.jvm.functions.Function2
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 INSTANCE;
+
+    void <init>()
+    {
+        java.lang.Class $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1;
+
+        $stack1 = <java.lang.Integer: java.lang.Class TYPE>;
+
+        specialinvoke this.<kotlin.jvm.internal.FunctionReferenceImpl: void <init>(int,java.lang.Class,java.lang.String,java.lang.String,int)>(2, $stack1, "times", "times(I)I", 0);
+
+        return;
+    }
+
+    public final java.lang.Integer invoke(int, int)
+    {
+        int p0, p1, $stack3;
+        java.lang.Integer $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1;
+
+        p0 := @parameter0: int;
+
+        p1 := @parameter1: int;
+
+        $stack3 = p0 * p1;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        return $stack4;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object, java.lang.Object)
+    {
+        java.lang.Integer $stack7;
+        int $stack4, $stack6;
+        java.lang.Object p1, p2;
+        java.lang.Number $stack3, $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        p2 := @parameter1: java.lang.Object;
+
+        $stack3 = (java.lang.Number) p1;
+
+        $stack4 = virtualinvoke $stack3.<java.lang.Number: int intValue()>();
+
+        $stack5 = (java.lang.Number) p2;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.Number: int intValue()>();
+
+        $stack7 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: java.lang.Integer invoke(int,int)>($stack4, $stack6);
+
+        return $stack7;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 $stack0;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

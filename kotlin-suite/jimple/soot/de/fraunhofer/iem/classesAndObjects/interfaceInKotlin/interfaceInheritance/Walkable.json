@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Walkable",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Walkable: void walk()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Walkable: void crawl()>"
+    ],
+    "methodsInformation": {
+        "void walk()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void crawl()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

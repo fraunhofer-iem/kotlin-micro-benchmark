@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1435": "java.lang.String",
+                "varReplacer1436": "int"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection",
+                "$stack4": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host",
+                "$stack5": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void <init>(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host,int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void connect()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host getHost()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int getPort()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt: void main()>"]
+        }
+    }
+}

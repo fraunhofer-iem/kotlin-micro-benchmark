@@ -1,0 +1,61 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack12, $stack15;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName $stack10;
+        int $stack7;
+        java.lang.String $stack3, $stack5, $stack9, $stack13;
+        boolean $stack11, $stack14;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>("Ranjith");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString-impl(java.lang.String)>($stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode-impl(java.lang.String)>($stack3);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>("Ranjith");
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName box-impl(java.lang.String)>($stack9);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>($stack3, $stack10);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack11);
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>("Ranjith");
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl0(java.lang.String,java.lang.String)>($stack3, $stack13);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(boolean)>($stack14);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,360 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String $stack3, $stack5, $stack7, $stack9, $stack11, $stack13, $stack17, $stack18, varReplacer2725, varReplacer2727, varReplacer2728, varReplacer2729;
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack19;
+        java.lang.IllegalArgumentException $stack15;
+        null_type varReplacer2724, varReplacer2726, varReplacer2730;
+
+        nop;
+
+        varReplacer2730 = null;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnNonNullValue(java.lang.String)>(varReplacer2730);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        varReplacer2728 = "Ranjith";
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnNonNullValue(java.lang.String)>(varReplacer2728);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        varReplacer2724 = null;
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrNull(java.lang.String)>(varReplacer2724);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        varReplacer2725 = "Ranjith";
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrNull(java.lang.String)>(varReplacer2725);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+     label1:
+        varReplacer2726 = null;
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrThrowException(java.lang.String)>(varReplacer2726);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        varReplacer2727 = "Ranjith";
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrThrowException(java.lang.String)>(varReplacer2727);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack15 := @caughtexception;
+
+        $stack17 = virtualinvoke $stack15.<java.lang.IllegalArgumentException: java.lang.String getMessage()>();
+
+        varReplacer2729 = "Got IllegalArgumentException = ";
+
+        $stack18 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2729, $stack17);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+     label4:
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void processAllInOneMethod()>();
+
+        return;
+
+        catch java.lang.IllegalArgumentException from label1 to label2 with label3;
+    }
+
+    public static final java.lang.String returnNonNullValue(java.lang.String)
+    {
+        int $stack10;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack8;
+        java.lang.String name, $stack9, varReplacer2731;
+
+        nop;
+
+        name := @parameter0: java.lang.String;
+
+        if name != null goto label1;
+
+        nop;
+
+        $stack10 = 0;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack10 = virtualinvoke name.<java.lang.String: int length()>();
+
+     label2:
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        varReplacer2731 = " = ";
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2731);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack10);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack9;
+    }
+
+    public static final java.lang.String returnProcessedStringOrNull(java.lang.String)
+    {
+        java.lang.Integer $stack5;
+        null_type varReplacer2732;
+        int $stack4, $stack6;
+        java.lang.StringBuilder $stack7, $stack8, $stack9, $stack10;
+        java.lang.String name, $stack11, varReplacer2733;
+
+        nop;
+
+        name := @parameter0: java.lang.String;
+
+        if name != null goto label1;
+
+        nop;
+
+        $stack5 = null;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack4 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+     label2:
+        if $stack5 != null goto label3;
+
+        nop;
+
+        varReplacer2732 = null;
+
+        return varReplacer2732;
+
+     label3:
+        nop;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.Integer: int intValue()>();
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        varReplacer2733 = " = ";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2733);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack11;
+    }
+
+    public static final java.lang.String returnProcessedStringOrThrowException(java.lang.String)
+    {
+        java.lang.IllegalArgumentException $stack12;
+        java.lang.Integer $stack5;
+        int $stack4, $stack6;
+        java.lang.StringBuilder $stack7, $stack8, $stack9, $stack10;
+        java.lang.String name, $stack11, varReplacer2734, varReplacer2735;
+
+        nop;
+
+        name := @parameter0: java.lang.String;
+
+        if name != null goto label1;
+
+        nop;
+
+        $stack5 = null;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack4 = virtualinvoke name.<java.lang.String: int length()>();
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+     label2:
+        if $stack5 != null goto label3;
+
+        nop;
+
+        $stack12 = new java.lang.IllegalArgumentException;
+
+        varReplacer2734 = "Illegal argument: Given argument is null";
+
+        specialinvoke $stack12.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>(varReplacer2734);
+
+        throw $stack12;
+
+     label3:
+        nop;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.Integer: int intValue()>();
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(name);
+
+        varReplacer2735 = " = ";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2735);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack11;
+    }
+
+    public static final void processAllInOneMethod()
+    {
+        java.lang.Integer $stack14;
+        int $stack13, $stack15, $stack24;
+        java.lang.String $stack4, $stack10, $stack12, $stack20, varReplacer2736, varReplacer2737, varReplacer2738;
+        java.io.PrintStream $stack11, $stack21;
+        java.lang.IllegalArgumentException $stack22;
+        java.lang.StringBuilder $stack6, $stack7, $stack8, $stack9, $stack16, $stack17, $stack18, $stack19;
+
+        nop;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>();
+
+        if $stack4 != null goto label1;
+
+        nop;
+
+        $stack24 = 0;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack24 = virtualinvoke $stack4.<java.lang.String: int length()>();
+
+     label2:
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack4);
+
+        varReplacer2737 = " = ";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2737);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack24);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>();
+
+        if $stack12 != null goto label3;
+
+        nop;
+
+        $stack14 = null;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.String: int length()>();
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack13);
+
+     label4:
+        if $stack14 != null goto label5;
+
+        nop;
+
+        $stack22 = new java.lang.IllegalArgumentException;
+
+        varReplacer2736 = "Illegal argument: Given argument is null";
+
+        specialinvoke $stack22.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>(varReplacer2736);
+
+        throw $stack22;
+
+     label5:
+        nop;
+
+        $stack15 = virtualinvoke $stack14.<java.lang.Integer: int intValue()>();
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack12);
+
+        varReplacer2738 = " = ";
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2738);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack15);
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void main()>();
+
+        return;
+    }
+}

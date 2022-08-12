@@ -1,0 +1,41 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.extensions.companionObject.Employee$MessageCreator: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        }
+    }
+}

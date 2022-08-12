@@ -1,0 +1,85 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: void <init>(java.lang.String,java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: java.lang.String getLastName()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived: int getSize()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "lastName": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived"
+            },
+            "stackVariables": {
+                "$stack16": "int",
+                "$stack17": "java.lang.String",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "int",
+                "$stack21": "java.lang.String",
+                "$stack22": "int",
+                "$stack24": "java.lang.Integer",
+                "$stack25": "java.lang.String",
+                "$stack26": "java.io.PrintStream",
+                "$stack27": "java.lang.StringBuilder",
+                "$stack28": "char",
+                "$stack29": "java.lang.String",
+                "$stack30": "java.util.Locale",
+                "$stack31": "java.lang.String",
+                "$stack32": "java.lang.String",
+                "$stack33": "java.lang.StringBuilder",
+                "$stack34": "java.lang.String",
+                "$stack35": "java.lang.StringBuilder",
+                "$stack46": "kotlin.Unit",
+                "$stack56": "int",
+                "$stack65": "kotlin.Unit",
+                "$stack68": "java.lang.NullPointerException",
+                "$stack40": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived",
+                "l5": "java.lang.CharSequence",
+                "$stack69": "boolean",
+                "$stack36": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.CharSequence: int length()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.String: char charAt(int)>",
+                "<java.lang.String: java.lang.String valueOf(char)>",
+                "<java.lang.NullPointerException: void <init>(java.lang.String)>",
+                "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: java.lang.String toString()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: java.lang.String substring(int)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: void <init>(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Base: int getSize()>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getLastName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getSize()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.derivedClassInitOrder.Derived"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        }
+    }
+}

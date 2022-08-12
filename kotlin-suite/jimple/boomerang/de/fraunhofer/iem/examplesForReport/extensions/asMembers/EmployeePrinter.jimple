@@ -1,0 +1,160 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter extends java.lang.Object
+{
+    private final java.lang.String printerName;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter this;
+        java.lang.String varReplacer1307;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer1307 = "MyPrinter";
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter: java.lang.String printerName> = varReplacer1307;
+
+        return;
+    }
+
+    public final java.lang.String getPrinterName()
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter: java.lang.String printerName>;
+
+        return $stack1;
+    }
+
+    public final void printEmpInfo(de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee, java.lang.String)
+    {
+        java.lang.Integer $stack13;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee $this$printEmpInfo;
+        int $stack12;
+        java.lang.String date, $stack5, $stack8, $stack9, $stack14, varReplacer1308, varReplacer1309, varReplacer1310, varReplacer1311, varReplacer1312;
+        java.io.PrintStream $stack6, $stack10, $stack15;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        $this$printEmpInfo := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        date := @parameter1: java.lang.String;
+
+        varReplacer1309 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printEmpInfo, varReplacer1309);
+
+        varReplacer1311 = "date";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(date, varReplacer1311);
+
+        varReplacer1312 = "Date = ";
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1312, date);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack8 = virtualinvoke $this$printEmpInfo.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String getFirstName()>();
+
+        varReplacer1308 = "Employee first name is = ";
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1308, $stack8);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack12 = virtualinvoke $this$printEmpInfo.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: int getAge()>();
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack12);
+
+        varReplacer1310 = "Employee first age is = ";
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1310, $stack13);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        return;
+    }
+
+    public final int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee $this$nameLength;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter this;
+        int $stack3, $stack5, $stack6;
+        java.lang.String $stack2, $stack4, varReplacer1313;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        $this$nameLength := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee;
+
+        varReplacer1313 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$nameLength, varReplacer1313);
+
+        $stack2 = virtualinvoke $this$nameLength.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String getFirstName()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int length()>();
+
+        $stack4 = virtualinvoke $this$nameLength.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee: java.lang.String getLastName()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: int length()>();
+
+        $stack6 = $stack3 + $stack5;
+
+        return $stack6;
+    }
+
+    public final void printWelcomeMessage(de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator)
+    {
+        java.io.PrintStream $stack6, $stack8;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter this;
+        de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator $this$printWelcomeMessage;
+        java.lang.String $stack4, $stack5, $stack7, varReplacer1314, varReplacer1315;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter;
+
+        $this$printWelcomeMessage := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator;
+
+        varReplacer1314 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printWelcomeMessage, varReplacer1314);
+
+        $stack4 = this.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.EmployeePrinter: java.lang.String printerName>;
+
+        varReplacer1315 = "PrinterName = ";
+
+        $stack5 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1315, $stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = virtualinvoke $this$printWelcomeMessage.<de.fraunhofer.iem.examplesForReport.extensions.asMembers.Employee$MessageCreator: java.lang.String welcomeMessage()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+    }
+}

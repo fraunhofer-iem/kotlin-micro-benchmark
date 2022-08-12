@@ -1,0 +1,51 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt extends java.lang.Object
+{
+
+    public static final int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.property.Employee)
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee $this$nameLength;
+        int $stack2, $stack4, $stack5;
+        java.lang.String $stack1, $stack3;
+
+        $this$nameLength := @parameter0: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$nameLength, "<this>");
+
+        $stack1 = virtualinvoke $this$nameLength.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String getFirstName()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.String: int length()>();
+
+        $stack3 = virtualinvoke $this$nameLength.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String getLastName()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.String: int length()>();
+
+        $stack5 = $stack2 + $stack4;
+
+        return $stack5;
+    }
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack8;
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee $stack3;
+        int $stack5;
+        java.lang.String $stack7;
+        java.lang.Integer $stack6;
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: void <init>(java.lang.String,java.lang.String,int)>("Night", "Fury", 120);
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.examplesForReport.extensions.property.EmployeeKt: int getNameLength(de.fraunhofer.iem.examplesForReport.extensions.property.Employee)>($stack3);
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack5);
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Length of the employee name = ", $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+    }
+}

@@ -1,0 +1,306 @@
+public final class de.fraunhofer.iem.examplesForReport.dataClass.Employee extends java.lang.Object
+{
+    private final java.lang.String firstName;
+    private final java.lang.String lastName;
+    private final int age;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+        int age;
+        java.lang.String firstName, lastName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component1()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component2()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final int component3()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.examplesForReport.dataClass.Employee copy(java.lang.String, java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee $stack4, this;
+        int age;
+        java.lang.String firstName, lastName;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        $stack4 = new de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: void <init>(java.lang.String,java.lang.String,int)>(firstName, lastName, age);
+
+        return $stack4;
+    }
+
+    public static de.fraunhofer.iem.examplesForReport.dataClass.Employee copy$default(de.fraunhofer.iem.examplesForReport.dataClass.Employee, java.lang.String, java.lang.String, int, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee l0, $stack9;
+        int l4, $stack6, $stack7, $stack8, l3;
+        java.lang.Object l5;
+        java.lang.String l1, l2;
+
+        l0 := @parameter0: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: java.lang.String;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: int;
+
+        l5 := @parameter5: java.lang.Object;
+
+        $stack6 = l4 & 1;
+
+        if $stack6 == 0 goto label1;
+
+        l1 = l0.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+     label1:
+        $stack7 = l4 & 2;
+
+        if $stack7 == 0 goto label2;
+
+        l2 = l0.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+     label2:
+        $stack8 = l4 & 4;
+
+        if $stack8 == 0 goto label3;
+
+        l3 = l0.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+     label3:
+        $stack9 = virtualinvoke l0.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: de.fraunhofer.iem.examplesForReport.dataClass.Employee copy(java.lang.String,java.lang.String,int)>(l1, l2, l3);
+
+        return $stack9;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+        int $stack9;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack7, $stack8, $stack10, $stack11;
+        java.lang.String $stack3, $stack6, $stack12;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Employee(firstName=");
+
+        $stack3 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", lastName=");
+
+        $stack6 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", age=");
+
+        $stack9 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(41);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack12;
+    }
+
+    public int hashCode()
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this;
+        int $stack3, $stack5, $stack6, $stack7, $stack8, $stack9, result;
+        java.lang.String $stack2, $stack4;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        $stack2 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int hashCode()>();
+
+        $stack5 = $stack3 * 31;
+
+        $stack4 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.String: int hashCode()>();
+
+        result = $stack5 + $stack6;
+
+        $stack8 = result * 31;
+
+        $stack7 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        $stack9 = staticinvoke <java.lang.Integer: int hashCode(int)>($stack7);
+
+        result = $stack8 + $stack9;
+
+        return result;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.examplesForReport.dataClass.Employee this, l2;
+        int $stack10, $stack11;
+        java.lang.Object other;
+        java.lang.String $stack4, $stack5, $stack7, $stack8;
+        boolean $stack3, $stack6, $stack9;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        return 1;
+
+     label1:
+        $stack3 = other instanceof de.fraunhofer.iem.examplesForReport.dataClass.Employee;
+
+        if $stack3 != 0 goto label2;
+
+        return 0;
+
+     label2:
+        l2 = (de.fraunhofer.iem.examplesForReport.dataClass.Employee) other;
+
+        $stack5 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        $stack4 = l2.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String firstName>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        return 0;
+
+     label3:
+        $stack8 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        $stack7 = l2.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: java.lang.String lastName>;
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack8, $stack7);
+
+        if $stack9 != 0 goto label4;
+
+        return 0;
+
+     label4:
+        $stack11 = this.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        $stack10 = l2.<de.fraunhofer.iem.examplesForReport.dataClass.Employee: int age>;
+
+        if $stack11 == $stack10 goto label5;
+
+        return 0;
+
+     label5:
+        return 1;
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.SimpleWhenStatementKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.SimpleWhenStatementKt: void greet()>"],
+    "methodsInformation": {"void greet()": {
+        "localVariables": {},
+        "stackVariables": {
+            "$stack4": "java.lang.String",
+            "$stack6": "int",
+            "$stack7": "boolean",
+            "$stack8": "java.io.PrintStream",
+            "$stack12": "boolean",
+            "$stack13": "java.io.PrintStream",
+            "$stack14": "boolean",
+            "$stack15": "java.io.PrintStream",
+            "$stack5": "java.io.PrintStream"
+        },
+        "invokeExpressions": [
+            "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+            "<java.lang.String: int hashCode()>",
+            "<java.lang.String: boolean equals(java.lang.Object)>",
+            "<java.lang.String: boolean equals(java.lang.Object)>",
+            "<java.lang.String: boolean equals(java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

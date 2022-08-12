@@ -1,0 +1,135 @@
+public class de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Exception $stack23;
+        java.lang.StringBuilder $stack24, $stack26, $stack29, $stack30, $stack32;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] $stack6;
+        java.lang.String[] args;
+        int $stack11, $stack16, $stack21;
+        java.lang.String $stack9, $stack14, $stack19, $stack28, $stack31, $stack33, varReplacer325, varReplacer326, varReplacer327, varReplacer328;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu $stack5, menu2, menu3;
+        java.io.PrintStream $stack7, $stack8, $stack10, $stack12, $stack13, $stack15, $stack17, $stack18, $stack20, $stack25;
+        java.lang.Class $stack27;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer326 = "CHICKEN_GRAVY";
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>(varReplacer326);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] values()>();
+
+        menu2 = $stack6[1];
+
+        menu3 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu VEG_PULAO>;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack9 = virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: java.lang.String name()>();
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack11 = virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: int ordinal()>();
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack11);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>(menu2);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack14 = virtualinvoke menu2.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: java.lang.String name()>();
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.String)>($stack14);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack16 = virtualinvoke menu2.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: int ordinal()>();
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack16);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>(menu3);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack19 = virtualinvoke menu3.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: java.lang.String name()>();
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.String)>($stack19);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack21 = virtualinvoke menu3.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: int ordinal()>();
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(int)>($stack21);
+
+     label1:
+        varReplacer327 = "DUMMY";
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>(varReplacer327);
+
+     label2:
+        goto label4;
+
+     label3:
+        $stack23 := @caughtexception;
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack24 = new java.lang.StringBuilder;
+
+        specialinvoke $stack24.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer328 = "Something went wrong: ";
+
+        $stack26 = virtualinvoke $stack24.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer328);
+
+        $stack27 = virtualinvoke $stack23.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack28 = virtualinvoke $stack27.<java.lang.Class: java.lang.String getName()>();
+
+        $stack29 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack28);
+
+        varReplacer325 = " : ";
+
+        $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer325);
+
+        $stack31 = virtualinvoke $stack23.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack32 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack31);
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.String)>($stack33);
+
+     label4:
+        return;
+
+        catch java.lang.Exception from label1 to label2 with label3;
+    }
+}

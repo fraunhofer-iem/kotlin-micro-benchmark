@@ -1,0 +1,154 @@
+public final class de.fraunhofer.iem.functions.varargInFunctionParam.MainKt extends java.lang.Object
+{
+
+    private static final transient void print(java.lang.String[])
+    {
+        java.io.PrintStream $stack6;
+        int l3, l2;
+        java.lang.String[] messages;
+        java.lang.String message;
+
+        messages := @parameter0: java.lang.String[];
+
+        l2 = 0;
+
+        l3 = lengthof messages;
+
+     label1:
+        if l2 >= l3 goto label2;
+
+        message = messages[l2];
+
+        l2 = l2 + 1;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(message);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final transient void printList(java.util.List[])
+    {
+        java.io.PrintStream $stack13;
+        java.util.Iterator $stack8;
+        java.util.List[] lst;
+        java.util.List ls;
+        int l3, l2;
+        java.lang.Object $stack12;
+        java.lang.String elem;
+        boolean $stack9;
+
+        lst := @parameter0: java.util.List[];
+
+        l2 = 0;
+
+        l3 = lengthof lst;
+
+     label1:
+        if l2 >= l3 goto label3;
+
+        ls = lst[l2];
+
+        l2 = l2 + 1;
+
+        $stack8 = interfaceinvoke ls.<java.util.List: java.util.Iterator iterator()>();
+
+     label2:
+        $stack9 = interfaceinvoke $stack8.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack9 == 0 goto label1;
+
+        $stack12 = interfaceinvoke $stack8.<java.util.Iterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack12;
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        goto label2;
+
+     label3:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.util.List $stack4, $stack6, $stack8;
+        java.util.List[] l0#3;
+        java.lang.String[] $stack2, l0, l1;
+
+        $stack2 = newarray (java.lang.String)[0];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.MainKt: void print(java.lang.String[])>($stack2);
+
+        l0 = newarray (java.lang.String)[2];
+
+        l0[0] = "Hello";
+
+        l0[1] = "How are you";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.MainKt: void print(java.lang.String[])>(l0);
+
+        l0 = newarray (java.lang.String)[3];
+
+        l0[0] = "Hello";
+
+        l0[1] = "How are you";
+
+        l0[2] = "Where are you";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.MainKt: void print(java.lang.String[])>(l0);
+
+        l0#3 = newarray (java.util.List)[3];
+
+        l1 = newarray (java.lang.String)[3];
+
+        l1[0] = "Hello";
+
+        l1[1] = "How are you";
+
+        l1[2] = "Where are you";
+
+        $stack4 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        l0#3[0] = $stack4;
+
+        l1 = newarray (java.lang.String)[2];
+
+        l1[0] = "Hello";
+
+        l1[1] = "How are you";
+
+        $stack6 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        l0#3[1] = $stack6;
+
+        l1 = newarray (java.lang.String)[1];
+
+        l1[0] = "Where are you";
+
+        $stack8 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        l0#3[2] = $stack8;
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.MainKt: void printList(java.util.List[])>(l0#3);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.MainKt: void main()>();
+
+        return;
+    }
+}

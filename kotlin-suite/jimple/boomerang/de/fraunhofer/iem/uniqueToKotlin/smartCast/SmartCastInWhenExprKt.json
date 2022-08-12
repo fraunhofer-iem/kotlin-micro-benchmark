@@ -1,0 +1,99 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1573": "int",
+                "varReplacer1574": "double",
+                "varReplacer1575": "java.lang.String",
+                "varReplacer1576": "float"
+            },
+            "stackVariables": {
+                "$stack0": "java.lang.Integer",
+                "$stack1": "java.lang.Float",
+                "$stack2": "java.lang.Double"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>",
+                "<java.lang.Float: java.lang.Float valueOf(float)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void checkType(java.lang.Object)>"
+            ]
+        },
+        "void checkType(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer1577": "java.lang.String",
+                "varReplacer1578": "java.lang.String",
+                "varReplacer1579": "java.lang.String",
+                "varReplacer1580": "int",
+                "varReplacer1581": "java.lang.String",
+                "varReplacer1582": "java.lang.String",
+                "varReplacer1583": "java.lang.String",
+                "varReplacer1584": "java.lang.String",
+                "varReplacer1585": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "boolean",
+                "$stack5": "boolean",
+                "$stack6": "boolean",
+                "$stack7": "boolean",
+                "$stack8": "java.lang.Integer",
+                "$stack9": "boolean",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "java.lang.StringBuilder",
+                "$stack19": "java.lang.String",
+                "$stack20": "int",
+                "$stack21": "java.lang.StringBuilder",
+                "$stack22": "java.lang.String",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "java.lang.String",
+                "$stack25": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInWhenExprKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,269 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee extends java.lang.Object
+{
+    private java.lang.String firstName;
+    private java.lang.String lastName;
+    private final java.lang.String employeeID;
+    private java.lang.String designation;
+    private int salary;
+    private java.lang.String address;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String firstName> = "";
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String lastName> = "";
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: java.lang.String getNewEmpID()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String employeeID> = $stack1;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String designation> = "NA";
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: int salary> = 10000;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String address> = "NA";
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.util.Locale $stack4;
+        java.lang.String $stack3, $stack5;
+        java.lang.NullPointerException $stack6;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String getFirstName()>();
+
+        if $stack3 != null goto label1;
+
+        $stack6 = new java.lang.NullPointerException;
+
+        specialinvoke $stack6.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type java.lang.String");
+
+        throw $stack6;
+
+     label1:
+        $stack4 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack5 = virtualinvoke $stack3.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack4);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack5, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)");
+
+        return $stack5;
+    }
+
+    public final void setFirstName(java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.util.Locale $stack4;
+        java.lang.String firstName, $stack5;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        $stack4 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack5 = virtualinvoke firstName.<java.lang.String: java.lang.String toLowerCase(java.util.Locale)>($stack4);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack5, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)");
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String firstName> = $stack5;
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.util.Locale $stack3;
+        java.lang.String l1, $stack4;
+        java.lang.NullPointerException $stack5;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        l1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String lastName>;
+
+        if l1 != null goto label1;
+
+        $stack5 = new java.lang.NullPointerException;
+
+        specialinvoke $stack5.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type java.lang.String");
+
+        throw $stack5;
+
+     label1:
+        $stack3 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack4 = virtualinvoke l1.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack3);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack4, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)");
+
+        return $stack4;
+    }
+
+    public final java.lang.String getEmployeeID()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.lang.String $stack1, $stack2;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String employeeID>;
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack1, "ABCD");
+
+        return $stack2;
+    }
+
+    public final java.lang.String getDesignation()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String designation>;
+
+        return $stack1;
+    }
+
+    public final void setDesignation(java.lang.String)
+    {
+        java.lang.String <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, "<set-?>");
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String designation> = <set-?>;
+
+        return;
+    }
+
+    public final int getSalary()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: int salary>;
+
+        return $stack1;
+    }
+
+    public final void setSalary(int)
+    {
+        java.io.PrintStream $stack4, $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        int givenSalary;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        givenSalary := @parameter0: int;
+
+        if givenSalary >= 10000 goto label1;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("Given salary is less than the rule set by the Company\nSetting to minimum salary 10000");
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: int salary> = 10000;
+
+     label1:
+        if givenSalary <= 1000000 goto label2;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Given salary is greater than the rule set by the Company\nSetting to maximum salary 1000000");
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: int salary> = 1000000;
+
+     label2:
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: int salary> = givenSalary;
+
+        return;
+    }
+
+    public final java.lang.String getAddress()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        java.lang.String $stack1;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final void setAddress(java.lang.String)
+    {
+        java.lang.String value;
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        value := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(value, "value");
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String address> = value;
+
+        return;
+    }
+
+    public final int getLength()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+        int $stack2, $stack4, $stack5;
+        java.lang.String $stack1, $stack3;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String getFirstName()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.String: int length()>();
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee: java.lang.String getLastName()>();
+
+        $stack4 = virtualinvoke $stack3.<java.lang.String: int length()>();
+
+        $stack5 = $stack2 + $stack4;
+
+        return $stack5;
+    }
+
+    public final void setLength(int)
+    {
+        java.io.PrintStream $stack4;
+        int value;
+        de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.Employee;
+
+        value := @parameter0: int;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Can not change length!");
+
+        return;
+    }
+}

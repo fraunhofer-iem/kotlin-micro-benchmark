@@ -1,0 +1,112 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withIterators(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withFor(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withForEach(java.util.Collection)>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void main()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void withIterators(java.util.Collection)": {
+            "localVariables": {
+                "collection": "java.util.Collection",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void withFor(java.util.Collection)": {
+            "localVariables": {
+                "collection": "java.util.Collection",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.util.Iterator",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void withForEach(java.util.Collection)": {
+            "localVariables": {
+                "collection": "java.util.Collection",
+                "it": "java.lang.String",
+                "varReplacer1210": "java.lang.String",
+                "varReplacer1211": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$forEach$iv": "java.lang.Iterable",
+                "$stack10": "java.util.Iterator",
+                "$stack11": "boolean",
+                "$stack12": "java.lang.Object",
+                "$stack13": "java.util.Locale",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack17": "java.lang.NullPointerException"
+            },
+            "invokeExpressions": [
+                "<java.lang.Iterable: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.NullPointerException: void <init>(java.lang.String)>",
+                "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "set": "java.lang.String[]",
+                "set#2": "java.util.Set",
+                "varReplacer1212": "java.lang.String",
+                "varReplacer1213": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.util.List",
+                "$stack3": "java.util.HashSet",
+                "$stack4": "java.util.Collection",
+                "$stack5": "java.util.Collection",
+                "$stack6": "java.util.Collection",
+                "$stack7": "java.util.Collection",
+                "$stack8": "java.util.Collection",
+                "$stack9": "java.util.Collection",
+                "$stack10": "java.util.Collection"
+            },
+            "invokeExpressions": [
+                "<kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>",
+                "<java.util.HashSet: void <init>(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withIterators(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withIterators(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withFor(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withFor(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withForEach(java.util.Collection)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withForEach(java.util.Collection)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void main()>"]
+        }
+    }
+}

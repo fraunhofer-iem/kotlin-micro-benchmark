@@ -1,0 +1,88 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack7;
+        kotlin.jvm.functions.Function1 $stack2, $stack5;
+        java.lang.String $stack3, $stack6;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt$main_lambda-0__12: kotlin.jvm.functions.Function1 bootstrap$()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>($stack2);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt$main_lambda-1__13: kotlin.jvm.functions.Function1 bootstrap$()>();
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static final java.lang.String printName(kotlin.jvm.functions.Function1)
+    {
+        kotlin.jvm.functions.Function1 printer;
+        java.lang.Object $stack1;
+        java.lang.String $stack2;
+
+        printer := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(printer, "printer");
+
+        $stack1 = interfaceinvoke printer.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith");
+
+        $stack2 = (java.lang.String) $stack1;
+
+        return $stack2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.returnInLambda.MainKt: void main()>();
+
+        return;
+    }
+
+    public static final java.lang.String main$lambda-0(java.lang.String)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String it;
+
+        it := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(it, "it");
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(it);
+
+        return it;
+    }
+
+    public static final java.lang.String main$lambda-1(java.lang.String)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String it;
+
+        it := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(it, "it");
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(it);
+
+        return it;
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.JavaStringType",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.JavaStringType: void <init>()>",
+        "<de.fraunhofer.iem.basics.dataTypes.JavaStringType: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.dataTypes.JavaStringType: java.lang.String getString()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.dataTypes.JavaStringType"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.dataTypes.JavaStringType: java.lang.String getString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "java.lang.String getString()": {
+            "localVariables": {
+                "varReplacer220": "java.lang.String",
+                "varReplacer221": "java.lang.String",
+                "varReplacer222": "java.lang.String",
+                "varReplacer223": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.util.Scanner",
+                "$stack4": "java.io.InputStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.String",
+                "$stack7": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.util.Scanner: void <init>(java.io.InputStream)>",
+                "<java.io.PrintStream: void print(java.lang.String)>",
+                "<java.util.Scanner: java.lang.String nextLine()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: void <init>(int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int getFirstNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int getSecondNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int add()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts",
+                "firstNumber": "int",
+                "secondNumber": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int getFirstNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "int getSecondNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "int add()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {"varReplacer1366": "null_type"},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>"]
+        }
+    }
+}

@@ -1,0 +1,98 @@
+public class de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators this;
+
+        this := @this: de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack3, $stack6, num, num#4, $i0, $i1;
+        boolean $stack4, $stack16;
+        java.io.PrintStream $stack5, $stack7, $stack8, $stack9, $stack11, $stack13, $stack14, $stack15;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>("int");
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators: boolean getBool(java.lang.String)>("bool");
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = neg $stack3;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        num = $stack3 + 1;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>(num);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        $i0 = (int) -1;
+
+        num = num + $i0;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>(num);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        num#4 = num + 1;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>(num);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        $i1 = (int) -1;
+
+        num = num#4 + $i1;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>(num#4);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>(num);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        if $stack4 != 0 goto label1;
+
+        $stack16 = 1;
+
+        goto label2;
+
+     label1:
+        $stack16 = 0;
+
+     label2:
+        virtualinvoke $stack15.<java.io.PrintStream: void println(boolean)>($stack16);
+
+        return;
+    }
+
+    public static boolean getBool(java.lang.String)
+    {
+        java.lang.String flag;
+        boolean $stack1;
+
+        flag := @parameter0: java.lang.String;
+
+        $stack1 = virtualinvoke flag.<java.lang.String: boolean equals(java.lang.Object)>("bool");
+
+        return $stack1;
+    }
+}

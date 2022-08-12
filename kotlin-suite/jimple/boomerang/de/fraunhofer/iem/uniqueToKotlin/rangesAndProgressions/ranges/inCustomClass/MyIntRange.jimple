@@ -1,0 +1,159 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange extends de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression implements kotlin.ranges.ClosedRange
+{
+    private final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start;
+    private final de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive;
+
+    public void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt, de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start, endInclusive, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+        int varReplacer2996;
+        java.lang.String varReplacer2995, varReplacer2997;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        start := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        endInclusive := @parameter1: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        varReplacer2995 = "start";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(start, varReplacer2995);
+
+        varReplacer2997 = "endInclusive";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(endInclusive, varReplacer2997);
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        varReplacer2996 = 1;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>(varReplacer2996);
+
+        specialinvoke this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.inCustomClass.MyIntProgression: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>(start, endInclusive, $stack3);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start> = start;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive> = endInclusive;
+
+        return;
+    }
+
+    public de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getStart()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt start>;
+
+        return $stack1;
+    }
+
+    public de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getEndInclusive()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt endInclusive>;
+
+        return $stack1;
+    }
+
+    public boolean contains(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt value;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+        java.lang.Comparable $stack2;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        value := @parameter0: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        $stack2 = (java.lang.Comparable) value;
+
+        $stack3 = staticinvoke <kotlin.ranges.ClosedRange$DefaultImpls: boolean contains(kotlin.ranges.ClosedRange,java.lang.Comparable)>(this, $stack2);
+
+        return $stack3;
+    }
+
+    public boolean isEmpty()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+        boolean $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        $stack1 = staticinvoke <kotlin.ranges.ClosedRange$DefaultImpls: boolean isEmpty(kotlin.ranges.ClosedRange)>(this);
+
+        return $stack1;
+    }
+
+    public volatile java.lang.Comparable getStart()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack1;
+        java.lang.Comparable $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getStart()>();
+
+        $stack2 = (java.lang.Comparable) $stack1;
+
+        return $stack2;
+    }
+
+    public volatile java.lang.Comparable getEndInclusive()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack1;
+        java.lang.Comparable $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt getEndInclusive()>();
+
+        $stack2 = (java.lang.Comparable) $stack1;
+
+        return $stack2;
+    }
+
+    public volatile boolean contains(java.lang.Comparable)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange this;
+        java.lang.Comparable value;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange;
+
+        value := @parameter0: java.lang.Comparable;
+
+        $stack2 = (de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt) value;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: boolean contains(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>($stack2);
+
+        return $stack3;
+    }
+}

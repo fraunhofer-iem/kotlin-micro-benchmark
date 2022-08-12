@@ -1,0 +1,223 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6, $stack9;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$fun3$1 $stack10;
+        kotlin.jvm.functions.Function3 $stack12;
+        kotlin.jvm.functions.Function2 $stack3, fun3;
+        java.lang.Integer $stack4;
+        kotlin.jvm.functions.Function0 $stack7;
+        null_type varReplacer2387;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$1 $stack11;
+        int varReplacer2385;
+        java.lang.Object $stack5, $stack8;
+        java.lang.String res, varReplacer2386;
+
+        nop;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function2 giveFun1()>();
+
+        varReplacer2385 = 10;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2385);
+
+        varReplacer2386 = "Fun1";
+
+        $stack5 = interfaceinvoke $stack3.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack4, varReplacer2386);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: kotlin.jvm.functions.Function0 giveFun2()>();
+
+        $stack8 = interfaceinvoke $stack7.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        res = (java.lang.String) $stack8;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(res);
+
+        $stack10 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$fun3$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$fun3$1 INSTANCE>;
+
+        fun3 = (kotlin.jvm.functions.Function2) $stack10;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun3(kotlin.jvm.functions.Function2)>(fun3);
+
+        $stack11 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$main$1 INSTANCE>;
+
+        $stack12 = (kotlin.jvm.functions.Function3) $stack11;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun4(kotlin.jvm.functions.Function3)>($stack12);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun5(kotlin.jvm.functions.Function2)>(fun3);
+
+        varReplacer2387 = null;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void runFun5(kotlin.jvm.functions.Function2)>(varReplacer2387);
+
+        return;
+    }
+
+    public static final kotlin.jvm.functions.Function2 giveFun1()
+    {
+        kotlin.jvm.functions.Function2 $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun1$1 $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun1$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun1$1 INSTANCE>;
+
+        $stack1 = (kotlin.jvm.functions.Function2) $stack0;
+
+        return $stack1;
+    }
+
+    public static final kotlin.jvm.functions.Function0 giveFun2()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 $stack1;
+        kotlin.jvm.functions.Function0 fun2;
+
+        nop;
+
+        $stack1 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1 INSTANCE>;
+
+        fun2 = (kotlin.jvm.functions.Function0) $stack1;
+
+        return fun2;
+    }
+
+    public static final void runFun3(kotlin.jvm.functions.Function2)
+    {
+        kotlin.jvm.functions.Function2 fun3;
+        java.lang.Integer $stack1, $stack3;
+        int varReplacer2388, varReplacer2389;
+        java.lang.String varReplacer2390, varReplacer2391, varReplacer2392;
+
+        nop;
+
+        fun3 := @parameter0: kotlin.jvm.functions.Function2;
+
+        varReplacer2390 = "fun3";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fun3, varReplacer2390);
+
+        varReplacer2388 = 10;
+
+        $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2388);
+
+        varReplacer2391 = "Fun3";
+
+        interfaceinvoke fun3.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack1, varReplacer2391);
+
+        varReplacer2389 = 10;
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2389);
+
+        varReplacer2392 = "Fun3";
+
+        interfaceinvoke fun3.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack3, varReplacer2392);
+
+        return;
+    }
+
+    public static final void runFun4(kotlin.jvm.functions.Function3)
+    {
+        java.lang.Integer $stack3, $stack4, $stack7, $stack8;
+        int varReplacer2393, varReplacer2394, varReplacer2397, varReplacer2399;
+        java.lang.String varReplacer2395, varReplacer2396, varReplacer2398;
+        java.io.PrintStream $stack6, $stack10;
+        kotlin.jvm.functions.Function3 fun4;
+        java.lang.Object $stack5, $stack9;
+
+        nop;
+
+        fun4 := @parameter0: kotlin.jvm.functions.Function3;
+
+        varReplacer2396 = "fun4";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fun4, varReplacer2396);
+
+        varReplacer2393 = 1;
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2393);
+
+        varReplacer2397 = 10;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2397);
+
+        varReplacer2398 = "Fun3";
+
+        $stack5 = interfaceinvoke fun4.<kotlin.jvm.functions.Function3: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)>($stack3, $stack4, varReplacer2398);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        varReplacer2394 = 2;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2394);
+
+        varReplacer2399 = 10;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2399);
+
+        varReplacer2395 = "Fun3";
+
+        $stack9 = interfaceinvoke fun4.<kotlin.jvm.functions.Function3: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)>($stack7, $stack8, varReplacer2395);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        return;
+    }
+
+    public static final void runFun5(kotlin.jvm.functions.Function2)
+    {
+        int varReplacer2400;
+        kotlin.jvm.functions.Function2 fun3;
+        java.lang.String varReplacer2401;
+        java.lang.Integer $stack2;
+
+        nop;
+
+        fun3 := @parameter0: kotlin.jvm.functions.Function2;
+
+        if fun3 != null goto label1;
+
+        nop;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        varReplacer2400 = 10;
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2400);
+
+        varReplacer2401 = "Fun3";
+
+        interfaceinvoke fun3.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack2, varReplacer2401);
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt: void main()>();
+
+        return;
+    }
+}

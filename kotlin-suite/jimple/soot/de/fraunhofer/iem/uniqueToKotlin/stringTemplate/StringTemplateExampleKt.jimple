@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int $stack10, $stack18;
+        java.lang.String $stack4, $stack5, $stack12, $stack20;
+        java.io.PrintStream $stack13, $stack21;
+        java.lang.StringBuilder $stack6, $stack7, $stack8, $stack9, $stack11, $stack14, $stack15, $stack16, $stack17, $stack19;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getRawStrings(java.lang.String)>("Ranjith");
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getEscapedStrings(java.lang.String)>("Ranjith");
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Message = ");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack4);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\nLength= ");
+
+        $stack10 = virtualinvoke $stack4.<java.lang.String: int length()>();
+
+        $stack11 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack10);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack14 = new java.lang.StringBuilder;
+
+        specialinvoke $stack14.<java.lang.StringBuilder: void <init>()>();
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Message = ");
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack5);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\nLength= ");
+
+        $stack18 = virtualinvoke $stack5.<java.lang.String: int length()>();
+
+        $stack19 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack18);
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        return;
+    }
+
+    public static final java.lang.String getRawStrings(java.lang.String)
+    {
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack4;
+        java.lang.String name, $stack5, $stack6;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n        >Hi, How are you ");
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("?\n        >Welcome to kotlin\n        >$\n        >\n    ");
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack6 = staticinvoke <kotlin.text.StringsKt: java.lang.String trimMargin(java.lang.String,java.lang.String)>($stack5, ">");
+
+        return $stack6;
+    }
+
+    public static final java.lang.String getEscapedStrings(java.lang.String)
+    {
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack4;
+        java.lang.String name, $stack5;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Hi, How are you ");
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(name);
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("?\nWelcome to kotlin\n");
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack5;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: void main()>();
+
+        return;
+    }
+}

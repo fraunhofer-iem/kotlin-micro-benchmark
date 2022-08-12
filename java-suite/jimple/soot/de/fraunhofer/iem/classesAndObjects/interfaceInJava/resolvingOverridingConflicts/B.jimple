@@ -1,0 +1,31 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B extends java.lang.Object
+{
+
+    public void foo()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("B --> foo");
+
+        return;
+    }
+
+    public void bar()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>("B --> bar");
+
+        return;
+    }
+}

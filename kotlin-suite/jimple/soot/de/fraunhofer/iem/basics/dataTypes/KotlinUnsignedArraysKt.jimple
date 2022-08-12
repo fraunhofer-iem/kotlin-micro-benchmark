@@ -1,0 +1,140 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        int[] $stack3;
+        int $stack5, $stack7, $stack9, $stack11, $stack13, $stack16, $stack19, $stack22, $stack25, $stack28;
+        java.io.PrintStream $stack15, $stack18, $stack21, $stack24, $stack27, $stack30;
+        kotlin.UInt $stack17, $stack20, $stack23, $stack26, $stack29;
+        kotlin.UIntArray $stack14;
+
+        $stack3 = staticinvoke <kotlin.UIntArray: int[] constructor-impl(int)>(5);
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        staticinvoke <kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>($stack3, 0, $stack5);
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        staticinvoke <kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>($stack3, 1, $stack7);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        staticinvoke <kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>($stack3, 2, $stack9);
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        staticinvoke <kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>($stack3, 3, $stack11);
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>("int");
+
+        staticinvoke <kotlin.UIntArray: void set-VXSXFK8(int[],int,int)>($stack3, 4, $stack13);
+
+        $stack14 = staticinvoke <kotlin.UIntArray: kotlin.UIntArray box-impl(int[])>($stack3);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <kotlin.UIntArray: int get-pVg5ArA(int[],int)>($stack3, 0);
+
+        $stack17 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack16);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = staticinvoke <kotlin.UIntArray: int get-pVg5ArA(int[],int)>($stack3, 1);
+
+        $stack20 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = staticinvoke <kotlin.UIntArray: int get-pVg5ArA(int[],int)>($stack3, 2);
+
+        $stack23 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack22);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = staticinvoke <kotlin.UIntArray: int get-pVg5ArA(int[],int)>($stack3, 3);
+
+        $stack26 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack25);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        $stack28 = staticinvoke <kotlin.UIntArray: int get-pVg5ArA(int[],int)>($stack3, 4);
+
+        $stack29 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack28);
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void dummy--ajY-9A(int[])>($stack3);
+
+        return;
+    }
+
+    public static final void dummy--ajY-9A(int[])
+    {
+        java.io.PrintStream $stack14;
+        java.util.Iterator $stack8;
+        kotlin.UInt $stack11, $stack13;
+        int[] num, $stack6, $stack7;
+        int $stack12;
+        java.lang.Object $stack10;
+        boolean $stack9;
+
+        num := @parameter0: int[];
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(num, "num");
+
+        $stack6 = staticinvoke <java.util.Arrays: int[] copyOf(int[],int)>(num, 10);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack6, "java.util.Arrays.copyOf(this, newSize)");
+
+        $stack7 = staticinvoke <kotlin.UIntArray: int[] constructor-impl(int[])>($stack6);
+
+        $stack8 = staticinvoke <kotlin.UIntArray: java.util.Iterator iterator-impl(int[])>($stack7);
+
+     label1:
+        $stack9 = interfaceinvoke $stack8.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack9 == 0 goto label2;
+
+        $stack10 = interfaceinvoke $stack8.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack11 = (kotlin.UInt) $stack10;
+
+        $stack12 = virtualinvoke $stack11.<kotlin.UInt: int unbox-impl()>();
+
+        $stack13 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedArraysKt: void main()>();
+
+        return;
+    }
+}

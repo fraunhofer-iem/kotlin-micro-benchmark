@@ -1,0 +1,18 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee $stack1;
+
+        $stack1 = new de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void <init>()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>("Night", "Fury", 120);
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>($stack1, "Night Fury", null, 120, 2, null);
+
+        return;
+    }
+}

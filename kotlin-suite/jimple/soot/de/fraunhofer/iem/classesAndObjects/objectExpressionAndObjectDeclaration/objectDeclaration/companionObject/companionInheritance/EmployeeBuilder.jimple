@@ -1,0 +1,5 @@
+public interface  de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder extends java.lang.Object
+{
+
+    public abstract de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance();
+}

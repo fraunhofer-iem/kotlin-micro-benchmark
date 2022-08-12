@@ -1,0 +1,252 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Object[] l1;
+        kotlin.jvm.functions.FunctionN namePrinter;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter $stack3;
+        java.lang.String varReplacer2436, varReplacer2437, varReplacer2438, varReplacer2439, varReplacer2440, varReplacer2441, varReplacer2442, varReplacer2443, varReplacer2444, varReplacer2445, varReplacer2446, varReplacer2447, varReplacer2448, varReplacer2449, varReplacer2450, varReplacer2451, varReplacer2452, varReplacer2453, varReplacer2454, varReplacer2455, varReplacer2456, varReplacer2457, varReplacer2458, varReplacer2459, varReplacer2460, varReplacer2461, varReplacer2462, varReplacer2463, varReplacer2464, varReplacer2465, varReplacer2466, varReplacer2467, varReplacer2468, varReplacer2469, varReplacer2470, varReplacer2471, varReplacer2472, varReplacer2473, varReplacer2474, varReplacer2475, varReplacer2476, varReplacer2477, varReplacer2478, varReplacer2479, varReplacer2480, varReplacer2481, varReplacer2482, varReplacer2483, varReplacer2484, varReplacer2485;
+        java.io.PrintStream $stack5, $stack7;
+        java.lang.Object $stack4, $stack6;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.NamePrinter: void <init>()>();
+
+        namePrinter = (kotlin.jvm.functions.FunctionN) $stack3;
+
+        l1 = newarray (java.lang.Object)[25];
+
+        varReplacer2448 = "Ranjith";
+
+        l1[0] = varReplacer2448;
+
+        varReplacer2484 = "Ranjith";
+
+        l1[1] = varReplacer2484;
+
+        varReplacer2465 = "Ranjith";
+
+        l1[2] = varReplacer2465;
+
+        varReplacer2437 = "Ranjith";
+
+        l1[3] = varReplacer2437;
+
+        varReplacer2462 = "Ranjith";
+
+        l1[4] = varReplacer2462;
+
+        varReplacer2451 = "Ranjith";
+
+        l1[5] = varReplacer2451;
+
+        varReplacer2468 = "Ranjith";
+
+        l1[6] = varReplacer2468;
+
+        varReplacer2480 = "Ranjith";
+
+        l1[7] = varReplacer2480;
+
+        varReplacer2447 = "Ranjith";
+
+        l1[8] = varReplacer2447;
+
+        varReplacer2442 = "Ranjith";
+
+        l1[9] = varReplacer2442;
+
+        varReplacer2454 = "Ranjith";
+
+        l1[10] = varReplacer2454;
+
+        varReplacer2470 = "Ranjith";
+
+        l1[11] = varReplacer2470;
+
+        varReplacer2456 = "Ranjith";
+
+        l1[12] = varReplacer2456;
+
+        varReplacer2473 = "Ranjith";
+
+        l1[13] = varReplacer2473;
+
+        varReplacer2449 = "Ranjith";
+
+        l1[14] = varReplacer2449;
+
+        varReplacer2475 = "Ranjith";
+
+        l1[15] = varReplacer2475;
+
+        varReplacer2459 = "Ranjith";
+
+        l1[16] = varReplacer2459;
+
+        varReplacer2439 = "Ranjith";
+
+        l1[17] = varReplacer2439;
+
+        varReplacer2461 = "Ranjith";
+
+        l1[18] = varReplacer2461;
+
+        varReplacer2457 = "Ranjith";
+
+        l1[19] = varReplacer2457;
+
+        varReplacer2446 = "Ranjith";
+
+        l1[20] = varReplacer2446;
+
+        varReplacer2444 = "Ranjith";
+
+        l1[21] = varReplacer2444;
+
+        varReplacer2478 = "Ranjith";
+
+        l1[22] = varReplacer2478;
+
+        varReplacer2464 = "Ranjith";
+
+        l1[23] = varReplacer2464;
+
+        varReplacer2463 = "Ranjith";
+
+        l1[24] = varReplacer2463;
+
+        $stack4 = interfaceinvoke namePrinter.<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>(l1);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        l1 = newarray (java.lang.Object)[25];
+
+        varReplacer2445 = "Ranjith";
+
+        l1[0] = varReplacer2445;
+
+        varReplacer2443 = "Ranjith";
+
+        l1[1] = varReplacer2443;
+
+        varReplacer2477 = "Ranjith";
+
+        l1[2] = varReplacer2477;
+
+        varReplacer2474 = "Ranjith";
+
+        l1[3] = varReplacer2474;
+
+        varReplacer2483 = "Ranjith";
+
+        l1[4] = varReplacer2483;
+
+        varReplacer2438 = "Ranjith";
+
+        l1[5] = varReplacer2438;
+
+        varReplacer2467 = "Ranjith";
+
+        l1[6] = varReplacer2467;
+
+        varReplacer2481 = "Ranjith";
+
+        l1[7] = varReplacer2481;
+
+        varReplacer2479 = "Ranjith";
+
+        l1[8] = varReplacer2479;
+
+        varReplacer2482 = "Ranjith";
+
+        l1[9] = varReplacer2482;
+
+        varReplacer2469 = "Ranjith";
+
+        l1[10] = varReplacer2469;
+
+        varReplacer2440 = "Ranjith";
+
+        l1[11] = varReplacer2440;
+
+        varReplacer2450 = "Ranjith";
+
+        l1[12] = varReplacer2450;
+
+        varReplacer2460 = "Ranjith";
+
+        l1[13] = varReplacer2460;
+
+        varReplacer2453 = "Ranjith";
+
+        l1[14] = varReplacer2453;
+
+        varReplacer2436 = "Ranjith";
+
+        l1[15] = varReplacer2436;
+
+        varReplacer2458 = "Ranjith";
+
+        l1[16] = varReplacer2458;
+
+        varReplacer2441 = "Ranjith";
+
+        l1[17] = varReplacer2441;
+
+        varReplacer2452 = "Ranjith";
+
+        l1[18] = varReplacer2452;
+
+        varReplacer2466 = "Ranjith";
+
+        l1[19] = varReplacer2466;
+
+        varReplacer2476 = "Ranjith";
+
+        l1[20] = varReplacer2476;
+
+        varReplacer2455 = "Ranjith";
+
+        l1[21] = varReplacer2455;
+
+        varReplacer2471 = "Ranjith";
+
+        l1[22] = varReplacer2471;
+
+        varReplacer2472 = "Ranjith";
+
+        l1[23] = varReplacer2472;
+
+        varReplacer2485 = "Ranjith";
+
+        l1[24] = varReplacer2485;
+
+        $stack6 = interfaceinvoke namePrinter.<kotlin.jvm.functions.FunctionN: java.lang.Object invoke(java.lang.Object[])>(l1);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.moreThan22Parameters.MainKt: void main()>();
+
+        return;
+    }
+}

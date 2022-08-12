@@ -1,0 +1,332 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt extends java.lang.Object
+{
+
+    public static final int getLastIndex1(java.util.List)
+    {
+        java.util.List $this$lastIndex1;
+        int $stack1, $stack2;
+        java.lang.String varReplacer2589;
+
+        nop;
+
+        $this$lastIndex1 := @parameter0: java.util.List;
+
+        varReplacer2589 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex1, varReplacer2589);
+
+        $stack1 = interfaceinvoke $this$lastIndex1.<java.util.List: int size()>();
+
+        $stack2 = $stack1 - 1;
+
+        return $stack2;
+    }
+
+    public static final void setLastIndex1(java.util.List, int)
+    {
+        java.io.PrintStream $stack7;
+        java.util.List $this$lastIndex1;
+        int value;
+        java.lang.String $stack6, varReplacer2590, varReplacer2591;
+        java.lang.Integer $stack5;
+
+        nop;
+
+        $this$lastIndex1 := @parameter0: java.util.List;
+
+        value := @parameter1: int;
+
+        varReplacer2591 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex1, varReplacer2591);
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(value);
+
+        varReplacer2590 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2590, $stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static final int getLastIndex2(java.util.List)
+    {
+        java.util.List $this$lastIndex2;
+        int $stack2, $stack3;
+        java.lang.String varReplacer2592;
+
+        nop;
+
+        $this$lastIndex2 := @parameter0: java.util.List;
+
+        varReplacer2592 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex2, varReplacer2592);
+
+        $stack2 = interfaceinvoke $this$lastIndex2.<java.util.List: int size()>();
+
+        $stack3 = $stack2 - 1;
+
+        return $stack3;
+    }
+
+    public static final void setLastIndex2(java.util.List, int)
+    {
+        java.io.PrintStream $stack8;
+        java.util.List $this$lastIndex2;
+        int value;
+        java.lang.String $stack7, varReplacer2593, varReplacer2594;
+        java.lang.Integer $stack6;
+
+        nop;
+
+        $this$lastIndex2 := @parameter0: java.util.List;
+
+        value := @parameter1: int;
+
+        varReplacer2593 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex2, varReplacer2593);
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(value);
+
+        varReplacer2594 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2594, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+    }
+
+    public static final int getLastIndex3(java.util.List)
+    {
+        java.util.List $this$lastIndex3;
+        int $stack2, $stack3;
+        java.lang.String varReplacer2595;
+
+        nop;
+
+        $this$lastIndex3 := @parameter0: java.util.List;
+
+        varReplacer2595 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex3, varReplacer2595);
+
+        $stack2 = interfaceinvoke $this$lastIndex3.<java.util.List: int size()>();
+
+        $stack3 = $stack2 - 1;
+
+        return $stack3;
+    }
+
+    public static final void setLastIndex3(java.util.List, int)
+    {
+        java.io.PrintStream $stack7;
+        java.util.List $this$lastIndex3;
+        int value;
+        java.lang.String $stack6, varReplacer2596, varReplacer2597;
+        java.lang.Integer $stack5;
+
+        nop;
+
+        $this$lastIndex3 := @parameter0: java.util.List;
+
+        value := @parameter1: int;
+
+        varReplacer2596 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex3, varReplacer2596);
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(value);
+
+        varReplacer2597 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2597, $stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+
+    public static final int getLastIndex4(java.util.List)
+    {
+        java.util.List $this$lastIndex4;
+        int $stack1, $stack2;
+        java.lang.String varReplacer2598;
+
+        nop;
+
+        $this$lastIndex4 := @parameter0: java.util.List;
+
+        varReplacer2598 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex4, varReplacer2598);
+
+        $stack1 = interfaceinvoke $this$lastIndex4.<java.util.List: int size()>();
+
+        $stack2 = $stack1 - 1;
+
+        return $stack2;
+    }
+
+    public static final void setLastIndex4(java.util.List, int)
+    {
+        java.io.PrintStream $stack8;
+        java.util.List $this$lastIndex4;
+        int value;
+        java.lang.String $stack7, varReplacer2599, varReplacer2600;
+        java.lang.Integer $stack6;
+
+        nop;
+
+        $this$lastIndex4 := @parameter0: java.util.List;
+
+        value := @parameter1: int;
+
+        varReplacer2599 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex4, varReplacer2599);
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(value);
+
+        varReplacer2600 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack7 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2600, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack7, $stack9, $stack11, $stack13, $stack15, $stack22, $stack30;
+        java.util.List $stack16;
+        java.lang.Integer[] $this$lastIndex2$iv;
+        int $stack17, $stack19, $stack25, $stack27, $this$lastIndex2$iv#6, varReplacer2601, varReplacer2602, varReplacer2604, varReplacer2605, varReplacer2606, varReplacer2607, varReplacer2608, varReplacer2610, varReplacer2611;
+        java.lang.String $stack23, $stack31, varReplacer2603, varReplacer2609;
+        java.io.PrintStream $stack18, $stack20, $stack24, $stack26, $stack28, $stack32;
+
+        nop;
+
+        $this$lastIndex2$iv = newarray (java.lang.Integer)[5];
+
+        varReplacer2602 = 1;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2602);
+
+        $this$lastIndex2$iv[0] = $stack7;
+
+        varReplacer2611 = 2;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2611);
+
+        $this$lastIndex2$iv[1] = $stack9;
+
+        varReplacer2610 = 3;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2610);
+
+        $this$lastIndex2$iv[2] = $stack11;
+
+        varReplacer2604 = 4;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2604);
+
+        $this$lastIndex2$iv[3] = $stack13;
+
+        varReplacer2601 = 5;
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2601);
+
+        $this$lastIndex2$iv[4] = $stack15;
+
+        $stack16 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>($this$lastIndex2$iv);
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex1(java.util.List)>($stack16);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(int)>($stack17);
+
+        varReplacer2607 = 10;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex1(java.util.List,int)>($stack16, varReplacer2607);
+
+        $stack19 = interfaceinvoke $stack16.<java.util.List: int size()>();
+
+        $this$lastIndex2$iv#6 = $stack19 - 1;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(int)>($this$lastIndex2$iv#6);
+
+        varReplacer2608 = 10;
+
+        $stack22 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2608);
+
+        varReplacer2603 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack23 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2603, $stack22);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = interfaceinvoke $stack16.<java.util.List: int size()>();
+
+        $this$lastIndex2$iv#6 = $stack25 - 1;
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(int)>($this$lastIndex2$iv#6);
+
+        varReplacer2605 = 10;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void setLastIndex3(java.util.List,int)>($stack16, varReplacer2605);
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: int getLastIndex4(java.util.List)>($stack16);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(int)>($stack27);
+
+        varReplacer2606 = 10;
+
+        $stack30 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2606);
+
+        varReplacer2609 = "lastIndex can not be modified, this is for example! = ";
+
+        $stack31 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer2609, $stack30);
+
+        $stack32 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack32.<java.io.PrintStream: void println(java.lang.Object)>($stack31);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.inlineProperties.MainKt: void main()>();
+
+        return;
+    }
+}

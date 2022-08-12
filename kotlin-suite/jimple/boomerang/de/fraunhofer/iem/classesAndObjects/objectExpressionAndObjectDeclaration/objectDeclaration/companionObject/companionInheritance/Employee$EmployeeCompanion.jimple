@@ -1,0 +1,85 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.EmployeeBuilder
+{
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final java.lang.String getCompanyName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: java.lang.String access$getCompanyName$cp()>();
+
+        return $stack1;
+    }
+
+    public final void setCompanyName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer820;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer820 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer820);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: void access$setCompanyName$cp(java.lang.String)>(<set-?>);
+
+        return;
+    }
+
+    public de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee getInstance()
+    {
+        null_type varReplacer821;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee $stack1;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee;
+
+        varReplacer821 = null;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer821);
+
+        return $stack1;
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void <init>()>();
+
+        return;
+    }
+}

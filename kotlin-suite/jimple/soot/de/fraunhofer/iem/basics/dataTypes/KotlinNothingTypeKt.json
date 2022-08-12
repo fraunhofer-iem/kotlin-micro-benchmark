@@ -1,0 +1,56 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy1()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy2()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack6": "java.lang.Exception",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.Exception",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.Void",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$u0": "kotlin.KotlinNothingValueException",
+                "$r0": "java.lang.Throwable"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy1()>",
+                "<kotlin.KotlinNothingValueException: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: java.lang.Void dummy2()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.Void dummy1()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.Exception"},
+            "invokeExpressions": ["<java.lang.Exception: void <init>(java.lang.String)>"]
+        },
+        "java.lang.Void dummy2()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.Exception"},
+            "invokeExpressions": ["<java.lang.Exception: void <init>(java.lang.String)>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinNothingTypeKt: void main()>"]
+        }
+    }
+}

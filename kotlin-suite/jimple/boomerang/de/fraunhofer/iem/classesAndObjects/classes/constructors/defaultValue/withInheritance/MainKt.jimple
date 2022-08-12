@@ -1,0 +1,69 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle $stack2, $stack3, $stack4;
+        int varReplacer588, varReplacer589, varReplacer592, varReplacer593, varReplacer596, varReplacer597;
+        java.lang.String varReplacer595;
+        null_type varReplacer587, varReplacer590, varReplacer591, varReplacer594, varReplacer598;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car: void <init>()>();
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        varReplacer591 = null;
+
+        varReplacer592 = 0;
+
+        varReplacer593 = 3;
+
+        varReplacer594 = null;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack2, varReplacer591, varReplacer592, varReplacer593, varReplacer591);
+
+        $stack3 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        varReplacer595 = "Car";
+
+        varReplacer596 = 0;
+
+        varReplacer597 = 2;
+
+        varReplacer598 = null;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack3, varReplacer595, varReplacer596, varReplacer597, varReplacer598);
+
+        $stack4 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        varReplacer587 = null;
+
+        varReplacer588 = 12354;
+
+        varReplacer589 = 1;
+
+        varReplacer590 = null;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack4, varReplacer587, varReplacer588, varReplacer589, varReplacer587);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.MainKt: void main()>();
+
+        return;
+    }
+}

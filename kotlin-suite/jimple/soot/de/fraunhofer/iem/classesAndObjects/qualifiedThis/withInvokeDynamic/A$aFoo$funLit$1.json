@@ -1,0 +1,69 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function1"],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1: void invoke(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1: java.lang.Object invoke(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A,int)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1"},
+            "stackVariables": {
+                "$receiver_1": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A",
+                "$receiver_2": "int"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "void invoke(java.lang.String)": {
+            "localVariables": {
+                "<this>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1"
+            },
+            "stackVariables": {
+                "$stack6": "java.util.Locale",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "int",
+                "$stack19": "java.lang.Integer",
+                "$stack20": "java.lang.String",
+                "$stack21": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.Object invoke(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1",
+                "p1": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "kotlin.Unit"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.qualifiedThis.withInvokeDynamic.A$aFoo$funLit$1: void invoke(java.lang.String)>"]
+        }
+    }
+}

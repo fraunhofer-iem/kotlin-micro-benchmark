@@ -1,0 +1,56 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String getVehicleType()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void accelerate()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getVehicleType()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void start()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String getVehicleType()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void stop()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String getVehicleType()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void accelerate()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car"},
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

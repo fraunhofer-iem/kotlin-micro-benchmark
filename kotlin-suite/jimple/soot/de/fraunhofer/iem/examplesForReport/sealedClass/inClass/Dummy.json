@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Dummy: void myDummy()>"],
+    "methodsInformation": {"void myDummy()": {
+        "localVariables": {},
+        "stackVariables": {},
+        "invokeExpressions": []
+    }}
+}

@@ -1,0 +1,61 @@
+public final class de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass extends java.lang.Object
+{
+    private final int innerFlag;
+    final de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass this$0;
+
+    public void <init>(de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass)
+    {
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass this$0;
+        int varReplacer798;
+        java.lang.String varReplacer799;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass;
+
+        this$0 := @parameter0: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass;
+
+        varReplacer799 = "this$0";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this$0, varReplacer799);
+
+        this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass this$0> = this$0;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer798 = 23421;
+
+        this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass: int innerFlag> = varReplacer798;
+
+        return;
+    }
+
+    public final void printAll()
+    {
+        java.io.PrintStream $stack3, $stack6;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass $stack4;
+        int $stack5, l1;
+        de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass: int innerFlag>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(l1);
+
+        $stack4 = this.<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass$InnerClass: de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass this$0>;
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass: int access$getOuterFlag$p(de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass)>($stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack5);
+
+        return;
+    }
+}

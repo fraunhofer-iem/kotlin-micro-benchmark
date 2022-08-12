@@ -1,0 +1,281 @@
+public class de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person extends java.lang.Object
+{
+    private java.lang.String name;
+    private java.lang.String address;
+    private int age;
+    private java.lang.String mobileNumber;
+
+    public void <init>(java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+        int age;
+        java.lang.String name, address, mobileNumber;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        name := @parameter0: java.lang.String;
+
+        address := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        mobileNumber := @parameter3: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name> = name;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address> = address;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age> = age;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber> = mobileNumber;
+
+        return;
+    }
+
+    public java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public void setName(java.lang.String)
+    {
+        java.lang.String name;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        name := @parameter0: java.lang.String;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name> = name;
+
+        return;
+    }
+
+    public java.lang.String getAddress()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public void setAddress(java.lang.String)
+    {
+        java.lang.String address;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        address := @parameter0: java.lang.String;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address> = address;
+
+        return;
+    }
+
+    public int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age>;
+
+        return $stack1;
+    }
+
+    public void setAge(int)
+    {
+        int age;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        age := @parameter0: int;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age> = age;
+
+        return;
+    }
+
+    public java.lang.String getMobileNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public void setMobileNumber(java.lang.String)
+    {
+        java.lang.String mobileNumber;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        mobileNumber := @parameter0: java.lang.String;
+
+        this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber> = mobileNumber;
+
+        return;
+    }
+
+    public int hashCode()
+    {
+        int $stack6, $stack10, $stack11, $stack12, $stack13, $stack17, $stack20, $stack24, $stack28, $stack32, $stack5, $stack9, $stack16;
+        java.lang.String $stack3, $stack4, $stack7, $stack8, $stack14, $stack15;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        $stack3 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name>;
+
+        if $stack3 != null goto label1;
+
+        $stack5 = 0;
+
+        goto label2;
+
+     label1:
+        $stack4 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name>;
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: int hashCode()>();
+
+     label2:
+        $stack6 = 1 + $stack5;
+
+        $stack32 = $stack6 * 31;
+
+        $stack7 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address>;
+
+        if $stack7 != null goto label3;
+
+        $stack9 = 0;
+
+        goto label4;
+
+     label3:
+        $stack8 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address>;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.String: int hashCode()>();
+
+     label4:
+        $stack10 = $stack32 + $stack9;
+
+        $stack24 = $stack10 * 31;
+
+        $stack11 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age>;
+
+        $stack12 = staticinvoke <java.lang.Integer: int hashCode(int)>($stack11);
+
+        $stack13 = $stack24 + $stack12;
+
+        $stack28 = $stack13 * 31;
+
+        $stack14 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        if $stack14 != null goto label5;
+
+        $stack16 = 0;
+
+        goto label6;
+
+     label5:
+        $stack15 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        $stack16 = virtualinvoke $stack15.<java.lang.String: int hashCode()>();
+
+     label6:
+        $stack17 = $stack28 + $stack16;
+
+        $stack20 = $stack17 * 31;
+
+        return $stack20;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        int $stack12, $stack13;
+        java.lang.String $stack5, $stack6, $stack8, $stack9, $stack14, $stack15;
+        boolean $stack7, $stack10, $stack16;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person this, other;
+        java.lang.Object obj;
+        java.lang.Class $stack3, $stack4;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        obj := @parameter0: java.lang.Object;
+
+        if this != obj goto label1;
+
+        return 1;
+
+     label1:
+        if obj != null goto label2;
+
+        return 0;
+
+     label2:
+        $stack3 = virtualinvoke this.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack4 = virtualinvoke obj.<java.lang.Object: java.lang.Class getClass()>();
+
+        if $stack3 == $stack4 goto label3;
+
+        return 0;
+
+     label3:
+        other = (de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person) obj;
+
+        $stack6 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name>;
+
+        $stack5 = other.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String name>;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>($stack5);
+
+        if $stack7 == 0 goto label4;
+
+        $stack9 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address>;
+
+        $stack8 = other.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String address>;
+
+        $stack10 = virtualinvoke $stack9.<java.lang.String: boolean equals(java.lang.Object)>($stack8);
+
+        if $stack10 == 0 goto label4;
+
+        $stack13 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age>;
+
+        $stack12 = other.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: int age>;
+
+        if $stack13 != $stack12 goto label4;
+
+        $stack15 = this.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        $stack14 = other.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        $stack16 = virtualinvoke $stack15.<java.lang.String: boolean equals(java.lang.Object)>($stack14);
+
+        return $stack16;
+
+     label4:
+        return 0;
+    }
+}

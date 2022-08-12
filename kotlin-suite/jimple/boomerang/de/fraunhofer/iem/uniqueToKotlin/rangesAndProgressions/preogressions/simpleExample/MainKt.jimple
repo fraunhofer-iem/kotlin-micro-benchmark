@@ -1,0 +1,738 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final void printIntProgressions(kotlin.ranges.IntProgression)
+    {
+        kotlin.ranges.IntProgression progression;
+        int $stack13, $stack14, $stack15, i, l1;
+        java.lang.String $stack11, $stack19, varReplacer2932, varReplacer2933, varReplacer2934, varReplacer2935;
+        java.io.PrintStream $stack12, $stack20;
+        java.lang.StringBuilder $stack7, $stack8, $stack9, $stack10, $stack16, $stack17, $stack18;
+
+        nop;
+
+        progression := @parameter0: kotlin.ranges.IntProgression;
+
+        varReplacer2933 = "progression";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progression, varReplacer2933);
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2934 = "\n*** ";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2934);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(progression);
+
+        varReplacer2932 = " ***";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2932);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = virtualinvoke progression.<kotlin.ranges.IntProgression: int getFirst()>();
+
+        l1 = $stack13;
+
+        $stack14 = virtualinvoke progression.<kotlin.ranges.IntProgression: int getLast()>();
+
+        $stack15 = virtualinvoke progression.<kotlin.ranges.IntProgression: int getStep()>();
+
+        if $stack15 <= 0 goto label1;
+
+        nop;
+
+        if $stack13 <= $stack14 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        if $stack15 >= 0 goto label3;
+
+        nop;
+
+        if $stack14 > $stack13 goto label3;
+
+        nop;
+
+     label2:
+        nop;
+
+        nop;
+
+        i = l1;
+
+        l1 = l1 + $stack15;
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer2935 = ", ";
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2935);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void print(java.lang.Object)>($stack19);
+
+        if i != $stack14 goto label2;
+
+        nop;
+
+     label3:
+        nop;
+
+        nop;
+
+        return;
+    }
+
+    public static final void printCharProgressions(kotlin.ranges.CharProgression)
+    {
+        int $stack15, $stack16, $i0, $i1, $i2, $i3, $i4, $i5, $i6;
+        java.lang.String $stack11, $stack20, varReplacer2936, varReplacer2937, varReplacer2938, varReplacer2939;
+        java.io.PrintStream $stack12, $stack21;
+        char $stack13, $stack14, i, l1;
+        java.lang.StringBuilder $stack8, $stack9, $stack10, $stack18, $stack19, $u0, $u1;
+        kotlin.ranges.CharProgression progression;
+
+        nop;
+
+        progression := @parameter0: kotlin.ranges.CharProgression;
+
+        varReplacer2939 = "progression";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progression, varReplacer2939);
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2938 = "\n*** ";
+
+        $stack8 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2938);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(progression);
+
+        varReplacer2937 = " ***";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2937);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = virtualinvoke progression.<kotlin.ranges.CharProgression: char getFirst()>();
+
+        l1 = $stack13;
+
+        $stack14 = virtualinvoke progression.<kotlin.ranges.CharProgression: char getLast()>();
+
+        $stack15 = virtualinvoke progression.<kotlin.ranges.CharProgression: int getStep()>();
+
+        if $stack15 <= 0 goto label1;
+
+        nop;
+
+        $i0 = (int) $stack13;
+
+        $i1 = (int) $stack14;
+
+        if $i0 <= $i1 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        if $stack15 >= 0 goto label3;
+
+        nop;
+
+        $i2 = (int) $stack14;
+
+        $i3 = (int) $stack13;
+
+        if $i2 > $i3 goto label3;
+
+        nop;
+
+     label2:
+        nop;
+
+        nop;
+
+        i = l1;
+
+        $i4 = (int) l1;
+
+        $stack16 = $i4 + $stack15;
+
+        l1 = (char) $stack16;
+
+        $u1 = new java.lang.StringBuilder;
+
+        specialinvoke $u1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack18 = virtualinvoke $u1.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(i);
+
+        varReplacer2936 = ", ";
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2936);
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void print(java.lang.Object)>($stack20);
+
+        $i5 = (int) i;
+
+        $i6 = (int) $stack14;
+
+        if $i5 != $i6 goto label2;
+
+        nop;
+
+     label3:
+        nop;
+
+        nop;
+
+        return;
+    }
+
+    public static final void printLongProgressions(kotlin.ranges.LongProgression)
+    {
+        kotlin.ranges.LongProgression progression;
+        long $stack17, $stack18, $stack19, i, l1;
+        byte $stack20, $stack21, $stack22, $stack39, $stack28;
+        int $i0, $i1, $i2, $i3;
+        java.lang.String $stack15, $stack26, varReplacer2940, varReplacer2941, varReplacer2942, varReplacer2943;
+        java.io.PrintStream $stack16, $stack27;
+        java.lang.StringBuilder $stack12, $stack13, $stack14, $stack24, $stack25, $u0, $u1;
+
+        nop;
+
+        progression := @parameter0: kotlin.ranges.LongProgression;
+
+        varReplacer2942 = "progression";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progression, varReplacer2942);
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2941 = "\n*** ";
+
+        $stack12 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2941);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(progression);
+
+        varReplacer2940 = " ***";
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2940);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = virtualinvoke progression.<kotlin.ranges.LongProgression: long getFirst()>();
+
+        l1 = $stack17;
+
+        $stack18 = virtualinvoke progression.<kotlin.ranges.LongProgression: long getLast()>();
+
+        $stack19 = virtualinvoke progression.<kotlin.ranges.LongProgression: long getStep()>();
+
+        $stack20 = $stack19 cmp 0L;
+
+        $i0 = (int) $stack20;
+
+        if $i0 <= 0 goto label1;
+
+        nop;
+
+        $stack39 = $stack17 cmp $stack18;
+
+        $i1 = (int) $stack39;
+
+        if $i1 <= 0 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        $stack21 = $stack19 cmp 0L;
+
+        $i2 = (int) $stack21;
+
+        if $i2 >= 0 goto label3;
+
+        nop;
+
+        $stack22 = $stack18 cmp $stack17;
+
+        $i3 = (int) $stack22;
+
+        if $i3 > 0 goto label3;
+
+        nop;
+
+     label2:
+        nop;
+
+        nop;
+
+        i = l1;
+
+        l1 = l1 + $stack19;
+
+        $u1 = new java.lang.StringBuilder;
+
+        specialinvoke $u1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack24 = virtualinvoke $u1.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>(i);
+
+        varReplacer2943 = ", ";
+
+        $stack25 = virtualinvoke $stack24.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2943);
+
+        $stack26 = virtualinvoke $stack25.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void print(java.lang.Object)>($stack26);
+
+        $stack28 = i cmp $stack18;
+
+        if $stack28 != 0 goto label2;
+
+        nop;
+
+     label3:
+        nop;
+
+        nop;
+
+        return;
+    }
+
+    public static final void printULongProgressions(kotlin.ranges.ULongProgression)
+    {
+        long $stack18, $stack19, $stack20, l1, i;
+        kotlin.ranges.ULongProgression progression;
+        byte $stack21, $stack22, $stack30;
+        int $stack23, $stack41, $i0, $i1;
+        java.lang.String $stack16, $stack25, $stack28, varReplacer2944, varReplacer2945, varReplacer2946, varReplacer2947;
+        java.io.PrintStream $stack17, $stack29;
+        java.lang.StringBuilder $stack13, $stack14, $stack15, $stack26, $stack27, $u0, $u1;
+
+        nop;
+
+        progression := @parameter0: kotlin.ranges.ULongProgression;
+
+        varReplacer2946 = "progression";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progression, varReplacer2946);
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2944 = "\n*** ";
+
+        $stack13 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2944);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(progression);
+
+        varReplacer2947 = " ***";
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2947);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        $stack18 = virtualinvoke progression.<kotlin.ranges.ULongProgression: long getFirst-s-VKNKU()>();
+
+        l1 = $stack18;
+
+        $stack19 = virtualinvoke progression.<kotlin.ranges.ULongProgression: long getLast-s-VKNKU()>();
+
+        $stack20 = virtualinvoke progression.<kotlin.ranges.ULongProgression: long getStep()>();
+
+        $stack21 = $stack20 cmp 0L;
+
+        $i0 = (int) $stack21;
+
+        if $i0 <= 0 goto label1;
+
+        nop;
+
+        $stack41 = staticinvoke <kotlin.UnsignedKt: int ulongCompare(long,long)>($stack18, $stack19);
+
+        if $stack41 <= 0 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        $stack22 = $stack20 cmp 0L;
+
+        $i1 = (int) $stack22;
+
+        if $i1 >= 0 goto label3;
+
+        nop;
+
+        $stack23 = staticinvoke <kotlin.UnsignedKt: int ulongCompare(long,long)>($stack19, $stack18);
+
+        if $stack23 > 0 goto label3;
+
+        nop;
+
+     label2:
+        nop;
+
+        nop;
+
+        i = l1;
+
+        l1 = l1 + $stack20;
+
+        $u1 = new java.lang.StringBuilder;
+
+        specialinvoke $u1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack25 = staticinvoke <kotlin.ULong: java.lang.String toString-impl(long)>(i);
+
+        $stack26 = virtualinvoke $u1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack25);
+
+        varReplacer2945 = ", ";
+
+        $stack27 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2945);
+
+        $stack28 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void print(java.lang.Object)>($stack28);
+
+        $stack30 = i cmp $stack19;
+
+        if $stack30 != 0 goto label2;
+
+        nop;
+
+     label3:
+        nop;
+
+        nop;
+
+        return;
+    }
+
+    public static final void printUIntProgressions(kotlin.ranges.UIntProgression)
+    {
+        int $stack13, $stack14, $stack15, $stack16, $stack33, l1, i;
+        java.lang.String $stack11, $stack18, $stack21, varReplacer2948, varReplacer2949, varReplacer2950, varReplacer2951;
+        java.io.PrintStream $stack12, $stack22;
+        kotlin.ranges.UIntProgression progression;
+        java.lang.StringBuilder $stack7, $stack8, $stack9, $stack10, $stack17, $stack19, $stack20;
+
+        nop;
+
+        progression := @parameter0: kotlin.ranges.UIntProgression;
+
+        varReplacer2950 = "progression";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(progression, varReplacer2950);
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer2951 = "\n*** ";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2951);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(progression);
+
+        varReplacer2949 = " ***";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2949);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = virtualinvoke progression.<kotlin.ranges.UIntProgression: int getFirst-pVg5ArA()>();
+
+        l1 = $stack13;
+
+        $stack14 = virtualinvoke progression.<kotlin.ranges.UIntProgression: int getLast-pVg5ArA()>();
+
+        $stack15 = virtualinvoke progression.<kotlin.ranges.UIntProgression: int getStep()>();
+
+        if $stack15 <= 0 goto label1;
+
+        nop;
+
+        $stack33 = staticinvoke <kotlin.UnsignedKt: int uintCompare(int,int)>($stack13, $stack14);
+
+        if $stack33 <= 0 goto label2;
+
+        nop;
+
+     label1:
+        nop;
+
+        if $stack15 >= 0 goto label3;
+
+        nop;
+
+        $stack16 = staticinvoke <kotlin.UnsignedKt: int uintCompare(int,int)>($stack14, $stack13);
+
+        if $stack16 > 0 goto label3;
+
+        nop;
+
+     label2:
+        nop;
+
+        nop;
+
+        i = l1;
+
+        l1 = l1 + $stack15;
+
+        $stack17 = new java.lang.StringBuilder;
+
+        specialinvoke $stack17.<java.lang.StringBuilder: void <init>()>();
+
+        $stack18 = staticinvoke <kotlin.UInt: java.lang.String toString-impl(int)>(i);
+
+        $stack19 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack18);
+
+        varReplacer2948 = ", ";
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer2948);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void print(java.lang.Object)>($stack21);
+
+        if i != $stack14 goto label2;
+
+        nop;
+
+     label3:
+        nop;
+
+        nop;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        kotlin.ranges.LongProgression $stack12, $stack13, $stack23, $stack24;
+        kotlin.ranges.ULongProgression $stack15, $stack16, $stack25, $stack26;
+        kotlin.ranges.IntRange $stack5;
+        kotlin.ranges.UIntProgression $stack18, $stack19, $stack27, $stack28;
+        kotlin.ranges.UIntRange $stack17;
+        kotlin.ranges.CharRange $stack8;
+        long varReplacer2953, varReplacer2954, varReplacer2955, varReplacer2961, varReplacer2965, varReplacer2966, varReplacer2968, varReplacer2969, varReplacer2977, varReplacer2978, varReplacer2979, varReplacer2980;
+        kotlin.ranges.IntProgression $stack6, $stack7, $stack20;
+        int varReplacer2952, varReplacer2956, varReplacer2957, varReplacer2958, varReplacer2959, varReplacer2960, varReplacer2962, varReplacer2963, varReplacer2967, varReplacer2970, varReplacer2971, varReplacer2972, varReplacer2973, varReplacer2974, varReplacer2975, varReplacer2976, varReplacer2982;
+        kotlin.ranges.ULongRange $stack14;
+        kotlin.ranges.LongRange $stack11;
+        null_type varReplacer2964, varReplacer2981;
+        kotlin.ranges.CharProgression $stack9, $stack10, $stack21, $stack22;
+
+        nop;
+
+        $stack5 = new kotlin.ranges.IntRange;
+
+        varReplacer2970 = 1;
+
+        varReplacer2971 = 10;
+
+        specialinvoke $stack5.<kotlin.ranges.IntRange: void <init>(int,int)>(varReplacer2970, varReplacer2971);
+
+        $stack6 = (kotlin.ranges.IntProgression) $stack5;
+
+        varReplacer2956 = 2;
+
+        $stack7 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.IntProgression step(kotlin.ranges.IntProgression,int)>($stack6, varReplacer2956);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printIntProgressions(kotlin.ranges.IntProgression)>($stack7);
+
+        $stack8 = new kotlin.ranges.CharRange;
+
+        varReplacer2975 = 65;
+
+        varReplacer2976 = 90;
+
+        specialinvoke $stack8.<kotlin.ranges.CharRange: void <init>(char,char)>(varReplacer2975, varReplacer2976);
+
+        $stack9 = (kotlin.ranges.CharProgression) $stack8;
+
+        varReplacer2972 = 5;
+
+        $stack10 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.CharProgression step(kotlin.ranges.CharProgression,int)>($stack9, varReplacer2972);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printCharProgressions(kotlin.ranges.CharProgression)>($stack10);
+
+        $stack11 = new kotlin.ranges.LongRange;
+
+        varReplacer2954 = 1L;
+
+        varReplacer2955 = 10L;
+
+        specialinvoke $stack11.<kotlin.ranges.LongRange: void <init>(long,long)>(varReplacer2954, varReplacer2955);
+
+        $stack12 = (kotlin.ranges.LongProgression) $stack11;
+
+        varReplacer2968 = 2L;
+
+        $stack13 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.LongProgression step(kotlin.ranges.LongProgression,long)>($stack12, varReplacer2968);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printLongProgressions(kotlin.ranges.LongProgression)>($stack13);
+
+        $stack14 = new kotlin.ranges.ULongRange;
+
+        varReplacer2979 = 1L;
+
+        varReplacer2980 = 10L;
+
+        varReplacer2981 = null;
+
+        specialinvoke $stack14.<kotlin.ranges.ULongRange: void <init>(long,long,kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer2979, varReplacer2980, varReplacer2981);
+
+        $stack15 = (kotlin.ranges.ULongProgression) $stack14;
+
+        varReplacer2969 = 3L;
+
+        $stack16 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.ULongProgression step(kotlin.ranges.ULongProgression,long)>($stack15, varReplacer2969);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printULongProgressions(kotlin.ranges.ULongProgression)>($stack16);
+
+        $stack17 = new kotlin.ranges.UIntRange;
+
+        varReplacer2962 = 1;
+
+        varReplacer2963 = 10;
+
+        varReplacer2964 = null;
+
+        specialinvoke $stack17.<kotlin.ranges.UIntRange: void <init>(int,int,kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer2962, varReplacer2963, varReplacer2964);
+
+        $stack18 = (kotlin.ranges.UIntProgression) $stack17;
+
+        varReplacer2967 = 4;
+
+        $stack19 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.UIntProgression step(kotlin.ranges.UIntProgression,int)>($stack18, varReplacer2967);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printUIntProgressions(kotlin.ranges.UIntProgression)>($stack19);
+
+        varReplacer2973 = 10;
+
+        varReplacer2974 = 1;
+
+        $stack20 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.IntProgression downTo(int,int)>(varReplacer2973, varReplacer2974);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printIntProgressions(kotlin.ranges.IntProgression)>($stack20);
+
+        varReplacer2957 = 90;
+
+        varReplacer2958 = 65;
+
+        $stack21 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.CharProgression downTo(char,char)>(varReplacer2957, varReplacer2958);
+
+        varReplacer2952 = 10;
+
+        $stack22 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.CharProgression step(kotlin.ranges.CharProgression,int)>($stack21, varReplacer2952);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printCharProgressions(kotlin.ranges.CharProgression)>($stack22);
+
+        varReplacer2965 = 10L;
+
+        varReplacer2966 = 1L;
+
+        $stack23 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.LongProgression downTo(long,long)>(varReplacer2965, varReplacer2966);
+
+        varReplacer2961 = 2L;
+
+        $stack24 = staticinvoke <kotlin.ranges.RangesKt: kotlin.ranges.LongProgression step(kotlin.ranges.LongProgression,long)>($stack23, varReplacer2961);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printLongProgressions(kotlin.ranges.LongProgression)>($stack24);
+
+        varReplacer2977 = 10L;
+
+        varReplacer2978 = 1L;
+
+        $stack25 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.ULongProgression downTo-eb3DHEI(long,long)>(varReplacer2977, varReplacer2978);
+
+        varReplacer2953 = 3L;
+
+        $stack26 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.ULongProgression step(kotlin.ranges.ULongProgression,long)>($stack25, varReplacer2953);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printULongProgressions(kotlin.ranges.ULongProgression)>($stack26);
+
+        varReplacer2959 = 10;
+
+        varReplacer2960 = 1;
+
+        $stack27 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.UIntProgression downTo-J1ME1BU(int,int)>(varReplacer2959, varReplacer2960);
+
+        varReplacer2982 = 4;
+
+        $stack28 = staticinvoke <kotlin.ranges.URangesKt: kotlin.ranges.UIntProgression step(kotlin.ranges.UIntProgression,int)>($stack27, varReplacer2982);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void printUIntProgressions(kotlin.ranges.UIntProgression)>($stack28);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.preogressions.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+}

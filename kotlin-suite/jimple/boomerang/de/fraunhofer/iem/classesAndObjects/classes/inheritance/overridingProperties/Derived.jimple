@@ -1,0 +1,115 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived extends de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base
+{
+    private java.lang.String prop;
+    private final int num;
+    private char ch;
+
+    public void <init>(java.lang.String)
+    {
+        int varReplacer595, varReplacer596;
+        java.lang.String prop, varReplacer597;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        prop := @parameter0: java.lang.String;
+
+        varReplacer597 = "prop";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(prop, varReplacer597);
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: void <init>(java.lang.String)>(prop);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: java.lang.String prop> = prop;
+
+        varReplacer596 = 200;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: int num> = varReplacer596;
+
+        varReplacer595 = 65;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: char ch> = varReplacer595;
+
+        return;
+    }
+
+    public java.lang.String getProp()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: java.lang.String prop>;
+
+        return $stack1;
+    }
+
+    public void setProp(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer598;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer598 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer598);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: java.lang.String prop> = <set-?>;
+
+        return;
+    }
+
+    public int getNum()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: int num>;
+
+        return $stack1;
+    }
+
+    public char getCh()
+    {
+        char $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: char ch>;
+
+        return $stack1;
+    }
+
+    public void setCh(char)
+    {
+        char <set-?>;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived;
+
+        <set-?> := @parameter0: char;
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: char ch> = <set-?>;
+
+        return;
+    }
+}

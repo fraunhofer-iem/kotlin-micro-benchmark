@@ -1,0 +1,229 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        long $stack13;
+        short $stack12;
+        kotlin.UShort $stack24;
+        byte $stack11;
+        int $stack9, $stack10, $stack16, $stack17, $stack18, $stack19;
+        java.lang.String varReplacer398, varReplacer399, varReplacer400, varReplacer401, varReplacer402;
+        java.io.PrintStream $stack15, $stack21, $stack23, $stack25, $stack27;
+        kotlin.UInt $stack14, $stack20;
+        kotlin.ULong $stack26;
+        kotlin.UByte $stack22;
+
+        nop;
+
+        varReplacer400 = "int";
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>(varReplacer400);
+
+        varReplacer401 = "ok";
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: int getUInt(java.lang.String)>(varReplacer401);
+
+        varReplacer398 = "byte";
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: byte getUByte(java.lang.String)>(varReplacer398);
+
+        varReplacer399 = "short";
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: short getUShort(java.lang.String)>(varReplacer399);
+
+        varReplacer402 = "long";
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: long getULong(java.lang.String)>(varReplacer402);
+
+        $stack14 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack9);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = $stack9 + $stack10;
+
+        $stack17 = staticinvoke <kotlin.UInt: int constructor-impl(int)>($stack16);
+
+        $stack18 = $stack17 + 200;
+
+        $stack19 = staticinvoke <kotlin.UInt: int constructor-impl(int)>($stack18);
+
+        $stack20 = staticinvoke <kotlin.UInt: kotlin.UInt box-impl(int)>($stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = staticinvoke <kotlin.UByte: kotlin.UByte box-impl(byte)>($stack11);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        $stack24 = staticinvoke <kotlin.UShort: kotlin.UShort box-impl(short)>($stack12);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        $stack26 = staticinvoke <kotlin.ULong: kotlin.ULong box-impl(long)>($stack13);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        return;
+    }
+
+    public static final int getUInt(java.lang.String)
+    {
+        int $i0, varReplacer404;
+        java.lang.String str, varReplacer403, varReplacer405;
+        boolean $stack1;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer403 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer403);
+
+        varReplacer405 = "int";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer405);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        nop;
+
+        varReplacer404 = 150;
+
+        return varReplacer404;
+    }
+
+    public static final byte getUByte(java.lang.String)
+    {
+        int varReplacer407, varReplacer408;
+        java.lang.String str, varReplacer406, varReplacer409;
+        boolean $stack1;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer409 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer409);
+
+        varReplacer406 = "byte";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer406);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        varReplacer407 = -1;
+
+        return varReplacer407;
+
+     label1:
+        nop;
+
+        varReplacer408 = -106;
+
+        return varReplacer408;
+    }
+
+    public static final short getUShort(java.lang.String)
+    {
+        short $s0;
+        int varReplacer411;
+        java.lang.String str, varReplacer410, varReplacer412;
+        boolean $stack1;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer412 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer412);
+
+        varReplacer410 = "short";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer410);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        $s0 = (short) -1;
+
+        return $s0;
+
+     label1:
+        nop;
+
+        varReplacer411 = 150;
+
+        return varReplacer411;
+    }
+
+    public static final long getULong(java.lang.String)
+    {
+        long varReplacer413, varReplacer415;
+        java.lang.String str, varReplacer414, varReplacer416;
+        boolean $stack1;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer416 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer416);
+
+        varReplacer414 = "long";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer414);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        varReplacer413 = -1L;
+
+        return varReplacer413;
+
+     label1:
+        nop;
+
+        varReplacer415 = 150L;
+
+        return varReplacer415;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinUnsignedIntKt: void main()>();
+
+        return;
+    }
+}

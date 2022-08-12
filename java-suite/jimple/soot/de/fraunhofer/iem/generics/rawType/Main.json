@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.generics.rawType.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.rawType.Main: void <init>()>",
+        "<de.fraunhofer.iem.generics.rawType.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.rawType.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack4": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Double",
+                "$stack9": "int",
+                "$stack10": "java.lang.Exception",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>",
+                "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>",
+                "<java.lang.Double: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void setAge(int)>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee",
+                "fullName": "java.lang.String",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void <init>(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee",
+                "fullName": "java.lang.String",
+                "age": "int"
+            },
+            "stackVariables": {"$constructor_marker": "kotlin.jvm.internal.DefaultConstructorMarker"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int)>"]
+        }
+    }
+}

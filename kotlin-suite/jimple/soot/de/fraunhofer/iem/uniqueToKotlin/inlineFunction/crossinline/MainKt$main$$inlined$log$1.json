@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1: java.lang.String toString()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.inlineFunction.crossinline.MainKt$main$$inlined$log$1"},
+            "stackVariables": {"$stack4": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

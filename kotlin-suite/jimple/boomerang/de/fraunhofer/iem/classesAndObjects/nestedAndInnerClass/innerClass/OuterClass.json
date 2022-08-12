@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass: void printAll()>",
+        "<de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass: int access$getOuterFlag$p(de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass",
+                "varReplacer800": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printAll()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass"},
+            "stackVariables": {
+                "l1": "int",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(int)>"]
+        },
+        "int access$getOuterFlag$p(de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this": "de.fraunhofer.iem.classesAndObjects.nestedAndInnerClass.innerClass.OuterClass",
+                "$stack1": "int"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

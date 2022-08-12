@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinCharKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack9, $stack11;
+        char ch1, $stack6, $stack8;
+        java.lang.Character $stack7;
+        int $stack10;
+
+        ch1 = <java.io.File: char pathSeparatorChar>;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(char)>(ch1);
+
+        $stack6 = <java.io.File: char separatorChar>;
+
+        $stack7 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.Character: char charValue()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(char)>($stack8);
+
+        $stack10 = staticinvoke <kotlin.text.CharsKt: int digitToInt(char)>(53);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinCharKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "namePrinter": "kotlin.jvm.functions.Function1",
+                "varReplacer2434": "java.lang.String",
+                "varReplacer2435": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.NamePrinter"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.NamePrinter: void <init>()>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt: void main()>"]
+        }
+    }
+}

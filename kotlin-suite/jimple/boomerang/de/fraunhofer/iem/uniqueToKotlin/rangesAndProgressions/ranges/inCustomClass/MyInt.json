@@ -1,0 +1,146 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["java.lang.Comparable"],
+    "methodCount": 11,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int getValue()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange rangeTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int compareTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int component1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy$default(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: java.lang.String toString()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int hashCode()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: boolean equals(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int compareTo(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "value": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int getValue()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange rangeTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)": {
+            "localVariables": {
+                "end": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "varReplacer2985": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: void <init>(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>"
+            ]
+        },
+        "int compareTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)": {
+            "localVariables": {
+                "other": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "varReplacer2986": "java.lang.String",
+                "varReplacer2987": "int",
+                "varReplacer2988": "int"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy(int)": {
+            "localVariables": {
+                "value": "int",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>"]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy$default(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l2": "int",
+                "$stack4": "int",
+                "l0": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack5": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "l3": "java.lang.Object",
+                "l1": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt copy(int)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "varReplacer2989": "int",
+                "varReplacer2990": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "int",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "int"
+            },
+            "invokeExpressions": ["<java.lang.Integer: int hashCode(int)>"]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "other": "java.lang.Object",
+                "varReplacer2991": "int",
+                "varReplacer2992": "int",
+                "varReplacer2993": "int",
+                "varReplacer2994": "int"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": []
+        },
+        "int compareTo(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt",
+                "$stack3": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: int compareTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>"]
+        }
+    }
+}

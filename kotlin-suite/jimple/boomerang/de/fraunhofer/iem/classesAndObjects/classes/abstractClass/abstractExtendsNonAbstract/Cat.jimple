@@ -1,0 +1,42 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat extends de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal
+{
+
+    public void <init>(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat this;
+        java.lang.String DNA, varReplacer479;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat;
+
+        DNA := @parameter0: java.lang.String;
+
+        varReplacer479 = "DNA";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, varReplacer479);
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: void <init>(java.lang.String)>(DNA);
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat this;
+        java.lang.String varReplacer480;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer480 = "Meow";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer480);
+
+        return;
+    }
+}

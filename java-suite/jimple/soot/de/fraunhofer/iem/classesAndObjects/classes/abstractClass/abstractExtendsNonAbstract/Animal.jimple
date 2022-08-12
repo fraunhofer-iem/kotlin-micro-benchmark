@@ -1,0 +1,39 @@
+public abstract class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal extends de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox
+{
+    private java.lang.String DNA;
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String DNA;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal;
+
+        DNA := @parameter0: java.lang.String;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.NoiseBox: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: java.lang.String DNA> = DNA;
+
+        return;
+    }
+
+    public abstract void makeNoise();
+
+    public void displayDNA()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: java.lang.String DNA>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>($stack1);
+
+        return;
+    }
+}

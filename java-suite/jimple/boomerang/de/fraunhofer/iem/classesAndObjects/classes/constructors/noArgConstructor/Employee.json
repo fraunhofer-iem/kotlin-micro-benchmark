@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.constructors.noArgConstructor.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.classes.constructors.noArgConstructor.Employee: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.constructors.noArgConstructor.Employee"},
+        "stackVariables": {},
+        "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+    }}
+}

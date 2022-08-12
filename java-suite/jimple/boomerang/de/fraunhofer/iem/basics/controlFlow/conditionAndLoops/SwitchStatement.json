@@ -1,0 +1,94 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithString(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithInt(int)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer33": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithInt(int)>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.SwitchStatement: void simpleSwitchWithString(java.lang.String[])>"
+            ]
+        },
+        "void simpleSwitchWithString(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer34": "java.lang.String",
+                "varReplacer35": "java.lang.String",
+                "varReplacer36": "java.lang.String",
+                "varReplacer37": "java.lang.String",
+                "varReplacer38": "java.lang.String",
+                "varReplacer39": "java.lang.String",
+                "varReplacer40": "java.lang.String"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "$stack3": "int",
+                "$stack4": "boolean",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack10": "boolean",
+                "$stack11": "boolean",
+                "l2": "byte"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int hashCode()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void simpleSwitchWithInt(int)": {
+            "localVariables": {
+                "num": "int",
+                "varReplacer41": "java.lang.String",
+                "varReplacer42": "java.lang.String",
+                "varReplacer43": "java.lang.String",
+                "varReplacer44": "java.lang.String",
+                "varReplacer45": "java.lang.String",
+                "varReplacer46": "java.lang.String",
+                "varReplacer47": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.io.PrintStream",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

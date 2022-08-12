@@ -1,0 +1,54 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack11;
+        java.util.Iterator $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange $stack7;
+        de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt $stack5, $stack6, i;
+        java.lang.Object $stack10;
+        boolean $stack9;
+
+        $stack5 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>(1);
+
+        $stack6 = new de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: void <init>(int)>(10);
+
+        $stack7 = virtualinvoke $stack5.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt: de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange rangeTo(de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyIntRange: java.util.Iterator iterator()>();
+
+     label1:
+        $stack9 = interfaceinvoke $stack8.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack9 == 0 goto label2;
+
+        $stack10 = interfaceinvoke $stack8.<java.util.Iterator: java.lang.Object next()>();
+
+        i = (de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MyInt) $stack10;
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(i);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.rangesAndProgressions.ranges.inCustomClass.MainKt: void main()>();
+
+        return;
+    }
+}

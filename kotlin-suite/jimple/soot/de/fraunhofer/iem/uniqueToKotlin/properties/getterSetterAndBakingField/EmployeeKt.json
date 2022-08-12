@@ -1,0 +1,39 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: int getLastGeneratedEmpID()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: void setLastGeneratedEmpID(int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: java.lang.String getNewEmpID()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.getterSetterAndBakingField.EmployeeKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "int getLastGeneratedEmpID()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "int"},
+            "invokeExpressions": []
+        },
+        "void setLastGeneratedEmpID(int)": {
+            "localVariables": {"<set-?>": "int"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getNewEmpID()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "int",
+                "$stack1": "int",
+                "$stack2": "int",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<java.lang.String: java.lang.String valueOf(int)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

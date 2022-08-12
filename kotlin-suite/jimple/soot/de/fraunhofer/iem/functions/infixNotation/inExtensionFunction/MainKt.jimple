@@ -1,0 +1,99 @@
+public final class de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt, de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)
+    {
+        de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt $this$add, secondNumber, $stack2;
+        int $stack3, $stack4, $stack5;
+
+        $this$add := @parameter0: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        secondNumber := @parameter1: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$add, "<this>");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, "secondNumber");
+
+        $stack2 = new de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        $stack3 = virtualinvoke $this$add.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack4 = virtualinvoke secondNumber.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack5 = $stack3 + $stack4;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public static final de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt, de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)
+    {
+        de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt $this$sub, secondNumber, $stack2;
+        int $stack3, $stack4, $stack5;
+
+        $this$sub := @parameter0: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        secondNumber := @parameter1: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$sub, "<this>");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, "secondNumber");
+
+        $stack2 = new de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        $stack3 = virtualinvoke $this$sub.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack4 = virtualinvoke secondNumber.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack5 = $stack3 - $stack4;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt $stack6, $stack7, $stack8, $stack9;
+        java.io.PrintStream $stack11, $stack13;
+        int $stack10, $stack12;
+
+        $stack6 = new de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>(10);
+
+        $stack7 = new de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>(30);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>($stack6, $stack7);
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>($stack6, $stack7);
+
+        $stack10 = virtualinvoke $stack8.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = virtualinvoke $stack9.<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: void main()>();
+
+        return;
+    }
+}

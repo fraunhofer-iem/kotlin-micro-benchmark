@@ -1,0 +1,166 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 9,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo1(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo2(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo3(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo4(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo5(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo6(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo7(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee",
+                "$stack22": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getFirstName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getLastName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int getAge()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getMobileNumber()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String getAddress()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo1(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo2(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void demo3(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo4(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo5(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo6(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo7(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void demo1(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component2()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void demo2(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {
+                "$stack5": "java.lang.String",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int component3()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void demo3(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.String",
+                "$stack10": "int",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component2()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: int component3()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component4()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: java.lang.String component5()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo4(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo5(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo6(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy$default(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,int,java.lang.Object)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee demo7(de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee)": {
+            "localVariables": {"employee": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee: de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.Employee copy(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.dataClasses.simpleDataClass.MainKt: void main()>"]
+        }
+    }
+}

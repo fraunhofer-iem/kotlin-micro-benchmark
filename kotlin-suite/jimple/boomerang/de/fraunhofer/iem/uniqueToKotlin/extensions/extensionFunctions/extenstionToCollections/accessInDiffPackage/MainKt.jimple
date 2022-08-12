@@ -1,0 +1,128 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack16, $stack18, $stack20, $stack22, $stack28;
+        java.util.List $stack23;
+        java.lang.Integer[] l1;
+        int $stack27, varReplacer1386, varReplacer1387, varReplacer1388, varReplacer1390, varReplacer1391, varReplacer1392, varReplacer1393, varReplacer1394, varReplacer1395, varReplacer1396, varReplacer1397, varReplacer1399;
+        java.lang.String $stack24, $stack29, $stack31, varReplacer1385, varReplacer1389, varReplacer1398;
+        java.io.PrintStream $stack25, $stack30, $stack32;
+
+        nop;
+
+        l1 = newarray (java.lang.Integer)[10];
+
+        varReplacer1387 = 23342;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1387);
+
+        l1[0] = $stack4;
+
+        varReplacer1396 = 34;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1396);
+
+        l1[1] = $stack6;
+
+        varReplacer1394 = 928345798;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1394);
+
+        l1[2] = $stack8;
+
+        varReplacer1390 = 2;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1390);
+
+        l1[3] = $stack10;
+
+        varReplacer1386 = 1;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1386);
+
+        l1[4] = $stack12;
+
+        varReplacer1399 = 0;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1399);
+
+        l1[5] = $stack14;
+
+        varReplacer1397 = 23423;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1397);
+
+        l1[6] = $stack16;
+
+        varReplacer1391 = 2;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1391);
+
+        l1[7] = $stack18;
+
+        varReplacer1395 = 423;
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1395);
+
+        l1[8] = $stack20;
+
+        varReplacer1388 = 9123;
+
+        $stack22 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1388);
+
+        l1[9] = $stack22;
+
+        $stack23 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        varReplacer1398 = "List = ";
+
+        $stack24 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1398, $stack23);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>($stack24);
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: int customizedMax(java.util.List)>($stack23);
+
+        $stack28 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack27);
+
+        varReplacer1385 = "Max = ";
+
+        $stack29 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1385, $stack28);
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        varReplacer1392 = 2;
+
+        varReplacer1393 = 9;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: void customizedSwap(java.util.List,int,int)>($stack23, varReplacer1392, varReplacer1393);
+
+        varReplacer1389 = "List after swap = ";
+
+        $stack31 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1389, $stack23);
+
+        $stack32 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack32.<java.io.PrintStream: void println(java.lang.Object)>($stack31);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.accessInDiffPackage.MainKt: void main()>();
+
+        return;
+    }
+}

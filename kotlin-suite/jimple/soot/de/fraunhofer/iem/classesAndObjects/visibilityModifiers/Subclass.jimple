@@ -1,0 +1,75 @@
+public final class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass extends de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer
+{
+    private final int b;
+
+    public void <init>()
+    {
+        int $stack2;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass this;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested $stack1;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: void <init>()>();
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int getE()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int b> = $stack2;
+
+        return;
+    }
+
+    protected int getB()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int b>;
+
+        return $stack1;
+    }
+
+    public final void display()
+    {
+        java.io.PrintStream $stack4, $stack6, $stack7, $stack10;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested $stack8;
+        int $stack3, $stack5, $stack9;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int getB()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack5 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int getD()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(class "Lde/fraunhofer/iem/classesAndObjects/visibilityModifiers/Outer$Nested;");
+
+        $stack8 = new de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: void <init>()>();
+
+        $stack9 = virtualinvoke $stack8.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int getE()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        return;
+    }
+}

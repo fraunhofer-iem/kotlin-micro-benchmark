@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.generics.simpleGenericExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.simpleGenericExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.generics.simpleGenericExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack4": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Number",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.Object",
+                "$stack12": "java.lang.Number",
+                "$stack13": "int",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair",
+                "$stack16": "java.lang.Object",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.lang.Object",
+                "$stack19": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: void <init>(java.lang.Object,java.lang.Object)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getFirst()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getSecond()>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: void <init>(java.lang.Object,java.lang.Object)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getFirst()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getSecond()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.generics.simpleGenericExample.MainKt: void main()>"]
+        }
+    }
+}

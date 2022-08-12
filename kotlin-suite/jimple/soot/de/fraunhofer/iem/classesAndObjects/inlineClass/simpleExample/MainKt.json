@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.String",
+                "$stack10": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName",
+                "$stack11": "boolean",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "boolean",
+                "$stack15": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString-impl(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode-impl(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName box-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl0(java.lang.String,java.lang.String)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.MainKt: void main()>"]
+        }
+    }
+}

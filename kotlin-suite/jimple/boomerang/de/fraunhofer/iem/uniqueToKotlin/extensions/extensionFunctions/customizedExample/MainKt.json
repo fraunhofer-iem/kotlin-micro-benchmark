@@ -1,0 +1,158 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 9,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: double divWithFirst(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: int add(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: java.lang.String changeToString(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void printTwoAny(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)": {
+            "localVariables": {"varReplacer1367": "java.lang.String"},
+            "stackVariables": {
+                "$this$sub": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack1": "int",
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getSecondNumber()>"
+            ]
+        },
+        "double divWithFirst(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts,int)": {
+            "localVariables": {
+                "divisor": "int",
+                "varReplacer1368": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$divWithFirst": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack2": "int",
+                "$stack3": "double",
+                "$stack4": "double",
+                "$stack5": "double"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void myExt(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>"
+            ]
+        },
+        "int add(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)": {
+            "localVariables": {
+                "varReplacer1369": "java.lang.String",
+                "varReplacer1370": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$add": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "int",
+                "$stack5": "int",
+                "$stack6": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getSecondNumber()>"
+            ]
+        },
+        "void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)": {
+            "localVariables": {
+                "varReplacer1371": "java.lang.String",
+                "varReplacer1372": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$print": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)": {
+            "localVariables": {
+                "varReplacer1373": "java.lang.String",
+                "varReplacer1374": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$print": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String changeToString(java.lang.Object)": {
+            "localVariables": {"varReplacer1375": "java.lang.String"},
+            "stackVariables": {
+                "$this$changeToString": "java.lang.Object",
+                "$stack1": "java.lang.String"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.String toString()>"]
+        },
+        "void printTwoAny(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)": {
+            "localVariables": {
+                "ob": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects",
+                "varReplacer1376": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer1377": "int",
+                "varReplacer1378": "null_type",
+                "varReplacer1379": "int",
+                "varReplacer1380": "int"
+            },
+            "stackVariables": {
+                "$stack4": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts",
+                "$stack5": "int",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "double",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void <init>(int,int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int add()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: double divWithFirst(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts,int)>",
+                "<java.io.PrintStream: void println(double)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void printTwoAny(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: java.lang.String changeToString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: java.lang.String changeToString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void main()>"]
+        }
+    }
+}

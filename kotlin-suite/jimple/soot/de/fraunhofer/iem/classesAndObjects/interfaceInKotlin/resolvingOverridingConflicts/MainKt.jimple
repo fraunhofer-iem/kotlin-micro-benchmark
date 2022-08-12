@@ -1,0 +1,38 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C $stack2;
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C: void <init>()>();
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C: void foo()>();
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C: void bar()>();
+
+        $stack3 = new de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void <init>()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void foo()>();
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.D: void bar()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.MainKt: void main()>();
+
+        return;
+    }
+}

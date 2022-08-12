@@ -1,0 +1,16 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1 extends java.lang.Object
+{
+
+    void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.functionReturningAnonymousObject.MainKt$getAnonymousObjectPublicWithAnyAsSuperType$1;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

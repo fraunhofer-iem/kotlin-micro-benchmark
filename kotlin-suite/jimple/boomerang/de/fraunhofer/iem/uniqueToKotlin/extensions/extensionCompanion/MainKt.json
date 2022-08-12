@@ -1,0 +1,74 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)": {
+            "localVariables": {
+                "firstNumber": "int",
+                "secondNumber": "int",
+                "varReplacer1355": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$sub": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion",
+                "$stack3": "int"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer1356": "int",
+                "varReplacer1357": "int",
+                "varReplacer1358": "int",
+                "varReplacer1359": "int",
+                "varReplacer1360": "int",
+                "varReplacer1361": "int",
+                "varReplacer1362": "int",
+                "varReplacer1363": "int",
+                "varReplacer1364": "int",
+                "varReplacer1365": "int"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion",
+                "$stack13": "int",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion",
+                "$stack16": "int",
+                "$stack17": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: void <init>(int,int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int add()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: void main()>"]
+        }
+    }
+}

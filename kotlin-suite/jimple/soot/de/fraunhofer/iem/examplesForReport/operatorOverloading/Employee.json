@@ -1,0 +1,53 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: java.lang.String getFullName()>",
+        "<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: int getAge()>",
+        "<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: void setAge(int)>",
+        "<de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee: de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee inc()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fullName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getFullName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee inc()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.operatorOverloading.Employee"},
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "int"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

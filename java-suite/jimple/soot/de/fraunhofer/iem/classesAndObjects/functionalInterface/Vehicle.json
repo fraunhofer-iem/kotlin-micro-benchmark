@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void stop()>"
+    ],
+    "methodsInformation": {
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

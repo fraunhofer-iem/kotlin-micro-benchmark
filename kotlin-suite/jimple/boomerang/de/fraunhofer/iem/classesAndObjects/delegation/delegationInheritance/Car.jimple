@@ -1,0 +1,101 @@
+public final class de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle
+{
+    private final java.lang.String vehicleType;
+
+    public void <init>()
+    {
+        java.lang.String varReplacer601;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer601 = "Car";
+
+        this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String vehicleType> = varReplacer601;
+
+        return;
+    }
+
+    public java.lang.String getVehicleType()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String vehicleType>;
+
+        return $stack1;
+    }
+
+    public void start()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car this;
+        java.lang.String $stack3, $stack4, varReplacer602;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String getVehicleType()>();
+
+        varReplacer602 = " Engine Started";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, varReplacer602);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public void stop()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car this;
+        java.lang.String $stack3, $stack4, varReplacer603;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: java.lang.String getVehicleType()>();
+
+        varReplacer603 = " Engine Stopped";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, varReplacer603);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public void accelerate()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer604;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer604 = "Accelerated";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer604);
+
+        return;
+    }
+}

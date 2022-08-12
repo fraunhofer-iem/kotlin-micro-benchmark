@@ -1,0 +1,68 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+    "superClass": "java.lang.Enum",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu valueOf(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"},
+            "stackVariables": {
+                "$enum$name": "java.lang.String",
+                "$enum$ordinal": "int"
+            },
+            "invokeExpressions": ["<java.lang.Enum: void <init>(java.lang.String,int)>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[]",
+                "$stack1": "java.lang.Object",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.Object clone()>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu valueOf(java.lang.String)": {
+            "localVariables": {"value": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.Enum",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"
+            },
+            "invokeExpressions": ["<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l0": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[]",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"
+            },
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[]"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: void <init>(java.lang.String,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu[] $values()>"
+            ]
+        }
+    }
+}

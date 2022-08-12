@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void dummy(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer230": "int",
+                "varReplacer231": "null_type",
+                "varReplacer232": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.lang.Integer"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void dummy(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void dummy(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaCastOperator: void dummy(java.lang.Object)>"
+            ]
+        },
+        "void dummy(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "temp": "java.lang.String",
+                "varReplacer233": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

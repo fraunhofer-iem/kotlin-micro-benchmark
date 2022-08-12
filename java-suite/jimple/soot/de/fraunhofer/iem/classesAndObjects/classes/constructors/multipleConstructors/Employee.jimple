@@ -1,0 +1,70 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee extends java.lang.Object
+{
+    java.lang.String firstName;
+    java.lang.String lastName;
+    int age;
+
+    void <init>(java.lang.String)
+    {
+        java.io.PrintStream $stack2, $stack3;
+        java.lang.String firstName;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Initializer block");
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String firstName> = firstName;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>("Completed Initializer block");
+
+        return;
+    }
+
+    void <init>(java.lang.String, java.lang.String)
+    {
+        java.lang.String firstName, lastName;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String)>(firstName);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String lastName> = lastName;
+
+        return;
+    }
+
+    void <init>(java.lang.String, java.lang.String, int)
+    {
+        int age;
+        java.lang.String firstName, lastName;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String)>(firstName, lastName);
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: int age> = age;
+
+        return;
+    }
+}

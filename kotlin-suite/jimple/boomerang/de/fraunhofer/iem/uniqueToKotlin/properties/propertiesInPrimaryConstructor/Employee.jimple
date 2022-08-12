@@ -1,0 +1,268 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee extends java.lang.Object
+{
+    private java.lang.String firstName;
+    private java.lang.String lastName;
+    private java.lang.String employeeID;
+    private java.lang.String designation;
+    private int salary;
+    private java.lang.String address;
+
+    public void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+        int salary;
+        java.lang.String firstName, lastName, employeeID, designation, address, varReplacer1521, varReplacer1522, varReplacer1523, varReplacer1524, varReplacer1525;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        employeeID := @parameter2: java.lang.String;
+
+        designation := @parameter3: java.lang.String;
+
+        salary := @parameter4: int;
+
+        address := @parameter5: java.lang.String;
+
+        varReplacer1524 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1524);
+
+        varReplacer1521 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1521);
+
+        varReplacer1525 = "employeeID";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employeeID, varReplacer1525);
+
+        varReplacer1522 = "designation";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(designation, varReplacer1522);
+
+        varReplacer1523 = "address";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(address, varReplacer1523);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String employeeID> = employeeID;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String designation> = designation;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: int salary> = salary;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String address> = address;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final void setFirstName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1526;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1526 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1526);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String firstName> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final void setLastName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1527;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1527 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1527);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String lastName> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getEmployeeID()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String employeeID>;
+
+        return $stack1;
+    }
+
+    public final void setEmployeeID(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1528;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1528 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1528);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String employeeID> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getDesignation()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String designation>;
+
+        return $stack1;
+    }
+
+    public final void setDesignation(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1529;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1529 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1529);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String designation> = <set-?>;
+
+        return;
+    }
+
+    public final int getSalary()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: int salary>;
+
+        return $stack1;
+    }
+
+    public final void setSalary(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: int salary> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getAddress()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final void setAddress(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1530;
+        de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1530 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1530);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInPrimaryConstructor.Employee: java.lang.String address> = <set-?>;
+
+        return;
+    }
+}

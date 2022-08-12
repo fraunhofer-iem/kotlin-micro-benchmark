@@ -1,0 +1,152 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle
+{
+    private final java.lang.String modelNumber;
+    private java.lang.String vehicleRegistrationNumber;
+    private boolean isStart;
+
+    public void <init>(java.lang.String, java.lang.String)
+    {
+        java.lang.String modelNumber, vehicleRegistrationNumber, varReplacer782, varReplacer783;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        modelNumber := @parameter0: java.lang.String;
+
+        vehicleRegistrationNumber := @parameter1: java.lang.String;
+
+        varReplacer782 = "modelNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(modelNumber, varReplacer782);
+
+        varReplacer783 = "vehicleRegistrationNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(vehicleRegistrationNumber, varReplacer783);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String modelNumber> = modelNumber;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String vehicleRegistrationNumber> = vehicleRegistrationNumber;
+
+        return;
+    }
+
+    public java.lang.String getModelNumber()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String modelNumber>;
+
+        return $stack1;
+    }
+
+    public java.lang.String getVehicleRegistrationNumber()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String vehicleRegistrationNumber>;
+
+        return $stack1;
+    }
+
+    public void setVehicleRegistrationNumber(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer784;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer784 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer784);
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String vehicleRegistrationNumber> = <set-?>;
+
+        return;
+    }
+
+    public void start()
+    {
+        java.io.PrintStream $stack4;
+        int varReplacer786;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+        java.lang.String varReplacer785;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: boolean isStart>;
+
+        if $stack3 == 0 goto label1;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer785 = "Car is already started.";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer785);
+
+     label1:
+        nop;
+
+        varReplacer786 = 1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: boolean isStart> = varReplacer786;
+
+        return;
+    }
+
+    public void stop()
+    {
+        java.io.PrintStream $stack4;
+        int varReplacer788;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car this;
+        java.lang.String varReplacer787;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car;
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: boolean isStart>;
+
+        if $stack3 != 0 goto label1;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer787 = "Car is already stopped.";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer787);
+
+     label1:
+        nop;
+
+        varReplacer788 = 0;
+
+        this.<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: boolean isStart> = varReplacer788;
+
+        return;
+    }
+}

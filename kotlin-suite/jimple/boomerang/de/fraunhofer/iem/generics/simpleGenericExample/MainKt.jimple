@@ -1,0 +1,83 @@
+public final class de.fraunhofer.iem.generics.simpleGenericExample.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack5, $stack6;
+        int $stack9, $stack13, varReplacer1191, varReplacer1192;
+        java.lang.String varReplacer1189, varReplacer1190;
+        java.lang.Number $stack8, $stack12;
+        java.io.PrintStream $stack10, $stack14, $stack17, $stack19;
+        de.fraunhofer.iem.generics.simpleGenericExample.CustomPair $stack4, $stack15;
+        java.lang.Object $stack7, $stack11, $stack16, $stack18;
+
+        nop;
+
+        $stack4 = new de.fraunhofer.iem.generics.simpleGenericExample.CustomPair;
+
+        varReplacer1192 = 20;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1192);
+
+        varReplacer1191 = 30;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1191);
+
+        specialinvoke $stack4.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: void <init>(java.lang.Object,java.lang.Object)>($stack5, $stack6);
+
+        $stack7 = virtualinvoke $stack4.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getFirst()>();
+
+        $stack8 = (java.lang.Number) $stack7;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Number: int intValue()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack4.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getSecond()>();
+
+        $stack12 = (java.lang.Number) $stack11;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Number: int intValue()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>($stack13);
+
+        $stack15 = new de.fraunhofer.iem.generics.simpleGenericExample.CustomPair;
+
+        varReplacer1189 = "Ranjith";
+
+        varReplacer1190 = "K";
+
+        specialinvoke $stack15.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: void <init>(java.lang.Object,java.lang.Object)>(varReplacer1189, varReplacer1190);
+
+        $stack16 = virtualinvoke $stack15.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getFirst()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        $stack18 = virtualinvoke $stack15.<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getSecond()>();
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.generics.simpleGenericExample.MainKt: void main()>();
+
+        return;
+    }
+}

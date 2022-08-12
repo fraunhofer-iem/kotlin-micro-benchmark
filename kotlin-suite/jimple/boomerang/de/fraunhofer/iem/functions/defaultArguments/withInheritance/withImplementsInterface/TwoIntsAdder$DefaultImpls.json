@@ -1,0 +1,94 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls: int add(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls: int add$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls: float add10(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder$DefaultImpls: float add10$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int,int,java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "int add(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder",
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int",
+                "varReplacer1797": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int add$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int,int,java.lang.Object)": {
+            "localVariables": {"varReplacer1798": "java.lang.String"},
+            "stackVariables": {
+                "l6": "java.lang.Object",
+                "l5": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "$stack9": "int",
+                "$stack10": "int",
+                "l0": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder",
+                "$stack11": "int",
+                "$stack23": "java.lang.UnsupportedOperationException",
+                "l1": "int",
+                "l2": "int",
+                "l3": "int",
+                "l4": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder: int add(int,int,int,int)>"
+            ]
+        },
+        "float add10(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder",
+                "num1": "int",
+                "num2": "int",
+                "num3": "int",
+                "num4": "int",
+                "varReplacer1799": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "float",
+                "$stack6": "float",
+                "$stack7": "float",
+                "$stack8": "float",
+                "$stack9": "float",
+                "$stack10": "float",
+                "$stack11": "float",
+                "$stack12": "float",
+                "$stack13": "float"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "float add10$default(de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder,int,int,int,int,int,java.lang.Object)": {
+            "localVariables": {"varReplacer1800": "java.lang.String"},
+            "stackVariables": {
+                "l6": "java.lang.Object",
+                "l5": "int",
+                "$stack7": "int",
+                "$stack8": "int",
+                "l0": "de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder",
+                "l1": "int",
+                "l4": "int",
+                "$stack9": "float",
+                "$stack17": "java.lang.UnsupportedOperationException",
+                "l2": "int",
+                "l3": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder: float add10(int,int,int,int)>"
+            ]
+        }
+    }
+}

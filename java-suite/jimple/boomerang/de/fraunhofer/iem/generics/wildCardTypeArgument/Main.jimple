@@ -1,0 +1,344 @@
+public class de.fraunhofer.iem.generics.wildCardTypeArgument.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.generics.wildCardTypeArgument.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.wildCardTypeArgument.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Integer $stack6, $stack8, $stack11;
+        java.lang.StringBuilder $stack9, $stack16, $stack18, $stack20, $stack22, $stack24, $stack26, $stack28, $stack30, $stack32, $stack34, $stack36, $stack38;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair $stack5, $stack7, $stack10, $stack13;
+        java.lang.String[] args;
+        java.lang.StringBuffer $stack12;
+        int varReplacer508, varReplacer509, varReplacer510;
+        java.lang.String $stack21, $stack27, $stack33, $stack39, varReplacer511, varReplacer512, varReplacer513, varReplacer514, varReplacer515, varReplacer516, varReplacer517;
+        java.io.PrintStream $stack17, $stack23, $stack29, $stack35;
+        java.lang.Object $stack14, $stack15, $stack19, $stack25, $stack31, $stack37;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack5 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer509 = 5485;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer509);
+
+        varReplacer516 = "Ranjith";
+
+        specialinvoke $stack5.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack6, varReplacer516);
+
+        $stack7 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer508 = 5485;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer508);
+
+        $stack9 = new java.lang.StringBuilder;
+
+        varReplacer515 = "Ranjith";
+
+        specialinvoke $stack9.<java.lang.StringBuilder: void <init>(java.lang.String)>(varReplacer515);
+
+        specialinvoke $stack7.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack8, $stack9);
+
+        $stack10 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer510 = 5485;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer510);
+
+        $stack12 = new java.lang.StringBuffer;
+
+        varReplacer517 = "Ranjith";
+
+        specialinvoke $stack12.<java.lang.StringBuffer: void <init>(java.lang.String)>(varReplacer517);
+
+        specialinvoke $stack10.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack11, $stack12);
+
+        staticinvoke <de.fraunhofer.iem.generics.wildCardTypeArgument.Main: void print(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>($stack5);
+
+        staticinvoke <de.fraunhofer.iem.generics.wildCardTypeArgument.Main: void print(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>($stack7);
+
+        staticinvoke <de.fraunhofer.iem.generics.wildCardTypeArgument.Main: void print(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>($stack10);
+
+        staticinvoke <de.fraunhofer.iem.generics.wildCardTypeArgument.Main: void demo()>();
+
+        $stack13 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack14 = new java.lang.Object;
+
+        specialinvoke $stack14.<java.lang.Object: void <init>()>();
+
+        $stack15 = new java.lang.Object;
+
+        specialinvoke $stack15.<java.lang.Object: void <init>()>();
+
+        specialinvoke $stack13.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack14, $stack15);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer511 = "Before first = ";
+
+        $stack18 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer511);
+
+        $stack19 = virtualinvoke $stack13.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        $stack20 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack19);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.String)>($stack21);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack22 = new java.lang.StringBuilder;
+
+        specialinvoke $stack22.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer512 = "Before second = ";
+
+        $stack24 = virtualinvoke $stack22.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer512);
+
+        $stack25 = virtualinvoke $stack13.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack26 = virtualinvoke $stack24.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack25);
+
+        $stack27 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.String)>($stack27);
+
+        staticinvoke <de.fraunhofer.iem.generics.wildCardTypeArgument.Main: void resetToDefault(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>($stack13);
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack28 = new java.lang.StringBuilder;
+
+        specialinvoke $stack28.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer514 = "After first = ";
+
+        $stack30 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer514);
+
+        $stack31 = virtualinvoke $stack13.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        $stack32 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack31);
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(java.lang.String)>($stack33);
+
+        $stack35 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack34 = new java.lang.StringBuilder;
+
+        specialinvoke $stack34.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer513 = "After second = ";
+
+        $stack36 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer513);
+
+        $stack37 = virtualinvoke $stack13.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack38 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack37);
+
+        $stack39 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack35.<java.io.PrintStream: void println(java.lang.String)>($stack39);
+
+        return;
+    }
+
+    public static void print(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)
+    {
+        java.io.PrintStream $stack9, $stack10;
+        java.lang.CharSequence $stack7;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair ob;
+        char $stack8;
+        int $stack5, varReplacer518;
+        java.lang.Object $stack3, $stack6;
+        java.lang.Number $stack4;
+
+        nop;
+
+        ob := @parameter0: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        $stack3 = virtualinvoke ob.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        $stack4 = (java.lang.Number) $stack3;
+
+        $stack5 = virtualinvoke $stack4.<java.lang.Number: int intValue()>();
+
+        $stack6 = virtualinvoke ob.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack7 = (java.lang.CharSequence) $stack6;
+
+        varReplacer518 = 0;
+
+        $stack8 = interfaceinvoke $stack7.<java.lang.CharSequence: char charAt(int)>(varReplacer518);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack5);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(char)>($stack8);
+
+        return;
+    }
+
+    public static void resetToDefault(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)
+    {
+        int varReplacer519;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair ob;
+        java.lang.String varReplacer520;
+        java.lang.Integer $stack1;
+
+        nop;
+
+        ob := @parameter0: de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer519 = 0;
+
+        $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer519);
+
+        virtualinvoke ob.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void setFirst(java.lang.Object)>($stack1);
+
+        varReplacer520 = "Anonymous";
+
+        virtualinvoke ob.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void setSecond(java.lang.Object)>(varReplacer520);
+
+        return;
+    }
+
+    public static void demo()
+    {
+        java.lang.Integer $stack3, $stack5;
+        java.lang.StringBuilder $stack7, $stack9, $stack11, $stack13, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25, $stack27, $stack29;
+        de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair $stack2, $stack4;
+        java.lang.StringBuffer $stack6;
+        int varReplacer524, varReplacer527;
+        java.lang.String $stack12, $stack18, $stack24, $stack30, varReplacer521, varReplacer522, varReplacer523, varReplacer525, varReplacer526, varReplacer528;
+        java.io.PrintStream $stack8, $stack14, $stack20, $stack26;
+        java.lang.Object $stack10, $stack16, $stack22, $stack28;
+
+        nop;
+
+        $stack2 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer527 = 5485;
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer527);
+
+        varReplacer523 = "Ranjith";
+
+        specialinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack3, varReplacer523);
+
+        $stack4 = new de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair;
+
+        varReplacer524 = 9568457;
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer524);
+
+        $stack6 = new java.lang.StringBuffer;
+
+        varReplacer522 = "Anonymous";
+
+        specialinvoke $stack6.<java.lang.StringBuffer: void <init>(java.lang.String)>(varReplacer522);
+
+        specialinvoke $stack4.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>($stack5, $stack6);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer526 = "Before first = ";
+
+        $stack9 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer526);
+
+        $stack10 = virtualinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        $stack11 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack10);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>($stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack13 = new java.lang.StringBuilder;
+
+        specialinvoke $stack13.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer521 = "Before second = ";
+
+        $stack15 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer521);
+
+        $stack16 = virtualinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack17 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack16);
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.String)>($stack18);
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void replace(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>($stack4);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack19 = new java.lang.StringBuilder;
+
+        specialinvoke $stack19.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer528 = "After first = ";
+
+        $stack21 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer528);
+
+        $stack22 = virtualinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>();
+
+        $stack23 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack22);
+
+        $stack24 = virtualinvoke $stack23.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.String)>($stack24);
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack25 = new java.lang.StringBuilder;
+
+        specialinvoke $stack25.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer525 = "After second = ";
+
+        $stack27 = virtualinvoke $stack25.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer525);
+
+        $stack28 = virtualinvoke $stack2.<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>();
+
+        $stack29 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack28);
+
+        $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.String)>($stack30);
+
+        return;
+    }
+}

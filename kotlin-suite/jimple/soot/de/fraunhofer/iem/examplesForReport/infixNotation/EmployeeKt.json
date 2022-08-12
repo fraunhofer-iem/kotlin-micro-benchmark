@@ -1,0 +1,20 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.infixNotation.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.examplesForReport.infixNotation.EmployeeKt: void entry()>"],
+    "methodsInformation": {"void entry()": {
+        "localVariables": {},
+        "stackVariables": {
+            "$stack2": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee",
+            "$stack3": "de.fraunhofer.iem.examplesForReport.infixNotation.Employee"
+        },
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>",
+            "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>",
+            "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>",
+            "<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>"
+        ]
+    }}
+}

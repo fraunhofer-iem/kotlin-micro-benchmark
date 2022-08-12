@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getRawStrings()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getEscapedStrings()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getRawStrings()>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: java.lang.String getEscapedStrings()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getRawStrings()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void print(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getEscapedStrings()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void print(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinStringTypeKt: void main()>"]
+        }
+    }
+}

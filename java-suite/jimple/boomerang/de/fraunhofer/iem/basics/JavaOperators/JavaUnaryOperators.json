@@ -1,0 +1,63 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators: boolean getBool(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "num": "int",
+                "num#4": "int",
+                "varReplacer255": "java.lang.String",
+                "varReplacer256": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "boolean",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "boolean",
+                "$i0": "int",
+                "$i1": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaUnaryOperators: boolean getBool(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "boolean getBool(java.lang.String)": {
+            "localVariables": {
+                "flag": "java.lang.String",
+                "varReplacer257": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": ["<java.lang.String: boolean equals(java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+public class de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair extends java.lang.Object
+{
+    private java.lang.Number first;
+    private java.lang.CharSequence second;
+
+    public void <init>(java.lang.Number, java.lang.CharSequence)
+    {
+        java.lang.Number first;
+        java.lang.CharSequence second;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        first := @parameter0: java.lang.Number;
+
+        second := @parameter1: java.lang.CharSequence;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first> = first;
+
+        this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second> = second;
+
+        return;
+    }
+
+    public java.lang.Number getFirst()
+    {
+        java.lang.Number $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        return $stack1;
+    }
+
+    public java.lang.CharSequence getSecond()
+    {
+        java.lang.CharSequence $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        return $stack1;
+    }
+}

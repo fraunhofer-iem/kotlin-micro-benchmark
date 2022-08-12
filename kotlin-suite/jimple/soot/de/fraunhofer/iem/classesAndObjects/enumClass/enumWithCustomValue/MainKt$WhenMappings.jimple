@@ -1,0 +1,46 @@
+public final class de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt$WhenMappings extends java.lang.Object
+{
+    public static final int[] $EnumSwitchMapping$0;
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] $stack1;
+        int[] l0;
+        int $stack2, $stack4, $stack6, $stack8, $stack10;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu $stack3, $stack5, $stack7, $stack9;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] values()>();
+
+        $stack2 = lengthof $stack1;
+
+        l0 = newarray (int)[$stack2];
+
+        $stack3 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_GRAVY>;
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int ordinal()>();
+
+        l0[$stack4] = 1;
+
+        $stack5 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu EGG_OMELET>;
+
+        $stack6 = virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int ordinal()>();
+
+        l0[$stack6] = 2;
+
+        $stack7 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu CHICKEN_BIRYANI>;
+
+        $stack8 = virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int ordinal()>();
+
+        l0[$stack8] = 3;
+
+        $stack9 = <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu VEG_PULAO>;
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: int ordinal()>();
+
+        l0[$stack10] = 4;
+
+        <de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt$WhenMappings: int[] $EnumSwitchMapping$0> = l0;
+
+        return;
+    }
+}

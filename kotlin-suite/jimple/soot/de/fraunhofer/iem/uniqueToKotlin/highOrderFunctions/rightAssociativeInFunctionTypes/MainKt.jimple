@@ -1,0 +1,69 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt extends java.lang.Object
+{
+
+    public static final void callFun(kotlin.jvm.functions.Function1)
+    {
+        java.io.PrintStream $stack10;
+        kotlin.jvm.functions.Function1 fun1, $stack5;
+        java.lang.Integer $stack3, $stack6;
+        int $stack9;
+        java.lang.Object $stack4, $stack7;
+        java.lang.Number $stack8;
+
+        fun1 := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(fun1, "fun1");
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack4 = interfaceinvoke fun1.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack3);
+
+        $stack5 = (kotlin.jvm.functions.Function1) $stack4;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack7 = interfaceinvoke $stack5.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack6);
+
+        $stack8 = (java.lang.Number) $stack7;
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Number: int intValue()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack9);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        kotlin.jvm.functions.Function1 fun1, fun2;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1 $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun1$1 $stack2;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun1$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun1$1 INSTANCE>;
+
+        fun1 = (kotlin.jvm.functions.Function1) $stack2;
+
+        $stack3 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt$main$fun2$1 INSTANCE>;
+
+        fun2 = (kotlin.jvm.functions.Function1) $stack3;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>(fun1);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void callFun(kotlin.jvm.functions.Function1)>(fun2);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.rightAssociativeInFunctionTypes.MainKt: void main()>();
+
+        return;
+    }
+}

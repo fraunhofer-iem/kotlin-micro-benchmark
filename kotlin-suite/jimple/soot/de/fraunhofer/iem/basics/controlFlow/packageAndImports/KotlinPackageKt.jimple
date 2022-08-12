@@ -1,0 +1,43 @@
+public final class de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt extends java.lang.Object
+{
+    private static final java.lang.String name;
+
+    public static final void printMyName()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String l0;
+
+        l0 = <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String name>;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>(l0);
+
+        return;
+    }
+
+    public static final java.lang.String getMyName()
+    {
+        java.lang.String $stack0;
+
+        $stack0 = <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String name>;
+
+        return $stack0;
+    }
+
+    public static final java.lang.String getName()
+    {
+        java.lang.String $stack0;
+
+        $stack0 = <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String name>;
+
+        return $stack0;
+    }
+
+    static void <clinit>()
+    {
+        <de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String name> = "Ranjith";
+
+        return;
+    }
+}

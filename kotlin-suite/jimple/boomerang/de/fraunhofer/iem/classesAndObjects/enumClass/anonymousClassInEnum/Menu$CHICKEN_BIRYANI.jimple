@@ -1,0 +1,54 @@
+final class de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI extends de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu
+{
+
+    void <init>(java.lang.String, int)
+    {
+        null_type varReplacer614;
+        int $enum$ordinal, varReplacer613;
+        java.lang.String $enum$name;
+        de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI;
+
+        $enum$name := @parameter0: java.lang.String;
+
+        $enum$ordinal := @parameter1: int;
+
+        varReplacer613 = 250;
+
+        varReplacer614 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>($enum$name, $enum$ordinal, varReplacer613, varReplacer614);
+
+        return;
+    }
+
+    public void print()
+    {
+        java.io.PrintStream $stack7;
+        int $stack4;
+        java.lang.String $stack6, varReplacer615;
+        de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI this;
+        java.lang.Integer $stack5;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI;
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$CHICKEN_BIRYANI: int getPrice()>();
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+        varReplacer615 = "Chicken biryani costs ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer615, $stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt: void entry()>"],
+    "methodsInformation": {"void entry()": {
+        "localVariables": {},
+        "stackVariables": {"$stack1": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee"},
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void <init>()>",
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>",
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>"
+        ]
+    }}
+}

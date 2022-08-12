@@ -1,0 +1,94 @@
+public final class de.fraunhofer.iem.functions.infixNotation.inClass.MyInt extends java.lang.Object
+{
+    private final int number;
+
+    public void <init>(int)
+    {
+        int number;
+        de.fraunhofer.iem.functions.infixNotation.inClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        number := @parameter0: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number> = number;
+
+        return;
+    }
+
+    public final int getNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.functions.infixNotation.inClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.functions.infixNotation.inClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)
+    {
+        de.fraunhofer.iem.functions.infixNotation.inClass.MyInt secondNumber, $stack2, this;
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer1803;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        varReplacer1803 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer1803);
+
+        $stack2 = new de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number>;
+
+        $stack5 = $stack4 + $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final de.fraunhofer.iem.functions.infixNotation.inClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)
+    {
+        de.fraunhofer.iem.functions.infixNotation.inClass.MyInt secondNumber, $stack2, this;
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer1804;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        varReplacer1804 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer1804);
+
+        $stack2 = new de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int number>;
+
+        $stack5 = $stack4 - $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "className": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int getNumber()>",
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>"
+    ],
+    "methodsInformation": {
+        "void <init>(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "number": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int getNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "this": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>"
+            ]
+        },
+        "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "this": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt"
+            },
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.functions.infixNotation.inClass.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>"
+            ]
+        }
+    }
+}

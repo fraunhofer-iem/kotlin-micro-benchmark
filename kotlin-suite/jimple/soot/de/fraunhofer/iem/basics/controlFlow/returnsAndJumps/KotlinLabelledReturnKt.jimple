@@ -1,0 +1,578 @@
+public final class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt extends java.lang.Object
+{
+
+    private static final void returnInLambda()
+    {
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25;
+        java.lang.Object $stack21;
+        java.lang.Number $stack22;
+        boolean $stack19;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        return;
+
+     label2:
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnInLambdaWithLabel()
+    {
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25;
+        java.lang.Object $stack21;
+        java.lang.Number $stack22;
+        boolean $stack19;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        goto label1;
+
+     label2:
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnInLambdaWithImplicitLabel()
+    {
+        java.io.PrintStream $stack20, $stack24, $stack26;
+        java.util.Iterator $stack18;
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack23, $stack25;
+        java.lang.Object $stack21;
+        java.lang.Number $stack22;
+        boolean $stack19;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        $stack21 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack22 = (java.lang.Number) $stack21;
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: int intValue()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(int)>($stack23);
+
+        $stack25 = $stack23 % 2;
+
+        if $stack25 != 0 goto label2;
+
+        goto label1;
+
+     label2:
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnInLambdaWithAnonymousFunction()
+    {
+        java.io.PrintStream $stack19, $stack23, $stack25;
+        java.util.Iterator $stack17;
+        java.lang.Integer $stack9, $stack11, $stack13, $stack15;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack8;
+        int $stack22, $stack24;
+        java.lang.Object $stack20;
+        java.lang.Number $stack21;
+        boolean $stack18;
+
+        $stack8 = new java.util.ArrayList;
+
+        specialinvoke $stack8.<java.util.ArrayList: void <init>()>();
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack9);
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack11);
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack13);
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack8.<java.util.ArrayList: boolean add(java.lang.Object)>($stack15);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack8;
+
+        $stack17 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack18 = interfaceinvoke $stack17.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack18 == 0 goto label3;
+
+        $stack20 = interfaceinvoke $stack17.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack21 = (java.lang.Number) $stack20;
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: int intValue()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(int)>($stack22);
+
+        $stack24 = $stack22 % 2;
+
+        if $stack24 != 0 goto label2;
+
+        goto label1;
+
+     label2:
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnInLambdaWithBreakBehaviour()
+    {
+        java.io.PrintStream $stack22, $stack23, $stack27, $stack28;
+        java.util.Iterator $stack20;
+        java.lang.Integer $stack12, $stack14, $stack16, $stack18;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack11;
+        int $stack26;
+        java.lang.Object $stack24;
+        java.lang.Number $stack25;
+        boolean $stack21;
+
+        $stack11 = new java.util.ArrayList;
+
+        specialinvoke $stack11.<java.util.ArrayList: void <init>()>();
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack18);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack11;
+
+        $stack20 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack21 = interfaceinvoke $stack20.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack21 == 0 goto label3;
+
+        $stack24 = interfaceinvoke $stack20.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack25 = (java.lang.Number) $stack24;
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Number: int intValue()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(int)>($stack26);
+
+        if $stack26 != 5 goto label2;
+
+        goto label4;
+
+     label2:
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label3:
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>("End of run loop@");
+
+     label4:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnInLambdaWithMultipleReturn()
+    {
+        java.io.PrintStream $stack22, $stack23, $stack27, $stack28;
+        java.util.Iterator $stack20;
+        java.lang.Integer $stack12, $stack14, $stack16, $stack18;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack11;
+        int $stack26;
+        java.lang.Object $stack24;
+        java.lang.Number $stack25;
+        boolean $stack21;
+
+        $stack11 = new java.util.ArrayList;
+
+        specialinvoke $stack11.<java.util.ArrayList: void <init>()>();
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>($stack18);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack11;
+
+        $stack20 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack21 = interfaceinvoke $stack20.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack21 == 0 goto label5;
+
+        $stack24 = interfaceinvoke $stack20.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack25 = (java.lang.Number) $stack24;
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Number: int intValue()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(int)>($stack26);
+
+        if $stack26 != 5 goto label2;
+
+        goto label6;
+
+     label2:
+        if $stack26 != 1 goto label3;
+
+        goto label1;
+
+     label3:
+        if $stack26 != 2 goto label4;
+
+        return;
+
+     label4:
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label5:
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>("End of run loop@");
+
+     label6:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>("End of function");
+
+        return;
+    }
+
+    private static final void returnWithValueInLambda()
+    {
+        java.lang.Integer $stack13, $stack15, $stack17, $stack19, $stack25;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $u0;
+        byte $stack34;
+        int $stack30, $i0;
+        java.lang.String $stack26;
+        java.lang.Number $stack29;
+        boolean $stack22;
+        java.io.PrintStream $stack23, $stack27, $stack31, $stack32;
+        java.util.Iterator $stack21;
+        java.lang.Object $stack28;
+
+        $u0 = new java.util.ArrayList;
+
+        specialinvoke $u0.<java.util.ArrayList: void <init>()>();
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack13);
+
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack15);
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack17);
+
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        virtualinvoke $u0.<java.util.ArrayList: boolean add(java.lang.Object)>($stack19);
+
+        $this$forEach$iv = (java.lang.Iterable) $u0;
+
+        $stack21 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack22 = interfaceinvoke $stack21.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack22 == 0 goto label5;
+
+        $stack28 = interfaceinvoke $stack21.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack29 = (java.lang.Number) $stack28;
+
+        $stack30 = virtualinvoke $stack29.<java.lang.Number: int intValue()>();
+
+        $stack31 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack31.<java.io.PrintStream: void println(int)>($stack30);
+
+        if $stack30 != 5 goto label2;
+
+        $stack34 = -1;
+
+        goto label6;
+
+     label2:
+        if $stack30 != 1 goto label3;
+
+        goto label1;
+
+     label3:
+        if $stack30 != 2 goto label4;
+
+        return;
+
+     label4:
+        $stack32 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack32.<java.io.PrintStream: void println(java.lang.Object)>("Welcome to Lambda");
+
+        goto label1;
+
+     label5:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>("End of run loop@");
+
+        $stack34 = -12;
+
+     label6:
+        $i0 = (int) $stack34;
+
+        $stack25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0);
+
+        $stack26 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("End of function res = ", $stack25);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambda()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithLabel()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithImplicitLabel()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithBreakBehaviour()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithAnonymousFunction()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnInLambdaWithMultipleReturn()>();
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void returnWithValueInLambda()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinLabelledReturnKt: void main()>();
+
+        return;
+    }
+}

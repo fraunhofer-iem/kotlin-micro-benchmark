@@ -1,0 +1,66 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String getName()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String getAddress()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: int getAge()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String getMobileNumber()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component3()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String,int,java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "address": "java.lang.String",
+                "mobileNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "age": "int",
+                "varReplacer2177": "java.lang.String",
+                "varReplacer2178": "java.lang.String",
+                "varReplacer2179": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getAddress()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getMobileNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String component3()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        }
+    }
+}

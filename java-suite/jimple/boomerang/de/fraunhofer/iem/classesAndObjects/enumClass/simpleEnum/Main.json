@@ -1,0 +1,94 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Main: void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)>"
+            ]
+        },
+        "void print(de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu)": {
+            "localVariables": {
+                "menu": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "varReplacer397": "java.lang.String",
+                "varReplacer398": "java.lang.String",
+                "varReplacer399": "java.lang.String",
+                "varReplacer400": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "int[]",
+                "$stack2": "int",
+                "$stack3": "int",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.StringBuilder",
+                "$stack13": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.lang.StringBuilder",
+                "$stack19": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack20": "java.lang.StringBuilder",
+                "$stack21": "java.lang.String",
+                "$stack22": "java.lang.StringBuilder",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "java.lang.StringBuilder",
+                "$stack25": "de.fraunhofer.iem.classesAndObjects.enumClass.simpleEnum.Menu",
+                "$stack26": "java.lang.StringBuilder",
+                "$stack27": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.Enum: int ordinal()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

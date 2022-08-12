@@ -1,0 +1,55 @@
+{
+    "className": "de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void printMyName(java.lang.String)>",
+        "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: kotlin.Unit printMyNameWithNullableUnit(java.lang.String)>",
+        "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void printMyName(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "kotlin.Unit printMyNameWithNullableUnit(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack2": "boolean",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "kotlin.Unit"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "kotlin.Unit",
+                "$stack4": "java.io.PrintStream",
+                "l0": "kotlin.Unit"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void printMyName(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: kotlin.Unit printMyNameWithNullableUnit(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.unitReturningFunctions.topLevel.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void simpleFor(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void forEachLoop(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void simpleFor(java.lang.String[])>",
+                "<de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void forEachLoop(java.lang.String[])>"
+            ]
+        },
+        "void simpleFor(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "i": "int"
+            },
+            "stackVariables": {
+                "$stack2": "int",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void forEachLoop(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "elem": "java.lang.String"
+            },
+            "stackVariables": {
+                "l2": "int",
+                "$stack5": "java.io.PrintStream",
+                "l3": "int"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

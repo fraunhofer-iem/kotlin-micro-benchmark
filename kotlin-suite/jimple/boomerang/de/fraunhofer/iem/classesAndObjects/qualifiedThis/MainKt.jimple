@@ -1,0 +1,64 @@
+public final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B $stack5;
+        java.io.PrintStream $stack6, $stack7, $stack8, $stack9;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.A $stack4;
+        java.lang.String varReplacer1057, varReplacer1058, varReplacer1059, varReplacer1060;
+
+        nop;
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.A;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A: void <init>()>();
+
+        $stack5 = new de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B;
+
+        specialinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A)>($stack4);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1060 = "<<< Calling callAFunc>>>";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1060);
+
+        virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A: void callAFunc()>();
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1057 = "<<< Ending callAFunc>>>";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1057);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1058 = "<<< Calling callBFunc>>>";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1058);
+
+        virtualinvoke $stack5.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void callBFunc()>();
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1059 = "<<< Ending callAFunc>>>";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1059);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.MainKt: void main()>();
+
+        return;
+    }
+}

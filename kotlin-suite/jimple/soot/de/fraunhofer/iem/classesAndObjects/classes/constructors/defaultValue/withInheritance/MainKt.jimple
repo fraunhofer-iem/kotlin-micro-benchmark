@@ -1,0 +1,38 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle $stack2, $stack3, $stack4;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Car: void <init>()>();
+
+        $stack2 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack2, null, 0, 3, null);
+
+        $stack3 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack3, "Car", 0, 2, null);
+
+        $stack4 = (de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle) $stack1;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle: void printMyVehicleInformation$default(de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.Vehicle,java.lang.String,int,int,java.lang.Object)>($stack4, null, 12354, 1, null);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.constructors.defaultValue.withInheritance.MainKt: void main()>();
+
+        return;
+    }
+}

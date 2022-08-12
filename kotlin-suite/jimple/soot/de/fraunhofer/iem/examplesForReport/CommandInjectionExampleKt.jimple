@@ -1,0 +1,152 @@
+public final class de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt extends java.lang.Object
+{
+
+    public static final void runTheJobInShell()
+    {
+        java.lang.String[] $stack18;
+        int $stack12, $i0;
+        java.lang.String $stack9, $stack10, $stack15, $stack35, $stack36, executable, argument1;
+        java.lang.ProcessBuilder $u0;
+        java.io.PrintStream $stack8, $stack37;
+        java.lang.CharSequence $stack11;
+        java.lang.Process $stack16;
+        java.io.IOException $stack33;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void print(java.lang.Object)>("Enter the admin password: ");
+
+        $stack9 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        $stack10 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>("os.name");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack10, "currentOS");
+
+        $stack11 = (java.lang.CharSequence) $stack10;
+
+        $stack12 = staticinvoke <kotlin.text.StringsKt: int indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object)>($stack11, "Windows", 0, 0, 6, null);
+
+        $i0 = (int) -1;
+
+        if $stack12 == $i0 goto label1;
+
+        executable = "cmd.exe";
+
+        argument1 = "/c";
+
+        goto label2;
+
+     label1:
+        executable = "sh";
+
+        argument1 = "-c";
+
+     label2:
+        $u0 = new java.lang.ProcessBuilder;
+
+        $stack18 = newarray (java.lang.String)[3];
+
+        $stack18[0] = executable;
+
+        $stack18[1] = argument1;
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("run_job.sh ", $stack9);
+
+        $stack18[2] = $stack15;
+
+        specialinvoke $u0.<java.lang.ProcessBuilder: void <init>(java.lang.String[])>($stack18);
+
+     label3:
+        $stack16 = virtualinvoke $u0.<java.lang.ProcessBuilder: java.lang.Process start()>();
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack16, "process");
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void printProcessedUserName(java.lang.Process)>($stack16);
+
+     label4:
+        goto label6;
+
+     label5:
+        $stack33 := @caughtexception;
+
+        $stack35 = virtualinvoke $stack33.<java.io.IOException: java.lang.String getMessage()>();
+
+        $stack36 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Error while executing the command ", $stack35);
+
+        $stack37 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack37.<java.io.PrintStream: void println(java.lang.Object)>($stack36);
+
+     label6:
+        return;
+
+        catch java.io.IOException from label3 to label4 with label5;
+    }
+
+    private static final void printProcessedUserName(java.lang.Process)
+    {
+        java.io.PrintStream $stack13, $stack22;
+        java.lang.Process proc;
+        java.io.IOException $stack21;
+        java.io.Reader $stack11;
+        java.io.InputStreamReader $stack9;
+        java.io.BufferedReader $stack8;
+        java.lang.String $stack12;
+        java.io.InputStream $stack10;
+
+        proc := @parameter0: java.lang.Process;
+
+        $stack8 = new java.io.BufferedReader;
+
+        $stack9 = new java.io.InputStreamReader;
+
+        $stack10 = virtualinvoke proc.<java.lang.Process: java.io.InputStream getInputStream()>();
+
+        specialinvoke $stack9.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($stack10);
+
+        $stack11 = (java.io.Reader) $stack9;
+
+        specialinvoke $stack8.<java.io.BufferedReader: void <init>(java.io.Reader)>($stack11);
+
+     label1:
+        $stack12 = virtualinvoke $stack8.<java.io.BufferedReader: java.lang.String readLine()>();
+
+        if $stack12 == null goto label3;
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        goto label1;
+
+     label2:
+        $stack21 := @caughtexception;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>("An error occurred while printOSCommandResults");
+
+     label3:
+        return;
+
+        catch java.io.IOException from label1 to label2 with label2;
+    }
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void runTheJobInShell()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void main()>();
+
+        return;
+    }
+}

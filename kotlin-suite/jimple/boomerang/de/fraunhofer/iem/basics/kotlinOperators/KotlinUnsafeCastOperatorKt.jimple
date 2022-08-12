@@ -1,0 +1,118 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack0, $stack1;
+        null_type varReplacer461, varReplacer462;
+        int varReplacer460, varReplacer463;
+        java.lang.String varReplacer464, varReplacer465;
+
+        nop;
+
+        varReplacer464 = "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>(varReplacer464);
+
+        varReplacer465 = "Ranjith";
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>(varReplacer465);
+
+        varReplacer461 = null;
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>(varReplacer461);
+
+        varReplacer462 = null;
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>(varReplacer462);
+
+        varReplacer460 = 123;
+
+        $stack0 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer460);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy1(java.lang.Object)>($stack0);
+
+        varReplacer463 = 123;
+
+        $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer463);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void dummy2(java.lang.Object)>($stack1);
+
+        return;
+    }
+
+    private static final void dummy1(java.lang.Object)
+    {
+        java.io.PrintStream $stack5;
+        java.lang.Object ob;
+        java.lang.String temp, $stack4, varReplacer466, varReplacer467;
+        java.lang.NullPointerException $stack6;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        if ob != null goto label1;
+
+        nop;
+
+        $stack6 = new java.lang.NullPointerException;
+
+        varReplacer466 = "null cannot be cast to non-null type kotlin.String";
+
+        specialinvoke $stack6.<java.lang.NullPointerException: void <init>(java.lang.String)>(varReplacer466);
+
+        throw $stack6;
+
+     label1:
+        nop;
+
+        temp = (java.lang.String) ob;
+
+        varReplacer467 = "String = ";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer467, temp);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    private static final void dummy2(java.lang.Object)
+    {
+        java.io.PrintStream $stack5;
+        java.lang.Object ob;
+        java.lang.String temp, $stack4, varReplacer468;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        temp = (java.lang.String) ob;
+
+        varReplacer468 = "String = ";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer468, temp);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinUnsafeCastOperatorKt: void main()>();
+
+        return;
+    }
+}

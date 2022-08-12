@@ -1,0 +1,71 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 extends kotlin.jvm.internal.FunctionReferenceImpl implements kotlin.jvm.functions.Function0
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 INSTANCE;
+
+    void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 this;
+        int varReplacer2335, varReplacer2338;
+        java.lang.String varReplacer2336, varReplacer2337;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1;
+
+        varReplacer2335 = 0;
+
+        varReplacer2336 = "dummy";
+
+        varReplacer2337 = "main$dummy()V";
+
+        varReplacer2338 = 0;
+
+        specialinvoke this.<kotlin.jvm.internal.FunctionReferenceImpl: void <init>(int,java.lang.Class,java.lang.String,java.lang.String,int)>(varReplacer2335, class "Lkotlin/jvm/internal/Intrinsics$Kotlin;", varReplacer2336, varReplacer2337, varReplacer2335);
+
+        return;
+    }
+
+    public final void invoke()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void access$main$dummy()>();
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 this;
+        kotlin.Unit $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1: void invoke()>();
+
+        $stack1 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 INSTANCE> = $stack0;
+
+        return;
+    }
+}

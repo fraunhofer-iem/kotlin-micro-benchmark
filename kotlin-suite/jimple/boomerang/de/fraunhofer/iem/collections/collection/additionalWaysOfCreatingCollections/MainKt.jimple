@@ -1,0 +1,354 @@
+public final class de.fraunhofer.iem.collections.collection.additionalWaysOfCreatingCollections.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.String[] l0;
+        java.lang.Integer $stack27, $stack32;
+        java.util.ArrayList $stack22, $stack24;
+        java.util.Map $stack16;
+        int $stack26, $stack31, l5, l4, varReplacer1103, varReplacer1104;
+        java.io.PrintStream $stack14, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25;
+        kotlin.sequences.Sequence $stack20;
+        java.util.Set $stack18;
+        java.util.List $stack13, l0#24;
+
+        nop;
+
+        $stack13 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List emptyList()>();
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        l0 = newarray (java.lang.String)[0];
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>(l0);
+
+        $stack16 = staticinvoke <kotlin.collections.MapsKt: java.util.Map emptyMap()>();
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack16);
+
+        $stack18 = staticinvoke <kotlin.collections.SetsKt: java.util.Set emptySet()>();
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+        $stack20 = staticinvoke <kotlin.sequences.SequencesKt: kotlin.sequences.Sequence emptySequence()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = new java.util.ArrayList;
+
+        varReplacer1103 = 5;
+
+        specialinvoke $stack22.<java.util.ArrayList: void <init>(int)>(varReplacer1103);
+
+        l5 = 0;
+
+     label1:
+        if l5 >= 5 goto label2;
+
+        nop;
+
+        $stack31 = l5 * 10;
+
+        $stack32 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack31);
+
+        virtualinvoke $stack22.<java.util.ArrayList: boolean add(java.lang.Object)>($stack32);
+
+        l5 = l5 + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        l0#24 = (java.util.List) $stack22;
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>(l0#24);
+
+        $stack24 = new java.util.ArrayList;
+
+        varReplacer1104 = 5;
+
+        specialinvoke $stack24.<java.util.ArrayList: void <init>(int)>(varReplacer1104);
+
+        l4 = 0;
+
+     label3:
+        if l4 >= 5 goto label4;
+
+        nop;
+
+        $stack26 = l4 * 10;
+
+        $stack27 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack26);
+
+        virtualinvoke $stack24.<java.util.ArrayList: boolean add(java.lang.Object)>($stack27);
+
+        l4 = l4 + 1;
+
+        goto label3;
+
+     label4:
+        nop;
+
+        l0#24 = (java.util.List) $stack24;
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>(l0#24);
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.additionalWaysOfCreatingCollections.MainKt: void copyFeature()>();
+
+        return;
+    }
+
+    public static final void copyFeature()
+    {
+        java.lang.Integer $stack6, $stack8, $stack10, $stack12, $stack14, $stack38, $stack40, $stack42, $stack44, $stack46, $stack52, $stack54, $stack56, $stack58, $stack60;
+        java.util.Set $stack26, $stack29;
+        java.lang.Integer[] $stack34, $this$toTypedArray$iv, $i$f$toTypedArray;
+        java.lang.Object[] $stack35;
+        java.lang.String $stack48, $stack50, $stack62, $stack64, varReplacer1108, varReplacer1109, varReplacer1112, varReplacer1120, varReplacer1121;
+        java.util.SortedSet $stack20;
+        java.lang.NullPointerException $stack66;
+        int[] $stack32;
+        java.util.Collection $stack22, $stack31, $this$toTypedArray$iv#14;
+        java.util.List $stack15, $stack23, $stack47;
+        java.lang.Iterable $stack16, $stack19, $stack25, $stack28;
+        java.util.HashSet $stack17;
+        int varReplacer1105, varReplacer1106, varReplacer1107, varReplacer1110, varReplacer1111, varReplacer1113, varReplacer1114, varReplacer1115, varReplacer1116, varReplacer1117, varReplacer1118, varReplacer1119, varReplacer1122, varReplacer1123, varReplacer1124;
+        java.io.PrintStream $stack18, $stack21, $stack24, $stack27, $stack30, $stack33, $stack36, $stack49, $stack51, $stack63, $stack65;
+
+        nop;
+
+        $this$toTypedArray$iv = newarray (java.lang.Integer)[5];
+
+        varReplacer1115 = 1;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1115);
+
+        $this$toTypedArray$iv[0] = $stack6;
+
+        varReplacer1122 = 2;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1122);
+
+        $this$toTypedArray$iv[1] = $stack8;
+
+        varReplacer1110 = 3;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1110);
+
+        $this$toTypedArray$iv[2] = $stack10;
+
+        varReplacer1118 = 4;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1118);
+
+        $this$toTypedArray$iv[3] = $stack12;
+
+        varReplacer1123 = 5;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1123);
+
+        $this$toTypedArray$iv[4] = $stack14;
+
+        $stack15 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>($this$toTypedArray$iv);
+
+        $stack16 = (java.lang.Iterable) $stack15;
+
+        $stack17 = staticinvoke <kotlin.collections.CollectionsKt: java.util.HashSet toHashSet(java.lang.Iterable)>($stack16);
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = (java.lang.Iterable) $stack15;
+
+        $stack20 = staticinvoke <kotlin.collections.CollectionsKt: java.util.SortedSet toSortedSet(java.lang.Iterable)>($stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = (java.util.Collection) $stack15;
+
+        $stack23 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List toMutableList(java.util.Collection)>($stack22);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = (java.lang.Iterable) $stack15;
+
+        $stack26 = staticinvoke <kotlin.collections.CollectionsKt: java.util.Set toMutableSet(java.lang.Iterable)>($stack25);
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        $stack28 = (java.lang.Iterable) $stack15;
+
+        $stack29 = staticinvoke <kotlin.collections.CollectionsKt: java.util.Set toSet(java.lang.Iterable)>($stack28);
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        $stack31 = (java.util.Collection) $stack15;
+
+        $stack32 = staticinvoke <kotlin.collections.CollectionsKt: int[] toIntArray(java.util.Collection)>($stack31);
+
+        $stack33 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack33.<java.io.PrintStream: void println(java.lang.Object)>($stack32);
+
+        $this$toTypedArray$iv#14 = (java.util.Collection) $stack15;
+
+        $stack34 = newarray (java.lang.Integer)[0];
+
+        $stack35 = interfaceinvoke $this$toTypedArray$iv#14.<java.util.Collection: java.lang.Object[] toArray(java.lang.Object[])>($stack34);
+
+        if $stack35 != null goto label1;
+
+        nop;
+
+        $stack66 = new java.lang.NullPointerException;
+
+        varReplacer1109 = "null cannot be cast to non-null type kotlin.Array<T>";
+
+        specialinvoke $stack66.<java.lang.NullPointerException: void <init>(java.lang.String)>(varReplacer1109);
+
+        throw $stack66;
+
+     label1:
+        nop;
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        $i$f$toTypedArray = newarray (java.lang.Integer)[5];
+
+        varReplacer1111 = 1;
+
+        $stack38 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1111);
+
+        $i$f$toTypedArray[0] = $stack38;
+
+        varReplacer1116 = 2;
+
+        $stack40 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1116);
+
+        $i$f$toTypedArray[1] = $stack40;
+
+        varReplacer1106 = 3;
+
+        $stack42 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1106);
+
+        $i$f$toTypedArray[2] = $stack42;
+
+        varReplacer1105 = 4;
+
+        $stack44 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1105);
+
+        $i$f$toTypedArray[3] = $stack44;
+
+        varReplacer1117 = 5;
+
+        $stack46 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1117);
+
+        $i$f$toTypedArray[4] = $stack46;
+
+        $stack47 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>($i$f$toTypedArray);
+
+        varReplacer1120 = "Before = ";
+
+        $stack48 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1120, $stack47);
+
+        $stack49 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack49.<java.io.PrintStream: void println(java.lang.Object)>($stack48);
+
+        varReplacer1112 = "Before = ";
+
+        $stack50 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1112, $stack47);
+
+        $stack51 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack51.<java.io.PrintStream: void println(java.lang.Object)>($stack50);
+
+        varReplacer1107 = 6;
+
+        $stack52 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1107);
+
+        interfaceinvoke $stack47.<java.util.List: boolean add(java.lang.Object)>($stack52);
+
+        varReplacer1113 = 7;
+
+        $stack54 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1113);
+
+        interfaceinvoke $stack47.<java.util.List: boolean add(java.lang.Object)>($stack54);
+
+        varReplacer1119 = 8;
+
+        $stack56 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1119);
+
+        interfaceinvoke $stack47.<java.util.List: boolean add(java.lang.Object)>($stack56);
+
+        varReplacer1114 = 9;
+
+        $stack58 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1114);
+
+        interfaceinvoke $stack47.<java.util.List: boolean add(java.lang.Object)>($stack58);
+
+        varReplacer1124 = 10;
+
+        $stack60 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1124);
+
+        interfaceinvoke $stack47.<java.util.List: boolean add(java.lang.Object)>($stack60);
+
+        varReplacer1121 = "After = ";
+
+        $stack62 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1121, $stack47);
+
+        $stack63 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack63.<java.io.PrintStream: void println(java.lang.Object)>($stack62);
+
+        varReplacer1108 = "After = ";
+
+        $stack64 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1108, $stack47);
+
+        $stack65 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack65.<java.io.PrintStream: void println(java.lang.Object)>($stack64);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.additionalWaysOfCreatingCollections.MainKt: void main()>();
+
+        return;
+    }
+}

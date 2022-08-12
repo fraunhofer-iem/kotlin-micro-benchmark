@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: java.lang.String main$lambda-0(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: java.lang.String main$lambda-1(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "kotlin.jvm.functions.Function1",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "kotlin.jvm.functions.Function1",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt$main_lambda-0__1: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt$main_lambda-1__2: kotlin.jvm.functions.Function1 bootstrap$()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String printName(kotlin.jvm.functions.Function1)": {
+            "localVariables": {"printer": "kotlin.jvm.functions.Function1"},
+            "stackVariables": {
+                "$stack1": "java.lang.Object",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.anonymousFunction.MainKt: void main()>"]
+        },
+        "java.lang.String main$lambda-0(java.lang.String)": {
+            "localVariables": {"it": "java.lang.String"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "java.lang.String main$lambda-1(java.lang.String)": {
+            "localVariables": {"it": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

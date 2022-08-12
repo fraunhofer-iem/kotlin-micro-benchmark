@@ -1,0 +1,103 @@
+public final class de.fraunhofer.iem.examplesForReport.extensions.property.Employee extends java.lang.Object
+{
+    private final java.lang.String firstName;
+    private java.lang.String lastName;
+    private final int age;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee this;
+        int age;
+        java.lang.String firstName, lastName, varReplacer1333, varReplacer1334;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1333 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1333);
+
+        varReplacer1334 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1334);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String firstName> = firstName;
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String lastName> = lastName;
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: int age> = age;
+
+        return;
+    }
+
+    public final java.lang.String getFirstName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String firstName>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final void setLastName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1335;
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1335 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1335);
+
+        this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: java.lang.String lastName> = <set-?>;
+
+        return;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.examplesForReport.extensions.property.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.extensions.property.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.examplesForReport.extensions.property.Employee: int age>;
+
+        return $stack1;
+    }
+}

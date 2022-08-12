@@ -1,0 +1,81 @@
+public final class de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack7, $stack14;
+        de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt$main$func$1 $stack15;
+        kotlin.Pair $stack11;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car $stack4, $stack8, $stack16;
+        kotlin.Pair[] func;
+        kotlin.jvm.functions.Function1 func#6;
+        java.util.List $stack6;
+        de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car[] ob1;
+        java.util.Map $stack12;
+        java.lang.Object $stack13;
+        java.lang.String varReplacer913, varReplacer914;
+
+        nop;
+
+        ob1 = newarray (de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car)[1];
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>();
+
+        ob1[0] = $stack4;
+
+        $stack6 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(ob1);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        func = newarray (kotlin.Pair)[1];
+
+        $stack8 = new de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>();
+
+        varReplacer913 = "First";
+
+        $stack11 = staticinvoke <kotlin.TuplesKt: kotlin.Pair 'to'(java.lang.Object,java.lang.Object)>(varReplacer913, $stack8);
+
+        func[0] = $stack11;
+
+        $stack12 = staticinvoke <kotlin.collections.MapsKt: java.util.Map mutableMapOf(kotlin.Pair[])>(func);
+
+        varReplacer914 = "First";
+
+        $stack13 = interfaceinvoke $stack12.<java.util.Map: java.lang.Object get(java.lang.Object)>(varReplacer914);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack13);
+
+        $stack15 = <de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt$main$func$1: de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt$main$func$1 INSTANCE>;
+
+        func#6 = (kotlin.jvm.functions.Function1) $stack15;
+
+        $stack16 = new de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car;
+
+        specialinvoke $stack16.<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Car: void <init>()>();
+
+        interfaceinvoke func#6.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack16);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.typeAliases.MainKt: void main()>();
+
+        return;
+    }
+}

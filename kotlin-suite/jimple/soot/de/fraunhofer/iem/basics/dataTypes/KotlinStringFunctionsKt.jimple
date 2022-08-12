@@ -1,0 +1,90 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.util.Locale $stack14;
+        int $stack4, $stack10, $stack12;
+        java.lang.String greet, $stack15, $stack19, l1, greet_1, greet_2, greet_3, greet_4;
+        java.io.PrintStream $stack5, $stack7, $stack9, $stack11, $stack13, $stack16, $stack20;
+        java.lang.CharSequence $stack8, $stack17, $stack18;
+        char $stack6;
+
+        greet = "Hi Welcome!!!";
+
+        greet_4 = "Hi Welcome!!!";
+
+        greet_3 = "Hi Welcome!!!";
+
+        greet_2 = "Hi Welcome!!!";
+
+        greet_1 = "Hi Welcome!!!";
+
+        $stack4 = virtualinvoke greet_3.<java.lang.String: int length()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = virtualinvoke greet_1.<java.lang.String: char charAt(int)>(0);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(char)>($stack6);
+
+        $stack8 = virtualinvoke greet_4.<java.lang.String: java.lang.CharSequence subSequence(int,int)>(2, 4);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack10 = virtualinvoke greet_2.<java.lang.String: int compareTo(java.lang.String)>("How are you");
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        l1 = "Hi Welcome!!!";
+
+        $stack12 = virtualinvoke l1.<java.lang.String: int codePointAt(int)>(0);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        l1 = "Hi Welcome!!!";
+
+        $stack14 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack15 = virtualinvoke l1.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack14);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack15, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)");
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = (java.lang.CharSequence) "Hi Welcome!!!";
+
+        $stack18 = staticinvoke <kotlin.text.StringsKt: java.lang.CharSequence trim(java.lang.CharSequence)>($stack17);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.Object: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt: void main()>();
+
+        return;
+    }
+}

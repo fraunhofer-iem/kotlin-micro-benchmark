@@ -1,0 +1,246 @@
+public final class de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair extends java.lang.Object
+{
+    private final java.lang.Number first;
+    private final java.lang.CharSequence second;
+
+    public void <init>(java.lang.Number, java.lang.CharSequence)
+    {
+        java.lang.Number first;
+        java.lang.CharSequence second;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        first := @parameter0: java.lang.Number;
+
+        second := @parameter1: java.lang.CharSequence;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(first, "first");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(second, "second");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first> = first;
+
+        this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second> = second;
+
+        return;
+    }
+
+    public final java.lang.Number getFirst()
+    {
+        java.lang.Number $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        return $stack1;
+    }
+
+    public final java.lang.CharSequence getSecond()
+    {
+        java.lang.CharSequence $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        return $stack1;
+    }
+
+    public final java.lang.Number component1()
+    {
+        java.lang.Number $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        return $stack1;
+    }
+
+    public final java.lang.CharSequence component2()
+    {
+        java.lang.CharSequence $stack1;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair copy(java.lang.Number, java.lang.CharSequence)
+    {
+        java.lang.CharSequence second;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair $stack3, this;
+        java.lang.Number first;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        first := @parameter0: java.lang.Number;
+
+        second := @parameter1: java.lang.CharSequence;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(first, "first");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(second, "second");
+
+        $stack3 = new de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: void <init>(java.lang.Number,java.lang.CharSequence)>(first, second);
+
+        return $stack3;
+    }
+
+    public static de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair copy$default(de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair, java.lang.Number, java.lang.CharSequence, int, java.lang.Object)
+    {
+        java.lang.CharSequence l2;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair l0, $stack7;
+        int l3, $stack5, $stack6;
+        java.lang.Object l4;
+        java.lang.Number l1;
+
+        l0 := @parameter0: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        l1 := @parameter1: java.lang.Number;
+
+        l2 := @parameter2: java.lang.CharSequence;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label1;
+
+        l1 = l0.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+     label1:
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label2;
+
+        l2 = l0.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+     label2:
+        $stack7 = virtualinvoke l0.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair copy(java.lang.Number,java.lang.CharSequence)>(l1, l2);
+
+        return $stack7;
+    }
+
+    public java.lang.String toString()
+    {
+        java.lang.CharSequence $stack6;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack7, $stack8;
+        java.lang.String $stack9;
+        java.lang.Number $stack3;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("CustomPair(first=");
+
+        $stack3 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack3);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(", second=");
+
+        $stack6 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(41);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack9;
+    }
+
+    public int hashCode()
+    {
+        java.lang.CharSequence $stack4;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this;
+        int $stack3, $stack5, $stack6, result;
+        java.lang.Number $stack2;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        $stack2 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.Number: int hashCode()>();
+
+        $stack5 = $stack3 * 31;
+
+        $stack4 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        $stack6 = virtualinvoke $stack4.<java.lang.Object: int hashCode()>();
+
+        result = $stack5 + $stack6;
+
+        return result;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        java.lang.CharSequence $stack7, $stack8;
+        de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair this, l2;
+        java.lang.Object other;
+        java.lang.Number $stack4, $stack5;
+        boolean $stack3, $stack6, $stack9;
+
+        this := @this: de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        return 1;
+
+     label1:
+        $stack3 = other instanceof de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair;
+
+        if $stack3 != 0 goto label2;
+
+        return 0;
+
+     label2:
+        l2 = (de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair) other;
+
+        $stack5 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        $stack4 = l2.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.Number first>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        return 0;
+
+     label3:
+        $stack8 = this.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        $stack7 = l2.<de.fraunhofer.iem.generics.upperBounds.inGenericClass.CustomPair: java.lang.CharSequence second>;
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack8, $stack7);
+
+        if $stack9 != 0 goto label4;
+
+        return 0;
+
+     label4:
+        return 1;
+    }
+}

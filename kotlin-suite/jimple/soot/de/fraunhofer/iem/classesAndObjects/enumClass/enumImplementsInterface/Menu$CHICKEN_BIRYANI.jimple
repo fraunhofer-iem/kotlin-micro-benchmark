@@ -1,0 +1,43 @@
+final class de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI extends de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu
+{
+
+    void <init>(java.lang.String, int)
+    {
+        int $enum$ordinal;
+        java.lang.String $enum$name;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI;
+
+        $enum$name := @parameter0: java.lang.String;
+
+        $enum$ordinal := @parameter1: int;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>($enum$name, $enum$ordinal, 250, null);
+
+        return;
+    }
+
+    public void print()
+    {
+        java.io.PrintStream $stack7;
+        de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI this;
+        int $stack4;
+        java.lang.String $stack6;
+        java.lang.Integer $stack5;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI;
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu$CHICKEN_BIRYANI: int getPrice()>();
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Chicken biryani costs ", $stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+}

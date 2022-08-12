@@ -1,0 +1,141 @@
+public class de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void greet()
+    {
+        java.util.Scanner $stack4;
+        byte l3;
+        int $stack7;
+        java.lang.String $stack6, varReplacer556, varReplacer557, varReplacer558, varReplacer559, varReplacer560, varReplacer561, varReplacer562;
+        boolean $stack8, $stack14, $stack15;
+        java.io.PrintStream $stack9, $stack10, $stack11, $stack12;
+        de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement this;
+        java.io.InputStream $stack5;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.SimpleSwitchStatement;
+
+        $stack4 = new java.util.Scanner;
+
+        $stack5 = <java.lang.System: java.io.InputStream in>;
+
+        specialinvoke $stack4.<java.util.Scanner: void <init>(java.io.InputStream)>($stack5);
+
+        $stack6 = virtualinvoke $stack4.<java.util.Scanner: java.lang.String nextLine()>();
+
+        l3 = -1;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack7)
+        {
+            case -1125574399: goto label2;
+            case 98723: goto label3;
+            case 3254818: goto label1;
+            default: goto label4;
+        };
+
+     label1:
+        varReplacer558 = "java";
+
+        $stack8 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer558);
+
+        if $stack8 == 0 goto label4;
+
+        nop;
+
+        l3 = 0;
+
+        goto label4;
+
+     label2:
+        varReplacer560 = "kotlin";
+
+        $stack15 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer560);
+
+        if $stack15 == 0 goto label4;
+
+        nop;
+
+        l3 = 1;
+
+        goto label4;
+
+     label3:
+        varReplacer561 = "cpp";
+
+        $stack14 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer561);
+
+        if $stack14 == 0 goto label4;
+
+        nop;
+
+        l3 = 2;
+
+     label4:
+        nop;
+
+        nop;
+
+        nop;
+
+        tableswitch(l3)
+        {
+            case 0: goto label5;
+            case 1: goto label6;
+            case 2: goto label7;
+            default: goto label8;
+        };
+
+     label5:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer559 = "Welcome to Java.";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.String)>(varReplacer559);
+
+        goto label9;
+
+     label6:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer557 = "Welcome to Kotlin.";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.String)>(varReplacer557);
+
+        goto label9;
+
+     label7:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer556 = "Welcome to C++.";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.String)>(varReplacer556);
+
+        goto label9;
+
+     label8:
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer562 = "Invalid User Input.";
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>(varReplacer562);
+
+     label9:
+        return;
+    }
+}

@@ -1,0 +1,26 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls extends java.lang.Object
+{
+
+    public static void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A this;
+        java.lang.String varReplacer791, varReplacer792;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A;
+
+        varReplacer792 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer792);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer791 = "A --> foo";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer791);
+
+        return;
+    }
+}

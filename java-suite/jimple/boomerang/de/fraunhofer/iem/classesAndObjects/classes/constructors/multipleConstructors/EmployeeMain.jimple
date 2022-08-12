@@ -1,0 +1,63 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8;
+        java.lang.String[] args;
+        int $stack7, varReplacer293, varReplacer296;
+        java.lang.String $stack3, $stack5, varReplacer294, varReplacer295;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee $stack2;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee;
+
+        varReplacer294 = "Ranjith";
+
+        varReplacer295 = "K";
+
+        varReplacer296 = 100;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer294, varReplacer295, varReplacer296);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String firstName>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack5 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String lastName>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>($stack5);
+
+        varReplacer293 = 200;
+
+        $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: int age> = varReplacer293;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: int age>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        return;
+    }
+}

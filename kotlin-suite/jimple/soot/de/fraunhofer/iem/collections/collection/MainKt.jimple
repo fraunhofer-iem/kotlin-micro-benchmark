@@ -1,0 +1,404 @@
+public final class de.fraunhofer.iem.collections.collection.MainKt extends java.lang.Object
+{
+    private static java.util.List myName;
+
+    public static final java.util.List getMyName()
+    {
+        java.util.List $stack0;
+
+        $stack0 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        return $stack0;
+    }
+
+    public static final void setMyName(java.util.List)
+    {
+        java.util.List <set-?>;
+
+        <set-?> := @parameter0: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, "<set-?>");
+
+        <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName> = <set-?>;
+
+        return;
+    }
+
+    public static final void printMyCollection(java.util.Collection)
+    {
+        java.io.PrintStream $stack7;
+        java.util.Iterator $stack4;
+        java.util.Collection collection;
+        java.lang.Object $stack6;
+        java.lang.String elem;
+        boolean $stack5;
+
+        collection := @parameter0: java.util.Collection;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(collection, "collection");
+
+        $stack4 = interfaceinvoke collection.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack6;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void printMyMap(java.util.Map)
+    {
+        java.util.Map map;
+        int $stack13;
+        java.lang.String $stack19, value;
+        java.lang.Number $stack12;
+        boolean $stack9;
+        java.io.PrintStream $stack20;
+        java.util.Map$Entry l2;
+        java.util.Iterator $stack8;
+        java.util.Set $stack7;
+        java.lang.Object $stack10, $stack11, $stack14;
+        java.lang.StringBuilder $stack15, $stack16, $stack17, $stack18;
+
+        map := @parameter0: java.util.Map;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(map, "map");
+
+        $stack7 = interfaceinvoke map.<java.util.Map: java.util.Set entrySet()>();
+
+        $stack8 = interfaceinvoke $stack7.<java.util.Set: java.util.Iterator iterator()>();
+
+     label1:
+        $stack9 = interfaceinvoke $stack8.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack9 == 0 goto label2;
+
+        $stack10 = interfaceinvoke $stack8.<java.util.Iterator: java.lang.Object next()>();
+
+        l2 = (java.util.Map$Entry) $stack10;
+
+        $stack11 = interfaceinvoke l2.<java.util.Map$Entry: java.lang.Object getKey()>();
+
+        $stack12 = (java.lang.Number) $stack11;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Number: int intValue()>();
+
+        $stack14 = interfaceinvoke l2.<java.util.Map$Entry: java.lang.Object getValue()>();
+
+        value = (java.lang.String) $stack14;
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack13);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(value);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.util.HashMap $stack13;
+        java.util.ArrayList $stack2;
+        java.util.HashSet $stack8;
+        java.util.LinkedHashMap $stack15;
+        java.util.Map $stack12, $stack14, $stack16;
+        java.util.LinkedHashSet $stack10;
+        java.util.Collection $stack1, $stack3, $stack5, $stack7, $stack9, $stack11;
+        java.util.Set $stack6;
+        kotlin.collections.ArrayDeque $stack4;
+        java.util.List $stack0;
+
+        $stack0 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.List getList()>();
+
+        $stack1 = (java.util.Collection) $stack0;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack1);
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.ArrayList getArrayList()>();
+
+        $stack3 = (java.util.Collection) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack3);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: kotlin.collections.ArrayDeque getArrayDeque()>();
+
+        $stack5 = (java.util.Collection) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack5);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.Set getSet()>();
+
+        $stack7 = (java.util.Collection) $stack6;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack7);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.HashSet getHashSet()>();
+
+        $stack9 = (java.util.Collection) $stack8;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack9);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashSet getLinkedHashSet()>();
+
+        $stack11 = (java.util.Collection) $stack10;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyCollection(java.util.Collection)>($stack11);
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.Map getMap()>();
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>($stack12);
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.HashMap getHashMap()>();
+
+        $stack14 = (java.util.Map) $stack13;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>($stack14);
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: java.util.LinkedHashMap getLinkedHashMap()>();
+
+        $stack16 = (java.util.Map) $stack15;
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void printMyMap(java.util.Map)>($stack16);
+
+        return;
+    }
+
+    private static final java.util.List getList()
+    {
+        java.util.List $stack1, $stack3;
+        java.util.Collection $stack2;
+        java.util.ArrayList $stack0;
+
+        $stack0 = new java.util.ArrayList;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<java.util.ArrayList: void <init>(java.util.Collection)>($stack2);
+
+        $stack3 = (java.util.List) $stack0;
+
+        return $stack3;
+    }
+
+    private static final java.util.ArrayList getArrayList()
+    {
+        java.util.List $stack1;
+        java.util.ArrayList $stack0;
+        java.util.Collection $stack2;
+
+        $stack0 = new java.util.ArrayList;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<java.util.ArrayList: void <init>(java.util.Collection)>($stack2);
+
+        return $stack0;
+    }
+
+    private static final kotlin.collections.ArrayDeque getArrayDeque()
+    {
+        java.util.List $stack1;
+        kotlin.collections.ArrayDeque $stack0;
+        java.util.Collection $stack2;
+
+        $stack0 = new kotlin.collections.ArrayDeque;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<kotlin.collections.ArrayDeque: void <init>(java.util.Collection)>($stack2);
+
+        return $stack0;
+    }
+
+    private static final java.util.Set getSet()
+    {
+        java.util.HashSet $stack0;
+        java.util.List $stack1;
+        java.util.Collection $stack2;
+        java.util.Set $stack3;
+
+        $stack0 = new java.util.HashSet;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<java.util.HashSet: void <init>(java.util.Collection)>($stack2);
+
+        $stack3 = (java.util.Set) $stack0;
+
+        return $stack3;
+    }
+
+    private static final java.util.HashSet getHashSet()
+    {
+        java.util.HashSet $stack0;
+        java.util.List $stack1;
+        java.util.Collection $stack2;
+
+        $stack0 = new java.util.HashSet;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<java.util.HashSet: void <init>(java.util.Collection)>($stack2);
+
+        return $stack0;
+    }
+
+    private static final java.util.LinkedHashSet getLinkedHashSet()
+    {
+        java.util.List $stack1;
+        java.util.LinkedHashSet $stack0;
+        java.util.Collection $stack2;
+
+        $stack0 = new java.util.LinkedHashSet;
+
+        $stack1 = <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName>;
+
+        $stack2 = (java.util.Collection) $stack1;
+
+        specialinvoke $stack0.<java.util.LinkedHashSet: void <init>(java.util.Collection)>($stack2);
+
+        return $stack0;
+    }
+
+    private static final java.util.Map getMap()
+    {
+        java.util.Map $stack10, l1;
+        java.util.HashMap $stack5;
+        java.lang.Integer $stack6, $stack8;
+
+        $stack5 = new java.util.HashMap;
+
+        specialinvoke $stack5.<java.util.HashMap: void <init>()>();
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack6, "Ranjith");
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack8, "K");
+
+        $stack10 = (java.util.Map) $stack5;
+
+        return $stack10;
+    }
+
+    private static final java.util.HashMap getHashMap()
+    {
+        java.util.Map l1;
+        java.util.HashMap $stack5;
+        java.lang.Integer $stack6, $stack8;
+
+        $stack5 = new java.util.HashMap;
+
+        specialinvoke $stack5.<java.util.HashMap: void <init>()>();
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack6, "Ranjith");
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack8, "K");
+
+        return $stack5;
+    }
+
+    private static final java.util.LinkedHashMap getLinkedHashMap()
+    {
+        java.util.LinkedHashMap $stack5;
+        java.util.Map l1;
+        java.lang.Integer $stack6, $stack8;
+
+        $stack5 = new java.util.LinkedHashMap;
+
+        specialinvoke $stack5.<java.util.LinkedHashMap: void <init>()>();
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack6, "Ranjith");
+
+        l1 = (java.util.Map) $stack5;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        interfaceinvoke l1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($stack8, "K");
+
+        return $stack5;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.collection.MainKt: void main()>();
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.String[] l0;
+        java.util.List $stack1;
+
+        l0 = newarray (java.lang.String)[2];
+
+        l0[0] = "Ranjith";
+
+        l0[1] = "K";
+
+        $stack1 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>(l0);
+
+        <de.fraunhofer.iem.collections.collection.MainKt: java.util.List myName> = $stack1;
+
+        return;
+    }
+}

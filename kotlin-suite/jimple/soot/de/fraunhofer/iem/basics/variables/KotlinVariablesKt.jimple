@@ -1,0 +1,81 @@
+public final class de.fraunhofer.iem.basics.variables.KotlinVariablesKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5, $stack6;
+        int $stack3, variable;
+        float $stack4;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.variables.KotlinVariablesKt: int getVariableValue()>();
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.variables.KotlinVariablesKt: float getPiValue()>();
+
+        variable = $stack3 + 10;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>(variable);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(float)>($stack4);
+
+        return;
+    }
+
+    public static final int getVariableValue()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String $stack3;
+        boolean $stack4;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void print(java.lang.Object)>("Enter some input: ");
+
+        $stack3 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack3, "y");
+
+        if $stack4 == 0 goto label1;
+
+        return 10;
+
+     label1:
+        return 20;
+    }
+
+    public static final float getPiValue()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String $stack3;
+        boolean $stack4;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void print(java.lang.Object)>("Enter some input: ");
+
+        $stack3 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack3, "2");
+
+        if $stack4 == 0 goto label1;
+
+        return 3.14F;
+
+     label1:
+        return 3.141592F;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.variables.KotlinVariablesKt: void main()>();
+
+        return;
+    }
+}

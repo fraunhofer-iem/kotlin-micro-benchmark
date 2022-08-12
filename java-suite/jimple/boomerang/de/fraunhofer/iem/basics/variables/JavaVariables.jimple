@@ -1,0 +1,134 @@
+public class de.fraunhofer.iem.basics.variables.JavaVariables extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.variables.JavaVariables this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.variables.JavaVariables;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack5, $stack6;
+        int $stack3, variable;
+        float $stack4;
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.variables.JavaVariables: int getVariableValue()>();
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.variables.JavaVariables: float getPiValue()>();
+
+        variable = $stack3 + 10;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>(variable);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(float)>($stack4);
+
+        return;
+    }
+
+    public static int getVariableValue()
+    {
+        java.io.PrintStream $stack3;
+        java.util.Scanner $stack1;
+        int varReplacer258, varReplacer260;
+        java.lang.String $stack4, varReplacer259, varReplacer261;
+        java.io.InputStream $stack2;
+        boolean $stack5;
+
+        nop;
+
+        $stack1 = new java.util.Scanner;
+
+        $stack2 = <java.lang.System: java.io.InputStream in>;
+
+        specialinvoke $stack1.<java.util.Scanner: void <init>(java.io.InputStream)>($stack2);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer261 = "Enter some input: ";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void print(java.lang.String)>(varReplacer261);
+
+        $stack4 = virtualinvoke $stack1.<java.util.Scanner: java.lang.String nextLine()>();
+
+        varReplacer259 = "y";
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer259);
+
+        if $stack5 == 0 goto label1;
+
+        nop;
+
+        varReplacer260 = 10;
+
+        return varReplacer260;
+
+     label1:
+        nop;
+
+        varReplacer258 = 20;
+
+        return varReplacer258;
+    }
+
+    public static float getPiValue()
+    {
+        java.io.PrintStream $stack3;
+        java.util.Scanner $stack1;
+        float varReplacer262, varReplacer263;
+        java.lang.String $stack4, varReplacer264, varReplacer265;
+        java.io.InputStream $stack2;
+        boolean $stack5;
+
+        nop;
+
+        $stack1 = new java.util.Scanner;
+
+        $stack2 = <java.lang.System: java.io.InputStream in>;
+
+        specialinvoke $stack1.<java.util.Scanner: void <init>(java.io.InputStream)>($stack2);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer265 = "Enter some input: ";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void print(java.lang.String)>(varReplacer265);
+
+        $stack4 = virtualinvoke $stack1.<java.util.Scanner: java.lang.String nextLine()>();
+
+        varReplacer264 = "2";
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer264);
+
+        if $stack5 == 0 goto label1;
+
+        nop;
+
+        varReplacer263 = 3.14F;
+
+        return varReplacer263;
+
+     label1:
+        nop;
+
+        varReplacer262 = 3.141592F;
+
+        return varReplacer262;
+    }
+}

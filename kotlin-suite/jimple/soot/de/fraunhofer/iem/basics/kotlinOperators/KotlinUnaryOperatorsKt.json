@@ -1,0 +1,60 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "num": "int",
+                "num#13": "int"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack5": "boolean",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "l2": "int",
+                "$stack14": "boolean",
+                "$i0": "int",
+                "$i1": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: boolean getBool(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "boolean getBool(java.lang.String)": {
+            "localVariables": {"flag": "java.lang.String"},
+            "stackVariables": {"$stack1": "boolean"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinUnaryOperatorsKt: void main()>"]
+        }
+    }
+}

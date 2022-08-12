@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void main()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void checkValid(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void checkValid(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void checkValid(java.lang.String)>"
+            ]
+        },
+        "void checkValid(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "l1": "java.lang.CharSequence",
+                "$stack4": "kotlin.text.Regex",
+                "$stack5": "boolean",
+                "$stack6": "java.lang.Exception"
+            },
+            "invokeExpressions": [
+                "<kotlin.text.Regex: void <init>(java.lang.String)>",
+                "<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>",
+                "<java.lang.Exception: void <init>(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.controlFlow.exceptions.KotlinThrowKt: void main()>"]
+        }
+    }
+}

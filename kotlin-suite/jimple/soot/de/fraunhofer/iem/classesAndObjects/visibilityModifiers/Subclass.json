@@ -1,0 +1,53 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int getB()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: void display()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int getE()>"
+            ]
+        },
+        "int getB()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void display()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass"},
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "int",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested",
+                "$stack9": "int",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Subclass: int getB()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int getD()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: void <init>()>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int getE()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

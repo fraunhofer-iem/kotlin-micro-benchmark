@@ -1,0 +1,59 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)
+    {
+        kotlin.jvm.functions.Function1 init;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML $stack2;
+
+        init := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(init, "init");
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML: void <init>()>();
+
+        interfaceinvoke init.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>($stack2);
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        kotlin.jvm.functions.Function1 $stack0;
+
+        $stack0 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt$main_lambda-0__9: kotlin.jvm.functions.Function1 bootstrap$()>();
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML html(kotlin.jvm.functions.Function1)>($stack0);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.MainKt: void main()>();
+
+        return;
+    }
+
+    public static final kotlin.Unit main$lambda-0(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML)
+    {
+        kotlin.Unit $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML $receiver;
+
+        $receiver := @parameter0: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($receiver, "$receiver");
+
+        virtualinvoke $receiver.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML: void body()>();
+
+        $stack1 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack1;
+    }
+}

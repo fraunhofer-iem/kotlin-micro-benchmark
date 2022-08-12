@@ -1,0 +1,75 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+    "superClass": "java.lang.Enum",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] values()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu valueOf(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <init>(java.lang.String,int,int)>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] values()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[]",
+                "$stack1": "java.lang.Object",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[]"
+            },
+            "invokeExpressions": ["<java.lang.Object: java.lang.Object clone()>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu valueOf(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "java.lang.Enum",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu"
+            },
+            "invokeExpressions": ["<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)>"]
+        },
+        "void <init>(java.lang.String,int,int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "price": "int"
+            },
+            "stackVariables": {
+                "l1": "java.lang.String",
+                "l2": "int"
+            },
+            "invokeExpressions": ["<java.lang.Enum: void <init>(java.lang.String,int)>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {
+                "varReplacer381": "java.lang.String",
+                "varReplacer382": "int",
+                "varReplacer383": "int",
+                "varReplacer384": "java.lang.String",
+                "varReplacer385": "int",
+                "varReplacer386": "int",
+                "varReplacer387": "java.lang.String",
+                "varReplacer388": "int",
+                "varReplacer389": "int",
+                "varReplacer390": "java.lang.String",
+                "varReplacer391": "int",
+                "varReplacer392": "int"
+            },
+            "stackVariables": {
+                "$stack0": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[]",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+                "$stack8": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <init>(java.lang.String,int,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: void <init>(java.lang.String,int,int)>"
+            ]
+        }
+    }
+}

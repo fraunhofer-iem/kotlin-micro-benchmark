@@ -1,0 +1,246 @@
+public final class de.fraunhofer.iem.classesAndObjects.sealedClass.Bus extends de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle
+{
+    private final java.lang.String registrationNumber;
+
+    public void <init>(java.lang.String)
+    {
+        null_type varReplacer887;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        java.lang.String registrationNumber, varReplacer886;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        registrationNumber := @parameter0: java.lang.String;
+
+        varReplacer886 = "registrationNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(registrationNumber, varReplacer886);
+
+        varReplacer887 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>(registrationNumber, varReplacer887);
+
+        this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber> = registrationNumber;
+
+        return;
+    }
+
+    public final java.lang.String getRegistrationNumber()
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        return $stack1;
+    }
+
+    public void displayVehicleRegistrationNumber()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        java.lang.String $stack3, $stack4, varReplacer888;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        $stack3 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getVehicleRegistrationNumber()>();
+
+        varReplacer888 = " in Bus";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack3, varReplacer888);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public final java.lang.String component1()
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus $stack2, this;
+        java.lang.String registrationNumber, varReplacer889;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        registrationNumber := @parameter0: java.lang.String;
+
+        varReplacer889 = "registrationNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(registrationNumber, varReplacer889);
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>(registrationNumber);
+
+        return $stack2;
+    }
+
+    public static de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy$default(de.fraunhofer.iem.classesAndObjects.sealedClass.Bus, java.lang.String, int, java.lang.Object)
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus l0, $stack5;
+        int l2, $stack4;
+        java.lang.Object l3;
+        java.lang.String l1;
+
+        nop;
+
+        l0 := @parameter0: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: java.lang.Object;
+
+        $stack4 = l2 & 1;
+
+        if $stack4 == 0 goto label1;
+
+        nop;
+
+        l1 = l0.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+     label1:
+        nop;
+
+        $stack5 = virtualinvoke l0.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy(java.lang.String)>(l1);
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        int varReplacer891;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5;
+        java.lang.String $stack3, $stack6, varReplacer890;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer890 = "Bus(registrationNumber=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer890);
+
+        $stack3 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        varReplacer891 = 41;
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer891);
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack6;
+    }
+
+    public int hashCode()
+    {
+        int $stack2;
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        $stack2 = virtualinvoke $stack1.<java.lang.String: int hashCode()>();
+
+        return $stack2;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        de.fraunhofer.iem.classesAndObjects.sealedClass.Bus this, l2;
+        int varReplacer892, varReplacer893, varReplacer894, varReplacer895;
+        java.lang.Object other;
+        java.lang.String $stack4, $stack5;
+        boolean $stack3, $stack6;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        other := @parameter0: java.lang.Object;
+
+        if this != other goto label1;
+
+        nop;
+
+        varReplacer895 = 1;
+
+        return varReplacer895;
+
+     label1:
+        nop;
+
+        $stack3 = other instanceof de.fraunhofer.iem.classesAndObjects.sealedClass.Bus;
+
+        if $stack3 != 0 goto label2;
+
+        nop;
+
+        varReplacer893 = 0;
+
+        return varReplacer893;
+
+     label2:
+        nop;
+
+        l2 = (de.fraunhofer.iem.classesAndObjects.sealedClass.Bus) other;
+
+        $stack5 = this.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        $stack4 = l2.<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String registrationNumber>;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($stack5, $stack4);
+
+        if $stack6 != 0 goto label3;
+
+        nop;
+
+        varReplacer894 = 0;
+
+        return varReplacer894;
+
+     label3:
+        nop;
+
+        varReplacer892 = 1;
+
+        return varReplacer892;
+    }
+}

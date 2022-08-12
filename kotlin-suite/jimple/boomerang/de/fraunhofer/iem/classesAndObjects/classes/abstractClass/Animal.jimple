@@ -1,0 +1,47 @@
+public abstract class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal extends java.lang.Object
+{
+    private final java.lang.String DNA;
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String DNA, varReplacer482;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal;
+
+        DNA := @parameter0: java.lang.String;
+
+        varReplacer482 = "DNA";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, varReplacer482);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: java.lang.String DNA> = DNA;
+
+        return;
+    }
+
+    public abstract void makeNoise();
+
+    public final void displayDNA()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String l1;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: java.lang.String DNA>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(l1);
+
+        return;
+    }
+}

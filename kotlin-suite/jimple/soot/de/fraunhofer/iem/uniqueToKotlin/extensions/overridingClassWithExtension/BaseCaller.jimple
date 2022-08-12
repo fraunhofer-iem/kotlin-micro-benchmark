@@ -1,0 +1,68 @@
+public class de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller this;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base $this$printFunctionInfo;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        $this$printFunctionInfo := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printFunctionInfo, "<this>");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Base extension function in BaseCaller");
+
+        return;
+    }
+
+    public void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived)
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller this;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived $this$printFunctionInfo;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        $this$printFunctionInfo := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printFunctionInfo, "<this>");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Derived extension function in BaseCaller");
+
+        return;
+    }
+
+    public final void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller this;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base b;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller;
+
+        b := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(b, "b");
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>(b);
+
+        return;
+    }
+}

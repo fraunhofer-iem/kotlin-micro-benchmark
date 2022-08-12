@@ -1,0 +1,52 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Movable"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void jog()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void run()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void walk()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person: void crawl()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void jog()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person",
+                "varReplacer466": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void run()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person",
+                "varReplacer467": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void walk()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person",
+                "varReplacer468": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void crawl()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Person",
+                "varReplacer469": "java.lang.String"
+            },
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+public final class de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt extends java.lang.Object
+{
+
+    private static final void print(java.lang.String, java.lang.String[], java.lang.String)
+    {
+        java.io.PrintStream $stack8, $stack9, $stack10;
+        java.lang.String[] messages;
+        int l5, l4;
+        java.lang.String preMessage, postMessage, message;
+
+        preMessage := @parameter0: java.lang.String;
+
+        messages := @parameter1: java.lang.String[];
+
+        postMessage := @parameter2: java.lang.String;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(preMessage);
+
+        l4 = 0;
+
+        l5 = lengthof messages;
+
+     label1:
+        if l4 >= l5 goto label2;
+
+        message = messages[l4];
+
+        l4 = l4 + 1;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(message);
+
+        goto label1;
+
+     label2:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(postMessage);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Object[] $stack5;
+        int $stack3;
+        java.lang.String[] $stack2, l1, $stack6, messages;
+
+        $stack2 = newarray (java.lang.String)[0];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>("Beginning", $stack2, "End");
+
+        messages = newarray (java.lang.String)[2];
+
+        messages[0] = "Hello";
+
+        messages[1] = "How are you";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>("Beginning", messages, "End");
+
+        l1 = newarray (java.lang.String)[3];
+
+        l1[0] = "Hello";
+
+        l1[1] = "How are you";
+
+        l1[2] = "Where are you";
+
+        $stack3 = lengthof l1;
+
+        $stack5 = staticinvoke <java.util.Arrays: java.lang.Object[] copyOf(java.lang.Object[],int)>(l1, $stack3);
+
+        $stack6 = (java.lang.String[]) $stack5;
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>("Beginning", $stack6, "End");
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void main()>();
+
+        return;
+    }
+}

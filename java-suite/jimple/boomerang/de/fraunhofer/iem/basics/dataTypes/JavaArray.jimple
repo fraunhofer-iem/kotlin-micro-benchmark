@@ -1,0 +1,226 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaArray extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaArray this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaArray;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Float $stack17;
+        java.lang.Integer $stack11, $stack27, $stack29, $stack31, $stack33, $stack35, $stack37, $stack39, $stack41, $stack43, $stack45, elem;
+        java.lang.Character $stack13;
+        java.lang.Long $stack19;
+        int[] $stack21;
+        float varReplacer132;
+        java.lang.Integer[] $stack25;
+        java.lang.Object[] $stack9;
+        java.lang.Double $stack15;
+        java.lang.String[] args;
+        long varReplacer118;
+        int l6, l7, varReplacer111, varReplacer112, varReplacer113, varReplacer114, varReplacer115, varReplacer116, varReplacer117, varReplacer119, varReplacer120, varReplacer121, varReplacer122, varReplacer123, varReplacer124, varReplacer126, varReplacer128, varReplacer129, varReplacer130, varReplacer131, varReplacer133, varReplacer134, varReplacer135, varReplacer136, varReplacer137, varReplacer138;
+        java.lang.String varReplacer127;
+        double varReplacer125;
+        java.io.PrintStream $stack20, $stack22, $stack24, $stack46;
+        char[] $stack23;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack9 = newarray (java.lang.Object)[6];
+
+        varReplacer137 = 1;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer137);
+
+        $stack9[0] = $stack11;
+
+        varReplacer127 = "ranjith";
+
+        $stack9[1] = varReplacer127;
+
+        varReplacer131 = 114;
+
+        $stack13 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(varReplacer131);
+
+        $stack9[2] = $stack13;
+
+        varReplacer125 = 5454.5151;
+
+        $stack15 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(varReplacer125);
+
+        $stack9[3] = $stack15;
+
+        varReplacer132 = 55.0F;
+
+        $stack17 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(varReplacer132);
+
+        $stack9[4] = $stack17;
+
+        varReplacer118 = 65446L;
+
+        $stack19 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>(varReplacer118);
+
+        $stack9[5] = $stack19;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack21 = newarray (int)[5];
+
+        varReplacer129 = 1;
+
+        $stack21[0] = varReplacer129;
+
+        varReplacer113 = 2;
+
+        $stack21[1] = varReplacer113;
+
+        varReplacer119 = 3;
+
+        $stack21[2] = varReplacer119;
+
+        varReplacer133 = 4;
+
+        $stack21[3] = varReplacer133;
+
+        varReplacer115 = 5;
+
+        $stack21[4] = varReplacer115;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        $stack23 = newarray (char)[7];
+
+        varReplacer136 = 114;
+
+        $stack23[0] = varReplacer136;
+
+        varReplacer138 = 97;
+
+        $stack23[1] = varReplacer138;
+
+        varReplacer126 = 110;
+
+        $stack23[2] = varReplacer126;
+
+        varReplacer130 = 106;
+
+        $stack23[3] = varReplacer130;
+
+        varReplacer117 = 105;
+
+        $stack23[4] = varReplacer117;
+
+        varReplacer122 = 116;
+
+        $stack23[5] = varReplacer122;
+
+        varReplacer120 = 104;
+
+        $stack23[6] = varReplacer120;
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(char[])>($stack23);
+
+        $stack25 = newarray (java.lang.Integer)[10];
+
+        varReplacer134 = 1;
+
+        $stack27 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer134);
+
+        $stack25[0] = $stack27;
+
+        varReplacer123 = 2;
+
+        $stack29 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer123);
+
+        $stack25[1] = $stack29;
+
+        varReplacer114 = 3;
+
+        $stack31 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer114);
+
+        $stack25[2] = $stack31;
+
+        varReplacer111 = 4;
+
+        $stack33 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer111);
+
+        $stack25[3] = $stack33;
+
+        varReplacer128 = 5;
+
+        $stack35 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer128);
+
+        $stack25[4] = $stack35;
+
+        varReplacer124 = 6;
+
+        $stack37 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer124);
+
+        $stack25[5] = $stack37;
+
+        varReplacer135 = 7;
+
+        $stack39 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer135);
+
+        $stack25[6] = $stack39;
+
+        varReplacer116 = 8;
+
+        $stack41 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer116);
+
+        $stack25[7] = $stack41;
+
+        varReplacer112 = 9;
+
+        $stack43 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer112);
+
+        $stack25[8] = $stack43;
+
+        varReplacer121 = 10;
+
+        $stack45 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer121);
+
+        $stack25[9] = $stack45;
+
+        l6 = lengthof $stack25;
+
+        l7 = 0;
+
+     label1:
+        if l7 >= l6 goto label2;
+
+        nop;
+
+        elem = $stack25[l7];
+
+        $stack46 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack46.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        l7 = l7 + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+}

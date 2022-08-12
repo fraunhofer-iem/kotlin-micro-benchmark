@@ -1,0 +1,249 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt extends java.lang.Object
+{
+
+    public static final int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $this$sub;
+        int $stack1, $stack2, $stack3;
+        java.lang.String varReplacer1367;
+
+        nop;
+
+        $this$sub := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        varReplacer1367 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$sub, varReplacer1367);
+
+        $stack1 = virtualinvoke $this$sub.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>();
+
+        $stack2 = virtualinvoke $this$sub.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getSecondNumber()>();
+
+        $stack3 = $stack1 - $stack2;
+
+        return $stack3;
+    }
+
+    public static final double divWithFirst(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts, int)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $this$divWithFirst;
+        int $stack2, divisor;
+        java.lang.String varReplacer1368;
+        double $stack3, $stack4, $stack5;
+
+        nop;
+
+        $this$divWithFirst := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        divisor := @parameter1: int;
+
+        varReplacer1368 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$divWithFirst, varReplacer1368);
+
+        virtualinvoke $this$divWithFirst.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void myExt(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>($this$divWithFirst);
+
+        $stack2 = virtualinvoke $this$divWithFirst.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>();
+
+        $stack4 = (double) $stack2;
+
+        $stack3 = (double) divisor;
+
+        $stack5 = $stack4 / $stack3;
+
+        return $stack5;
+    }
+
+    public static final int add(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $this$add;
+        int $stack4, $stack5, $stack6;
+        java.lang.String varReplacer1369, varReplacer1370;
+
+        nop;
+
+        $this$add := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        varReplacer1370 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$add, varReplacer1370);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1369 = "Extension function add";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1369);
+
+        $stack4 = virtualinvoke $this$add.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getFirstNumber()>();
+
+        $stack5 = virtualinvoke $this$add.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int getSecondNumber()>();
+
+        $stack6 = $stack4 + $stack5;
+
+        return $stack6;
+    }
+
+    public static final void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects $this$print;
+        java.lang.String varReplacer1371, varReplacer1372;
+
+        nop;
+
+        $this$print := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects;
+
+        varReplacer1371 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$print, varReplacer1371);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1372 = "This is the Class that can store two Any objects";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1372);
+
+        return;
+    }
+
+    public static final void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $this$print;
+        java.lang.String varReplacer1373, varReplacer1374;
+
+        nop;
+
+        $this$print := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        varReplacer1373 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$print, varReplacer1373);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1374 = "This is the Derived Class that can store two Int objects";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1374);
+
+        return;
+    }
+
+    public static final java.lang.String changeToString(java.lang.Object)
+    {
+        java.lang.Object $this$changeToString;
+        java.lang.String $stack1, varReplacer1375;
+
+        nop;
+
+        $this$changeToString := @parameter0: java.lang.Object;
+
+        if $this$changeToString != null goto label1;
+
+        nop;
+
+        varReplacer1375 = "GivenObjectIsNull";
+
+        return varReplacer1375;
+
+     label1:
+        nop;
+
+        $stack1 = virtualinvoke $this$changeToString.<java.lang.Object: java.lang.String toString()>();
+
+        return $stack1;
+    }
+
+    public static final void printTwoAny(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)
+    {
+        java.lang.String varReplacer1376;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects ob;
+
+        nop;
+
+        ob := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects;
+
+        varReplacer1376 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer1376);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void print(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>(ob);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects $stack11;
+        int $stack5, $stack7, varReplacer1377, varReplacer1379, varReplacer1380;
+        java.lang.String $stack12, $stack14;
+        double $stack9;
+        java.io.PrintStream $stack6, $stack8, $stack10, $stack13, $stack15;
+        null_type varReplacer1378;
+
+        nop;
+
+        $stack4 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts;
+
+        varReplacer1379 = 10;
+
+        varReplacer1380 = 20;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: void <init>(int,int)>(varReplacer1379, varReplacer1380);
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts: int add()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>($stack5);
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts)>($stack4);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        varReplacer1377 = 2;
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: double divWithFirst(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoInts,int)>($stack4, varReplacer1377);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(double)>($stack9);
+
+        $stack11 = (de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void printTwoAny(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.TwoObjects)>($stack11);
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: java.lang.String changeToString(java.lang.Object)>($stack4);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        varReplacer1378 = null;
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: java.lang.String changeToString(java.lang.Object)>(varReplacer1378);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.customizedExample.MainKt: void main()>();
+
+        return;
+    }
+}

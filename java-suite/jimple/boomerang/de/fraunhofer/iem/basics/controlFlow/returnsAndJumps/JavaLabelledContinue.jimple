@@ -1,0 +1,235 @@
+public class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    private static void singleLoopLabelledContinue(int)
+    {
+        java.io.PrintStream $stack3;
+        int range, $stack2, i;
+
+        nop;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label4;
+
+        nop;
+
+        $stack2 = i % 2;
+
+        if $stack2 != 0 goto label2;
+
+        nop;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(int)>(i);
+
+     label3:
+        i = i + 1;
+
+        goto label1;
+
+     label4:
+        nop;
+
+        return;
+    }
+
+    private static void doubleLoopLabelledContinue(int)
+    {
+        java.io.PrintStream $stack8;
+        int range, $stack3, $stack6, i, j;
+        java.lang.StringBuilder $stack7, $stack9, $stack10, $stack11;
+        java.lang.String $stack12, varReplacer87;
+
+        nop;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label6;
+
+        nop;
+
+        $stack3 = i % 2;
+
+        if $stack3 != 0 goto label2;
+
+        nop;
+
+        goto label5;
+
+     label2:
+        nop;
+
+        j = 0;
+
+     label3:
+        if j >= range goto label5;
+
+        nop;
+
+        $stack6 = j % 2;
+
+        if $stack6 == 0 goto label4;
+
+        nop;
+
+        goto label5;
+
+     label4:
+        nop;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        $stack9 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer87 = " --> ";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer87);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>($stack12);
+
+        j = j + 1;
+
+        goto label3;
+
+     label5:
+        nop;
+
+        i = i + 1;
+
+        goto label1;
+
+     label6:
+        nop;
+
+        return;
+    }
+
+    private static void doubleLoopSingleLabelledContinue(int)
+    {
+        java.io.PrintStream $stack7;
+        int range, $stack5, i, j;
+        java.lang.StringBuilder $stack6, $stack8, $stack9, $stack10;
+        java.lang.String $stack11, varReplacer88;
+
+        nop;
+
+        range := @parameter0: int;
+
+        i = 0;
+
+     label1:
+        if i >= range goto label5;
+
+        nop;
+
+        j = 0;
+
+     label2:
+        if j >= range goto label4;
+
+        nop;
+
+        $stack5 = j % 2;
+
+        if $stack5 == 0 goto label3;
+
+        nop;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer88 = " --> ";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer88);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(j);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.String)>($stack11);
+
+        j = j + 1;
+
+        goto label2;
+
+     label4:
+        nop;
+
+        i = i + 1;
+
+        goto label1;
+
+     label5:
+        nop;
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        int varReplacer89, varReplacer90, varReplacer91;
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer91 = 50;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue: void singleLoopLabelledContinue(int)>(varReplacer91);
+
+        varReplacer89 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue: void doubleLoopLabelledContinue(int)>(varReplacer89);
+
+        varReplacer90 = 5;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.JavaLabelledContinue: void doubleLoopSingleLabelledContinue(int)>(varReplacer90);
+
+        return;
+    }
+}

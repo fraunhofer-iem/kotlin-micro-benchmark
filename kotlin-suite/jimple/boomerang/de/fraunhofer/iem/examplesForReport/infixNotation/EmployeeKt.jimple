@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.examplesForReport.infixNotation.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        int varReplacer1383, varReplacer1385;
+        java.lang.String varReplacer1382, varReplacer1384;
+        de.fraunhofer.iem.examplesForReport.infixNotation.Employee $stack2, $stack3;
+
+        nop;
+
+        $stack2 = new de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        varReplacer1382 = "Night Fury";
+
+        varReplacer1383 = 120;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>(varReplacer1382, varReplacer1383);
+
+        $stack3 = new de.fraunhofer.iem.examplesForReport.infixNotation.Employee;
+
+        varReplacer1384 = "Hiccup Haddock";
+
+        varReplacer1385 = 27;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void <init>(java.lang.String,int)>(varReplacer1384, varReplacer1385);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>($stack2);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.examplesForReport.infixNotation.Employee: void managedBy(de.fraunhofer.iem.examplesForReport.infixNotation.Employee)>($stack2);
+
+        return;
+    }
+}

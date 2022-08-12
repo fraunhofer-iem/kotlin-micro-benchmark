@@ -1,0 +1,96 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt extends java.lang.Object
+{
+
+    public static final int getLastIndex(java.util.List)
+    {
+        int $stack1, $stack2;
+        java.util.List $this$lastIndex;
+
+        $this$lastIndex := @parameter0: java.util.List;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$lastIndex, "<this>");
+
+        $stack1 = interfaceinvoke $this$lastIndex.<java.util.List: int size()>();
+
+        $stack2 = $stack1 - 1;
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack16, $stack18, $stack20, $stack22, $stack26;
+        int $stack25;
+        java.lang.String $stack27;
+        java.io.PrintStream $stack28;
+        java.util.List $stack23;
+        java.lang.Integer[] l1;
+
+        l1 = newarray (java.lang.Integer)[10];
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(23342);
+
+        l1[0] = $stack4;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(34);
+
+        l1[1] = $stack6;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(928345798);
+
+        l1[2] = $stack8;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        l1[3] = $stack10;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        l1[4] = $stack12;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        l1[5] = $stack14;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(23423);
+
+        l1[6] = $stack16;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        l1[7] = $stack18;
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(423);
+
+        l1[8] = $stack20;
+
+        $stack22 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9123);
+
+        l1[9] = $stack22;
+
+        $stack23 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt: int getLastIndex(java.util.List)>($stack23);
+
+        $stack26 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack25);
+
+        $stack27 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Last index of the list is ", $stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionProperties.ExtensionPropertiesExampleKt: void main()>();
+
+        return;
+    }
+}

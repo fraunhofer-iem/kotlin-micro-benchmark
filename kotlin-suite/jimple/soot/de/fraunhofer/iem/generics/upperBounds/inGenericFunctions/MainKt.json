@@ -1,0 +1,45 @@
+{
+    "className": "de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt: void main()>",
+        "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)": {
+            "localVariables": {
+                "first": "java.lang.Number",
+                "second": "java.lang.CharSequence"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.lang.Integer",
+                "$stack3": "java.lang.CharSequence",
+                "$stack4": "java.lang.Number",
+                "$stack5": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "$stack6": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Number,java.lang.CharSequence)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.generics.upperBounds.inGenericFunctions.MainKt: void main()>"]
+        }
+    }
+}

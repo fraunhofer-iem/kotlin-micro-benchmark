@@ -1,0 +1,107 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts extends java.lang.Object implements de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoIntsAdder
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public int add(int, int, int, int)
+    {
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts this;
+        int num1, num2, num3, $stack5, num4, $stack6, $stack7;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack5 = num1 + num2;
+
+        $stack6 = $stack5 + num3;
+
+        $stack7 = $stack6 + num4;
+
+        return $stack7;
+    }
+
+    public float add10(int, int, int, int)
+    {
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts this;
+        int num1, num2, num3, num4;
+        float $stack5, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, $stack13;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack6 = (float) num1;
+
+        $stack5 = (float) num2;
+
+        $stack8 = $stack6 + $stack5;
+
+        $stack7 = (float) num3;
+
+        $stack10 = $stack8 + $stack7;
+
+        $stack9 = (float) num4;
+
+        $stack12 = $stack10 + $stack9;
+
+        $stack11 = (float) 10;
+
+        $stack13 = $stack12 + $stack11;
+
+        return $stack13;
+    }
+
+    public final int sub(int, int, int, int)
+    {
+        de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts this;
+        int num1, num2, num3, $stack5, num4, $stack6, $stack7;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.defaultArguments.withInheritance.withImplementsInterface.TwoInts;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        num3 := @parameter2: int;
+
+        num4 := @parameter3: int;
+
+        $stack5 = num1 - num2;
+
+        $stack6 = $stack5 - num3;
+
+        $stack7 = $stack6 - num4;
+
+        return $stack7;
+    }
+}

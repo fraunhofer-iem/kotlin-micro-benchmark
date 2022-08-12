@@ -1,0 +1,363 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt extends java.lang.Object
+{
+    private int myInt;
+
+    public void <init>(int)
+    {
+        int myInt;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        myInt := @parameter0: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt> = myInt;
+
+        return;
+    }
+
+    public final int getMyInt()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        return $stack1;
+    }
+
+    public final void setMyInt(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt> = <set-?>;
+
+        return;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryPlus()
+    {
+        int $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack1, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack2);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt unaryMinus()
+    {
+        int $stack2, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack1, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = neg $stack2;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack3);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt not()
+    {
+        byte $stack3;
+        int $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack1, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        if $stack2 == 0 goto label1;
+
+        nop;
+
+        $stack3 = 0;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack3 = 1;
+
+     label2:
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack3);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt inc()
+    {
+        int $stack2, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack1, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = $stack2 + 1;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack3);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt dec()
+    {
+        int $stack2, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt $stack1, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack2 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = $stack2 - 1;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack3);
+
+        return $stack1;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt plus(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer2810;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2810 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2810);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack5 = $stack4 + $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt minus(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer2811;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2811 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2811);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack5 = $stack4 - $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt div(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer2812;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2812 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2812);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack5 = $stack4 / $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt times(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer2813;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2813 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2813);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack5 = $stack4 * $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt rem(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack3, $stack4, $stack5;
+        java.lang.String varReplacer2814;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, $stack2, this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2814 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2814);
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack4 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack3 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack5 = $stack4 % $stack3;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>($stack5);
+
+        return $stack2;
+    }
+
+    public final boolean contains(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)
+    {
+        int $stack2, $stack3;
+        java.lang.String varReplacer2815;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt secondNumber, this;
+        boolean $stack4;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        secondNumber := @parameter0: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        varReplacer2815 = "secondNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(secondNumber, varReplacer2815);
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack2 = secondNumber.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        if $stack3 != $stack2 goto label1;
+
+        nop;
+
+        $stack4 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack4 = 0;
+
+     label2:
+        return $stack4;
+    }
+
+    public java.lang.String toString()
+    {
+        int $stack1;
+        java.lang.String $stack2;
+        de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int myInt>;
+
+        $stack2 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>($stack1);
+
+        return $stack2;
+    }
+}

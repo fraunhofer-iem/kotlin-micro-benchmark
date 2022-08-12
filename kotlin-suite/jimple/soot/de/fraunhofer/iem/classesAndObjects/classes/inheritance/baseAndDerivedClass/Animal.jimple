@@ -1,0 +1,53 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal extends java.lang.Object
+{
+    private final java.lang.String DNA;
+
+    public void <init>(java.lang.String)
+    {
+        java.lang.String DNA;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal;
+
+        DNA := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(DNA, "DNA");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: java.lang.String DNA> = DNA;
+
+        return;
+    }
+
+    public void makeNoise()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("This is abstract animal sound!");
+
+        return;
+    }
+
+    public final void displayDNA()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String l1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal;
+
+        l1 = this.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.baseAndDerivedClass.Animal: java.lang.String DNA>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(l1);
+
+        return;
+    }
+}

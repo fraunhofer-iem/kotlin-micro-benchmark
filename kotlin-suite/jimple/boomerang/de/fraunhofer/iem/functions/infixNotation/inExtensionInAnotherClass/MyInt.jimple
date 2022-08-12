@@ -1,0 +1,36 @@
+public final class de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt extends java.lang.Object
+{
+    private final int number;
+
+    public void <init>(int)
+    {
+        int number;
+        de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt;
+
+        number := @parameter0: int;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int number> = number;
+
+        return;
+    }
+
+    public final int getNumber()
+    {
+        int $stack1;
+        de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt;
+
+        $stack1 = this.<de.fraunhofer.iem.functions.infixNotation.inExtensionInAnotherClass.MyInt: int number>;
+
+        return $stack1;
+    }
+}

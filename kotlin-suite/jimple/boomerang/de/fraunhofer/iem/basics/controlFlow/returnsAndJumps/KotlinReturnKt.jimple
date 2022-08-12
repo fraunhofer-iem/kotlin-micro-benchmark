@@ -1,0 +1,327 @@
+public final class de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt extends java.lang.Object
+{
+
+    private static final void returnNothing(int)
+    {
+        java.io.PrintStream $stack3, $stack4;
+        int num;
+        java.lang.String varReplacer216, varReplacer217;
+
+        nop;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        nop;
+
+        return;
+
+     label1:
+        nop;
+
+        if num <= 10 goto label2;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer216 = "Greater than 10";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer216);
+
+     label2:
+        nop;
+
+        if num >= 100 goto label3;
+
+        nop;
+
+        return;
+
+     label3:
+        nop;
+
+        if num <= 1000 goto label4;
+
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer217 = "Greater than 1000";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer217);
+
+     label4:
+        nop;
+
+        return;
+    }
+
+    private static final int returnValue(int)
+    {
+        java.io.PrintStream $stack3, $stack5;
+        int num, $i0, $i1, varReplacer219;
+        java.lang.String varReplacer218, varReplacer220;
+
+        nop;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        nop;
+
+        $i0 = (int) -1;
+
+        return $i0;
+
+     label1:
+        nop;
+
+        if num <= 10 goto label2;
+
+        nop;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer220 = "Greater than 10";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer220);
+
+     label2:
+        nop;
+
+        if num >= 100 goto label3;
+
+        nop;
+
+        $i1 = (int) -100;
+
+        return $i1;
+
+     label3:
+        nop;
+
+        if num <= 1000 goto label4;
+
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer218 = "Greater than 1000";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer218);
+
+     label4:
+        nop;
+
+        varReplacer219 = 404;
+
+        return varReplacer219;
+    }
+
+    private static final java.lang.String returnObject(int)
+    {
+        java.io.PrintStream $stack3, $stack5;
+        int num;
+        java.lang.String varReplacer221, varReplacer222, varReplacer223, varReplacer224, varReplacer225;
+
+        nop;
+
+        num := @parameter0: int;
+
+        if num != 0 goto label1;
+
+        nop;
+
+        varReplacer223 = "-1";
+
+        return varReplacer223;
+
+     label1:
+        nop;
+
+        if num <= 10 goto label2;
+
+        nop;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer224 = "Greater than 10";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer224);
+
+     label2:
+        nop;
+
+        if num >= 100 goto label3;
+
+        nop;
+
+        varReplacer225 = "-100";
+
+        return varReplacer225;
+
+     label3:
+        nop;
+
+        if num <= 1000 goto label4;
+
+        nop;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer222 = "Greater than 1000";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer222);
+
+     label4:
+        nop;
+
+        varReplacer221 = "404";
+
+        return varReplacer221;
+    }
+
+    private static final void returnInLambda()
+    {
+        java.lang.Integer $stack10, $stack12, $stack14, $stack16;
+        java.lang.Iterable $this$forEach$iv;
+        java.util.ArrayList $stack9;
+        int $stack22, $stack24, varReplacer226, varReplacer227, varReplacer229, varReplacer230;
+        java.lang.String varReplacer228;
+        java.lang.Number $stack21;
+        boolean $stack19;
+        java.io.PrintStream $stack23, $stack25;
+        java.util.Iterator $stack18;
+        java.lang.Object $stack20;
+
+        nop;
+
+        $stack9 = new java.util.ArrayList;
+
+        specialinvoke $stack9.<java.util.ArrayList: void <init>()>();
+
+        varReplacer226 = 5;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer226);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack10);
+
+        varReplacer230 = 9;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer230);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack12);
+
+        varReplacer227 = 8;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer227);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack14);
+
+        varReplacer229 = 1;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer229);
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack16);
+
+        $this$forEach$iv = (java.lang.Iterable) $stack9;
+
+        $stack18 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack19 = interfaceinvoke $stack18.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack19 == 0 goto label3;
+
+        nop;
+
+        $stack20 = interfaceinvoke $stack18.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack21 = (java.lang.Number) $stack20;
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: int intValue()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(int)>($stack22);
+
+        $stack24 = $stack22 % 2;
+
+        if $stack24 != 0 goto label2;
+
+        nop;
+
+        return;
+
+     label2:
+        nop;
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer228 = "Welcome to Lambda";
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer228);
+
+        goto label1;
+
+     label3:
+        nop;
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3, $stack5, $stack6;
+        int $stack4, varReplacer231, varReplacer232, varReplacer234;
+        java.lang.String $stack2, varReplacer233;
+
+        nop;
+
+        varReplacer234 = 0;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnNothing(int)>(varReplacer234);
+
+        varReplacer231 = 1;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: java.lang.String returnObject(int)>(varReplacer231);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        varReplacer232 = 1251;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: int returnValue(int)>(varReplacer232);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void returnInLambda()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer233 = "Ending Main";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer233);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.returnsAndJumps.KotlinReturnKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.declarationSiteVariance.coVariant.DifferentTypedPair extends java.lang.Object
+{
+
+    public abstract java.lang.Object first();
+
+    public abstract java.lang.Object second();
+}

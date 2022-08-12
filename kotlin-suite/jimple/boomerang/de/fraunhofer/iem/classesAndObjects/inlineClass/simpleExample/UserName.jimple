@@ -1,0 +1,242 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName extends java.lang.Object
+{
+    private final java.lang.String userName;
+
+    public final java.lang.String getUserName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>();
+
+        return $stack1;
+    }
+
+    public static java.lang.String toString-impl(java.lang.String)
+    {
+        int varReplacer733;
+        java.lang.StringBuilder $stack1, $stack2, $stack3, $stack4;
+        java.lang.String arg0, $stack5, varReplacer732;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer732 = "UserName(userName=";
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer732);
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(arg0);
+
+        varReplacer733 = 41;
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer733);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack5;
+    }
+
+    public java.lang.String toString()
+    {
+        java.lang.String $stack1, $stack2;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString-impl(java.lang.String)>($stack1);
+
+        return $stack2;
+    }
+
+    public static int hashCode-impl(java.lang.String)
+    {
+        int $stack1;
+        java.lang.String arg0;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        $stack1 = virtualinvoke arg0.<java.lang.String: int hashCode()>();
+
+        return $stack1;
+    }
+
+    public int hashCode()
+    {
+        int $stack2;
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>();
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode-impl(java.lang.String)>($stack1);
+
+        return $stack2;
+    }
+
+    public static boolean equals-impl(java.lang.String, java.lang.Object)
+    {
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName $stack4;
+        int varReplacer734, varReplacer735, varReplacer736;
+        java.lang.Object other;
+        java.lang.String $stack5, arg0;
+        boolean $stack3, $stack6;
+
+        nop;
+
+        arg0 := @parameter0: java.lang.String;
+
+        other := @parameter1: java.lang.Object;
+
+        $stack3 = other instanceof de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        if $stack3 != 0 goto label1;
+
+        nop;
+
+        varReplacer736 = 0;
+
+        return varReplacer736;
+
+     label1:
+        nop;
+
+        $stack4 = (de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName) other;
+
+        $stack5 = virtualinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>();
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(arg0, $stack5);
+
+        if $stack6 != 0 goto label2;
+
+        nop;
+
+        varReplacer735 = 0;
+
+        return varReplacer735;
+
+     label2:
+        nop;
+
+        varReplacer734 = 1;
+
+        return varReplacer734;
+    }
+
+    public boolean equals(java.lang.Object)
+    {
+        java.lang.Object other;
+        java.lang.String $stack2;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+        boolean $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        other := @parameter0: java.lang.Object;
+
+        $stack2 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>();
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>($stack2, other);
+
+        return $stack3;
+    }
+
+    private void <init>(java.lang.String)
+    {
+        java.lang.String userName;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        userName := @parameter0: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String userName> = userName;
+
+        return;
+    }
+
+    public static java.lang.String constructor-impl(java.lang.String)
+    {
+        java.lang.String userName, varReplacer737;
+
+        nop;
+
+        userName := @parameter0: java.lang.String;
+
+        varReplacer737 = "userName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userName, varReplacer737);
+
+        return userName;
+    }
+
+    public static final de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName box-impl(java.lang.String)
+    {
+        java.lang.String v;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName $stack1;
+
+        nop;
+
+        v := @parameter0: java.lang.String;
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: void <init>(java.lang.String)>(v);
+
+        return $stack1;
+    }
+
+    public final java.lang.String unbox-impl()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String userName>;
+
+        return $stack1;
+    }
+
+    public static final boolean equals-impl0(java.lang.String, java.lang.String)
+    {
+        java.lang.String p1, p2;
+        boolean $stack2;
+
+        nop;
+
+        p1 := @parameter0: java.lang.String;
+
+        p2 := @parameter1: java.lang.String;
+
+        $stack2 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(p1, p2);
+
+        return $stack2;
+    }
+}

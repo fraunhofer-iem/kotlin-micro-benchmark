@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void accelerate(int)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: void changeGear(int)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceExample.Vehicle: int getCurrentSpeed()>"
+    ],
+    "methodsInformation": {
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void accelerate(int)": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void changeGear(int)": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "int getCurrentSpeed()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

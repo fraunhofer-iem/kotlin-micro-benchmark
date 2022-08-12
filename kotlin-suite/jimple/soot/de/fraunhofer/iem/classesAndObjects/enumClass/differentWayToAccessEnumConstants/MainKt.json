@@ -1,0 +1,92 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "menu2": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "menu3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu"
+            },
+            "stackVariables": {
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[]",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "int",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "int",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "int",
+                "$stack22": "java.io.PrintStream",
+                "$stack24": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[]",
+                "$stack25": "java.io.PrintStream",
+                "$stack26": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu",
+                "$stack27": "java.io.PrintStream",
+                "$stack28": "java.lang.Exception",
+                "$stack29": "java.lang.StringBuilder",
+                "$stack30": "java.lang.StringBuilder",
+                "$stack31": "java.lang.Class",
+                "$stack32": "java.lang.String",
+                "$stack33": "java.lang.StringBuilder",
+                "$stack34": "java.lang.StringBuilder",
+                "$stack35": "java.lang.String",
+                "$stack36": "java.lang.StringBuilder",
+                "$stack37": "java.lang.String",
+                "$stack38": "java.io.PrintStream",
+                "$stack40": "de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] values()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: java.lang.String name()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: int ordinal()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: java.lang.String name()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: int ordinal()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: java.lang.String name()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Enum: int ordinal()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<java.lang.Class: java.lang.String getName()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu[] values()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumImplementsInterface.Menu valueOf(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.enumClass.differentWayToAccessEnumConstants.MainKt: void main()>"]
+        }
+    }
+}

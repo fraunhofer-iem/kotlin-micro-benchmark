@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat: void makeNoise()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat",
+                "DNA": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Animal: void <init>(java.lang.String)>"]
+        },
+        "void makeNoise()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.abstractClass.abstractExtendsNonAbstract.Cat"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

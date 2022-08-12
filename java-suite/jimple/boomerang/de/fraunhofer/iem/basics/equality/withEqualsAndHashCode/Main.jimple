@@ -1,0 +1,140 @@
+public class de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int varReplacer226, varReplacer230, varReplacer234;
+        java.lang.String varReplacer224, varReplacer225, varReplacer227, varReplacer228, varReplacer229, varReplacer231, varReplacer232, varReplacer233, varReplacer235;
+        boolean $stack11, $stack13, $stack15, $stack26, $stack23, $stack16;
+        java.io.PrintStream $stack7, $stack8, $stack9, $stack10, $stack12, $stack14;
+        de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person $stack4, $stack5, $stack6;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack4 = new de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        varReplacer228 = "Ranjith";
+
+        varReplacer229 = "Street 102";
+
+        varReplacer230 = 100;
+
+        varReplacer231 = "+49 99999 9999";
+
+        specialinvoke $stack4.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer228, varReplacer229, varReplacer230, varReplacer231);
+
+        $stack5 = new de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        varReplacer232 = "Ranjith";
+
+        varReplacer233 = "Street 102";
+
+        varReplacer234 = 100;
+
+        varReplacer235 = "+49 99999 9999";
+
+        specialinvoke $stack5.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer232, varReplacer233, varReplacer234, varReplacer235);
+
+        $stack6 = new de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person;
+
+        varReplacer224 = "Ranjith3";
+
+        varReplacer225 = "Street 1023";
+
+        varReplacer226 = 1003;
+
+        varReplacer227 = "+49 99999 999933";
+
+        specialinvoke $stack6.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>(varReplacer224, varReplacer225, varReplacer226, varReplacer227);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        if $stack4 != $stack5 goto label1;
+
+        nop;
+
+        $stack26 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack26 = 0;
+
+     label2:
+        virtualinvoke $stack7.<java.io.PrintStream: void println(boolean)>($stack26);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        if $stack4 != $stack6 goto label3;
+
+        nop;
+
+        $stack23 = 1;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        $stack23 = 0;
+
+     label4:
+        virtualinvoke $stack8.<java.io.PrintStream: void println(boolean)>($stack23);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        if $stack4 != $stack4 goto label5;
+
+        nop;
+
+        $stack16 = 1;
+
+        goto label6;
+
+     label5:
+        nop;
+
+        $stack16 = 0;
+
+     label6:
+        virtualinvoke $stack9.<java.io.PrintStream: void println(boolean)>($stack16);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack11 = virtualinvoke $stack4.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>($stack5);
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack11);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack13 = virtualinvoke $stack4.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>($stack6);
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack13);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack15 = virtualinvoke $stack4.<de.fraunhofer.iem.basics.equality.withEqualsAndHashCode.Person: boolean equals(java.lang.Object)>($stack4);
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(boolean)>($stack15);
+
+        return;
+    }
+}

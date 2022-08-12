@@ -1,0 +1,15 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)>"],
+    "methodsInformation": {"void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)": {
+        "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A"},
+        "stackVariables": {"$stack3": "java.io.PrintStream"},
+        "invokeExpressions": [
+            "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+            "<java.io.PrintStream: void println(java.lang.Object)>"
+        ]
+    }}
+}

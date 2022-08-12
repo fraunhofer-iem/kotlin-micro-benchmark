@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2 extends java.lang.Object
+{
+
+    public abstract void print1();
+
+    public abstract void print2();
+}

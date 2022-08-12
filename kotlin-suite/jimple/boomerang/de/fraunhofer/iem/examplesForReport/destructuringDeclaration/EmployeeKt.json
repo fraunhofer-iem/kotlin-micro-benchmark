@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()>",
+        "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()": {
+            "localVariables": {
+                "varReplacer1292": "java.lang.String",
+                "varReplacer1293": "java.lang.String",
+                "varReplacer1294": "int"
+            },
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: void <init>(java.lang.String,java.lang.String,int)>"]
+        },
+        "void entry()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack7": "de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.lang.String",
+                "$stack10": "int",
+                "$stack11": "de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()>",
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component1()>",
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component2()>",
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: int component3()>",
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()>",
+                "<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component2()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

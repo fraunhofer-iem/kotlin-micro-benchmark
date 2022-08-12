@@ -1,0 +1,171 @@
+public final class de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt extends java.lang.Object
+{
+
+    public static final void runTheJobInShell()
+    {
+        java.lang.String[] $stack20;
+        int $stack13, $i0, varReplacer1254, varReplacer1255, varReplacer1256;
+        java.lang.String $stack10, $stack11, $stack14, executable, argument1, varReplacer1251, varReplacer1252, varReplacer1253, varReplacer1258, varReplacer1259, varReplacer1260, varReplacer1261;
+        java.lang.ProcessBuilder $u0;
+        java.io.PrintStream $stack9, $stack36;
+        java.lang.CharSequence $stack12;
+        java.lang.Process $stack16;
+        java.io.IOException $stack35;
+        null_type varReplacer1257;
+
+        nop;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1258 = "Enter the admin password: ";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void print(java.lang.Object)>(varReplacer1258);
+
+        $stack10 = staticinvoke <kotlin.io.ConsoleKt: java.lang.String readLine()>();
+
+        varReplacer1260 = "os.name";
+
+        $stack11 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>(varReplacer1260);
+
+        varReplacer1252 = "currentOS";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack11, varReplacer1252);
+
+        $stack12 = (java.lang.CharSequence) $stack11;
+
+        varReplacer1253 = "Windows";
+
+        varReplacer1254 = 0;
+
+        varReplacer1255 = 0;
+
+        varReplacer1256 = 6;
+
+        varReplacer1257 = null;
+
+        $stack13 = staticinvoke <kotlin.text.StringsKt: int indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object)>($stack12, varReplacer1253, varReplacer1254, varReplacer1254, varReplacer1256, varReplacer1257);
+
+        $i0 = (int) -1;
+
+        if $stack13 == $i0 goto label1;
+
+        nop;
+
+        executable = "cmd.exe";
+
+        argument1 = "/c";
+
+        goto label2;
+
+     label1:
+        nop;
+
+        executable = "sh";
+
+        argument1 = "-c";
+
+     label2:
+        varReplacer1259 = "run_job.sh ";
+
+        $stack14 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1259, $stack10);
+
+        $u0 = new java.lang.ProcessBuilder;
+
+        $stack20 = newarray (java.lang.String)[3];
+
+        $stack20[0] = executable;
+
+        $stack20[1] = argument1;
+
+        $stack20[2] = $stack14;
+
+        specialinvoke $u0.<java.lang.ProcessBuilder: void <init>(java.lang.String[])>($stack20);
+
+     label3:
+        $stack16 = virtualinvoke $u0.<java.lang.ProcessBuilder: java.lang.Process start()>();
+
+        varReplacer1261 = "process";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack16, varReplacer1261);
+
+        staticinvoke <de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void printCommandOutput(java.lang.Process)>($stack16);
+
+     label4:
+        goto label6;
+
+     label5:
+        $stack35 := @caughtexception;
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1251 = "Error while executing the command";
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1251);
+
+     label6:
+        return;
+
+        catch java.io.IOException from label3 to label4 with label5;
+    }
+
+    public static final void printCommandOutput(java.lang.Process)
+    {
+        java.io.PrintStream $stack13, $stack22;
+        java.lang.Process proc;
+        java.io.IOException $stack21;
+        java.io.Reader $stack11;
+        java.io.InputStreamReader $stack9;
+        java.io.BufferedReader $stack8;
+        java.lang.String $stack12, varReplacer1262, varReplacer1263;
+        java.io.InputStream $stack10;
+
+        nop;
+
+        proc := @parameter0: java.lang.Process;
+
+        varReplacer1263 = "proc";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(proc, varReplacer1263);
+
+        $stack8 = new java.io.BufferedReader;
+
+        $stack9 = new java.io.InputStreamReader;
+
+        $stack10 = virtualinvoke proc.<java.lang.Process: java.io.InputStream getInputStream()>();
+
+        specialinvoke $stack9.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($stack10);
+
+        $stack11 = (java.io.Reader) $stack9;
+
+        specialinvoke $stack8.<java.io.BufferedReader: void <init>(java.io.Reader)>($stack11);
+
+     label1:
+        $stack12 = virtualinvoke $stack8.<java.io.BufferedReader: java.lang.String readLine()>();
+
+        if $stack12 == null goto label3;
+
+        nop;
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        goto label1;
+
+     label2:
+        $stack21 := @caughtexception;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1262 = "An error occurred while printOSCommandResults";
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1262);
+
+     label3:
+        nop;
+
+        return;
+
+        catch java.io.IOException from label1 to label2 with label2;
+    }
+}

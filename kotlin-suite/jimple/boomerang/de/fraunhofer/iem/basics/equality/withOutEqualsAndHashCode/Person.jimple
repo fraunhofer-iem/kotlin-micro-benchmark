@@ -1,0 +1,182 @@
+public final class de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person extends java.lang.Object
+{
+    private java.lang.String name;
+    private java.lang.String address;
+    private int age;
+    private java.lang.String mobileNumber;
+
+    public void <init>(java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+        int age;
+        java.lang.String name, address, mobileNumber, varReplacer485, varReplacer486, varReplacer487;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        name := @parameter0: java.lang.String;
+
+        address := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        mobileNumber := @parameter3: java.lang.String;
+
+        varReplacer487 = "name";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, varReplacer487);
+
+        varReplacer486 = "address";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(address, varReplacer486);
+
+        varReplacer485 = "mobileNumber";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(mobileNumber, varReplacer485);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String name> = name;
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String address> = address;
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: int age> = age;
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String mobileNumber> = mobileNumber;
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final void setName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer488;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer488 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer488);
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String name> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getAddress()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final void setAddress(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer489;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer489 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer489);
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String address> = <set-?>;
+
+        return;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: int age> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getMobileNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public final void setMobileNumber(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer490;
+        de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer490 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer490);
+
+        this.<de.fraunhofer.iem.basics.equality.withOutEqualsAndHashCode.Person: java.lang.String mobileNumber> = <set-?>;
+
+        return;
+    }
+}

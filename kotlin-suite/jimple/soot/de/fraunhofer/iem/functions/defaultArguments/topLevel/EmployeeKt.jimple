@@ -1,0 +1,74 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt extends java.lang.Object
+{
+
+    public static final void send(java.lang.String, java.lang.String, int)
+    {
+        int age;
+        java.lang.String firstName, lastName;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, "firstName");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, "lastName");
+
+        return;
+    }
+
+    public static void send$default(java.lang.String, java.lang.String, int, int, java.lang.Object)
+    {
+        int l3, $stack5, $stack6, $stack7, l2, $i0;
+        java.lang.Object l4;
+        java.lang.String l0, l1;
+
+        l0 := @parameter0: java.lang.String;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label1;
+
+        l0 = "Unknown";
+
+     label1:
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label2;
+
+        l1 = "Unknown";
+
+     label2:
+        $stack7 = l3 & 4;
+
+        if $stack7 == 0 goto label3;
+
+        $i0 = (int) -1;
+
+        l2 = $i0;
+
+     label3:
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>(l0, l1, l2);
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>("Night", "Fury", 120);
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>("Night Fury", null, 120, 2, null);
+
+        return;
+    }
+}

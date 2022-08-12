@@ -1,0 +1,42 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "l1": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt: void main()>"]
+        }
+    }
+}

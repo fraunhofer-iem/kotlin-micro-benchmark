@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1",
+    "superClass": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1: void sayHello()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1"},
+            "stackVariables": {
+                "$fullName": "java.lang.String",
+                "$age": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: void <init>(java.lang.String,int)>"]
+        },
+        "void sayHello()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getManager$1",
+                "varReplacer1342": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

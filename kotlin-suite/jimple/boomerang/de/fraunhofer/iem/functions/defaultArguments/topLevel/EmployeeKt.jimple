@@ -1,0 +1,116 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt extends java.lang.Object
+{
+
+    public static final void send(java.lang.String, java.lang.String, int)
+    {
+        int age;
+        java.lang.String firstName, lastName, varReplacer1557, varReplacer1558;
+
+        nop;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1558 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1558);
+
+        varReplacer1557 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1557);
+
+        return;
+    }
+
+    public static void send$default(java.lang.String, java.lang.String, int, int, java.lang.Object)
+    {
+        int l3, $stack5, $stack6, $stack7, l2, $i0;
+        java.lang.Object l4;
+        java.lang.String l0, l1;
+
+        nop;
+
+        l0 := @parameter0: java.lang.String;
+
+        l1 := @parameter1: java.lang.String;
+
+        l2 := @parameter2: int;
+
+        l3 := @parameter3: int;
+
+        l4 := @parameter4: java.lang.Object;
+
+        $stack5 = l3 & 1;
+
+        if $stack5 == 0 goto label1;
+
+        nop;
+
+        l0 = "Unknown";
+
+     label1:
+        nop;
+
+        $stack6 = l3 & 2;
+
+        if $stack6 == 0 goto label2;
+
+        nop;
+
+        l1 = "Unknown";
+
+     label2:
+        nop;
+
+        $stack7 = l3 & 4;
+
+        if $stack7 == 0 goto label3;
+
+        nop;
+
+        $i0 = (int) -1;
+
+        l2 = $i0;
+
+     label3:
+        nop;
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>(l0, l1, l2);
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        null_type varReplacer1560, varReplacer1563;
+        int varReplacer1561, varReplacer1562, varReplacer1566;
+        java.lang.String varReplacer1559, varReplacer1564, varReplacer1565;
+
+        nop;
+
+        varReplacer1564 = "Night";
+
+        varReplacer1565 = "Fury";
+
+        varReplacer1566 = 120;
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>(varReplacer1564, varReplacer1565, varReplacer1566);
+
+        varReplacer1559 = "Night Fury";
+
+        varReplacer1560 = null;
+
+        varReplacer1561 = 120;
+
+        varReplacer1562 = 2;
+
+        varReplacer1563 = null;
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>(varReplacer1559, varReplacer1560, varReplacer1561, varReplacer1562, varReplacer1560);
+
+        return;
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt: void test(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>",
+        "<de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "void test(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)": {
+            "localVariables": {"temp": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator: java.lang.String sayHello()>",
+                "<java.io.PrintStream: void print(java.lang.Object)>"
+            ]
+        },
+        "void entry()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.companionObject.EmployeeKt: void test(de.fraunhofer.iem.examplesForReport.companionObject.Employee$MessageCreator)>"]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinCharKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinCharKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinCharKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "ch1": "char",
+                "varReplacer264": "int"
+            },
+            "stackVariables": {
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "char",
+                "$stack7": "java.lang.Character",
+                "$stack8": "char",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(char)>",
+                "<java.lang.Character: java.lang.Character valueOf(char)>",
+                "<java.lang.Character: char charValue()>",
+                "<java.io.PrintStream: void println(char)>",
+                "<kotlin.text.CharsKt: int digitToInt(char)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinCharKt: void main()>"]
+        }
+    }
+}

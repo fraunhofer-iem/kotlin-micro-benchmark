@@ -1,0 +1,27 @@
+public final class de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty $stack1;
+
+        $stack1 = new de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>("Ranjith");
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt: void main()>();
+
+        return;
+    }
+}

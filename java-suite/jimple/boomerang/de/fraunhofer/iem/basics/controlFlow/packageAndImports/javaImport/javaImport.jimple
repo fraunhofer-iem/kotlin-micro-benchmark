@@ -1,0 +1,48 @@
+public class de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaImport.javaImport extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaImport.javaImport this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaImport.javaImport;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4, $stack5;
+        de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage $stack2;
+        java.lang.String[] args;
+        java.lang.String $stack3, $stack6;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage: void <init>()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = $stack2.<de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage: java.lang.String name>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack3);
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage: void printMyName()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = virtualinvoke $stack2.<de.fraunhofer.iem.basics.controlFlow.packageAndImports.javaPackage.JavaPackage: java.lang.String getMyName()>();
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>($stack6);
+
+        return;
+    }
+}

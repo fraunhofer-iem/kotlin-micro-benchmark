@@ -1,0 +1,175 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection extends java.lang.Object
+{
+    private final de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host;
+    private final int port;
+
+    public void <init>(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host, int)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        int port;
+        java.lang.String varReplacer1430;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        host := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host;
+
+        port := @parameter1: int;
+
+        varReplacer1430 = "host";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(host, varReplacer1430);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host> = host;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int port> = port;
+
+        return;
+    }
+
+    public final de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host getHost()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host>;
+
+        return $stack1;
+    }
+
+    public final int getPort()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        int $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int port>;
+
+        return $stack1;
+    }
+
+    private final void printPort()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        int l1;
+        java.io.PrintStream $stack3;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        l1 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int port>;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void print(int)>(l1);
+
+        return;
+    }
+
+    public final void printConnectionString(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host)
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host $this$printConnectionString;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        java.lang.String varReplacer1431, varReplacer1432;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $this$printConnectionString := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host;
+
+        varReplacer1431 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$printConnectionString, varReplacer1431);
+
+        virtualinvoke $this$printConnectionString.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: void printHostname()>();
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1432 = ":";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void print(java.lang.Object)>(varReplacer1432);
+
+        specialinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void printPort()>();
+
+        return;
+    }
+
+    public final java.lang.String getFullName(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host $this$fullName;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        int $stack6, varReplacer1434;
+        java.lang.StringBuilder $stack2, $stack4, $stack5, $stack7;
+        java.lang.String $stack3, $stack8, varReplacer1433;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $this$fullName := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host;
+
+        varReplacer1433 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$fullName, varReplacer1433);
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $this$fullName.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: java.lang.String getHostname()>();
+
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        varReplacer1434 = 58;
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1434);
+
+        $stack6 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int port>;
+
+        $stack7 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack8;
+    }
+
+    public final void connect()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host $stack3, $stack6;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection this;
+        java.lang.String $stack4;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host>;
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: java.lang.String getFullName(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host)>($stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        $stack6 = this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host host>;
+
+        virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void printConnectionString(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host)>($stack6);
+
+        return;
+    }
+}

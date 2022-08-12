@@ -1,0 +1,46 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead",
+    "superClass": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: void <init>(java.lang.String,int)>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: java.lang.String getFName()>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: int getCurrAge()>",
+        "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead: void setCurrAge(int)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,int)": {
+            "localVariables": {
+                "fName": "java.lang.String",
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead",
+                "currAge": "int",
+                "varReplacer1467": "java.lang.String",
+                "varReplacer1468": "null_type"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.sealedClass.inClass.Employee: void <init>(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>"
+            ]
+        },
+        "java.lang.String getFName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "int getCurrAge()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setCurrAge(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.sealedClass.inClass.TeamLead",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

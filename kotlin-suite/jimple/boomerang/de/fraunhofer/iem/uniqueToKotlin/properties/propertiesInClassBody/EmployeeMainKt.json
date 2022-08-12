@@ -1,0 +1,54 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.EmployeeMainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.EmployeeMainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.EmployeeMainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1518": "java.lang.String",
+                "varReplacer1519": "java.lang.String",
+                "varReplacer1520": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: void <init>(java.lang.String,java.lang.String,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: java.lang.String getFirstName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: java.lang.String getLastName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: java.lang.String getEmployeeID()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: java.lang.String getDesignation()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: int getSalary()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.Employee: java.lang.String getAddress()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.properties.propertiesInClassBody.EmployeeMainKt: void main()>"]
+        }
+    }
+}

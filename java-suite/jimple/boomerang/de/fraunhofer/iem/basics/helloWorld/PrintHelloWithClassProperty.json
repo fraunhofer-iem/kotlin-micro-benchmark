@@ -1,0 +1,56 @@
+{
+    "className": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>",
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+                "name": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printHello()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty",
+                "varReplacer225": "java.lang.String",
+                "varReplacer226": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer227": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>"
+            ]
+        }
+    }
+}

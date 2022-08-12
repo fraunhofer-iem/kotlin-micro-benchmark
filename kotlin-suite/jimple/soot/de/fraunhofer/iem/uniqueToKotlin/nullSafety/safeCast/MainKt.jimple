@@ -1,0 +1,208 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack7, $stack14, $stack21;
+        java.lang.Exception $stack24, $stack38, $stack46, $stack57;
+        java.lang.String $stack3, $stack5, $stack8, $stack10, $stack12, $stack15, $stack17, $stack19, $stack22, $stack26, $stack27, $stack40, $stack41, $stack48, $stack49, $stack59, $stack60;
+        java.io.PrintStream $stack4, $stack6, $stack9, $stack11, $stack13, $stack16, $stack18, $stack20, $stack23, $stack28, $stack42, $stack50, $stack61;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>("ranjith");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+     label01:
+        $stack5 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>(null);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+     label02:
+        goto label04;
+
+     label03:
+        $stack57 := @caughtexception;
+
+        $stack59 = virtualinvoke $stack57.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack60 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Got Exception = ", $stack59);
+
+        $stack61 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack61.<java.io.PrintStream: void println(java.lang.Object)>($stack60);
+
+     label04:
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>($stack7);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+     label05:
+        goto label07;
+
+     label06:
+        $stack46 := @caughtexception;
+
+        $stack48 = virtualinvoke $stack46.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack49 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Got Exception = ", $stack48);
+
+        $stack50 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack50.<java.io.PrintStream: void println(java.lang.Object)>($stack49);
+
+     label07:
+        $stack10 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>("ranjith");
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+     label08:
+        $stack12 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>(null);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+     label09:
+        goto label11;
+
+     label10:
+        $stack38 := @caughtexception;
+
+        $stack40 = virtualinvoke $stack38.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack41 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Got Exception = ", $stack40);
+
+        $stack42 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack42.<java.io.PrintStream: void println(java.lang.Object)>($stack41);
+
+     label11:
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>($stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+     label12:
+        goto label14;
+
+     label13:
+        $stack24 := @caughtexception;
+
+        $stack26 = virtualinvoke $stack24.<java.lang.Exception: java.lang.String getMessage()>();
+
+        $stack27 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>("Got Exception = ", $stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+     label14:
+        $stack17 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>("ranjith");
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>(null);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>($stack21);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        return;
+
+        catch java.lang.Exception from label01 to label02 with label03;
+        catch java.lang.Exception from label04 to label05 with label06;
+        catch java.lang.Exception from label08 to label09 with label10;
+        catch java.lang.Exception from label11 to label12 with label13;
+    }
+
+    public static final java.lang.String castToString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack1;
+        java.lang.NullPointerException $stack2;
+
+        ob := @parameter0: java.lang.Object;
+
+        if ob != null goto label1;
+
+        $stack2 = new java.lang.NullPointerException;
+
+        specialinvoke $stack2.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type kotlin.String");
+
+        throw $stack2;
+
+     label1:
+        $stack1 = (java.lang.String) ob;
+
+        return $stack1;
+    }
+
+    public static final java.lang.String castToNullableString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack1;
+
+        ob := @parameter0: java.lang.Object;
+
+        $stack1 = (java.lang.String) ob;
+
+        return $stack1;
+    }
+
+    public static final java.lang.String castSafelyToNullableString(java.lang.Object)
+    {
+        java.lang.Object ob;
+        java.lang.String $stack2;
+        boolean $stack1;
+
+        ob := @parameter0: java.lang.Object;
+
+        $stack1 = ob instanceof java.lang.String;
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = (java.lang.String) ob;
+
+        goto label2;
+
+     label1:
+        $stack2 = null;
+
+     label2:
+        return $stack2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: void main()>();
+
+        return;
+    }
+}

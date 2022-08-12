@@ -1,0 +1,142 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 12,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String getUserName()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals(java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String constructor-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName box-impl(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>",
+        "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl0(java.lang.String,java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getUserName()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>"]
+        },
+        "java.lang.String toString-impl(java.lang.String)": {
+            "localVariables": {
+                "arg0": "java.lang.String",
+                "varReplacer732": "java.lang.String",
+                "varReplacer733": "int"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String toString-impl(java.lang.String)>"
+            ]
+        },
+        "int hashCode-impl(java.lang.String)": {
+            "localVariables": {"arg0": "java.lang.String"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": ["<java.lang.String: int hashCode()>"]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "int"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: int hashCode-impl(java.lang.String)>"
+            ]
+        },
+        "boolean equals-impl(java.lang.String,java.lang.Object)": {
+            "localVariables": {
+                "other": "java.lang.Object",
+                "arg0": "java.lang.String",
+                "varReplacer734": "int",
+                "varReplacer735": "int",
+                "varReplacer736": "int"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.String",
+                "$stack3": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: java.lang.String unbox-impl()>",
+                "<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: boolean equals-impl(java.lang.String,java.lang.Object)>"
+            ]
+        },
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName",
+                "userName": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String constructor-impl(java.lang.String)": {
+            "localVariables": {
+                "userName": "java.lang.String",
+                "varReplacer737": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName box-impl(java.lang.String)": {
+            "localVariables": {"v": "java.lang.String"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName: void <init>(java.lang.String)>"]
+        },
+        "java.lang.String unbox-impl()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.inlineClass.simpleExample.UserName"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "boolean equals-impl0(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "p1": "java.lang.String",
+                "p2": "java.lang.String"
+            },
+            "stackVariables": {"$stack2": "boolean"},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"]
+        }
+    }
+}

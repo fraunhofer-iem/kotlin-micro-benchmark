@@ -1,0 +1,198 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void dummy1(int,int)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void dummy2(java.lang.Integer,java.lang.Integer)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void dummy3(java.util.ArrayList,java.util.List)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: int getInt(int)>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"sum": "int"},
+            "stackVariables": {
+                "$stack12": "int",
+                "$stack13": "int",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.lang.Integer",
+                "$stack16": "java.lang.Integer",
+                "$stack17": "java.lang.Integer",
+                "$stack18": "java.lang.Integer",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "java.lang.Integer",
+                "$stack22": "java.io.PrintStream",
+                "$stack23": "boolean",
+                "$stack24": "java.io.PrintStream",
+                "$stack25": "boolean",
+                "$stack26": "java.io.PrintStream",
+                "$stack27": "int",
+                "$stack28": "java.io.PrintStream",
+                "$stack30": "java.lang.Integer",
+                "$stack32": "java.lang.Integer",
+                "$stack34": "java.lang.Integer",
+                "$stack36": "java.lang.Integer",
+                "$stack37": "java.util.ArrayList",
+                "$stack38": "java.lang.Integer",
+                "$stack39": "boolean",
+                "$stack40": "java.io.PrintStream",
+                "$stack45": "java.lang.Integer[]",
+                "$stack78": "boolean",
+                "$stack73": "boolean",
+                "$stack59": "boolean",
+                "$stack41": "boolean"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: int getInt(int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: int getInt(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.collections.CollectionsKt: java.util.ArrayList arrayListOf(java.lang.Object[])>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "void dummy1(int,int)": {
+            "localVariables": {
+                "a": "int",
+                "b": "int"
+            },
+            "stackVariables": {
+                "$stack8": "java.lang.Integer",
+                "$stack9": "java.lang.Integer",
+                "$stack10": "java.lang.Integer",
+                "$stack11": "java.lang.Integer",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.Integer",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.lang.Integer",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "boolean",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "boolean",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "int",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "int",
+                "$stack25": "java.io.PrintStream",
+                "$stack59": "boolean",
+                "$stack54": "boolean",
+                "$stack49": "boolean",
+                "$stack35": "boolean",
+                "$stack29": "boolean",
+                "$stack26": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "void dummy2(java.lang.Integer,java.lang.Integer)": {
+            "localVariables": {
+                "a": "java.lang.Integer",
+                "b": "java.lang.Integer"
+            },
+            "stackVariables": {
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "boolean",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "boolean",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "boolean",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "boolean",
+                "$stack19": "java.io.PrintStream",
+                "$stack49": "boolean",
+                "$stack44": "boolean",
+                "$stack39": "boolean",
+                "$stack20": "boolean"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>"
+            ]
+        },
+        "void dummy3(java.util.ArrayList,java.util.List)": {
+            "localVariables": {
+                "a": "java.util.ArrayList",
+                "b": "java.util.List"
+            },
+            "stackVariables": {
+                "$stack5": "java.lang.Integer",
+                "$stack6": "boolean",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.util.ArrayList: boolean add(java.lang.Object)>",
+                "<java.io.PrintStream: void println(boolean)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "int getInt(int)": {
+            "localVariables": {"range": "int"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinIntTypeKt: void main()>"]
+        }
+    }
+}

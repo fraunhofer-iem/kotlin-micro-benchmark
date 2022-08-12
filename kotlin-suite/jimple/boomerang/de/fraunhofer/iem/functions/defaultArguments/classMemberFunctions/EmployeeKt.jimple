@@ -1,0 +1,39 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt extends java.lang.Object
+{
+
+    public static final void entry()
+    {
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee $stack1;
+        null_type varReplacer1495, varReplacer1498;
+        int varReplacer1493, varReplacer1496, varReplacer1497;
+        java.lang.String varReplacer1491, varReplacer1492, varReplacer1494;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void <init>()>();
+
+        varReplacer1491 = "Night";
+
+        varReplacer1492 = "Fury";
+
+        varReplacer1493 = 120;
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>(varReplacer1491, varReplacer1492, varReplacer1493);
+
+        varReplacer1494 = "Night Fury";
+
+        varReplacer1495 = null;
+
+        varReplacer1496 = 120;
+
+        varReplacer1497 = 2;
+
+        varReplacer1498 = null;
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>($stack1, varReplacer1494, varReplacer1495, varReplacer1496, varReplacer1497, varReplacer1495);
+
+        return;
+    }
+}

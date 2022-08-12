@@ -1,0 +1,50 @@
+public final class de.fraunhofer.iem.generics.genericFunctions.MainKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Object, java.lang.Object)
+    {
+        java.lang.Object first, second;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair $stack2;
+
+        first := @parameter0: java.lang.Object;
+
+        second := @parameter1: java.lang.Object;
+
+        $stack2 = new de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>(first, second);
+
+        return $stack2;
+    }
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair $stack4;
+        java.lang.Double $stack3;
+        java.lang.Integer $stack2;
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2646);
+
+        $stack3 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(542.548);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.generics.genericFunctions.MainKt: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair createDifferentTypedPair(java.lang.Object,java.lang.Object)>($stack2, $stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.generics.genericFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

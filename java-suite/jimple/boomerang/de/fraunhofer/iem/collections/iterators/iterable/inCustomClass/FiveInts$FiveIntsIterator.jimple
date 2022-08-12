@@ -1,0 +1,153 @@
+class de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator extends java.lang.Object implements java.util.Iterator
+{
+    int currentCursor;
+    int nextCursor;
+    final de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts this$0;
+
+    private void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)
+    {
+        int $i0;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts l1;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        l1 := @parameter0: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts;
+
+        this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts this$0> = l1;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        $i0 = (int) -1;
+
+        this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int currentCursor> = $i0;
+
+        return;
+    }
+
+    public boolean hasNext()
+    {
+        int $stack1;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+        boolean $stack2;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        $stack1 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int currentCursor>;
+
+        if $stack1 >= 4 goto label1;
+
+        nop;
+
+        $stack2 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack2 = 0;
+
+     label2:
+        return $stack2;
+    }
+
+    public java.lang.Integer next()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts $stack3;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+        java.lang.Integer $stack7;
+        int[] $stack4;
+        int $stack1, $stack2, $stack5, $stack6;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        $stack1 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int currentCursor>;
+
+        $stack2 = $stack1 + 1;
+
+        this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int currentCursor> = $stack2;
+
+        this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int nextCursor> = $stack2;
+
+        $stack3 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts this$0>;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: int[] access$100(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)>($stack3);
+
+        $stack5 = this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: int nextCursor>;
+
+        $stack6 = $stack4[$stack5];
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack6);
+
+        return $stack7;
+    }
+
+    public void remove()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        specialinvoke this.<java.util.Iterator: void remove()>();
+
+        return;
+    }
+
+    public void forEachRemaining(java.util.function.Consumer)
+    {
+        java.util.function.Consumer action;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        action := @parameter0: java.util.function.Consumer;
+
+        specialinvoke this.<java.util.Iterator: void forEachRemaining(java.util.function.Consumer)>(action);
+
+        return;
+    }
+
+    public volatile java.lang.Object next()
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+        java.lang.Integer $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: java.lang.Integer next()>();
+
+        return $stack1;
+    }
+
+    void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts, de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$1)
+    {
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts x0;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$1 x1;
+        de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator;
+
+        x0 := @parameter0: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts;
+
+        x1 := @parameter1: de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$1;
+
+        specialinvoke this.<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts$FiveIntsIterator: void <init>(de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts)>(x0);
+
+        return;
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main: void <init>()>",
+        "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {
+                "$stack5": "de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts",
+                "$stack6": "java.util.Iterator",
+                "$stack7": "boolean",
+                "$stack8": "java.io.PrintStream",
+                "$stack10": "java.util.function.Consumer",
+                "$stack11": "java.lang.Object",
+                "$stack12": "java.lang.Integer",
+                "$stack13": "int",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.io.PrintStream",
+                "$stack17": "java.util.function.Consumer",
+                "$stack19": "java.lang.UnsupportedOperationException",
+                "$stack20": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void <init>(int,int,int,int,int)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.util.Iterator: void remove()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main$println__2: java.util.function.Consumer bootstrap$(java.io.PrintStream)>",
+                "<java.util.Iterator: void forEachRemaining(java.util.function.Consumer)>",
+                "<java.lang.Object: java.lang.Class getClass()>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.Main$println__1: java.util.function.Consumer bootstrap$(java.io.PrintStream)>",
+                "<de.fraunhofer.iem.collections.iterators.iterable.inCustomClass.FiveInts: void forEach(java.util.function.Consumer)>"
+            ]
+        }
+    }
+}

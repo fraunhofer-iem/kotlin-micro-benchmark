@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.EmployeeKt: void entry()>"],
+    "methodsInformation": {"void entry()": {
+        "localVariables": {
+            "varReplacer1491": "java.lang.String",
+            "varReplacer1492": "java.lang.String",
+            "varReplacer1493": "int",
+            "varReplacer1494": "java.lang.String",
+            "varReplacer1495": "null_type",
+            "varReplacer1496": "int",
+            "varReplacer1497": "int",
+            "varReplacer1498": "null_type"
+        },
+        "stackVariables": {"$stack1": "de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee"},
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void <init>()>",
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send(java.lang.String,java.lang.String,int)>",
+            "<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee: void send$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.Employee,java.lang.String,java.lang.String,int,int,java.lang.Object)>"
+        ]
+    }}
+}

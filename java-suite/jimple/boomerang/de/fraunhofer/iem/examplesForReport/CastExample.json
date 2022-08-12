@@ -1,0 +1,44 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.CastExample",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.CastExample: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.CastExample: void printLengthInJava(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.CastExample"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printLengthInJava(java.lang.Object)": {
+            "localVariables": {
+                "obj": "java.lang.Object",
+                "varReplacer554": "java.lang.String",
+                "varReplacer555": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack2": "boolean",
+                "$stack4": "java.lang.String",
+                "$stack5": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String",
+                "$stack3": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        }
+    }
+}

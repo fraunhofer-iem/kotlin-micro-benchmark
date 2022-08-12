@@ -1,0 +1,7 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A extends java.lang.Object
+{
+
+    public abstract void foo();
+
+    public abstract void bar();
+}

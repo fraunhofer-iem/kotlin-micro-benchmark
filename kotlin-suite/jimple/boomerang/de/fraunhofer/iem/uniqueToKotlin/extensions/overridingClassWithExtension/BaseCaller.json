@@ -1,0 +1,61 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller",
+                "varReplacer1438": "java.lang.String",
+                "varReplacer1439": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$printFunctionInfo": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller",
+                "varReplacer1440": "java.lang.String",
+                "varReplacer1441": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$printFunctionInfo": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void call(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)": {
+            "localVariables": {
+                "b": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller",
+                "varReplacer1442": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.BaseCaller: void printFunctionInfo(de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base)>"
+            ]
+        }
+    }
+}

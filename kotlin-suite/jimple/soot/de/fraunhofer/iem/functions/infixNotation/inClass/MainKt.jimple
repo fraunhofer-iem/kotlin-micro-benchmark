@@ -1,0 +1,47 @@
+public final class de.fraunhofer.iem.functions.infixNotation.inClass.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack11, $stack13;
+        de.fraunhofer.iem.functions.infixNotation.inClass.MyInt $stack6, $stack7, $stack8, $stack9;
+        int $stack10, $stack12;
+
+        $stack6 = new de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>(10);
+
+        $stack7 = new de.fraunhofer.iem.functions.infixNotation.inClass.MyInt;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: void <init>(int)>(30);
+
+        $stack8 = virtualinvoke $stack6.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt add(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>($stack7);
+
+        $stack9 = virtualinvoke $stack6.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: de.fraunhofer.iem.functions.infixNotation.inClass.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inClass.MyInt)>($stack7);
+
+        $stack10 = virtualinvoke $stack8.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int getNumber()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = virtualinvoke $stack9.<de.fraunhofer.iem.functions.infixNotation.inClass.MyInt: int getNumber()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.infixNotation.inClass.MainKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void runTheJobInShell()>",
+        "<de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void printCommandOutput(java.lang.Process)>"
+    ],
+    "methodsInformation": {
+        "void runTheJobInShell()": {
+            "localVariables": {
+                "executable": "java.lang.String",
+                "argument1": "java.lang.String",
+                "varReplacer1251": "java.lang.String",
+                "varReplacer1252": "java.lang.String",
+                "varReplacer1253": "java.lang.String",
+                "varReplacer1254": "int",
+                "varReplacer1255": "int",
+                "varReplacer1256": "int",
+                "varReplacer1257": "null_type",
+                "varReplacer1258": "java.lang.String",
+                "varReplacer1259": "java.lang.String",
+                "varReplacer1260": "java.lang.String",
+                "varReplacer1261": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.lang.CharSequence",
+                "$stack13": "int",
+                "$stack14": "java.lang.String",
+                "$stack16": "java.lang.Process",
+                "$stack20": "java.lang.String[]",
+                "$stack35": "java.io.IOException",
+                "$stack36": "java.io.PrintStream",
+                "$u0": "java.lang.ProcessBuilder",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void print(java.lang.Object)>",
+                "<kotlin.io.ConsoleKt: java.lang.String readLine()>",
+                "<java.lang.System: java.lang.String getProperty(java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<kotlin.text.StringsKt: int indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.lang.ProcessBuilder: void <init>(java.lang.String[])>",
+                "<java.lang.ProcessBuilder: java.lang.Process start()>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.examplesForReport.CommandInjectionExampleKt: void printCommandOutput(java.lang.Process)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void printCommandOutput(java.lang.Process)": {
+            "localVariables": {
+                "proc": "java.lang.Process",
+                "varReplacer1262": "java.lang.String",
+                "varReplacer1263": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack8": "java.io.BufferedReader",
+                "$stack9": "java.io.InputStreamReader",
+                "$stack10": "java.io.InputStream",
+                "$stack11": "java.io.Reader",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack21": "java.io.IOException",
+                "$stack22": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Process: java.io.InputStream getInputStream()>",
+                "<java.io.InputStreamReader: void <init>(java.io.InputStream)>",
+                "<java.io.BufferedReader: void <init>(java.io.Reader)>",
+                "<java.io.BufferedReader: java.lang.String readLine()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        }
+    }
+}

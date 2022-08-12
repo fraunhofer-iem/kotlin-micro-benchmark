@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function0"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: void <init>()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: java.lang.String invoke()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: java.lang.Object invoke()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1",
+                "varReplacer2375": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "java.lang.String invoke()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1",
+                "varReplacer2376": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.Object invoke()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: java.lang.String invoke()>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.functionTypes.MainKt$giveFun2$fun2$1: void <init>()>"]
+        }
+    }
+}

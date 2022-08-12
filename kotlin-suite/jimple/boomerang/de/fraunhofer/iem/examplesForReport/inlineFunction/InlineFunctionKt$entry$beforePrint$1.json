@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1",
+    "superClass": "kotlin.jvm.internal.Lambda",
+    "implementedInterface": ["kotlin.jvm.functions.Function0"],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: void <init>()>",
+        "<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: void invoke()>",
+        "<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: java.lang.Object invoke()>",
+        "<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1",
+                "varReplacer1411": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Lambda: void <init>(int)>"]
+        },
+        "void invoke()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1",
+                "varReplacer1412": "java.lang.String"
+            },
+            "stackVariables": {"$stack3": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "java.lang.Object invoke()": {
+            "localVariables": {"this": "de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1"},
+            "stackVariables": {"$stack1": "kotlin.Unit"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: void invoke()>"]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1"},
+            "invokeExpressions": ["<de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: void <init>()>"]
+        }
+    }
+}

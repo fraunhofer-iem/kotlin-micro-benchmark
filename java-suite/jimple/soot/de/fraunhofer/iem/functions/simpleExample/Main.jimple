@@ -1,0 +1,83 @@
+public class de.fraunhofer.iem.functions.simpleExample.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.functions.simpleExample.Main this;
+
+        this := @this: de.fraunhofer.iem.functions.simpleExample.Main;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack1, $stack3, $stack5, $stack7;
+        java.lang.String[] args;
+        int $stack2, $stack6;
+        float $stack4, $stack8;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>(10, 20);
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(int)>($stack2);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>(10, 20);
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(float)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: int add(int,int)>(1123, 223);
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.simpleExample.Main: float add10(int,int)>(1123, 223);
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(float)>($stack8);
+
+        return;
+    }
+
+    public static int add(int, int)
+    {
+        int num1, num2, $stack2;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack2 = num1 + num2;
+
+        return $stack2;
+    }
+
+    private static float add10(int, int)
+    {
+        int num1, num2;
+        float $stack2, $stack3, $stack4, $stack5;
+
+        num1 := @parameter0: int;
+
+        num2 := @parameter1: int;
+
+        $stack3 = (float) num1;
+
+        $stack2 = (float) num2;
+
+        $stack4 = $stack3 + $stack2;
+
+        $stack5 = $stack4 + 10.0F;
+
+        return $stack5;
+    }
+}

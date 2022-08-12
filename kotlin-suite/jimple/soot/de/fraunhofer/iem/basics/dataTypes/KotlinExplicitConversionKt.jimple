@@ -1,0 +1,108 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinExplicitConversionKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        byte $stack14;
+        float $stack20;
+        java.lang.StringBuilder $stack28, $stack29, $stack30, $stack31, $stack32, $stack33, $stack34, $stack35, $stack36, $stack37, $stack38, $stack39, $stack40, $stack41, $stack42, $u0;
+        long $stack18;
+        short num2;
+        int $stack16, dup1, $stack26, $i0, $i1;
+        java.lang.String $stack43;
+        java.lang.Number $stack13, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25;
+        double $stack22, $stack24, dup2;
+        java.io.PrintStream $stack44;
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("float");
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Number: byte byteValue()>();
+
+        num2 = (short) $stack14;
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("long");
+
+        $stack16 = virtualinvoke $stack15.<java.lang.Number: int intValue()>();
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("long");
+
+        $stack18 = virtualinvoke $stack17.<java.lang.Number: long longValue()>();
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("float");
+
+        $stack20 = virtualinvoke $stack19.<java.lang.Number: float floatValue()>();
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("double");
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: double doubleValue()>();
+
+        $stack23 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("what");
+
+        $stack24 = virtualinvoke $stack23.<java.lang.Number: double doubleValue()>();
+
+        dup1 = (int) $stack24;
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("what");
+
+        $stack26 = virtualinvoke $stack25.<java.lang.Number: int intValue()>();
+
+        dup2 = (double) $stack26;
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        $i0 = (int) $stack14;
+
+        $stack28 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0);
+
+        $stack29 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $i1 = (int) num2;
+
+        $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i1);
+
+        $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack32 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack16);
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack34 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($stack18);
+
+        $stack35 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack36 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(float)>($stack20);
+
+        $stack37 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>($stack22);
+
+        $stack39 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack40 = virtualinvoke $stack39.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(dup1);
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack42 = virtualinvoke $stack41.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>(dup2);
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack44 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack44.<java.io.PrintStream: void println(java.lang.Object)>($stack43);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinExplicitConversionKt: void main()>();
+
+        return;
+    }
+}

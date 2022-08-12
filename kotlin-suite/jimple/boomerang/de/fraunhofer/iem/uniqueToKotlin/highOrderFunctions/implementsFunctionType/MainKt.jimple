@@ -1,0 +1,41 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.NamePrinter $stack1;
+        kotlin.jvm.functions.Function1 namePrinter;
+        java.lang.String varReplacer2434, varReplacer2435;
+
+        nop;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.NamePrinter;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.NamePrinter: void <init>()>();
+
+        namePrinter = (kotlin.jvm.functions.Function1) $stack1;
+
+        varReplacer2434 = "Ranjith";
+
+        interfaceinvoke namePrinter.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(varReplacer2434);
+
+        varReplacer2435 = "Ranjith";
+
+        interfaceinvoke namePrinter.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(varReplacer2435);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.implementsFunctionType.MainKt: void main()>();
+
+        return;
+    }
+}

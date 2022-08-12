@@ -1,0 +1,162 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 13,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object getFirst()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void setFirst(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object getSecond()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void setSecond(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void replace(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object component1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.Object component2()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy$default(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair,java.lang.Object,java.lang.Object,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: java.lang.String toString()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: int hashCode()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "first": "java.lang.Object",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.Object getFirst()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "void setFirst(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "<set-?>": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.Object getSecond()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "void setSecond(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "<set-?>": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void replace(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair)": {
+            "localVariables": {
+                "ob": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.Object",
+                "$stack3": "java.lang.Object"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "java.lang.Object component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object component2()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "first": "java.lang.Object",
+                "second": "java.lang.Object",
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"
+            },
+            "stackVariables": {"$stack3": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>"]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy$default(de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair,java.lang.Object,java.lang.Object,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l3": "int",
+                "$stack5": "int",
+                "$stack6": "int",
+                "l0": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "$stack7": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "l4": "java.lang.Object",
+                "l1": "java.lang.Object",
+                "l2": "java.lang.Object"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair: de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair copy(java.lang.Object,java.lang.Object)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.Object",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.Object",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair"},
+            "stackVariables": {
+                "$stack2": "java.lang.Object",
+                "$stack3": "java.lang.Object",
+                "$stack5": "java.lang.Object",
+                "$stack6": "java.lang.Object",
+                "$stack7": "int",
+                "$stack9": "int",
+                "$stack4": "int",
+                "$stack8": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Object: int hashCode()>",
+                "<java.lang.Object: int hashCode()>"
+            ]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.uniqueToKotlin.declarationSiteVarianceAndTypeProjetion.typeProjection.DifferentTypedPair",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.lang.Object",
+                "$stack6": "boolean",
+                "$stack7": "java.lang.Object",
+                "$stack8": "java.lang.Object",
+                "$stack9": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+public class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer extends java.lang.Object
+{
+    private int a;
+    protected int b;
+    int d;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer this;
+        int varReplacer475, varReplacer476, varReplacer477;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer475 = 1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int a> = varReplacer475;
+
+        varReplacer476 = 2;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int b> = varReplacer476;
+
+        varReplacer477 = 4;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: int d> = varReplacer477;
+
+        return;
+    }
+}

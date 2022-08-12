@@ -1,0 +1,87 @@
+{
+    "className": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: void main()>",
+        "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "varReplacer1805": "java.lang.String",
+                "varReplacer1806": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$add": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack2": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>"
+            ]
+        },
+        "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)": {
+            "localVariables": {
+                "secondNumber": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "varReplacer1807": "java.lang.String",
+                "varReplacer1808": "java.lang.String"
+            },
+            "stackVariables": {
+                "$this$sub": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack2": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {
+                "varReplacer1809": "int",
+                "varReplacer1810": "int"
+            },
+            "stackVariables": {
+                "$stack6": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack7": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack8": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack9": "de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int",
+                "$stack13": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt add(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt sub(de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt,de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MyInt: int getNumber()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.infixNotation.inExtensionFunction.MainKt: void main()>"]
+        }
+    }
+}

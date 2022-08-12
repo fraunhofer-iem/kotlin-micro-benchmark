@@ -1,0 +1,51 @@
+public final class de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1 extends de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee
+{
+    final java.lang.String $fullName;
+    final int $age;
+
+    void <init>(java.lang.String, int)
+    {
+        int $age;
+        java.lang.String $fullName;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1;
+
+        $fullName := @parameter0: java.lang.String;
+
+        $age := @parameter1: int;
+
+        this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1: java.lang.String $fullName> = $fullName;
+
+        this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1: int $age> = $age;
+
+        specialinvoke this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.Employee: void <init>(java.lang.String,int)>($fullName, $age);
+
+        return;
+    }
+
+    public void sayHello()
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1 this;
+        java.lang.String $stack3, $stack4, varReplacer1343;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1;
+
+        $stack3 = this.<de.fraunhofer.iem.examplesForReport.funcRetAnOb.EmployeeUtilKt$getTeamLead$1: java.lang.String $fullName>;
+
+        varReplacer1343 = "Hello Lead!, ";
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1343, $stack3);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+}

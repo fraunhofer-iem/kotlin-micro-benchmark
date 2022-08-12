@@ -1,0 +1,114 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person extends java.lang.Object
+{
+    private final java.lang.String name;
+    private final java.lang.String address;
+    private final int age;
+    private final java.lang.String mobileNumber;
+
+    public void <init>(java.lang.String, java.lang.String, int, java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+        int age;
+        java.lang.String name, address, mobileNumber;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        name := @parameter0: java.lang.String;
+
+        address := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        mobileNumber := @parameter3: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(address, "address");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(mobileNumber, "mobileNumber");
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String name> = name;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String address> = address;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: int age> = age;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String mobileNumber> = mobileNumber;
+
+        return;
+    }
+
+    public final java.lang.String getName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getAddress()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: int age>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String getMobileNumber()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component1()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String mobileNumber>;
+
+        return $stack1;
+    }
+
+    public final java.lang.String component3()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String address>;
+
+        return $stack1;
+    }
+}

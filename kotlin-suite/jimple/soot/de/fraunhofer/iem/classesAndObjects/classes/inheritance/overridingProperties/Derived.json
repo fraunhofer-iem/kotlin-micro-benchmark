@@ -1,0 +1,58 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: java.lang.String getProp()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: void setProp(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: int getNum()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: char getCh()>",
+        "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived: void setCh(char)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "prop": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Base: void <init>(java.lang.String)>"
+            ]
+        },
+        "java.lang.String getProp()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setProp(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "int getNum()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "char getCh()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived"},
+            "stackVariables": {"$stack1": "char"},
+            "invokeExpressions": []
+        },
+        "void setCh(char)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.classes.inheritance.overridingProperties.Derived",
+                "<set-?>": "char"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

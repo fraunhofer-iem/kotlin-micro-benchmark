@@ -1,0 +1,128 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee extends java.lang.Object
+{
+    private final java.lang.String firstName;
+    private int age;
+    private java.lang.String lastName;
+
+    public void <init>(java.lang.String, java.lang.String, int)
+    {
+        java.io.PrintStream $stack6, $stack7, $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee this;
+        int age, $i0;
+        java.lang.String firstName, lastName, varReplacer1455, varReplacer1456, varReplacer1457, varReplacer1458, varReplacer1459;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee;
+
+        firstName := @parameter0: java.lang.String;
+
+        lastName := @parameter1: java.lang.String;
+
+        age := @parameter2: int;
+
+        varReplacer1459 = "firstName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(firstName, varReplacer1459);
+
+        varReplacer1458 = "lastName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(lastName, varReplacer1458);
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: java.lang.String firstName> = firstName;
+
+        $i0 = (int) -100;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: int age> = $i0;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1455 = "Initializer started";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1455);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: java.lang.String lastName> = lastName;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1457 = "Second initializer";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1457);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: int age> = age;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1456 = "Initializers completed";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1456);
+
+        return;
+    }
+
+    public final int getAge()
+    {
+        int $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: int age>;
+
+        return $stack1;
+    }
+
+    public final void setAge(int)
+    {
+        int <set-?>;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee;
+
+        <set-?> := @parameter0: int;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: int age> = <set-?>;
+
+        return;
+    }
+
+    public final java.lang.String getLastName()
+    {
+        java.lang.String $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee;
+
+        $stack1 = this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: java.lang.String lastName>;
+
+        return $stack1;
+    }
+
+    public final void setLastName(java.lang.String)
+    {
+        java.lang.String <set-?>, varReplacer1460;
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        varReplacer1460 = "<set-?>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(<set-?>, varReplacer1460);
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.Employee: java.lang.String lastName> = <set-?>;
+
+        return;
+    }
+}

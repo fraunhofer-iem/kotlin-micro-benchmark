@@ -1,0 +1,74 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog $stack4;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Horse $stack2;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Cat $stack0;
+        java.lang.String varReplacer483, varReplacer484, varReplacer485;
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal $stack1, $stack3, $stack5;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Cat;
+
+        varReplacer484 = "AAATGC";
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Cat: void <init>(java.lang.String)>(varReplacer484);
+
+        $stack1 = (de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal) $stack0;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>($stack1);
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Horse;
+
+        varReplacer483 = "ATTCG";
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Horse: void <init>(java.lang.String)>(varReplacer483);
+
+        $stack3 = (de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>($stack3);
+
+        $stack4 = new de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog;
+
+        varReplacer485 = "CGTTA";
+
+        specialinvoke $stack4.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Dog: void <init>(java.lang.String)>(varReplacer485);
+
+        $stack5 = (de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)>($stack5);
+
+        return;
+    }
+
+    private static final void displayAnimal(de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal)
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal animal;
+
+        nop;
+
+        animal := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal;
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: void displayDNA()>();
+
+        virtualinvoke animal.<de.fraunhofer.iem.classesAndObjects.classes.abstractClass.Animal: void makeNoise()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.abstractClass.AnimalMainKt: void main()>();
+
+        return;
+    }
+}

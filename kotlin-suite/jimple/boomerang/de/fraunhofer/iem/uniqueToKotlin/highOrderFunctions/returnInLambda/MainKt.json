@@ -1,0 +1,52 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$1",
+                "$stack3": "kotlin.jvm.functions.Function1",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt$main$2",
+                "$stack7": "kotlin.jvm.functions.Function1",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: java.lang.String printName(kotlin.jvm.functions.Function1)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String printName(kotlin.jvm.functions.Function1)": {
+            "localVariables": {
+                "printer": "kotlin.jvm.functions.Function1",
+                "varReplacer2548": "java.lang.String",
+                "varReplacer2549": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.Object",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.returnInLambda.MainKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt$WhenMappings",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.MainKt$WhenMappings: void <clinit>()>"],
+    "methodsInformation": {"void <clinit>()": {
+        "localVariables": {
+            "varReplacer658": "int",
+            "varReplacer659": "int",
+            "varReplacer660": "int",
+            "varReplacer661": "int"
+        },
+        "stackVariables": {
+            "$stack1": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[]",
+            "$stack2": "int",
+            "l0": "int[]",
+            "$stack3": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack4": "int",
+            "$stack5": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack6": "int",
+            "$stack7": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack8": "int",
+            "$stack9": "de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu",
+            "$stack10": "int"
+        },
+        "invokeExpressions": [
+            "<de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu: de.fraunhofer.iem.classesAndObjects.enumClass.enumWithCustomValue.Menu[] values()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>",
+            "<java.lang.Enum: int ordinal()>"
+        ]
+    }}
+}

@@ -1,0 +1,137 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void example1()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person returnFromFunction()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void inLambda(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$component2": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack1": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: int getAge()>"
+            ]
+        },
+        "java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$component4": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack1": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String getName()>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack10": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack11": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack12": "java.lang.String",
+                "$stack13": "int",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack21": "int",
+                "$stack22": "java.lang.String",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void example1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void inLambda(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person returnFromFunction()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component3()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person returnFromFunction()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void example1()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack10": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "$stack11": "java.lang.String",
+                "$stack12": "int",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "int",
+                "$stack20": "java.lang.String",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component1()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: java.lang.String component3()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: int component2(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: java.lang.String component4(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person returnFromFunction()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person"},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>"]
+        },
+        "void inLambda(de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person)": {
+            "localVariables": {
+                "person": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.Person",
+                "func": "kotlin.jvm.functions.Function1",
+                "funcWithUnderscore": "kotlin.jvm.functions.Function1"
+            },
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$func$1",
+                "$stack5": "de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt$inLambda$funcWithUnderscore$1"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.destructuringDeclaration.inCustomClass.MainKt: void main()>"]
+        }
+    }
+}

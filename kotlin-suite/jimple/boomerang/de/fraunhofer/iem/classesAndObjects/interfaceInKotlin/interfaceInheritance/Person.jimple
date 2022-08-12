@@ -1,0 +1,92 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Movable
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void jog()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer778;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer778 = "Jogging";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer778);
+
+        return;
+    }
+
+    public void run()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer779;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer779 = "Running";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer779);
+
+        return;
+    }
+
+    public void walk()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer780;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer780 = "Walking";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer780);
+
+        return;
+    }
+
+    public void crawl()
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer781;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.interfaceInheritance.Person;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer781 = "Crawling";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer781);
+
+        return;
+    }
+}

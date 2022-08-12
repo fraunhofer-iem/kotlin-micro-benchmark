@@ -1,0 +1,79 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaStringType extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaStringType this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaStringType;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String[] args;
+        java.lang.String $stack2;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaStringType: java.lang.String getString()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>($stack2);
+
+        return;
+    }
+
+    private static java.lang.String getString()
+    {
+        java.io.PrintStream $stack5;
+        java.util.Scanner $stack3;
+        java.lang.String $stack6, varReplacer220, varReplacer221, varReplacer222, varReplacer223;
+        java.io.InputStream $stack4;
+        boolean $stack7;
+
+        nop;
+
+        $stack3 = new java.util.Scanner;
+
+        $stack4 = <java.lang.System: java.io.InputStream in>;
+
+        specialinvoke $stack3.<java.util.Scanner: void <init>(java.io.InputStream)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer220 = "Enter some input: ";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void print(java.lang.String)>(varReplacer220);
+
+        $stack6 = virtualinvoke $stack3.<java.util.Scanner: java.lang.String nextLine()>();
+
+        varReplacer222 = "2";
+
+        $stack7 = virtualinvoke $stack6.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer222);
+
+        if $stack7 == 0 goto label1;
+
+        nop;
+
+        varReplacer223 = "Hi, How are you?\nWelcome to Java\n";
+
+        return varReplacer223;
+
+     label1:
+        nop;
+
+        varReplacer221 = "Welcome to Java!!\nHow are you doing\n";
+
+        return varReplacer221;
+    }
+}

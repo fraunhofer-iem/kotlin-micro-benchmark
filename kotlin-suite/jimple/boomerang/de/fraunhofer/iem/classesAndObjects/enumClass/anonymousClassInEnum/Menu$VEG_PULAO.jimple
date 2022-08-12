@@ -1,0 +1,54 @@
+final class de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO extends de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu
+{
+
+    void <init>(java.lang.String, int)
+    {
+        null_type varReplacer623;
+        de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO this;
+        int $enum$ordinal, varReplacer622;
+        java.lang.String $enum$name;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO;
+
+        $enum$name := @parameter0: java.lang.String;
+
+        $enum$ordinal := @parameter1: int;
+
+        varReplacer622 = 90;
+
+        varReplacer623 = null;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu: void <init>(java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)>($enum$name, $enum$ordinal, varReplacer622, varReplacer623);
+
+        return;
+    }
+
+    public void print()
+    {
+        java.io.PrintStream $stack7;
+        de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO this;
+        int $stack4;
+        java.lang.String $stack6, varReplacer624;
+        java.lang.Integer $stack5;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO;
+
+        $stack4 = virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.enumClass.anonymousClassInEnum.Menu$VEG_PULAO: int getPrice()>();
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack4);
+
+        varReplacer624 = "Veg pulao costs ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer624, $stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>($stack6);
+
+        return;
+    }
+}

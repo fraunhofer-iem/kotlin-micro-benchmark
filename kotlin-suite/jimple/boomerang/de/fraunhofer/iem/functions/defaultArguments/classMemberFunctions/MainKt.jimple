@@ -1,0 +1,215 @@
+public final class de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        null_type varReplacer937, varReplacer943, varReplacer949, varReplacer959, varReplacer965, varReplacer979, varReplacer985;
+        de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts $stack3;
+        float $stack14, $stack16, $stack18, $stack20, $stack22;
+        int $stack4, $stack6, $stack8, $stack10, $stack12, $stack24, varReplacer928, varReplacer929, varReplacer930, varReplacer931, varReplacer932, varReplacer933, varReplacer934, varReplacer935, varReplacer936, varReplacer938, varReplacer939, varReplacer940, varReplacer941, varReplacer942, varReplacer944, varReplacer945, varReplacer946, varReplacer947, varReplacer948, varReplacer950, varReplacer951, varReplacer952, varReplacer953, varReplacer954, varReplacer955, varReplacer956, varReplacer957, varReplacer958, varReplacer960, varReplacer961, varReplacer962, varReplacer963, varReplacer964, varReplacer966, varReplacer967, varReplacer968, varReplacer969, varReplacer970, varReplacer971, varReplacer972, varReplacer973, varReplacer974, varReplacer975, varReplacer976, varReplacer977, varReplacer978, varReplacer980, varReplacer981, varReplacer982, varReplacer983, varReplacer984;
+        java.io.PrintStream $stack5, $stack7, $stack9, $stack11, $stack13, $stack15, $stack17, $stack19, $stack21, $stack23, $stack25;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: void <init>()>();
+
+        varReplacer932 = 0;
+
+        varReplacer933 = 0;
+
+        varReplacer934 = 0;
+
+        varReplacer935 = 0;
+
+        varReplacer936 = 15;
+
+        varReplacer937 = null;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer932, varReplacer932, varReplacer932, varReplacer932, varReplacer936, varReplacer937);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        varReplacer944 = 10;
+
+        varReplacer945 = 0;
+
+        varReplacer946 = 0;
+
+        varReplacer947 = 0;
+
+        varReplacer948 = 14;
+
+        varReplacer949 = null;
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer944, varReplacer945, varReplacer945, varReplacer945, varReplacer948, varReplacer949);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        varReplacer960 = 10;
+
+        varReplacer961 = 20;
+
+        varReplacer962 = 0;
+
+        varReplacer963 = 0;
+
+        varReplacer964 = 12;
+
+        varReplacer965 = null;
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer960, varReplacer961, varReplacer962, varReplacer962, varReplacer964, varReplacer965);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        varReplacer954 = 0;
+
+        varReplacer955 = 20;
+
+        varReplacer956 = 0;
+
+        varReplacer957 = 40;
+
+        varReplacer958 = 5;
+
+        varReplacer959 = null;
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer954, varReplacer955, varReplacer954, varReplacer957, varReplacer958, varReplacer959);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        varReplacer928 = 10;
+
+        varReplacer929 = 20;
+
+        varReplacer930 = 30;
+
+        varReplacer931 = 40;
+
+        $stack12 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int add(int,int,int,int)>(varReplacer928, varReplacer929, varReplacer930, varReplacer931);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(int)>($stack12);
+
+        varReplacer938 = 10;
+
+        varReplacer939 = 0;
+
+        varReplacer940 = 0;
+
+        varReplacer941 = 40;
+
+        varReplacer942 = 6;
+
+        varReplacer943 = null;
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer938, varReplacer939, varReplacer939, varReplacer941, varReplacer942, varReplacer943);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(float)>($stack14);
+
+        varReplacer980 = 10;
+
+        varReplacer981 = 20;
+
+        varReplacer982 = 0;
+
+        varReplacer983 = 40;
+
+        varReplacer984 = 4;
+
+        varReplacer985 = null;
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer980, varReplacer981, varReplacer982, varReplacer983, varReplacer984, varReplacer985);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(float)>($stack16);
+
+        varReplacer974 = 10;
+
+        varReplacer975 = 0;
+
+        varReplacer976 = 30;
+
+        varReplacer977 = 40;
+
+        varReplacer978 = 2;
+
+        varReplacer979 = null;
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10$default(de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts,int,int,int,int,int,java.lang.Object)>($stack3, varReplacer974, varReplacer975, varReplacer976, varReplacer977, varReplacer978, varReplacer979);
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(float)>($stack18);
+
+        varReplacer970 = 10;
+
+        varReplacer971 = 20;
+
+        varReplacer972 = 30;
+
+        varReplacer973 = 40;
+
+        $stack20 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10(int,int,int,int)>(varReplacer970, varReplacer971, varReplacer972, varReplacer973);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(float)>($stack20);
+
+        varReplacer966 = 10;
+
+        varReplacer967 = 20;
+
+        varReplacer968 = 30;
+
+        varReplacer969 = 40;
+
+        $stack22 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: float add10(int,int,int,int)>(varReplacer966, varReplacer967, varReplacer968, varReplacer969);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(float)>($stack22);
+
+        varReplacer950 = 100;
+
+        varReplacer951 = 20;
+
+        varReplacer952 = 30;
+
+        varReplacer953 = 40;
+
+        $stack24 = virtualinvoke $stack3.<de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.TwoInts: int sub(int,int,int,int)>(varReplacer950, varReplacer951, varReplacer952, varReplacer953);
+
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(int)>($stack24);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.defaultArguments.classMemberFunctions.MainKt: void main()>();
+
+        return;
+    }
+}

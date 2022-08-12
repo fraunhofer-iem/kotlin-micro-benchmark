@@ -1,0 +1,363 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaLiterals extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaLiterals this;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaLiterals;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    private static java.lang.Number getDynamicNumber(java.lang.String)
+    {
+        java.lang.Float $stack7, $stack8;
+        java.lang.Double $stack9, $stack10;
+        java.lang.Integer $stack5, $stack6, $stack11, $stack12, $stack14, $stack15;
+        byte l2;
+        java.lang.Long $stack13;
+        int $stack3;
+        java.lang.String type;
+        boolean $stack4, $stack17, $stack18, $stack19, $stack20, $stack21, $stack22, $stack23, $stack24, $stack25;
+
+        type := @parameter0: java.lang.String;
+
+        l2 = -1;
+
+        $stack3 = virtualinvoke type.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack3)
+        {
+            case 3459: goto label01;
+            case 3460: goto label02;
+            case 3461: goto label03;
+            case 3462: goto label04;
+            case 3583: goto label05;
+            case 3584: goto label06;
+            case 3585: goto label07;
+            case 3586: goto label08;
+            case 108332: goto label09;
+            case 108333: goto label10;
+            default: goto label11;
+        };
+
+     label01:
+        $stack25 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("n1");
+
+        if $stack25 == 0 goto label11;
+
+        l2 = 0;
+
+        goto label11;
+
+     label02:
+        $stack24 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("n2");
+
+        if $stack24 == 0 goto label11;
+
+        l2 = 1;
+
+        goto label11;
+
+     label03:
+        $stack23 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("n3");
+
+        if $stack23 == 0 goto label11;
+
+        l2 = 2;
+
+        goto label11;
+
+     label04:
+        $stack22 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("n4");
+
+        if $stack22 == 0 goto label11;
+
+        l2 = 3;
+
+        goto label11;
+
+     label05:
+        $stack21 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("r1");
+
+        if $stack21 == 0 goto label11;
+
+        l2 = 4;
+
+        goto label11;
+
+     label06:
+        $stack20 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("r2");
+
+        if $stack20 == 0 goto label11;
+
+        l2 = 5;
+
+        goto label11;
+
+     label07:
+        $stack19 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("r3");
+
+        if $stack19 == 0 goto label11;
+
+        l2 = 6;
+
+        goto label11;
+
+     label08:
+        $stack18 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("r4");
+
+        if $stack18 == 0 goto label11;
+
+        l2 = 7;
+
+        goto label11;
+
+     label09:
+        $stack17 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("mr1");
+
+        if $stack17 == 0 goto label11;
+
+        l2 = 8;
+
+        goto label11;
+
+     label10:
+        $stack4 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("mr2");
+
+        if $stack4 == 0 goto label11;
+
+        l2 = 9;
+
+     label11:
+        tableswitch(l2)
+        {
+            case 0: goto label12;
+            case 1: goto label13;
+            case 2: goto label14;
+            case 3: goto label15;
+            case 4: goto label16;
+            case 5: goto label17;
+            case 6: goto label18;
+            case 7: goto label19;
+            case 8: goto label20;
+            case 9: goto label21;
+            default: goto label22;
+        };
+
+     label12:
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(123);
+
+        return $stack14;
+
+     label13:
+        $stack13 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>(123L);
+
+        return $stack13;
+
+     label14:
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(15);
+
+        return $stack12;
+
+     label15:
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(11);
+
+        return $stack11;
+
+     label16:
+        $stack10 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(123.5);
+
+        return $stack10;
+
+     label17:
+        $stack9 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(1.235E12);
+
+        return $stack9;
+
+     label18:
+        $stack8 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(123.5F);
+
+        return $stack8;
+
+     label19:
+        $stack7 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(123.554F);
+
+        return $stack7;
+
+     label20:
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1000000);
+
+        return $stack6;
+
+     label21:
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(16746943);
+
+        return $stack5;
+
+     label22:
+        $stack15 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        return $stack15;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Float $stack35, $stack38;
+        java.lang.Integer $stack17, $stack23, $stack26, $stack41, $stack44, $stack46, $stack48, $stack49, $stack54, $stack55;
+        java.lang.Long $stack20, $stack47;
+        float $stack36, $stack39;
+        java.lang.Double $stack29, $stack32, $stack50, $stack51, $stack52, $stack53;
+        long $stack21;
+        java.lang.String[] args;
+        int $stack18, $stack24, $stack27, $stack42, $stack45;
+        java.lang.Number $stack16, $stack19, $stack22, $stack25, $stack28, $stack31, $stack34, $stack37, $stack40, $stack43;
+        double $stack30, $stack33, r3, r4;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("n1");
+
+        $stack17 = (java.lang.Integer) $stack16;
+
+        $stack18 = virtualinvoke $stack17.<java.lang.Integer: int intValue()>();
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("n2");
+
+        $stack20 = (java.lang.Long) $stack19;
+
+        $stack21 = virtualinvoke $stack20.<java.lang.Long: long longValue()>();
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("n3");
+
+        $stack23 = (java.lang.Integer) $stack22;
+
+        $stack24 = virtualinvoke $stack23.<java.lang.Integer: int intValue()>();
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("n4");
+
+        $stack26 = (java.lang.Integer) $stack25;
+
+        $stack27 = virtualinvoke $stack26.<java.lang.Integer: int intValue()>();
+
+        $stack28 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("r1");
+
+        $stack29 = (java.lang.Double) $stack28;
+
+        $stack30 = virtualinvoke $stack29.<java.lang.Double: double doubleValue()>();
+
+        $stack31 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("r2");
+
+        $stack32 = (java.lang.Double) $stack31;
+
+        $stack33 = virtualinvoke $stack32.<java.lang.Double: double doubleValue()>();
+
+        $stack34 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("r3");
+
+        $stack35 = (java.lang.Float) $stack34;
+
+        $stack36 = virtualinvoke $stack35.<java.lang.Float: float floatValue()>();
+
+        r3 = (double) $stack36;
+
+        $stack37 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("r4");
+
+        $stack38 = (java.lang.Float) $stack37;
+
+        $stack39 = virtualinvoke $stack38.<java.lang.Float: float floatValue()>();
+
+        r4 = (double) $stack39;
+
+        $stack40 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("mr1");
+
+        $stack41 = (java.lang.Integer) $stack40;
+
+        $stack42 = virtualinvoke $stack41.<java.lang.Integer: int intValue()>();
+
+        $stack43 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: java.lang.Number getDynamicNumber(java.lang.String)>("mr2");
+
+        $stack44 = (java.lang.Integer) $stack43;
+
+        $stack45 = virtualinvoke $stack44.<java.lang.Integer: int intValue()>();
+
+        $stack46 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack18);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack46);
+
+        $stack47 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>($stack21);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack47);
+
+        $stack48 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack24);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack48);
+
+        $stack49 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack27);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack49);
+
+        $stack50 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack30);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack50);
+
+        $stack51 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack33);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack51);
+
+        $stack52 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(r3);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack52);
+
+        $stack53 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(r4);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack53);
+
+        $stack54 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack42);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack54);
+
+        $stack55 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack45);
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaLiterals: void printLiteralVariables(java.lang.Number)>($stack55);
+
+        return;
+    }
+
+    private static void printLiteralVariables(java.lang.Number)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.StringBuilder $stack1, $stack3, $stack4, $stack7, $stack8;
+        java.lang.Class $stack5;
+        java.lang.String $stack6, $stack9;
+        java.lang.Number n;
+
+        n := @parameter0: java.lang.Number;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(n);
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" is of ");
+
+        $stack5 = virtualinvoke n.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack6 = virtualinvoke $stack5.<java.lang.Class: java.lang.String getName()>();
+
+        $stack7 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" type");
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        return;
+    }
+}

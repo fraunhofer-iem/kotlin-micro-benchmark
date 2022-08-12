@@ -1,0 +1,45 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void <init>()>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void checkValid(java.lang.String)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer48": "java.lang.String",
+                "varReplacer49": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void checkValid(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.controlFlow.exceptions.JavaThrow: void checkValid(java.lang.String)>"
+            ]
+        },
+        "void checkValid(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer50": "java.lang.String",
+                "varReplacer51": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.Exception"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: boolean matches(java.lang.String)>",
+                "<java.lang.Exception: void <init>(java.lang.String)>"
+            ]
+        }
+    }
+}

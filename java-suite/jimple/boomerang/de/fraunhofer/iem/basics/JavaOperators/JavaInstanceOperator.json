@@ -1,0 +1,74 @@
+{
+    "className": "de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: void <init>()>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: int getLength(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: java.lang.String getLowerCase(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {
+                "args": "java.lang.String[]",
+                "varReplacer246": "java.lang.String",
+                "varReplacer247": "int",
+                "varReplacer248": "java.lang.String",
+                "varReplacer249": "int"
+            },
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.Integer",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: int getLength(java.lang.Object)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: java.lang.String getLowerCase(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.JavaOperators.JavaInstanceOperator: java.lang.String getLowerCase(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "int getLength(java.lang.Object)": {
+            "localVariables": {"ob": "java.lang.Object"},
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.String",
+                "$stack3": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": ["<java.lang.String: int length()>"]
+        },
+        "java.lang.String getLowerCase(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer250": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.String",
+                "$stack3": "java.lang.String"
+            },
+            "invokeExpressions": ["<java.lang.String: java.lang.String toLowerCase()>"]
+        }
+    }
+}

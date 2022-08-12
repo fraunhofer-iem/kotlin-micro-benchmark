@@ -1,0 +1,81 @@
+public final class de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee extends java.lang.Object
+{
+    public static final de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion;
+    private static java.lang.String companyName;
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static final java.lang.String access$getCompanyName$cp()
+    {
+        java.lang.String $stack0;
+
+        nop;
+
+        $stack0 = <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: java.lang.String companyName>;
+
+        return $stack0;
+    }
+
+    public static final void access$setCompanyName$cp(java.lang.String)
+    {
+        java.lang.String <set-?>;
+
+        nop;
+
+        <set-?> := @parameter0: java.lang.String;
+
+        <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: java.lang.String companyName> = <set-?>;
+
+        return;
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee this;
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: void <init>()>();
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        null_type varReplacer822;
+        java.lang.String varReplacer823;
+        de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion;
+
+        varReplacer822 = null;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(varReplacer822);
+
+        <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee$EmployeeCompanion EmployeeCompanion> = $stack0;
+
+        varReplacer823 = "MyCompanyName";
+
+        <de.fraunhofer.iem.classesAndObjects.objectExpressionAndObjectDeclaration.objectDeclaration.companionObject.companionInheritance.Employee: java.lang.String companyName> = varReplacer823;
+
+        return;
+    }
+}

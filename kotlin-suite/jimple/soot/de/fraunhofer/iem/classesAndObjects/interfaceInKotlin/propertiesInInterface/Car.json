@@ -1,0 +1,63 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle"],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: void <init>(java.lang.String,java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String getModelNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: java.lang.String getVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: void setVehicleRegistrationNumber(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car: void stop()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String,java.lang.String)": {
+            "localVariables": {
+                "modelNumber": "java.lang.String",
+                "vehicleRegistrationNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "java.lang.String getModelNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getVehicleRegistrationNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void setVehicleRegistrationNumber(java.lang.String)": {
+            "localVariables": {
+                "<set-?>": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"]
+        },
+        "void start()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"},
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void stop()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Car"},
+            "stackVariables": {
+                "$stack3": "boolean",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived",
+    "superClass": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {"this": "de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived"},
+        "stackVariables": {},
+        "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base: void <init>()>"]
+    }}
+}

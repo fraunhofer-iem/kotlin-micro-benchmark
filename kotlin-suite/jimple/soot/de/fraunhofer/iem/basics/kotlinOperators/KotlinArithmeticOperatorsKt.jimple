@@ -1,0 +1,232 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinArithmeticOperatorsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        kotlin.reflect.KClass $stack18, $stack24, $stack30, $stack36, $stack42;
+        java.lang.String $stack19, $stack25, $stack31, $stack37, $stack43;
+        double $stack15, res1, $stack21, $stack27, $stack33, $stack39, res2, res3, res4, res5;
+        java.io.PrintStream $stack16, $stack20, $stack22, $stack26, $stack28, $stack32, $stack34, $stack38, $stack40, $stack44;
+        java.lang.Class $stack17, $stack23, $stack29, $stack35, $stack41;
+
+        $stack15 = (double) 50;
+
+        res1 = $stack15 + 50.45;
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(double)>(res1);
+
+        $stack17 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack18 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack17);
+
+        $stack19 = interfaceinvoke $stack18.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack21 = (double) 50;
+
+        res2 = $stack21 - 50.45;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(double)>(res2);
+
+        $stack23 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack24 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack23);
+
+        $stack25 = interfaceinvoke $stack24.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack26 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack26.<java.io.PrintStream: void println(java.lang.Object)>($stack25);
+
+        $stack27 = (double) 50;
+
+        res3 = $stack27 * 50.45;
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(double)>(res3);
+
+        $stack29 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack30 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack29);
+
+        $stack31 = interfaceinvoke $stack30.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack32 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack32.<java.io.PrintStream: void println(java.lang.Object)>($stack31);
+
+        $stack33 = (double) 50;
+
+        res4 = $stack33 / 50.45;
+
+        $stack34 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack34.<java.io.PrintStream: void println(double)>(res4);
+
+        $stack35 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack36 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack35);
+
+        $stack37 = interfaceinvoke $stack36.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack38 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack38.<java.io.PrintStream: void println(java.lang.Object)>($stack37);
+
+        $stack39 = (double) 50;
+
+        res5 = $stack39 % 50.45;
+
+        $stack40 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack40.<java.io.PrintStream: void println(double)>(res5);
+
+        $stack41 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack42 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack41);
+
+        $stack43 = interfaceinvoke $stack42.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack44 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack44.<java.io.PrintStream: void println(java.lang.Object)>($stack43);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinArithmeticOperatorsKt: void operatorMethod()>();
+
+        return;
+    }
+
+    public static final void operatorMethod()
+    {
+        kotlin.reflect.KClass $stack19, $stack25, $stack31, $stack37, $stack48, $stack54;
+        java.lang.String $stack20, $stack26, $stack32, $stack38, $stack49, $stack55;
+        double $stack16, res1, $stack22, $stack28, $stack34, $stack51, res2, res3, res4, res6;
+        java.io.PrintStream $stack17, $stack21, $stack23, $stack27, $stack29, $stack33, $stack35, $stack39, $stack46, $stack50, $stack52, $stack56;
+        java.lang.Class $stack18, $stack24, $stack30, $stack36, $stack47, $stack53;
+
+        $stack16 = (double) 50;
+
+        res1 = $stack16 + 50.45;
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(double)>(res1);
+
+        $stack18 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack19 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack18);
+
+        $stack20 = interfaceinvoke $stack19.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        $stack22 = (double) 50;
+
+        res2 = $stack22 - 50.45;
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(double)>(res2);
+
+        $stack24 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack25 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack24);
+
+        $stack26 = interfaceinvoke $stack25.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(java.lang.Object)>($stack26);
+
+        $stack28 = (double) 50;
+
+        res3 = $stack28 * 50.45;
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(double)>(res3);
+
+        $stack30 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack31 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack30);
+
+        $stack32 = interfaceinvoke $stack31.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack33 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack33.<java.io.PrintStream: void println(java.lang.Object)>($stack32);
+
+        $stack34 = (double) 50;
+
+        res4 = $stack34 / 50.45;
+
+        $stack35 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack35.<java.io.PrintStream: void println(double)>(res4);
+
+        $stack36 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack37 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack36);
+
+        $stack38 = interfaceinvoke $stack37.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack39 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack39.<java.io.PrintStream: void println(java.lang.Object)>($stack38);
+
+        $stack46 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack46.<java.io.PrintStream: void println(int)>(6);
+
+        $stack47 = <java.lang.Integer: java.lang.Class TYPE>;
+
+        $stack48 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack47);
+
+        $stack49 = interfaceinvoke $stack48.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack50 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack50.<java.io.PrintStream: void println(java.lang.Object)>($stack49);
+
+        $stack51 = (double) 50;
+
+        res6 = $stack51 % 50.45;
+
+        $stack52 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack52.<java.io.PrintStream: void println(double)>(res6);
+
+        $stack53 = <java.lang.Double: java.lang.Class TYPE>;
+
+        $stack54 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack53);
+
+        $stack55 = interfaceinvoke $stack54.<kotlin.reflect.KClass: java.lang.String getSimpleName()>();
+
+        $stack56 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack56.<java.io.PrintStream: void println(java.lang.Object)>($stack55);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinArithmeticOperatorsKt: void main()>();
+
+        return;
+    }
+}

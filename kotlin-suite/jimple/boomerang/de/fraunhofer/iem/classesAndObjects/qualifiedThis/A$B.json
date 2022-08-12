@@ -1,0 +1,106 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A)>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void bFoo(int)>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void callBFunc()>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: java.lang.String access$getBName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B)>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A)": {
+            "localVariables": {
+                "this$0": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A",
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B",
+                "varReplacer1016": "java.lang.String",
+                "varReplacer1017": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "void bFoo(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B",
+                "b": "java.lang.String",
+                "funLit": "kotlin.jvm.functions.Function1",
+                "funLit2": "kotlin.jvm.functions.Function1",
+                "varReplacer1018": "java.lang.String",
+                "varReplacer1019": "java.lang.String",
+                "varReplacer1020": "java.lang.String",
+                "varReplacer1021": "java.lang.String",
+                "varReplacer1022": "java.lang.String",
+                "varReplacer1023": "java.lang.String",
+                "varReplacer1024": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack10": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A",
+                "$stack11": "java.lang.String",
+                "$this$bFoo": "int",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack17": "java.lang.Integer",
+                "$stack18": "java.lang.String",
+                "$stack19": "java.io.PrintStream",
+                "$stack21": "java.lang.Integer",
+                "$stack22": "java.lang.String",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B$bFoo$funLit$1",
+                "$stack25": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A",
+                "$stack26": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B$bFoo$funLit2$1",
+                "$stack27": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A",
+                "$stack28": "java.io.PrintStream",
+                "$stack30": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B$bFoo$funLit$1: void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A,de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B,int)>",
+                "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B$bFoo$funLit2$1: void <init>(int,kotlin.jvm.functions.Function1,de.fraunhofer.iem.classesAndObjects.qualifiedThis.A,de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void callBFunc()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B",
+                "varReplacer1025": "java.lang.String",
+                "varReplacer1026": "java.lang.String",
+                "varReplacer1027": "int"
+            },
+            "stackVariables": {
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B: void bFoo(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String access$getBName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.A$B",
+                "$stack1": "java.lang.String"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

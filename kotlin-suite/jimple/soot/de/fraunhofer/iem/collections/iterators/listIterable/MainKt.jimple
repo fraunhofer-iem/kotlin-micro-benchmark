@@ -1,0 +1,295 @@
+public final class de.fraunhofer.iem.collections.iterators.listIterable.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, $stack13, $stack14, $stack15;
+        java.util.ArrayList $stack3;
+        java.util.List lst;
+
+        $stack3 = new java.util.ArrayList;
+
+        specialinvoke $stack3.<java.util.ArrayList: void <init>()>();
+
+        lst = (java.util.List) $stack3;
+
+        interfaceinvoke lst.<java.util.List: boolean add(java.lang.Object)>("Ranjith");
+
+        interfaceinvoke lst.<java.util.List: boolean add(java.lang.Object)>("K");
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void printForward(java.util.List)>(lst);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void appendSuffix(java.util.List)>(lst);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void printForward(java.util.List)>(lst);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void printBackward(java.util.List)>(lst);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void addMarker(java.util.List)>(lst);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void printForward(java.util.List)>(lst);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void removeMarker(java.util.List)>(lst);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void printForward(java.util.List)>(lst);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>("***********************************************");
+
+        return;
+    }
+
+    private static final void appendSuffix(java.util.List)
+    {
+        java.util.List lst;
+        java.util.ListIterator $stack3;
+        java.lang.Object $stack5;
+        java.lang.String elem, $stack6;
+        boolean $stack4;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(elem, "-MARKER");
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void set(java.lang.Object)>($stack6);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final void printForward(java.util.List)
+    {
+        java.io.PrintStream $stack15;
+        java.util.ListIterator $stack5;
+        java.util.List lst;
+        int $stack12;
+        java.lang.Object $stack7;
+        java.lang.StringBuilder $stack8, $stack9, $stack10, $stack11, $stack13;
+        java.lang.String elem, $stack14;
+        boolean $stack6;
+
+        lst := @parameter0: java.util.List;
+
+        $stack5 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack6 = interfaceinvoke $stack5.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack6 == 0 goto label2;
+
+        $stack7 = interfaceinvoke $stack5.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack7;
+
+        $stack8 = new java.lang.StringBuilder;
+
+        specialinvoke $stack8.<java.lang.StringBuilder: void <init>()>();
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Element = \"");
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\"\t:\tNextIndex = ");
+
+        $stack12 = interfaceinvoke $stack5.<java.util.ListIterator: int nextIndex()>();
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final void printBackward(java.util.List)
+    {
+        java.io.PrintStream $stack16;
+        java.util.ListIterator $stack5;
+        java.util.List lst;
+        int $stack13;
+        java.lang.Object $stack8;
+        java.lang.StringBuilder $stack9, $stack10, $stack11, $stack12, $stack14;
+        java.lang.String elem, $stack15;
+        boolean $stack6, $stack7;
+
+        lst := @parameter0: java.util.List;
+
+        $stack5 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack6 = interfaceinvoke $stack5.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack6 == 0 goto label2;
+
+        interfaceinvoke $stack5.<java.util.ListIterator: java.lang.Object next()>();
+
+        goto label1;
+
+     label2:
+        $stack7 = interfaceinvoke $stack5.<java.util.ListIterator: boolean hasPrevious()>();
+
+        if $stack7 == 0 goto label3;
+
+        $stack8 = interfaceinvoke $stack5.<java.util.ListIterator: java.lang.Object previous()>();
+
+        elem = (java.lang.String) $stack8;
+
+        $stack9 = new java.lang.StringBuilder;
+
+        specialinvoke $stack9.<java.lang.StringBuilder: void <init>()>();
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Element = \"");
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(elem);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\"\t:\tPreviousIndex = ");
+
+        $stack13 = interfaceinvoke $stack5.<java.util.ListIterator: int previousIndex()>();
+
+        $stack14 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack13);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        goto label2;
+
+     label3:
+        return;
+    }
+
+    private static final void addMarker(java.util.List)
+    {
+        java.util.List lst;
+        java.util.ListIterator $stack3;
+        java.lang.Object $stack5;
+        java.lang.String elem;
+        boolean $stack6, $stack4;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(elem, "MARKER");
+
+        if $stack6 != 0 goto label1;
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void add(java.lang.Object)>("MARKER");
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final void removeMarker(java.util.List)
+    {
+        java.util.List lst;
+        java.util.ListIterator $stack3;
+        java.lang.Object $stack5;
+        java.lang.String elem;
+        boolean $stack6, $stack4;
+
+        lst := @parameter0: java.util.List;
+
+        $stack3 = interfaceinvoke lst.<java.util.List: java.util.ListIterator listIterator()>();
+
+     label1:
+        $stack4 = interfaceinvoke $stack3.<java.util.ListIterator: boolean hasNext()>();
+
+        if $stack4 == 0 goto label2;
+
+        $stack5 = interfaceinvoke $stack3.<java.util.ListIterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack5;
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(elem, "MARKER");
+
+        if $stack6 == 0 goto label1;
+
+        interfaceinvoke $stack3.<java.util.ListIterator: void remove()>();
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.listIterable.MainKt: void main()>();
+
+        return;
+    }
+}

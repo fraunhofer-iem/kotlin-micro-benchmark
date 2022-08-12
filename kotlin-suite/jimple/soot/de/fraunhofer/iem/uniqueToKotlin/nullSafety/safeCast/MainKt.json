@@ -1,0 +1,118 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.Integer",
+                "$stack8": "java.lang.String",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.Integer",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "java.lang.String",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "java.lang.Integer",
+                "$stack22": "java.lang.String",
+                "$stack23": "java.io.PrintStream",
+                "$stack24": "java.lang.Exception",
+                "$stack26": "java.lang.String",
+                "$stack27": "java.lang.String",
+                "$stack28": "java.io.PrintStream",
+                "$stack38": "java.lang.Exception",
+                "$stack40": "java.lang.String",
+                "$stack41": "java.lang.String",
+                "$stack42": "java.io.PrintStream",
+                "$stack46": "java.lang.Exception",
+                "$stack48": "java.lang.String",
+                "$stack49": "java.lang.String",
+                "$stack50": "java.io.PrintStream",
+                "$stack57": "java.lang.Exception",
+                "$stack59": "java.lang.String",
+                "$stack60": "java.lang.String",
+                "$stack61": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: java.lang.String castSafelyToNullableString(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String castToString(java.lang.Object)": {
+            "localVariables": {"ob": "java.lang.Object"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "java.lang.NullPointerException"
+            },
+            "invokeExpressions": ["<java.lang.NullPointerException: void <init>(java.lang.String)>"]
+        },
+        "java.lang.String castToNullableString(java.lang.Object)": {
+            "localVariables": {"ob": "java.lang.Object"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String castSafelyToNullableString(java.lang.Object)": {
+            "localVariables": {"ob": "java.lang.Object"},
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": []
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCast.MainKt: void main()>"]
+        }
+    }
+}

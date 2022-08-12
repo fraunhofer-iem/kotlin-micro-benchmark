@@ -1,0 +1,147 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaExplicitConversion extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaExplicitConversion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaExplicitConversion;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        byte $stack13;
+        float $stack21;
+        java.lang.StringBuilder $stack30, $stack31, $stack32, $stack33, $stack34, $stack35, $stack36, $stack37, $stack38, $stack39, $stack40, $stack41, $stack42, $stack43, $stack44, $u0;
+        long $stack19;
+        java.lang.String[] args;
+        short $stack15;
+        int $stack17, dup1, $stack27, $i0, $i1;
+        java.lang.String $stack45, varReplacer167, varReplacer168, varReplacer169, varReplacer170, varReplacer171, varReplacer172, varReplacer173, varReplacer174, varReplacer175, varReplacer176, varReplacer177, varReplacer178, varReplacer179, varReplacer180, varReplacer181;
+        java.lang.Number $stack12, $stack14, $stack16, $stack18, $stack20, $stack22, $stack24, $stack26;
+        double $stack23, $stack25, dup2;
+        java.io.PrintStream $stack29;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer173 = "byte";
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer173);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.Number: byte byteValue()>();
+
+        varReplacer179 = "short";
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer179);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.Number: short shortValue()>();
+
+        varReplacer177 = "int";
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer177);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.Number: int intValue()>();
+
+        varReplacer167 = "long";
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer167);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.Number: long longValue()>();
+
+        varReplacer181 = "float";
+
+        $stack20 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer181);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.Number: float floatValue()>();
+
+        varReplacer169 = "double";
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer169);
+
+        $stack23 = virtualinvoke $stack22.<java.lang.Number: double doubleValue()>();
+
+        varReplacer168 = "what";
+
+        $stack24 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer168);
+
+        $stack25 = virtualinvoke $stack24.<java.lang.Number: double doubleValue()>();
+
+        dup1 = (int) $stack25;
+
+        varReplacer172 = "what";
+
+        $stack26 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.JavaDataTypes1: java.lang.Number getNumber(java.lang.String)>(varReplacer172);
+
+        $stack27 = virtualinvoke $stack26.<java.lang.Number: int intValue()>();
+
+        dup2 = (double) $stack27;
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        $i0 = (int) $stack13;
+
+        $stack30 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0);
+
+        varReplacer176 = " : ";
+
+        $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer176);
+
+        $i1 = (int) $stack15;
+
+        $stack32 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i1);
+
+        varReplacer171 = " : ";
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer171);
+
+        $stack34 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack17);
+
+        varReplacer175 = " : ";
+
+        $stack35 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer175);
+
+        $stack36 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($stack19);
+
+        varReplacer174 = " : ";
+
+        $stack37 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer174);
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(float)>($stack21);
+
+        varReplacer178 = " : ";
+
+        $stack39 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer178);
+
+        $stack40 = virtualinvoke $stack39.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>($stack23);
+
+        varReplacer180 = " : ";
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer180);
+
+        $stack42 = virtualinvoke $stack41.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(dup1);
+
+        varReplacer170 = " : ";
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer170);
+
+        $stack44 = virtualinvoke $stack43.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>(dup2);
+
+        $stack45 = virtualinvoke $stack44.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(java.lang.String)>($stack45);
+
+        return;
+    }
+}

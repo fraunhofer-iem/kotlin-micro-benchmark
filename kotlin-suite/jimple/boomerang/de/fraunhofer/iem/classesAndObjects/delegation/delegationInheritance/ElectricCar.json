@@ -1,0 +1,50 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar",
+    "superClass": "java.lang.Object",
+    "implementedInterface": ["de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: void accelerate()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: void stop()>",
+        "<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar: java.lang.String getVehicleType()>"
+    ],
+    "methodsInformation": {
+        "void <init>(de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle)": {
+            "localVariables": {
+                "vehicle": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle",
+                "this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar",
+                "varReplacer605": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Object: void <init>()>"
+            ]
+        },
+        "void accelerate()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void accelerate()>"]
+        },
+        "void start()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void start()>"]
+        },
+        "void stop()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle"},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: void stop()>"]
+        },
+        "java.lang.String getVehicleType()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.ElectricCar"},
+            "stackVariables": {
+                "$stack1": "de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle",
+                "$stack2": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.delegation.delegationInheritance.Vehicle: java.lang.String getVehicleType()>"]
+        }
+    }
+}

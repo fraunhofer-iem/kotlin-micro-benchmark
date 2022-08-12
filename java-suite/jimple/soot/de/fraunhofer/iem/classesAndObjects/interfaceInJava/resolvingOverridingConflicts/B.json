@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B: void foo()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B: void bar()>"
+    ],
+    "methodsInformation": {
+        "void foo()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void bar()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.resolvingOverridingConflicts.B"},
+            "stackVariables": {"$stack1": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        }
+    }
+}

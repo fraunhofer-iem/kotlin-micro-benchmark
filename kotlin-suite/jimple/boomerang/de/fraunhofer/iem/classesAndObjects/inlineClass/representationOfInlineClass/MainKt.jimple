@@ -1,0 +1,147 @@
+public final class de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt extends java.lang.Object
+{
+
+    public static final void asInline-VUedb9E(java.lang.String)
+    {
+        java.lang.String userName, varReplacer726;
+
+        nop;
+
+        userName := @parameter0: java.lang.String;
+
+        varReplacer726 = "userName";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userName, varReplacer726);
+
+        return;
+    }
+
+    public static final void asGeneric(java.lang.Object)
+    {
+        java.lang.Object userName;
+
+        nop;
+
+        userName := @parameter0: java.lang.Object;
+
+        return;
+    }
+
+    public static final void asInterface(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)
+    {
+        java.lang.String varReplacer727;
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter userNamePrinter;
+
+        nop;
+
+        userNamePrinter := @parameter0: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter;
+
+        varReplacer727 = "userNamePrinter";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(userNamePrinter, varReplacer727);
+
+        return;
+    }
+
+    public static final void asNullable1-dk92B74(java.lang.String)
+    {
+        java.lang.String userName;
+
+        nop;
+
+        userName := @parameter0: java.lang.String;
+
+        return;
+    }
+
+    public static final void asNullable2-dk92B74(java.lang.String)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String userName, $stack3;
+
+        nop;
+
+        userName := @parameter0: java.lang.String;
+
+        if userName != null goto label1;
+
+        nop;
+
+        $stack3 = null;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String getUserNameInUpperCase-impl(java.lang.String)>(userName);
+
+     label2:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static final java.lang.Object id(java.lang.Object)
+    {
+        java.lang.Object userName;
+
+        nop;
+
+        userName := @parameter0: java.lang.Object;
+
+        return userName;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName $stack3, $stack4, $stack5, $stack7;
+        java.lang.Object $stack6;
+        java.lang.String $stack2, varReplacer728;
+
+        nop;
+
+        varReplacer728 = "Ranjith";
+
+        $stack2 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String constructor-impl(java.lang.String)>(varReplacer728);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInline-VUedb9E(java.lang.String)>($stack2);
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asGeneric(java.lang.Object)>($stack3);
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asInterface(de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserNamePrinter)>($stack4);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable1-dk92B74(java.lang.String)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void asNullable2-dk92B74(java.lang.String)>($stack2);
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName box-impl(java.lang.String)>($stack2);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: java.lang.Object id(java.lang.Object)>($stack5);
+
+        $stack7 = (de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName) $stack6;
+
+        virtualinvoke $stack7.<de.fraunhofer.iem.classesAndObjects.inlineClass.inheritanceInInlineClass.UserName: java.lang.String unbox-impl()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.inlineClass.representationOfInlineClass.MainKt: void main()>();
+
+        return;
+    }
+}

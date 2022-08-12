@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.SubClass",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.SubClass: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.SubClass: void display()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.SubClass"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer: void <init>()>"]
+        },
+        "void display()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.SubClass"},
+            "stackVariables": {
+                "$stack1": "int",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "int",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "int"
+            },
+            "invokeExpressions": [
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: void <init>(de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer)>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 10,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: int get(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,int)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void invoke(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void plusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void minusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void timesAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void divAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void remAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: int compareTo(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "int get(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,int)": {
+            "localVariables": {"index": "int"},
+            "stackVariables": {
+                "$this$get": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>"
+            ]
+        },
+        "void invoke(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this$invoke": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack4": "int",
+                "$stack5": "java.lang.Integer",
+                "$stack6": "java.lang.String",
+                "$stack7": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void plusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$plusAssign": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void setMyInt(int)>"
+            ]
+        },
+        "void minusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$minusAssign": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void setMyInt(int)>"
+            ]
+        },
+        "void timesAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$timesAssign": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void setMyInt(int)>"
+            ]
+        },
+        "void divAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$divAssign": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void setMyInt(int)>"
+            ]
+        },
+        "void remAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$remAssign": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void setMyInt(int)>"
+            ]
+        },
+        "int compareTo(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)": {
+            "localVariables": {"secondNumber": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt"},
+            "stackVariables": {
+                "$this$compareTo": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack2": "int",
+                "$stack3": "int",
+                "$stack4": "int",
+                "$stack5": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: int getMyInt()>"
+            ]
+        },
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack3": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt",
+                "$stack18": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: int get(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: int get(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void invoke(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void plusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void minusAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void timesAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void divAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt: void <init>(int)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void remAssign(de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt,de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.simpleExample.MyInt)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.operatorOverloading.extendedExample.MainKt: void main()>"]
+        }
+    }
+}

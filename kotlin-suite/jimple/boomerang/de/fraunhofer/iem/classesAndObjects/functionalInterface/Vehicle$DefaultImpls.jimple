@@ -1,0 +1,26 @@
+public final class de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle$DefaultImpls extends java.lang.Object
+{
+
+    public static void stop(de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle)
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle this;
+        java.lang.String varReplacer699, varReplacer700;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle;
+
+        varReplacer700 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer700);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer699 = "Vehicle is stopped";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer699);
+
+        return;
+    }
+}

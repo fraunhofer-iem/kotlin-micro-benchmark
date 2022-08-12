@@ -1,0 +1,52 @@
+final class de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function0
+{
+    public static final de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 INSTANCE;
+
+    void <init>()
+    {
+        int varReplacer2647;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7;
+
+        varReplacer2647 = 0;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer2647);
+
+        return;
+    }
+
+    public final java.lang.Object invoke()
+    {
+        int varReplacer2648;
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 this;
+        java.lang.Integer $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7;
+
+        varReplacer2648 = 125;
+
+        $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer2648);
+
+        return $stack1;
+    }
+
+    static void <clinit>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 $stack0;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7: void <init>()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7: de.fraunhofer.iem.uniqueToKotlin.inlineFunction.reifiedTypeParameter.MainKt$main$7 INSTANCE> = $stack0;
+
+        return;
+    }
+}

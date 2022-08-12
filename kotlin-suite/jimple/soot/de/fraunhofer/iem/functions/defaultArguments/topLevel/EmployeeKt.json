@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void entry()>"
+    ],
+    "methodsInformation": {
+        "void send(java.lang.String,java.lang.String,int)": {
+            "localVariables": {
+                "firstName": "java.lang.String",
+                "lastName": "java.lang.String",
+                "age": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>"
+            ]
+        },
+        "void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l3": "int",
+                "$stack5": "int",
+                "$stack6": "int",
+                "$stack7": "int",
+                "l4": "java.lang.Object",
+                "l0": "java.lang.String",
+                "l1": "java.lang.String",
+                "l2": "int",
+                "$i0": "int"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>"]
+        },
+        "void entry()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send(java.lang.String,java.lang.String,int)>",
+                "<de.fraunhofer.iem.functions.defaultArguments.topLevel.EmployeeKt: void send$default(java.lang.String,java.lang.String,int,int,java.lang.Object)>"
+            ]
+        }
+    }
+}

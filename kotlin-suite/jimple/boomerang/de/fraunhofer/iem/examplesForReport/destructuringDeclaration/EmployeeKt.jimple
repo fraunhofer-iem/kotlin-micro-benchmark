@@ -1,0 +1,64 @@
+public final class de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt extends java.lang.Object
+{
+
+    public static final de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()
+    {
+        int varReplacer1294;
+        de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee $stack0;
+        java.lang.String varReplacer1292, varReplacer1293;
+
+        nop;
+
+        $stack0 = new de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee;
+
+        varReplacer1292 = "Night";
+
+        varReplacer1293 = "Fury";
+
+        varReplacer1294 = 120;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer1292, varReplacer1293, varReplacer1294);
+
+        return $stack0;
+    }
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack13, $stack14, $stack15, $stack16;
+        int $stack10;
+        de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee $stack7, $stack11;
+        java.lang.String $stack8, $stack9, $stack12;
+
+        nop;
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()>();
+
+        $stack8 = virtualinvoke $stack7.<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component1()>();
+
+        $stack9 = virtualinvoke $stack7.<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component2()>();
+
+        $stack10 = virtualinvoke $stack7.<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: int component3()>();
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.examplesForReport.destructuringDeclaration.EmployeeKt: de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee createEmployee()>();
+
+        $stack12 = virtualinvoke $stack11.<de.fraunhofer.iem.examplesForReport.destructuringDeclaration.Employee: java.lang.String component2()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        return;
+    }
+}

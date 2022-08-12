@@ -1,0 +1,40 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 5,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle: java.lang.String getModelNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle: java.lang.String getVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle: void setVehicleRegistrationNumber(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle: void start()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.propertiesInInterface.Vehicle: void stop()>"
+    ],
+    "methodsInformation": {
+        "java.lang.String getModelNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "java.lang.String getVehicleRegistrationNumber()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void setVehicleRegistrationNumber(java.lang.String)": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void start()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void stop()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

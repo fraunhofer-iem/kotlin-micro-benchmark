@@ -1,0 +1,158 @@
+public class de.fraunhofer.iem.basics.dataTypes.JavaArray extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.dataTypes.JavaArray this;
+
+        this := @this: de.fraunhofer.iem.basics.dataTypes.JavaArray;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Float $stack17;
+        java.lang.Object[] $stack9;
+        java.lang.Double $stack15;
+        java.lang.String[] args;
+        java.lang.Integer $stack11, $stack27, $stack29, $stack31, $stack33, $stack35, $stack37, $stack39, $stack41, $stack43, $stack45, elem;
+        java.lang.Character $stack13;
+        java.lang.Long $stack19;
+        int[] $stack21;
+        int l6, l7;
+        java.io.PrintStream $stack20, $stack22, $stack24, $stack46;
+        char[] $stack23;
+        java.lang.Integer[] $stack25;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack9 = newarray (java.lang.Object)[6];
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack9[0] = $stack11;
+
+        $stack9[1] = "ranjith";
+
+        $stack13 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(114);
+
+        $stack9[2] = $stack13;
+
+        $stack15 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(5454.5151);
+
+        $stack9[3] = $stack15;
+
+        $stack17 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(55.0F);
+
+        $stack9[4] = $stack17;
+
+        $stack19 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>(65446L);
+
+        $stack9[5] = $stack19;
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack21 = newarray (int)[5];
+
+        $stack21[0] = 1;
+
+        $stack21[1] = 2;
+
+        $stack21[2] = 3;
+
+        $stack21[3] = 4;
+
+        $stack21[4] = 5;
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        $stack23 = newarray (char)[7];
+
+        $stack23[0] = 114;
+
+        $stack23[1] = 97;
+
+        $stack23[2] = 110;
+
+        $stack23[3] = 106;
+
+        $stack23[4] = 105;
+
+        $stack23[5] = 116;
+
+        $stack23[6] = 104;
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(char[])>($stack23);
+
+        $stack25 = newarray (java.lang.Integer)[10];
+
+        $stack27 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack25[0] = $stack27;
+
+        $stack29 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack25[1] = $stack29;
+
+        $stack31 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        $stack25[2] = $stack31;
+
+        $stack33 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        $stack25[3] = $stack33;
+
+        $stack35 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        $stack25[4] = $stack35;
+
+        $stack37 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(6);
+
+        $stack25[5] = $stack37;
+
+        $stack39 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(7);
+
+        $stack25[6] = $stack39;
+
+        $stack41 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(8);
+
+        $stack25[7] = $stack41;
+
+        $stack43 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(9);
+
+        $stack25[8] = $stack43;
+
+        $stack45 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack25[9] = $stack45;
+
+        l6 = lengthof $stack25;
+
+        l7 = 0;
+
+     label1:
+        if l7 >= l6 goto label2;
+
+        elem = $stack25[l7];
+
+        $stack46 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack46.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        l7 = l7 + 1;
+
+        goto label1;
+
+     label2:
+        return;
+    }
+}

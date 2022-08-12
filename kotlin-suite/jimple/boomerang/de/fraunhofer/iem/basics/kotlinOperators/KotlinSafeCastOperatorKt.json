@@ -1,0 +1,48 @@
+{
+    "className": "de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void main()>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>",
+        "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer452": "null_type",
+                "varReplacer453": "java.lang.String",
+                "varReplacer454": "int"
+            },
+            "stackVariables": {"$stack0": "java.lang.Integer"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>",
+                "<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void dummy(java.lang.Object)>"
+            ]
+        },
+        "void dummy(java.lang.Object)": {
+            "localVariables": {
+                "ob": "java.lang.Object",
+                "varReplacer455": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "boolean",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.kotlinOperators.KotlinSafeCastOperatorKt: void main()>"]
+        }
+    }
+}

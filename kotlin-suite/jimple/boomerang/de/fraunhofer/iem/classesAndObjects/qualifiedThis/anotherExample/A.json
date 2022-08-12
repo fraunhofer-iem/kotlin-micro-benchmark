@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: void <init>()>",
+        "<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A",
+                "varReplacer1055": "java.lang.String"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)": {
+            "localVariables": {},
+            "stackVariables": {
+                "$this": "de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A",
+                "$stack1": "java.lang.String"
+            },
+            "invokeExpressions": []
+        }
+    }
+}

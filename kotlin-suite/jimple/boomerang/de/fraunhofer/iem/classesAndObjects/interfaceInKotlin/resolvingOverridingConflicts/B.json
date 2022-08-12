@@ -1,0 +1,22 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B: void foo()>",
+        "<de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.B: void bar()>"
+    ],
+    "methodsInformation": {
+        "void foo()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void bar()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

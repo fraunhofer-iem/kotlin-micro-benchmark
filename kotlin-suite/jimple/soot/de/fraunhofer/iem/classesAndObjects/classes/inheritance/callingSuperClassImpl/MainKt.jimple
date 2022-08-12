@@ -1,0 +1,34 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.MainKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base $stack0;
+
+        $stack0 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base;
+
+        specialinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void <init>()>();
+
+        virtualinvoke $stack0.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Base: void print()>();
+
+        $stack1 = new de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived: void <init>()>();
+
+        virtualinvoke $stack1.<de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.Derived: void print()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.classes.inheritance.callingSuperClassImpl.MainKt: void main()>();
+
+        return;
+    }
+}

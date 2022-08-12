@@ -1,0 +1,14 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.primaryConstructor.noArgConstructor.Employee;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

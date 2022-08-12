@@ -1,0 +1,68 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, $stack10;
+        int $stack3, l1, $i0;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>("int");
+
+        l1 = $stack3 << 2;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>(l1);
+
+        l1 = $stack3 >> 2;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>(l1);
+
+        l1 = $stack3 >>> 2;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>(l1);
+
+        l1 = $stack3 & 2;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>(l1);
+
+        l1 = $stack3 | 2;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>(l1);
+
+        l1 = $stack3 ^ 2;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>(l1);
+
+        $i0 = (int) -1;
+
+        l1 = $stack3 ^ $i0;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>(l1);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinBitwiseOperatorKt: void main()>();
+
+        return;
+    }
+}

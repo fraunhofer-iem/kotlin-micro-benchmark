@@ -1,0 +1,193 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt extends java.lang.Object
+{
+    private static final kotlin.jvm.functions.Function2 sum;
+    private static final kotlin.jvm.functions.Function2 add;
+
+    public static final kotlin.jvm.functions.Function2 getSum()
+    {
+        kotlin.jvm.functions.Function2 $stack0;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        return $stack0;
+    }
+
+    public static final kotlin.jvm.functions.Function2 getAdd()
+    {
+        kotlin.jvm.functions.Function2 $stack0;
+
+        $stack0 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        return $stack0;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack3, $stack4, $stack10, $stack11, $stack17, $stack18, $stack24, $stack25;
+        int $stack7, $stack14, $stack21, $stack28;
+        java.lang.Number $stack6, $stack13, $stack20, $stack27;
+        java.io.PrintStream $stack8, $stack15, $stack22, $stack29;
+        kotlin.jvm.functions.Function2 $stack2, $stack9, $stack16, $stack23;
+        java.lang.Object $stack5, $stack12, $stack19, $stack26;
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        $stack3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack5 = interfaceinvoke $stack2.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack3, $stack4);
+
+        $stack6 = (java.lang.Number) $stack5;
+
+        $stack7 = virtualinvoke $stack6.<java.lang.Number: int intValue()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        $stack9 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum>;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        $stack12 = interfaceinvoke $stack9.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack10, $stack11);
+
+        $stack13 = (java.lang.Number) $stack12;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Number: int intValue()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(int)>($stack14);
+
+        $stack16 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        $stack19 = interfaceinvoke $stack16.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack17, $stack18);
+
+        $stack20 = (java.lang.Number) $stack19;
+
+        $stack21 = virtualinvoke $stack20.<java.lang.Number: int intValue()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(int)>($stack21);
+
+        $stack23 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add>;
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        $stack25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(20);
+
+        $stack26 = interfaceinvoke $stack23.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>($stack24, $stack25);
+
+        $stack27 = (java.lang.Number) $stack26;
+
+        $stack28 = virtualinvoke $stack27.<java.lang.Number: int intValue()>();
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(int)>($stack28);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: void main()>();
+
+        return;
+    }
+
+    private static final int sum$lambda-0(int, int)
+    {
+        java.io.PrintStream $stack10;
+        int $receiver, other, $stack11;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack7, $stack8;
+        java.lang.String $stack9;
+
+        $receiver := @parameter0: int;
+
+        other := @parameter1: int;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Summing ");
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($receiver);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" and ");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(other);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack11 = $receiver + other;
+
+        return $stack11;
+    }
+
+    private static final int add$lambda-1(int, int)
+    {
+        java.io.PrintStream $stack10;
+        int $this$add_u24lambda_u2d1, other, $stack11;
+        java.lang.StringBuilder $stack4, $stack5, $stack6, $stack7, $stack8;
+        java.lang.String $stack9;
+
+        $this$add_u24lambda_u2d1 := @parameter0: int;
+
+        other := @parameter1: int;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Adding ");
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($this$add_u24lambda_u2d1);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" and ");
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(other);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack9);
+
+        $stack11 = $this$add_u24lambda_u2d1 + other;
+
+        return $stack11;
+    }
+
+    static void <clinit>()
+    {
+        kotlin.jvm.functions.Function2 $stack0, $stack1;
+
+        $stack0 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt$sum_lambda-0__7: kotlin.jvm.functions.Function2 bootstrap$()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 sum> = $stack0;
+
+        $stack1 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt$add_lambda-1__8: kotlin.jvm.functions.Function2 bootstrap$()>();
+
+        <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example1.MainKt: kotlin.jvm.functions.Function2 add> = $stack1;
+
+        return;
+    }
+}

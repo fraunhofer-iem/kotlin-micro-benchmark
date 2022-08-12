@@ -1,0 +1,28 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.sealedClass.Car",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Car: java.lang.String getRegistrationNumber()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "registrationNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Car"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>"
+            ]
+        },
+        "java.lang.String getRegistrationNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Car"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        }
+    }
+}

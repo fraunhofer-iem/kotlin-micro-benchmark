@@ -1,0 +1,686 @@
+public final class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt extends java.lang.Object
+{
+
+    public static final void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        java.lang.Integer $stack9;
+        int varReplacer69, varReplacer72, varReplacer73, varReplacer75;
+        java.lang.String $stack3, $stack5, $stack7, $stack10, $stack12, varReplacer70, varReplacer71, varReplacer74;
+        java.io.PrintStream $stack4, $stack6, $stack8, $stack11, $stack13;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer74 = "args";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, varReplacer74);
+
+        varReplacer72 = 90;
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void simpleWhenStatement(int)>(varReplacer72);
+
+        varReplacer75 = 20;
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String simpleWhenExpression(int)>(varReplacer75);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        varReplacer73 = 5;
+
+        $stack5 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCommonBehaviour(int)>(varReplacer73);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        varReplacer71 = "200";
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithArbitraryExprAndAsIfElseIfExpr(java.lang.String)>(varReplacer71);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        varReplacer69 = 999;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer69);
+
+        $stack10 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithInAndIsOperator(java.lang.Object)>($stack9);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        varReplacer70 = "99998";
+
+        $stack12 = staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: java.lang.String whenWithCaptureVariable(java.lang.String)>(varReplacer70);
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.WhenStatementKt: void anotherExampleForPresentation(java.lang.String[])>(args);
+
+        return;
+    }
+
+    public static final void simpleWhenStatement(int)
+    {
+        java.io.PrintStream $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, $stack10;
+        int num;
+        java.lang.String varReplacer76, varReplacer77, varReplacer78, varReplacer79, varReplacer80, varReplacer81, varReplacer82;
+
+        nop;
+
+        num := @parameter0: int;
+
+        lookupswitch(num)
+        {
+            case 0: goto label1;
+            case 1: goto label2;
+            case 5: goto label3;
+            case 10: goto label4;
+            case 20: goto label5;
+            case 90: goto label6;
+            default: goto label7;
+        };
+
+     label1:
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer78 = "Zero";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer78);
+
+        goto label8;
+
+     label2:
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer81 = "One";
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer81);
+
+        goto label8;
+
+     label3:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer76 = "Five";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer76);
+
+        goto label8;
+
+     label4:
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer80 = "Ten";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer80);
+
+        goto label8;
+
+     label5:
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer77 = "Twenty";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer77);
+
+        goto label8;
+
+     label6:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer79 = "Ninety";
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer79);
+
+        goto label8;
+
+     label7:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer82 = "Others";
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer82);
+
+     label8:
+        return;
+    }
+
+    public static final java.lang.String simpleWhenExpression(int)
+    {
+        int num;
+        java.lang.String $stack4, $stack3, varReplacer83;
+
+        nop;
+
+        num := @parameter0: int;
+
+        lookupswitch(num)
+        {
+            case 0: goto label1;
+            case 1: goto label2;
+            case 5: goto label3;
+            case 10: goto label4;
+            case 20: goto label5;
+            case 90: goto label6;
+            default: goto label7;
+        };
+
+     label1:
+        $stack4 = "Zero";
+
+        goto label8;
+
+     label2:
+        $stack4 = "One";
+
+        goto label8;
+
+     label3:
+        $stack4 = "Five";
+
+        goto label8;
+
+     label4:
+        $stack4 = "Ten";
+
+        goto label8;
+
+     label5:
+        $stack4 = "Twenty";
+
+        goto label8;
+
+     label6:
+        $stack4 = "Ninety";
+
+        goto label8;
+
+     label7:
+        $stack4 = "Others";
+
+     label8:
+        varReplacer83 = "Given number is ";
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer83, $stack4);
+
+        return $stack3;
+    }
+
+    public static final java.lang.String whenWithCommonBehaviour(int)
+    {
+        int num;
+        java.lang.String $stack4, $stack3, varReplacer84;
+
+        nop;
+
+        num := @parameter0: int;
+
+        lookupswitch(num)
+        {
+            case 0: goto label1;
+            case 1: goto label1;
+            case 5: goto label1;
+            case 10: goto label2;
+            case 20: goto label2;
+            case 90: goto label2;
+            default: goto label3;
+        };
+
+     label1:
+        $stack4 = "Zero or One or Five";
+
+        goto label4;
+
+     label2:
+        $stack4 = "Ten or Twenty or Ninety";
+
+        goto label4;
+
+     label3:
+        $stack4 = "Others";
+
+     label4:
+        varReplacer84 = "Given number is ";
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer84, $stack4);
+
+        return $stack3;
+    }
+
+    public static final java.lang.String whenWithArbitraryExprAndAsIfElseIfExpr(java.lang.String)
+    {
+        java.lang.Integer $stack5, $stack6;
+        int $stack4, varReplacer85, varReplacer87, varReplacer88;
+        java.lang.String str, $stack13, $stack12, varReplacer86, varReplacer90, varReplacer91;
+        boolean $stack7, $stack17;
+        java.lang.CharSequence l2;
+        null_type varReplacer89;
+        java.lang.StringBuilder $stack8, $stack9, $stack10, $stack11;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer90 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer90);
+
+        l2 = (java.lang.CharSequence) str;
+
+        $stack4 = interfaceinvoke l2.<java.lang.CharSequence: int length()>();
+
+        if $stack4 <= 0 goto label1;
+
+        nop;
+
+        $stack17 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack17 = 0;
+
+     label2:
+        if $stack17 == 0 goto label3;
+
+        nop;
+
+        $stack13 = "String is non empty";
+
+        goto label7;
+
+     label3:
+        nop;
+
+        $stack5 = staticinvoke <kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>(str);
+
+        if $stack5 != null goto label4;
+
+        nop;
+
+        $stack13 = "Can not parse the string to Int";
+
+        goto label7;
+
+     label4:
+        nop;
+
+        $stack6 = staticinvoke <kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>(str);
+
+        if $stack6 == null goto label5;
+
+        nop;
+
+        $stack13 = "Can parse the string to Int";
+
+        goto label7;
+
+     label5:
+        nop;
+
+        varReplacer86 = "Kotlin";
+
+        varReplacer87 = 0;
+
+        varReplacer88 = 2;
+
+        varReplacer89 = null;
+
+        $stack7 = staticinvoke <kotlin.text.StringsKt: boolean startsWith$default(java.lang.String,java.lang.String,boolean,int,java.lang.Object)>(str, varReplacer86, varReplacer87, varReplacer88, varReplacer89);
+
+        if $stack7 == 0 goto label6;
+
+        nop;
+
+        $stack13 = "Given string starts with Kotlin";
+
+        goto label7;
+
+     label6:
+        nop;
+
+        $stack13 = "Unknown";
+
+     label7:
+        $stack8 = new java.lang.StringBuilder;
+
+        specialinvoke $stack8.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer91 = "Given string first matches \"";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer91);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack13);
+
+        varReplacer85 = 34;
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer85);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack12;
+    }
+
+    public static final java.lang.String whenWithInAndIsOperator(java.lang.Object)
+    {
+        java.lang.Iterable $stack5, $stack9;
+        int varReplacer93, varReplacer94, varReplacer95, varReplacer96, varReplacer97;
+        java.lang.String $stack16, $stack15, varReplacer92, varReplacer98;
+        boolean $stack3, $stack6, $stack7, $stack10;
+        kotlin.ranges.IntRange $stack4, $stack8;
+        java.lang.Object ob;
+        java.lang.StringBuilder $stack11, $stack12, $stack13, $stack14;
+
+        nop;
+
+        ob := @parameter0: java.lang.Object;
+
+        varReplacer92 = "ob";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, varReplacer92);
+
+        $stack3 = ob instanceof java.lang.Number;
+
+        if $stack3 != 0 goto label1;
+
+        nop;
+
+        $stack16 = "Not an Number";
+
+        goto label5;
+
+     label1:
+        nop;
+
+        $stack4 = new kotlin.ranges.IntRange;
+
+        varReplacer93 = 0;
+
+        varReplacer94 = 5;
+
+        specialinvoke $stack4.<kotlin.ranges.IntRange: void <init>(int,int)>(varReplacer93, varReplacer94);
+
+        $stack5 = (java.lang.Iterable) $stack4;
+
+        $stack6 = staticinvoke <kotlin.collections.CollectionsKt: boolean contains(java.lang.Iterable,java.lang.Object)>($stack5, ob);
+
+        if $stack6 == 0 goto label2;
+
+        nop;
+
+        $stack16 = "Given number is in range of 0 to 5";
+
+        goto label5;
+
+     label2:
+        nop;
+
+        $stack7 = ob instanceof java.lang.Integer;
+
+        if $stack7 == 0 goto label3;
+
+        nop;
+
+        $stack16 = "Given number is Int";
+
+        goto label5;
+
+     label3:
+        nop;
+
+        $stack8 = new kotlin.ranges.IntRange;
+
+        varReplacer96 = 100;
+
+        varReplacer97 = 1000;
+
+        specialinvoke $stack8.<kotlin.ranges.IntRange: void <init>(int,int)>(varReplacer96, varReplacer97);
+
+        $stack9 = (java.lang.Iterable) $stack8;
+
+        $stack10 = staticinvoke <kotlin.collections.CollectionsKt: boolean contains(java.lang.Iterable,java.lang.Object)>($stack9, ob);
+
+        if $stack10 == 0 goto label4;
+
+        nop;
+
+        $stack16 = "Given number is in range of 100 to 1000";
+
+        goto label5;
+
+     label4:
+        nop;
+
+        $stack16 = "Unknown";
+
+     label5:
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer98 = "Given string first matches \"";
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer98);
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack16);
+
+        varReplacer95 = 34;
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer95);
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack15;
+    }
+
+    public static final java.lang.String whenWithCaptureVariable(java.lang.String)
+    {
+        java.lang.Integer $stack2, $stack5, $stack8, $stack11, $stack14, $stack17, $stack20;
+        int $stack3;
+        java.lang.String str, $stack6, varReplacer99, varReplacer100, varReplacer101, varReplacer102, varReplacer103, varReplacer104, varReplacer105;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer102 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer102);
+
+        $stack2 = staticinvoke <kotlin.text.StringsKt: java.lang.Integer toIntOrNull(java.lang.String)>(str);
+
+        if $stack2 == null goto label7;
+
+        nop;
+
+        $stack3 = virtualinvoke str.<java.lang.String: int length()>();
+
+        tableswitch($stack3)
+        {
+            case 1: goto label1;
+            case 2: goto label2;
+            case 3: goto label3;
+            case 4: goto label4;
+            case 5: goto label5;
+            default: goto label6;
+        };
+
+     label1:
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer99 = "One digit number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer99, $stack17);
+
+        goto label8;
+
+     label2:
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer103 = "Two digits number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer103, $stack14);
+
+        goto label8;
+
+     label3:
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer100 = "Three digits number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer100, $stack11);
+
+        goto label8;
+
+     label4:
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer104 = "Four digits number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer104, $stack8);
+
+        goto label8;
+
+     label5:
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer105 = "Five digits number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer105, $stack5);
+
+        goto label8;
+
+     label6:
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack3);
+
+        varReplacer101 = "Greater than 5 digits number! Length = ";
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer101, $stack20);
+
+        goto label8;
+
+     label7:
+        nop;
+
+        $stack6 = "Given string does not contain a valid number";
+
+     label8:
+        return $stack6;
+    }
+
+    public static final void anotherExampleForPresentation(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack4;
+        java.lang.String l1, varReplacer106, varReplacer107, varReplacer108, varReplacer109, varReplacer110, varReplacer111, varReplacer112, varReplacer113;
+        boolean $stack5, $stack8, $stack13;
+        java.io.PrintStream $stack6, $stack9, $stack14, $stack7;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        varReplacer109 = "args";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(args, varReplacer109);
+
+        l1 = args[0];
+
+        $stack4 = virtualinvoke l1.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack4)
+        {
+            case 3329: goto label1;
+            case 99162322: goto label3;
+            case 605712515: goto label2;
+            default: goto label7;
+        };
+
+     label1:
+        varReplacer107 = "hi";
+
+        $stack13 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer107);
+
+        if $stack13 != 0 goto label4;
+
+        nop;
+
+        goto label7;
+
+     label2:
+        varReplacer111 = "how are you";
+
+        $stack5 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer111);
+
+        if $stack5 != 0 goto label6;
+
+        nop;
+
+        goto label7;
+
+     label3:
+        varReplacer106 = "hello";
+
+        $stack8 = virtualinvoke l1.<java.lang.String: boolean equals(java.lang.Object)>(varReplacer106);
+
+        if $stack8 != 0 goto label5;
+
+        nop;
+
+        goto label7;
+
+     label4:
+        nop;
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer110 = "Hi!";
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer110);
+
+        goto label8;
+
+     label5:
+        nop;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer113 = "Hello!";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer113);
+
+        goto label8;
+
+     label6:
+        nop;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer108 = "How Are You?";
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer108);
+
+        goto label8;
+
+     label7:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer112 = "What should i tell?";
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer112);
+
+     label8:
+        return;
+    }
+}

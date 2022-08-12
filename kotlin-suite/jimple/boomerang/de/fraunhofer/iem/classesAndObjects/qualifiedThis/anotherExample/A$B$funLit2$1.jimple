@@ -1,0 +1,129 @@
+final class de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1
+{
+    final de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this$0;
+    final de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$1;
+
+    void <init>(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B, de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A $receiver_2;
+        int varReplacer1045;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B $receiver_1;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1;
+
+        $receiver_1 := @parameter0: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B;
+
+        $receiver_2 := @parameter1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A;
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this$0> = $receiver_1;
+
+        this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$1> = $receiver_2;
+
+        varReplacer1045 = 1;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer1045);
+
+        return;
+    }
+
+    public final void invoke(java.lang.String)
+    {
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B d1, $stack6, $stack17;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1 this;
+        java.lang.String s, $stack10, $stack14, $stack15, $stack19, $stack20, varReplacer1046, varReplacer1047, varReplacer1048, varReplacer1049, varReplacer1050, varReplacer1051, varReplacer1052;
+        java.io.PrintStream $stack5, $stack9, $stack11, $stack16, $stack21;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A $stack12;
+        kotlin.jvm.functions.Function1 $stack7;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1;
+
+        s := @parameter0: java.lang.String;
+
+        varReplacer1046 = "s";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(s, varReplacer1046);
+
+        d1 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this$0>;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1048 = "<<< Calling funLit>>>";
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1048);
+
+        $stack6 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this$0>;
+
+        $stack7 = virtualinvoke $stack6.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: kotlin.jvm.functions.Function1 getFunLit()>();
+
+        varReplacer1052 = "Ranjith";
+
+        interfaceinvoke $stack7.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>(varReplacer1052);
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1049 = "<<< Ending funLit>>>";
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1049);
+
+        varReplacer1051 = "A$B >> bFoo >> funLit2 >> this = ";
+
+        $stack10 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1051, d1);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        $stack12 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A this$1>;
+
+        $stack14 = staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A: java.lang.String access$getAName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A)>($stack12);
+
+        varReplacer1050 = "A$B >> bFoo >> funLit2 >> this@A = ";
+
+        $stack15 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1050, $stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B this$0>;
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B: java.lang.String access$getBName$p(de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B)>($stack17);
+
+        varReplacer1047 = "A$B >> bFoo >> funLit2 >> this@B = ";
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1047, $stack19);
+
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(java.lang.Object)>($stack20);
+
+        return;
+    }
+
+    public volatile java.lang.Object invoke(java.lang.Object)
+    {
+        kotlin.Unit $stack3;
+        java.lang.Object p1;
+        de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1 this;
+        java.lang.String $stack2;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1;
+
+        p1 := @parameter0: java.lang.Object;
+
+        $stack2 = (java.lang.String) p1;
+
+        virtualinvoke this.<de.fraunhofer.iem.classesAndObjects.qualifiedThis.anotherExample.A$B$funLit2$1: void invoke(java.lang.String)>($stack2);
+
+        $stack3 = <kotlin.Unit: kotlin.Unit INSTANCE>;
+
+        return $stack3;
+    }
+}

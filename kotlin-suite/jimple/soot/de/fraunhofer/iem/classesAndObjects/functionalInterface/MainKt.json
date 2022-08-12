@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt: void main()>",
+        "<de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"vehicle": "de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt$main$vehicle$1"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void start()>",
+                "<de.fraunhofer.iem.classesAndObjects.functionalInterface.Vehicle: void stop()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.functionalInterface.MainKt: void main()>"]
+        }
+    }
+}

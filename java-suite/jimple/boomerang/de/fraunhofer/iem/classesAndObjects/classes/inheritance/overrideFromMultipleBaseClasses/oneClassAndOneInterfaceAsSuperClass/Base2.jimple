@@ -1,0 +1,41 @@
+public interface  de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2 extends java.lang.Object
+{
+
+    public void print1()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2 this;
+        java.lang.String varReplacer315;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer315 = "Base2 --> print1";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer315);
+
+        return;
+    }
+
+    public void print2()
+    {
+        java.io.PrintStream $stack1;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2 this;
+        java.lang.String varReplacer316;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.oneClassAndOneInterfaceAsSuperClass.Base2;
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer316 = "Base2 --> print2";
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.String)>(varReplacer316);
+
+        return;
+    }
+}

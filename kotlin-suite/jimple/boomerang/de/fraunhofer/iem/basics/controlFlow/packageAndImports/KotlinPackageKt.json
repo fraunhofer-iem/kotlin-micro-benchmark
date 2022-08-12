@@ -1,0 +1,37 @@
+{
+    "className": "de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: void printMyName()>",
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getMyName()>",
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: java.lang.String getName()>",
+        "<de.fraunhofer.iem.basics.controlFlow.packageAndImports.KotlinPackageKt: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void printMyName()": {
+            "localVariables": {},
+            "stackVariables": {
+                "l0": "java.lang.String",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "java.lang.String getMyName()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "java.lang.String getName()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void <clinit>()": {
+            "localVariables": {"varReplacer150": "java.lang.String"},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

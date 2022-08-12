@@ -1,0 +1,50 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion extends java.lang.Object
+{
+
+    private void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final int mul(int, int)
+    {
+        int firstNumber, secondNumber, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        firstNumber := @parameter0: int;
+
+        secondNumber := @parameter1: int;
+
+        $stack3 = firstNumber * secondNumber;
+
+        return $stack3;
+    }
+
+    public void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion this;
+        kotlin.jvm.internal.DefaultConstructorMarker $constructor_marker;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        $constructor_marker := @parameter0: kotlin.jvm.internal.DefaultConstructorMarker;
+
+        specialinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: void <init>()>();
+
+        return;
+    }
+}

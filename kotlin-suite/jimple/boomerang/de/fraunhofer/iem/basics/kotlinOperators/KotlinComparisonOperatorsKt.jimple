@@ -1,0 +1,416 @@
+public final class de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.lang.Integer $stack30, $stack31;
+        byte $stack18, $stack20, $stack22, $stack24, $stack26, $stack28;
+        boolean $stack90, $stack85, $stack80, $stack75, $stack70, $stack63, $stack58, $stack53, $stack48, $stack43, $stack38, $stack37, $stack32;
+        int $stack8, $stack9, $i0, $i1, $i2, $i3, varReplacer429, varReplacer431;
+        java.lang.String varReplacer426, varReplacer427, varReplacer428, varReplacer430;
+        double $stack16, $stack17;
+        java.io.PrintStream $stack10, $stack11, $stack12, $stack13, $stack14, $stack15, $stack19, $stack21, $stack23, $stack25, $stack27, $stack29;
+
+        nop;
+
+        varReplacer426 = "int";
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>(varReplacer426);
+
+        varReplacer430 = "int";
+
+        $stack9 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: int getInt(java.lang.String)>(varReplacer430);
+
+        if $stack8 <= $stack9 goto label01;
+
+        nop;
+
+        $stack90 = 1;
+
+        goto label02;
+
+     label01:
+        nop;
+
+        $stack90 = 0;
+
+     label02:
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(boolean)>($stack90);
+
+        if $stack8 >= $stack9 goto label03;
+
+        nop;
+
+        $stack85 = 1;
+
+        goto label04;
+
+     label03:
+        nop;
+
+        $stack85 = 0;
+
+     label04:
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(boolean)>($stack85);
+
+        if $stack8 < $stack9 goto label05;
+
+        nop;
+
+        $stack80 = 1;
+
+        goto label06;
+
+     label05:
+        nop;
+
+        $stack80 = 0;
+
+     label06:
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(boolean)>($stack80);
+
+        if $stack8 > $stack9 goto label07;
+
+        nop;
+
+        $stack75 = 1;
+
+        goto label08;
+
+     label07:
+        nop;
+
+        $stack75 = 0;
+
+     label08:
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(boolean)>($stack75);
+
+        if $stack8 != $stack9 goto label09;
+
+        nop;
+
+        $stack70 = 1;
+
+        goto label10;
+
+     label09:
+        nop;
+
+        $stack70 = 0;
+
+     label10:
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(boolean)>($stack70);
+
+        if $stack8 == $stack9 goto label11;
+
+        nop;
+
+        $stack63 = 1;
+
+        goto label12;
+
+     label11:
+        nop;
+
+        $stack63 = 0;
+
+     label12:
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(boolean)>($stack63);
+
+        varReplacer427 = "double";
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: double getDouble(java.lang.String)>(varReplacer427);
+
+        varReplacer428 = "double";
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: double getDouble(java.lang.String)>(varReplacer428);
+
+        $stack18 = $stack16 cmpl $stack17;
+
+        $i0 = (int) $stack18;
+
+        if $i0 <= 0 goto label13;
+
+        nop;
+
+        $stack58 = 1;
+
+        goto label14;
+
+     label13:
+        nop;
+
+        $stack58 = 0;
+
+     label14:
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(boolean)>($stack58);
+
+        $stack20 = $stack16 cmpg $stack17;
+
+        $i1 = (int) $stack20;
+
+        if $i1 >= 0 goto label15;
+
+        nop;
+
+        $stack53 = 1;
+
+        goto label16;
+
+     label15:
+        nop;
+
+        $stack53 = 0;
+
+     label16:
+        $stack21 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack21.<java.io.PrintStream: void println(boolean)>($stack53);
+
+        $stack22 = $stack16 cmpl $stack17;
+
+        $i2 = (int) $stack22;
+
+        if $i2 < 0 goto label17;
+
+        nop;
+
+        $stack48 = 1;
+
+        goto label18;
+
+     label17:
+        nop;
+
+        $stack48 = 0;
+
+     label18:
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(boolean)>($stack48);
+
+        $stack24 = $stack16 cmpg $stack17;
+
+        $i3 = (int) $stack24;
+
+        if $i3 > 0 goto label19;
+
+        nop;
+
+        $stack43 = 1;
+
+        goto label20;
+
+     label19:
+        nop;
+
+        $stack43 = 0;
+
+     label20:
+        $stack25 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack25.<java.io.PrintStream: void println(boolean)>($stack43);
+
+        $stack26 = $stack16 cmpg $stack17;
+
+        if $stack26 != 0 goto label21;
+
+        nop;
+
+        $stack38 = 1;
+
+        goto label22;
+
+     label21:
+        nop;
+
+        $stack38 = 0;
+
+     label22:
+        $stack27 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack27.<java.io.PrintStream: void println(boolean)>($stack38);
+
+        $stack28 = $stack16 cmpg $stack17;
+
+        if $stack28 != 0 goto label23;
+
+        nop;
+
+        $stack37 = 1;
+
+        goto label24;
+
+     label23:
+        nop;
+
+        $stack37 = 0;
+
+     label24:
+        if $stack37 != 0 goto label25;
+
+        nop;
+
+        $stack32 = 1;
+
+        goto label26;
+
+     label25:
+        nop;
+
+        $stack32 = 0;
+
+     label26:
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(boolean)>($stack32);
+
+        varReplacer429 = 102;
+
+        $stack30 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer429);
+
+        varReplacer431 = 2020;
+
+        $stack31 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer431);
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void dummy(java.lang.Object,java.lang.Object)>($stack30, $stack31);
+
+        return;
+    }
+
+    private static final void dummy(java.lang.Object, java.lang.Object)
+    {
+        java.io.PrintStream $stack5, $stack7;
+        java.lang.Object num1, num2;
+        boolean $stack4, $stack6, $stack8;
+
+        nop;
+
+        num1 := @parameter0: java.lang.Object;
+
+        num2 := @parameter1: java.lang.Object;
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(num1, num2);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(boolean)>($stack4);
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(num1, num2);
+
+        if $stack6 != 0 goto label1;
+
+        nop;
+
+        $stack8 = 1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        $stack8 = 0;
+
+     label2:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(boolean)>($stack8);
+
+        return;
+    }
+
+    public static final int getInt(java.lang.String)
+    {
+        int varReplacer432, varReplacer435;
+        java.lang.String str, varReplacer433, varReplacer434;
+        boolean $stack1;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer433 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer433);
+
+        varReplacer434 = "int";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer434);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        varReplacer435 = 50;
+
+        return varReplacer435;
+
+     label1:
+        nop;
+
+        varReplacer432 = 150;
+
+        return varReplacer432;
+    }
+
+    public static final double getDouble(java.lang.String)
+    {
+        java.lang.String str, varReplacer437, varReplacer439;
+        boolean $stack1;
+        double varReplacer436, varReplacer438;
+
+        nop;
+
+        str := @parameter0: java.lang.String;
+
+        varReplacer437 = "str";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(str, varReplacer437);
+
+        varReplacer439 = "double";
+
+        $stack1 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>(str, varReplacer439);
+
+        if $stack1 == 0 goto label1;
+
+        nop;
+
+        varReplacer436 = 50.2;
+
+        return varReplacer436;
+
+     label1:
+        nop;
+
+        varReplacer438 = 150.5;
+
+        return varReplacer438;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.kotlinOperators.KotlinComparisonOperatorsKt: void main()>();
+
+        return;
+    }
+}

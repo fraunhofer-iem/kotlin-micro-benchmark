@@ -1,0 +1,14 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived extends de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Derived;
+
+        specialinvoke this.<de.fraunhofer.iem.uniqueToKotlin.extensions.overridingClassWithExtension.Base: void <init>()>();
+
+        return;
+    }
+}

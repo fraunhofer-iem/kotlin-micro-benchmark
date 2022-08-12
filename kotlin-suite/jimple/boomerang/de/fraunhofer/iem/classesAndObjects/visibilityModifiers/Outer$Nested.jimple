@@ -1,0 +1,36 @@
+public final class de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested extends java.lang.Object
+{
+    private final int e;
+
+    public void <init>()
+    {
+        int varReplacer922;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        varReplacer922 = 5;
+
+        this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int e> = varReplacer922;
+
+        return;
+    }
+
+    public final int getE()
+    {
+        int $stack1;
+        de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested;
+
+        $stack1 = this.<de.fraunhofer.iem.classesAndObjects.visibilityModifiers.Outer$Nested: int e>;
+
+        return $stack1;
+    }
+}

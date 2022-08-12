@@ -1,0 +1,113 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt extends java.lang.Object
+{
+
+    public static final int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion, int, int)
+    {
+        int firstNumber, secondNumber, $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion $this$sub;
+        java.lang.String varReplacer1355;
+
+        nop;
+
+        $this$sub := @parameter0: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion;
+
+        firstNumber := @parameter1: int;
+
+        secondNumber := @parameter2: int;
+
+        varReplacer1355 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$sub, varReplacer1355);
+
+        $stack3 = firstNumber - secondNumber;
+
+        return $stack3;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts $stack3;
+        int $stack4, $stack7, $stack10, $stack13, $stack16, varReplacer1356, varReplacer1357, varReplacer1358, varReplacer1359, varReplacer1360, varReplacer1361, varReplacer1362, varReplacer1363, varReplacer1364, varReplacer1365;
+        java.io.PrintStream $stack5, $stack8, $stack11, $stack14, $stack17;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion $stack6, $stack9, $stack12, $stack15;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts;
+
+        varReplacer1364 = 10;
+
+        varReplacer1365 = 20;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: void <init>(int,int)>(varReplacer1364, varReplacer1365);
+
+        $stack4 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: int add()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>($stack4);
+
+        $stack6 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        varReplacer1360 = 10;
+
+        varReplacer1361 = 20;
+
+        $stack7 = virtualinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>(varReplacer1360, varReplacer1361);
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        $stack9 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        varReplacer1356 = 10;
+
+        varReplacer1357 = 20;
+
+        $stack10 = virtualinvoke $stack9.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion: int mul(int,int)>(varReplacer1356, varReplacer1357);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(int)>($stack10);
+
+        $stack12 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        varReplacer1358 = 10;
+
+        varReplacer1359 = 20;
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>($stack12, varReplacer1358, varReplacer1359);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(int)>($stack13);
+
+        $stack15 = <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion TwoIntsCompanion>;
+
+        varReplacer1362 = 10;
+
+        varReplacer1363 = 20;
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: int sub(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.TwoInts$TwoIntsCompanion,int,int)>($stack15, varReplacer1362, varReplacer1363);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(int)>($stack16);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionCompanion.MainKt: void main()>();
+
+        return;
+    }
+}

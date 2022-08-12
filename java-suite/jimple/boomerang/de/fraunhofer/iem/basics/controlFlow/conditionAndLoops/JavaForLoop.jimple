@@ -1,0 +1,118 @@
+public class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void simpleFor(java.lang.String[])>(args);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaForLoop: void forEachLoop(java.lang.String[])>(args);
+
+        return;
+    }
+
+    private static void simpleFor(java.lang.String[])
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String[] args;
+        int $stack2, i;
+        java.lang.StringBuilder $stack3, $stack5, $stack6, $stack8;
+        java.lang.String $stack7, $stack9, varReplacer3;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        i = 0;
+
+     label1:
+        $stack2 = lengthof args;
+
+        if i >= $stack2 goto label2;
+
+        nop;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = new java.lang.StringBuilder;
+
+        specialinvoke $stack3.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i);
+
+        varReplacer3 = " --> ";
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer3);
+
+        $stack7 = args[i];
+
+        $stack8 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack7);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+
+    private static void forEachLoop(java.lang.String[])
+    {
+        java.io.PrintStream $stack5;
+        int l2, l3;
+        java.lang.String[] args;
+        java.lang.String elem;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        l2 = lengthof args;
+
+        l3 = 0;
+
+     label1:
+        if l3 >= l2 goto label2;
+
+        nop;
+
+        elem = args[l3];
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>(elem);
+
+        l3 = l3 + 1;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return;
+    }
+}

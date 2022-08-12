@@ -1,0 +1,25 @@
+{
+    "className": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt: void main()>",
+        "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {"varReplacer421": "java.lang.String"},
+            "stackVariables": {"$stack1": "de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty"},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void <init>(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassProperty: void printHello()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.helloWorld.PrintHelloWithClassPropertyKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "className": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void replace(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)>",
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void <init>(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>",
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>",
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void setFirst(java.lang.Object)>",
+        "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: void setSecond(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void replace(de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+                "differentTypedPair": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair"
+            },
+            "stackVariables": {
+                "$stack2": "java.lang.Object",
+                "$stack3": "java.lang.Object"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getFirst()>",
+                "<de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair: java.lang.Object getSecond()>"
+            ]
+        },
+        "void <init>(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+                "first": "java.lang.Object",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.Object getFirst()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object getSecond()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "void setFirst(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+                "first": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void setSecond(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.wildCardTypeArgument.DifferentTypedPair",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

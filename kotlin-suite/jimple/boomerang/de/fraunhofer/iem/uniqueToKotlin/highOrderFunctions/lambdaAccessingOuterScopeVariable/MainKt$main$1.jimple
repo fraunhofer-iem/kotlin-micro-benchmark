@@ -1,0 +1,82 @@
+final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function0
+{
+    final kotlin.jvm.internal.Ref$ObjectRef $name;
+
+    void <init>(kotlin.jvm.internal.Ref$ObjectRef)
+    {
+        int varReplacer2538;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1 this;
+        kotlin.jvm.internal.Ref$ObjectRef $name;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1;
+
+        $name := @parameter0: kotlin.jvm.internal.Ref$ObjectRef;
+
+        this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: kotlin.jvm.internal.Ref$ObjectRef $name> = $name;
+
+        varReplacer2538 = 0;
+
+        specialinvoke this.<kotlin.jvm.internal.Lambda: void <init>(int)>(varReplacer2538);
+
+        return;
+    }
+
+    public final java.lang.String invoke()
+    {
+        java.io.PrintStream $stack4;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1 this;
+        java.lang.Object l1, $stack6, $stack11;
+        java.lang.String $stack7, $stack9, $stack12, varReplacer2539;
+        kotlin.jvm.internal.Ref$ObjectRef $stack3, $stack5, $stack8, $stack10;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1;
+
+        $stack3 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: kotlin.jvm.internal.Ref$ObjectRef $name>;
+
+        l1 = $stack3.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>(l1);
+
+        $stack8 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: kotlin.jvm.internal.Ref$ObjectRef $name>;
+
+        $stack5 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: kotlin.jvm.internal.Ref$ObjectRef $name>;
+
+        $stack6 = $stack5.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>;
+
+        $stack7 = (java.lang.String) $stack6;
+
+        varReplacer2539 = " K";
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>($stack7, varReplacer2539);
+
+        $stack8.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = $stack9;
+
+        $stack10 = this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: kotlin.jvm.internal.Ref$ObjectRef $name>;
+
+        $stack11 = $stack10.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>;
+
+        $stack12 = (java.lang.String) $stack11;
+
+        return $stack12;
+    }
+
+    public volatile java.lang.Object invoke()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1 this;
+        java.lang.String $stack1;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1;
+
+        $stack1 = virtualinvoke this.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.lambdaAccessingOuterScopeVariable.MainKt$main$1: java.lang.String invoke()>();
+
+        return $stack1;
+    }
+}

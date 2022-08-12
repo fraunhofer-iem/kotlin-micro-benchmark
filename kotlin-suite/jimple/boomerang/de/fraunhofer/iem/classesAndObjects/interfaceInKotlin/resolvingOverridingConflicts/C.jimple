@@ -1,0 +1,48 @@
+public final class de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void bar()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C this;
+        java.lang.String varReplacer797;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer797 = "C --> bar";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer797);
+
+        return;
+    }
+
+    public void foo()
+    {
+        de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.C;
+
+        staticinvoke <de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A$DefaultImpls: void foo(de.fraunhofer.iem.classesAndObjects.interfaceInKotlin.resolvingOverridingConflicts.A)>(this);
+
+        return;
+    }
+}

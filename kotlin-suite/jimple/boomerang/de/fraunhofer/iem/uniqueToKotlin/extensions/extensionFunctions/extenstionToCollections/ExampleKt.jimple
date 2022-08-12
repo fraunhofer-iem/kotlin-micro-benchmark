@@ -1,0 +1,259 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt extends java.lang.Object
+{
+
+    public static final int customizedMax(java.util.List)
+    {
+        java.util.Iterator $stack4;
+        java.util.List $this$customizedMax;
+        int $stack8, maxElem;
+        java.lang.Object $stack6;
+        java.lang.String varReplacer1400;
+        java.lang.Number $stack7;
+        boolean $stack5;
+
+        nop;
+
+        $this$customizedMax := @parameter0: java.util.List;
+
+        varReplacer1400 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$customizedMax, varReplacer1400);
+
+        maxElem = 0;
+
+        $stack4 = interfaceinvoke $this$customizedMax.<java.util.List: java.util.Iterator iterator()>();
+
+     label1:
+        nop;
+
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        nop;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        $stack7 = (java.lang.Number) $stack6;
+
+        $stack8 = virtualinvoke $stack7.<java.lang.Number: int intValue()>();
+
+        if $stack8 <= maxElem goto label1;
+
+        nop;
+
+        maxElem = $stack8;
+
+        goto label1;
+
+     label2:
+        nop;
+
+        return maxElem;
+    }
+
+    public static final void customizedSwap(java.util.List, int, int)
+    {
+        int firstIndex, $stack5, secondIndex, $stack6;
+        java.lang.String $stack14, $stack19, varReplacer1401, varReplacer1402, varReplacer1403;
+        java.io.PrintStream $stack15, $stack20;
+        java.util.List $this$customizedSwap;
+        java.lang.Object $stack7, $stack8;
+        java.lang.StringBuilder $stack11, $stack12, $stack13, $stack16, $stack17, $stack18;
+
+        nop;
+
+        $this$customizedSwap := @parameter0: java.util.List;
+
+        firstIndex := @parameter1: int;
+
+        secondIndex := @parameter2: int;
+
+        varReplacer1403 = "<this>";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$customizedSwap, varReplacer1403);
+
+        $stack5 = interfaceinvoke $this$customizedSwap.<java.util.List: int size()>();
+
+        if firstIndex < $stack5 goto label1;
+
+        nop;
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(firstIndex);
+
+        varReplacer1402 = " is greater than the size of the list";
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1402);
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        return;
+
+     label1:
+        nop;
+
+        $stack6 = interfaceinvoke $this$customizedSwap.<java.util.List: int size()>();
+
+        if secondIndex < $stack6 goto label2;
+
+        nop;
+
+        $stack11 = new java.lang.StringBuilder;
+
+        specialinvoke $stack11.<java.lang.StringBuilder: void <init>()>();
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(secondIndex);
+
+        varReplacer1401 = " is greater than the size of the list";
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1401);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        return;
+
+     label2:
+        nop;
+
+        $stack7 = interfaceinvoke $this$customizedSwap.<java.util.List: java.lang.Object get(int)>(firstIndex);
+
+        $stack8 = interfaceinvoke $this$customizedSwap.<java.util.List: java.lang.Object get(int)>(secondIndex);
+
+        interfaceinvoke $this$customizedSwap.<java.util.List: java.lang.Object set(int,java.lang.Object)>(firstIndex, $stack8);
+
+        interfaceinvoke $this$customizedSwap.<java.util.List: java.lang.Object set(int,java.lang.Object)>(secondIndex, $stack7);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Integer $stack4, $stack6, $stack8, $stack10, $stack12, $stack14, $stack16, $stack18, $stack20, $stack26;
+        java.util.List $stack21;
+        java.lang.Integer[] l1;
+        int $stack25, varReplacer1404, varReplacer1405, varReplacer1406, varReplacer1407, varReplacer1408, varReplacer1409, varReplacer1410, varReplacer1412, varReplacer1413, varReplacer1415, varReplacer1416;
+        java.lang.String $stack22, $stack27, $stack29, varReplacer1411, varReplacer1414, varReplacer1417;
+        java.io.PrintStream $stack23, $stack28, $stack30;
+
+        nop;
+
+        l1 = newarray (java.lang.Integer)[9];
+
+        varReplacer1405 = 234;
+
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1405);
+
+        l1[0] = $stack4;
+
+        varReplacer1412 = 2;
+
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1412);
+
+        l1[1] = $stack6;
+
+        varReplacer1415 = 1;
+
+        $stack8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1415);
+
+        l1[2] = $stack8;
+
+        varReplacer1407 = 0;
+
+        $stack10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1407);
+
+        l1[3] = $stack10;
+
+        varReplacer1416 = 23423;
+
+        $stack12 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1416);
+
+        l1[4] = $stack12;
+
+        varReplacer1404 = 2;
+
+        $stack14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1404);
+
+        l1[5] = $stack14;
+
+        varReplacer1408 = 423;
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1408);
+
+        l1[6] = $stack16;
+
+        varReplacer1413 = 9123;
+
+        $stack18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1413);
+
+        l1[7] = $stack18;
+
+        varReplacer1406 = 23342;
+
+        $stack20 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(varReplacer1406);
+
+        l1[8] = $stack20;
+
+        $stack21 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(l1);
+
+        varReplacer1417 = "List = ";
+
+        $stack22 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1417, $stack21);
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: int customizedMax(java.util.List)>($stack21);
+
+        $stack26 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack25);
+
+        varReplacer1414 = "Max = ";
+
+        $stack27 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1414, $stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+        varReplacer1409 = 4;
+
+        varReplacer1410 = 0;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: void customizedSwap(java.util.List,int,int)>($stack21, varReplacer1409, varReplacer1410);
+
+        varReplacer1411 = "List after swap = ";
+
+        $stack29 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(varReplacer1411, $stack21);
+
+        $stack30 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack30.<java.io.PrintStream: void println(java.lang.Object)>($stack29);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionFunctions.extenstionToCollections.ExampleKt: void main()>();
+
+        return;
+    }
+}

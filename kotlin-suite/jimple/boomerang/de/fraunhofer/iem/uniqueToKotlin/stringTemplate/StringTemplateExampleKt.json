@@ -1,0 +1,118 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 4,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getRawStrings(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getEscapedStrings(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer1586": "java.lang.String",
+                "varReplacer1587": "java.lang.String",
+                "varReplacer1588": "java.lang.String",
+                "varReplacer1589": "java.lang.String",
+                "varReplacer1590": "java.lang.String",
+                "varReplacer1591": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "int",
+                "$stack11": "java.lang.StringBuilder",
+                "$stack12": "java.lang.String",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.lang.StringBuilder",
+                "$stack15": "java.lang.StringBuilder",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "int",
+                "$stack19": "java.lang.StringBuilder",
+                "$stack20": "java.lang.String",
+                "$stack21": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getRawStrings(java.lang.String)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: java.lang.String getEscapedStrings(java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String getRawStrings(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer1592": "java.lang.String",
+                "varReplacer1593": "java.lang.String",
+                "varReplacer1594": "java.lang.String",
+                "varReplacer1595": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<kotlin.text.StringsKt: java.lang.String trimMargin(java.lang.String,java.lang.String)>"
+            ]
+        },
+        "java.lang.String getEscapedStrings(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer1596": "java.lang.String",
+                "varReplacer1597": "java.lang.String",
+                "varReplacer1598": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.StringBuilder",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.stringTemplate.StringTemplateExampleKt: void main()>"]
+        }
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void waysToCreateArray()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray1(java.lang.Integer[])>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray2(java.lang.Integer[])>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray3(java.lang.Integer[])>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack4": "java.lang.Integer",
+                "$stack6": "java.lang.Integer",
+                "$stack8": "java.lang.Integer",
+                "$stack10": "java.lang.Integer",
+                "$stack12": "java.lang.Integer",
+                "$stack13": "java.lang.Integer",
+                "$stack14": "int",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.lang.Integer",
+                "$stack17": "int",
+                "$stack18": "java.io.PrintStream",
+                "$stack20": "java.lang.Integer",
+                "$stack22": "java.lang.Integer",
+                "$stack23": "java.lang.Integer",
+                "$stack24": "int",
+                "$stack25": "java.io.PrintStream",
+                "$stack26": "java.lang.Integer",
+                "$stack27": "int",
+                "$stack28": "java.io.PrintStream",
+                "l1": "java.lang.Integer[]"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void waysToCreateArray()>"
+            ]
+        },
+        "void waysToCreateArray()": {
+            "localVariables": {
+                "arr2": "java.lang.Object[]",
+                "arr3": "int[]",
+                "arr4": "char[]"
+            },
+            "stackVariables": {
+                "$stack8": "java.lang.Integer",
+                "$stack10": "java.lang.Character",
+                "$stack12": "java.lang.Double",
+                "$stack14": "kotlin.UInt",
+                "$stack16": "java.lang.Long",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.io.PrintStream",
+                "$stack19": "java.io.PrintStream",
+                "$stack20": "java.io.PrintStream",
+                "$stack21": "java.lang.Integer",
+                "$stack26": "int",
+                "$stack28": "int",
+                "l4": "int",
+                "l5": "java.lang.Integer[]",
+                "l6": "int",
+                "$stack33": "boolean",
+                "$stack27": "java.lang.Integer",
+                "l5#17": "java.lang.Integer[]"
+            },
+            "invokeExpressions": [
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Character: java.lang.Character valueOf(char)>",
+                "<java.lang.Double: java.lang.Double valueOf(double)>",
+                "<kotlin.UInt: kotlin.UInt box-impl(int)>",
+                "<java.lang.Long: java.lang.Long valueOf(long)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.io.PrintStream: void println(char[])>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray1(java.lang.Integer[])>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray2(java.lang.Integer[])>",
+                "<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void iteratingArray3(java.lang.Integer[])>"
+            ]
+        },
+        "void iteratingArray1(java.lang.Integer[])": {
+            "localVariables": {"arr": "java.lang.Integer[]"},
+            "stackVariables": {
+                "l3": "int",
+                "$stack6": "java.lang.Integer",
+                "$stack7": "int",
+                "$stack8": "java.io.PrintStream",
+                "l2": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void iteratingArray2(java.lang.Integer[])": {
+            "localVariables": {
+                "arr": "java.lang.Integer[]",
+                "index": "int"
+            },
+            "stackVariables": {
+                "l2": "int",
+                "$stack6": "java.io.PrintStream",
+                "$stack10": "java.lang.Integer",
+                "l1": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void iteratingArray3(java.lang.Integer[])": {
+            "localVariables": {
+                "arr": "java.lang.Integer[]",
+                "index": "int"
+            },
+            "stackVariables": {
+                "$stack6": "int",
+                "l2": "int",
+                "$stack7": "java.io.PrintStream",
+                "$stack11": "java.lang.Integer",
+                "l1": "int"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinArrayKt: void main()>"]
+        }
+    }
+}

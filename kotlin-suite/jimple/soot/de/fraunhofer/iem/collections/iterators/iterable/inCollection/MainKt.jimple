@@ -1,0 +1,181 @@
+public final class de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt extends java.lang.Object
+{
+
+    private static final void withIterators(java.util.Collection)
+    {
+        java.io.PrintStream $stack7;
+        java.util.Iterator $stack4;
+        java.util.Collection collection;
+        java.lang.Object $stack6;
+        java.lang.String elem;
+        boolean $stack5;
+
+        collection := @parameter0: java.util.Collection;
+
+        $stack4 = interfaceinvoke collection.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack6;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final void withFor(java.util.Collection)
+    {
+        java.io.PrintStream $stack7;
+        java.util.Iterator $stack4;
+        java.util.Collection collection;
+        java.lang.Object $stack6;
+        java.lang.String elem;
+        boolean $stack5;
+
+        collection := @parameter0: java.util.Collection;
+
+        $stack4 = interfaceinvoke collection.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack5 = interfaceinvoke $stack4.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack5 == 0 goto label2;
+
+        $stack6 = interfaceinvoke $stack4.<java.util.Iterator: java.lang.Object next()>();
+
+        elem = (java.lang.String) $stack6;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>(elem);
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static final void withForEach(java.util.Collection)
+    {
+        java.io.PrintStream $stack15;
+        java.util.Iterator $stack10;
+        java.util.Collection collection;
+        java.lang.Iterable $this$forEach$iv;
+        java.lang.NullPointerException $stack17;
+        java.util.Locale $stack13;
+        java.lang.Object $stack12;
+        java.lang.String it, $stack14;
+        boolean $stack11;
+
+        collection := @parameter0: java.util.Collection;
+
+        $this$forEach$iv = (java.lang.Iterable) collection;
+
+        $stack10 = interfaceinvoke $this$forEach$iv.<java.lang.Iterable: java.util.Iterator iterator()>();
+
+     label1:
+        $stack11 = interfaceinvoke $stack10.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack11 == 0 goto label3;
+
+        $stack12 = interfaceinvoke $stack10.<java.util.Iterator: java.lang.Object next()>();
+
+        it = (java.lang.String) $stack12;
+
+        if it != null goto label2;
+
+        $stack17 = new java.lang.NullPointerException;
+
+        specialinvoke $stack17.<java.lang.NullPointerException: void <init>(java.lang.String)>("null cannot be cast to non-null type java.lang.String");
+
+        throw $stack17;
+
+     label2:
+        $stack13 = <java.util.Locale: java.util.Locale ROOT>;
+
+        $stack14 = virtualinvoke it.<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>($stack13);
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>($stack14, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)");
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        goto label1;
+
+     label3:
+        return;
+    }
+
+    public static final void main()
+    {
+        java.util.Collection $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, $stack10;
+        java.util.Set set#2;
+        java.lang.String[] set;
+        java.util.HashSet $stack3;
+        java.util.List $stack2;
+
+        set = newarray (java.lang.String)[2];
+
+        set[0] = "Ranjith";
+
+        set[1] = "K";
+
+        $stack2 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List mutableListOf(java.lang.Object[])>(set);
+
+        $stack3 = new java.util.HashSet;
+
+        $stack4 = (java.util.Collection) $stack2;
+
+        specialinvoke $stack3.<java.util.HashSet: void <init>(java.util.Collection)>($stack4);
+
+        set#2 = (java.util.Set) $stack3;
+
+        $stack5 = (java.util.Collection) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withIterators(java.util.Collection)>($stack5);
+
+        $stack6 = (java.util.Collection) set#2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withIterators(java.util.Collection)>($stack6);
+
+        $stack7 = (java.util.Collection) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withFor(java.util.Collection)>($stack7);
+
+        $stack8 = (java.util.Collection) set#2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withFor(java.util.Collection)>($stack8);
+
+        $stack9 = (java.util.Collection) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withForEach(java.util.Collection)>($stack9);
+
+        $stack10 = (java.util.Collection) set#2;
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void withForEach(java.util.Collection)>($stack10);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.collections.iterators.iterable.inCollection.MainKt: void main()>();
+
+        return;
+    }
+}

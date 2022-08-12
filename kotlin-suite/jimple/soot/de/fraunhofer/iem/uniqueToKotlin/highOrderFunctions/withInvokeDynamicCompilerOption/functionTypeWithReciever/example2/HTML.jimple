@@ -1,0 +1,28 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public final void body()
+    {
+        java.io.PrintStream $stack3;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML this;
+
+        this := @this: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.withInvokeDynamicCompilerOption.functionTypeWithReciever.example2.HTML;
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("body");
+
+        return;
+    }
+}

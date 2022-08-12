@@ -1,0 +1,35 @@
+final class de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2 extends java.lang.Object implements de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.PrintAnything
+{
+
+    void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void print(java.lang.String)
+    {
+        java.io.PrintStream $stack2;
+        java.lang.String message;
+        de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2 this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.anonymousClass.anonymousObjectOfSomeType.Main$2;
+
+        message := @parameter0: java.lang.String;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>(message);
+
+        return;
+    }
+}

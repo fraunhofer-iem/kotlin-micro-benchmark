@@ -1,0 +1,67 @@
+public class de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators this;
+
+        this := @this: de.fraunhofer.iem.basics.JavaOperators.JavaAssignmentOperators;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4, $stack5, $stack6, $stack7, $stack8, $stack9, $stack10;
+        java.lang.String[] args;
+        int $stack3, res1;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.basics.JavaOperators.JavaComparisonOperators: int getInt(java.lang.String)>("int");
+
+        res1 = 0 + $stack3;
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>(res1);
+
+        res1 = res1 - $stack3;
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(int)>(res1);
+
+        res1 = res1 + $stack3;
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(int)>(res1);
+
+        res1 = res1 * $stack3;
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>(res1);
+
+        res1 = res1 / $stack3;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>(res1);
+
+        res1 = res1 % $stack3;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>(res1);
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(int)>($stack3);
+
+        return;
+    }
+}

@@ -1,0 +1,126 @@
+public final class de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt extends java.lang.Object
+{
+
+    private static final void print(java.lang.String, java.lang.String[], java.lang.String)
+    {
+        java.io.PrintStream $stack8, $stack9, $stack10;
+        java.lang.String[] messages;
+        int l5, l4;
+        java.lang.String preMessage, postMessage, message;
+
+        nop;
+
+        preMessage := @parameter0: java.lang.String;
+
+        messages := @parameter1: java.lang.String[];
+
+        postMessage := @parameter2: java.lang.String;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>(preMessage);
+
+        l4 = 0;
+
+        l5 = lengthof messages;
+
+     label1:
+        if l4 >= l5 goto label2;
+
+        nop;
+
+        message = messages[l4];
+
+        l4 = l4 + 1;
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>(message);
+
+        goto label1;
+
+     label2:
+        nop;
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(java.lang.Object)>(postMessage);
+
+        return;
+    }
+
+    public static final void main()
+    {
+        java.lang.Object[] $stack5;
+        java.lang.String[] $stack2, l1, $stack6, messages;
+        int $stack3;
+        java.lang.String varReplacer1968, varReplacer1969, varReplacer1970, varReplacer1971, varReplacer1972, varReplacer1973, varReplacer1974, varReplacer1975, varReplacer1976, varReplacer1977, varReplacer1978;
+
+        nop;
+
+        $stack2 = newarray (java.lang.String)[0];
+
+        varReplacer1971 = "Beginning";
+
+        varReplacer1972 = "End";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>(varReplacer1971, $stack2, varReplacer1972);
+
+        messages = newarray (java.lang.String)[2];
+
+        varReplacer1970 = "Hello";
+
+        messages[0] = varReplacer1970;
+
+        varReplacer1977 = "How are you";
+
+        messages[1] = varReplacer1977;
+
+        varReplacer1975 = "Beginning";
+
+        varReplacer1976 = "End";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>(varReplacer1975, messages, varReplacer1976);
+
+        l1 = newarray (java.lang.String)[3];
+
+        varReplacer1978 = "Hello";
+
+        l1[0] = varReplacer1978;
+
+        varReplacer1973 = "How are you";
+
+        l1[1] = varReplacer1973;
+
+        varReplacer1974 = "Where are you";
+
+        l1[2] = varReplacer1974;
+
+        $stack3 = lengthof l1;
+
+        $stack5 = staticinvoke <java.util.Arrays: java.lang.Object[] copyOf(java.lang.Object[],int)>(l1, $stack3);
+
+        $stack6 = (java.lang.String[]) $stack5;
+
+        varReplacer1968 = "Beginning";
+
+        varReplacer1969 = "End";
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void print(java.lang.String,java.lang.String[],java.lang.String)>(varReplacer1968, $stack6, varReplacer1969);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.varargInFunctionParam.varArgWithNamedArgument.MainKt: void main()>();
+
+        return;
+    }
+}

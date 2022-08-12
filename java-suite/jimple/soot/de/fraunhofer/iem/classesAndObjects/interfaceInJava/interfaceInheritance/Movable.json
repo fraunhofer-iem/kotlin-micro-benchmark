@@ -1,0 +1,15 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Movable",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [
+        "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Runnable",
+        "de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Walkable"
+    ],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.interfaceInJava.interfaceInheritance.Movable: void jog()>"],
+    "methodsInformation": {"void jog()": {
+        "localVariables": {},
+        "stackVariables": {},
+        "invokeExpressions": []
+    }}
+}

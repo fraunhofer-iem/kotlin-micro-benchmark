@@ -1,0 +1,121 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack4, $stack7, $stack9;
+        java.lang.Integer $stack2, $stack5;
+        int $stack3, $stack6, $stack8;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>("");
+
+        $stack2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void parseString(java.lang.Object)>("Ranjith");
+
+        $stack3 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>("");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(int)>($stack3);
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        $stack6 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>($stack5);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(int)>($stack6);
+
+        $stack8 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: int getLength(java.lang.Object)>("Ranjith");
+
+        $stack9 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack9.<java.io.PrintStream: void println(int)>($stack8);
+
+        return;
+    }
+
+    public static final void parseString(java.lang.Object)
+    {
+        java.io.PrintStream $stack4, $stack7;
+        int $stack6;
+        java.lang.Object ob;
+        java.lang.String $stack5;
+        boolean $stack3;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack3 = ob instanceof java.lang.String;
+
+        if $stack3 == 0 goto label1;
+
+        $stack5 = (java.lang.String) ob;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.String: int length()>();
+
+        if $stack6 != 0 goto label2;
+
+     label1:
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>("Not a String or Empty String");
+
+        return;
+
+     label2:
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("Valid String");
+
+        return;
+    }
+
+    public static final int getLength(java.lang.Object)
+    {
+        int $stack3, $stack6, $i0;
+        java.lang.Object ob;
+        java.lang.String $stack2, $stack5;
+        boolean $stack1;
+
+        ob := @parameter0: java.lang.Object;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(ob, "ob");
+
+        $stack1 = ob instanceof java.lang.String;
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = (java.lang.String) ob;
+
+        $stack3 = virtualinvoke $stack2.<java.lang.String: int length()>();
+
+        if $stack3 <= 0 goto label1;
+
+        $stack5 = (java.lang.String) ob;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.String: int length()>();
+
+        return $stack6;
+
+     label1:
+        $i0 = (int) -1;
+
+        return $i0;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.smartCast.SmartCastInLogicalExprKt: void main()>();
+
+        return;
+    }
+}

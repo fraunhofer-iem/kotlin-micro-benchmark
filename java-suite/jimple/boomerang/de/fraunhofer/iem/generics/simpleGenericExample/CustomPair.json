@@ -1,0 +1,32 @@
+{
+    "className": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 3,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: void <init>(java.lang.Object,java.lang.Object)>",
+        "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getFirst()>",
+        "<de.fraunhofer.iem.generics.simpleGenericExample.CustomPair: java.lang.Object getSecond()>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.Object,java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair",
+                "first": "java.lang.Object",
+                "second": "java.lang.Object"
+            },
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "java.lang.Object getFirst()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        },
+        "java.lang.Object getSecond()": {
+            "localVariables": {"this": "de.fraunhofer.iem.generics.simpleGenericExample.CustomPair"},
+            "stackVariables": {"$stack1": "java.lang.Object"},
+            "invokeExpressions": []
+        }
+    }
+}

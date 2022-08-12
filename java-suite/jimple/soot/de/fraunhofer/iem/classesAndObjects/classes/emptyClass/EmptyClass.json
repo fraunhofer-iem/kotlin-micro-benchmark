@@ -1,0 +1,12 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.classes.emptyClass.EmptyClass"},
+        "stackVariables": {},
+        "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+    }}
+}

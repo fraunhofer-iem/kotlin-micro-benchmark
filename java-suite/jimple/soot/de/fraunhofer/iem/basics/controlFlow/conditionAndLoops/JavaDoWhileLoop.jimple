@@ -1,0 +1,48 @@
+public class de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop this;
+
+        this := @this: de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>(0);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>(5);
+
+        staticinvoke <de.fraunhofer.iem.basics.controlFlow.conditionAndLoops.JavaDoWhileLoop: void doWhileExample(int)>(15);
+
+        return;
+    }
+
+    private static void doWhileExample(int)
+    {
+        java.io.PrintStream $stack1;
+        int end;
+
+        end := @parameter0: int;
+
+     label1:
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(int)>(end);
+
+        end = end + 1;
+
+        if end < 10 goto label1;
+
+        return;
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "className": "de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt: void main()>",
+        "<de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "greet": "java.lang.String",
+                "greet_1": "java.lang.String",
+                "greet_2": "java.lang.String",
+                "greet_3": "java.lang.String",
+                "greet_4": "java.lang.String",
+                "varReplacer365": "java.lang.String",
+                "varReplacer366": "int",
+                "varReplacer367": "int",
+                "varReplacer368": "int",
+                "varReplacer369": "int",
+                "varReplacer370": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "char",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.CharSequence",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "int",
+                "$stack13": "java.io.PrintStream",
+                "$stack14": "java.util.Locale",
+                "$stack15": "java.lang.String",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "java.lang.CharSequence",
+                "$stack18": "java.lang.CharSequence",
+                "$stack19": "java.lang.String",
+                "$stack20": "java.io.PrintStream",
+                "l1": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: char charAt(int)>",
+                "<java.io.PrintStream: void println(char)>",
+                "<java.lang.String: java.lang.CharSequence subSequence(int,int)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.String: int compareTo(java.lang.String)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: int codePointAt(int)>",
+                "<java.io.PrintStream: void println(int)>",
+                "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>",
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.text.StringsKt: java.lang.CharSequence trim(java.lang.CharSequence)>",
+                "<java.lang.Object: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.basics.dataTypes.KotlinStringFunctionsKt: void main()>"]
+        }
+    }
+}

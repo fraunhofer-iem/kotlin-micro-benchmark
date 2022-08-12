@@ -1,0 +1,9 @@
+public interface  de.fraunhofer.iem.classesAndObjects.interfaceInJava.fieldsInInterface.Vehicle extends java.lang.Object
+{
+    public static final java.lang.String modelNumber;
+    public static final java.lang.String vehicleRegistrationNumber;
+
+    public abstract void start();
+
+    public abstract void stop();
+}

@@ -1,0 +1,49 @@
+public final class de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2$DefaultImpls extends java.lang.Object
+{
+
+    public static void print1(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2)
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer588, varReplacer589;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2 this;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2;
+
+        varReplacer588 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer588);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer589 = "Base2 --> print1";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer589);
+
+        return;
+    }
+
+    public static void print2(de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2)
+    {
+        java.io.PrintStream $stack3;
+        java.lang.String varReplacer590, varReplacer591;
+        de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2 this;
+
+        nop;
+
+        this := @parameter0: de.fraunhofer.iem.classesAndObjects.classes.inheritance.overrideFromMultipleBaseClasses.twoInterfacesAsSuperClass.Base2;
+
+        varReplacer590 = "this";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(this, varReplacer590);
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer591 = "Base2 --> print2";
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer591);
+
+        return;
+    }
+}

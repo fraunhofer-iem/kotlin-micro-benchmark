@@ -1,0 +1,51 @@
+public class de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain this;
+
+        this := @this: de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.EmployeeMain;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack4, $stack6, $stack8;
+        java.lang.String[] args;
+        int $stack7;
+        java.lang.String $stack3, $stack5;
+        de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee $stack2;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = new de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: void <init>(java.lang.String,java.lang.String,int)>("Ranjith", "K", 100);
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack3 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String firstName>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>($stack3);
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack5 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: java.lang.String lastName>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.String)>($stack5);
+
+        $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: int age> = 200;
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack7 = $stack2.<de.fraunhofer.iem.classesAndObjects.classes.constructors.multipleConstructors.Employee: int age>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        return;
+    }
+}

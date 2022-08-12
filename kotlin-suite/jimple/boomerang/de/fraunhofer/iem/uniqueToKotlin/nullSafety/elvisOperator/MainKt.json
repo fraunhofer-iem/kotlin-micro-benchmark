@@ -1,0 +1,195 @@
+{
+    "className": "de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void main()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnNonNullValue(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrNull(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrThrowException(java.lang.String)>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void processAllInOneMethod()>",
+        "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {
+                "varReplacer2724": "null_type",
+                "varReplacer2725": "java.lang.String",
+                "varReplacer2726": "null_type",
+                "varReplacer2727": "java.lang.String",
+                "varReplacer2728": "java.lang.String",
+                "varReplacer2729": "java.lang.String",
+                "varReplacer2730": "null_type"
+            },
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.String",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.lang.String",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.io.PrintStream",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.lang.IllegalArgumentException",
+                "$stack17": "java.lang.String",
+                "$stack18": "java.lang.String",
+                "$stack19": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnNonNullValue(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnNonNullValue(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrNull(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrNull(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrThrowException(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: java.lang.String returnProcessedStringOrThrowException(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Throwable: java.lang.String getMessage()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void processAllInOneMethod()>"
+            ]
+        },
+        "java.lang.String returnNonNullValue(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer2731": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.String",
+                "$stack10": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String returnProcessedStringOrNull(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer2732": "null_type",
+                "varReplacer2733": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack6": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String",
+                "$stack5": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "java.lang.String returnProcessedStringOrThrowException(java.lang.String)": {
+            "localVariables": {
+                "name": "java.lang.String",
+                "varReplacer2734": "java.lang.String",
+                "varReplacer2735": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "int",
+                "$stack6": "int",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.StringBuilder",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.lang.IllegalArgumentException",
+                "$stack5": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.IllegalArgumentException: void <init>(java.lang.String)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "void processAllInOneMethod()": {
+            "localVariables": {
+                "varReplacer2736": "java.lang.String",
+                "varReplacer2737": "java.lang.String",
+                "varReplacer2738": "java.lang.String"
+            },
+            "stackVariables": {
+                "$stack4": "java.lang.String",
+                "$stack6": "java.lang.StringBuilder",
+                "$stack7": "java.lang.StringBuilder",
+                "$stack8": "java.lang.StringBuilder",
+                "$stack9": "java.lang.StringBuilder",
+                "$stack10": "java.lang.String",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "java.lang.String",
+                "$stack13": "int",
+                "$stack15": "int",
+                "$stack16": "java.lang.StringBuilder",
+                "$stack17": "java.lang.StringBuilder",
+                "$stack18": "java.lang.StringBuilder",
+                "$stack19": "java.lang.StringBuilder",
+                "$stack20": "java.lang.String",
+                "$stack21": "java.io.PrintStream",
+                "$stack22": "java.lang.IllegalArgumentException",
+                "$stack24": "int",
+                "$stack14": "java.lang.Integer"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>",
+                "<java.lang.String: int length()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.uniqueToKotlin.nullSafety.safeCalls.MainKt: java.lang.String getString()>",
+                "<java.lang.String: int length()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.IllegalArgumentException: void <init>(java.lang.String)>",
+                "<java.lang.Integer: int intValue()>",
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.uniqueToKotlin.nullSafety.elvisOperator.MainKt: void main()>"]
+        }
+    }
+}

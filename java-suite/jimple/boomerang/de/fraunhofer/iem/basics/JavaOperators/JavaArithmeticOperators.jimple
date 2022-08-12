@@ -1,0 +1,80 @@
+public class de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators this;
+
+        nop;
+
+        this := @this: de.fraunhofer.iem.basics.JavaOperators.JavaArithmeticOperators;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.Double $stack11, $stack15, $stack19, $stack23, $stack27;
+        java.lang.String[] args;
+        double $stack9, $stack10, $stack13, $stack14, $stack17, $stack18, $stack21, $stack22, $stack25, $stack26;
+        java.io.PrintStream $stack12, $stack16, $stack20, $stack24, $stack28;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack9 = (double) 50;
+
+        $stack10 = $stack9 + 50.45;
+
+        $stack11 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack10);
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.Object)>($stack11);
+
+        $stack13 = (double) 50;
+
+        $stack14 = $stack13 - 50.45;
+
+        $stack15 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack14);
+
+        $stack16 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack16.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack17 = (double) 50;
+
+        $stack18 = $stack17 * 50.45;
+
+        $stack19 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack18);
+
+        $stack20 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack20.<java.io.PrintStream: void println(java.lang.Object)>($stack19);
+
+        $stack21 = (double) 50;
+
+        $stack22 = $stack21 / 50.45;
+
+        $stack23 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack22);
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = (double) 50;
+
+        $stack26 = $stack25 % 50.45;
+
+        $stack27 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($stack26);
+
+        $stack28 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack28.<java.io.PrintStream: void println(java.lang.Object)>($stack27);
+
+        return;
+    }
+}

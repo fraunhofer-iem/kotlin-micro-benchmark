@@ -1,0 +1,20 @@
+{
+    "className": "de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1",
+    "superClass": "java.util.ArrayList",
+    "implementedInterface": [],
+    "methodCount": 1,
+    "methodsSignature": ["<de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1: void <init>()>"],
+    "methodsInformation": {"void <init>()": {
+        "localVariables": {
+            "this": "de.fraunhofer.iem.collections.iterators.iterable.inCollection.Main$1",
+            "varReplacer525": "java.lang.String",
+            "varReplacer526": "java.lang.String"
+        },
+        "stackVariables": {},
+        "invokeExpressions": [
+            "<java.util.ArrayList: void <init>()>",
+            "<java.util.ArrayList: boolean add(java.lang.Object)>",
+            "<java.util.ArrayList: boolean add(java.lang.Object)>"
+        ]
+    }}
+}

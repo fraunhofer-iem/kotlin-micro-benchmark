@@ -1,0 +1,180 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt extends java.lang.Object
+{
+
+    public static final void skateStreet(java.lang.String)
+    {
+        java.io.PrintStream $stack4;
+        java.lang.String name, $stack3;
+
+        name := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(name, " Skating Street");
+
+        $stack4 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public static final void skateStreet(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person, java.lang.String)
+    {
+        java.io.PrintStream $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person $this$skateStreet;
+        java.lang.String name, $stack4;
+
+        $this$skateStreet := @parameter0: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person;
+
+        name := @parameter1: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>($this$skateStreet, "<this>");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(name, "name");
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>(name, " Skating Street");
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>($stack4);
+
+        return;
+    }
+
+    public static final void whatAreYouDoing(kotlin.jvm.functions.Function0)
+    {
+        kotlin.jvm.functions.Function0 answer;
+
+        answer := @parameter0: kotlin.jvm.functions.Function0;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(answer, "answer");
+
+        interfaceinvoke answer.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        interfaceinvoke answer.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        return;
+    }
+
+    public static final void whatAreYouDoing(kotlin.jvm.functions.Function1)
+    {
+        kotlin.jvm.functions.Function1 answer;
+
+        answer := @parameter0: kotlin.jvm.functions.Function1;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(answer, "answer");
+
+        interfaceinvoke answer.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith");
+
+        interfaceinvoke answer.<kotlin.jvm.functions.Function1: java.lang.Object invoke(java.lang.Object)>("Ranjith");
+
+        return;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 $stack2;
+        kotlin.jvm.functions.Function1 $stack7, $stack9, $stack11;
+        kotlin.jvm.functions.Function0 $stack3, $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person $stack1;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 $stack10;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$4 $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3 $stack6;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2 $stack4;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person: void <init>(java.lang.String)>("Ranjith");
+
+        $stack2 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$1 INSTANCE>;
+
+        $stack3 = (kotlin.jvm.functions.Function0) $stack2;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void whatAreYouDoing(kotlin.jvm.functions.Function0)>($stack3);
+
+        $stack4 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2;
+
+        specialinvoke $stack4.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$2: void <init>(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person)>($stack1);
+
+        $stack5 = (kotlin.jvm.functions.Function0) $stack4;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void whatAreYouDoing(kotlin.jvm.functions.Function0)>($stack5);
+
+        $stack6 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3;
+
+        specialinvoke $stack6.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$3: void <init>(de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person)>($stack1);
+
+        $stack7 = (kotlin.jvm.functions.Function1) $stack6;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void whatAreYouDoing(kotlin.jvm.functions.Function1)>($stack7);
+
+        $stack8 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$4: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$4 INSTANCE>;
+
+        $stack9 = (kotlin.jvm.functions.Function1) $stack8;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void whatAreYouDoing(kotlin.jvm.functions.Function1)>($stack9);
+
+        $stack10 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt$main$5 INSTANCE>;
+
+        $stack11 = (kotlin.jvm.functions.Function1) $stack10;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void whatAreYouDoing(kotlin.jvm.functions.Function1)>($stack11);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void main()>();
+
+        return;
+    }
+
+    private static final void main$dummy()
+    {
+        java.io.PrintStream $stack2;
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.Object)>("Doing Nothing");
+
+        return;
+    }
+
+    private static final void main$lambda-0(java.lang.String)
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person $stack1;
+        java.lang.String p0;
+
+        p0 := @parameter0: java.lang.String;
+
+        $stack1 = new de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person;
+
+        specialinvoke $stack1.<de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.Person: void <init>(java.lang.String)>(p0);
+
+        return;
+    }
+
+    public static final void access$main$dummy()
+    {
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void main$dummy()>();
+
+        return;
+    }
+
+    public static final void access$main$lambda-0(java.lang.String)
+    {
+        java.lang.String p0;
+
+        p0 := @parameter0: java.lang.String;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.callableReference.MainKt: void main$lambda-0(java.lang.String)>(p0);
+
+        return;
+    }
+}

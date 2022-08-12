@@ -1,0 +1,126 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt extends java.lang.Object
+{
+
+    public static final java.lang.Object fold(java.util.Collection, java.lang.Object, kotlin.jvm.functions.Function2)
+    {
+        java.util.Iterator $stack6;
+        java.util.Collection collections;
+        java.lang.Object initial, $stack8, accumulator;
+        kotlin.jvm.functions.Function2 combine;
+        boolean $stack7;
+
+        collections := @parameter0: java.util.Collection;
+
+        initial := @parameter1: java.lang.Object;
+
+        combine := @parameter2: kotlin.jvm.functions.Function2;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(collections, "collections");
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(combine, "combine");
+
+        accumulator = initial;
+
+        $stack6 = interfaceinvoke collections.<java.util.Collection: java.util.Iterator iterator()>();
+
+     label1:
+        $stack7 = interfaceinvoke $stack6.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack7 == 0 goto label2;
+
+        $stack8 = interfaceinvoke $stack6.<java.util.Iterator: java.lang.Object next()>();
+
+        accumulator = interfaceinvoke combine.<kotlin.jvm.functions.Function2: java.lang.Object invoke(java.lang.Object,java.lang.Object)>(accumulator, $stack8);
+
+        goto label1;
+
+     label2:
+        return accumulator;
+    }
+
+    public static final void main()
+    {
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 $stack15;
+        java.lang.Integer $stack5, $stack7, $stack9, $stack11, $stack13, $stack17, $stack24;
+        java.lang.String joinedToString;
+        java.lang.Number $stack28;
+        java.util.Collection $stack16, $stack21, $stack23;
+        kotlin.jvm.functions.Function2 $stack19, $stack26, func#2;
+        java.util.List $stack14;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1 $stack18;
+        java.lang.Object $stack22, $stack27;
+        de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 $stack25;
+        java.lang.Integer[] func;
+
+        func = newarray (java.lang.Integer)[5];
+
+        $stack5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        func[0] = $stack5;
+
+        $stack7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2);
+
+        func[1] = $stack7;
+
+        $stack9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3);
+
+        func[2] = $stack9;
+
+        $stack11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4);
+
+        func[3] = $stack11;
+
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5);
+
+        func[4] = $stack13;
+
+        $stack14 = staticinvoke <kotlin.collections.CollectionsKt: java.util.List listOf(java.lang.Object[])>(func);
+
+        $stack15 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$func$1 INSTANCE>;
+
+        func#2 = (kotlin.jvm.functions.Function2) $stack15;
+
+        $stack16 = (java.util.Collection) $stack14;
+
+        $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        $stack18 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$1 INSTANCE>;
+
+        $stack19 = (kotlin.jvm.functions.Function2) $stack18;
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack16, $stack17, $stack19);
+
+        $stack21 = (java.util.Collection) $stack14;
+
+        $stack22 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack21, "Elements:", func#2);
+
+        joinedToString = (java.lang.String) $stack22;
+
+        $stack23 = (java.util.Collection) $stack14;
+
+        $stack24 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack25 = <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1: de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt$main$product$1 INSTANCE>;
+
+        $stack26 = (kotlin.jvm.functions.Function2) $stack25;
+
+        $stack27 = staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: java.lang.Object fold(java.util.Collection,java.lang.Object,kotlin.jvm.functions.Function2)>($stack23, $stack24, $stack26);
+
+        $stack28 = (java.lang.Number) $stack27;
+
+        virtualinvoke $stack28.<java.lang.Number: int intValue()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.highOrderFunctions.simpleExample.MainKt: void main()>();
+
+        return;
+    }
+}

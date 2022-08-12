@@ -1,0 +1,252 @@
+public final class de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        byte $stack14;
+        boolean $stack27;
+        float $stack22;
+        java.lang.StringBuilder $stack30, $stack31, $stack32, $stack33, $stack34, $stack35, $stack36, $stack37, $stack38, $stack39, $stack40, $stack41, $stack42, $stack43, $stack44, $stack45, $stack46, $u0;
+        long $stack20;
+        short $stack16;
+        int $stack18, $i0, $i1;
+        java.lang.String $stack28, $stack47;
+        java.lang.Number $stack13, $stack15, $stack17, $stack19, $stack21, $stack23;
+        double $stack24;
+        java.io.PrintStream $stack48;
+        char $stack25;
+        java.lang.Class $stack26;
+
+        $stack13 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("byte");
+
+        $stack14 = virtualinvoke $stack13.<java.lang.Number: byte byteValue()>();
+
+        $stack15 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("short");
+
+        $stack16 = virtualinvoke $stack15.<java.lang.Number: short shortValue()>();
+
+        $stack17 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("int");
+
+        $stack18 = virtualinvoke $stack17.<java.lang.Number: int intValue()>();
+
+        $stack19 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("long");
+
+        $stack20 = virtualinvoke $stack19.<java.lang.Number: long longValue()>();
+
+        $stack21 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("float");
+
+        $stack22 = virtualinvoke $stack21.<java.lang.Number: float floatValue()>();
+
+        $stack23 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.Number getNumber(java.lang.String)>("double");
+
+        $stack24 = virtualinvoke $stack23.<java.lang.Number: double doubleValue()>();
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: char getChar()>();
+
+        $stack26 = <java.lang.Integer: java.lang.Class TYPE>;
+
+        $stack27 = virtualinvoke $stack26.<java.lang.Class: boolean isPrimitive()>();
+
+        $stack28 = staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: java.lang.String getString()>();
+
+        $u0 = new java.lang.StringBuilder;
+
+        specialinvoke $u0.<java.lang.StringBuilder: void <init>()>();
+
+        $i0 = (int) $stack14;
+
+        $stack30 = virtualinvoke $u0.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0);
+
+        $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $i1 = (int) $stack16;
+
+        $stack32 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i1);
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack34 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack18);
+
+        $stack35 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack36 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($stack20);
+
+        $stack37 = virtualinvoke $stack36.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(float)>($stack22);
+
+        $stack39 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack40 = virtualinvoke $stack39.<java.lang.StringBuilder: java.lang.StringBuilder append(double)>($stack24);
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack42 = virtualinvoke $stack41.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($stack25);
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack44 = virtualinvoke $stack43.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack28);
+
+        $stack45 = virtualinvoke $stack44.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack46 = virtualinvoke $stack45.<java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>($stack27);
+
+        $stack47 = virtualinvoke $stack46.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack48 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack48.<java.io.PrintStream: void println(java.lang.Object)>($stack47);
+
+        return;
+    }
+
+    public static final char getChar()
+    {
+        char $stack0;
+
+        $stack0 = <java.io.File: char separatorChar>;
+
+        return $stack0;
+    }
+
+    public static final java.lang.String getString()
+    {
+        java.lang.String l0;
+
+        l0 = <java.io.File: java.lang.String pathSeparator>;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullExpressionValue(java.lang.Object,java.lang.String)>(l0, "pathSeparator");
+
+        return l0;
+    }
+
+    public static final java.lang.Number getNumber(java.lang.String)
+    {
+        java.lang.Float $stack9;
+        java.lang.Double $stack22;
+        java.lang.Integer $stack4, $stack13, $stack16, $stack19, $stack6;
+        int $stack2;
+        java.lang.String type;
+        java.lang.Number $stack5, $stack10, $stack14, $stack17, $stack20, $stack23, $stack7;
+        boolean $stack3, $stack8, $stack12, $stack15, $stack18, $stack21;
+
+        type := @parameter0: java.lang.String;
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(type, "type");
+
+        $stack2 = virtualinvoke type.<java.lang.String: int hashCode()>();
+
+        lookupswitch($stack2)
+        {
+            case -1325958191: goto label02;
+            case 104431: goto label05;
+            case 3039496: goto label01;
+            case 3327612: goto label06;
+            case 97526364: goto label04;
+            case 109413500: goto label03;
+            default: goto label13;
+        };
+
+     label01:
+        $stack15 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("byte");
+
+        if $stack15 != 0 goto label07;
+
+        goto label13;
+
+     label02:
+        $stack21 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("double");
+
+        if $stack21 != 0 goto label12;
+
+        goto label13;
+
+     label03:
+        $stack3 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("short");
+
+        if $stack3 != 0 goto label08;
+
+        goto label13;
+
+     label04:
+        $stack8 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("float");
+
+        if $stack8 != 0 goto label11;
+
+        goto label13;
+
+     label05:
+        $stack18 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("int");
+
+        if $stack18 != 0 goto label09;
+
+        goto label13;
+
+     label06:
+        $stack12 = virtualinvoke type.<java.lang.String: boolean equals(java.lang.Object)>("long");
+
+        if $stack12 != 0 goto label10;
+
+        goto label13;
+
+     label07:
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1);
+
+        $stack17 = (java.lang.Number) $stack16;
+
+        return $stack17;
+
+     label08:
+        $stack4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(12);
+
+        $stack5 = (java.lang.Number) $stack4;
+
+        return $stack5;
+
+     label09:
+        $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(10);
+
+        $stack20 = (java.lang.Number) $stack19;
+
+        return $stack20;
+
+     label10:
+        $stack13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(12342);
+
+        $stack14 = (java.lang.Number) $stack13;
+
+        return $stack14;
+
+     label11:
+        $stack9 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>(10.4F);
+
+        $stack10 = (java.lang.Number) $stack9;
+
+        return $stack10;
+
+     label12:
+        $stack22 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(10.4);
+
+        $stack23 = (java.lang.Number) $stack22;
+
+        return $stack23;
+
+     label13:
+        $stack6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0);
+
+        $stack7 = (java.lang.Number) $stack6;
+
+        return $stack7;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.dataTypes.KotlinDataTypes1Kt: void main()>();
+
+        return;
+    }
+}

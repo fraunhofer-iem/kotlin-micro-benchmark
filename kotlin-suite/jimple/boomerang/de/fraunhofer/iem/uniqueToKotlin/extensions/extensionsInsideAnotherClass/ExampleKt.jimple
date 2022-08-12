@@ -1,0 +1,55 @@
+public final class de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack6, $stack8;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host $stack4, $stack5;
+        de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection $stack3;
+        int $stack7, varReplacer1436;
+        java.lang.String varReplacer1435;
+
+        nop;
+
+        $stack3 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection;
+
+        $stack4 = new de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host;
+
+        varReplacer1435 = "dummy.de";
+
+        specialinvoke $stack4.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host: void <init>(java.lang.String)>(varReplacer1435);
+
+        varReplacer1436 = 443;
+
+        specialinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void <init>(de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host,int)>($stack4, varReplacer1436);
+
+        virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: void connect()>();
+
+        $stack5 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Host getHost()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>($stack5);
+
+        $stack7 = virtualinvoke $stack3.<de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.Connection: int getPort()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(int)>($stack7);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.uniqueToKotlin.extensions.extensionsInsideAnotherClass.ExampleKt: void main()>();
+
+        return;
+    }
+}

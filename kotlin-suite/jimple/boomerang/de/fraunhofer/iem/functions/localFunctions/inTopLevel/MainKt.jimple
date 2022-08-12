@@ -1,0 +1,471 @@
+public final class de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt extends java.lang.Object
+{
+
+    public static final int stepIncrementer(int, int, int)
+    {
+        int number, iterCount, step, $stack20, varReplacer1875, varReplacer1878, varReplacer1879;
+        java.lang.String $stack17, varReplacer1873, varReplacer1874, varReplacer1876, varReplacer1877;
+        kotlin.jvm.internal.Ref$ObjectRef $stack9;
+        java.io.PrintStream $stack18, $stack19;
+        kotlin.jvm.internal.Ref$IntRef $stack8;
+        java.lang.StringBuilder $stack10, $stack11, $stack12, $stack13, $stack14, $stack15, $stack16;
+        java.lang.Object l6;
+
+        nop;
+
+        number := @parameter0: int;
+
+        iterCount := @parameter1: int;
+
+        step := @parameter2: int;
+
+        $stack8 = new kotlin.jvm.internal.Ref$IntRef;
+
+        specialinvoke $stack8.<kotlin.jvm.internal.Ref$IntRef: void <init>()>();
+
+        $stack8.<kotlin.jvm.internal.Ref$IntRef: int element> = number;
+
+        $stack9 = new kotlin.jvm.internal.Ref$ObjectRef;
+
+        specialinvoke $stack9.<kotlin.jvm.internal.Ref$ObjectRef: void <init>()>();
+
+        varReplacer1876 = "";
+
+        $stack9.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = varReplacer1876;
+
+        $stack10 = new java.lang.StringBuilder;
+
+        specialinvoke $stack10.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1873 = "Number = ";
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1873);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(number);
+
+        varReplacer1874 = "\nIteration Count = ";
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1874);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(iterCount);
+
+        varReplacer1877 = "\nIncrement step = ";
+
+        $stack15 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1877);
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(step);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack18 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack18.<java.io.PrintStream: void println(java.lang.Object)>($stack17);
+
+        varReplacer1875 = 1;
+
+        staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)>(iterCount, $stack8, step, varReplacer1875);
+
+        varReplacer1878 = 1;
+
+        varReplacer1879 = 0;
+
+        staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: void stepIncrementer$add-0(kotlin.jvm.internal.Ref$ObjectRef,int,int)>($stack9, varReplacer1878, varReplacer1879);
+
+        l6 = $stack9.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>;
+
+        $stack19 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack19.<java.io.PrintStream: void println(java.lang.Object)>(l6);
+
+        $stack20 = $stack8.<kotlin.jvm.internal.Ref$IntRef: int element>;
+
+        return $stack20;
+    }
+
+    public static final int stepIncrementer1For10Count(int)
+    {
+        int number, $stack12, $stack16, varReplacer1880, varReplacer1882, varReplacer1885, varReplacer1886;
+        java.lang.String $stack14, varReplacer1881, varReplacer1883, varReplacer1884, varReplacer1887;
+        java.io.PrintStream $stack15;
+        kotlin.jvm.internal.Ref$IntRef $stack5;
+        java.lang.StringBuilder $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack13;
+
+        nop;
+
+        number := @parameter0: int;
+
+        $stack5 = new kotlin.jvm.internal.Ref$IntRef;
+
+        specialinvoke $stack5.<kotlin.jvm.internal.Ref$IntRef: void <init>()>();
+
+        varReplacer1880 = 1;
+
+        $stack5.<kotlin.jvm.internal.Ref$IntRef: int element> = varReplacer1880;
+
+        $stack6 = new java.lang.StringBuilder;
+
+        specialinvoke $stack6.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1881 = "Number = ";
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1881);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(number);
+
+        varReplacer1883 = "\nIteration Count = ";
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1883);
+
+        varReplacer1882 = 10;
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(varReplacer1882);
+
+        varReplacer1884 = "\nIncrement step = ";
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1884);
+
+        $stack12 = $stack5.<kotlin.jvm.internal.Ref$IntRef: int element>;
+
+        $stack13 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack12);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        varReplacer1885 = 10;
+
+        varReplacer1886 = 1;
+
+        varReplacer1887 = "";
+
+        $stack16 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count$add-1(int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>(varReplacer1885, $stack5, number, varReplacer1886, varReplacer1887);
+
+        return $stack16;
+    }
+
+    public static final void main()
+    {
+        java.lang.StringBuilder $stack2, $stack3, $stack5, $stack6, $stack9, $stack10, $stack12, $stack13, $stack16, $stack17, $stack19, $stack20, $stack23, $stack24, $stack26, $stack27, $stack30, $stack31, $stack33, $stack34, $stack37, $stack38, $stack40, $stack41;
+        java.lang.String $stack7, $stack14, $stack21, $stack28, $stack35, $stack42, varReplacer1889, varReplacer1890, varReplacer1895, varReplacer1903, varReplacer1910, varReplacer1911;
+        int $stack4, $stack11, $stack18, $stack25, $stack32, $stack39, varReplacer1888, varReplacer1891, varReplacer1892, varReplacer1893, varReplacer1894, varReplacer1896, varReplacer1897, varReplacer1898, varReplacer1899, varReplacer1900, varReplacer1901, varReplacer1902, varReplacer1904, varReplacer1905, varReplacer1906, varReplacer1907, varReplacer1908, varReplacer1909;
+        java.io.PrintStream $stack8, $stack15, $stack22, $stack29, $stack36, $stack43;
+
+        nop;
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1895 = "Result = ";
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1895);
+
+        varReplacer1897 = 0;
+
+        varReplacer1898 = 10;
+
+        varReplacer1899 = 1;
+
+        $stack4 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer(int,int,int)>(varReplacer1897, varReplacer1898, varReplacer1899);
+
+        $stack5 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack4);
+
+        varReplacer1904 = 10;
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1904);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>($stack7);
+
+        $stack9 = new java.lang.StringBuilder;
+
+        specialinvoke $stack9.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1910 = "Result = ";
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1910);
+
+        varReplacer1906 = 100;
+
+        varReplacer1907 = 10;
+
+        varReplacer1908 = 100;
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer(int,int,int)>(varReplacer1906, varReplacer1907, varReplacer1906);
+
+        $stack12 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack11);
+
+        varReplacer1888 = 10;
+
+        $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1888);
+
+        $stack14 = virtualinvoke $stack13.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack15 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack15.<java.io.PrintStream: void println(java.lang.Object)>($stack14);
+
+        $stack16 = new java.lang.StringBuilder;
+
+        specialinvoke $stack16.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1903 = "Result = ";
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1903);
+
+        varReplacer1892 = 21;
+
+        varReplacer1893 = 100;
+
+        varReplacer1894 = 123;
+
+        $stack18 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer(int,int,int)>(varReplacer1892, varReplacer1893, varReplacer1894);
+
+        $stack19 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack18);
+
+        varReplacer1909 = 10;
+
+        $stack20 = virtualinvoke $stack19.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1909);
+
+        $stack21 = virtualinvoke $stack20.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack22 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack22.<java.io.PrintStream: void println(java.lang.Object)>($stack21);
+
+        $stack23 = new java.lang.StringBuilder;
+
+        specialinvoke $stack23.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1889 = "Result = ";
+
+        $stack24 = virtualinvoke $stack23.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1889);
+
+        varReplacer1896 = 0;
+
+        $stack25 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count(int)>(varReplacer1896);
+
+        $stack26 = virtualinvoke $stack24.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack25);
+
+        varReplacer1891 = 10;
+
+        $stack27 = virtualinvoke $stack26.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1891);
+
+        $stack28 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack29 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack29.<java.io.PrintStream: void println(java.lang.Object)>($stack28);
+
+        $stack30 = new java.lang.StringBuilder;
+
+        specialinvoke $stack30.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1911 = "Result = ";
+
+        $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1911);
+
+        varReplacer1902 = 100;
+
+        $stack32 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count(int)>(varReplacer1902);
+
+        $stack33 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack32);
+
+        varReplacer1900 = 10;
+
+        $stack34 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1900);
+
+        $stack35 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack36 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack36.<java.io.PrintStream: void println(java.lang.Object)>($stack35);
+
+        $stack37 = new java.lang.StringBuilder;
+
+        specialinvoke $stack37.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1890 = "Result = ";
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1890);
+
+        varReplacer1905 = 21;
+
+        $stack39 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count(int)>(varReplacer1905);
+
+        $stack40 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack39);
+
+        varReplacer1901 = 10;
+
+        $stack41 = virtualinvoke $stack40.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(varReplacer1901);
+
+        $stack42 = virtualinvoke $stack41.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack43 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack43.<java.io.PrintStream: void println(java.lang.Object)>($stack42);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        nop;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: void main()>();
+
+        return;
+    }
+
+    private static final void stepIncrementer$add(int, kotlin.jvm.internal.Ref$IntRef, int, int)
+    {
+        int currentIter, $iterCount, $step, $stack4, $stack5, $stack6;
+        kotlin.jvm.internal.Ref$IntRef res;
+
+        nop;
+
+        $iterCount := @parameter0: int;
+
+        res := @parameter1: kotlin.jvm.internal.Ref$IntRef;
+
+        $step := @parameter2: int;
+
+        currentIter := @parameter3: int;
+
+        if currentIter <= $iterCount goto label1;
+
+        nop;
+
+        return;
+
+     label1:
+        nop;
+
+        $stack4 = res.<kotlin.jvm.internal.Ref$IntRef: int element>;
+
+        $stack5 = $stack4 + $step;
+
+        res.<kotlin.jvm.internal.Ref$IntRef: int element> = $stack5;
+
+        $stack6 = currentIter + 1;
+
+        staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: void stepIncrementer$add(int,kotlin.jvm.internal.Ref$IntRef,int,int)>($iterCount, res, $step, $stack6);
+
+        return;
+    }
+
+    private static final void stepIncrementer$add-0(kotlin.jvm.internal.Ref$ObjectRef, int, int)
+    {
+        java.io.PrintStream $stack11;
+        int currentIter, dummyInt;
+        java.lang.StringBuilder $stack5, $stack6, $stack7, $stack8, $stack9;
+        java.lang.String $stack10, varReplacer1912, varReplacer1913, varReplacer1914;
+        kotlin.jvm.internal.Ref$ObjectRef dummyString;
+
+        nop;
+
+        dummyString := @parameter0: kotlin.jvm.internal.Ref$ObjectRef;
+
+        currentIter := @parameter1: int;
+
+        dummyInt := @parameter2: int;
+
+        $stack5 = new java.lang.StringBuilder;
+
+        specialinvoke $stack5.<java.lang.StringBuilder: void <init>()>();
+
+        varReplacer1912 = "Dummy to test for function overload of local function ";
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1912);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(currentIter);
+
+        varReplacer1913 = " + ";
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(varReplacer1913);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(dummyInt);
+
+        $stack10 = virtualinvoke $stack9.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>($stack10);
+
+        varReplacer1914 = "Dummy to test function overloads in local function";
+
+        dummyString.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element> = varReplacer1914;
+
+        return;
+    }
+
+    private static final int stepIncrementer1For10Count$add-1(int, kotlin.jvm.internal.Ref$IntRef, int, int, java.lang.String)
+    {
+        int currentIter, iterCount, $stack5, $number, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack12, varReplacer1917;
+        java.lang.String dummyFlag, varReplacer1915, varReplacer1916;
+        kotlin.jvm.internal.Ref$IntRef step;
+
+        nop;
+
+        iterCount := @parameter0: int;
+
+        step := @parameter1: kotlin.jvm.internal.Ref$IntRef;
+
+        $number := @parameter2: int;
+
+        currentIter := @parameter3: int;
+
+        dummyFlag := @parameter4: java.lang.String;
+
+        $stack5 = iterCount + 1;
+
+        if currentIter <= $stack5 goto label1;
+
+        nop;
+
+        varReplacer1917 = 0;
+
+        return varReplacer1917;
+
+     label1:
+        nop;
+
+        if currentIter <= 1 goto label2;
+
+        nop;
+
+        $stack10 = step.<kotlin.jvm.internal.Ref$IntRef: int element>;
+
+        $stack9 = currentIter + 1;
+
+        varReplacer1916 = "";
+
+        $stack11 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count$add-1(int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>(iterCount, step, $number, $stack9, varReplacer1916);
+
+        $stack12 = $stack10 + $stack11;
+
+        return $stack12;
+
+     label2:
+        nop;
+
+        $stack6 = currentIter + 1;
+
+        varReplacer1915 = "";
+
+        $stack7 = staticinvoke <de.fraunhofer.iem.functions.localFunctions.inTopLevel.MainKt: int stepIncrementer1For10Count$add-1(int,kotlin.jvm.internal.Ref$IntRef,int,int,java.lang.String)>(iterCount, step, $number, $stack6, varReplacer1915);
+
+        $stack8 = $number + $stack7;
+
+        return $stack8;
+    }
+}

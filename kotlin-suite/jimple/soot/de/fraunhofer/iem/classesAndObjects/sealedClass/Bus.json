@@ -1,0 +1,116 @@
+{
+    "className": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+    "superClass": "de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle",
+    "implementedInterface": [],
+    "methodCount": 9,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String getRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void displayVehicleRegistrationNumber()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String component1()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy(java.lang.String)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy$default(de.fraunhofer.iem.classesAndObjects.sealedClass.Bus,java.lang.String,int,java.lang.Object)>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: java.lang.String toString()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: int hashCode()>",
+        "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: boolean equals(java.lang.Object)>"
+    ],
+    "methodsInformation": {
+        "void <init>(java.lang.String)": {
+            "localVariables": {
+                "registrationNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"
+            },
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: void <init>(java.lang.String,kotlin.jvm.internal.DefaultConstructorMarker)>"
+            ]
+        },
+        "java.lang.String getRegistrationNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "void displayVehicleRegistrationNumber()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "stackVariables": {
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Vehicle: java.lang.String getVehicleRegistrationNumber()>",
+                "<kotlin.jvm.internal.Intrinsics: java.lang.String stringPlus(java.lang.String,java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "java.lang.String component1()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "stackVariables": {"$stack1": "java.lang.String"},
+            "invokeExpressions": []
+        },
+        "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy(java.lang.String)": {
+            "localVariables": {
+                "registrationNumber": "java.lang.String",
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"
+            },
+            "stackVariables": {"$stack2": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: void <init>(java.lang.String)>"
+            ]
+        },
+        "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy$default(de.fraunhofer.iem.classesAndObjects.sealedClass.Bus,java.lang.String,int,java.lang.Object)": {
+            "localVariables": {},
+            "stackVariables": {
+                "l2": "int",
+                "$stack4": "int",
+                "l0": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "$stack5": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "l3": "java.lang.Object",
+                "l1": "java.lang.String"
+            },
+            "invokeExpressions": ["<de.fraunhofer.iem.classesAndObjects.sealedClass.Bus: de.fraunhofer.iem.classesAndObjects.sealedClass.Bus copy(java.lang.String)>"]
+        },
+        "java.lang.String toString()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "stackVariables": {
+                "$stack1": "java.lang.StringBuilder",
+                "$stack2": "java.lang.StringBuilder",
+                "$stack3": "java.lang.String",
+                "$stack4": "java.lang.StringBuilder",
+                "$stack5": "java.lang.StringBuilder",
+                "$stack6": "java.lang.String"
+            },
+            "invokeExpressions": [
+                "<java.lang.StringBuilder: void <init>()>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>",
+                "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>",
+                "<java.lang.StringBuilder: java.lang.String toString()>"
+            ]
+        },
+        "int hashCode()": {
+            "localVariables": {"this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus"},
+            "stackVariables": {
+                "$stack1": "java.lang.String",
+                "$stack2": "int"
+            },
+            "invokeExpressions": ["<java.lang.String: int hashCode()>"]
+        },
+        "boolean equals(java.lang.Object)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "other": "java.lang.Object"
+            },
+            "stackVariables": {
+                "$stack3": "boolean",
+                "l2": "de.fraunhofer.iem.classesAndObjects.sealedClass.Bus",
+                "$stack4": "java.lang.String",
+                "$stack5": "java.lang.String",
+                "$stack6": "boolean"
+            },
+            "invokeExpressions": ["<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>"]
+        }
+    }
+}

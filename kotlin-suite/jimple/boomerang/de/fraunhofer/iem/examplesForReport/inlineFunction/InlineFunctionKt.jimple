@@ -1,0 +1,81 @@
+public final class de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt extends java.lang.Object
+{
+
+    public static final void send(kotlin.jvm.functions.Function0, de.fraunhofer.iem.examplesForReport.inlineFunction.Employee, kotlin.jvm.functions.Function0)
+    {
+        java.io.PrintStream $stack6;
+        java.lang.String varReplacer1413, varReplacer1414, varReplacer1415;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.Employee employee;
+        kotlin.jvm.functions.Function0 beforePrint, afterPrint;
+
+        nop;
+
+        beforePrint := @parameter0: kotlin.jvm.functions.Function0;
+
+        employee := @parameter1: de.fraunhofer.iem.examplesForReport.inlineFunction.Employee;
+
+        afterPrint := @parameter2: kotlin.jvm.functions.Function0;
+
+        varReplacer1414 = "beforePrint";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(beforePrint, varReplacer1414);
+
+        varReplacer1413 = "employee";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(employee, varReplacer1413);
+
+        varReplacer1415 = "afterPrint";
+
+        staticinvoke <kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>(afterPrint, varReplacer1415);
+
+        interfaceinvoke beforePrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack6 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack6.<java.io.PrintStream: void println(java.lang.Object)>(employee);
+
+        interfaceinvoke afterPrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        return;
+    }
+
+    public static final void entry()
+    {
+        java.io.PrintStream $stack10, $stack11;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.Employee $stack8;
+        kotlin.jvm.functions.Function0 beforePrint;
+        de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1 $stack7;
+        int varReplacer1418;
+        java.lang.String varReplacer1416, varReplacer1417, varReplacer1419;
+
+        nop;
+
+        $stack7 = <de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1: de.fraunhofer.iem.examplesForReport.inlineFunction.InlineFunctionKt$entry$beforePrint$1 INSTANCE>;
+
+        beforePrint = (kotlin.jvm.functions.Function0) $stack7;
+
+        $stack8 = new de.fraunhofer.iem.examplesForReport.inlineFunction.Employee;
+
+        varReplacer1416 = "Night";
+
+        varReplacer1417 = "Fury";
+
+        varReplacer1418 = 120;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.examplesForReport.inlineFunction.Employee: void <init>(java.lang.String,java.lang.String,int)>(varReplacer1416, varReplacer1417, varReplacer1418);
+
+        interfaceinvoke beforePrint.<kotlin.jvm.functions.Function0: java.lang.Object invoke()>();
+
+        $stack10 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack10.<java.io.PrintStream: void println(java.lang.Object)>($stack8);
+
+        $stack11 = <java.lang.System: java.io.PrintStream out>;
+
+        varReplacer1419 = "Exiting the send operation";
+
+        virtualinvoke $stack11.<java.io.PrintStream: void println(java.lang.Object)>(varReplacer1419);
+
+        return;
+    }
+}
