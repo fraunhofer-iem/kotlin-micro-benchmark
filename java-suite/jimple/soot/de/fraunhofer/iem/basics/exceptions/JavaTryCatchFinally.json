@@ -1,0 +1,104 @@
+{
+    "className": "de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 7,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void <init>()>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample1()>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample2()>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample3()>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid2(java.lang.String)>",
+        "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void tryCatchExample1()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.lang.NoSuchMethodException",
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.NoSuchFieldException",
+                "$stack4": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void tryCatchExample2()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack1": "java.lang.NoSuchFieldException",
+                "$stack2": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void tryCatchExample3()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "java.io.PrintStream",
+                "$stack3": "java.lang.Throwable",
+                "$stack4": "java.io.PrintStream",
+                "$stack5": "java.lang.NoSuchMethodException",
+                "$stack6": "java.io.PrintStream",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.lang.NoSuchFieldException",
+                "$stack9": "java.io.PrintStream",
+                "$stack10": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid1(java.lang.String)>",
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void checkValid2(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.io.PrintStream: void println(java.lang.String)>"
+            ]
+        },
+        "void checkValid1(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.NoSuchFieldException"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: boolean matches(java.lang.String)>",
+                "<java.lang.NoSuchFieldException: void <init>(java.lang.String)>"
+            ]
+        },
+        "void checkValid2(java.lang.String)": {
+            "localVariables": {"name": "java.lang.String"},
+            "stackVariables": {
+                "$stack1": "boolean",
+                "$stack2": "java.lang.NoSuchMethodException"
+            },
+            "invokeExpressions": [
+                "<java.lang.String: boolean matches(java.lang.String)>",
+                "<java.lang.NoSuchMethodException: void <init>(java.lang.String)>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample1()>",
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample2()>",
+                "<de.fraunhofer.iem.basics.exceptions.JavaTryCatchFinally: void tryCatchExample3()>"
+            ]
+        }
+    }
+}

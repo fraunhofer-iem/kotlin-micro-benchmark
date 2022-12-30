@@ -1,0 +1,53 @@
+public final class de.fraunhofer.iem.basics.exceptions.KotlinThrowKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.basics.exceptions.KotlinThrowKt: void checkValid(java.lang.String)>("Ranjith");
+
+        staticinvoke <de.fraunhofer.iem.basics.exceptions.KotlinThrowKt: void checkValid(java.lang.String)>("ranj345n");
+
+        return;
+    }
+
+    private static final void checkValid(java.lang.String)
+    {
+        java.lang.CharSequence l1;
+        java.lang.String name;
+        kotlin.text.Regex $stack3;
+        java.lang.Exception $stack5;
+        boolean $stack4;
+
+        name := @parameter0: java.lang.String;
+
+        l1 = (java.lang.CharSequence) name;
+
+        $stack3 = new kotlin.text.Regex;
+
+        specialinvoke $stack3.<kotlin.text.Regex: void <init>(java.lang.String)>(".*\\d.*");
+
+        $stack4 = virtualinvoke $stack3.<kotlin.text.Regex: boolean matches(java.lang.CharSequence)>(l1);
+
+        if $stack4 == 0 goto label1;
+
+        $stack5 = new java.lang.Exception;
+
+        specialinvoke $stack5.<java.lang.Exception: void <init>(java.lang.String)>("Invalid name");
+
+        throw $stack5;
+
+     label1:
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.basics.exceptions.KotlinThrowKt: void main()>();
+
+        return;
+    }
+}
