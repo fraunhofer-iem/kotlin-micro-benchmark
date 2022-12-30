@@ -1,0 +1,14 @@
+public final class de.fraunhofer.iem.reflection.ClassReference extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.reflection.ClassReference this;
+
+        this := @this: de.fraunhofer.iem.reflection.ClassReference;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

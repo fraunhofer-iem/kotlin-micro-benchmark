@@ -1,0 +1,104 @@
+public class de.fraunhofer.iem.reflection.ClassReference extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.reflection.ClassReference this;
+
+        this := @this: de.fraunhofer.iem.reflection.ClassReference;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void directClassAccess()
+    {
+        java.io.PrintStream $stack2;
+        java.lang.Class clz, $stack6, clz_1, clz_2;
+        java.lang.StringBuilder $stack1, $stack4, $stack5, $stack8;
+        java.lang.String $stack3, $stack7, $stack9;
+
+        clz = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        clz_2 = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        clz_1 = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        $stack2 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke clz_2.<java.lang.Class: java.lang.String getName()>();
+
+        $stack4 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack6 = virtualinvoke clz_1.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack7 = virtualinvoke $stack6.<java.lang.Class: java.lang.String getName()>();
+
+        $stack8 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack7);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        return;
+    }
+
+    public static void classAccessThroughVariable()
+    {
+        java.io.PrintStream $stack5;
+        java.lang.Class $stack3, $stack9;
+        java.lang.StringBuilder $stack4, $stack7, $stack8, $stack11;
+        de.fraunhofer.iem.reflection.ClassReference $stack2;
+        java.lang.String $stack6, $stack10, $stack12;
+
+        $stack2 = new de.fraunhofer.iem.reflection.ClassReference;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.reflection.ClassReference: void <init>()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack6 = virtualinvoke $stack3.<java.lang.Class: java.lang.String getName()>();
+
+        $stack7 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack9 = virtualinvoke $stack3.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack10 = virtualinvoke $stack9.<java.lang.Class: java.lang.String getName()>();
+
+        $stack11 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack10);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.String)>($stack12);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.reflection.ClassReference: void directClassAccess()>();
+
+        staticinvoke <de.fraunhofer.iem.reflection.ClassReference: void classAccessThroughVariable()>();
+
+        return;
+    }
+}

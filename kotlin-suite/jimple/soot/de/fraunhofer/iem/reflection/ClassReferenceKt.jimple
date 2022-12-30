@@ -1,0 +1,218 @@
+public final class de.fraunhofer.iem.reflection.ClassReferenceKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        staticinvoke <de.fraunhofer.iem.reflection.ClassReferenceKt: void directClassAccess()>();
+
+        staticinvoke <de.fraunhofer.iem.reflection.ClassReferenceKt: void classAccessThroughVariable()>();
+
+        return;
+    }
+
+    public static final void directClassAccess()
+    {
+        kotlin.reflect.KClass $stack3, $stack9, $stack19;
+        java.lang.String $stack5, $stack10, $stack12, $stack15, $stack20, $stack22;
+        java.io.PrintStream $stack13, $stack23;
+        java.lang.Class javaClz, $stack8, $stack18, javaClz_1, javaClz_2;
+        java.lang.StringBuilder $stack4, $stack6, $stack7, $stack11, $stack14, $stack16, $stack17, $stack21;
+
+        $stack3 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>(class "Lde/fraunhofer/iem/reflection/ClassReference;");
+
+        javaClz = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        javaClz_2 = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        javaClz_1 = class "Lde/fraunhofer/iem/reflection/ClassReference;";
+
+        $stack4 = new java.lang.StringBuilder;
+
+        specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>();
+
+        $stack5 = interfaceinvoke $stack3.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack6 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack5);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack8 = virtualinvoke $stack3.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack9 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack8);
+
+        $stack10 = interfaceinvoke $stack9.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack11 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack10);
+
+        $stack12 = virtualinvoke $stack11.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack13 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack13.<java.io.PrintStream: void println(java.lang.Object)>($stack12);
+
+        $stack14 = new java.lang.StringBuilder;
+
+        specialinvoke $stack14.<java.lang.StringBuilder: void <init>()>();
+
+        $stack15 = virtualinvoke javaClz_1.<java.lang.Class: java.lang.String getName()>();
+
+        $stack16 = virtualinvoke $stack14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack15);
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack18 = virtualinvoke javaClz_2.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack19 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack18);
+
+        $stack20 = interfaceinvoke $stack19.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack21 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack20);
+
+        $stack22 = virtualinvoke $stack21.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack23 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.Object)>($stack22);
+
+        return;
+    }
+
+    public static final void classAccessThroughVariable()
+    {
+        java.lang.StringBuilder $stack15, $stack17, $stack18, $stack22, $stack25, $stack27, $stack28, $stack32, $stack35, $stack37, $stack38, $stack42, $stack45, $stack47, $stack48, $stack52;
+        de.fraunhofer.iem.reflection.ClassReference $stack7, $stack8;
+        kotlin.reflect.KClass $stack10, $stack13, $stack20, $stack30, $stack40, $stack50;
+        java.lang.String $stack16, $stack21, $stack23, $stack26, $stack31, $stack33, $stack36, $stack41, $stack43, $stack46, $stack51, $stack53;
+        java.io.PrintStream $stack24, $stack34, $stack44, $stack54;
+        java.lang.Class $stack9, $stack11, $stack12, $stack14, $stack19, $stack29, $stack39, $stack49;
+
+        $stack7 = new de.fraunhofer.iem.reflection.ClassReference;
+
+        specialinvoke $stack7.<de.fraunhofer.iem.reflection.ClassReference: void <init>()>();
+
+        $stack8 = new de.fraunhofer.iem.reflection.ClassReference;
+
+        specialinvoke $stack8.<de.fraunhofer.iem.reflection.ClassReference: void <init>()>();
+
+        $stack9 = virtualinvoke $stack7.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack10 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack9);
+
+        $stack11 = virtualinvoke $stack7.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack12 = virtualinvoke $stack8.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack13 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack12);
+
+        $stack14 = virtualinvoke $stack8.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        $stack16 = interfaceinvoke $stack10.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack17 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack16);
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack19 = virtualinvoke $stack10.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack20 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack19);
+
+        $stack21 = interfaceinvoke $stack20.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack22 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack21);
+
+        $stack23 = virtualinvoke $stack22.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack24 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack24.<java.io.PrintStream: void println(java.lang.Object)>($stack23);
+
+        $stack25 = new java.lang.StringBuilder;
+
+        specialinvoke $stack25.<java.lang.StringBuilder: void <init>()>();
+
+        $stack26 = virtualinvoke $stack11.<java.lang.Class: java.lang.String getName()>();
+
+        $stack27 = virtualinvoke $stack25.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack26);
+
+        $stack28 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack29 = virtualinvoke $stack11.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack30 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack29);
+
+        $stack31 = interfaceinvoke $stack30.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack32 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack31);
+
+        $stack33 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack34 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack34.<java.io.PrintStream: void println(java.lang.Object)>($stack33);
+
+        $stack35 = new java.lang.StringBuilder;
+
+        specialinvoke $stack35.<java.lang.StringBuilder: void <init>()>();
+
+        $stack36 = interfaceinvoke $stack13.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack37 = virtualinvoke $stack35.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack36);
+
+        $stack38 = virtualinvoke $stack37.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack39 = virtualinvoke $stack13.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack40 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack39);
+
+        $stack41 = interfaceinvoke $stack40.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack42 = virtualinvoke $stack38.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack41);
+
+        $stack43 = virtualinvoke $stack42.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack44 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack44.<java.io.PrintStream: void println(java.lang.Object)>($stack43);
+
+        $stack45 = new java.lang.StringBuilder;
+
+        specialinvoke $stack45.<java.lang.StringBuilder: void <init>()>();
+
+        $stack46 = virtualinvoke $stack14.<java.lang.Class: java.lang.String getName()>();
+
+        $stack47 = virtualinvoke $stack45.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack46);
+
+        $stack48 = virtualinvoke $stack47.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" : ");
+
+        $stack49 = virtualinvoke $stack14.<java.lang.Object: java.lang.Class getClass()>();
+
+        $stack50 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>($stack49);
+
+        $stack51 = interfaceinvoke $stack50.<kotlin.reflect.KClass: java.lang.String getQualifiedName()>();
+
+        $stack52 = virtualinvoke $stack48.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack51);
+
+        $stack53 = virtualinvoke $stack52.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        $stack54 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack54.<java.io.PrintStream: void println(java.lang.Object)>($stack53);
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.reflection.ClassReferenceKt: void main()>();
+
+        return;
+    }
+}
