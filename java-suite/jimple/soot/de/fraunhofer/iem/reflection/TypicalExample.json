@@ -1,0 +1,105 @@
+{
+    "className": "de.fraunhofer.iem.reflection.TypicalExample",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 6,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.reflection.TypicalExample: void <init>()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void publicMethod()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void fieldAccess(java.lang.Class)>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(java.lang.Class)>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void main(java.lang.String[])>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void <clinit>()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.reflection.TypicalExample"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "void publicMethod()": {
+            "localVariables": {},
+            "stackVariables": {"$stack0": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.String)>"]
+        },
+        "void fieldAccess(java.lang.Class)": {
+            "localVariables": {
+                "clz": "java.lang.Class",
+                "field": "java.lang.reflect.Field"
+            },
+            "stackVariables": {
+                "$stack7": "java.lang.reflect.Field[]",
+                "l3": "int",
+                "$stack8": "java.io.PrintStream",
+                "$stack9": "java.lang.String",
+                "$stack10": "java.lang.Class[]",
+                "$stack11": "java.lang.reflect.Constructor",
+                "$stack12": "java.lang.Object[]",
+                "$stack13": "java.lang.Object",
+                "$stack14": "java.io.PrintStream",
+                "$stack15": "java.lang.Object",
+                "$stack16": "java.lang.Integer",
+                "$stack17": "java.io.PrintStream",
+                "$stack18": "java.lang.Object",
+                "l4": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Class: java.lang.reflect.Field[] getDeclaredFields()>",
+                "<java.lang.reflect.Field: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])>",
+                "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>",
+                "<java.lang.reflect.Field: java.lang.Object get(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<java.lang.reflect.Field: void set(java.lang.Object,java.lang.Object)>",
+                "<java.lang.reflect.Field: java.lang.Object get(java.lang.Object)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void methodAccess(java.lang.Class)": {
+            "localVariables": {
+                "clz": "java.lang.Class",
+                "method": "java.lang.reflect.Method"
+            },
+            "stackVariables": {
+                "$stack7": "java.lang.reflect.Method[]",
+                "l3": "int",
+                "$stack8": "java.lang.String",
+                "$stack9": "boolean",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.String",
+                "$stack14": "java.lang.Class[]",
+                "$stack15": "java.lang.reflect.Constructor",
+                "$stack16": "java.lang.Object[]",
+                "$stack17": "java.lang.Object",
+                "$stack18": "java.lang.Object[]",
+                "l4": "int"
+            },
+            "invokeExpressions": [
+                "<java.lang.Class: java.lang.reflect.Method[] getDeclaredMethods()>",
+                "<java.lang.reflect.Method: java.lang.String getName()>",
+                "<java.lang.String: boolean equals(java.lang.Object)>",
+                "<java.lang.reflect.Method: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.String)>",
+                "<java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])>",
+                "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>",
+                "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {"$stack2": "java.lang.Class"},
+            "invokeExpressions": [
+                "<java.lang.Class: java.lang.Class forName(java.lang.String)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void fieldAccess(java.lang.Class)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(java.lang.Class)>"
+            ]
+        },
+        "void <clinit>()": {
+            "localVariables": {},
+            "stackVariables": {},
+            "invokeExpressions": []
+        }
+    }
+}

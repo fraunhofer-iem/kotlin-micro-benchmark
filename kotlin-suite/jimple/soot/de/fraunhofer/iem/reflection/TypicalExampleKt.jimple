@@ -1,0 +1,55 @@
+public final class de.fraunhofer.iem.reflection.TypicalExampleKt extends java.lang.Object
+{
+
+    public static final void main()
+    {
+        java.io.PrintStream $stack3, $stack5, $stack7, $stack8;
+        de.fraunhofer.iem.reflection.TypicalExample $stack2;
+        kotlin.reflect.KClass $stack4, $stack6;
+
+        $stack2 = new de.fraunhofer.iem.reflection.TypicalExample;
+
+        specialinvoke $stack2.<de.fraunhofer.iem.reflection.TypicalExample: void <init>()>();
+
+        $stack3 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.Object)>("*** Property Access ***");
+
+        $stack4 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>(class "Lde/fraunhofer/iem/reflection/TypicalExample;");
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.reflection.TypicalExample: void propertyAccess(kotlin.reflect.KClass)>($stack4);
+
+        $stack5 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack5.<java.io.PrintStream: void println(java.lang.Object)>("\n*** Method Access ***");
+
+        $stack6 = staticinvoke <kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>(class "Lde/fraunhofer/iem/reflection/TypicalExample;");
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(kotlin.reflect.KClass)>($stack6);
+
+        $stack7 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack7.<java.io.PrintStream: void println(java.lang.Object)>("\n*** Direct Property Access ***");
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.reflection.TypicalExample: void directPropertyAccess()>();
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.Object)>("\n*** Direct Method Access ***");
+
+        virtualinvoke $stack2.<de.fraunhofer.iem.reflection.TypicalExample: void directMethodAccess()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <de.fraunhofer.iem.reflection.TypicalExampleKt: void main()>();
+
+        return;
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "className": "de.fraunhofer.iem.reflection.TypicalExampleKt",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 2,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.reflection.TypicalExampleKt: void main()>",
+        "<de.fraunhofer.iem.reflection.TypicalExampleKt: void main(java.lang.String[])>"
+    ],
+    "methodsInformation": {
+        "void main()": {
+            "localVariables": {},
+            "stackVariables": {
+                "$stack2": "de.fraunhofer.iem.reflection.TypicalExample",
+                "$stack3": "java.io.PrintStream",
+                "$stack4": "kotlin.reflect.KClass",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "kotlin.reflect.KClass",
+                "$stack7": "java.io.PrintStream",
+                "$stack8": "java.io.PrintStream"
+            },
+            "invokeExpressions": [
+                "<de.fraunhofer.iem.reflection.TypicalExample: void <init>()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void propertyAccess(kotlin.reflect.KClass)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(kotlin.reflect.KClass)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void directPropertyAccess()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<de.fraunhofer.iem.reflection.TypicalExample: void directMethodAccess()>"
+            ]
+        },
+        "void main(java.lang.String[])": {
+            "localVariables": {"args": "java.lang.String[]"},
+            "stackVariables": {},
+            "invokeExpressions": ["<de.fraunhofer.iem.reflection.TypicalExampleKt: void main()>"]
+        }
+    }
+}

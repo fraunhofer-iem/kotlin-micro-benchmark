@@ -1,0 +1,174 @@
+public class de.fraunhofer.iem.reflection.TypicalExample extends java.lang.Object
+{
+    public static int publicField;
+
+    public void <init>()
+    {
+        de.fraunhofer.iem.reflection.TypicalExample this;
+
+        this := @this: de.fraunhofer.iem.reflection.TypicalExample;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void publicMethod()
+    {
+        java.io.PrintStream $stack0;
+
+        $stack0 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $stack0.<java.io.PrintStream: void println(java.lang.String)>("This is a method with the name publicMethod");
+
+        return;
+    }
+
+    private static void fieldAccess(java.lang.Class) throws java.lang.NoSuchMethodException, java.lang.reflect.InvocationTargetException, java.lang.InstantiationException, java.lang.IllegalAccessException
+    {
+        java.lang.Object[] $stack12;
+        java.lang.reflect.Constructor $stack11;
+        java.lang.Integer $stack16;
+        int l3, l4;
+        java.lang.String $stack9;
+        java.io.PrintStream $stack8, $stack14, $stack17;
+        java.lang.Class[] $stack10;
+        java.lang.reflect.Field field;
+        java.lang.reflect.Field[] $stack7;
+        java.lang.Class clz;
+        java.lang.Object $stack13, $stack15, $stack18;
+
+        clz := @parameter0: java.lang.Class;
+
+        $stack7 = virtualinvoke clz.<java.lang.Class: java.lang.reflect.Field[] getDeclaredFields()>();
+
+        l3 = lengthof $stack7;
+
+        l4 = 0;
+
+     label1:
+        if l4 >= l3 goto label2;
+
+        field = $stack7[l4];
+
+        $stack8 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack9 = virtualinvoke field.<java.lang.reflect.Field: java.lang.String getName()>();
+
+        virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>($stack9);
+
+        $stack10 = newarray (java.lang.Class)[0];
+
+        $stack11 = virtualinvoke clz.<java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])>($stack10);
+
+        $stack12 = newarray (java.lang.Object)[0];
+
+        $stack13 = virtualinvoke $stack11.<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>($stack12);
+
+        $stack14 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack15 = virtualinvoke field.<java.lang.reflect.Field: java.lang.Object get(java.lang.Object)>($stack13);
+
+        virtualinvoke $stack14.<java.io.PrintStream: void println(java.lang.Object)>($stack15);
+
+        $stack16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(50);
+
+        virtualinvoke field.<java.lang.reflect.Field: void set(java.lang.Object,java.lang.Object)>($stack13, $stack16);
+
+        $stack17 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack18 = virtualinvoke field.<java.lang.reflect.Field: java.lang.Object get(java.lang.Object)>($stack13);
+
+        virtualinvoke $stack17.<java.io.PrintStream: void println(java.lang.Object)>($stack18);
+
+        l4 = l4 + 1;
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    private static void methodAccess(java.lang.Class) throws java.lang.NoSuchMethodException, java.lang.reflect.InvocationTargetException, java.lang.InstantiationException, java.lang.IllegalAccessException
+    {
+        java.io.PrintStream $stack12;
+        java.lang.Object[] $stack16, $stack18;
+        java.lang.Class[] $stack14;
+        java.lang.reflect.Constructor $stack15;
+        java.lang.reflect.Method[] $stack7;
+        int l3, l4;
+        java.lang.Class clz;
+        java.lang.Object $stack17;
+        java.lang.String $stack8, $stack13;
+        java.lang.reflect.Method method;
+        boolean $stack9;
+
+        clz := @parameter0: java.lang.Class;
+
+        $stack7 = virtualinvoke clz.<java.lang.Class: java.lang.reflect.Method[] getDeclaredMethods()>();
+
+        l3 = lengthof $stack7;
+
+        l4 = 0;
+
+     label1:
+        if l4 >= l3 goto label3;
+
+        method = $stack7[l4];
+
+        $stack8 = virtualinvoke method.<java.lang.reflect.Method: java.lang.String getName()>();
+
+        $stack9 = virtualinvoke $stack8.<java.lang.String: boolean equals(java.lang.Object)>("publicMethod");
+
+        if $stack9 == 0 goto label2;
+
+        $stack12 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack13 = virtualinvoke method.<java.lang.reflect.Method: java.lang.String getName()>();
+
+        virtualinvoke $stack12.<java.io.PrintStream: void println(java.lang.String)>($stack13);
+
+        $stack14 = newarray (java.lang.Class)[0];
+
+        $stack15 = virtualinvoke clz.<java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])>($stack14);
+
+        $stack16 = newarray (java.lang.Object)[0];
+
+        $stack17 = virtualinvoke $stack15.<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>($stack16);
+
+        $stack18 = newarray (java.lang.Object)[0];
+
+        virtualinvoke method.<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>($stack17, $stack18);
+
+     label2:
+        l4 = l4 + 1;
+
+        goto label1;
+
+     label3:
+        return;
+    }
+
+    public static void main(java.lang.String[]) throws java.lang.ClassNotFoundException, java.lang.NoSuchFieldException, java.lang.NoSuchMethodException, java.lang.reflect.InvocationTargetException, java.lang.InstantiationException, java.lang.IllegalAccessException
+    {
+        java.lang.Class $stack2;
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        $stack2 = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>("de.fraunhofer.iem.reflection.TypicalExample");
+
+        staticinvoke <de.fraunhofer.iem.reflection.TypicalExample: void fieldAccess(java.lang.Class)>($stack2);
+
+        staticinvoke <de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(java.lang.Class)>($stack2);
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        <de.fraunhofer.iem.reflection.TypicalExample: int publicField> = 20;
+
+        return;
+    }
+}

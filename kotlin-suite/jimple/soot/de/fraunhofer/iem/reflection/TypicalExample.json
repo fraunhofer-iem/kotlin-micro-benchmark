@@ -1,0 +1,182 @@
+{
+    "className": "de.fraunhofer.iem.reflection.TypicalExample",
+    "superClass": "java.lang.Object",
+    "implementedInterface": [],
+    "methodCount": 8,
+    "methodsSignature": [
+        "<de.fraunhofer.iem.reflection.TypicalExample: void <init>()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: int getPublicField()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void setPublicField(int)>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void publicMethod()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void propertyAccess(kotlin.reflect.KClass)>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void directPropertyAccess()>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void methodAccess(kotlin.reflect.KClass)>",
+        "<de.fraunhofer.iem.reflection.TypicalExample: void directMethodAccess()>"
+    ],
+    "methodsInformation": {
+        "void <init>()": {
+            "localVariables": {"this": "de.fraunhofer.iem.reflection.TypicalExample"},
+            "stackVariables": {},
+            "invokeExpressions": ["<java.lang.Object: void <init>()>"]
+        },
+        "int getPublicField()": {
+            "localVariables": {"this": "de.fraunhofer.iem.reflection.TypicalExample"},
+            "stackVariables": {"$stack1": "int"},
+            "invokeExpressions": []
+        },
+        "void setPublicField(int)": {
+            "localVariables": {
+                "this": "de.fraunhofer.iem.reflection.TypicalExample",
+                "<set-?>": "int"
+            },
+            "stackVariables": {},
+            "invokeExpressions": []
+        },
+        "void publicMethod()": {
+            "localVariables": {"this": "de.fraunhofer.iem.reflection.TypicalExample"},
+            "stackVariables": {"$stack2": "java.io.PrintStream"},
+            "invokeExpressions": ["<java.io.PrintStream: void println(java.lang.Object)>"]
+        },
+        "void propertyAccess(kotlin.reflect.KClass)": {
+            "localVariables": {
+                "clz": "kotlin.reflect.KClass",
+                "property": "kotlin.reflect.KProperty1",
+                "this": "de.fraunhofer.iem.reflection.TypicalExample"
+            },
+            "stackVariables": {
+                "$stack7": "java.util.Collection",
+                "$stack8": "java.util.Iterator",
+                "$stack9": "boolean",
+                "$stack10": "java.lang.Object",
+                "$stack11": "java.lang.String",
+                "$stack12": "java.io.PrintStream",
+                "$stack13": "java.lang.Object",
+                "$stack14": "kotlin.reflect.KProperty1$Getter",
+                "$stack15": "java.lang.Object",
+                "$stack16": "java.io.PrintStream",
+                "$stack17": "boolean",
+                "$stack18": "kotlin.reflect.KProperty1$Getter",
+                "$stack19": "java.lang.Object",
+                "$stack20": "java.io.PrintStream",
+                "$stack22": "kotlin.reflect.KMutableProperty",
+                "$stack23": "kotlin.reflect.KMutableProperty$Setter",
+                "$stack25": "java.lang.Integer",
+                "$stack29": "java.lang.Object[]",
+                "l6": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.reflect.full.KClasses: java.util.Collection getMemberProperties(kotlin.reflect.KClass)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.reflect.KProperty1: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.reflect.full.KClasses: java.lang.Object createInstance(kotlin.reflect.KClass)>",
+                "<kotlin.reflect.KProperty1: kotlin.reflect.KProperty1$Getter getGetter()>",
+                "<kotlin.reflect.KProperty1$Getter: java.lang.Object call(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.reflect.KMutableProperty: kotlin.reflect.KMutableProperty$Setter getSetter()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.reflect.KMutableProperty$Setter: java.lang.Object call(java.lang.Object[])>",
+                "<kotlin.reflect.KProperty1: kotlin.reflect.KProperty1$Getter getGetter()>",
+                "<kotlin.reflect.KProperty1$Getter: java.lang.Object call(java.lang.Object[])>",
+                "<java.io.PrintStream: void println(java.lang.Object)>"
+            ]
+        },
+        "void directPropertyAccess()": {
+            "localVariables": {
+                "ob": "de.fraunhofer.iem.reflection.TypicalExample",
+                "this": "de.fraunhofer.iem.reflection.TypicalExample"
+            },
+            "stackVariables": {
+                "$stack3": "kotlin.reflect.KClass",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "de.fraunhofer.iem.reflection.TypicalExample$directPropertyAccess$2",
+                "$stack7": "kotlin.reflect.KProperty1$Getter",
+                "$stack8": "java.lang.Object",
+                "$stack9": "java.lang.Number",
+                "$stack10": "int",
+                "$stack11": "java.io.PrintStream",
+                "$stack12": "de.fraunhofer.iem.reflection.TypicalExample$directPropertyAccess$3",
+                "$stack13": "kotlin.reflect.KMutableProperty1$Setter",
+                "$stack15": "java.lang.Integer",
+                "$stack17": "de.fraunhofer.iem.reflection.TypicalExample$directPropertyAccess$4",
+                "$stack18": "kotlin.reflect.KProperty1$Getter",
+                "$stack19": "java.lang.Object",
+                "$stack20": "java.lang.Number",
+                "$stack21": "int",
+                "$stack22": "java.io.PrintStream",
+                "l2": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>",
+                "<kotlin.reflect.full.KClasses: java.lang.Object createInstance(kotlin.reflect.KClass)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.MutablePropertyReference1Impl: kotlin.reflect.KProperty1$Getter getGetter()>",
+                "<kotlin.reflect.KProperty1$Getter: java.lang.Object call(java.lang.Object[])>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>",
+                "<kotlin.jvm.internal.MutablePropertyReference1Impl: kotlin.reflect.KMutableProperty1$Setter getSetter()>",
+                "<java.lang.Integer: java.lang.Integer valueOf(int)>",
+                "<kotlin.reflect.KMutableProperty1$Setter: java.lang.Object call(java.lang.Object[])>",
+                "<kotlin.jvm.internal.MutablePropertyReference1Impl: kotlin.reflect.KProperty1$Getter getGetter()>",
+                "<kotlin.reflect.KProperty1$Getter: java.lang.Object call(java.lang.Object[])>",
+                "<java.lang.Number: int intValue()>",
+                "<java.io.PrintStream: void println(int)>"
+            ]
+        },
+        "void methodAccess(kotlin.reflect.KClass)": {
+            "localVariables": {
+                "clz": "kotlin.reflect.KClass",
+                "method": "kotlin.reflect.KFunction",
+                "this": "de.fraunhofer.iem.reflection.TypicalExample"
+            },
+            "stackVariables": {
+                "$stack7": "java.util.Collection",
+                "$stack8": "java.util.Iterator",
+                "$stack10": "java.lang.Object",
+                "$stack11": "java.lang.String",
+                "$stack12": "boolean",
+                "$stack14": "java.lang.String",
+                "$stack15": "java.io.PrintStream",
+                "$stack16": "java.lang.Object",
+                "l6": "java.lang.Object[]",
+                "$stack9": "boolean"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Intrinsics: void checkNotNullParameter(java.lang.Object,java.lang.String)>",
+                "<kotlin.reflect.full.KClasses: java.util.Collection getMemberFunctions(kotlin.reflect.KClass)>",
+                "<java.util.Collection: java.util.Iterator iterator()>",
+                "<java.util.Iterator: boolean hasNext()>",
+                "<java.util.Iterator: java.lang.Object next()>",
+                "<kotlin.reflect.KFunction: java.lang.String getName()>",
+                "<kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>",
+                "<kotlin.reflect.KFunction: java.lang.String getName()>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.reflect.full.KClasses: java.lang.Object createInstance(kotlin.reflect.KClass)>",
+                "<kotlin.reflect.KFunction: java.lang.Object call(java.lang.Object[])>"
+            ]
+        },
+        "void directMethodAccess()": {
+            "localVariables": {
+                "ob": "de.fraunhofer.iem.reflection.TypicalExample",
+                "this": "de.fraunhofer.iem.reflection.TypicalExample"
+            },
+            "stackVariables": {
+                "$stack3": "kotlin.reflect.KClass",
+                "$stack4": "java.lang.Object",
+                "$stack5": "java.io.PrintStream",
+                "$stack6": "de.fraunhofer.iem.reflection.TypicalExample$directMethodAccess$2",
+                "l2": "java.lang.Object[]"
+            },
+            "invokeExpressions": [
+                "<kotlin.jvm.internal.Reflection: kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)>",
+                "<kotlin.reflect.full.KClasses: java.lang.Object createInstance(kotlin.reflect.KClass)>",
+                "<java.io.PrintStream: void println(java.lang.Object)>",
+                "<kotlin.jvm.internal.FunctionReferenceImpl: java.lang.Object call(java.lang.Object[])>"
+            ]
+        }
+    }
+}
